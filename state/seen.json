@@ -1,5 +1,16 @@
 {
  "items": {
+  "https://github.com/amitshekhariitbhu/ai-engineering-course": {
+   "title": "amitshekhariitbhu/ai-engineering-course",
+   "date": "2026-10-05",
+   "tokens": [
+    "ai",
+    "amitshekhariitbhu",
+    "course",
+    "engineering"
+   ],
+   "source": "github"
+  },
   "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/": {
    "title": "Getting the most out of Opus 5.5 in Claude and Claude Code",
    "date": "2026-10-05",
@@ -31,6 +42,131 @@
     "universal"
    ],
    "source": "github"
+  },
+  "https://github.com/amitshekhariitbhu/ai-system-design": {
+   "title": "amitshekhariitbhu/ai-system-design",
+   "date": "2026-10-05",
+   "tokens": [
+    "ai",
+    "amitshekhariitbhu",
+    "design",
+    "system"
+   ],
+   "source": "github"
+  },
+  "https://arxiv.org/abs/2610.02267": {
+   "title": "Fast Models, Slow Evidence: A Paired and Self-Audited Evaluation of System-1 Decision Models for LLM Agent Harnesses",
+   "date": "2026-10-05",
+   "tokens": [
+    "agent",
+    "audited",
+    "decision",
+    "evaluation",
+    "evidence",
+    "fast",
+    "harnesses",
+    "llm",
+    "models",
+    "paired",
+    "self",
+    "slow",
+    "system"
+   ],
+   "source": "paper"
+  },
+  "https://arxiv.org/abs/2610.02330": {
+   "title": "Choosing Before Acting: Comparative Value Estimation for Long-Horizon Tool-Use Agents",
+   "date": "2026-10-05",
+   "tokens": [
+    "acting",
+    "agents",
+    "before",
+    "choosing",
+    "comparative",
+    "estimation",
+    "horizon",
+    "long",
+    "tool",
+    "use",
+    "value"
+   ],
+   "source": "paper"
+  },
+  "https://arxiv.org/abs/2610.02293": {
+   "title": "HakemBench: A Turkish Benchmark of Typed Decisions",
+   "date": "2026-10-05",
+   "tokens": [
+    "benchmark",
+    "decisions",
+    "hakembench",
+    "turkish",
+    "typed"
+   ],
+   "source": "paper"
+  },
+  "https://arxiv.org/abs/2610.02425": {
+   "title": "Finding the Move Is Not Winning the Game: XiangqiBench for Closed-Loop Evaluation of LLM Agents",
+   "date": "2026-10-05",
+   "tokens": [
+    "agents",
+    "closed",
+    "evaluation",
+    "finding",
+    "game",
+    "llm",
+    "loop",
+    "move",
+    "winning",
+    "xiangqibench"
+   ],
+   "source": "paper"
+  },
+  "https://arxiv.org/abs/2610.02460": {
+   "title": "CUEing User Simulators: Calibrated User Embeddings for Multi-Turn Benchmarking",
+   "date": "2026-10-05",
+   "tokens": [
+    "benchmarking",
+    "calibrated",
+    "cueing",
+    "embeddings",
+    "multi",
+    "simulators",
+    "turn",
+    "user"
+   ],
+   "source": "paper"
+  },
+  "https://arxiv.org/abs/2610.02472": {
+   "title": "APDMem: Agent-Controlled Progressive Disclosure for Query-Adaptive Long-Term Memory",
+   "date": "2026-10-05",
+   "tokens": [
+    "adaptive",
+    "agent",
+    "apdmem",
+    "controlled",
+    "disclosure",
+    "long",
+    "memory",
+    "progressive",
+    "query",
+    "term"
+   ],
+   "source": "paper"
+  },
+  "https://arxiv.org/abs/2610.02304": {
+   "title": "SimuVerity: Benchmarking Agents for Engineering-Grade Simulink Model Generation",
+   "date": "2026-10-05",
+   "tokens": [
+    "agents",
+    "benchmarking",
+    "engineering",
+    "generation",
+    "grade",
+    "model",
+    "simulink",
+    "simuverity"
+   ],
+   "source": "paper"
   },
   "https://github.com/yetone/magpie": {
    "title": "yetone/magpie",
@@ -90,51 +226,6 @@
    ],
    "source": "hackernews"
   },
-  "https://github.com/ruc-datalab/EvoOntology": {
-   "title": "ruc-datalab/EvoOntology",
-   "date": "2026-10-05",
-   "tokens": [
-    "datalab",
-    "evoontology",
-    "ruc"
-   ],
-   "source": "github"
-  },
-  "https://github.com/amitshekhariitbhu/ai-engineering-course": {
-   "title": "amitshekhariitbhu/ai-engineering-course",
-   "date": "2026-10-05",
-   "tokens": [
-    "ai",
-    "amitshekhariitbhu",
-    "course",
-    "engineering"
-   ],
-   "source": "github"
-  },
-  "https://github.com/sno-ai/sno-station": {
-   "title": "sno-ai/sno-station",
-   "date": "2026-10-05",
-   "tokens": [
-    "ai",
-    "sno",
-    "station"
-   ],
-   "source": "github"
-  },
-  "https://tej.as/blog/aleph-alpha-kolibri": {
-   "title": "Aleph Alpha Kolibri: How the sovereign German LLM works",
-   "date": "2026-10-05",
-   "tokens": [
-    "aleph",
-    "alpha",
-    "german",
-    "kolibri",
-    "llm",
-    "sovereign",
-    "works"
-   ],
-   "source": "hackernews"
-  },
   "https://liao.gg/blog/agents-dont-need-memory": {
    "title": "Agents don't need memory, they need documentation",
    "date": "2026-10-05",
@@ -148,82 +239,82 @@
    ],
    "source": "hackernews"
   },
-  "https://github.com/Jakeschincariol/replica-skill": {
-   "title": "Jakeschincariol/replica-skill",
+  "https://www.langchain.com/blog/how-to-build-a-model-router-in-the-harness": {
+   "title": "How to Build a Model Router in the Harness",
    "date": "2026-10-05",
    "tokens": [
-    "jakeschincariol",
-    "replica",
-    "skill"
-   ],
-   "source": "github"
-  },
-  "https://arxiv.org/abs/2610.02267": {
-   "title": "Fast Models, Slow Evidence: A Paired and Self-Audited Evaluation of System-1 Decision Models for LLM Agent Harnesses",
-   "date": "2026-10-05",
-   "tokens": [
-    "agent",
-    "audited",
-    "decision",
-    "evaluation",
-    "evidence",
-    "fast",
-    "harnesses",
-    "llm",
-    "models",
-    "paired",
-    "self",
-    "slow",
-    "system"
-   ],
-   "source": "paper"
-  },
-  "https://arxiv.org/abs/2610.02330": {
-   "title": "Choosing Before Acting: Comparative Value Estimation for Long-Horizon Tool-Use Agents",
-   "date": "2026-10-05",
-   "tokens": [
-    "acting",
-    "agents",
-    "before",
-    "choosing",
-    "comparative",
-    "estimation",
-    "horizon",
-    "long",
-    "tool",
-    "use",
-    "value"
-   ],
-   "source": "paper"
-  },
-  "https://huggingface.co/papers/2610.02304": {
-   "title": "SimuVerity: Benchmarking Agents for Engineering-Grade Simulink Model Generation",
-   "date": "2026-10-05",
-   "tokens": [
-    "agents",
-    "benchmarking",
-    "engineering",
-    "generation",
-    "grade",
+    "build",
+    "harness",
     "model",
-    "simulink",
-    "simuverity"
+    "router"
    ],
-   "source": "paper"
+   "source": "blog"
   },
-  "https://huggingface.co/papers/2610.00972": {
-   "title": "VeriHarness: Scaling Agentic Verification for Long-Horizon Tasks",
+  "https://www.youtube.com/watch?v=6v0Fmsi4Ldk": {
+   "title": "HTTP Channels for Managed Deep Agents",
    "date": "2026-10-05",
    "tokens": [
-    "agentic",
-    "horizon",
-    "long",
-    "scaling",
-    "tasks",
-    "verification",
-    "veriharness"
+    "agents",
+    "channels",
+    "deep",
+    "http",
+    "managed"
    ],
-   "source": "paper"
+   "source": "youtube"
+  },
+  "https://lilianweng.github.io/posts/2026-07-04-harness/": {
+   "title": "Harness Engineering for Self-Improvement",
+   "date": "2026-10-05",
+   "tokens": [
+    "engineering",
+    "harness",
+    "improvement",
+    "self"
+   ],
+   "source": "blog"
+  },
+  "https://www.anthropic.com/engineering/april-23-postmortem": {
+   "title": "An update on recent Claude Code quality reports",
+   "date": "2026-10-05",
+   "tokens": [
+    "claude",
+    "code",
+    "quality",
+    "recent",
+    "reports",
+    "update"
+   ],
+   "source": "blog"
+  },
+  "https://www.anthropic.com/engineering/claude-code-auto-mode": {
+   "title": "How we built Claude Code auto mode: a safer way to skip permissions",
+   "date": "2026-10-05",
+   "tokens": [
+    "auto",
+    "built",
+    "claude",
+    "code",
+    "mode",
+    "permissions",
+    "safer",
+    "skip",
+    "way",
+    "we"
+   ],
+   "source": "blog"
+  },
+  "https://www.anthropic.com/engineering/harness-design-long-running-apps": {
+   "title": "Harness design for long-running application development",
+   "date": "2026-10-05",
+   "tokens": [
+    "application",
+    "design",
+    "development",
+    "harness",
+    "long",
+    "running"
+   ],
+   "source": "blog"
   },
   "https://www.youtube.com/watch?v=WeiB_gLOdQE": {
    "title": "Vercel CEO reveals his Agentic Engineering Workflow",
@@ -236,6 +327,19 @@
     "reveals",
     "vercel",
     "workflow"
+   ],
+   "source": "youtube"
+  },
+  "https://www.youtube.com/watch?v=FL6mI_Br-mc": {
+   "title": "Create your own voices with Gemini 3.8 text-to-speech",
+   "date": "2026-10-05",
+   "tokens": [
+    "create",
+    "gemini",
+    "own",
+    "speech",
+    "text",
+    "voices"
    ],
    "source": "youtube"
   },
@@ -254,35 +358,6 @@
     "pretty",
     "re",
     "we"
-   ],
-   "source": "blog"
-  },
-  "https://www.marktechpost.com/2026/10/04/gpt-6-astra-vs-gpt-6-1-sol-vs-gemini-4-argon-vs-claude-fable-5-1-which-frontier-model-fits-which-job/": {
-   "title": "GPT-6 Astra vs GPT-6.1 Sol vs Gemini 4 Argon vs Claude Fable 5.1: Which Frontier Model Fits Which Job",
-   "date": "2026-10-05",
-   "tokens": [
-    "argon",
-    "astra",
-    "claude",
-    "fable",
-    "fits",
-    "frontier",
-    "gemini",
-    "gpt",
-    "job",
-    "model",
-    "sol",
-    "vs",
-    "which"
-   ],
-   "source": "blog"
-  },
-  "https://aiera.com.cn/2026/10/05/other/admin/117017/%e6%b0%b8%e5%88%ab%e4%ba%86%ef%bc%8cgpt-5-5%ef%bc%81/": {
-   "title": "永别了，GPT-5.5！",
-   "date": "2026-10-05",
-   "tokens": [
-    "gpt",
-    "永别了"
    ],
    "source": "blog"
   },
@@ -320,77 +395,7 @@
     "test"
    ],
    "source": "youtube"
-  },
-  "https://www.youtube.com/watch?v=qwnJJMNGwgY": {
-   "title": "The BEST Jev Use Cases for AI Coding (Absolute Game Changers)",
-   "date": "2026-10-05",
-   "tokens": [
-    "absolute",
-    "ai",
-    "best",
-    "cases",
-    "changers",
-    "coding",
-    "game",
-    "jev",
-    "use"
-   ],
-   "source": "youtube"
-  },
-  "https://www.youtube.com/shorts/oFPUUFLZJHQ": {
-   "title": "Your Coding Agent Wastes SO MANY Tokens Just Finding Code - Here's the Fix",
-   "date": "2026-10-05",
-   "tokens": [
-    "agent",
-    "code",
-    "coding",
-    "finding",
-    "fix",
-    "here",
-    "just",
-    "many",
-    "so",
-    "tokens",
-    "wastes"
-   ],
-   "source": "youtube"
-  },
-  "https://openai.com/index/chatham-financial": {
-   "title": "Chatham scales its capital markets expertise with OpenAI",
-   "date": "2026-10-05",
-   "tokens": [
-    "capital",
-    "chatham",
-    "expertise",
-    "markets",
-    "openai",
-    "scales"
-   ],
-   "source": "blog"
-  },
-  "https://www.langchain.com/blog/how-to-build-a-model-router-in-the-harness": {
-   "title": "How to Build a Model Router in the Harness",
-   "date": "2026-10-05",
-   "tokens": [
-    "build",
-    "harness",
-    "model",
-    "router"
-   ],
-   "source": "blog"
-  },
-  "https://www.latent.space/p/ainews-pi-10-pi-durable-and-aie-nyc": {
-   "title": "[AINews] Pi 1.0, Pi Durable, and AIE NYC",
-   "date": "2026-10-05",
-   "tokens": [
-    "aie",
-    "ainews",
-    "durable",
-    "nyc",
-    "pi"
-   ],
-   "source": "blog"
   }
  },
- "updated": "2026-10-05T10:13:13.836616+00:00"
+ "updated": "2026-10-05T10:44:11.807049+00:00"
 }

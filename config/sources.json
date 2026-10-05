@@ -57,7 +57,7 @@
       { "name": "HuggingFace 博客",       "url": "https://huggingface.co/blog/feed.xml" },
       { "name": "LangChain 博客",         "url": "https://blog.langchain.com/rss.xml" },
       { "name": "Simon Willison",         "url": "https://simonwillison.net/atom/everything/" },
-      { "name": "Lilian Weng",           "url": "https://lilianweng.github.io/index.xml" },
+      { "name": "Lilian Weng",           "url": "https://lilianweng.github.io/index.xml", "weight": 1.5, "max_age_days": 150 },
       { "name": "The Gradient",          "url": "https://thegradient.pub/rss/" },
       { "name": "Interconnects (Nathan Lambert)", "url": "https://www.interconnects.ai/feed" },
       { "name": "Import AI (Jack Clark)", "url": "https://importai.substack.com/feed" },
@@ -76,11 +76,15 @@
     ]
   },
 
-  "anthropic_scrape": {
+  "scrape": {
     "enabled": true,
-    "max_age_days": 21,
-    "url": "https://www.anthropic.com/news",
-    "base": "https://www.anthropic.com"
+    "_comment": "这些官方页没有 RSS，直接抓 HTML。weight 用于给重点页单独加权。",
+    "pages": [
+      { "name": "Anthropic 官方 news",  "url": "https://www.anthropic.com/news",
+        "max_age_days": 21,  "max_items": 8, "weight": 1.0 },
+      { "name": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering",
+        "max_age_days": 400, "max_items": 5, "weight": 1.5 }
+    ]
   },
 
   "papers": {
@@ -88,9 +92,11 @@
     "hf_daily_papers": true,
     "max_items": 12,
     "arxiv_rss": [
-      { "name": "arXiv cs.AI", "url": "http://export.arxiv.org/rss/cs.AI" }
+      { "name": "arXiv cs.AI", "url": "http://export.arxiv.org/rss/cs.AI", "weight": 1.6 },
+      { "name": "arXiv cs.CL", "url": "http://export.arxiv.org/rss/cs.CL", "weight": 1.6 },
+      { "name": "arXiv cs.SE", "url": "http://export.arxiv.org/rss/cs.SE", "weight": 1.6 }
     ],
-    "arxiv_per_feed": 5
+    "arxiv_per_feed": 6
   },
 
   "hackernews": {
@@ -130,6 +136,11 @@
       "computer use", "browser use", "sandbox", "eval", "benchmark"
     ],
     "hot_boost": 1.35,
+    "interview_keywords": [
+      "system design", "how to build", "from scratch", "internals",
+      "implementation", "deep dive", "design a"
+    ],
+    "interview_boost": 1.5,
     "recency_factor": { "1": 1.0, "3": 0.95, "7": 0.9, "30": 0.85, "9999": 0.6 }
   },
 
@@ -141,7 +152,7 @@
       "github": 8,
       "youtube": 6,
       "blog": 6,
-      "paper": 4,
+      "paper": 6,
       "hackernews": 4
     },
     "keep_state_days": 120,

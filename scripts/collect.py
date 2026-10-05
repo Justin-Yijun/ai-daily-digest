@@ -433,21 +433,24 @@ def collect_feeds(cfg, now):
 
     def one(f):
         raw = http_get(f["url"])
+        # 允许单个源覆盖全局时效（低频但高价值的博客，如 Lilian Weng）
+        max_age = int(f.get("max_age_days", cfg.get("max_age_days", 14)))
         items = []
         for it in parse_feed(raw, default_link=f["url"])[: per_feed * 3]:
             if it["dt"] and (now - it["dt"]).days > max_age:
                 continue
-            items.append(
-                {
-                    "source": "blog",
-                    "source_label": f["name"],
-                    "title": it["title"],
-                    "link": it["link"],
-                    "dt": it["dt"],
-                    "summary": it["summary"],
-                    "extra": {},
-                }
-            )
+            item = {
+                "source": "blog",
+                "source_label": f["name"],
+                "title": it["title"],
+                "link": it["link"],
+                "dt": it["dt"],
+                "summary": it["summary"],
+                "extra": {},
+            }
+            if f.get("weight"):
+                item["weight_override"] = float(f["weight"])
+            items.append(item)
             if len(items) >= per_feed:
                 break
         return items
@@ -460,46 +463,62 @@ def collect_feeds(cfg, now):
     return out
 
 
-def collect_anthropic(cfg, now):
+def collect_scrape(cfg, now):
+    """抓取没有 RSS 的官方页面（如 Anthropic news / engineering）。"""
     if not cfg.get("enabled"):
         return []
-    log("[anthropic] 抓取官方 news 页 …")
-    raw = http_get(cfg["url"])
-    if not raw:
-        return []
-    text = raw.decode("utf-8", "replace")
-    max_age = int(cfg.get("max_age_days", 21))
-    base = cfg.get("base", "https://www.anthropic.com").rstrip("/")
-    out, seen = [], set()
-    for m in re.finditer(r'href="(/news/[a-z0-9][a-z0-9\-]{3,})"', text):
-        path = m.group(1)
-        if path in seen:
+    log("[scrape] 抓取无 RSS 的官方页面 …")
+    out = []
+    for page in cfg.get("pages", []):
+        raw = http_get(page["url"])
+        if not raw:
             continue
-        seen.add(path)
-        # 从周边 HTML 里抠标题和时间
-        chunk = text[m.start() : m.start() + 3000]
-        t = re.search(r'<h[23][^>]*>(.*?)</h[23]>', chunk, re.S)
-        title = strip_tags(t.group(1)) if t else ""
-        if not title or len(title) < 8:
-            title = path.rsplit("/", 1)[-1].replace("-", " ").title()
-        d = re.search(r'(\w{3,9}\s+\d{1,2},\s+\d{4})', chunk)
-        dt = parse_dt(d.group(1)) if d else None
-        if dt and (now - dt).days > max_age:
-            continue
-        out.append(
-            {
+        text = raw.decode("utf-8", "replace")
+        max_age = int(page.get("max_age_days", 30))
+        max_items = int(page.get("max_items", 8))
+        weight = page.get("weight")
+        parsed = urllib.parse.urlparse(page["url"])
+        base = f"{parsed.scheme}://{parsed.netloc}"
+        prefix = parsed.path.rstrip("/")
+        pat = re.compile(
+            r'href="(' + re.escape(prefix) + r'/[a-z0-9][a-z0-9\-]{3,})"'
+        )
+        seen, n = set(), 0
+        for m in pat.finditer(text):
+            path = m.group(1)
+            if path in seen:
+                continue
+            seen.add(path)
+            # 从周边 HTML 里抠标题和日期
+            chunk = text[m.start() : m.start() + 3000]
+            t = re.search(r"<h[23][^>]*>(.*?)</h[23]>", chunk, re.S)
+            title = strip_tags(t.group(1)) if t else ""
+            if not title or len(title) < 8:
+                title = path.rsplit("/", 1)[-1].replace("-", " ").title()
+            dm = re.search(r'<time[^>]*dateTime="([^"]+)"', chunk)
+            d = dm.group(1) if dm else None
+            if not d:
+                dt_m = re.search(r"(\w{3,9}\s+\d{1,2},\s+\d{4})", chunk)
+                d = dt_m.group(1) if dt_m else None
+            dt = parse_dt(d) if d else None
+            if dt and (now - dt).days > max_age:
+                continue
+            item = {
                 "source": "blog",
-                "source_label": "Anthropic 官方",
+                "source_label": page["name"],
                 "title": title,
                 "link": base + path,
                 "dt": dt,
                 "summary": "",
                 "extra": {},
             }
-        )
-        if len(out) >= 8:
-            break
-    log(f"[anthropic] 命中 {len(out)} 篇")
+            if weight:
+                item["weight_override"] = float(weight)
+            out.append(item)
+            n += 1
+            if n >= max_items:
+                break
+        log(f"[scrape] {page['name']} 命中 {n} 篇")
     return out
 
 
@@ -541,21 +560,24 @@ def collect_papers(cfg, now):
     per_feed = int(cfg.get("arxiv_per_feed", 5))
     for f in cfg.get("arxiv_rss", []):
         raw = http_get(f["url"])
+        n = 0
         for it in parse_feed(raw, default_link="https://arxiv.org")[: per_feed * 2]:
             if it["dt"] and (now - it["dt"]).days > 3:
                 continue
-            out.append(
-                {
-                    "source": "paper",
-                    "source_label": f["name"],
-                    "title": it["title"],
-                    "link": it["link"],
-                    "dt": it["dt"],
-                    "summary": it["summary"][:500],
-                    "extra": {},
-                }
-            )
-            if len([o for o in out if o["source_label"] == f["name"]]) >= per_feed:
+            item = {
+                "source": "paper",
+                "source_label": f["name"],
+                "title": it["title"],
+                "link": it["link"],
+                "dt": it["dt"],
+                "summary": it["summary"][:500],
+                "extra": {},
+            }
+            if f.get("weight"):
+                item["weight_override"] = float(f["weight"])
+            out.append(item)
+            n += 1
+            if n >= per_feed:
                 break
     log(f"[papers] 命中 {len(out)} 篇")
     return out
@@ -638,7 +660,7 @@ def jaccard(a, b):
 
 
 def score_item(item, scoring, now):
-    w = scoring["source_weight"].get(item["source"], 0.7)
+    w = item.get("weight_override") or scoring["source_weight"].get(item["source"], 0.7)
     days = (now - item["dt"]).days if item["dt"] else 99
     rf = 0.5
     for k in sorted(scoring["recency_factor"], key=int):
@@ -648,7 +670,10 @@ def score_item(item, scoring, now):
     boost = 1.0
     hay = (item["title"] + " " + item["summary"]).lower()
     if any(k.lower() in hay for k in scoring["hot_keywords"]):
-        boost = float(scoring["hot_boost"])
+        boost *= float(scoring["hot_boost"])
+    # 面试硬通货：系统设计 / 从零实现 / 深入原理类内容单独加权
+    if any(k.lower() in hay for k in scoring.get("interview_keywords", [])):
+        boost *= float(scoring.get("interview_boost", 1.0))
     base = 1.0
     ex = item.get("extra", {})
     if item["source"] == "github":
@@ -1059,7 +1084,7 @@ def main():
         (collect_github, cfg.get("github", {})),
         (collect_youtube, cfg.get("youtube", {})),
         (collect_feeds, cfg.get("feeds", {})),
-        (collect_anthropic, cfg.get("anthropic_scrape", {})),
+        (collect_scrape, cfg.get("scrape", {})),
         (collect_papers, cfg.get("papers", {})),
         (collect_hn, cfg.get("hackernews", {})),
     ):
@@ -1072,9 +1097,8 @@ def main():
         SOURCE_COUNT[it["source"]] = SOURCE_COUNT.get(it["source"], 0) + 1
     log(f"[stat] 各源命中：{SOURCE_COUNT}")
 
-    # 去掉没有链接的、时间太旧的
+    # 去掉没有链接的（各采集器已按自己的时效窗口过滤，这里不再重复砍一刀）
     items = [i for i in items if i.get("link")]
-    items = [i for i in items if not i["dt"] or (now - i["dt"]).days <= 30]
     # 相关性过滤
     kws = cfg["relevance"]["keywords"]
     before = len(items)
