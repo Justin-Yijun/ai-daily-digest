@@ -42,8 +42,8 @@ jobs:
 
       - name: Build site
         env:
-          # 换成 Cloudflare Pages 的实际地址后同步改这里
-          SITE_URL: ${{ vars.SITE_URL || 'https://ai-daily-digest.pages.dev' }}
+          # 对外地址（Cloudflare Pages 自定义域名）；换域名改这里或设仓库变量
+          SITE_URL: ${{ vars.SITE_URL || 'https://aivulcan.de5.net' }}
         run: python scripts/build_site.py
 
       - name: Commit and push
