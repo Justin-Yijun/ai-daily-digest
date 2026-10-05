@@ -91,16 +91,51 @@ body::before{
 }
 .wrap{position:relative;z-index:1;max-width:840px;margin:0 auto;padding:34px 18px 80px}
 header.site{padding:6px 0 20px;margin-bottom:28px;border-bottom:1px solid var(--line)}
-.kicker{
-  margin:0 0 10px;font:600 .72rem/1 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
-  letter-spacing:.22em;color:var(--cyan);text-transform:uppercase;opacity:.9;
+.brand{display:flex;align-items:center;gap:14px}
+.logo{
+  position:relative;flex:none;width:40px;height:40px;border-radius:12px;
+  background:linear-gradient(135deg,rgba(34,211,238,.16),rgba(167,139,250,.16));
+  border:1px solid var(--line-strong);
+  animation:pulse 3.8s ease-in-out infinite;
 }
-header.site h1{margin:0 0 10px;font-size:1.72rem;font-weight:800;letter-spacing:-.01em;line-height:1.2}
+.logo::before{
+  content:"";position:absolute;inset:11px;border-radius:3px;
+  background:linear-gradient(135deg,var(--cyan),var(--violet));
+  transform:rotate(45deg);
+}
+.logo::after{
+  content:"";position:absolute;left:50%;top:50%;width:5px;height:5px;
+  margin:-2.5px 0 0 -2.5px;border-radius:50%;background:var(--bg);
+}
+@keyframes pulse{
+  0%,100%{box-shadow:0 0 14px rgba(34,211,238,.18),inset 0 0 12px rgba(34,211,238,.06)}
+  50%{box-shadow:0 0 26px rgba(34,211,238,.40),inset 0 0 16px rgba(34,211,238,.14)}
+}
+@media (prefers-reduced-motion:reduce){.logo{animation:none}}
+.titles{min-width:0}
+.titles .en{
+  margin:0 0 4px;font:600 .68rem/1 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  letter-spacing:.24em;color:var(--cyan);text-transform:uppercase;opacity:.9;
+}
+header.site h1{margin:0;font-size:1.66rem;font-weight:800;letter-spacing:-.01em;line-height:1.15}
 header.site h1 a{
   background:linear-gradient(94deg,var(--cyan),#60a5fa 42%,var(--violet));
   -webkit-background-clip:text;background-clip:text;color:transparent;text-decoration:none;
 }
-header.site .desc{margin:0;color:var(--muted);font-size:.9rem;max-width:62ch}
+.stats{
+  display:flex;flex-wrap:wrap;gap:9px;margin:16px 0 0;
+  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.78rem;
+}
+.stats span{
+  padding:3px 11px;border-radius:9px;color:var(--muted);
+  border:1px solid var(--line);background:var(--tag);white-space:nowrap;
+}
+.stats b{
+  font-weight:700;
+  background:linear-gradient(var(--cyan),var(--violet));
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+header.site .desc{margin:14px 0 0;color:var(--muted);font-size:.9rem;max-width:62ch}
 header.site nav{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
 header.site nav a{
   padding:4px 13px;border-radius:999px;font-size:.84rem;color:var(--muted);
@@ -209,7 +244,10 @@ code{
 .pager{display:flex;justify-content:space-between;font-size:.9rem;margin:28px 0}
 @media(max-width:560px){
   .wrap{padding:24px 15px 64px}
-  header.site h1{font-size:1.4rem}
+  header.site h1{font-size:1.36rem}
+  .logo{width:34px;height:34px;border-radius:10px}
+  .logo::before{inset:9px}
+  .titles .en{font-size:.62rem;letter-spacing:.18em}
   h1{font-size:1.3rem}
   .pick,.item{padding:13px 14px}
   .pick{padding-left:17px}
@@ -314,7 +352,7 @@ def item_html(it, idx=None, cls="item"):
     return "\n".join(parts)
 
 
-def page(title, body, desc="", canonical="", rel_root="", extra_head=""):
+def page(title, body, desc="", canonical="", rel_root="", extra_head="", stats=""):
     return f"""<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -328,10 +366,15 @@ def page(title, body, desc="", canonical="", rel_root="", extra_head=""):
 <body>
 <div class="wrap">
 <header class="site">
-<p class="kicker">// AI FRONTIER DIGEST</p>
+<div class="brand">
+<span class="logo" aria-hidden="true"></span>
+<div class="titles">
+<p class="en">AI Frontier Digest</p>
 <h1><a href="{rel_root}">{esc(SITE_TITLE)}</a></h1>
+</div>
+</div>
 <p class="desc">{esc(SITE_DESC)}</p>
-<nav><a href="{rel_root}">最新</a><a href="{rel_root}archive">归档</a><a href="{rel_root}feed.xml">RSS</a><a href="{rel_root}about">关于</a></nav>
+{stats}<nav><a href="{rel_root}">最新</a><a href="{rel_root}archive">归档</a><a href="{rel_root}feed.xml">RSS</a><a href="{rel_root}about">关于</a></nav>
 </header>
 {body}
 <footer>
@@ -343,12 +386,28 @@ def page(title, body, desc="", canonical="", rel_root="", extra_head=""):
 """
 
 
-def render_digest(d, rel_root="", canonical="", week=""):
+def stats_bar(*pairs):
+    """数据条：stats_bar(('今日', 14, '条'), ('源', 5, '个'))"""
+    if not pairs:
+        return ""
+    inner = "".join(
+        f"<span>{esc(label)} <b>{esc(str(val))}</b> {esc(unit)}</span>"
+        for label, val, unit in pairs
+    )
+    return f'<div class="stats">{inner}</div>'
+
+
+def render_digest(d, rel_root="", canonical="", week="", total_days=0):
     items = d.get("items") or []
     dups = d.get("dups") or []
     cnt = d.get("source_count") or {}
     fails = d.get("failures") or {}
 
+    stats = stats_bar(
+        ("今日", len(items) + len(dups), "条"),
+        ("源", len(cnt), "个"),
+        ("累计", total_days, "期"),
+    )
     body = [f'<h1>{esc(d.get("date"))} 日报</h1>']
     meta = f'生成时间 {esc(d.get("generated"))} (CST) ｜ 共 {len(items) + len(dups)} 条'
     if dups:
@@ -402,10 +461,11 @@ def render_digest(d, rel_root="", canonical="", week=""):
         desc=f'{d.get("date")} AI / LLM / Agent 前沿日报',
         canonical=canonical,
         rel_root=rel_root,
+        stats=stats,
     )
 
 
-def render_weekly(w, rel_root=""):
+def render_weekly(w, rel_root="", total_days=0):
     items = w.get("items") or []
     body = [f'<h1>本周精选 · {esc(w.get("week"))}</h1>']
     body.append(
@@ -419,6 +479,10 @@ def render_weekly(w, rel_root=""):
         "\n".join(body),
         desc=f'{w.get("start")} ~ {w.get("end")} AI / LLM / Agent 本周精选',
         rel_root=rel_root,
+        stats=stats_bar(
+            ("本期", len(items), "条"),
+            ("累计", total_days, "期"),
+        ),
     )
 
 
@@ -448,7 +512,17 @@ def render_archive(all_d, all_w):
                 f'<span class="cnt">{n} 条 · {esc((top or "")[:46])}</span></li>'
             )
         body.append("</ul></div>")
-    return page("历史归档 · " + SITE_TITLE, "\n".join(body), desc="历史归档")
+    total_items = sum(len(d.get("items") or []) for d in all_d)
+    return page(
+        "历史归档 · " + SITE_TITLE,
+        "\n".join(body),
+        desc="历史归档",
+        stats=stats_bar(
+            ("累计", len(all_d), "期"),
+            ("条目", total_items, "条"),
+            ("周报", len(all_w), "期"),
+        ),
+    )
 
 
 def render_about(all_d, all_w):
@@ -536,7 +610,9 @@ def main():
         if wk not in have_w:
             wk = ""  # 没有对应的周报页就不放链接，避免死链
         (SITE_DIR / "d" / f"{date_s}.html").write_text(
-            render_digest(d, rel_root="../", canonical=canonical, week=wk),
+            render_digest(
+                d, rel_root="../", canonical=canonical, week=wk, total_days=len(all_d)
+            ),
             encoding="utf-8",
         )
 
@@ -544,7 +620,7 @@ def main():
     if latest_wk not in have_w:
         latest_wk = ""
     (SITE_DIR / "index.html").write_text(
-        render_digest(all_d[0], rel_root="", week=latest_wk),
+        render_digest(all_d[0], rel_root="", week=latest_wk, total_days=len(all_d)),
         encoding="utf-8",
     )
 
@@ -552,7 +628,8 @@ def main():
         (SITE_DIR / "w").mkdir(parents=True, exist_ok=True)
         for w in all_w:
             (SITE_DIR / "w" / f"{w.get('week')}.html").write_text(
-                render_weekly(w, rel_root="../"), encoding="utf-8"
+                render_weekly(w, rel_root="../", total_days=len(all_w)),
+                encoding="utf-8",
             )
 
     (SITE_DIR / "archive.html").write_text(render_archive(all_d, all_w), encoding="utf-8")
