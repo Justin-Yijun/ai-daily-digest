@@ -1075,6 +1075,10 @@ def update_readme(digest_dir, now):
         latest = files[0]
         lines.append(f"👉 **[{latest.stem}](digest/{latest.name})**")
         lines.append("")
+        weekly = sorted((ROOT / "weekly").glob("*.md"), reverse=True) if (ROOT / "weekly").exists() else []
+        if weekly:
+            lines.append(f"📌 本周精选：**[{weekly[0].stem}](weekly/{weekly[0].name})**")
+            lines.append("")
         lines.append("## 历史归档")
         lines.append("")
         for f in files:

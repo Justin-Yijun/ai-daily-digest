@@ -144,15 +144,16 @@
   },
 
   "output": {
-    "max_items": 30,
-    "top_picks": 6,
-    "max_dups": 10,
+    "max_items": 14,
+    "top_picks": 5,
+    "max_dups": 6,
+    "weekly_top": 12,
     "source_quota": {
-      "github": 8,
-      "youtube": 6,
-      "blog": 6,
-      "paper": 6,
-      "hackernews": 4
+      "github": 4,
+      "youtube": 3,
+      "blog": 3,
+      "paper": 2,
+      "hackernews": 2
     },
     "keep_state_days": 120,
     "similarity_threshold": 0.6

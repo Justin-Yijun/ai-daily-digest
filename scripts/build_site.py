@@ -24,6 +24,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DIGEST_DIR = ROOT / "digest"
+WEEKLY_DIR = ROOT / "weekly"
 SITE_DIR = ROOT / "site"
 
 CST = timezone(timedelta(hours=8))
@@ -113,6 +114,27 @@ def load_all():
     return out
 
 
+def load_weeklies():
+    out = []
+    if not WEEKLY_DIR.exists():
+        return out
+    for p in sorted(WEEKLY_DIR.glob("*.json"), reverse=True):
+        try:
+            out.append(json.loads(p.read_text(encoding="utf-8")))
+        except Exception as e:  # noqa: BLE001
+            print(f"[warn] 读取失败 {p.name}: {e}")
+    return out
+
+
+def week_of(date_s):
+    """由日期字符串推出 ISO 周号，用于互链。"""
+    dt = parse_dt(date_s)
+    if not dt:
+        return ""
+    y, w, _ = dt.astimezone(CST).isocalendar()
+    return f"{y}-W{w:02d}"
+
+
 def badges(it):
     ex = it.get("extra") or {}
     src = it.get("source")
@@ -192,7 +214,7 @@ def page(title, body, desc="", canonical="", rel_root="", extra_head=""):
 """
 
 
-def render_digest(d, rel_root="", canonical=""):
+def render_digest(d, rel_root="", canonical="", week=""):
     items = d.get("items") or []
     dups = d.get("dups") or []
     cnt = d.get("source_count") or {}
@@ -202,6 +224,8 @@ def render_digest(d, rel_root="", canonical=""):
     meta = f'生成时间 {esc(d.get("generated"))} (CST) ｜ 共 {len(items) + len(dups)} 条'
     if dups:
         meta += f'（新增 {len(items)} · 重复/相似 {len(dups)}）'
+    if week:
+        meta += f'　｜　<a href="{rel_root}w/{esc(week)}.html">本周精选 →</a>'
     body.append(f'<p class="meta">{meta}</p>')
     if cnt:
         body.append(
@@ -252,8 +276,36 @@ def render_digest(d, rel_root="", canonical=""):
     )
 
 
-def render_archive(all_d):
+def render_weekly(w, rel_root=""):
+    items = w.get("items") or []
+    body = [f'<h1>本周精选 · {esc(w.get("week"))}</h1>']
+    body.append(
+        f'<p class="meta">覆盖 {esc(w.get("start"))} ~ {esc(w.get("end"))}'
+        f'　｜　共 {len(items)} 条　｜　生成 {esc(w.get("generated"))} (CST)</p>'
+    )
+    for i, it in enumerate(items, 1):
+        body.append(item_html(it, idx=i, cls="pick"))
+    return page(
+        f'本周精选 {w.get("week")} · ' + SITE_TITLE,
+        "\n".join(body),
+        desc=f'{w.get("start")} ~ {w.get("end")} AI / LLM / Agent 本周精选',
+        rel_root=rel_root,
+    )
+
+
+def render_archive(all_d, all_w):
     body = ["<h1>历史归档</h1>"]
+    if all_w:
+        body.append('<div class="months"><h3>📌 周报</h3><ul class="archive-list">')
+        for w in all_w:
+            n = len(w.get("items") or [])
+            top = (w.get("items") or [{}])[0].get("title") if w.get("items") else ""
+            body.append(
+                f'<li><a href="w/{esc(w.get("week"))}.html">'
+                f'{esc(w.get("start"))} ~ {esc(w.get("end"))}</a>'
+                f'<span class="cnt">{n} 条 · {esc((top or "")[:46])}</span></li>'
+            )
+        body.append("</ul></div>")
     months = {}
     for d in all_d:
         months.setdefault((d.get("date") or "")[:7], []).append(d)
@@ -270,7 +322,7 @@ def render_archive(all_d):
     return page("历史归档 · " + SITE_TITLE, "\n".join(body), desc="历史归档")
 
 
-def render_about(all_d):
+def render_about(all_d, all_w):
     body = [
         "<h1>关于</h1>",
         f"<p>{esc(SITE_DESC)}</p>",
@@ -294,7 +346,7 @@ def render_about(all_d):
         f'target="_blank" rel="noopener">GitHub 仓库</a>。</p>',
     ]
     if all_d:
-        body.append(f"<p>已累计 {len(all_d)} 期。</p>")
+        body.append(f"<p>已累计 {len(all_d)} 期日报" + (f"、{len(all_w)} 期周报" if all_w else "") + "。</p>")
     return page("关于 · " + SITE_TITLE, "\n".join(body), desc="关于 " + SITE_TITLE)
 
 
@@ -338,7 +390,9 @@ def render_feed(all_d):
 
 def main():
     all_d = load_all()
-    print(f"[site] 读到 {len(all_d)} 期日报")
+    all_w = load_weeklies()
+    have_w = {w.get("week") for w in all_w}
+    print(f"[site] 读到 {len(all_d)} 期日报、{len(all_w)} 期周报")
     if not all_d:
         print("[site] 没有 digest/*.json，先跑 collect.py")
         return
@@ -349,21 +403,38 @@ def main():
     for i, d in enumerate(all_d):
         date_s = d.get("date") or f"unknown-{i}"
         canonical = f"{SITE_URL}/d/{date_s}.html"
+        wk = week_of(date_s)
+        if wk not in have_w:
+            wk = ""  # 没有对应的周报页就不放链接，避免死链
         (SITE_DIR / "d" / f"{date_s}.html").write_text(
-            render_digest(d, rel_root="../", canonical=canonical), encoding="utf-8"
+            render_digest(d, rel_root="../", canonical=canonical, week=wk),
+            encoding="utf-8",
         )
 
+    latest_wk = week_of(all_d[0].get("date") or "")
+    if latest_wk not in have_w:
+        latest_wk = ""
     (SITE_DIR / "index.html").write_text(
-        render_digest(all_d[0], rel_root=""), encoding="utf-8"
+        render_digest(all_d[0], rel_root="", week=latest_wk),
+        encoding="utf-8",
     )
-    (SITE_DIR / "archive.html").write_text(render_archive(all_d), encoding="utf-8")
-    (SITE_DIR / "about.html").write_text(render_about(all_d), encoding="utf-8")
+
+    if all_w:
+        (SITE_DIR / "w").mkdir(parents=True, exist_ok=True)
+        for w in all_w:
+            (SITE_DIR / "w" / f"{w.get('week')}.html").write_text(
+                render_weekly(w, rel_root="../"), encoding="utf-8"
+            )
+
+    (SITE_DIR / "archive.html").write_text(render_archive(all_d, all_w), encoding="utf-8")
+    (SITE_DIR / "about.html").write_text(render_about(all_d, all_w), encoding="utf-8")
     (SITE_DIR / "feed.xml").write_text(render_feed(all_d), encoding="utf-8")
     (SITE_DIR / "robots.txt").write_text(
         f"User-agent: *\nAllow: /\nSitemap: {SITE_URL}/sitemap.xml\n", encoding="utf-8"
     )
     urls = [f"{SITE_URL}/", f"{SITE_URL}/archive.html", f"{SITE_URL}/about.html"]
     urls += [f"{SITE_URL}/d/{d.get('date')}.html" for d in all_d]
+    urls += [f"{SITE_URL}/w/{w.get('week')}.html" for w in all_w]
     (SITE_DIR / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
@@ -371,7 +442,11 @@ def main():
         + "\n</urlset>\n",
         encoding="utf-8",
     )
-    print(f"[site] 已生成 {SITE_DIR}（首页 + {len(all_d)} 期 + 归档 + RSS + sitemap）")
+    print(
+        f"[site] 已生成 {SITE_DIR}（首页 + {len(all_d)} 期日报"
+        + (f" + {len(all_w)} 期周报" if all_w else "")
+        + " + 归档 + RSS + sitemap）"
+    )
 
 
 if __name__ == "__main__":
