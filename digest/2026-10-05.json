@@ -1,0 +1,793 @@
+{
+ "date": "2026-10-05",
+ "generated": "2026-10-05 20:39",
+ "source_count": {
+  "github": 60,
+  "youtube": 38,
+  "blog": 88,
+  "paper": 24,
+  "hackernews": 10
+ },
+ "failures": {},
+ "items": [
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Getting the most out of Opus 5.5 in Claude and Claude Code",
+   "link": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/",
+   "dt": "2026-10-03T18:29:30+00:00",
+   "summary": "",
+   "extra": {
+    "points": 235,
+    "comments": 157,
+    "hn_link": "https://news.ycombinator.com/item?id=49946567"
+   },
+   "score": 4.551,
+   "tokens": [
+    "claude",
+    "code",
+    "getting",
+    "opus"
+   ],
+   "flag": "new",
+   "summary_zh": "介绍如何在 Claude 和 Claude Code 中充分利用 Opus 5.5 模型的性能。",
+   "why_zh": "对使用 Claude Code 的工程师提升模型调用效率有参考价值。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Louis-CFM/coucou",
+   "link": "https://github.com/Louis-CFM/coucou",
+   "dt": "2026-09-27T21:54:12+00:00",
+   "summary": "A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows, Linux) and keeps an eye on your coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more.",
+   "extra": {
+    "stars": 3589,
+    "language": "Swift",
+    "topics": [
+     "ai-agents",
+     "anthropic",
+     "antigravity",
+     "claude",
+     "claude-code",
+     "codex"
+    ],
+    "created": "2026-09-27",
+    "pushed": "2026-10-05"
+   },
+   "score": 4.374,
+   "tokens": [
+    "cfm",
+    "coucou",
+    "louis"
+   ],
+   "flag": "new",
+   "summary_zh": "提供一个居住在 macOS 钉子或屏幕顶部的小伙伴，实时监控多种编码代理的状态。",
+   "why_zh": "让开发者一眼看到各 AI 代理的运行情况，便于调试和监控。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "rehan-remade/universal-modder",
+   "link": "https://github.com/rehan-remade/universal-modder",
+   "dt": "2026-09-30T05:00:35+00:00",
+   "summary": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
+   "extra": {
+    "stars": 3546,
+    "language": "Python",
+    "topics": [
+     "age-of-empires",
+     "claude-code",
+     "claude-code-plugin",
+     "fal",
+     "game-assets",
+     "game-modding"
+    ],
+    "created": "2026-09-30",
+    "pushed": "2026-10-05"
+   },
+   "score": 4.374,
+   "tokens": [
+    "modder",
+    "rehan",
+    "remade",
+    "universal"
+   ],
+   "flag": "new",
+   "summary_zh": "使 Claude Code 能够通过逆向工程、生成艺术等技能对任意 PC 游戏进行 MOD 改造。",
+   "why_zh": "为游戏 MOD 开发提供 AI 自动化工具链，降低逆向和内容创作门槛。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "yetone/magpie",
+   "link": "https://github.com/yetone/magpie",
+   "dt": "2026-09-23T16:22:35+00:00",
+   "summary": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+   "extra": {
+    "stars": 5028,
+    "language": "Go",
+    "topics": [
+     "claude-code",
+     "codex",
+     "deepseek",
+     "gemini-cli",
+     "llm",
+     "macos"
+    ],
+    "created": "2026-09-23",
+    "pushed": "2026-10-05"
+   },
+   "score": 4.131,
+   "tokens": [
+    "magpie",
+    "yetone"
+   ],
+   "flag": "new",
+   "summary_zh": "在菜单栏统一管理多种模型，支持 Codex 使用 DeepSeek、Claude Code 使用 Kimi 等配置。",
+   "why_zh": "简化多模型切换，提升 AI 编码工作流的便利性。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "youngyangyang04/llm-master",
+   "link": "https://github.com/youngyangyang04/llm-master",
+   "dt": "2026-09-12T07:33:31+00:00",
+   "summary": "大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。",
+   "extra": {
+    "stars": 1084,
+    "language": "",
+    "topics": [
+     "agent",
+     "large-language-models",
+     "llm",
+     "llm-learning",
+     "llm-tutorial",
+     "rag"
+    ],
+    "created": "2026-09-12",
+    "pushed": "2026-10-05"
+   },
+   "score": 4.131,
+   "tokens": [
+    "llm",
+    "master",
+    "youngyangyang04"
+   ],
+   "flag": "new",
+   "summary_zh": "提供完整的 LLM 全栈中文学习路线，涵盖提示工程、RAG、Agent 等核心技术。",
+   "why_zh": "对希望系统掌握 LLM 工程的开发者是一份实用指南。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "zai-org/ZCode",
+   "link": "https://github.com/zai-org/ZCode",
+   "dt": "2026-09-20T12:01:16+00:00",
+   "summary": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+   "extra": {
+    "stars": 7422,
+    "language": "TypeScript",
+    "topics": [],
+    "created": "2026-09-20",
+    "pushed": "2026-09-29"
+   },
+   "score": 4.131,
+   "tokens": [
+    "org",
+    "zai",
+    "zcode"
+   ],
+   "flag": "new",
+   "summary_zh": "Z.ai 提供的强大、可扩展的编码代理框架，支持智能代码生成与任务自动化。",
+   "why_zh": "为构建自定义 AI 编码助手提供模块化基础，提升开发效率。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "undefined-ui/second-brain-os",
+   "link": "https://github.com/undefined-ui/second-brain-os",
+   "dt": "2026-09-07T15:08:13+00:00",
+   "summary": "An AI second brain that maintains itself. Full guide, starter vault, agent skills and scripts for a self-organizing knowledge base in Claude Code and Obsidian.",
+   "extra": {
+    "stars": 905,
+    "language": "HTML",
+    "topics": [
+     "agent-skills",
+     "ai-agents",
+     "claude",
+     "claude-code",
+     "claude-skills",
+     "knowledge-graph"
+    ],
+    "created": "2026-09-07",
+    "pushed": "2026-09-29"
+   },
+   "score": 4.086,
+   "tokens": [
+    "brain",
+    "os",
+    "second",
+    "ui",
+    "undefined"
+   ],
+   "flag": "new",
+   "summary_zh": "undefined-ui/second-brain-os 提供自维护的 AI 第二大脑，含完整指南、起始库及脚本，实现 Claude Code 与 Obsidian 中的自组织知识库。",
+   "why_zh": "它降低知识管理门槛，让 AI 辅助的个人知识库能自动更新与组织，提升工程师效率。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+   "link": "https://github.com/Niko1221/Strata",
+   "dt": "2026-10-04T12:51:53+00:00",
+   "summary": "",
+   "extra": {
+    "points": 838,
+    "comments": 368,
+    "hn_link": "https://news.ycombinator.com/item?id=49953495"
+   },
+   "score": 3.923,
+   "tokens": [
+    "100t",
+    "125b",
+    "4090",
+    "consumer",
+    "flash",
+    "hardware",
+    "next",
+    "qwen",
+    "rtx",
+    "run"
+   ],
+   "flag": "new",
+   "summary_zh": "Qwen 3.8 Flash Next 125B 模型可在单张 RTX 4090 上达到 100T/s 推理吞吐。",
+   "why_zh": "展示大模型在消费级显卡上的高效推理可能性，为本地部署提供参考基准。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ruc-datalab/EvoOntology",
+   "link": "https://github.com/ruc-datalab/EvoOntology",
+   "dt": "2026-09-15T01:57:40+00:00",
+   "summary": "EvoOntology: A Self-Evolving Ontology Layer for Data Agents ⚙️ EvoOntology插件为Claude Code/Codex 建立&进化本体层",
+   "extra": {
+    "stars": 594,
+    "language": "Python",
+    "topics": [
+     "agent",
+     "agentic-ai",
+     "claude-code",
+     "codex",
+     "data-analysis",
+     "data-science"
+    ],
+    "created": "2026-09-15",
+    "pushed": "2026-09-29"
+   },
+   "score": 3.897,
+   "tokens": [
+    "datalab",
+    "evoontology",
+    "ruc"
+   ],
+   "flag": "new",
+   "summary_zh": "EvoOntology 为 Claude Code/Codex 提供自演进本体层插件，助数据代理动态构建与更新知识本体。",
+   "why_zh": "使数据代理能自行维护本体，减少人工标注，提升自动化数据处理的适应性与准确性。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "amitshekhariitbhu/ai-engineering-course",
+   "link": "https://github.com/amitshekhariitbhu/ai-engineering-course",
+   "dt": "2026-09-23T08:04:42+00:00",
+   "summary": "AI Engineering Course - A free and complete AI Engineering Course to learn AI Engineering step by step - from Machine Learning, Neural Networks, and Transformers to LLMs, Fine-Tuning, RAG, AI Agents, LLM Inference, Evaluation, AI Safety, and AI System Design.",
+   "extra": {
+    "stars": 502,
+    "language": "Markdown",
+    "topics": [
+     "ai-course",
+     "ai-engineering",
+     "ai-engineering-course",
+     "ai-engineering-curriculum",
+     "large-language-models"
+    ],
+    "created": "2026-09-23",
+    "pushed": "2026-10-05"
+   },
+   "score": 3.822,
+   "tokens": [
+    "ai",
+    "amitshekhariitbhu",
+    "course",
+    "engineering"
+   ],
+   "flag": "new",
+   "summary_zh": "免费 AI 工程师课程，覆盖机器学习、神经网络、Transformer、LLM、微调、RAG、Agent 等全链路内容。",
+   "why_zh": "系统化学习路径帮助工程师快速掌握从基础到前沿的 AI 工程技能，适合自学与培训。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "sno-ai/sno-station",
+   "link": "https://github.com/sno-ai/sno-station",
+   "dt": "2026-09-19T06:55:24+00:00",
+   "summary": "Sno Station — your Claude Code and Codex working as one squad on your own machine. Shared encrypted memory, agent-to-agent messaging (Reach), squad skills for handoff and cross-vendor review, and a nightly loop that rewrites the agents' own skills with your approval. Open source, no daemon, no cloud required. Assembled in public.",
+   "extra": {
+    "stars": 439,
+    "language": "TypeScript",
+    "topics": [
+     "agent-communication",
+     "agent-memory",
+     "agentic-ai",
+     "ai-agents",
+     "claude-code",
+     "codex"
+    ],
+    "created": "2026-09-19",
+    "pushed": "2026-10-04"
+   },
+   "score": 3.762,
+   "tokens": [
+    "ai",
+    "sno",
+    "station"
+   ],
+   "flag": "new",
+   "summary_zh": "Sno Station 实现 Claude Code 与 Codex 本机协作，具共享加密内存、代理间消息及夜间技能自更新。",
+   "why_zh": "无需云服务即可构建多代理协作系统，便于在本地实验与部署复杂 AI 工作流。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Agents don't need memory, they need documentation",
+   "link": "https://liao.gg/blog/agents-dont-need-memory",
+   "dt": "2026-10-03T17:03:37+00:00",
+   "summary": "",
+   "extra": {
+    "points": 365,
+    "comments": 262,
+    "hn_link": "https://news.ycombinator.com/item?id=49945933"
+   },
+   "score": 3.562,
+   "tokens": [
+    "agents",
+    "documentation",
+    "don",
+    "memory",
+    "need",
+    "they"
+   ],
+   "flag": "new",
+   "summary_zh": "观点认为 AI 代理应依赖文档而非内存来获取知识，强调外部文档的重要性。",
+   "why_zh": "提醒工程师在设计代理时重视可查询的文档结构，可降低对大规模记忆的依赖。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Fast Models, Slow Evidence: A Paired and Self-Audited Evaluation of System-1 Decision Models for LLM Agent Harnesses",
+   "link": "https://arxiv.org/abs/2610.02267",
+   "dt": "2026-10-05T00:00:00-04:00",
+   "summary": "arXiv:2610.02267v1 Announce Type: new Abstract: Agent harnesses make many small, typed decisions per task: which model to call, which tool to use, whether retrieved text is relevant, whether an input carries an injection. System-1 decision models answer such questions in a single forward pass with class probabilities, promising large cost and latency savings over LLM calls. We present a paired evaluation of an open-weight (Laya) and a hosted (Jev) System-1 model on 11 agent decision points built",
+   "extra": {},
+   "weight_override": 1.3,
+   "score": 3.51,
+   "tokens": [
+    "agent",
+    "audited",
+    "decision",
+    "evaluation",
+    "evidence",
+    "fast",
+    "harnesses",
+    "llm",
+    "models",
+    "paired",
+    "self",
+    "slow",
+    "system"
+   ],
+   "flag": "new",
+   "summary_zh": "提出 System-1 决策模型，一次前向传输给出类别概率，用于代理 harness 的小决策，可降低成本和延迟。",
+   "why_zh": "为 LLM 代理的细粒度决策提供高效替代，可显著降低推理成本和延迟，对工程师具实际价值。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Choosing Before Acting: Comparative Value Estimation for Long-Horizon Tool-Use Agents",
+   "link": "https://arxiv.org/abs/2610.02330",
+   "dt": "2026-10-05T00:00:00-04:00",
+   "summary": "arXiv:2610.02330v1 Announce Type: new Abstract: Large language models (LLMs) rely on long-horizon tool invocation sequences for complex tasks, where each invocation can alter the task state and condition subsequent decisions. In long-horizon tool use, final-outcome rewards provide weak credit assignment over long interaction traces. Step-level rewards can offer more targeted feedback, but obtaining reliable step supervision often requires human or LLM judgment, or additional rollouts to estimate",
+   "extra": {},
+   "weight_override": 1.3,
+   "score": 3.51,
+   "tokens": [
+    "acting",
+    "agents",
+    "before",
+    "choosing",
+    "comparative",
+    "estimation",
+    "horizon",
+    "long",
+    "tool",
+    "use",
+    "value"
+   ],
+   "flag": "new",
+   "summary_zh": "提出 Comparative Value Estimation 方法，为长 horizon 工具使用代理提供步骤级价值估计，改善信用分配。",
+   "why_zh": "该方法提供更细粒度奖励反馈，帮助训练长序列工具使用代理，对强化学习和代理设计有指导意义。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.CL",
+   "title": "HakemBench: A Turkish Benchmark of Typed Decisions",
+   "link": "https://arxiv.org/abs/2610.02293",
+   "dt": "2026-10-05T00:00:00-04:00",
+   "summary": "arXiv:2610.02293v1 Announce Type: new Abstract: HakemBench is a Turkish benchmark of typed decisions, in which the model under test reads a text, a question and a fixed set of options and returns a probability for every option. Version 1.0 is released fully open under CC BY 4.0, with 2,346 items and 4,275 choice, yes/no and score questions in seven tracks (fact-check triage, education, guardrails, legal routing, moderation, spam and phishing, and customer support). One harness scores decision qu",
+   "extra": {},
+   "weight_override": 1.3,
+   "score": 3.51,
+   "tokens": [
+    "benchmark",
+    "decisions",
+    "hakembench",
+    "turkish",
+    "typed"
+   ],
+   "flag": "new",
+   "summary_zh": "发布 HakemBench，土耳其语的类型决策基准，包含 2,346 条项和七个子任务，用于概率预测评估。",
+   "why_zh": "提供多语言（土耳其语）典型决策评估资源，有助于跨语言模型的泛化和鲁棒性测试。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.CL",
+   "title": "Finding the Move Is Not Winning the Game: XiangqiBench for Closed-Loop Evaluation of LLM Agents",
+   "link": "https://arxiv.org/abs/2610.02425",
+   "dt": "2026-10-05T00:00:00-04:00",
+   "summary": "arXiv:2610.02425v1 Announce Type: new Abstract: Static evaluations credit a language model for naming the right move, but an agent must carry a plan through to a verified outcome while an opponent responds. We introduce XiangqiBench, an executable benchmark that measures this difference in Chinese chess: starting from 119 tactical endgames with forced mates supported by engine or checks-only search, an LLM agent must deliver checkmate against an engine defender. An interactive REPL interface sep",
+   "extra": {},
+   "weight_override": 1.3,
+   "score": 3.51,
+   "tokens": [
+    "agents",
+    "closed",
+    "evaluation",
+    "finding",
+    "game",
+    "llm",
+    "loop",
+    "move",
+    "winning",
+    "xiangqibench"
+   ],
+   "flag": "new",
+   "summary_zh": "提出 XiangqiBench，可执行的中国象棋基准，评估 LLM 代理在对手响应下完成完整局面而非仅仅选对棋子。",
+   "why_zh": "关注闭环执行能力，揭示静态移动预测与实际胜负之间的差距，对评估代理规划和对抗交互很重要。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.CL",
+   "title": "CUEing User Simulators: Calibrated User Embeddings for Multi-Turn Benchmarking",
+   "link": "https://arxiv.org/abs/2610.02460",
+   "dt": "2026-10-05T00:00:00-04:00",
+   "summary": "arXiv:2610.02460v1 Announce Type: new Abstract: Recent benchmarks rely on user simulators to evaluate AI agents in multi-turn interaction. While existing simulation techniques demonstrate surface fidelity to human style and behavior, ecologically valid interactive benchmarking also requires alignment in when and how agents fail across simulated and real user populations. We find that existing simulators lack outcome calibration: agreement with observed success rates and failure patterns when rea",
+   "extra": {},
+   "weight_override": 1.3,
+   "score": 3.51,
+   "tokens": [
+    "benchmarking",
+    "calibrated",
+    "cueing",
+    "embeddings",
+    "multi",
+    "simulators",
+    "turn",
+    "user"
+   ],
+   "flag": "new",
+   "summary_zh": "提出 CUE 方法，通过校准用户嵌入提升多轮基准中用户模拟器的生态有效性，使代理失败模式更真实。",
+   "why_zh": "有助于构建更贴近真实用户的多交互基准，揭示代理在实际场景中的失效点，指导改进。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.CL",
+   "title": "APDMem: Agent-Controlled Progressive Disclosure for Query-Adaptive Long-Term Memory",
+   "link": "https://arxiv.org/abs/2610.02472",
+   "dt": "2026-10-05T00:00:00-04:00",
+   "summary": "arXiv:2610.02472v1 Announce Type: new Abstract: Personalized LLM assistants must recover sparse evidence from long conversation histories across queries of varying complexity. We introduce APDMem (Agent-controlled Progressive Disclosure Memory), a hierarchical long-term memory architecture that applies progressive disclosure to memory retrieval. Rather than relying on a flat memory store or fixed retrieval granularity, APDMem represents conversation history as four progressively detailed layers:",
+   "extra": {},
+   "weight_override": 1.3,
+   "score": 3.51,
+   "tokens": [
+    "adaptive",
+    "agent",
+    "apdmem",
+    "controlled",
+    "disclosure",
+    "long",
+    "memory",
+    "progressive",
+    "query",
+    "term"
+   ],
+   "flag": "new",
+   "summary_zh": "提出 APDMem，层次化长期记忆架构，采用代理控制的渐进式披露进行记忆检索，以适应不同复杂度查询中的稀疏证据。",
+   "why_zh": "通过动态控制记忆粒度，提升长上下文检索效率和相关性，对构建个性化长记忆助手有直接指导价值。"
+  },
+  {
+   "source": "blog",
+   "source_label": "LangChain 博客",
+   "title": "How to Build a Model Router in the Harness",
+   "link": "https://www.langchain.com/blog/how-to-build-a-model-router-in-the-harness",
+   "dt": "2026-10-02T13:31:57+00:00",
+   "summary": "How we built a model router into Open SWE's harness that cut median cost per coding task by 64% with no measurable drop in quality, and how to build your own.",
+   "extra": {},
+   "score": 1.635,
+   "tokens": [
+    "build",
+    "harness",
+    "model",
+    "router"
+   ],
+   "flag": "new",
+   "summary_zh": "他们在 Open SWE 的 harness 中加入模型路由器，使编码任务中位成本降低 64%，质量未下降，并公开了构建方法。",
+   "why_zh": "此方法展示了如何通过路由器降低推理成本而不牺牲质量，为代码生成系统提供可直接复用的成本优化方案。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "Interrupt NYC: Opening Keynote",
+   "link": "https://www.youtube.com/watch?v=950byF7njfw",
+   "dt": "2026-10-05T12:23:25+00:00",
+   "summary": "Harrison Chase, Co-Founder and CEO of LangChain, uses examples from Rogo, Harvey, and JPMorgan Chase to explain owning your intelligence, which means building domain-specific pieces in and around the model, and the three pillars it takes: an open, model-neutral harness such as LangGraph or Deep Agents, a loop that compounds what you learn from how people use your agents, and governance for internal agents. He then walks through the LangSmith platform layer by layer: a new Managed Deep Agents rel…",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": "950byF7njfw"
+   },
+   "score": 1.215,
+   "tokens": [
+    "interrupt",
+    "keynote",
+    "nyc",
+    "opening"
+   ],
+   "flag": "new",
+   "summary_zh": "Harrison Chase 在 Interrupt NYC 开场演讲中，用 Rogo、Harvey、JPMorgan 案例说明通过领域组件、开放 harness、学习循环和治理实现对智能的掌控。",
+   "why_zh": "该演讲提供了构建可控、可演进代理系统的三大支柱方法论，对工程师设计长期可靠的 AI 代理具有指导意义。"
+  },
+  {
+   "source": "blog",
+   "source_label": "Lilian Weng",
+   "title": "Harness Engineering for Self-Improvement",
+   "link": "https://lilianweng.github.io/posts/2026-07-04-harness/",
+   "dt": "2026-07-04T00:00:00+00:00",
+   "summary": "The concept of recursive self-improvement (RSI) dates back to I. J. Good (1965) , where he defined an “ultraintelligent machine” as a system that can surpass humans in all intellectual activities and design better machines to improve itself. Yudkowsky (2008) used the phrase “recursive self-improvement” for a specific feedback loop: an AI uses its current intelligence to improve the cognitive machinery that produces its intelligence. This feedback loop in modern AI may indicate the model rewritin…",
+   "extra": {},
+   "weight_override": 1.5,
+   "score": 1.215,
+   "tokens": [
+    "engineering",
+    "harness",
+    "improvement",
+    "self"
+   ],
+   "flag": "new",
+   "summary_zh": "回顾递归自改进概念，从 I.J. Good 的超智能机器到 Yudkowsky 的反馈循环，说明 AI 如何利用自身智能改进认知机制。",
+   "why_zh": "为研究自改进代理提供理论基础和历史脉络，帮助工程师理解长期演进的可能路径。"
+  },
+  {
+   "source": "blog",
+   "source_label": "Anthropic Engineering",
+   "title": "An update on recent Claude Code quality reports",
+   "link": "https://www.anthropic.com/engineering/april-23-postmortem",
+   "dt": "2026-04-23T00:00:00+00:00",
+   "summary": "",
+   "extra": {},
+   "weight_override": 1.5,
+   "score": 1.215,
+   "tokens": [
+    "claude",
+    "code",
+    "quality",
+    "recent",
+    "reports",
+    "update"
+   ],
+   "flag": "new",
+   "summary_zh": "Anthropic 发布了 Claude Code 最近的质量报告更新，说明模型在代码生成任务中的表现情况。",
+   "why_zh": "让开发者了解 Claude Code 的最新可靠性基准，便于评估其在实际项目中的适用性和潜在改进方向。"
+  },
+  {
+   "source": "blog",
+   "source_label": "Anthropic Engineering",
+   "title": "How we built Claude Code auto mode: a safer way to skip permissions",
+   "link": "https://www.anthropic.com/engineering/claude-code-auto-mode",
+   "dt": "2026-03-25T00:00:00+00:00",
+   "summary": "",
+   "extra": {},
+   "weight_override": 1.5,
+   "score": 1.215,
+   "tokens": [
+    "auto",
+    "built",
+    "claude",
+    "code",
+    "mode",
+    "permissions",
+    "safer",
+    "skip",
+    "way",
+    "we"
+   ],
+   "flag": "new",
+   "summary_zh": "他们构建了 Claude Code 的自动模式，提供一种更安全的方式跳过权限检查，以提升自主代码编辑的便利性。",
+   "why_zh": "对需要在受控环境中让代理自主修改代码的工程师，提供了安全机制的参考实现，降低误操作风险。"
+  },
+  {
+   "source": "blog",
+   "source_label": "Anthropic Engineering",
+   "title": "Harness design for long-running application development",
+   "link": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
+   "dt": "2026-03-24T00:00:00+00:00",
+   "summary": "",
+   "extra": {},
+   "weight_override": 1.5,
+   "score": 1.215,
+   "tokens": [
+    "application",
+    "design",
+    "development",
+    "harness",
+    "long",
+    "running"
+   ],
+   "flag": "new",
+   "summary_zh": "他们讨论了用于长期运行应用开发的 harness 设计，重点在于状态管理、容错和持续演进能力。",
+   "why_zh": "为需要构建持续运行 AI 代理的工程师提供架构指导，确保系统稳定性和可维护性。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · David Ondrej",
+   "title": "Vercel CEO reveals his Agentic Engineering Workflow",
+   "link": "https://www.youtube.com/watch?v=WeiB_gLOdQE",
+   "dt": "2026-10-02T14:48:25+00:00",
+   "summary": "Try Supabase for Free: https://supabase.com/ Supabase Select: https://select.supabase.com/ Cloudroom: https://cloudroom.dev/ Vercel: http://vercel.com/ Guillermo's twitter: https://x.com/rauchg fx harness: https://fx.sh/ Follow me on Instagram - https://www.instagram.com/davidondrej1/ Follow me on Twitter - https://x.com/DavidOndrej1 Watch my podcasts on Spotify: https://open.spotify.com/show/033E1ULeu3Pj9JU2MABz2U?si=vvf361b2R3O2Dg0obO-2IQ Subscribe if you're serious about AI. In this video, Da…",
+   "extra": {
+    "channel": "David Ondrej",
+    "video_id": "WeiB_gLOdQE"
+   },
+   "score": 1.154,
+   "tokens": [
+    "agentic",
+    "ceo",
+    "engineering",
+    "his",
+    "reveals",
+    "vercel",
+    "workflow"
+   ],
+   "flag": "new",
+   "summary_zh": "Vercel CEO Guillermo Rauch 分享其 Agentic Engineering 工作流程，演示如何用 Supabase、Cloudroom 等工具实现 AI 驱动开发。",
+   "why_zh": "了解顶级厂商如何将 Agentic 概念落地到工具链，可借鉴提升自身工作流效率。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Google DeepMind",
+   "title": "Create your own voices with Gemini 3.8 text-to-speech",
+   "link": "https://www.youtube.com/watch?v=FL6mI_Br-mc",
+   "dt": "2026-09-23T15:23:38+00:00",
+   "summary": "Design entirely new vocal personas from scratch for gaming, immersive audiobooks, or dual-speaker podcasts using natural language prompts - directing every performance line by line with nuanced acting cues, pacing, back channeling, and dialect shifts. Or, recreate consistent adult vocal profiles from just a 30-second audio sample of your voice or a voice you have the rights to use, backed by built-in consent verification, SynthID watermarking, and C2PA credentials to protect both developers and …",
+   "extra": {
+    "channel": "Google DeepMind",
+    "video_id": "FL6mI_Br-mc"
+   },
+   "score": 1.147,
+   "tokens": [
+    "create",
+    "gemini",
+    "own",
+    "speech",
+    "text",
+    "voices"
+   ],
+   "flag": "new",
+   "summary_zh": "Gemini 3.8 文本转语音模型支持从零构建自定义声线，或用 30 秒音频克隆成人声音，适用于游戏、有声书等场景。",
+   "why_zh": "为 AI 工程师提供可编程、可控制的语音合成能力，降低定制语音成本，适合交互式应用。"
+  },
+  {
+   "source": "blog",
+   "source_label": "Simon Willison",
+   "title": "We're going to need default hard budget caps on pretty much everything",
+   "link": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+   "dt": "2026-10-03T23:34:02+00:00",
+   "summary": "Here's a product feature which the world is going to need a whole lot more of over the coming months and years: default hard budget caps . I'm talking about the feature of pay-by-usage services and APIs that lets you say \"after $X/month, cut this thing off and return errors\". These need to be hard limits. Soft caps, \"after $X/month, send me a warning email\", will not cut it. Coding agents, and personal agents (coding agents wrapped in a less threatening UI), greatly reduce the friction of spinni…",
+   "extra": {},
+   "score": 1.147,
+   "tokens": [
+    "budget",
+    "caps",
+    "default",
+    "everything",
+    "going",
+    "hard",
+    "much",
+    "need",
+    "pretty",
+    "re",
+    "we"
+   ],
+   "flag": "new",
+   "summary_zh": "主张所有按使用付费的服务和 API 应提供硬性预算上限，超出后直接返回错误，而非仅发警告。",
+   "why_zh": "硬预算可防止意外费用爆炸，提升服务可靠性和成本可控性，对 AI 工程师尤为重要。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "Build faster with Ultrafast",
+   "link": "https://www.youtube.com/watch?v=sKltfHvsDQM",
+   "dt": "2026-09-29T18:47:34+00:00",
+   "summary": "Ultrafast is our fastest way to build with Astra yet: in Codex, it runs up to 8x faster than Astra Standard and 4x faster than Astra Fast. Bring your ideas to life as fast as you can type them.",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": "sKltfHvsDQM"
+   },
+   "score": 1.094,
+   "tokens": [
+    "build",
+    "faster",
+    "ultrafast"
+   ],
+   "flag": "new",
+   "summary_zh": "Ultrafast 在 Codex 中运行速度最高可达 Astra Standard 的 8 倍、Astra Fast 的 4 倍，显著加快代码生成。",
+   "why_zh": "提升代码生成吞吐量，使 AI 工程师能更快速迭代原型和产品。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "Meet the all new Codex Cloud",
+   "link": "https://www.youtube.com/watch?v=7Bv68f5szSU",
+   "dt": "2026-09-29T18:18:13+00:00",
+   "summary": "Start a Codex task, close your laptop, and pick it up from your phone. See how to create a reusable cloud environment with your repositories, networking, and secrets, then share it with your team.",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": "7Bv68f5szSU"
+   },
+   "score": 1.094,
+   "tokens": [
+    "cloud",
+    "codex",
+    "meet"
+   ],
+   "flag": "new",
+   "summary_zh": "Codex Cloud 允许在笔记本上启动任务后关闭设备，随后在手机上继续，提供可共享的云端开发环境，包含仓库、网络和密钥。",
+   "why_zh": "实现跨设备无缝协作，提升团队开发灵活性与代码一致性。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "Build, Test, Deploy, Monitor: The Agent Development Lifecycle Explained",
+   "link": "https://www.youtube.com/shorts/4FZ5osx9W5s",
+   "dt": "2026-09-30T18:45:38+00:00",
+   "summary": "Amy and Sean from LangChain break down the agent development lifecycle, the process agent engineers use to build and improve their agents. It comes down to four phases: build it in code with a framework like Deep Agents, test it with real inputs and expected outputs, deploy it into production, and monitor it with tracing and evals. This is a clip from our full conversation where Amy and Sean answer the most commonly searched questions about AI agents, from the basics like what is an agent, what …",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": ""
+   },
+   "score": 1.094,
+   "tokens": [
+    "agent",
+    "build",
+    "deploy",
+    "development",
+    "explained",
+    "lifecycle",
+    "monitor",
+    "test"
+   ],
+   "flag": "new",
+   "summary_zh": "LangChain 详述智能体开发四阶段：用框架编码、用真实输入输出测试、部署生产、通过追踪和评估监控。",
+   "why_zh": "提供完整可落地的智能体工程流程，帮助 AI 工程师系统化构建和改进代理。"
+  }
+ ],
+ "dups": []
+}

@@ -173,12 +173,6 @@ _CTRL_CHAR = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f]")
 _CDATA_SPLIT = re.compile(r"(<!\[CDATA\[.*?\]\])", re.S)
 _SCRIPT = re.compile(r"<(script|style)\b[^>]*>.*?</\1\s*>", re.S | re.I)
 _VOID = re.compile(r"<(br|hr|img|input|source|area|base|col|embed|param|track|wbr)\b([^>]*?)/?>", re.I)
-_BARE_ATTR = re.compile(
-    r"\s(defer|async|checked|disabled|selected|readonly|required|hidden|ismap|"
-    r"multiple|nomodule|novalidate|open|reversed|scoped|itemscope|autofocus|"
-    r"autoplay|controls|loop|muted|default|playsinline)(?=[\s>])",
-    re.I,
-)
 
 
 def sanitize_xml(raw):
@@ -186,7 +180,6 @@ def sanitize_xml(raw):
     s = _CTRL_CHAR.sub(" ", s)
     s = _SCRIPT.sub(" ", s)
     s = _VOID.sub(lambda m: f"<{m.group(1)}{m.group(2)}/>", s)
-    s = _BARE_ATTR.sub(lambda m: f" {m.group(1)}=\"\"", s)
     parts = _CDATA_SPLIT.split(s)
     return "".join(
         p if p.startswith("<![CDATA[") else _BARE_AMP.sub("&amp;", p) for p in parts
@@ -1071,6 +1064,10 @@ def update_readme(digest_dir, now):
         "每天 16:00 (CST) 自动采集 GitHub / YouTube / 博客 / 论文 / HN 上关于 "
         "AI、LLM、Agent、Harness 的前沿动态，生成中文摘要。",
         "",
+        "🌐 **在线阅读：[ai-daily-digest.pages.dev](https://ai-daily-digest.pages.dev)**"
+        "（[归档](https://ai-daily-digest.pages.dev/archive.html) · "
+        "[RSS](https://ai-daily-digest.pages.dev/feed.xml)）",
+        "",
         "## 最新",
         "",
     ]
@@ -1145,6 +1142,30 @@ def main():
     out_path = DIGEST_DIR / f"{date_str}.md"
     out_path.write_text(md, encoding="utf-8")
     log(f"[done] 已写出 {out_path}")
+
+    # 同一份内容同时存一份结构化 JSON，供静态站生成使用
+    def jsonable(it):
+        d = dict(it)
+        d["dt"] = it["dt"].isoformat() if it.get("dt") else None
+        return d
+
+    data_path = DIGEST_DIR / f"{date_str}.json"
+    data_path.write_text(
+        json.dumps(
+            {
+                "date": date_str,
+                "generated": now.astimezone(CST).strftime("%Y-%m-%d %H:%M"),
+                "source_count": SOURCE_COUNT,
+                "failures": FETCH_FAILURES,
+                "items": [jsonable(i) for i in items],
+                "dups": [jsonable(i) for i in dups],
+            },
+            ensure_ascii=False,
+            indent=1,
+        ),
+        encoding="utf-8",
+    )
+    log(f"[done] 已写出 {data_path}")
 
     # 更新状态（新条目 + 提醒过的重复条目都记下，避免反复提醒；
     # 同时存中文摘要，下次重复推荐时直接复用，不再多花 token）

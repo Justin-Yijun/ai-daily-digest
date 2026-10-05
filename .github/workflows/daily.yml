@@ -37,11 +37,17 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/collect.py
 
+      - name: Build site
+        env:
+          # 换成 Cloudflare Pages 的实际地址后同步改这里
+          SITE_URL: ${{ vars.SITE_URL || 'https://ai-daily-digest.pages.dev' }}
+        run: python scripts/build_site.py
+
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add digest state README.md
+          git add digest state site README.md
           if git diff --cached --quiet; then
             echo "没有新内容，跳过提交"
             exit 0
