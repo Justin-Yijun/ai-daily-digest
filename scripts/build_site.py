@@ -34,7 +34,7 @@ SITE_DESC = (
     "关于 AI、LLM、Agent、Harness 的前沿动态，生成中文摘要。"
 )
 # 正式对外地址（Cloudflare Pages 自定义域名）。换域名只改这一处，或设环境变量 SITE_URL
-SITE_URL = os.environ.get("SITE_URL", "https://aivulcan.de5.net").rstrip("/")
+SITE_URL = os.environ.get("SITE_URL", "https://ai-daily-digest-1m0.pages.dev").rstrip("/")
 
 SRC_NAME = {
     "github": "GitHub",

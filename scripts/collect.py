@@ -41,7 +41,7 @@ DIGEST_DIR = ROOT / "digest"
 
 CST = timezone(timedelta(hours=8))
 # 对外地址（Cloudflare Pages 自定义域名），与 build_site.py 保持一致
-SITE_URL = os.environ.get("SITE_URL", "https://aivulcan.de5.net").rstrip("/")
+SITE_URL = os.environ.get("SITE_URL", "https://ai-daily-digest-1m0.pages.dev").rstrip("/")
 UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
