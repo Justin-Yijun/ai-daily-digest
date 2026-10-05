@@ -34,7 +34,7 @@ SITE_DESC = (
     "关于 AI、LLM、Agent、Harness 的前沿动态，生成中文摘要。"
 )
 # 正式对外地址（Cloudflare Pages 自定义域名）。换域名只改这一处，或设环境变量 SITE_URL
-SITE_URL = os.environ.get("SITE_URL", "https://ai-daily-digest-1m0.pages.dev").rstrip("/")
+SITE_URL = os.environ.get("SITE_URL", "https://aivulcan.de5.net").rstrip("/")
 
 SRC_NAME = {
     "github": "GitHub",
@@ -200,9 +200,9 @@ def page(title, body, desc="", canonical="", rel_root="", extra_head=""):
 <body>
 <div class="wrap">
 <header class="site">
-<h1><a href="{rel_root}index.html">{esc(SITE_TITLE)}</a></h1>
+<h1><a href="{rel_root}">{esc(SITE_TITLE)}</a></h1>
 <p>{esc(SITE_DESC)}</p>
-<nav><a href="{rel_root}index.html">最新</a><a href="{rel_root}archive.html">归档</a><a href="{rel_root}feed.xml">RSS</a><a href="{rel_root}about.html">关于</a></nav>
+<nav><a href="{rel_root}">最新</a><a href="{rel_root}archive">归档</a><a href="{rel_root}feed.xml">RSS</a><a href="{rel_root}about">关于</a></nav>
 </header>
 {body}
 <footer>
@@ -225,7 +225,7 @@ def render_digest(d, rel_root="", canonical="", week=""):
     if dups:
         meta += f'（新增 {len(items)} · 重复/相似 {len(dups)}）'
     if week:
-        meta += f'　｜　<a href="{rel_root}w/{esc(week)}.html">本周精选 →</a>'
+        meta += f'　｜　<a href="{rel_root}w/{esc(week)}">本周精选 →</a>'
     body.append(f'<p class="meta">{meta}</p>')
     if cnt:
         body.append(
@@ -301,7 +301,7 @@ def render_archive(all_d, all_w):
             n = len(w.get("items") or [])
             top = (w.get("items") or [{}])[0].get("title") if w.get("items") else ""
             body.append(
-                f'<li><a href="w/{esc(w.get("week"))}.html">'
+                f'<li><a href="w/{esc(w.get("week"))}">'
                 f'{esc(w.get("start"))} ~ {esc(w.get("end"))}</a>'
                 f'<span class="cnt">{n} 条 · {esc((top or "")[:46])}</span></li>'
             )
@@ -315,7 +315,7 @@ def render_archive(all_d, all_w):
             n = len(d.get("items") or [])
             top = (d.get("items") or [{}])[0].get("title") if d.get("items") else ""
             body.append(
-                f'<li><a href="d/{esc(d.get("date"))}.html">{esc(d.get("date"))}</a>'
+                f'<li><a href="d/{esc(d.get("date"))}">{esc(d.get("date"))}</a>'
                 f'<span class="cnt">{n} 条 · {esc((top or "")[:46])}</span></li>'
             )
         body.append("</ul></div>")
@@ -366,11 +366,11 @@ def render_feed(all_d):
         items.append(
             "<item>"
             f"<title>{esc(date_s)} AI 前沿日报</title>"
-            f"<link>{SITE_URL}/d/{esc(date_s)}.html</link>"
-            f"<guid isPermaLink=\"true\">{SITE_URL}/d/{esc(date_s)}.html</guid>"
+            f"<link>{SITE_URL}/d/{esc(date_s)}</link>"
+            f"<guid isPermaLink=\"true\">{SITE_URL}/d/{esc(date_s)}</guid>"
             + (f"<pubDate>{format_datetime(dt)}</pubDate>" if dt else "")
             + f"<description><![CDATA[<p>{esc(d.get('date'))} 精选：</p><ul>{desc}</ul>"
-            f'<p><a href="{SITE_URL}/d/{esc(date_s)}.html">阅读完整日报</a></p>]]></description>'
+            f'<p><a href="{SITE_URL}/d/{esc(date_s)}">阅读完整日报</a></p>]]></description>'
             "</item>"
         )
     xml = (
@@ -402,7 +402,7 @@ def main():
 
     for i, d in enumerate(all_d):
         date_s = d.get("date") or f"unknown-{i}"
-        canonical = f"{SITE_URL}/d/{date_s}.html"
+        canonical = f"{SITE_URL}/d/{date_s}"
         wk = week_of(date_s)
         if wk not in have_w:
             wk = ""  # 没有对应的周报页就不放链接，避免死链
@@ -432,9 +432,9 @@ def main():
     (SITE_DIR / "robots.txt").write_text(
         f"User-agent: *\nAllow: /\nSitemap: {SITE_URL}/sitemap.xml\n", encoding="utf-8"
     )
-    urls = [f"{SITE_URL}/", f"{SITE_URL}/archive.html", f"{SITE_URL}/about.html"]
-    urls += [f"{SITE_URL}/d/{d.get('date')}.html" for d in all_d]
-    urls += [f"{SITE_URL}/w/{w.get('week')}.html" for w in all_w]
+    urls = [f"{SITE_URL}/", f"{SITE_URL}/archive", f"{SITE_URL}/about"]
+    urls += [f"{SITE_URL}/d/{d.get('date')}" for d in all_d]
+    urls += [f"{SITE_URL}/w/{w.get('week')}" for w in all_w]
     (SITE_DIR / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
