@@ -1,96 +1,42 @@
 {
  "items": {
-  "https://github.com/amitshekhariitbhu/ai-engineering-course": {
-   "title": "amitshekhariitbhu/ai-engineering-course",
-   "date": "2026-10-05",
-   "tokens": [],
-   "source": "github"
-  },
   "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/": {
    "title": "Getting the most out of Opus 5.5 in Claude and Claude Code",
    "date": "2026-10-05",
-   "tokens": [],
-   "source": "hackernews"
+   "tokens": [
+    "claude",
+    "code",
+    "getting",
+    "opus"
+   ],
+   "source": "hackernews",
+   "summary_zh": "介绍如何在 Claude 及 Claude Code 中充分利用 Opus 5.5 模型的能力。",
+   "why_zh": "展示如何提升代理的推理与编码效率，直接影响实际使用体验。"
   },
   "https://github.com/Louis-CFM/coucou": {
    "title": "Louis-CFM/coucou",
    "date": "2026-10-05",
-   "tokens": [],
-   "source": "github"
+   "tokens": [
+    "cfm",
+    "coucou",
+    "louis"
+   ],
+   "source": "github",
+   "summary_zh": "一个居住在 macOS 锐刘或 Windows/Linux 屏幕顶部的小程序，实时监控 Claude Code 等编码代理。",
+   "why_zh": "提供跨平台的代理状态可视化，帮助工程师快速察觉异常行为。"
   },
   "https://github.com/rehan-remade/universal-modder": {
    "title": "rehan-remade/universal-modder",
    "date": "2026-10-05",
-   "tokens": [],
-   "source": "github"
-  },
-  "https://github.com/amitshekhariitbhu/ai-system-design": {
-   "title": "amitshekhariitbhu/ai-system-design",
-   "date": "2026-10-05",
-   "tokens": [],
-   "source": "github"
-  },
-  "https://arxiv.org/abs/2610.02267": {
-   "title": "Fast Models, Slow Evidence: A Paired and Self-Audited Evaluation of System-1 Decision Models for LLM Agent Harnesses",
-   "date": "2026-10-05",
-   "tokens": [],
-   "source": "paper"
-  },
-  "https://arxiv.org/abs/2610.02330": {
-   "title": "Choosing Before Acting: Comparative Value Estimation for Long-Horizon Tool-Use Agents",
-   "date": "2026-10-05",
-   "tokens": [],
-   "source": "paper"
-  },
-  "https://arxiv.org/abs/2610.02293": {
-   "title": "HakemBench: A Turkish Benchmark of Typed Decisions",
-   "date": "2026-10-05",
-   "tokens": [],
-   "source": "paper"
-  },
-  "https://arxiv.org/abs/2610.02425": {
-   "title": "Finding the Move Is Not Winning the Game: XiangqiBench for Closed-Loop Evaluation of LLM Agents",
-   "date": "2026-10-05",
-   "tokens": [],
-   "source": "paper"
-  },
-  "https://arxiv.org/abs/2610.02460": {
-   "title": "CUEing User Simulators: Calibrated User Embeddings for Multi-Turn Benchmarking",
-   "date": "2026-10-05",
-   "tokens": [],
-   "source": "paper"
-  },
-  "https://arxiv.org/abs/2610.02472": {
-   "title": "APDMem: Agent-Controlled Progressive Disclosure for Query-Adaptive Long-Term Memory",
-   "date": "2026-10-05",
    "tokens": [
-    "adaptive",
-    "agent",
-    "apdmem",
-    "controlled",
-    "disclosure",
-    "long",
-    "memory",
-    "progressive",
-    "query",
-    "term"
+    "modder",
+    "rehan",
+    "remade",
+    "universal"
    ],
-   "source": "paper"
-  },
-  "https://arxiv.org/abs/2610.02304": {
-   "title": "SimuVerity: Benchmarking Agents for Engineering-Grade Simulink Model Generation",
-   "date": "2026-10-05",
-   "tokens": [
-    "agents",
-    "benchmarking",
-    "engineering",
-    "generation",
-    "grade",
-    "model",
-    "simulink",
-    "simuverity"
-   ],
-   "source": "paper"
+   "source": "github",
+   "summary_zh": "使 Claude Code 能通过逆向工程、fal 生成艺术等手段修改几乎任何 PC 游戏。",
+   "why_zh": "展示 LLM 代理在游戏 MOD 领域的实用潜力，降低逆向工程门槛。"
   },
   "https://github.com/yetone/magpie": {
    "title": "yetone/magpie",
@@ -99,7 +45,9 @@
     "magpie",
     "yetone"
    ],
-   "source": "github"
+   "source": "github",
+   "summary_zh": "在菜单栏统一管理多种代理模型，如 Codex 接入 DeepSeek、Claude Code 接入 Kimi。",
+   "why_zh": "简化多模型切换，提升开发 workflow 的灵活性与便利性。"
   },
   "https://github.com/youngyangyang04/llm-master": {
    "title": "youngyangyang04/llm-master",
@@ -109,7 +57,9 @@
     "master",
     "youngyangyang04"
    ],
-   "source": "github"
+   "source": "github",
+   "summary_zh": "提供覆盖 Prompt Engineering、RAG、Agent 等全栈 LLM 中文学习路线，从入门到生产实践。",
+   "why_zh": "一站式资源助力工程师系统掌握 LLM 技术栈，加速项目落地。"
   },
   "https://github.com/zai-org/ZCode": {
    "title": "zai-org/ZCode",
@@ -119,7 +69,9 @@
     "zai",
     "zcode"
    ],
-   "source": "github"
+   "source": "github",
+   "summary_zh": "Z.ai 提供的强大、可扩展的编码代理框架，支持多种模型与工具插件。",
+   "why_zh": "为构建自定义 AI 编码助手提供模块化基础，提升开发效率。"
   },
   "https://github.com/undefined-ui/second-brain-os": {
    "title": "undefined-ui/second-brain-os",
@@ -131,7 +83,9 @@
     "ui",
     "undefined"
    ],
-   "source": "github"
+   "source": "github",
+   "summary_zh": "提供 Claude Code 与 Obsidian 的自组织知识库，包含完整指南、起始库和智能体技能脚本。",
+   "why_zh": "帮助工程师快速搭建自我维护的知识库，提升信息检索与工作流效率。"
   },
   "https://github.com/Niko1221/Strata": {
    "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
@@ -148,7 +102,46 @@
     "rtx",
     "run"
    ],
-   "source": "hackernews"
+   "source": "hackernews",
+   "summary_zh": "在 RTX 4090 上运行 125B 参数的 Qwen 3.8 Flash Next，达到 100T/s 推理吞吐。",
+   "why_zh": "展示大模型在消费级显卡上的可行性，为低成本部署提供参考。"
+  },
+  "https://github.com/ruc-datalab/EvoOntology": {
+   "title": "ruc-datalab/EvoOntology",
+   "date": "2026-10-05",
+   "tokens": [
+    "datalab",
+    "evoontology",
+    "ruc"
+   ],
+   "source": "github",
+   "summary_zh": "为 Claude Code/Codex 提供自演进本体层插件，支持数据智能体动态构建与更新知识图谱。",
+   "why_zh": "使数据智能体能够自主更新本体，提升跨任务知识复用与适应能力。"
+  },
+  "https://github.com/amitshekhariitbhu/ai-engineering-course": {
+   "title": "amitshekhariitbhu/ai-engineering-course",
+   "date": "2026-10-05",
+   "tokens": [
+    "ai",
+    "amitshekhariitbhu",
+    "course",
+    "engineering"
+   ],
+   "source": "github",
+   "summary_zh": "免费完整的 AI 工程师课程，从机器学习到 LLMs、智能体、安全及系统设计全覆盖。",
+   "why_zh": "系统化学习路径帮助工程师快速掌握前沿 AI 工程全栈技能。"
+  },
+  "https://github.com/sno-ai/sno-station": {
+   "title": "sno-ai/sno-station",
+   "date": "2026-10-05",
+   "tokens": [
+    "ai",
+    "sno",
+    "station"
+   ],
+   "source": "github",
+   "summary_zh": "在本机让 Claude Code 与 Codex 协同工作，提供共享加密内存、智能体消息及夜间技能自改循环。",
+   "why_zh": "无需云服务即可实现多智能体协作与自动化技能迭代，提升本地开发效率。"
   },
   "https://liao.gg/blog/agents-dont-need-memory": {
    "title": "Agents don't need memory, they need documentation",
@@ -161,7 +154,120 @@
     "need",
     "they"
    ],
-   "source": "hackernews"
+   "source": "hackernews",
+   "summary_zh": "认为智能体应依赖文档而非内存，强调外部知识库对行为的重要性。",
+   "why_zh": "提醒工程师关注可检索文档设计，以减少对内存的依赖并提升可解释性。"
+  },
+  "https://arxiv.org/abs/2610.02267": {
+   "title": "Fast Models, Slow Evidence: A Paired and Self-Audited Evaluation of System-1 Decision Models for LLM Agent Harnesses",
+   "date": "2026-10-05",
+   "tokens": [
+    "agent",
+    "audited",
+    "decision",
+    "evaluation",
+    "evidence",
+    "fast",
+    "harnesses",
+    "llm",
+    "models",
+    "paired",
+    "self",
+    "slow",
+    "system"
+   ],
+   "source": "paper",
+   "summary_zh": "提出 System-1 决策模型，一次前向传输给出类别概率，用于代理 harness 的小型 typed 决策，以降低成本和延迟。",
+   "why_zh": "该方法可显著减少 LLM 调用次数，降低代理系统的推理延迟和计算成本，对实际部署很有价值。"
+  },
+  "https://arxiv.org/abs/2610.02330": {
+   "title": "Choosing Before Acting: Comparative Value Estimation for Long-Horizon Tool-Use Agents",
+   "date": "2026-10-05",
+   "tokens": [
+    "acting",
+    "agents",
+    "before",
+    "choosing",
+    "comparative",
+    "estimation",
+    "horizon",
+    "long",
+    "tool",
+    "use",
+    "value"
+   ],
+   "source": "paper",
+   "summary_zh": "提出 Comparative Value Estimation 方法，为长 horizon 工具使用代理提供逐步价值估计，以改善信用分配和决策。",
+   "why_zh": "通过逐步价值估计，能更精准地反馈中间动作，帮助强化学习在长序列任务中收敛更快。"
+  },
+  "https://arxiv.org/abs/2610.02293": {
+   "title": "HakemBench: A Turkish Benchmark of Typed Decisions",
+   "date": "2026-10-05",
+   "tokens": [
+    "benchmark",
+    "decisions",
+    "hakembench",
+    "turkish",
+    "typed"
+   ],
+   "source": "paper",
+   "summary_zh": "发布 HakemBench，土耳其语 typed 决策基准，包含 2,346 条目、七大轨道的选择/是非/评分问题，CC BY 4.0 开放。",
+   "why_zh": "提供多语言决策评估资源，便于研究者在土耳其语环境下测试模型的判断能力。"
+  },
+  "https://arxiv.org/abs/2610.02425": {
+   "title": "Finding the Move Is Not Winning the Game: XiangqiBench for Closed-Loop Evaluation of LLM Agents",
+   "date": "2026-10-05",
+   "tokens": [
+    "agents",
+    "closed",
+    "evaluation",
+    "finding",
+    "game",
+    "llm",
+    "loop",
+    "move",
+    "winning",
+    "xiangqibench"
+   ],
+   "source": "paper",
+   "summary_zh": "构建 XiangqiBench，可执行的中国象棋闭环基准，从 119 个强制将死残局评估 LLM 代理的规划与执行能力。",
+   "why_zh": "关注代理在对抗环境中的全局规划而非单步走法，更贴近实际任务中的决策链。"
+  },
+  "https://arxiv.org/abs/2610.02460": {
+   "title": "CUEing User Simulators: Calibrated User Embeddings for Multi-Turn Benchmarking",
+   "date": "2026-10-05",
+   "tokens": [
+    "benchmarking",
+    "calibrated",
+    "cueing",
+    "embeddings",
+    "multi",
+    "simulators",
+    "turn",
+    "user"
+   ],
+   "source": "paper",
+   "summary_zh": "提出 CUE 方法，通过校准用户嵌入提升多轮基准中用户模拟器的生态效度，使代理失败模式更贴近真实用户。",
+   "why_zh": "改进用户模拟器能更真实地反映代理在实际交互中的失效点，有助于更可靠的多轮评估。"
+  },
+  "https://arxiv.org/abs/2610.02472": {
+   "title": "APDMem: Agent-Controlled Progressive Disclosure for Query-Adaptive Long-Term Memory",
+   "date": "2026-10-05",
+   "tokens": [
+    "adaptive",
+    "agent",
+    "apdmem",
+    "controlled",
+    "disclosure",
+    "long",
+    "memory",
+    "progressive",
+    "query",
+    "term"
+   ],
+   "source": "paper",
+   "summary_zh": "提出 APDMem，层次式长期记忆架构，采用代理控制的渐进式披露进行记忆检索，以适应不同复杂度查询中的稀疏证据。",
+   "why_zh": "通过渐进式披露，能在长对话中高效定位相关信息，提升个性化助手对长上下文的利用效率。"
   },
   "https://www.langchain.com/blog/how-to-build-a-model-router-in-the-harness": {
    "title": "How to Build a Model Router in the Harness",
@@ -172,7 +278,9 @@
     "model",
     "router"
    ],
-   "source": "blog"
+   "source": "blog",
+   "summary_zh": "LangChain 在 Open SWE harness 中构建模型路由器，使编码任务中位成本降低 64%，质量未下降，并提供构建方法。",
+   "why_zh": "对降低推理成本、提升代码生成效率的工程师有直接参考价值。"
   },
   "https://www.youtube.com/watch?v=6v0Fmsi4Ldk": {
    "title": "HTTP Channels for Managed Deep Agents",
@@ -184,7 +292,9 @@
     "http",
     "managed"
    ],
-   "source": "youtube"
+   "source": "youtube",
+   "summary_zh": "LangChain 演示如何为托管深度代理构建自定义 HTTP 通道，以接收来自 HubSpot、Salesforce 等外部服务的请求，并构建费用报告代理 Reflex。",
+   "why_zh": "为需要将代理与外部系统集成的工程师提供可落地的实现思路。"
   },
   "https://lilianweng.github.io/posts/2026-07-04-harness/": {
    "title": "Harness Engineering for Self-Improvement",
@@ -195,7 +305,9 @@
     "improvement",
     "self"
    ],
-   "source": "blog"
+   "source": "blog",
+   "summary_zh": "回顾递归自改进概念及其在 AI 安全中的理论基础，说明 AI 如何利用自身智能改进认知机制。",
+   "why_zh": "为研究自改进系统的工程师提供理论框架和历史脉络。"
   },
   "https://www.anthropic.com/engineering/april-23-postmortem": {
    "title": "An update on recent Claude Code quality reports",
@@ -208,7 +320,9 @@
     "reports",
     "update"
    ],
-   "source": "blog"
+   "source": "blog",
+   "summary_zh": "Anthropic 发布 Claude Code 最新质量报告更新，展示模型在代码生成任务中的表现趋势。",
+   "why_zh": "关注 Claude Code 质量变化有助于评估其在实际开发中的可靠性。"
   },
   "https://www.anthropic.com/engineering/claude-code-auto-mode": {
    "title": "How we built Claude Code auto mode: a safer way to skip permissions",
@@ -225,7 +339,9 @@
     "way",
     "we"
    ],
-   "source": "blog"
+   "source": "blog",
+   "summary_zh": "Anthropic 解释 Claude Code 自动模式的实现细节，提供一种更安全的跳过权限验证机制。",
+   "why_zh": "为需要在自动化流程中减少交互的工程师提供安全设计参考。"
   },
   "https://www.anthropic.com/engineering/harness-design-long-running-apps": {
    "title": "Harness design for long-running application development",
@@ -238,7 +354,9 @@
     "long",
     "running"
    ],
-   "source": "blog"
+   "source": "blog",
+   "summary_zh": "Anthropic 分享用于长期运行应用开发的 Harness 设计原则，以支持持续集成和演进。",
+   "why_zh": "帮助工程师构建能够在长周期项目中保持稳定性和可扩展性的基础设施。"
   },
   "https://www.youtube.com/watch?v=WeiB_gLOdQE": {
    "title": "Vercel CEO reveals his Agentic Engineering Workflow",
@@ -252,7 +370,9 @@
     "vercel",
     "workflow"
    ],
-   "source": "youtube"
+   "source": "youtube",
+   "summary_zh": "Vercel CEO Guillermo Rauch 分享其 Agentic Engineering 工作流程，涉及 Supabase、Cloudroom 等工具。",
+   "why_zh": "展示如何在 Vercel 平台上落地 agentic 模式，提升开发效率与系统可扩展性。"
   },
   "https://www.youtube.com/watch?v=FL6mI_Br-mc": {
    "title": "Create your own voices with Gemini 3.8 text-to-speech",
@@ -265,7 +385,9 @@
     "text",
     "voices"
    ],
-   "source": "youtube"
+   "source": "youtube",
+   "summary_zh": "Gemini 3.8 TTS 通过自然语言提示创建全新声音角色，或用 30 秒音频复刻成人声线。",
+   "why_zh": "为游戏、有声书等场景提供可编程、可控制的语音合成能力，降低内容制作成本。"
   },
   "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/": {
    "title": "We're going to need default=\"\" hard budget caps on pretty much everything",
@@ -283,7 +405,9 @@
     "re",
     "we"
    ],
-   "source": "blog"
+   "source": "blog",
+   "summary_zh": "主张对使用量付费的服务/API 实施硬预算上限，超出即切断并返回错误。",
+   "why_zh": "帮助 AI 工程师避免意外费用爆炸，提升服务成本的可预测性与安全性。"
   },
   "https://www.youtube.com/watch?v=sKltfHvsDQM": {
    "title": "Build faster with Ultrafast",
@@ -293,7 +417,9 @@
     "faster",
     "ultrafast"
    ],
-   "source": "youtube"
+   "source": "youtube",
+   "summary_zh": "OpenAI 推出 Ultrafast 模式，在 Codex 中构建速度比 Astra Standard 快 8 倍、比 Astra Fast 快 4 倍。",
+   "why_zh": "显著加快代码生成与实验迭代，帮助工程师快速验证想法并缩短开发周期。"
   },
   "https://www.youtube.com/watch?v=7Bv68f5szSU": {
    "title": "Meet the all new Codex Cloud",
@@ -303,7 +429,9 @@
     "codex",
     "meet"
    ],
-   "source": "youtube"
+   "source": "youtube",
+   "summary_zh": "Codex Cloud 让用户可在手机上继续 Codex 任务，创建可共享的云端开发环境（含仓库、网络、密钥）。",
+   "why_zh": "为分布式团队提供一致的开发环境，降低配置成本，提升协作与代码一致性。"
   },
   "https://www.youtube.com/shorts/4FZ5osx9W5s": {
    "title": "Build, Test, Deploy, Monitor: The Agent Development Lifecycle Explained",
@@ -318,407 +446,10 @@
     "monitor",
     "test"
    ],
-   "source": "youtube"
-  },
-  "https://arxiv.org/abs/2610.02560": {
-   "title": "An Extensive Empirical Study on Evaluation Metrics for Combinatorial Interaction Testing",
-   "date": "2026-10-05",
-   "tokens": [
-    "combinatorial",
-    "empirical",
-    "evaluation",
-    "extensive",
-    "interaction",
-    "metrics",
-    "study",
-    "testing"
-   ],
-   "source": "paper"
-  },
-  "https://arxiv.org/abs/2610.02571": {
-   "title": "Improving the Energy-Efficiency of the Code Generated by LLMs through Effective Prompting",
-   "date": "2026-10-05",
-   "tokens": [
-    "code",
-    "effective",
-    "efficiency",
-    "energy",
-    "generated",
-    "improving",
-    "llms",
-    "prompting",
-    "through"
-   ],
-   "source": "paper"
-  },
-  "https://arxiv.org/abs/2610.02617": {
-   "title": "WebUIProof: Benchmarking WebUI Code Generators with UI-Agent Execution Harness",
-   "date": "2026-10-05",
-   "tokens": [
-    "agent",
-    "benchmarking",
-    "code",
-    "execution",
-    "generators",
-    "harness",
-    "ui",
-    "webui",
-    "webuiproof"
-   ],
-   "source": "paper"
-  },
-  "https://github.com/ruc-datalab/EvoOntology": {
-   "title": "ruc-datalab/EvoOntology",
-   "date": "2026-10-05",
-   "tokens": [
-    "datalab",
-    "evoontology",
-    "ruc"
-   ],
-   "source": "github"
-  },
-  "https://github.com/sno-ai/sno-station": {
-   "title": "sno-ai/sno-station",
-   "date": "2026-10-05",
-   "tokens": [
-    "ai",
-    "sno",
-    "station"
-   ],
-   "source": "github"
-  },
-  "https://github.com/Jakeschincariol/replica-skill": {
-   "title": "Jakeschincariol/replica-skill",
-   "date": "2026-10-05",
-   "tokens": [
-    "jakeschincariol",
-    "replica",
-    "skill"
-   ],
-   "source": "github"
-  },
-  "https://github.com/KKKKhazix/AIHOT": {
-   "title": "KKKKhazix/AIHOT",
-   "date": "2026-10-05",
-   "tokens": [
-    "aihot",
-    "kkkkhazix"
-   ],
-   "source": "github"
-  },
-  "https://github.com/nanaism/yomiyasu": {
-   "title": "nanaism/yomiyasu",
-   "date": "2026-10-05",
-   "tokens": [
-    "nanaism",
-    "yomiyasu"
-   ],
-   "source": "github"
-  },
-  "https://github.com/feder-cr/dots": {
-   "title": "feder-cr/dots",
-   "date": "2026-10-05",
-   "tokens": [
-    "cr",
-    "dots",
-    "feder"
-   ],
-   "source": "github"
-  },
-  "https://arxiv.org/abs/2610.02281": {
-   "title": "The AI Risk Observatory: What Can We Learn from AI Disclosures in Annual Reports About Societal Resilience?",
-   "date": "2026-10-05",
-   "tokens": [
-    "about",
-    "ai",
-    "annual",
-    "disclosures",
-    "learn",
-    "observatory",
-    "reports",
-    "resilience",
-    "risk",
-    "societal",
-    "we"
-   ],
-   "source": "paper"
-  },
-  "https://arxiv.org/abs/2610.02300": {
-   "title": "Keep It CALM: Analyzing the Limits of Global Unsafety in Text-to-Image Generation",
-   "date": "2026-10-05",
-   "tokens": [
-    "analyzing",
-    "calm",
-    "generation",
-    "global",
-    "image",
-    "keep",
-    "limits",
-    "text",
-    "unsafety"
-   ],
-   "source": "paper"
-  },
-  "https://arxiv.org/abs/2610.02444": {
-   "title": "Counterexample Generation via Per-Theorem Symbolic Verifiers: When Imitation Hurts and Reinforcement Repairs",
-   "date": "2026-10-05",
-   "tokens": [
-    "counterexample",
-    "generation",
-    "hurts",
-    "imitation",
-    "per",
-    "reinforcement",
-    "repairs",
-    "symbolic",
-    "theorem",
-    "verifiers"
-   ],
-   "source": "paper"
-  },
-  "https://arxiv.org/abs/2610.02710": {
-   "title": "Self-Supervised Scaling of Terminal Environments for Scientific Domains",
-   "date": "2026-10-05",
-   "tokens": [
-    "domains",
-    "environments",
-    "scaling",
-    "scientific",
-    "self",
-    "supervised",
-    "terminal"
-   ],
-   "source": "paper"
-  },
-  "https://github.com/jev-chat/jev-chat-jarvis": {
-   "title": "jev-chat/jev-chat-jarvis",
-   "date": "2026-10-05",
-   "tokens": [
-    "chat",
-    "jarvis",
-    "jev"
-   ],
-   "source": "github"
-  },
-  "https://github.com/yibie/awesome-jev": {
-   "title": "yibie/awesome-jev",
-   "date": "2026-10-05",
-   "tokens": [
-    "awesome",
-    "jev",
-    "yibie"
-   ],
-   "source": "github"
-  },
-  "https://github.com/jaredpalmer/kev": {
-   "title": "jaredpalmer/kev",
-   "date": "2026-10-05",
-   "tokens": [
-    "jaredpalmer",
-    "kev"
-   ],
-   "source": "github"
-  },
-  "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise": {
-   "title": "pallavi-shekhar/ai-engineering-interview-questions-company-wise",
-   "date": "2026-10-05",
-   "tokens": [
-    "ai",
-    "company",
-    "engineering",
-    "interview",
-    "pallavi",
-    "questions",
-    "shekhar",
-    "wise"
-   ],
-   "source": "github"
-  },
-  "https://github.com/saihhold-zhao/polox_ai": {
-   "title": "saihhold-zhao/polox_ai",
-   "date": "2026-10-05",
-   "tokens": [
-    "ai",
-    "polox",
-    "saihhold",
-    "zhao"
-   ],
-   "source": "github"
-  },
-  "https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/": {
-   "title": "Introducing Quine: An AI research system designed for the complexity of biology",
-   "date": "2026-10-05",
-   "tokens": [
-    "ai",
-    "biology",
-    "complexity",
-    "designed",
-    "introducing",
-    "quine",
-    "research",
-    "system"
-   ],
-   "source": "blog"
-  },
-  "https://www.marktechpost.com/2026/10/04/gpt-6-astra-vs-gpt-6-1-sol-vs-gemini-4-argon-vs-claude-fable-5-1-which-frontier-model-fits-which-job/": {
-   "title": "GPT-6 Astra vs GPT-6.1 Sol vs Gemini 4 Argon vs Claude Fable 5.1: Which Frontier Model Fits Which Job",
-   "date": "2026-10-05",
-   "tokens": [
-    "argon",
-    "astra",
-    "claude",
-    "fable",
-    "fits",
-    "frontier",
-    "gemini",
-    "gpt",
-    "job",
-    "model",
-    "sol",
-    "vs",
-    "which"
-   ],
-   "source": "blog"
-  },
-  "https://aiera.com.cn/2026/10/05/other/admin/117017/%e6%b0%b8%e5%88%ab%e4%ba%86%ef%bc%8cgpt-5-5%ef%bc%81/": {
-   "title": "永别了，GPT-5.5！",
-   "date": "2026-10-05",
-   "tokens": [
-    "gpt",
-    "永别了"
-   ],
-   "source": "blog"
-  },
-  "https://www.youtube.com/watch?v=qwnJJMNGwgY": {
-   "title": "The BEST Jev Use Cases for AI Coding (Absolute Game Changers)",
-   "date": "2026-10-05",
-   "tokens": [
-    "absolute",
-    "ai",
-    "best",
-    "cases",
-    "changers",
-    "coding",
-    "game",
-    "jev",
-    "use"
-   ],
-   "source": "youtube"
-  },
-  "https://www.youtube.com/shorts/oFPUUFLZJHQ": {
-   "title": "Your Coding Agent Wastes SO MANY Tokens Just Finding Code - Here's the Fix",
-   "date": "2026-10-05",
-   "tokens": [
-    "agent",
-    "code",
-    "coding",
-    "finding",
-    "fix",
-    "here",
-    "just",
-    "many",
-    "so",
-    "tokens",
-    "wastes"
-   ],
-   "source": "youtube"
-  },
-  "https://www.youtube.com/watch?v=_U-O5lYhJ7Q": {
-   "title": "10 Levels of Jev For Agentic Engineers",
-   "date": "2026-10-05",
-   "tokens": [
-    "10",
-    "agentic",
-    "engineers",
-    "jev",
-    "levels"
-   ],
-   "source": "youtube"
-  },
-  "https://openai.com/index/chatham-financial": {
-   "title": "Chatham scales its capital markets expertise with OpenAI",
-   "date": "2026-10-05",
-   "tokens": [
-    "capital",
-    "chatham",
-    "expertise",
-    "markets",
-    "openai",
-    "scales"
-   ],
-   "source": "blog"
-  },
-  "https://www.latent.space/p/ainews-pi-10-pi-durable-and-aie-nyc": {
-   "title": "[AINews] Pi 1.0, Pi Durable, and AIE NYC",
-   "date": "2026-10-05",
-   "tokens": [
-    "aie",
-    "ainews",
-    "durable",
-    "nyc",
-    "pi"
-   ],
-   "source": "blog"
-  },
-  "https://www.latent.space/p/rlm": {
-   "title": "Academia is for Ambition — Alex Zhang, MIT",
-   "date": "2026-10-05",
-   "tokens": [
-    "academia",
-    "alex",
-    "ambition",
-    "mit",
-    "zhang"
-   ],
-   "source": "blog"
-  },
-  "https://www.youtube.com/watch?v=td52e2tQFIU": {
-   "title": "The Biggest AI Coding Agent Upgrade Is Already on Your Machine?!",
-   "date": "2026-10-05",
-   "tokens": [
-    "agent",
-    "ai",
-    "already",
-    "biggest",
-    "coding",
-    "machine",
-    "upgrade"
-   ],
-   "source": "youtube"
-  },
-  "https://www.youtube.com/watch?v=NZq88JAJSag": {
-   "title": "AI Coding Rate Limits are RIDICULOUS Now - Here's How You Keep Scaling Anyway",
-   "date": "2026-10-05",
-   "tokens": [
-    "ai",
-    "anyway",
-    "coding",
-    "here",
-    "keep",
-    "limits",
-    "now",
-    "rate",
-    "ridiculous",
-    "scaling"
-   ],
-   "source": "youtube"
-  },
-  "https://www.youtube.com/watch?v=3b0U4_02bAE": {
-   "title": "Self-Compact Pi Agent: ZERO HYPE Agentic Coding Devlog",
-   "date": "2026-10-05",
-   "tokens": [
-    "agent",
-    "agentic",
-    "coding",
-    "compact",
-    "devlog",
-    "hype",
-    "pi",
-    "self",
-    "zero"
-   ],
-   "source": "youtube"
+   "source": "youtube",
+   "summary_zh": "LangChain 阐述 Agent 开发生命周期四阶段：构建、测试、部署、监控，使用 Deep Agents 框架等。",
+   "why_zh": "为 AI 工程师提供完整、可落地的 Agent 工作流程指南，有助于提升项目质量与可维护性。"
   }
  },
- "updated": "2026-10-05T10:55:30.936027+00:00"
+ "updated": "2026-10-05T11:08:11.300770+00:00"
 }

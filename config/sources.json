@@ -92,9 +92,8 @@
     "hf_daily_papers": true,
     "max_items": 12,
     "arxiv_rss": [
-      { "name": "arXiv cs.AI", "url": "http://export.arxiv.org/rss/cs.AI", "weight": 1.6 },
-      { "name": "arXiv cs.CL", "url": "http://export.arxiv.org/rss/cs.CL", "weight": 1.6 },
-      { "name": "arXiv cs.SE", "url": "http://export.arxiv.org/rss/cs.SE", "weight": 1.6 }
+      { "name": "arXiv cs.AI", "url": "http://export.arxiv.org/rss/cs.AI", "weight": 1.3 },
+      { "name": "arXiv cs.CL", "url": "http://export.arxiv.org/rss/cs.CL", "weight": 1.3 }
     ],
     "arxiv_per_feed": 6
   },

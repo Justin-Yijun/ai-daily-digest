@@ -599,12 +599,19 @@ def collect_hn(cfg, now):
         )
         raw = http_get(url)
         if not raw:
+            log(f"  [warn] HN query 无响应: {q}")
             continue
         try:
             data = json.loads(raw.decode("utf-8"))
-        except Exception:  # noqa: BLE001
+        except Exception as e:  # noqa: BLE001
+            log(f"  [warn] HN query 解析失败 {q}: {e} | {raw[:200]!r}")
             continue
-        for h in data.get("hits", []):
+        hits = data.get("hits") or []
+        log(f"  [hn] {q}: {len(hits)} 条 (nbHits={data.get('nbHits')})")
+        if not hits:
+            # 空结果时把响应体打出来，方便定位是限流还是真的没数据
+            log(f"       body: {raw[:220]!r}")
+        for h in hits:
             title = h.get("title")
             oid = h.get("objectID")
             if not title or not oid or oid in seen:
@@ -671,8 +678,11 @@ def score_item(item, scoring, now):
     hay = (item["title"] + " " + item["summary"]).lower()
     if any(k.lower() in hay for k in scoring["hot_keywords"]):
         boost *= float(scoring["hot_boost"])
-    # 面试硬通货：系统设计 / 从零实现 / 深入原理类内容单独加权
-    if any(k.lower() in hay for k in scoring.get("interview_keywords", [])):
+    # 面试硬通货：系统设计 / 从零实现 / 深入原理。只对博客和视频生效，
+    # 论文不加这个加成（否则 arXiv 会被顶得过高）。
+    if item["source"] in ("blog", "youtube") and any(
+        k.lower() in hay for k in scoring.get("interview_keywords", [])
+    ):
         boost *= float(scoring.get("interview_boost", 1.0))
     base = 1.0
     ex = item.get("extra", {})
@@ -864,6 +874,12 @@ def annotate(items, state, threshold):
         if url in known:
             it["flag"] = "dup"
             it["dup_note"] = f"已于 {known[url].get('date', '?')} 推荐过"
+            # 复用上次的中文摘要，避免重复提醒段落没摘要
+            prev = known[url]
+            if prev.get("summary_zh"):
+                it["summary_zh"] = prev["summary_zh"]
+            if prev.get("why_zh"):
+                it["why_zh"] = prev["why_zh"]
             kept.append(it)
             continue
         toks = tokenize(it["title"])
@@ -1130,7 +1146,8 @@ def main():
     out_path.write_text(md, encoding="utf-8")
     log(f"[done] 已写出 {out_path}")
 
-    # 更新状态（新条目 + 提醒过的重复条目都记下，避免反复提醒）
+    # 更新状态（新条目 + 提醒过的重复条目都记下，避免反复提醒；
+    # 同时存中文摘要，下次重复推荐时直接复用，不再多花 token）
     state = load_state()
     for it in items + dups:
         state["items"][it["link"]] = {
@@ -1138,6 +1155,8 @@ def main():
             "date": date_str,
             "tokens": it.get("tokens", []),
             "source": it["source"],
+            "summary_zh": it.get("summary_zh", ""),
+            "why_zh": it.get("why_zh", ""),
         }
     save_state(state, now, int(out_cfg.get("keep_state_days", 120)))
     update_readme(DIGEST_DIR, now)
