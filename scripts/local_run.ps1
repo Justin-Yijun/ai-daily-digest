@@ -49,13 +49,25 @@ $out = & git pull --rebase --autostash $Remote main 2>&1
 $out | ForEach-Object { Log ('  pull: ' + $_) }
 if ($LASTEXITCODE -eq 0) { $Pulled = $true } else { Log 'WARN: git pull failed (proxy/VPN off?)' }
 
-# --------------------------------------------------- 2) did GitHub already do it?
-$Digest = Join-Path $Root ('digest\' + $Today + '.json')
-if ($Pulled -and (Test-Path $Digest)) {
-    Log 'OK: digest already published by GitHub Actions - nothing to do'
-    exit 0
+# No network -> we can neither verify nor push. Fail loudly so the status page
+# shows a non-zero result and the next repeat (or the user) can retry.
+if (-not $Pulled) {
+    Log 'FAIL: cannot reach GitHub (proxy/VPN off?) - turn it on and the next repeat will retry'
+    exit 1
 }
 
+# --------------------------------------------------- 2) did GitHub already do it?
+# Ask the remote tree directly: if it already carries today's digest, GitHub won.
+# (Do NOT just check the local file: a previous run may have built it locally
+#  but failed to push, and then we still need to push it.)
+$Digest = Join-Path $Root ('digest\' + $Today + '.json')
+if ($Pulled) {
+    & git cat-file -e ('FETCH_HEAD:digest/' + $Today + '.json') 2>&1 | Out-Null
+    if ($LASTEXITCODE -eq 0) {
+        Log 'OK: digest already published by GitHub Actions - nothing to do'
+        exit 0
+    }
+}
 # --------------------------------------------------- 3) collect locally
 if (Test-Path $Digest) {
     Log 'digest already built locally (previous push likely failed) - skip collection'
