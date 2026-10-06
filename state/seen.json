@@ -15,43 +15,31 @@
   },
   "https://github.com/Louis-CFM/coucou": {
    "title": "Louis-CFM/coucou",
-   "date": "2026-10-06",
-   "tokens": [
-    "cfm",
-    "coucou",
-    "louis"
-   ],
+   "date": "2026-10-07",
+   "tokens": [],
    "source": "github",
    "summary_zh": "小巧的 Mac 菜单栏 / iPhone 小组件实时监控 Claude Code 等 AI 编码代理，支持从锁屏或刘海批准。",
    "why_zh": "让工程师能即时监督并干预 AI 编码行为，提升安全与可控性。"
   },
   "https://github.com/rehan-remade/universal-modder": {
    "title": "rehan-remade/universal-modder",
-   "date": "2026-10-06",
-   "tokens": [
-    "modder",
-    "rehan",
-    "remade",
-    "universal"
-   ],
+   "date": "2026-10-07",
+   "tokens": [],
    "source": "github",
    "summary_zh": "使用 Claude Code 及 fal MCP 进行游戏逆向、资产生成、测试等全流程 MOD 制作。",
    "why_zh": "表明大模型可直接参与游戏逆向与内容创作，为工程师提供新范式。"
   },
   "https://github.com/yetone/magpie": {
    "title": "yetone/magpie",
-   "date": "2026-10-06",
-   "tokens": [
-    "magpie",
-    "yetone"
-   ],
+   "date": "2026-10-07",
+   "tokens": [],
    "source": "github",
    "summary_zh": "菜单栏工具统一管理多种 AI 代理模型，如 Codex 在 DeepSeek、Claude Code 在 Kimi 上运行。",
    "why_zh": "提供便捷切换与监控多模型代理的入口，提升开发效率。"
   },
   "https://github.com/youngyangyang04/llm-master": {
    "title": "youngyangyang04/llm-master",
-   "date": "2026-10-06",
+   "date": "2026-10-07",
    "tokens": [],
    "source": "github",
    "summary_zh": "提供覆盖 Prompt Engineering 到模型部署等全栈 LLM 学习路线的中文教程。",
@@ -168,18 +156,15 @@
   },
   "https://github.com/edenfunf/reelmimic": {
    "title": "edenfunf/reelmimic",
-   "date": "2026-10-06",
-   "tokens": [
-    "edenfunf",
-    "reelmimic"
-   ],
+   "date": "2026-10-07",
+   "tokens": [],
    "source": "github",
    "summary_zh": "用户提供喜欢视频，AI 团队（Claude Code 或 Codex）规划、构建并审查生成同风格新视频。",
    "why_zh": "展示 AI 代理协作进行视频风格迁移，降低创作门槛。"
   },
   "https://github.com/qiz029/dscode": {
    "title": "qiz029/dscode",
-   "date": "2026-10-06",
+   "date": "2026-10-07",
    "tokens": [],
    "source": "github",
    "summary_zh": "",
@@ -1025,7 +1010,209 @@
    "source": "youtube",
    "summary_zh": "Deep Agents 中的 Skill 实际上是可按需加载的共享 Prompt，采用渐进式披露，Agent 在需要时获取技能，其余时间保持 Prompt 简洁。",
    "why_zh": "这一模式降低上下文冗余，提升 Agent 效率和可复用性，对构建可扩展 AI 系统有重要启示。"
+  },
+  "https://github.com/deepseek-ai/deepseek-harness": {
+   "title": "deepseek-ai/deepseek-harness",
+   "date": "2026-10-07",
+   "tokens": [
+    "ai",
+    "deepseek",
+    "harness"
+   ],
+   "source": "github",
+   "summary_zh": "DeepSeek Harness 框架将所有功能插件化，提供统一插件接口。",
+   "why_zh": "为工程师提供灵活可扩展的 Agent 构建基础，降低插件开发门槛。"
+  },
+  "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin": {
+   "title": "awesome-dsh-plugin/awesome-dsh-plugin",
+   "date": "2026-10-07",
+   "tokens": [
+    "awesome",
+    "dsh",
+    "plugin"
+   ],
+   "source": "github",
+   "summary_zh": "收录 DeepSeek Harness 生态的插件资源，提供分类索引与使用示例。",
+   "why_zh": "帮助开发者快速查找和复用社区插件，加速基于 DSH 的 Agent 开发。"
+  },
+  "https://github.com/yc-software/qm": {
+   "title": "yc-software/qm",
+   "date": "2026-10-07",
+   "tokens": [
+    "qm",
+    "software",
+    "yc"
+   ],
+   "source": "github",
+   "summary_zh": "提供多智能体协作的工作流引擎，支持实时交互与任务分配。",
+   "why_zh": "适用于需要多人协同的 AI Agent 场景，降低多智能体系统构建复杂度。"
+  },
+  "https://github.com/truefoundry/trueforge": {
+   "title": "truefoundry/trueforge",
+   "date": "2026-10-07",
+   "tokens": [
+    "trueforge",
+    "truefoundry"
+   ],
+   "source": "github",
+   "summary_zh": "TrueForge 提供开源 Agent 运行时，把 LLM 包装成可执行的智能体。",
+   "why_zh": "帮助工程师快速构建可生产的 LLM Agent，减少底层基础设施工作。"
+  },
+  "https://github.com/cclank/lanshu-create-ai-presenter-video": {
+   "title": "cclank/lanshu-create-ai-presenter-video",
+   "date": "2026-10-07",
+   "tokens": [
+    "ai",
+    "cclank",
+    "create",
+    "lanshu",
+    "presenter",
+    "video"
+   ],
+   "source": "github",
+   "summary_zh": "提供与厂商无关的 Codex 技能，从脚本和授权人物图像生成可验证的 AI 主讲视频。",
+   "why_zh": "让开发者可统一接口生成合规 AI 讲解视频，避免供应商锁定。"
+  },
+  "https://github.com/yetone/cumora": {
+   "title": "yetone/cumora",
+   "date": "2026-10-07",
+   "tokens": [
+    "cumora",
+    "yetone"
+   ],
+   "source": "github",
+   "summary_zh": "提供跨平台的 AI Agent 团队聊天工具，支持云端或自带 Claude Code/Codex 大脑。",
+   "why_zh": "让多个 AI Agent 能像队友一样协作，降低多智能体系统的沟通成本。"
+  },
+  "https://huggingface.co/papers/2610.05750": {
+   "title": "Beyond Semantic Similarity: Performance and Costs of Agentic Retrieval for Complex Tasks",
+   "date": "2026-10-07",
+   "tokens": [
+    "agentic",
+    "beyond",
+    "complex",
+    "costs",
+    "performance",
+    "retrieval",
+    "semantic",
+    "similarity",
+    "tasks"
+   ],
+   "source": "paper",
+   "summary_zh": "提出结合LLM推理的agentic检索方法，以应对复杂任务中的稠密检索不足。",
+   "why_zh": "为工程师提供提升检索准确率和成本分析的新思路。"
+  },
+  "https://huggingface.co/papers/2610.05790": {
+   "title": "FairRSFM: A Biome-Aware Benchmark and Debiasing Framework for Remote Sensing Foundation Models",
+   "date": "2026-10-07",
+   "tokens": [
+    "aware",
+    "benchmark",
+    "biome",
+    "debiasing",
+    "fairrsfm",
+    "foundation",
+    "framework",
+    "models",
+    "remote",
+    "sensing"
+   ],
+   "source": "paper",
+   "summary_zh": "提出基于生物群的RSFM基准FairRSFM，揭示不同生态区域性能差异并提供去偏框架。",
+   "why_zh": "帮助工程师评估和改进遥感基础模型在各生态群上的公平性与鲁棒性。"
+  },
+  "https://www.youtube.com/watch?v=5kTFyEOgark": {
+   "title": "How to Build a Model Router in the Harness",
+   "date": "2026-10-07",
+   "tokens": [
+    "build",
+    "harness",
+    "model",
+    "router"
+   ],
+   "source": "youtube",
+   "summary_zh": "介绍LangChain团构建模型路由器的四步骤：任务混合映射、Pareto前沿模型选择、在harness中构建路由、追踪结果。",
+   "why_zh": "为工程师提供可落地的模型选择与路由实践，可提升推理成本效益。"
+  },
+  "https://www.youtube.com/watch?v=KAITWbHLSSE": {
+   "title": "Add Web Search to Managed Deep Agents for free with One MCP Config",
+   "date": "2026-10-07",
+   "tokens": [
+    "add",
+    "agents",
+    "config",
+    "deep",
+    "free",
+    "managed",
+    "mcp",
+    "one",
+    "search",
+    "web"
+   ],
+   "source": "youtube",
+   "summary_zh": "通过单个MCP配置免费为LangChain托管深度代理添加网页搜索功能，无需额外认证。",
+   "why_zh": "让工程师能快速扩展代理能力，利用内置搜索提升任务解答覆盖率。"
+  },
+  "https://www.youtube.com/watch?v=vKjnZAcimss": {
+   "title": "Holo4: A Model That Clicks, Codes and Calls Tools",
+   "date": "2026-10-07",
+   "tokens": [
+    "calls",
+    "clicks",
+    "codes",
+    "holo4",
+    "model",
+    "tools"
+   ],
+   "source": "youtube",
+   "summary_zh": "介绍开放权重模型Holo4，能够点击GUI、编写运行代码并调用MCP工具，自动选择合适工具。",
+   "why_zh": "展示多模态工具使用能力，为工程师提供可直接操作GUI与代码的通用Agent范例。"
+  },
+  "https://www.latent.space/p/ainews-pi-10-pi-durable-and-aie-nyc": {
+   "title": "[AINews] Pi 1.0, Pi Durable, and AIE NYC",
+   "date": "2026-10-07",
+   "tokens": [
+    "aie",
+    "ainews",
+    "durable",
+    "nyc",
+    "pi"
+   ],
+   "source": "blog",
+   "summary_zh": "Pi 1.0及其Durable版本发布，最小化harness稳定并支持TypeScript。",
+   "why_zh": "为工程师提供更稳定、类型安全的AI开发框架，便于在项目中引入Pi及其扩展。"
+  },
+  "https://www.latent.space/p/rlm": {
+   "title": "Academia is for Ambition — Alex Zhang, MIT",
+   "date": "2026-10-07",
+   "tokens": [
+    "academia",
+    "alex",
+    "ambition",
+    "mit",
+    "zhang"
+   ],
+   "source": "blog",
+   "summary_zh": "采访 MIT 博士 Alex Zhang，谈 RLM 首作、Jev、PhD masxing 及未来 harnesses 方向。",
+   "why_zh": "揭示顶尖学术研究在大模型与检索增强方面的最新思路，对工程师有启发。"
+  },
+  "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/": {
+   "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+   "date": "2026-10-07",
+   "tokens": [
+    "accelerate",
+    "astra",
+    "gpt",
+    "gpus",
+    "help",
+    "nvidia",
+    "openai",
+    "ultrafast"
+   ],
+   "source": "blog",
+   "summary_zh": "GPT-6 Astra Ultrafast 在 NVIDIA Blackwell GPU 上运行，提供最高 8 倍更快的 token 生成。",
+   "why_zh": "展示最新推理加速技术及可用 API，帮助工程师提升模型部署效率。"
   }
  },
- "updated": "2026-10-06T12:30:25.857308+00:00"
+ "updated": "2026-10-06T18:00:37.316332+00:00"
 }

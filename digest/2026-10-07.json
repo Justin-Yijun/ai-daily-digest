@@ -1,0 +1,543 @@
+{
+ "date": "2026-10-07",
+ "generated": "2026-10-07 02:00",
+ "source_count": {
+  "github": 59,
+  "youtube": 37,
+  "blog": 87,
+  "paper": 12,
+  "hackernews": 10
+ },
+ "failures": {
+  "importai.substack.com": 1
+ },
+ "items": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "deepseek-ai/deepseek-harness",
+   "link": "https://github.com/deepseek-ai/deepseek-harness",
+   "dt": "2026-08-13T11:56:32+00:00",
+   "summary": "DeepSeek Harness: Everything is a Plugin.",
+   "extra": {
+    "stars": 244517,
+    "language": "TypeScript",
+    "topics": [
+     "ai-agents",
+     "cordis",
+     "dsh",
+     "dsh-plugin"
+    ],
+    "created": "2026-08-13",
+    "pushed": "2026-10-03"
+   },
+   "score": 2.916,
+   "tokens": [
+    "ai",
+    "deepseek",
+    "harness"
+   ],
+   "flag": "new",
+   "summary_zh": "DeepSeek Harness 框架将所有功能插件化，提供统一插件接口。",
+   "why_zh": "为工程师提供灵活可扩展的 Agent 构建基础，降低插件开发门槛。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "awesome-dsh-plugin/awesome-dsh-plugin",
+   "link": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
+   "dt": "2026-08-13T13:55:31+00:00",
+   "summary": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
+   "extra": {
+    "stars": 17910,
+    "language": "JavaScript",
+    "topics": [
+     "awesome",
+     "awesome-list",
+     "deepseek-harness",
+     "dsh",
+     "dsh-plugin"
+    ],
+    "created": "2026-08-13",
+    "pushed": "2026-10-05"
+   },
+   "score": 2.916,
+   "tokens": [
+    "awesome",
+    "dsh",
+    "plugin"
+   ],
+   "flag": "new",
+   "summary_zh": "收录 DeepSeek Harness 生态的插件资源，提供分类索引与使用示例。",
+   "why_zh": "帮助开发者快速查找和复用社区插件，加速基于 DSH 的 Agent 开发。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "yc-software/qm",
+   "link": "https://github.com/yc-software/qm",
+   "dt": "2026-07-29T20:03:08+00:00",
+   "summary": "Multiplayer agent harness for work.",
+   "extra": {
+    "stars": 15351,
+    "language": "TypeScript",
+    "topics": [
+     "ai",
+     "assistant",
+     "harness",
+     "qm"
+    ],
+    "created": "2026-07-29",
+    "pushed": "2026-10-06"
+   },
+   "score": 2.916,
+   "tokens": [
+    "qm",
+    "software",
+    "yc"
+   ],
+   "flag": "new",
+   "summary_zh": "提供多智能体协作的工作流引擎，支持实时交互与任务分配。",
+   "why_zh": "适用于需要多人协同的 AI Agent 场景，降低多智能体系统构建复杂度。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "truefoundry/trueforge",
+   "link": "https://github.com/truefoundry/trueforge",
+   "dt": "2026-07-23T09:16:13+00:00",
+   "summary": "The open-source agent harness - the runtime layer that turns an LLM into a working agent.",
+   "extra": {
+    "stars": 6071,
+    "language": "TypeScript",
+    "topics": [
+     "agent",
+     "agentic-ai",
+     "agents",
+     "harness",
+     "harness-engineering"
+    ],
+    "created": "2026-07-23",
+    "pushed": "2026-10-06"
+   },
+   "score": 2.916,
+   "tokens": [
+    "trueforge",
+    "truefoundry"
+   ],
+   "flag": "new",
+   "summary_zh": "TrueForge 提供开源 Agent 运行时，把 LLM 包装成可执行的智能体。",
+   "why_zh": "帮助工程师快速构建可生产的 LLM Agent，减少底层基础设施工作。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "cclank/lanshu-create-ai-presenter-video",
+   "link": "https://github.com/cclank/lanshu-create-ai-presenter-video",
+   "dt": "2026-08-20T13:40:06+00:00",
+   "summary": "Provider-neutral Codex Skill for producing verified AI presenter videos from a script and an authorized presenter image.",
+   "extra": {
+    "stars": 2197,
+    "language": "HTML",
+    "topics": [
+     "ai-video",
+     "codex",
+     "codex-skill",
+     "digital-human",
+     "video-generation"
+    ],
+    "created": "2026-08-20",
+    "pushed": "2026-10-06"
+   },
+   "score": 2.916,
+   "tokens": [
+    "ai",
+    "cclank",
+    "create",
+    "lanshu",
+    "presenter",
+    "video"
+   ],
+   "flag": "new",
+   "summary_zh": "提供与厂商无关的 Codex 技能，从脚本和授权人物图像生成可验证的 AI 主讲视频。",
+   "why_zh": "让开发者可统一接口生成合规 AI 讲解视频，避免供应商锁定。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "yetone/cumora",
+   "link": "https://github.com/yetone/cumora",
+   "dt": "2026-08-17T09:13:52+00:00",
+   "summary": "Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains.",
+   "extra": {
+    "stars": 3937,
+    "language": "TypeScript",
+    "topics": [],
+    "created": "2026-08-17",
+    "pushed": "2026-10-06"
+   },
+   "score": 2.916,
+   "tokens": [
+    "cumora",
+    "yetone"
+   ],
+   "flag": "new",
+   "summary_zh": "提供跨平台的 AI Agent 团队聊天工具，支持云端或自带 Claude Code/Codex 大脑。",
+   "why_zh": "让多个 AI Agent 能像队友一样协作，降低多智能体系统的沟通成本。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Beyond Semantic Similarity: Performance and Costs of Agentic Retrieval for Complex Tasks",
+   "link": "https://huggingface.co/papers/2610.05750",
+   "dt": "2026-10-04T20:00:00+00:00",
+   "summary": "Modern information systems, including many agentic workflows, use dense retrieval to explore large amounts of unstructured data. However, dense retrieval relies on surface-level semantic similarity, which is insufficient for increasingly complex search applications. Here, we investigate agentic retrieval that combines the reasoning capabilities of Large Language Models (LLMs) with the efficient corpus exploration of retrievers in a ReAct agentic loop to solve complex retrieval tasks. In our expe",
+   "extra": {
+    "upvotes": 1,
+    "arxiv": "https://arxiv.org/abs/2610.05750"
+   },
+   "score": 2.565,
+   "tokens": [
+    "agentic",
+    "beyond",
+    "complex",
+    "costs",
+    "performance",
+    "retrieval",
+    "semantic",
+    "similarity",
+    "tasks"
+   ],
+   "flag": "new",
+   "summary_zh": "提出结合LLM推理的agentic检索方法，以应对复杂任务中的稠密检索不足。",
+   "why_zh": "为工程师提供提升检索准确率和成本分析的新思路。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "FairRSFM: A Biome-Aware Benchmark and Debiasing Framework for Remote Sensing Foundation Models",
+   "link": "https://huggingface.co/papers/2610.05790",
+   "dt": "2026-10-04T20:00:00+00:00",
+   "summary": "Remote sensing foundation models (RSFMs) are commonly evaluated using aggregate metrics, which can hide systematic performance disparities across ecological regions. We introduce FairRSFM, a biome-aware benchmark for evaluating ecological group robustness in RSFMs. FairRSFM maps georeferenced samples from 14 terrestrial biome classes into six ecologically meaningful macro-groups and evaluates models under a unified frozen-backbone evaluation protocol. The benchmark covers four downstream dataset",
+   "extra": {
+    "upvotes": 1,
+    "arxiv": "https://arxiv.org/abs/2610.05790"
+   },
+   "score": 2.565,
+   "tokens": [
+    "aware",
+    "benchmark",
+    "biome",
+    "debiasing",
+    "fairrsfm",
+    "foundation",
+    "framework",
+    "models",
+    "remote",
+    "sensing"
+   ],
+   "flag": "new",
+   "summary_zh": "提出基于生物群的RSFM基准FairRSFM，揭示不同生态区域性能差异并提供去偏框架。",
+   "why_zh": "帮助工程师评估和改进遥感基础模型在各生态群上的公平性与鲁棒性。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "How to Build a Model Router in the Harness",
+   "link": "https://www.youtube.com/watch?v=5kTFyEOgark",
+   "dt": "2026-10-06T16:31:25+00:00",
+   "summary": "Sydney Runkle, product manager for LangChain's open source team, walks through how the team built a model router into Open SWE, LangChain's open source coding agent. She covers the four steps: mapping the task mix from LangSmith traces, picking models along the Pareto frontier, building the router in the harness, and tracking outcomes. In an A/B test against always using the performance model, the router cut median cost per thread by 64% with no measurable change in quality. Chapters: 0:00 Front…",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": "5kTFyEOgark"
+   },
+   "score": 1.823,
+   "tokens": [
+    "build",
+    "harness",
+    "model",
+    "router"
+   ],
+   "flag": "new",
+   "summary_zh": "介绍LangChain团构建模型路由器的四步骤：任务混合映射、Pareto前沿模型选择、在harness中构建路由、追踪结果。",
+   "why_zh": "为工程师提供可落地的模型选择与路由实践，可提升推理成本效益。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "Add Web Search to Managed Deep Agents for free with One MCP Config",
+   "link": "https://www.youtube.com/watch?v=KAITWbHLSSE",
+   "dt": "2026-10-06T15:52:50+00:00",
+   "summary": "Nathan Drezner, PM at LangChain, shows how to add web search to a managed deep agent. LangSmith includes built-in search powered by Parallel, so it takes one MCP connection with no extra authentication. He asks a research agent a question its internal docs can't fully answer, adds the search server, then deploys to LangSmith and inspects the search tool calls in LangSmith Studio. Chapters: 0:00 Why give your managed deep agent web search 0:21 Start from the docs 0:38 A research agent limited to …",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": "KAITWbHLSSE"
+   },
+   "score": 1.215,
+   "tokens": [
+    "add",
+    "agents",
+    "config",
+    "deep",
+    "free",
+    "managed",
+    "mcp",
+    "one",
+    "search",
+    "web"
+   ],
+   "flag": "new",
+   "summary_zh": "通过单个MCP配置免费为LangChain托管深度代理添加网页搜索功能，无需额外认证。",
+   "why_zh": "让工程师能快速扩展代理能力，利用内置搜索提升任务解答覆盖率。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Sam Witteveen",
+   "title": "Holo4: A Model That Clicks, Codes and Calls Tools",
+   "link": "https://www.youtube.com/watch?v=vKjnZAcimss",
+   "dt": "2026-10-06T14:10:32+00:00",
+   "summary": "How one open-weight model click through a GUI, write and run code, and call MCP tools, and also work out which one to use at each step. Thats Holo4 Thanks to Dell for Sponsoring the Compute #NVIDIA #DellProPrecision #DellProMax Holo4 Blog: https://hcompany.ai/newsroom/holo4 Holo4 27B: https://huggingface.co/Hcompany/Holo4-27B Holo4 35B-A3B: https://huggingface.co/Hcompany/Holo4-35B-A3B Holotron4 Nano: https://huggingface.co/Hcompany/Holotron4-30B-A3B Trajectory Viewer: https://trajectories.hcomp…",
+   "extra": {
+    "channel": "Sam Witteveen",
+    "video_id": "vKjnZAcimss"
+   },
+   "score": 1.215,
+   "tokens": [
+    "calls",
+    "clicks",
+    "codes",
+    "holo4",
+    "model",
+    "tools"
+   ],
+   "flag": "new",
+   "summary_zh": "介绍开放权重模型Holo4，能够点击GUI、编写运行代码并调用MCP工具，自动选择合适工具。",
+   "why_zh": "展示多模态工具使用能力，为工程师提供可直接操作GUI与代码的通用Agent范例。"
+  },
+  {
+   "source": "blog",
+   "source_label": "Latent Space",
+   "title": "[AINews] Pi 1.0, Pi Durable, and AIE NYC",
+   "link": "https://www.latent.space/p/ainews-pi-10-pi-durable-and-aie-nyc",
+   "dt": "2026-10-02T06:40:53+00:00",
+   "summary": "the minimalist harness goes stable... and TypeScript!",
+   "extra": {},
+   "score": 1.033,
+   "tokens": [
+    "aie",
+    "ainews",
+    "durable",
+    "nyc",
+    "pi"
+   ],
+   "flag": "new",
+   "summary_zh": "Pi 1.0及其Durable版本发布，最小化harness稳定并支持TypeScript。",
+   "why_zh": "为工程师提供更稳定、类型安全的AI开发框架，便于在项目中引入Pi及其扩展。"
+  },
+  {
+   "source": "blog",
+   "source_label": "Latent Space",
+   "title": "Academia is for Ambition — Alex Zhang, MIT",
+   "link": "https://www.latent.space/p/rlm",
+   "dt": "2026-10-02T00:28:04+00:00",
+   "summary": "We catch up with RLM first author Alex Zhang, MIT PhD, on Jev, PhD masxing, and the future of harnesses.",
+   "extra": {},
+   "score": 1.033,
+   "tokens": [
+    "academia",
+    "alex",
+    "ambition",
+    "mit",
+    "zhang"
+   ],
+   "flag": "new",
+   "summary_zh": "采访 MIT 博士 Alex Zhang，谈 RLM 首作、Jev、PhD masxing 及未来 harnesses 方向。",
+   "why_zh": "揭示顶尖学术研究在大模型与检索增强方面的最新思路，对工程师有启发。"
+  },
+  {
+   "source": "blog",
+   "source_label": "NVIDIA 技术博客",
+   "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+   "link": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
+   "dt": "2026-10-01T23:44:13+00:00",
+   "summary": "GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x faster token generation than the Astra Standard mode. For developers, […]",
+   "extra": {},
+   "score": 1.033,
+   "tokens": [
+    "accelerate",
+    "astra",
+    "gpt",
+    "gpus",
+    "help",
+    "nvidia",
+    "openai",
+    "ultrafast"
+   ],
+   "flag": "new",
+   "summary_zh": "GPT-6 Astra Ultrafast 在 NVIDIA Blackwell GPU 上运行，提供最高 8 倍更快的 token 生成。",
+   "why_zh": "展示最新推理加速技术及可用 API，帮助工程师提升模型部署效率。"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "edenfunf/reelmimic",
+   "link": "https://github.com/edenfunf/reelmimic",
+   "dt": "2026-09-28T19:14:59+00:00",
+   "summary": "Show it a video you love. Get a new video in the same style. An AI crew (Claude Code or Codex) plans, builds and reviews it with you.",
+   "extra": {
+    "stars": 1492,
+    "language": "JavaScript",
+    "topics": [
+     "2d-animation",
+     "ai-agents",
+     "ai-video",
+     "animation",
+     "claude-code",
+     "codex"
+    ],
+    "created": "2026-09-28",
+    "pushed": "2026-10-06"
+   },
+   "score": 4.374,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-06 推荐过",
+   "summary_zh": "用户提供喜欢视频，AI 团队（Claude Code 或 Codex）规划、构建并审查生成同风格新视频。",
+   "why_zh": "展示 AI 代理协作进行视频风格迁移，降低创作门槛。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "rehan-remade/universal-modder",
+   "link": "https://github.com/rehan-remade/universal-modder",
+   "dt": "2026-09-30T05:00:35+00:00",
+   "summary": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
+   "extra": {
+    "stars": 4424,
+    "language": "Python",
+    "topics": [
+     "age-of-empires",
+     "claude-code",
+     "claude-code-plugin",
+     "fal",
+     "game-assets",
+     "game-modding"
+    ],
+    "created": "2026-09-30",
+    "pushed": "2026-10-06"
+   },
+   "score": 4.374,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-06 推荐过",
+   "summary_zh": "使用 Claude Code 及 fal MCP 进行游戏逆向、资产生成、测试等全流程 MOD 制作。",
+   "why_zh": "表明大模型可直接参与游戏逆向与内容创作，为工程师提供新范式。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "yetone/magpie",
+   "link": "https://github.com/yetone/magpie",
+   "dt": "2026-09-23T16:22:35+00:00",
+   "summary": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+   "extra": {
+    "stars": 5436,
+    "language": "Go",
+    "topics": [
+     "claude-code",
+     "codex",
+     "deepseek",
+     "gemini-cli",
+     "llm",
+     "macos"
+    ],
+    "created": "2026-09-23",
+    "pushed": "2026-10-06"
+   },
+   "score": 4.131,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-06 推荐过",
+   "summary_zh": "菜单栏工具统一管理多种 AI 代理模型，如 Codex 在 DeepSeek、Claude Code 在 Kimi 上运行。",
+   "why_zh": "提供便捷切换与监控多模型代理的入口，提升开发效率。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Louis-CFM/coucou",
+   "link": "https://github.com/Louis-CFM/coucou",
+   "dt": "2026-09-27T21:54:12+00:00",
+   "summary": "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen.",
+   "extra": {
+    "stars": 3809,
+    "language": "Swift",
+    "topics": [
+     "ai-agents",
+     "anthropic",
+     "antigravity",
+     "claude",
+     "claude-code",
+     "codex"
+    ],
+    "created": "2026-09-27",
+    "pushed": "2026-10-06"
+   },
+   "score": 4.131,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-06 推荐过",
+   "summary_zh": "小巧的 Mac 菜单栏 / iPhone 小组件实时监控 Claude Code 等 AI 编码代理，支持从锁屏或刘海批准。",
+   "why_zh": "让工程师能即时监督并干预 AI 编码行为，提升安全与可控性。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "youngyangyang04/llm-master",
+   "link": "https://github.com/youngyangyang04/llm-master",
+   "dt": "2026-09-12T07:33:31+00:00",
+   "summary": "大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。",
+   "extra": {
+    "stars": 1091,
+    "language": "",
+    "topics": [
+     "agent",
+     "large-language-models",
+     "llm",
+     "llm-learning",
+     "llm-tutorial",
+     "rag"
+    ],
+    "created": "2026-09-12",
+    "pushed": "2026-10-05"
+   },
+   "score": 4.131,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-06 推荐过",
+   "summary_zh": "提供覆盖 Prompt Engineering 到模型部署等全栈 LLM 学习路线的中文教程。",
+   "why_zh": "对 AI 工程师系统掌握 LLM 技术栈和面试准备极具参考价值。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "qiz029/dscode",
+   "link": "https://github.com/qiz029/dscode",
+   "dt": "2026-09-11T09:40:02+00:00",
+   "summary": "A DeepSeek coding agent harness: persistent shell, Ultra subagents, auto approval, Chrome MCP and session telemetry",
+   "extra": {
+    "stars": 1020,
+    "language": "JavaScript",
+    "topics": [
+     "agentic",
+     "ai-agent",
+     "cli",
+     "code-review",
+     "coding-agent",
+     "deepseek"
+    ],
+    "created": "2026-09-11",
+    "pushed": "2026-10-03"
+   },
+   "score": 4.131,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-06 推荐过"
+  }
+ ]
+}
