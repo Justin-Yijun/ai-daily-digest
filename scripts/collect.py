@@ -856,21 +856,29 @@ def save_state(state, now, keep_days):
     )
 
 
-def annotate(items, state, threshold):
-    """标注 new / dup / similar，并做批内去重。"""
+def annotate(items, state, threshold, today=""):
+    """标注 new / dup / similar，并做批内去重。
+
+    today: 当天日期（CST）。同一天重跑时，state 里已有当天条目，
+    但它们不算「重复提醒」——否则重跑一次就会把整期都标成重复。
+    """
     known = state.get("items", {})
+    # 只看历史其他日期的记录：当天重跑不算「重复」
+    known_prev = {
+        u: r for u, r in known.items() if not today or r.get("date") != today
+    }
     known_tokens = [
         (u, set(r.get("tokens") or []), r.get("title", ""), r.get("date", ""))
-        for u, r in known.items()
+        for u, r in known_prev.items()
     ]
     kept, seen_today = [], []
     for it in sorted(items, key=lambda x: x.get("score", 0), reverse=True):
         url = it["link"]
-        if url in known:
+        if url in known_prev:
             it["flag"] = "dup"
-            it["dup_note"] = f"已于 {known[url].get('date', '?')} 推荐过"
+            it["dup_note"] = f"已于 {known_prev[url].get('date', '?')} 推荐过"
             # 复用上次的中文摘要，避免重复提醒段落没摘要
-            prev = known[url]
+            prev = known_prev[url]
             if prev.get("summary_zh"):
                 it["summary_zh"] = prev["summary_zh"]
             if prev.get("why_zh"):
@@ -1137,7 +1145,9 @@ def main():
         it["score"] = score_item(it, cfg["scoring"], now)
     # 去重 + 相似
     out_cfg = cfg["output"]
-    all_items = annotate(items, load_state(), float(out_cfg.get("similarity_threshold", 0.6)))
+    all_items = annotate(
+        items, load_state(), float(out_cfg.get("similarity_threshold", 0.6)), date_str
+    )
     all_items.sort(key=lambda x: x["score"], reverse=True)
 
     # 主列表只放「新」内容；重复/相似的单独列出提醒

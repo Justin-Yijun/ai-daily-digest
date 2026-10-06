@@ -16,26 +16,38 @@
   "https://github.com/Louis-CFM/coucou": {
    "title": "Louis-CFM/coucou",
    "date": "2026-10-06",
-   "tokens": [],
+   "tokens": [
+    "cfm",
+    "coucou",
+    "louis"
+   ],
    "source": "github",
-   "summary_zh": "一个小工具居住在系统栏，实时监控 Claude Code 等编码代理的状态。",
-   "why_zh": "让开发者一眼看到多代理运行情况，提升调度与调试便利。"
+   "summary_zh": "小巧的 Mac 菜单栏 / iPhone 小组件实时监控 Claude Code 等 AI 编码代理，支持从锁屏或刘海批准。",
+   "why_zh": "让工程师能即时监督并干预 AI 编码行为，提升安全与可控性。"
   },
   "https://github.com/rehan-remade/universal-modder": {
    "title": "rehan-remade/universal-modder",
    "date": "2026-10-06",
-   "tokens": [],
+   "tokens": [
+    "modder",
+    "rehan",
+    "remade",
+    "universal"
+   ],
    "source": "github",
-   "summary_zh": "使 Claude Code 能够通过技能、工具和 fal MCP 对任意 PC 游戏进行逆向、生成资产和测试。",
-   "why_zh": "为游戏 MOD 开发提供 AI 辅助流程，大幅降低逆向和内容创作门槛。"
+   "summary_zh": "使用 Claude Code 及 fal MCP 进行游戏逆向、资产生成、测试等全流程 MOD 制作。",
+   "why_zh": "表明大模型可直接参与游戏逆向与内容创作，为工程师提供新范式。"
   },
   "https://github.com/yetone/magpie": {
    "title": "yetone/magpie",
    "date": "2026-10-06",
-   "tokens": [],
+   "tokens": [
+    "magpie",
+    "yetone"
+   ],
    "source": "github",
-   "summary_zh": "菜单栏工具统一管理多种代理模型，如 Codex 在 DeepSeek、Claude Code 在 Kimi 上运行。",
-   "why_zh": "让开发者快速切换和比较不同后端模型，提升实验效率。"
+   "summary_zh": "菜单栏工具统一管理多种 AI 代理模型，如 Codex 在 DeepSeek、Claude Code 在 Kimi 上运行。",
+   "why_zh": "提供便捷切换与监控多模型代理的入口，提升开发效率。"
   },
   "https://github.com/youngyangyang04/llm-master": {
    "title": "youngyangyang04/llm-master",
@@ -46,12 +58,23 @@
    "why_zh": "对 AI 工程师系统掌握 LLM 技术栈和面试准备极具参考价值。"
   },
   "https://github.com/Niko1221/Strata": {
-   "title": "Niko1221/Strata",
+   "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
    "date": "2026-10-06",
-   "tokens": [],
-   "source": "github",
-   "summary_zh": "在消费级 RTX 4090 上运行 125B 参数的 Qwen 3.8 Flash Next，达到 100T/s 推理速度。",
-   "why_zh": "展示大模型在单卡消费硬件上的高效推理可能性，为本地部署提供参考。"
+   "tokens": [
+    "100t",
+    "125b",
+    "4090",
+    "consumer",
+    "flash",
+    "hardware",
+    "next",
+    "qwen",
+    "rtx",
+    "run"
+   ],
+   "source": "hackernews",
+   "summary_zh": "在消费级 RTX 4090 上运行 125B 参数的 Qwen 3.8 Flash Next，达到每秒 100 Token。",
+   "why_zh": "表明大模型可在单卡消费级硬件上实现高吞吐，降低部署成本。"
   },
   "https://arxiv.org/abs/2610.02267": {
    "title": "Fast Models, Slow Evidence: A Paired and Self-Audited Evaluation of System-1 Decision Models for LLM Agent Harnesses",
@@ -97,85 +120,48 @@
   },
   "https://www.langchain.com/blog/how-to-build-a-model-router-in-the-harness": {
    "title": "How to Build a Model Router in the Harness",
-   "date": "2026-10-05",
-   "tokens": [
-    "build",
-    "harness",
-    "model",
-    "router"
-   ],
+   "date": "2026-10-06",
+   "tokens": [],
    "source": "blog",
    "summary_zh": "介绍在 Open SWE harness 中构建模型路由器，使每个编码任务的中位成本降低 64%，质量无显著下降，并给出构建指南。",
    "why_zh": "为工程师提供可复用的低成本模型选择方案，易于集成到现有 agent 框架。"
   },
   "https://www.youtube.com/watch?v=950byF7njfw": {
    "title": "Interrupt NYC: Opening Keynote",
-   "date": "2026-10-05",
-   "tokens": [
-    "interrupt",
-    "keynote",
-    "nyc",
-    "opening"
-   ],
+   "date": "2026-10-06",
+   "tokens": [],
    "source": "youtube",
    "summary_zh": "Harrison Chase 以 Rogo、Harvey、JPMorgan 等案例阐述“拥有你的智能”，强调开放模型中立 harness、学习循环与内部治理三大支柱。",
    "why_zh": "为 AI 工程师提供构建可控、可演进的 domain‑specific agent 系统的架构思路。"
   },
   "https://lilianweng.github.io/posts/2026-07-04-harness/": {
    "title": "Harness Engineering for Self-Improvement",
-   "date": "2026-10-05",
-   "tokens": [
-    "engineering",
-    "harness",
-    "improvement",
-    "self"
-   ],
+   "date": "2026-10-06",
+   "tokens": [],
    "source": "blog",
    "summary_zh": "回顾递归自我改进概念，阐述 AI 利用自身智能改善认知机制的反馈循环，并讨论其实现路径与挑战。",
    "why_zh": "帮助工程师理解并设计具备自我优化能力的 agent 系统，推动长期性能提升。"
   },
   "https://www.anthropic.com/engineering/april-23-postmortem": {
    "title": "An update on recent Claude Code quality reports",
-   "date": "2026-10-05",
-   "tokens": [
-    "claude",
-    "code",
-    "quality",
-    "recent",
-    "reports",
-    "update"
-   ],
+   "date": "2026-10-06",
+   "tokens": [],
    "source": "blog",
    "summary_zh": "Anthropic 发布 Claude Code 最新质量报告更新，说明模型在代码生成任务中的表现与改进方向。",
    "why_zh": "为依赖 Claude Code 进行编码的工程师提供最新基准与质量保障信息。"
   },
   "https://www.youtube.com/watch?v=WeiB_gLOdQE": {
    "title": "Vercel CEO reveals his Agentic Engineering Workflow",
-   "date": "2026-10-05",
-   "tokens": [
-    "agentic",
-    "ceo",
-    "engineering",
-    "his",
-    "reveals",
-    "vercel",
-    "workflow"
-   ],
+   "date": "2026-10-06",
+   "tokens": [],
    "source": "youtube",
    "summary_zh": "Vercel CEO 分享 Agentic 工作流，演示用 Vercel、Supabase、Cloudroom 构建 AI 代理。",
    "why_zh": "展示实际 AI 工程实践，提供全栈工具链参考，帮助工程师快速构建可落地的 Agent 系统。"
   },
   "https://www.youtube.com/watch?v=FL6mI_Br-mc": {
    "title": "Create your own voices with Gemini 3.8 text-to-speech",
-   "date": "2026-10-05",
-   "tokens": [
-    "create",
-    "gemini",
-    "own",
-    "speech",
-    "text",
-    "voices"
-   ],
+   "date": "2026-10-06",
+   "tokens": [],
    "source": "youtube",
    "summary_zh": "Gemini 3.8 文本转语音支持自然语言提示定制新声线，或从 30 秒音频克隆声音，适用于游戏、有声书等场景。",
    "why_zh": "展示细粒度声线控制能力，为 AI 应用提供个性化、可复制的语音生成方案，降低内容制作门槛。"
@@ -183,10 +169,13 @@
   "https://github.com/edenfunf/reelmimic": {
    "title": "edenfunf/reelmimic",
    "date": "2026-10-06",
-   "tokens": [],
+   "tokens": [
+    "edenfunf",
+    "reelmimic"
+   ],
    "source": "github",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "用户提供喜欢视频，AI 团队（Claude Code 或 Codex）规划、构建并审查生成同风格新视频。",
+   "why_zh": "展示 AI 代理协作进行视频风格迁移，降低创作门槛。"
   },
   "https://github.com/qiz029/dscode": {
    "title": "qiz029/dscode",
@@ -211,8 +200,8 @@
     "woman"
    ],
    "source": "hackernews",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "Anthropic 将用户日记内容上报警方，导致该女子面临重罪指控。",
+   "why_zh": "提醒 AI 工程师注意模型使用中的隐私与合规风险，避免法律纠纷。"
   },
   "https://github.com/amitshekhariitbhu/ai-engineering-course": {
    "title": "amitshekhariitbhu/ai-engineering-course",
@@ -271,8 +260,8 @@
     "relaxation"
    ],
    "source": "paper",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "语言模型自主重写优化器，以加速量子化学中的几何弛豫过程。",
+   "why_zh": "表明LLM能自动改进传统优化算法，为高成本量子计算提供潜在加速方案。"
   },
   "https://huggingface.co/papers/2609.37267": {
    "title": "Foundations of Proactive Agents: Principles, Technical Layers, and Proactivity-Gym",
@@ -288,8 +277,8 @@
     "technical"
    ],
    "source": "paper",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "提出三T原则框架，指导构建能在用户未请求前主动提供有用支持的LLM代理。",
+   "why_zh": "为主动Agent设计提供理论基础，帮助工程师平衡实用性与信任成本。"
   },
   "https://www.marktechpost.com/2026/10/05/reka-releases-rho-1-a-19b-omni-reasoning-model-that-understands-generates-video-and-outputs-robot-actions-in-one/": {
    "title": "Reka Releases Rho-1: A 19B Omni-Reasoning Model That Understands, Generates Video and Outputs Robot Actions in One",
@@ -311,8 +300,8 @@
     "video"
    ],
    "source": "blog",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "Reka 发布 19B 参数全模态模型 Rho-1，统一处理文本、图像、视频并输出机器人动作。",
+   "why_zh": "展示单一Transformer通过共享KV缓存实现多模态推理，为端到端机器人控制提供新范式。"
   },
   "https://www.youtube.com/watch?v=PUBc2G0Tj5E": {
    "title": "Meet the New Codex CLI",
@@ -323,8 +312,8 @@
     "meet"
    ],
    "source": "youtube",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "OpenAI 更新 Codex CLI，提供全新终端界面和交互方式，便于开发者使用代码生成助手。",
+   "why_zh": "降低代码生成工具的使用门槛，提升工程师在本地终端的工作流效率。"
   },
   "https://www.youtube.com/watch?v=8BD6w5wELRo": {
    "title": "OpenRouter State Of Models: Jev, Open-Weights, and Tokenomics",
@@ -339,8 +328,8 @@
     "weights"
    ],
    "source": "youtube",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "OpenRouter 一周处理 146 万亿 tokens，显示 AI 使用量快速增长，暗示代理工程阶段即将到来。",
+   "why_zh": "Token 消耗规模直接反映模型服务需求，对评估算力成本和商业模式具有重要参考价值。"
   },
   "https://www.anthropic.com/engineering/claude-code-auto-mode": {
    "title": "How we built Claude Code auto mode: a safer way to skip permissions",
@@ -358,8 +347,8 @@
     "we"
    ],
    "source": "blog",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "Anthropic 介绍 Claude Code 自动模式的实现细节，提供更安全的免权限代码执行方式。",
+   "why_zh": "为工程师展示如何在保障安全的前提下自动化代码生成与执行，降低人工干预成本。"
   },
   "https://www.anthropic.com/engineering/harness-design-long-running-apps": {
    "title": "Harness design for long-running application development",
@@ -373,8 +362,8 @@
     "running"
    ],
    "source": "blog",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "Anthropic Engineering 介绍了用于长时间运行应用开发的 harness 设计。",
+   "why_zh": "该设计提升了长时任务的可维护性和性能，为构建稳定的 AI 系统提供参考。"
   },
   "https://www.youtube.com/watch?v=sKltfHvsDQM": {
    "title": "Build faster with Ultrafast",
@@ -385,8 +374,8 @@
     "ultrafast"
    ],
    "source": "youtube",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "OpenAI 发布 Ultrafast，在 Codex 中比 Astra Standard 快 8 倍、比 Astra Fast 快 4 倍，极速实现想法。",
+   "why_zh": "大幅提升代码生成速度，显著缩短 AI 应用原型开发周期，对工程师提效有直接影响。"
   },
   "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/": {
    "title": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
@@ -835,7 +824,208 @@
    "source": "youtube",
    "summary_zh": "代理能自行检测上下文窗口满载并自动压缩，挑战默认压缩比例，提供早期报名链接。",
    "why_zh": "自主上下文管理对构建可伸缩代理至关重要，工程师可掌控压缩策略以提升效率。"
+  },
+  "https://github.com/angel291592/Intent-Router": {
+   "title": "angel291592/Intent-Router",
+   "date": "2026-10-06",
+   "tokens": [
+    "angel291592",
+    "intent",
+    "router"
+   ],
+   "source": "github",
+   "summary_zh": "Intent-Router 把模糊请求编译为类型化 IntentSpec 合约，提供 probe/ask/halt 三种路由前动作，是路由器和类型决策模型的输入层。",
+   "why_zh": "为 AI 代理提供结构化意图表示，便于路由与决策模型精准匹配，减少歧义。"
+  },
+  "https://github.com/Nanako0129/sepia": {
+   "title": "Nanako0129/sepia",
+   "date": "2026-10-06",
+   "tokens": [
+    "nanako0129",
+    "sepia"
+   ],
+   "source": "github",
+   "summary_zh": "sepia 为任意 Agent Skills 兼容代理提供去 AI 写作技能，内置 Claude Code 等插件，修复小说叙事结构并匹配专业文体规则。",
+   "why_zh": "通过插件化去 AI 化写作，提升代理生成内容的可控性和风格适配，适用于多种代理平台。"
+  },
+  "https://github.com/tigerless-labs/agent-memory": {
+   "title": "tigerless-labs/agent-memory",
+   "date": "2026-10-06",
+   "tokens": [
+    "agent",
+    "labs",
+    "memory",
+    "tigerless"
+   ],
+   "source": "github",
+   "summary_zh": "agent-memory 以纯 Markdown 存储长期记忆，提供本地排序检索和独立睡眠期管理层，Claude Code 与 Codex 共享存储，无需 API Key。",
+   "why_zh": "实现零依赖的本地长期记忆，支持跨代理共享与睡眠期维护，便于构建持久状态 AI 系统。"
+  },
+  "https://github.com/XiaoDuoYa/codex-with-chatgpt": {
+   "title": "XiaoDuoYa/codex-with-chatgpt",
+   "date": "2026-10-06",
+   "tokens": [
+    "chatgpt",
+    "codex",
+    "xiaoduoya"
+   ],
+   "source": "github",
+   "summary_zh": "codex-with-chatgpt 让 ChatGPT 负责规划思考，Codex 负责执行代码，二者协作形成规划‑执行分离的开发流程。",
+   "why_zh": "利用大模型做任务规划，Codex 进行可靠代码生成，提升代码生成质量与可控性，适用于 AI 辅助编程。"
+  },
+  "https://github.com/LivXue/dsh-plugin-shop": {
+   "title": "LivXue/dsh-plugin-shop",
+   "date": "2026-10-06",
+   "tokens": [
+    "dsh",
+    "livxue",
+    "plugin",
+    "shop"
+   ],
+   "source": "github",
+   "summary_zh": "dsh-plugin-shop 提供每日更新的 DeepSeek Harness 插件市场，覆盖全网资源并经审核发布，是插件获取的集中平台。",
+   "why_zh": "集中高质量插件，便于快速扩展 DeepSeek Harness 能力，降低集成成本，提升开发效率。"
+  },
+  "https://github.com/2akouwu/reverify": {
+   "title": "2akouwu/reverify",
+   "date": "2026-10-06",
+   "tokens": [
+    "2akouwu",
+    "reverify"
+   ],
+   "source": "github",
+   "summary_zh": "reverify 让 AI 先提出声明，再用确定性工具依据真实事实核查，确保每条 claim 有证据支持，事实与上下文可跨重置保存。",
+   "why_zh": "通过可验证的事实检查流程减少幻觉，提升 AI 输出可信度，适合需要可追溯证据的场景。"
+  },
+  "https://huggingface.co/papers/2610.06666": {
+   "title": "What Matters for Latent Reasoning with Flow Matching",
+   "date": "2026-10-06",
+   "tokens": [
+    "flow",
+    "latent",
+    "matching",
+    "matters",
+    "reasoning"
+   ],
+   "source": "paper",
+   "summary_zh": "论文指出潜在推理需满足有用、多样、可解释等五个要求，以提升LLM在连续空间的思考质量。",
+   "why_zh": "它提供了设计潜在思考的原则，有助于构建更可控、可解释的LLM推理过程。"
+  },
+  "https://huggingface.co/papers/2610.04128": {
+   "title": "What Gradients Add to Text Leakage in Split Language Models, Counted per Token and per Document",
+   "date": "2026-10-06",
+   "tokens": [
+    "add",
+    "counted",
+    "document",
+    "gradients",
+    "language",
+    "leakage",
+    "models",
+    "per",
+    "split",
+    "text",
+    "token"
+   ],
+   "source": "paper",
+   "summary_zh": "研究表明，在分割学习中服务器返回的梯度使攻击者能够重建大部分客户端文本，梯度显著提升泄露风险。",
+   "why_zh": "提醒工程师注意梯度泄露风险，需在分布式训练中加强隐私保护措施。"
+  },
+  "https://openai.com/index/chatham-financial": {
+   "title": "Chatham scales its capital markets expertise with OpenAI",
+   "date": "2026-10-06",
+   "tokens": [
+    "capital",
+    "chatham",
+    "expertise",
+    "markets",
+    "openai",
+    "scales"
+   ],
+   "source": "blog",
+   "summary_zh": "Chatham Financial 应用 Codex 和 GPT-5.6 优化工作流，使交易验证时间从30分钟缩短至4分钟以内。",
+   "why_zh": "展示大模型在金融场景的实际落地，可参考其工作流改造经验。"
+  },
+  "https://huggingface.co/blog/open-tts-leaderboard": {
+   "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
+   "date": "2026-10-06",
+   "tokens": [
+    "cloning",
+    "evaluation",
+    "leaderboard",
+    "multilingual",
+    "open",
+    "scalable",
+    "speech",
+    "text",
+    "tts",
+    "voice"
+   ],
+   "source": "blog",
+   "summary_zh": "Open TTS Leaderboard 推出可扩展评估基准，覆盖多语言文本转语音及语音克隆任务。",
+   "why_zh": "为工程师提供统一、可比较的 TTS 性能基准，加速多语言语音模型选型。"
+  },
+  "https://www.langchain.com/blog/jev-is-now-available-in-langsmith-evals": {
+   "title": "Jev is now available in LangSmith Evals",
+   "date": "2026-10-06",
+   "tokens": [
+    "available",
+    "evals",
+    "jev",
+    "langsmith",
+    "now"
+   ],
+   "source": "blog",
+   "summary_zh": "LangSmith Evals 集成 Jev 作为评判器，可在生产运行、数据集和回归测试中提供更快、更便宜的结构化反馈。",
+   "why_zh": "降低评估成本并提升反馈及时性，有助于持续改进 Agent 在真实场景中的表现。"
+  },
+  "https://www.youtube.com/shorts/q0_JXcrx3jk": {
+   "title": "Building a custom website to stay on top of business with ChatGPT",
+   "date": "2026-10-06",
+   "tokens": [
+    "building",
+    "business",
+    "chatgpt",
+    "custom",
+    "stay",
+    "top",
+    "website"
+   ],
+   "source": "youtube",
+   "summary_zh": "家具店使用 ChatGPT 开发定制网站，快速处理大量客户咨询，提升业务跟踪效率。",
+   "why_zh": "展示大模型在中小企业的实际应用，提供快速构建内部工具的参考范例。"
+  },
+  "https://www.youtube.com/watch?v=sGrD9a8dh_0": {
+   "title": "How Zip Uses LangSmith and LangGraph to Ship New Features Faster",
+   "date": "2026-10-06",
+   "tokens": [
+    "faster",
+    "features",
+    "langgraph",
+    "langsmith",
+    "ship",
+    "uses",
+    "zip"
+   ],
+   "source": "youtube",
+   "summary_zh": "Zip 使用 LangSmith 和 LangGraph 加速新功能交付，之前自建 LLM 调用代码导致特性开发周期长且追踪不完整。",
+   "why_zh": "对 AI 工程师而言，展示了 LangGraph/LangSmith 如何减少样板代码、提升可观测性，加快迭代。"
+  },
+  "https://www.youtube.com/shorts/3SnB_cZ14bo": {
+   "title": "Skills are just fancy prompts. Here's why that matters.",
+   "date": "2026-10-06",
+   "tokens": [
+    "fancy",
+    "here",
+    "just",
+    "matters",
+    "prompts",
+    "skills"
+   ],
+   "source": "youtube",
+   "summary_zh": "Deep Agents 中的 Skill 实际上是可按需加载的共享 Prompt，采用渐进式披露，Agent 在需要时获取技能，其余时间保持 Prompt 简洁。",
+   "why_zh": "这一模式降低上下文冗余，提升 Agent 效率和可复用性，对构建可扩展 AI 系统有重要启示。"
   }
  },
- "updated": "2026-10-06T11:37:21.288655+00:00"
+ "updated": "2026-10-06T12:30:25.857308+00:00"
 }

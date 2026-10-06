@@ -1,398 +1,17 @@
 {
  "date": "2026-10-06",
- "generated": "2026-10-06 19:37",
+ "generated": "2026-10-06 20:30",
  "source_count": {
   "github": 59,
   "youtube": 39,
-  "blog": 89,
+  "blog": 88,
   "paper": 12,
   "hackernews": 10
  },
- "failures": {},
+ "failures": {
+  "hn.algolia.com": 1
+ },
  "items": [
-  {
-   "source": "github",
-   "source_label": "GitHub",
-   "title": "Ebony-Vinyl/dsh-our-free-model",
-   "link": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
-   "dt": "2026-09-24T16:17:19+00:00",
-   "summary": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
-   "extra": {
-    "stars": 1923,
-    "language": "JavaScript",
-    "topics": [
-     "ai-agents",
-     "deepseek",
-     "deepseek-harness",
-     "developer-tools",
-     "dsh",
-     "dsh-plugin"
-    ],
-    "created": "2026-09-24",
-    "pushed": "2026-10-06"
-   },
-   "score": 3.06,
-   "tokens": [
-    "dsh",
-    "ebony",
-    "free",
-    "model",
-    "our",
-    "vinyl"
-   ],
-   "flag": "new",
-   "summary_zh": "插件让 dsh 直接使用 DeepSeek V4.1 Flash、Kimi K3 等前沿模型，免登录、无 API Key、无限量。",
-   "why_zh": "对 AI 工程师提供零门槛访问最新模型，便于快速实验和原型开发。"
-  },
-  {
-   "source": "github",
-   "source_label": "GitHub",
-   "title": "CopilotKit/openmuse",
-   "link": "https://github.com/CopilotKit/openmuse",
-   "dt": "2026-09-15T16:05:44+00:00",
-   "summary": "A personal agent with a browser, terminal, files, and work that keeps going built with CopilotKit and AG-UI.",
-   "extra": {
-    "stars": 4034,
-    "language": "TypeScript",
-    "topics": [],
-    "created": "2026-09-15",
-    "pushed": "2026-10-05"
-   },
-   "score": 3.06,
-   "tokens": [
-    "copilotkit",
-    "openmuse"
-   ],
-   "flag": "new",
-   "summary_zh": "基于 CopilotKit 和 AG-UI 构建的个人代理，具备浏览器、终端、文件系统并能持续运行工作。",
-   "why_zh": "为工程师提供可扩展的多模态交互代理平台，便于构建自主工作流。"
-  },
-  {
-   "source": "github",
-   "source_label": "GitHub",
-   "title": "jaredpalmer/kev",
-   "link": "https://github.com/jaredpalmer/kev",
-   "dt": "2026-09-17T20:49:39+00:00",
-   "summary": "Jev-like family of decision models built on top of Qwen3.5/3.8 you can train and run on your own",
-   "extra": {
-    "stars": 8552,
-    "language": "Python",
-    "topics": [
-     "decision-model",
-     "jev",
-     "qwen3"
-    ],
-    "created": "2026-09-17",
-    "pushed": "2026-10-06"
-   },
-   "score": 3.06,
-   "tokens": [
-    "jaredpalmer",
-    "kev"
-   ],
-   "flag": "new",
-   "summary_zh": "基于 Qwen3.5/3.8 构建的 Jev 风格决策模型家族，可自行训练和运行。",
-   "why_zh": "为研究者提供开源决策模型基座，便于在自有数据上微调与实验。"
-  },
-  {
-   "source": "github",
-   "source_label": "GitHub",
-   "title": "pallavi-shekhar/ai-engineering-interview-questions-company-wise",
-   "link": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
-   "dt": "2026-09-19T04:14:43+00:00",
-   "summary": "Your Cheat Sheet For AI Engineering Interviews at Top AI Companies - Questions and Answers.",
-   "extra": {
-    "stars": 1663,
-    "language": "Markdown",
-    "topics": [
-     "ai",
-     "ai-engineering",
-     "ai-engineering-interview",
-     "ai-interview",
-     "ai-interview-questions",
-     "company-wise-prep"
-    ],
-    "created": "2026-09-19",
-    "pushed": "2026-10-06"
-   },
-   "score": 3.06,
-   "tokens": [
-    "ai",
-    "company",
-    "engineering",
-    "interview",
-    "pallavi",
-    "questions",
-    "shekhar",
-    "wise"
-   ],
-   "flag": "new",
-   "summary_zh": "汇总顶尖 AI 公司面试题目及答案的 AI 工程面试速查表。",
-   "why_zh": "帮助工程师快速备战顶尖企业面试，掌握高频考点。"
-  },
-  {
-   "source": "github",
-   "source_label": "GitHub",
-   "title": "Contrastive-LM/CLM",
-   "link": "https://github.com/Contrastive-LM/CLM",
-   "dt": "2026-09-23T19:29:56+00:00",
-   "summary": "",
-   "extra": {
-    "stars": 2870,
-    "language": "Python",
-    "topics": [],
-    "created": "2026-09-23",
-    "pushed": "2026-10-05"
-   },
-   "score": 3.06,
-   "tokens": [
-    "clm",
-    "contrastive",
-    "lm"
-   ],
-   "flag": "new",
-   "summary_zh": "暂无详细描述的对比语言模型仓库。",
-   "why_zh": "需进一步查看代码以了解其在对比学习中的应用潜力。"
-  },
-  {
-   "source": "github",
-   "source_label": "GitHub",
-   "title": "saihhold-zhao/polox_ai",
-   "link": "https://github.com/saihhold-zhao/polox_ai",
-   "dt": "2026-09-09T01:16:40+00:00",
-   "summary": "An open-source, agent-native platform for multimodal AI generation, built on DeepSeek Harness. Every interaction lives in agent conversations and an infinite canvas, unifying creation, generation, and editing.",
-   "extra": {
-    "stars": 86,
-    "language": "TypeScript",
-    "topics": [
-     "ai-agents",
-     "creative-tools",
-     "deepseek",
-     "deepseek-harness-plugins",
-     "generative-ai",
-     "image-editing"
-    ],
-    "created": "2026-09-09",
-    "pushed": "2026-10-03"
-   },
-   "score": 3.031,
-   "tokens": [
-    "ai",
-    "polox",
-    "saihhold",
-    "zhao"
-   ],
-   "flag": "new",
-   "summary_zh": "基于 DeepSeek Harness 的开源原生代理平台，支持多模态 AI 生成，交互发生在代理对话与无限画布上。",
-   "why_zh": "为工程师提供统一的创作、生成与编辑环境，便于构建多模态 agent 应用。"
-  },
-  {
-   "source": "paper",
-   "source_label": "HF Daily Papers",
-   "title": "DEPICT: Scoring Text-to-Image Alignment by Answer Agreement",
-   "link": "https://huggingface.co/papers/2610.03617",
-   "dt": "2026-10-01T20:00:00+00:00",
-   "summary": "Image-text alignment is a core problem in computer vision with applications in caption evaluation, hallucination detection, data curation, and the benchmarking of text-to-image (T2I) generators. As T2I models improve, benchmarking has become demanding, requiring metrics capable of finding a series of issues like missing objects, swapped attributes, miscounts, and ignored negations. Recent work addresses this by fine-tuning evaluators on preference data or by prompting a vision-language model, ei",
-   "extra": {
-    "upvotes": 0,
-    "arxiv": "https://arxiv.org/abs/2610.03617"
-   },
-   "score": 2.308,
-   "tokens": [
-    "agreement",
-    "alignment",
-    "answer",
-    "depict",
-    "image",
-    "scoring",
-    "text"
-   ],
-   "flag": "new",
-   "summary_zh": "提出基于答案一致性的文本图像对齐评分方法 DEPICT，用于检测缺失对象、属性交换等问题。",
-   "why_zh": "该方法能细粒度定位 T2I 生成中的常见错误，为模型调试提供可量化依据。"
-  },
-  {
-   "source": "paper",
-   "source_label": "HF Daily Papers",
-   "title": "OmniReasoning: Pushing the Limits of Audio-Visual Joint Reasoning",
-   "link": "https://huggingface.co/papers/2609.39490",
-   "dt": "2026-09-29T20:00:00+00:00",
-   "summary": "Recent advances have enabled unified omni-modal models in understanding audio, vision, and language. However, existing benchmarks, training data, and learning methods largely treat the modalities independently, leaving the capability of audio-visual joint reasoning poorly evaluated and insufficiently elicited. We address this gap with a benchmark, data engine, and learning method. First, we introduce OmniReasoningBench, a benchmark where both audio and visual evidence are indispensable. It compr",
-   "extra": {
-    "upvotes": 5,
-    "arxiv": "https://arxiv.org/abs/2609.39490"
-   },
-   "score": 2.308,
-   "tokens": [
-    "audio",
-    "joint",
-    "limits",
-    "omnireasoning",
-    "pushing",
-    "reasoning",
-    "visual"
-   ],
-   "flag": "new",
-   "summary_zh": "提出音视频联合推理基准、数据引擎和学习方法 OmniReasoning，弥补现有评估缺口。",
-   "why_zh": "为多模态联合推理提供统一评测与训练框架，有助于开发真正的音视频理解系统。"
-  },
-  {
-   "source": "blog",
-   "source_label": "MarkTechPost",
-   "title": "Reflection AI Introduces Beam: A 501B Open-Weight MoE Model With 23B Active Parameters for Coding and Agentic Workloads",
-   "link": "https://www.marktechpost.com/2026/10/05/reflection-ai-introduces-beam-a-501b-open-weight-moe-model-with-23b-active-parameters-for-coding-and-agentic-workloads/",
-   "dt": "2026-10-05T21:04:20+00:00",
-   "summary": "Reflection AI has introduced Beam, its first open-weight model. It is a 501B sparse Mixture-of-Experts model with 23B active parameters, built for coding and agentic work. Reflection says it matches GLM-5.2 on reasoning with 3 to 4x less inference compute. Apache 2.0 weights are due later in October 2026. The post Reflection AI Introduces Beam: A 501B Open-Weight MoE Model With 23B Active Parameters for Coding and Agentic Workloads appeared first on MarkTechPost .",
-   "extra": {},
-   "score": 1.147,
-   "tokens": [
-    "23b",
-    "501b",
-    "active",
-    "agentic",
-    "ai",
-    "beam",
-    "coding",
-    "introduces",
-    "model",
-    "moe",
-    "open",
-    "parameters",
-    "reflection",
-    "weight",
-    "workloads"
-   ],
-   "flag": "new",
-   "summary_zh": "Reflection AI 发布 Beam，501B 参数稀疏 MoE，仅激活 23B，专注代码与 Agent 任务，推理成本仅为 GLM-5.2 的 1/3~1/4。",
-   "why_zh": "开源权重将在 2026 年 10 月发布，提供超大规模稀疏模型的实践参考，降低代码生成算力需求。"
-  },
-  {
-   "source": "blog",
-   "source_label": "新智元",
-   "title": "刚刚，Claude夺舍Codex！GPT-6.1 Sol极速版马上就来",
-   "link": "https://aiera.com.cn/2026/10/06/other/admin/117185/%e5%88%9a%e5%88%9a%ef%bc%8cclaude%e5%a4%ba%e8%88%8dcodex%ef%bc%81gpt-6-1-sol%e6%9e%81%e9%80%9f%e7%89%88%e9%a9%ac%e4%b8%8a%e5%b0%b1%e6%9d%a5/",
-   "dt": "2026-10-06T00:11:26+00:00",
-   "summary": "OpenAI高管在线征集产品需求，评论区当场集体叛变。 一群人张口就喊：Claude！ 10月4日凌晨，OpenAI Codex负责人Tibo在X上发了个互动帖：",
-   "extra": {},
-   "score": 1.147,
-   "tokens": [
-    "claude夺舍codex",
-    "gpt",
-    "sol极速版马上就来",
-    "刚刚"
-   ],
-   "flag": "new",
-   "summary_zh": "OpenAI 高管征求需求时评论区大喊 Claude，暗示 Codex 可能被 Claude 取代，GPT-6.1 Sol 极速版即将发布。",
-   "why_zh": "反映社区对 Codex 不满，预示 OpenAI 可能转向更强的 Claude 系列，影响代码生成工具选择。"
-  },
-  {
-   "source": "blog",
-   "source_label": "Simon Willison",
-   "title": "We're going to need default hard budget caps on pretty much everything",
-   "link": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
-   "dt": "2026-10-03T23:34:02+00:00",
-   "summary": "Here's a product feature which the world is going to need a whole lot more of over the coming months and years: default hard budget caps . I'm talking about the feature of pay-by-usage services and APIs that lets you say \"after $X/month, cut this thing off and return errors\". These need to be hard limits. Soft caps, \"after $X/month, send me a warning email\", will not cut it. Coding agents, and personal agents (coding agents wrapped in a less threatening UI), greatly reduce the friction of spinni…",
-   "extra": {},
-   "score": 1.09,
-   "tokens": [
-    "budget",
-    "caps",
-    "default",
-    "everything",
-    "going",
-    "hard",
-    "much",
-    "need",
-    "pretty",
-    "re",
-    "we"
-   ],
-   "flag": "new",
-   "summary_zh": "主张在按使用付费的服务和 API 中加入硬预算上限，超出后直接返回错误，而非仅警告。",
-   "why_zh": "对 AI 编码 Agent 等长期运行任务成本控制至关重要，防止意外费用爆炸。"
-  },
-  {
-   "source": "youtube",
-   "source_label": "YouTube · Cole Medin",
-   "title": "The Biggest AI Coding Agent Upgrade Is Already on Your Machine?!",
-   "link": "https://www.youtube.com/watch?v=td52e2tQFIU",
-   "dt": "2026-09-25T14:00:08+00:00",
-   "summary": "Every conversation you have with your coding agent is saved as a file on your machine - every prompt, every tool call, every failure. It's a goldmine of data that almost nobody takes advantage of, and it's the best way I've found to make my coding agent better over time. So in this video I show you two ways to use it! The simple way is one prompt that has your coding agent go through your past conversations and suggest the top improvements for your rules, hooks, and skills. The full way puts eve…",
-   "extra": {
-    "channel": "Cole Medin",
-    "video_id": "td52e2tQFIU"
-   },
-   "score": 1.033,
-   "tokens": [
-    "agent",
-    "ai",
-    "already",
-    "biggest",
-    "coding",
-    "machine",
-    "upgrade"
-   ],
-   "flag": "new",
-   "summary_zh": "每次与编码 Agent 的交互都会保存为本地文件，包含 prompt、工具调用和失败，是提升 Agent 性能的未被利用的金矿。",
-   "why_zh": "利用这些日志可进行回放、微调或检索增强，显著提升 Agent 的准确性和鲁棒性而无需额外标注。"
-  },
-  {
-   "source": "youtube",
-   "source_label": "YouTube · Cole Medin",
-   "title": "AI Coding Rate Limits are RIDICULOUS Now - Here's How You Keep Scaling Anyway",
-   "link": "https://www.youtube.com/watch?v=NZq88JAJSag",
-   "dt": "2026-09-24T00:00:38+00:00",
-   "summary": "I'm continuing to build out my AI Software Factory and scale up my coding agents, but I'm hitting my rate limits with Claude Code and Codex more and more. This week I hit my limits on the $200 Claude AND Codex plans with days to go before the reset! Very frustrating. The New Opus 5.5 helps but not nearly enough. And now it's obvious that I can't just use the most powerful model for everything. I've been experimenting with mixing models and providers all year, but now it's becoming critical for a…",
-   "extra": {
-    "channel": "Cole Medin",
-    "video_id": "NZq88JAJSag"
-   },
-   "score": 1.033,
-   "tokens": [
-    "ai",
-    "anyway",
-    "coding",
-    "here",
-    "keep",
-    "limits",
-    "now",
-    "rate",
-    "ridiculous",
-    "scaling"
-   ],
-   "flag": "new",
-   "summary_zh": "他遇到 Claude Code 和 Codex 的额度限制，$200 方案很快用完，Opus 5.5 改善有限，说明不能只依赖最强模型。",
-   "why_zh": "速率限制直接影响代理扩展，需要通过模型选择和额度管理来保持规模增长。"
-  },
-  {
-   "source": "youtube",
-   "source_label": "YouTube · IndyDevDan",
-   "title": "Self-Compact Pi Agent: ZERO HYPE Agentic Coding Devlog",
-   "link": "https://www.youtube.com/watch?v=3b0U4_02bAE",
-   "dt": "2026-09-21T13:00:08+00:00",
-   "summary": "Your agents are smart enough to know when their own context window is full. So why are you letting Claude Code and Codex decide when they compact? 🔥 Auto compaction at a fixed percentage is the DEFAULT. Defaults are for engineers who don't own their harness. 😲 Phase 3 Early Sign Up is Officially Available: https://agenticengineer.com/ia3-pre-launch?y=3b0U4_02bAE 🎥 VIDEO REFERENCES • Self Compact Pi Agent Codebase: https://github.com/disler/self-compact-pi-agent • Astra Agent Swarms: https://yout…",
-   "extra": {
-    "channel": "IndyDevDan",
-    "video_id": "3b0U4_02bAE"
-   },
-   "score": 1.033,
-   "tokens": [
-    "agent",
-    "agentic",
-    "coding",
-    "compact",
-    "devlog",
-    "hype",
-    "pi",
-    "self",
-    "zero"
-   ],
-   "flag": "new",
-   "summary_zh": "代理能自行检测上下文窗口满载并自动压缩，挑战默认压缩比例，提供早期报名链接。",
-   "why_zh": "自主上下文管理对构建可伸缩代理至关重要，工程师可掌控压缩策略以提升效率。"
-  }
- ],
- "dups": [
   {
    "source": "github",
    "source_label": "GitHub",
@@ -401,7 +20,7 @@
    "dt": "2026-09-28T19:14:59+00:00",
    "summary": "Show it a video you love. Get a new video in the same style. An AI crew (Claude Code or Codex) plans, builds and reviews it with you.",
    "extra": {
-    "stars": 1440,
+    "stars": 1442,
     "language": "JavaScript",
     "topics": [
      "2d-animation",
@@ -415,8 +34,13 @@
     "pushed": "2026-10-06"
    },
    "score": 4.374,
-   "flag": "dup",
-   "dup_note": "已于 2026-10-06 推荐过"
+   "tokens": [
+    "edenfunf",
+    "reelmimic"
+   ],
+   "flag": "new",
+   "summary_zh": "用户提供喜欢视频，AI 团队（Claude Code 或 Codex）规划、构建并审查生成同风格新视频。",
+   "why_zh": "展示 AI 代理协作进行视频风格迁移，降低创作门槛。"
   },
   {
    "source": "github",
@@ -426,7 +50,7 @@
    "dt": "2026-09-30T05:00:35+00:00",
    "summary": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
    "extra": {
-    "stars": 4178,
+    "stars": 4215,
     "language": "Python",
     "topics": [
      "age-of-empires",
@@ -440,10 +64,15 @@
     "pushed": "2026-10-06"
    },
    "score": 4.374,
-   "flag": "dup",
-   "dup_note": "已于 2026-10-06 推荐过",
-   "summary_zh": "使 Claude Code 能够通过技能、工具和 fal MCP 对任意 PC 游戏进行逆向、生成资产和测试。",
-   "why_zh": "为游戏 MOD 开发提供 AI 辅助流程，大幅降低逆向和内容创作门槛。"
+   "tokens": [
+    "modder",
+    "rehan",
+    "remade",
+    "universal"
+   ],
+   "flag": "new",
+   "summary_zh": "使用 Claude Code 及 fal MCP 进行游戏逆向、资产生成、测试等全流程 MOD 制作。",
+   "why_zh": "表明大模型可直接参与游戏逆向与内容创作，为工程师提供新范式。"
   },
   {
    "source": "github",
@@ -453,7 +82,7 @@
    "dt": "2026-09-23T16:22:35+00:00",
    "summary": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
    "extra": {
-    "stars": 5337,
+    "stars": 5349,
     "language": "Go",
     "topics": [
      "claude-code",
@@ -467,10 +96,13 @@
     "pushed": "2026-10-06"
    },
    "score": 4.131,
-   "flag": "dup",
-   "dup_note": "已于 2026-10-06 推荐过",
-   "summary_zh": "菜单栏工具统一管理多种代理模型，如 Codex 在 DeepSeek、Claude Code 在 Kimi 上运行。",
-   "why_zh": "让开发者快速切换和比较不同后端模型，提升实验效率。"
+   "tokens": [
+    "magpie",
+    "yetone"
+   ],
+   "flag": "new",
+   "summary_zh": "菜单栏工具统一管理多种 AI 代理模型，如 Codex 在 DeepSeek、Claude Code 在 Kimi 上运行。",
+   "why_zh": "提供便捷切换与监控多模型代理的入口，提升开发效率。"
   },
   {
    "source": "github",
@@ -480,7 +112,7 @@
    "dt": "2026-09-27T21:54:12+00:00",
    "summary": "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen.",
    "extra": {
-    "stars": 3758,
+    "stars": 3765,
     "language": "Swift",
     "topics": [
      "ai-agents",
@@ -494,62 +126,364 @@
     "pushed": "2026-10-06"
    },
    "score": 4.131,
-   "flag": "dup",
-   "dup_note": "已于 2026-10-06 推荐过",
-   "summary_zh": "一个小工具居住在系统栏，实时监控 Claude Code 等编码代理的状态。",
-   "why_zh": "让开发者一眼看到多代理运行情况，提升调度与调试便利。"
+   "tokens": [
+    "cfm",
+    "coucou",
+    "louis"
+   ],
+   "flag": "new",
+   "summary_zh": "小巧的 Mac 菜单栏 / iPhone 小组件实时监控 Claude Code 等 AI 编码代理，支持从锁屏或刘海批准。",
+   "why_zh": "让工程师能即时监督并干预 AI 编码行为，提升安全与可控性。"
   },
   {
-   "source": "github",
-   "source_label": "GitHub",
-   "title": "youngyangyang04/llm-master",
-   "link": "https://github.com/youngyangyang04/llm-master",
-   "dt": "2026-09-12T07:33:31+00:00",
-   "summary": "大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。",
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+   "link": "https://github.com/Niko1221/Strata",
+   "dt": "2026-10-04T12:51:53+00:00",
+   "summary": "",
    "extra": {
-    "stars": 1089,
-    "language": "",
-    "topics": [
-     "agent",
-     "large-language-models",
-     "llm",
-     "llm-learning",
-     "llm-tutorial",
-     "rag"
-    ],
-    "created": "2026-09-12",
-    "pushed": "2026-10-05"
+    "points": 918,
+    "comments": 416,
+    "hn_link": "https://news.ycombinator.com/item?id=49953495"
    },
-   "score": 4.131,
-   "flag": "dup",
-   "dup_note": "已于 2026-10-06 推荐过",
-   "summary_zh": "提供覆盖 Prompt Engineering 到模型部署等全栈 LLM 学习路线的中文教程。",
-   "why_zh": "对 AI 工程师系统掌握 LLM 技术栈和面试准备极具参考价值。"
+   "score": 3.963,
+   "tokens": [
+    "100t",
+    "125b",
+    "4090",
+    "consumer",
+    "flash",
+    "hardware",
+    "next",
+    "qwen",
+    "rtx",
+    "run"
+   ],
+   "flag": "new",
+   "summary_zh": "在消费级 RTX 4090 上运行 125B 参数的 Qwen 3.8 Flash Next，达到每秒 100 Token。",
+   "why_zh": "表明大模型可在单卡消费级硬件上实现高吞吐，降低部署成本。"
   },
   {
-   "source": "github",
-   "source_label": "GitHub",
-   "title": "qiz029/dscode",
-   "link": "https://github.com/qiz029/dscode",
-   "dt": "2026-09-11T09:40:02+00:00",
-   "summary": "A DeepSeek coding agent harness: persistent shell, Ultra subagents, auto approval, Chrome MCP and session telemetry",
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Anthropic reported diary entry to police, woman faces felony charge",
+   "link": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
+   "dt": "2026-10-05T05:37:40+00:00",
+   "summary": "",
    "extra": {
-    "stars": 1019,
-    "language": "JavaScript",
-    "topics": [
-     "agentic",
-     "ai-agent",
-     "cli",
-     "code-review",
-     "coding-agent",
-     "deepseek"
-    ],
-    "created": "2026-09-11",
-    "pushed": "2026-10-03"
+    "points": 750,
+    "comments": 582,
+    "hn_link": "https://news.ycombinator.com/item?id=49961057"
    },
-   "score": 4.131,
+   "score": 3.875,
+   "tokens": [
+    "anthropic",
+    "charge",
+    "diary",
+    "entry",
+    "faces",
+    "felony",
+    "police",
+    "reported",
+    "woman"
+   ],
+   "flag": "new",
+   "summary_zh": "Anthropic 将用户日记内容上报警方，导致该女子面临重罪指控。",
+   "why_zh": "提醒 AI 工程师注意模型使用中的隐私与合规风险，避免法律纠纷。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Optimizing the Optimizer: Language Models Discover Faster Molecular Relaxation",
+   "link": "https://huggingface.co/papers/2610.06577",
+   "dt": "2026-10-04T20:00:00+00:00",
+   "summary": "Geometry optimization is a major cost in many quantum-chemical workflows: each optimization step requires one force evaluation, and at the density-functional level that evaluation dominates the wall time. Research in this area has produced a broad range of optimization methods, and we ask whether a language model can improve on the best of them through autoresearch. An agent rewrites the optimizer itself to minimize force-call counts, restrained by two admission gates that reject premature stopp",
+   "extra": {
+    "upvotes": 11,
+    "arxiv": "https://arxiv.org/abs/2610.06577"
+   },
+   "score": 2.618,
+   "tokens": [
+    "discover",
+    "faster",
+    "language",
+    "models",
+    "molecular",
+    "optimizer",
+    "optimizing",
+    "relaxation"
+   ],
+   "flag": "new",
+   "summary_zh": "语言模型自主重写优化器，以加速量子化学中的几何弛豫过程。",
+   "why_zh": "表明LLM能自动改进传统优化算法，为高成本量子计算提供潜在加速方案。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Foundations of Proactive Agents: Principles, Technical Layers, and Proactivity-Gym",
+   "link": "https://huggingface.co/papers/2609.37267",
+   "dt": "2026-09-28T20:00:00+00:00",
+   "summary": "Proactive LLM agents can turn idle compute into useful support before users ask. Yet even correct work can misread user context, impose review costs, or undermine trust. This work proposes foundations for designing, realizing, and evaluating proactive LLM agents around three joint principles (3T): Task Capability, anticipating relevant needs and correctly performing useful work; Temporal Allocation, allocating compute according to resource availability and when results are needed; and Trust, sus",
+   "extra": {
+    "upvotes": 14,
+    "arxiv": "https://arxiv.org/abs/2609.37267"
+   },
+   "score": 2.477,
+   "tokens": [
+    "agents",
+    "foundations",
+    "gym",
+    "layers",
+    "principles",
+    "proactive",
+    "proactivity",
+    "technical"
+   ],
+   "flag": "new",
+   "summary_zh": "提出三T原则框架，指导构建能在用户未请求前主动提供有用支持的LLM代理。",
+   "why_zh": "为主动Agent设计提供理论基础，帮助工程师平衡实用性与信任成本。"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "Reka Releases Rho-1: A 19B Omni-Reasoning Model That Understands, Generates Video and Outputs Robot Actions in One",
+   "link": "https://www.marktechpost.com/2026/10/05/reka-releases-rho-1-a-19b-omni-reasoning-model-that-understands-generates-video-and-outputs-robot-actions-in-one/",
+   "dt": "2026-10-06T06:45:31+00:00",
+   "summary": "Reka has released Rho-1, a 19B omni-reasoning model trained from scratch. One network reads and generates text, images, video and robot actions over a shared KV cache. A distilled variant returns a 5.3-second clip in about a second. It is a research preview with no public weights yet. The post Reka Releases Rho-1: A 19B Omni-Reasoning Model That Understands, Generates Video and Outputs Robot Actions in One appeared first on MarkTechPost .",
+   "extra": {},
+   "score": 1.275,
+   "tokens": [
+    "19b",
+    "actions",
+    "generates",
+    "model",
+    "omni",
+    "one",
+    "outputs",
+    "reasoning",
+    "reka",
+    "releases",
+    "rho",
+    "robot",
+    "understands",
+    "video"
+   ],
+   "flag": "new",
+   "summary_zh": "Reka 发布 19B 参数全模态模型 Rho-1，统一处理文本、图像、视频并输出机器人动作。",
+   "why_zh": "展示单一Transformer通过共享KV缓存实现多模态推理，为端到端机器人控制提供新范式。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "Meet the New Codex CLI",
+   "link": "https://www.youtube.com/watch?v=PUBc2G0Tj5E",
+   "dt": "2026-10-05T18:29:08+00:00",
+   "summary": "Take a look at the latest Codex CLI updates and the refreshed terminal experience. Follow a walkthrough of the new interface and ways to work with Codex.",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": "PUBc2G0Tj5E"
+   },
+   "score": 1.215,
+   "tokens": [
+    "cli",
+    "codex",
+    "meet"
+   ],
+   "flag": "new",
+   "summary_zh": "OpenAI 更新 Codex CLI，提供全新终端界面和交互方式，便于开发者使用代码生成助手。",
+   "why_zh": "降低代码生成工具的使用门槛，提升工程师在本地终端的工作流效率。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · IndyDevDan",
+   "title": "OpenRouter State Of Models: Jev, Open-Weights, and Tokenomics",
+   "link": "https://www.youtube.com/watch?v=8BD6w5wELRo",
+   "dt": "2026-10-05T13:00:15+00:00",
+   "summary": "There is NO AI bubble. OpenRouter just pushed 146 TRILLION tokens in a single week. One year ago? 4.5 trillion. Meanwhile Anthropic is targeting a $2 TRILLION IPO while losing almost $50 billion. If token usage keeps climbing, the bulls win. If it stalls, the house of cards starts falling, and OpenAI likely follows. 🚀 PHASE 3 AGENTIC ENGINEERING (EARLY SIGN UP) https://agenticengineer.com/ia3-pre-launch?y=8BD6w5wELRo 🎥 WATCH THESE NEXT • 10 Levels Of JEV: https://youtu.be/_U-O5lYhJ7Q • Model Sta…",
+   "extra": {
+    "channel": "IndyDevDan",
+    "video_id": "8BD6w5wELRo"
+   },
+   "score": 1.215,
+   "tokens": [
+    "jev",
+    "models",
+    "open",
+    "openrouter",
+    "state",
+    "tokenomics",
+    "weights"
+   ],
+   "flag": "new",
+   "summary_zh": "OpenRouter 一周处理 146 万亿 tokens，显示 AI 使用量快速增长，暗示代理工程阶段即将到来。",
+   "why_zh": "Token 消耗规模直接反映模型服务需求，对评估算力成本和商业模式具有重要参考价值。"
+  },
+  {
+   "source": "blog",
+   "source_label": "Anthropic Engineering",
+   "title": "How we built Claude Code auto mode: a safer way to skip permissions",
+   "link": "https://www.anthropic.com/engineering/claude-code-auto-mode",
+   "dt": "2026-03-25T00:00:00+00:00",
+   "summary": "",
+   "extra": {},
+   "weight_override": 1.5,
+   "score": 1.215,
+   "tokens": [
+    "auto",
+    "built",
+    "claude",
+    "code",
+    "mode",
+    "permissions",
+    "safer",
+    "skip",
+    "way",
+    "we"
+   ],
+   "flag": "new",
+   "summary_zh": "Anthropic 介绍 Claude Code 自动模式的实现细节，提供更安全的免权限代码执行方式。",
+   "why_zh": "为工程师展示如何在保障安全的前提下自动化代码生成与执行，降低人工干预成本。"
+  },
+  {
+   "source": "blog",
+   "source_label": "Anthropic Engineering",
+   "title": "Harness design for long-running application development",
+   "link": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
+   "dt": "2026-03-24T00:00:00+00:00",
+   "summary": "",
+   "extra": {},
+   "weight_override": 1.5,
+   "score": 1.215,
+   "tokens": [
+    "application",
+    "design",
+    "development",
+    "harness",
+    "long",
+    "running"
+   ],
+   "flag": "new",
+   "summary_zh": "Anthropic Engineering 介绍了用于长时间运行应用开发的 harness 设计。",
+   "why_zh": "该设计提升了长时任务的可维护性和性能，为构建稳定的 AI 系统提供参考。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "Build faster with Ultrafast",
+   "link": "https://www.youtube.com/watch?v=sKltfHvsDQM",
+   "dt": "2026-09-29T18:47:34+00:00",
+   "summary": "Ultrafast is our fastest way to build with Astra yet: in Codex, it runs up to 8x faster than Astra Standard and 4x faster than Astra Fast. Bring your ideas to life as fast as you can type them.",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": "sKltfHvsDQM"
+   },
+   "score": 1.094,
+   "tokens": [
+    "build",
+    "faster",
+    "ultrafast"
+   ],
+   "flag": "new",
+   "summary_zh": "OpenAI 发布 Ultrafast，在 Codex 中比 Astra Standard 快 8 倍、比 Astra Fast 快 4 倍，极速实现想法。",
+   "why_zh": "大幅提升代码生成速度，显著缩短 AI 应用原型开发周期，对工程师提效有直接影响。"
+  }
+ ],
+ "dups": [
+  {
+   "source": "blog",
+   "source_label": "LangChain 博客",
+   "title": "How to Build a Model Router in the Harness",
+   "link": "https://www.langchain.com/blog/how-to-build-a-model-router-in-the-harness",
+   "dt": "2026-10-02T13:31:57+00:00",
+   "summary": "How we built a model router into Open SWE's harness that cut median cost per coding task by 64% with no measurable drop in quality, and how to build your own.",
+   "extra": {},
+   "score": 1.635,
    "flag": "dup",
-   "dup_note": "已于 2026-10-06 推荐过"
+   "dup_note": "已于 2026-10-05 推荐过",
+   "summary_zh": "介绍在 Open SWE harness 中构建模型路由器，使每个编码任务的中位成本降低 64%，质量无显著下降，并给出构建指南。",
+   "why_zh": "为工程师提供可复用的低成本模型选择方案，易于集成到现有 agent 框架。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "Interrupt NYC: Opening Keynote",
+   "link": "https://www.youtube.com/watch?v=950byF7njfw",
+   "dt": "2026-10-05T12:23:25+00:00",
+   "summary": "Harrison Chase, Co-Founder and CEO of LangChain, uses examples from Rogo, Harvey, and JPMorgan Chase to explain owning your intelligence, which means building domain-specific pieces in and around the model, and the three pillars it takes: an open, model-neutral harness such as LangGraph or Deep Agents, a loop that compounds what you learn from how people use your agents, and governance for internal agents. He then walks through the LangSmith platform layer by layer: a new Managed Deep Agents rel…",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": "950byF7njfw"
+   },
+   "score": 1.215,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-05 推荐过",
+   "summary_zh": "Harrison Chase 以 Rogo、Harvey、JPMorgan 等案例阐述“拥有你的智能”，强调开放模型中立 harness、学习循环与内部治理三大支柱。",
+   "why_zh": "为 AI 工程师提供构建可控、可演进的 domain‑specific agent 系统的架构思路。"
+  },
+  {
+   "source": "blog",
+   "source_label": "Lilian Weng",
+   "title": "Harness Engineering for Self-Improvement",
+   "link": "https://lilianweng.github.io/posts/2026-07-04-harness/",
+   "dt": "2026-07-04T00:00:00+00:00",
+   "summary": "The concept of recursive self-improvement (RSI) dates back to I. J. Good (1965) , where he defined an “ultraintelligent machine” as a system that can surpass humans in all intellectual activities and design better machines to improve itself. Yudkowsky (2008) used the phrase “recursive self-improvement” for a specific feedback loop: an AI uses its current intelligence to improve the cognitive machinery that produces its intelligence. This feedback loop in modern AI may indicate the model rewritin…",
+   "extra": {},
+   "weight_override": 1.5,
+   "score": 1.215,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-05 推荐过",
+   "summary_zh": "回顾递归自我改进概念，阐述 AI 利用自身智能改善认知机制的反馈循环，并讨论其实现路径与挑战。",
+   "why_zh": "帮助工程师理解并设计具备自我优化能力的 agent 系统，推动长期性能提升。"
+  },
+  {
+   "source": "blog",
+   "source_label": "Anthropic Engineering",
+   "title": "An update on recent Claude Code quality reports",
+   "link": "https://www.anthropic.com/engineering/april-23-postmortem",
+   "dt": "2026-04-23T00:00:00+00:00",
+   "summary": "",
+   "extra": {},
+   "weight_override": 1.5,
+   "score": 1.215,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-05 推荐过",
+   "summary_zh": "Anthropic 发布 Claude Code 最新质量报告更新，说明模型在代码生成任务中的表现与改进方向。",
+   "why_zh": "为依赖 Claude Code 进行编码的工程师提供最新基准与质量保障信息。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · David Ondrej",
+   "title": "Vercel CEO reveals his Agentic Engineering Workflow",
+   "link": "https://www.youtube.com/watch?v=WeiB_gLOdQE",
+   "dt": "2026-10-02T14:48:25+00:00",
+   "summary": "Try Supabase for Free: https://supabase.com/ Supabase Select: https://select.supabase.com/ Cloudroom: https://cloudroom.dev/ Vercel: http://vercel.com/ Guillermo's twitter: https://x.com/rauchg fx harness: https://fx.sh/ Follow me on Instagram - https://www.instagram.com/davidondrej1/ Follow me on Twitter - https://x.com/DavidOndrej1 Watch my podcasts on Spotify: https://open.spotify.com/show/033E1ULeu3Pj9JU2MABz2U?si=vvf361b2R3O2Dg0obO-2IQ Subscribe if you're serious about AI. In this video, Da…",
+   "extra": {
+    "channel": "David Ondrej",
+    "video_id": "WeiB_gLOdQE"
+   },
+   "score": 1.154,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-05 推荐过",
+   "summary_zh": "Vercel CEO 分享 Agentic 工作流，演示用 Vercel、Supabase、Cloudroom 构建 AI 代理。",
+   "why_zh": "展示实际 AI 工程实践，提供全栈工具链参考，帮助工程师快速构建可落地的 Agent 系统。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Google DeepMind",
+   "title": "Create your own voices with Gemini 3.8 text-to-speech",
+   "link": "https://www.youtube.com/watch?v=FL6mI_Br-mc",
+   "dt": "2026-09-23T15:23:38+00:00",
+   "summary": "Design entirely new vocal personas from scratch for gaming, immersive audiobooks, or dual-speaker podcasts using natural language prompts - directing every performance line by line with nuanced acting cues, pacing, back channeling, and dialect shifts. Or, recreate consistent adult vocal profiles from just a 30-second audio sample of your voice or a voice you have the rights to use, backed by built-in consent verification, SynthID watermarking, and C2PA credentials to protect both developers and …",
+   "extra": {
+    "channel": "Google DeepMind",
+    "video_id": "FL6mI_Br-mc"
+   },
+   "score": 1.147,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-05 推荐过",
+   "summary_zh": "Gemini 3.8 文本转语音支持自然语言提示定制新声线，或从 30 秒音频克隆声音，适用于游戏、有声书等场景。",
+   "why_zh": "展示细粒度声线控制能力，为 AI 应用提供个性化、可复制的语音生成方案，降低内容制作门槛。"
   }
  ]
 }
