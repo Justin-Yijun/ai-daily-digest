@@ -15,68 +15,41 @@
   },
   "https://github.com/Louis-CFM/coucou": {
    "title": "Louis-CFM/coucou",
-   "date": "2026-10-05",
-   "tokens": [
-    "cfm",
-    "coucou",
-    "louis"
-   ],
+   "date": "2026-10-06",
+   "tokens": [],
    "source": "github",
    "summary_zh": "一个小工具居住在系统栏，实时监控 Claude Code 等编码代理的状态。",
    "why_zh": "让开发者一眼看到多代理运行情况，提升调度与调试便利。"
   },
   "https://github.com/rehan-remade/universal-modder": {
    "title": "rehan-remade/universal-modder",
-   "date": "2026-10-05",
-   "tokens": [
-    "modder",
-    "rehan",
-    "remade",
-    "universal"
-   ],
+   "date": "2026-10-06",
+   "tokens": [],
    "source": "github",
    "summary_zh": "使 Claude Code 能够通过技能、工具和 fal MCP 对任意 PC 游戏进行逆向、生成资产和测试。",
    "why_zh": "为游戏 MOD 开发提供 AI 辅助流程，大幅降低逆向和内容创作门槛。"
   },
   "https://github.com/yetone/magpie": {
    "title": "yetone/magpie",
-   "date": "2026-10-05",
-   "tokens": [
-    "magpie",
-    "yetone"
-   ],
+   "date": "2026-10-06",
+   "tokens": [],
    "source": "github",
    "summary_zh": "菜单栏工具统一管理多种代理模型，如 Codex 在 DeepSeek、Claude Code 在 Kimi 上运行。",
    "why_zh": "让开发者快速切换和比较不同后端模型，提升实验效率。"
   },
   "https://github.com/youngyangyang04/llm-master": {
    "title": "youngyangyang04/llm-master",
-   "date": "2026-10-05",
-   "tokens": [
-    "llm",
-    "master",
-    "youngyangyang04"
-   ],
+   "date": "2026-10-06",
+   "tokens": [],
    "source": "github",
    "summary_zh": "提供覆盖 Prompt Engineering 到模型部署等全栈 LLM 学习路线的中文教程。",
    "why_zh": "对 AI 工程师系统掌握 LLM 技术栈和面试准备极具参考价值。"
   },
   "https://github.com/Niko1221/Strata": {
-   "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
-   "date": "2026-10-05",
-   "tokens": [
-    "100t",
-    "125b",
-    "4090",
-    "consumer",
-    "flash",
-    "hardware",
-    "next",
-    "qwen",
-    "rtx",
-    "run"
-   ],
-   "source": "hackernews",
+   "title": "Niko1221/Strata",
+   "date": "2026-10-06",
+   "tokens": [],
+   "source": "github",
    "summary_zh": "在消费级 RTX 4090 上运行 125B 参数的 Qwen 3.8 Flash Next，达到 100T/s 推理速度。",
    "why_zh": "展示大模型在单卡消费硬件上的高效推理可能性，为本地部署提供参考。"
   },
@@ -206,7 +179,663 @@
    "source": "youtube",
    "summary_zh": "Gemini 3.8 文本转语音支持自然语言提示定制新声线，或从 30 秒音频克隆声音，适用于游戏、有声书等场景。",
    "why_zh": "展示细粒度声线控制能力，为 AI 应用提供个性化、可复制的语音生成方案，降低内容制作门槛。"
+  },
+  "https://github.com/edenfunf/reelmimic": {
+   "title": "edenfunf/reelmimic",
+   "date": "2026-10-06",
+   "tokens": [],
+   "source": "github",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://github.com/qiz029/dscode": {
+   "title": "qiz029/dscode",
+   "date": "2026-10-06",
+   "tokens": [],
+   "source": "github",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html": {
+   "title": "Anthropic reported diary entry to police, woman faces felony charge",
+   "date": "2026-10-06",
+   "tokens": [
+    "anthropic",
+    "charge",
+    "diary",
+    "entry",
+    "faces",
+    "felony",
+    "police",
+    "reported",
+    "woman"
+   ],
+   "source": "hackernews",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://github.com/amitshekhariitbhu/ai-engineering-course": {
+   "title": "amitshekhariitbhu/ai-engineering-course",
+   "date": "2026-10-06",
+   "tokens": [
+    "ai",
+    "amitshekhariitbhu",
+    "course",
+    "engineering"
+   ],
+   "source": "github",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://github.com/sno-ai/sno-station": {
+   "title": "sno-ai/sno-station",
+   "date": "2026-10-06",
+   "tokens": [
+    "ai",
+    "sno",
+    "station"
+   ],
+   "source": "github",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors": {
+   "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
+   "date": "2026-10-06",
+   "tokens": [
+    "agents",
+    "candidates",
+    "discover",
+    "magnetic",
+    "opus",
+    "room",
+    "semiconductor",
+    "temperature",
+    "two"
+   ],
+   "source": "hackernews",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://huggingface.co/papers/2610.06577": {
+   "title": "Optimizing the Optimizer: Language Models Discover Faster Molecular Relaxation",
+   "date": "2026-10-06",
+   "tokens": [
+    "discover",
+    "faster",
+    "language",
+    "models",
+    "molecular",
+    "optimizer",
+    "optimizing",
+    "relaxation"
+   ],
+   "source": "paper",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://huggingface.co/papers/2609.37267": {
+   "title": "Foundations of Proactive Agents: Principles, Technical Layers, and Proactivity-Gym",
+   "date": "2026-10-06",
+   "tokens": [
+    "agents",
+    "foundations",
+    "gym",
+    "layers",
+    "principles",
+    "proactive",
+    "proactivity",
+    "technical"
+   ],
+   "source": "paper",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://www.marktechpost.com/2026/10/05/reka-releases-rho-1-a-19b-omni-reasoning-model-that-understands-generates-video-and-outputs-robot-actions-in-one/": {
+   "title": "Reka Releases Rho-1: A 19B Omni-Reasoning Model That Understands, Generates Video and Outputs Robot Actions in One",
+   "date": "2026-10-06",
+   "tokens": [
+    "19b",
+    "actions",
+    "generates",
+    "model",
+    "omni",
+    "one",
+    "outputs",
+    "reasoning",
+    "reka",
+    "releases",
+    "rho",
+    "robot",
+    "understands",
+    "video"
+   ],
+   "source": "blog",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://www.youtube.com/watch?v=PUBc2G0Tj5E": {
+   "title": "Meet the New Codex CLI",
+   "date": "2026-10-06",
+   "tokens": [
+    "cli",
+    "codex",
+    "meet"
+   ],
+   "source": "youtube",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://www.youtube.com/watch?v=8BD6w5wELRo": {
+   "title": "OpenRouter State Of Models: Jev, Open-Weights, and Tokenomics",
+   "date": "2026-10-06",
+   "tokens": [
+    "jev",
+    "models",
+    "open",
+    "openrouter",
+    "state",
+    "tokenomics",
+    "weights"
+   ],
+   "source": "youtube",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://www.anthropic.com/engineering/claude-code-auto-mode": {
+   "title": "How we built Claude Code auto mode: a safer way to skip permissions",
+   "date": "2026-10-06",
+   "tokens": [
+    "auto",
+    "built",
+    "claude",
+    "code",
+    "mode",
+    "permissions",
+    "safer",
+    "skip",
+    "way",
+    "we"
+   ],
+   "source": "blog",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://www.anthropic.com/engineering/harness-design-long-running-apps": {
+   "title": "Harness design for long-running application development",
+   "date": "2026-10-06",
+   "tokens": [
+    "application",
+    "design",
+    "development",
+    "harness",
+    "long",
+    "running"
+   ],
+   "source": "blog",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://www.youtube.com/watch?v=sKltfHvsDQM": {
+   "title": "Build faster with Ultrafast",
+   "date": "2026-10-06",
+   "tokens": [
+    "build",
+    "faster",
+    "ultrafast"
+   ],
+   "source": "youtube",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/": {
+   "title": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
+   "date": "2026-10-06",
+   "tokens": [
+    "activities",
+    "agent",
+    "found",
+    "openai",
+    "projects",
+    "rogue",
+    "wikimedia"
+   ],
+   "source": "hackernews",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://github.com/KKKKhazix/AIHOT": {
+   "title": "KKKKhazix/AIHOT",
+   "date": "2026-10-06",
+   "tokens": [
+    "aihot",
+    "kkkkhazix"
+   ],
+   "source": "github",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://github.com/feder-cr/dots": {
+   "title": "feder-cr/dots",
+   "date": "2026-10-06",
+   "tokens": [
+    "cr",
+    "dots",
+    "feder"
+   ],
+   "source": "github",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://github.com/Jakeschincariol/replica-skill": {
+   "title": "Jakeschincariol/replica-skill",
+   "date": "2026-10-06",
+   "tokens": [
+    "jakeschincariol",
+    "replica",
+    "skill"
+   ],
+   "source": "github",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://github.com/jev-chat/jev-chat-jarvis": {
+   "title": "jev-chat/jev-chat-jarvis",
+   "date": "2026-10-06",
+   "tokens": [
+    "chat",
+    "jarvis",
+    "jev"
+   ],
+   "source": "github",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://github.com/yibie/awesome-jev": {
+   "title": "yibie/awesome-jev",
+   "date": "2026-10-06",
+   "tokens": [
+    "awesome",
+    "jev",
+    "yibie"
+   ],
+   "source": "github",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://huggingface.co/papers/2610.05622": {
+   "title": "UndoBench: Separating Task Competence from Recovery Capability in Tool-Using AI Agents",
+   "date": "2026-10-06",
+   "tokens": [
+    "agents",
+    "ai",
+    "capability",
+    "competence",
+    "recovery",
+    "separating",
+    "task",
+    "tool",
+    "undobench"
+   ],
+   "source": "paper",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://huggingface.co/papers/2609.23136": {
+   "title": "Intent Interpretation at RIC Timescales: Jev Decision Models versus Large Language Models in 6G Open RAN",
+   "date": "2026-10-06",
+   "tokens": [
+    "6g",
+    "decision",
+    "intent",
+    "interpretation",
+    "jev",
+    "language",
+    "large",
+    "models",
+    "open",
+    "ran",
+    "ric",
+    "timescales",
+    "versus"
+   ],
+   "source": "paper",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/": {
+   "title": "Open and Emergent Problems in Agentic Privacy and Security: A Contextual Angle",
+   "date": "2026-10-06",
+   "tokens": [
+    "agentic",
+    "angle",
+    "contextual",
+    "emergent",
+    "open",
+    "privacy",
+    "problems",
+    "security"
+   ],
+   "source": "blog",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/": {
+   "title": "Introducing Quine: An AI research system designed for the complexity of biology",
+   "date": "2026-10-06",
+   "tokens": [
+    "ai",
+    "biology",
+    "complexity",
+    "designed",
+    "introducing",
+    "quine",
+    "research",
+    "system"
+   ],
+   "source": "blog",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://www.marktechpost.com/2026/10/05/meet-together-link-a-free-cli-that-runs-open-models-like-kimi-k3-and-glm-5-3-inside-claude-code-codex-and-opencode/": {
+   "title": "Meet Together Link: A Free CLI That Runs Open Models Like Kimi K3 and GLM 5.3 Inside Claude Code, Codex, and OpenCode",
+   "date": "2026-10-06",
+   "tokens": [
+    "claude",
+    "cli",
+    "code",
+    "codex",
+    "free",
+    "glm",
+    "inside",
+    "k3",
+    "kimi",
+    "like",
+    "link",
+    "meet",
+    "models",
+    "open",
+    "opencode",
+    "runs",
+    "together"
+   ],
+   "source": "blog",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://www.youtube.com/watch?v=qwnJJMNGwgY": {
+   "title": "The BEST Jev Use Cases for AI Coding (Absolute Game Changers)",
+   "date": "2026-10-06",
+   "tokens": [
+    "absolute",
+    "ai",
+    "best",
+    "cases",
+    "changers",
+    "coding",
+    "game",
+    "jev",
+    "use"
+   ],
+   "source": "youtube",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://www.youtube.com/shorts/oFPUUFLZJHQ": {
+   "title": "Your Coding Agent Wastes SO MANY Tokens Just Finding Code - Here's the Fix",
+   "date": "2026-10-06",
+   "tokens": [
+    "agent",
+    "code",
+    "coding",
+    "finding",
+    "fix",
+    "here",
+    "just",
+    "many",
+    "so",
+    "tokens",
+    "wastes"
+   ],
+   "source": "youtube",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://www.youtube.com/watch?v=_U-O5lYhJ7Q": {
+   "title": "10 Levels of Jev For Agentic Engineers",
+   "date": "2026-10-06",
+   "tokens": [
+    "10",
+    "agentic",
+    "engineers",
+    "jev",
+    "levels"
+   ],
+   "source": "youtube",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://github.com/Ebony-Vinyl/dsh-our-free-model": {
+   "title": "Ebony-Vinyl/dsh-our-free-model",
+   "date": "2026-10-06",
+   "tokens": [
+    "dsh",
+    "ebony",
+    "free",
+    "model",
+    "our",
+    "vinyl"
+   ],
+   "source": "github",
+   "summary_zh": "插件让 dsh 直接使用 DeepSeek V4.1 Flash、Kimi K3 等前沿模型，免登录、无 API Key、无限量。",
+   "why_zh": "对 AI 工程师提供零门槛访问最新模型，便于快速实验和原型开发。"
+  },
+  "https://github.com/CopilotKit/openmuse": {
+   "title": "CopilotKit/openmuse",
+   "date": "2026-10-06",
+   "tokens": [
+    "copilotkit",
+    "openmuse"
+   ],
+   "source": "github",
+   "summary_zh": "基于 CopilotKit 和 AG-UI 构建的个人代理，具备浏览器、终端、文件系统并能持续运行工作。",
+   "why_zh": "为工程师提供可扩展的多模态交互代理平台，便于构建自主工作流。"
+  },
+  "https://github.com/jaredpalmer/kev": {
+   "title": "jaredpalmer/kev",
+   "date": "2026-10-06",
+   "tokens": [
+    "jaredpalmer",
+    "kev"
+   ],
+   "source": "github",
+   "summary_zh": "基于 Qwen3.5/3.8 构建的 Jev 风格决策模型家族，可自行训练和运行。",
+   "why_zh": "为研究者提供开源决策模型基座，便于在自有数据上微调与实验。"
+  },
+  "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise": {
+   "title": "pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+   "date": "2026-10-06",
+   "tokens": [
+    "ai",
+    "company",
+    "engineering",
+    "interview",
+    "pallavi",
+    "questions",
+    "shekhar",
+    "wise"
+   ],
+   "source": "github",
+   "summary_zh": "汇总顶尖 AI 公司面试题目及答案的 AI 工程面试速查表。",
+   "why_zh": "帮助工程师快速备战顶尖企业面试，掌握高频考点。"
+  },
+  "https://github.com/Contrastive-LM/CLM": {
+   "title": "Contrastive-LM/CLM",
+   "date": "2026-10-06",
+   "tokens": [
+    "clm",
+    "contrastive",
+    "lm"
+   ],
+   "source": "github",
+   "summary_zh": "暂无详细描述的对比语言模型仓库。",
+   "why_zh": "需进一步查看代码以了解其在对比学习中的应用潜力。"
+  },
+  "https://github.com/saihhold-zhao/polox_ai": {
+   "title": "saihhold-zhao/polox_ai",
+   "date": "2026-10-06",
+   "tokens": [
+    "ai",
+    "polox",
+    "saihhold",
+    "zhao"
+   ],
+   "source": "github",
+   "summary_zh": "基于 DeepSeek Harness 的开源原生代理平台，支持多模态 AI 生成，交互发生在代理对话与无限画布上。",
+   "why_zh": "为工程师提供统一的创作、生成与编辑环境，便于构建多模态 agent 应用。"
+  },
+  "https://huggingface.co/papers/2610.03617": {
+   "title": "DEPICT: Scoring Text-to-Image Alignment by Answer Agreement",
+   "date": "2026-10-06",
+   "tokens": [
+    "agreement",
+    "alignment",
+    "answer",
+    "depict",
+    "image",
+    "scoring",
+    "text"
+   ],
+   "source": "paper",
+   "summary_zh": "提出基于答案一致性的文本图像对齐评分方法 DEPICT，用于检测缺失对象、属性交换等问题。",
+   "why_zh": "该方法能细粒度定位 T2I 生成中的常见错误，为模型调试提供可量化依据。"
+  },
+  "https://huggingface.co/papers/2609.39490": {
+   "title": "OmniReasoning: Pushing the Limits of Audio-Visual Joint Reasoning",
+   "date": "2026-10-06",
+   "tokens": [
+    "audio",
+    "joint",
+    "limits",
+    "omnireasoning",
+    "pushing",
+    "reasoning",
+    "visual"
+   ],
+   "source": "paper",
+   "summary_zh": "提出音视频联合推理基准、数据引擎和学习方法 OmniReasoning，弥补现有评估缺口。",
+   "why_zh": "为多模态联合推理提供统一评测与训练框架，有助于开发真正的音视频理解系统。"
+  },
+  "https://www.marktechpost.com/2026/10/05/reflection-ai-introduces-beam-a-501b-open-weight-moe-model-with-23b-active-parameters-for-coding-and-agentic-workloads/": {
+   "title": "Reflection AI Introduces Beam: A 501B Open-Weight MoE Model With 23B Active Parameters for Coding and Agentic Workloads",
+   "date": "2026-10-06",
+   "tokens": [
+    "23b",
+    "501b",
+    "active",
+    "agentic",
+    "ai",
+    "beam",
+    "coding",
+    "introduces",
+    "model",
+    "moe",
+    "open",
+    "parameters",
+    "reflection",
+    "weight",
+    "workloads"
+   ],
+   "source": "blog",
+   "summary_zh": "Reflection AI 发布 Beam，501B 参数稀疏 MoE，仅激活 23B，专注代码与 Agent 任务，推理成本仅为 GLM-5.2 的 1/3~1/4。",
+   "why_zh": "开源权重将在 2026 年 10 月发布，提供超大规模稀疏模型的实践参考，降低代码生成算力需求。"
+  },
+  "https://aiera.com.cn/2026/10/06/other/admin/117185/%e5%88%9a%e5%88%9a%ef%bc%8cclaude%e5%a4%ba%e8%88%8dcodex%ef%bc%81gpt-6-1-sol%e6%9e%81%e9%80%9f%e7%89%88%e9%a9%ac%e4%b8%8a%e5%b0%b1%e6%9d%a5/": {
+   "title": "刚刚，Claude夺舍Codex！GPT-6.1 Sol极速版马上就来",
+   "date": "2026-10-06",
+   "tokens": [
+    "claude夺舍codex",
+    "gpt",
+    "sol极速版马上就来",
+    "刚刚"
+   ],
+   "source": "blog",
+   "summary_zh": "OpenAI 高管征求需求时评论区大喊 Claude，暗示 Codex 可能被 Claude 取代，GPT-6.1 Sol 极速版即将发布。",
+   "why_zh": "反映社区对 Codex 不满，预示 OpenAI 可能转向更强的 Claude 系列，影响代码生成工具选择。"
+  },
+  "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/": {
+   "title": "We're going to need default hard budget caps on pretty much everything",
+   "date": "2026-10-06",
+   "tokens": [
+    "budget",
+    "caps",
+    "default",
+    "everything",
+    "going",
+    "hard",
+    "much",
+    "need",
+    "pretty",
+    "re",
+    "we"
+   ],
+   "source": "blog",
+   "summary_zh": "主张在按使用付费的服务和 API 中加入硬预算上限，超出后直接返回错误，而非仅警告。",
+   "why_zh": "对 AI 编码 Agent 等长期运行任务成本控制至关重要，防止意外费用爆炸。"
+  },
+  "https://www.youtube.com/watch?v=td52e2tQFIU": {
+   "title": "The Biggest AI Coding Agent Upgrade Is Already on Your Machine?!",
+   "date": "2026-10-06",
+   "tokens": [
+    "agent",
+    "ai",
+    "already",
+    "biggest",
+    "coding",
+    "machine",
+    "upgrade"
+   ],
+   "source": "youtube",
+   "summary_zh": "每次与编码 Agent 的交互都会保存为本地文件，包含 prompt、工具调用和失败，是提升 Agent 性能的未被利用的金矿。",
+   "why_zh": "利用这些日志可进行回放、微调或检索增强，显著提升 Agent 的准确性和鲁棒性而无需额外标注。"
+  },
+  "https://www.youtube.com/watch?v=NZq88JAJSag": {
+   "title": "AI Coding Rate Limits are RIDICULOUS Now - Here's How You Keep Scaling Anyway",
+   "date": "2026-10-06",
+   "tokens": [
+    "ai",
+    "anyway",
+    "coding",
+    "here",
+    "keep",
+    "limits",
+    "now",
+    "rate",
+    "ridiculous",
+    "scaling"
+   ],
+   "source": "youtube",
+   "summary_zh": "他遇到 Claude Code 和 Codex 的额度限制，$200 方案很快用完，Opus 5.5 改善有限，说明不能只依赖最强模型。",
+   "why_zh": "速率限制直接影响代理扩展，需要通过模型选择和额度管理来保持规模增长。"
+  },
+  "https://www.youtube.com/watch?v=3b0U4_02bAE": {
+   "title": "Self-Compact Pi Agent: ZERO HYPE Agentic Coding Devlog",
+   "date": "2026-10-06",
+   "tokens": [
+    "agent",
+    "agentic",
+    "coding",
+    "compact",
+    "devlog",
+    "hype",
+    "pi",
+    "self",
+    "zero"
+   ],
+   "source": "youtube",
+   "summary_zh": "代理能自行检测上下文窗口满载并自动压缩，挑战默认压缩比例，提供早期报名链接。",
+   "why_zh": "自主上下文管理对构建可伸缩代理至关重要，工程师可掌控压缩策略以提升效率。"
   }
  },
- "updated": "2026-10-05T12:45:36.440409+00:00"
+ "updated": "2026-10-06T11:37:21.288655+00:00"
 }

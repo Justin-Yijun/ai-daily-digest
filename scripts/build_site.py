@@ -554,7 +554,8 @@ def render_about(all_d, all_w):
 
 
 def render_feed(all_d):
-    now = datetime.now(timezone.utc)
+    # lastBuildDate 用最新一期的生成时间，保证同一批数据重复构建结果完全一致（幂等）
+    now = parse_dt(all_d[0].get("generated")) or datetime.now(timezone.utc)
     items = []
     for d in all_d[:40]:
         date_s = d.get("date") or ""

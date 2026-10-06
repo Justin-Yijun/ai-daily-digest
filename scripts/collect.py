@@ -1095,6 +1095,14 @@ def update_readme(digest_dir, now):
 
 def main():
     now = datetime.now(timezone.utc)
+    date_str = now.astimezone(CST).strftime("%Y-%m-%d")
+
+    # 幂等：当天日报已存在就跳过，这样可以多排几个 cron 时间点做冗余
+    # （GitHub Actions 定时任务在高峰会被延迟甚至丢弃）
+    if os.environ.get("FORCE") != "1" and (DIGEST_DIR / f"{date_str}.json").exists():
+        log(f"[skip] {date_str} 的日报已存在，跳过。需强制重跑请设 FORCE=1")
+        return
+
     cfg = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
     log(f"=== 采集开始 {now.astimezone(CST).isoformat()} ===")
 
