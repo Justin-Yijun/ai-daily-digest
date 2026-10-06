@@ -26,18 +26,33 @@ $LogDir = Join-Path $Root 'logs'
 $Log = Join-Path $LogDir 'local_run.log'
 New-Item -ItemType Directory -Force -Path $LogDir | Out-Null
 
-# git over ssh.github.com:443 (port 22 is blocked here)
-$Remote = 'ssh://git@ssh.github.com:443/Justin-Yijun/ai-daily-digest.git'
-$GitKey = Join-Path $env:USERPROFILE '.ssh\id_ed25519_github'
-$env:GIT_SSH_COMMAND = "ssh -i `"$GitKey`" -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o ConnectTimeout=25"
-$Python = Join-Path $env:USERPROFILE 'AppData\Local\Python\bin\python.exe'
-if (-not (Test-Path $Python)) { $Python = 'python' }
-
 function Log($msg) {
     $line = '[{0}] {1}' -f (Get-Date -Format 'yyyy-MM-dd HH:mm:ss'), $msg
     Add-Content -LiteralPath $Log -Value $line -Encoding UTF8
     Write-Host $line
 }
+
+# GitHub port 22 is blocked from this machine, and ssh.github.com:443 only works
+# while the TUN adapter is up. Instead tunnel SSH through the local HTTP proxy
+# (v2rayN mixed port 10808) via Git's connect.exe, so git keeps working with
+# TUN switched off.
+$Remote = 'git@github.com:Justin-Yijun/ai-daily-digest.git'
+$GitKey = Join-Path $env:USERPROFILE '.ssh\id_ed25519_github'
+$SshProxy = ($env:USERPROFILE -replace '\\', '/') + '/.pi/scripts/ssh_proxy.bat'
+if (-not (Test-Path $SshProxy)) {
+    # self-heal: the wrapper is a one-liner around Git's connect.exe
+    New-Item -ItemType Directory -Force -Path (Split-Path $SshProxy) | Out-Null
+    $lines = @(
+        '@echo off',
+        'rem tunnel SSH through the local HTTP proxy (v2rayN mixed port)',
+        '"C:\Program Files\Git\mingw64\bin\connect.exe" -H 127.0.0.1:10808 %1 %2'
+    )
+    Set-Content -LiteralPath $SshProxy -Value $lines -Encoding ASCII
+    Log ("created ssh proxy wrapper: " + $SshProxy)
+}
+$env:GIT_SSH_COMMAND = "ssh -i `"$GitKey`" -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o ConnectTimeout=25 -o ProxyCommand=`"$SshProxy %h %p`""
+$Python = Join-Path $env:USERPROFILE 'AppData\Local\Python\bin\python.exe'
+if (-not (Test-Path $Python)) { $Python = 'python' }
 
 $Today = Get-Date -Format 'yyyy-MM-dd'
 Set-Location $Root
