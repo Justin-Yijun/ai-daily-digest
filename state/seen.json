@@ -15,7 +15,7 @@
   },
   "https://github.com/Louis-CFM/coucou": {
    "title": "Louis-CFM/coucou",
-   "date": "2026-10-07",
+   "date": "2026-10-08",
    "tokens": [],
    "source": "github",
    "summary_zh": "小巧的 Mac 菜单栏 / iPhone 小组件实时监控 Claude Code 等 AI 编码代理，支持从锁屏或刘海批准。",
@@ -23,7 +23,7 @@
   },
   "https://github.com/rehan-remade/universal-modder": {
    "title": "rehan-remade/universal-modder",
-   "date": "2026-10-07",
+   "date": "2026-10-08",
    "tokens": [],
    "source": "github",
    "summary_zh": "使用 Claude Code 及 fal MCP 进行游戏逆向、资产生成、测试等全流程 MOD 制作。",
@@ -31,7 +31,7 @@
   },
   "https://github.com/yetone/magpie": {
    "title": "yetone/magpie",
-   "date": "2026-10-07",
+   "date": "2026-10-08",
    "tokens": [],
    "source": "github",
    "summary_zh": "菜单栏工具统一管理多种 AI 代理模型，如 Codex 在 DeepSeek、Claude Code 在 Kimi 上运行。",
@@ -39,7 +39,7 @@
   },
   "https://github.com/youngyangyang04/llm-master": {
    "title": "youngyangyang04/llm-master",
-   "date": "2026-10-07",
+   "date": "2026-10-08",
    "tokens": [],
    "source": "github",
    "summary_zh": "提供覆盖 Prompt Engineering 到模型部署等全栈 LLM 学习路线的中文教程。",
@@ -156,7 +156,7 @@
   },
   "https://github.com/edenfunf/reelmimic": {
    "title": "edenfunf/reelmimic",
-   "date": "2026-10-07",
+   "date": "2026-10-08",
    "tokens": [],
    "source": "github",
    "summary_zh": "用户提供喜欢视频，AI 团队（Claude Code 或 Codex）规划、构建并审查生成同风格新视频。",
@@ -164,7 +164,7 @@
   },
   "https://github.com/qiz029/dscode": {
    "title": "qiz029/dscode",
-   "date": "2026-10-07",
+   "date": "2026-10-08",
    "tokens": [],
    "source": "github",
    "summary_zh": "",
@@ -1212,7 +1212,226 @@
    "source": "blog",
    "summary_zh": "GPT-6 Astra Ultrafast 在 NVIDIA Blackwell GPU 上运行，提供最高 8 倍更快的 token 生成。",
    "why_zh": "展示最新推理加速技术及可用 API，帮助工程师提升模型部署效率。"
+  },
+  "https://www.zohaib.cc/blog/smartest-claude-code-feature": {
+   "title": "Claude Code’s suggested message feature: I think the real customer is the model",
+   "date": "2026-10-08",
+   "tokens": [
+    "claude",
+    "code",
+    "customer",
+    "feature",
+    "message",
+    "model",
+    "real",
+    "suggested",
+    "think"
+   ],
+   "source": "hackernews",
+   "summary_zh": "Claude Code 新增建议消息功能，认为真正的用户是模型自身。",
+   "why_zh": "对 AI 工程师值得关注：该功能让模型能自我引导提示，提升代码生成可控性。"
+  },
+  "https://github.com/lemomo-ai/lemo-opuscar": {
+   "title": "lemomo-ai/lemo-opuscar",
+   "date": "2026-10-08",
+   "tokens": [
+    "ai",
+    "lemo",
+    "lemomo",
+    "opuscar"
+   ],
+   "source": "github",
+   "summary_zh": "Claude Opus 5.5 生成 43 种电影风格的纯代码短片，附风格提示词和导演指南。",
+   "why_zh": "展示大模型直接输出可运行代码实现多风格视觉内容，为程序化创作提供新范式。"
+  },
+  "https://github.com/Clearailhc/clearai-dsh": {
+   "title": "Clearailhc/clearai-dsh",
+   "date": "2026-10-08",
+   "tokens": [
+    "clearai",
+    "clearailhc",
+    "dsh"
+   ],
+   "source": "github",
+   "summary_zh": "ClearAI 为 DeepSeek Harness 提供原生 DSH 插件，引入认知循环机制。",
+   "why_zh": "将认知循环嵌入模型 harness，有助于提升推理一致性和可调试性，对工程师有实用价值。"
+  },
+  "https://openai.com/index/sharing-ai-progress-in-mathematics/": {
+   "title": "Sharing AI progress in mathematics",
+   "date": "2026-10-08",
+   "tokens": [
+    "ai",
+    "mathematics",
+    "progress",
+    "sharing"
+   ],
+   "source": "hackernews",
+   "summary_zh": "OpenAI 公布数学领域最新进展，包含预印本论文和代码仓库。",
+   "why_zh": "提供前沿数学推理模型和数据，帮助 AI 工程师研究形式化推理与证明生成。"
+  },
+  "https://arxiv.org/abs/2610.06910": {
+   "title": "GAMEGO: Training Game-Dev Agents with Synthetic Trajectories Anchored in Real-World Assets",
+   "date": "2026-10-08",
+   "tokens": [
+    "agents",
+    "anchored",
+    "assets",
+    "dev",
+    "game",
+    "gamego",
+    "real",
+    "synthetic",
+    "training",
+    "trajectories",
+    "world"
+   ],
+   "source": "paper",
+   "summary_zh": "使用合成轨迹训练游戏开发代理，锚定真实世界资产实现端到端游戏生成。",
+   "why_zh": "直接从资产生成可玩游戏，降低多步骤工作流复杂度，为 AI 驱动的内容创作提供新路径。"
+  },
+  "https://arxiv.org/abs/2610.06914": {
+   "title": "Text2Dashboard: A Governed Agent Architecture for Natural-Language Dashboard Generation over Enterprise DataBrain",
+   "date": "2026-10-08",
+   "tokens": [
+    "agent",
+    "architecture",
+    "dashboard",
+    "databrain",
+    "enterprise",
+    "generation",
+    "governed",
+    "language",
+    "natural",
+    "over",
+    "text2dashboard"
+   ],
+   "source": "paper",
+   "summary_zh": "Text2Dashboard 将自然语言分析请求转换为可检查的企业仪表盘，含插件和运行时。",
+   "why_zh": "提供可审计、可恢复的仪表盘生成流程，满足企业级数据可视化的治理需求。"
+  },
+  "https://github.com/shader-effects-inc/shaders": {
+   "title": "shader-effects-inc/shaders",
+   "date": "2026-10-08",
+   "tokens": [
+    "effects",
+    "inc",
+    "shader",
+    "shaders"
+   ],
+   "source": "github",
+   "summary_zh": "提供适用于 React、Vue 等框架的 WebGPU 组件库。",
+   "why_zh": "让前端开发者轻松使用 WebGPU 进行高性能图形计算。"
+  },
+  "https://github.com/DenRakEiw/scumble": {
+   "title": "DenRakEiw/scumble",
+   "date": "2026-10-08",
+   "tokens": [
+    "denrakeiw",
+    "scumble"
+   ],
+   "source": "github",
+   "summary_zh": "开源 AI 修图桌面编辑器，支持多种模型及 PSD 导出。",
+   "why_zh": "集成多模型与图层操作，便于工程师快速构建修图工作流。"
+  },
+  "https://www.youtube.com/watch?v=DmCaBWv5yG8": {
+   "title": "Production Monitoring with Codex: Grafana, Kubernetes, & Security",
+   "date": "2026-10-08",
+   "tokens": [
+    "codex",
+    "grafana",
+    "kubernetes",
+    "monitoring",
+    "production",
+    "security"
+   ],
+   "source": "youtube",
+   "summary_zh": "使用 Codex 演示在 Grafana、K8s 中进行故障排查与安全监控。",
+   "why_zh": "展示如何利用 AI 辅助定位服务可用性问题，提升运维效率。"
+  },
+  "https://www.youtube.com/watch?v=S3l7U7gOsyY": {
+   "title": "Building Engine v2: How LangChain approaches agent improvement",
+   "date": "2026-10-08",
+   "tokens": [
+    "agent",
+    "approaches",
+    "building",
+    "engine",
+    "improvement",
+    "langchain",
+    "v2"
+   ],
+   "source": "youtube",
+   "summary_zh": "介绍 LangSmith Engine 如何通过基准评估提升 Agent 错误检测能力。",
+   "why_zh": "描述其在 IssueBench 上错误识别提升 2 倍的方法，可参考用于 Agent 改进。"
+  },
+  "https://www.youtube.com/shorts/DGYpCXVe1TI": {
+   "title": "What is Deep Agents? An open source harness for long-running agents.",
+   "date": "2026-10-08",
+   "tokens": [
+    "agents",
+    "deep",
+    "harness",
+    "long",
+    "open",
+    "running",
+    "source"
+   ],
+   "source": "youtube",
+   "summary_zh": "Deep Agents 提供模型中立的 Agent 框架，包含上下文、工具、记忆等。",
+   "why_zh": "使任意 LLM 能胜任长复杂任务，降低自研 Agent 开发成本。"
+  },
+  "https://openai.com/index/advancing-computer-use-with-ironclad": {
+   "title": "Advancing computer use with Ironclad",
+   "date": "2026-10-08",
+   "tokens": [
+    "advancing",
+    "computer",
+    "ironclad",
+    "use"
+   ],
+   "source": "blog",
+   "summary_zh": "OpenAI 与 Ironclad 合作训练 AI Agent 处理复杂合同工作流。",
+   "why_zh": "展示 AI 在专业法律场景中的实际应用路径，可借鉴 Agent 设计。"
+  },
+  "https://www.latent.space/p/stacklok": {
+   "title": "Can a Cloud-Native Harness Make Agents Reliable Beyond the Desktop?",
+   "date": "2026-10-08",
+   "tokens": [
+    "agents",
+    "beyond",
+    "cloud",
+    "desktop",
+    "harness",
+    "make",
+    "native",
+    "reliable"
+   ],
+   "source": "blog",
+   "summary_zh": "Kubernetes 联合创始人 Craig McLuckie 和 Joe Beda 计划将代理 harness 完全迁移到云端。",
+   "why_zh": "云原生 harness 能让代理在分布式环境中更可靠、可伸缩，便于大规模强化学习。"
+  },
+  "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses/": {
+   "title": "Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training Agents with Real Harnesses",
+   "date": "2026-10-08",
+   "tokens": [
+    "500",
+    "agent",
+    "agentic",
+    "agents",
+    "framework",
+    "harnesses",
+    "lightning",
+    "lightweight",
+    "line",
+    "real",
+    "rl",
+    "training",
+    "v1"
+   ],
+   "source": "blog",
+   "summary_zh": "Agent Lightning 提供仅 3500 行的轻量级代理 RL 框架，可直接接入现有代理进行强化学习训练。",
+   "why_zh": "低门槛、轻量化的 RL 框架让工程师能快速在真实 harness 上迭代优化代理，无需重构。"
   }
  },
- "updated": "2026-10-06T18:00:37.316332+00:00"
+ "updated": "2026-10-07T16:49:38.067107+00:00"
 }
