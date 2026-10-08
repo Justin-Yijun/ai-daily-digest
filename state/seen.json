@@ -15,7 +15,7 @@
   },
   "https://github.com/Louis-CFM/coucou": {
    "title": "Louis-CFM/coucou",
-   "date": "2026-10-08",
+   "date": "2026-10-09",
    "tokens": [],
    "source": "github",
    "summary_zh": "小巧的 Mac 菜单栏 / iPhone 小组件实时监控 Claude Code 等 AI 编码代理，支持从锁屏或刘海批准。",
@@ -23,7 +23,7 @@
   },
   "https://github.com/rehan-remade/universal-modder": {
    "title": "rehan-remade/universal-modder",
-   "date": "2026-10-08",
+   "date": "2026-10-09",
    "tokens": [],
    "source": "github",
    "summary_zh": "使用 Claude Code 及 fal MCP 进行游戏逆向、资产生成、测试等全流程 MOD 制作。",
@@ -31,7 +31,7 @@
   },
   "https://github.com/yetone/magpie": {
    "title": "yetone/magpie",
-   "date": "2026-10-08",
+   "date": "2026-10-09",
    "tokens": [],
    "source": "github",
    "summary_zh": "菜单栏工具统一管理多种 AI 代理模型，如 Codex 在 DeepSeek、Claude Code 在 Kimi 上运行。",
@@ -39,7 +39,7 @@
   },
   "https://github.com/youngyangyang04/llm-master": {
    "title": "youngyangyang04/llm-master",
-   "date": "2026-10-08",
+   "date": "2026-10-09",
    "tokens": [],
    "source": "github",
    "summary_zh": "提供覆盖 Prompt Engineering 到模型部署等全栈 LLM 学习路线的中文教程。",
@@ -156,7 +156,7 @@
   },
   "https://github.com/edenfunf/reelmimic": {
    "title": "edenfunf/reelmimic",
-   "date": "2026-10-08",
+   "date": "2026-10-09",
    "tokens": [],
    "source": "github",
    "summary_zh": "用户提供喜欢视频，AI 团队（Claude Code 或 Codex）规划、构建并审查生成同风格新视频。",
@@ -1233,13 +1233,8 @@
   },
   "https://github.com/lemomo-ai/lemo-opuscar": {
    "title": "lemomo-ai/lemo-opuscar",
-   "date": "2026-10-08",
-   "tokens": [
-    "ai",
-    "lemo",
-    "lemomo",
-    "opuscar"
-   ],
+   "date": "2026-10-09",
+   "tokens": [],
    "source": "github",
    "summary_zh": "Claude Opus 5.5 生成 43 种电影风格的纯代码短片，附风格提示词和导演指南。",
    "why_zh": "展示大模型直接输出可运行代码实现多风格视觉内容，为程序化创作提供新范式。"
@@ -1431,7 +1426,215 @@
    "source": "blog",
    "summary_zh": "Agent Lightning 提供仅 3500 行的轻量级代理 RL 框架，可直接接入现有代理进行强化学习训练。",
    "why_zh": "低门槛、轻量化的 RL 框架让工程师能快速在真实 harness 上迭代优化代理，无需重构。"
+  },
+  "https://github.com/Oldcircle/geo-sleuth": {
+   "title": "Oldcircle/geo-sleuth",
+   "date": "2026-10-09",
+   "tokens": [
+    "geo",
+    "oldcircle",
+    "sleuth"
+   ],
+   "source": "github",
+   "summary_zh": "Oldcircle/geo-sleuth 是一个代理技能，利用 OpenStreetMap 几何、天际线、卫星影像和街景定位照片拍摄地点并展示推理过程。",
+   "why_zh": "它把多源地理数据与视觉定位结合，为 AI 编码助手提供可解释的地理推理能力。"
+  },
+  "https://github.com/punkpeye/awesome-remote-mcp-servers": {
+   "title": "punkpeye/awesome-remote-mcp-servers",
+   "date": "2026-10-09",
+   "tokens": [
+    "awesome",
+    "mcp",
+    "punkpeye",
+    "remote",
+    "servers"
+   ],
+   "source": "github",
+   "summary_zh": "punkpeye/awesome-remote-mcp-servers 汇总了各种远程 MCP 服务器，便于快速部署和调用。",
+   "why_zh": "为需要远程模型上下文协议的 AI 应用提供一站式资源列表，降低集成成本。"
+  },
+  "https://www.anthropic.com/claude-haiku-5-5": {
+   "title": "Claude Haiku 5.5",
+   "date": "2026-10-09",
+   "tokens": [
+    "claude",
+    "haiku"
+   ],
+   "source": "hackernews",
+   "summary_zh": "Claude Haiku 5.5 是 Anthropic 推出的轻量级多模态模型版本，提升了推理速度和成本效益。",
+   "why_zh": "该版本在保持低延迟的同时增强了多语言理解，适合资源受限的推理场景。"
+  },
+  "https://openai.com/index/gpt-6-for-everyone/": {
+   "title": "GPT‑6 and Intelligent UI for everyone",
+   "date": "2026-10-09",
+   "tokens": [
+    "everyone",
+    "gpt",
+    "intelligent",
+    "ui"
+   ],
+   "source": "hackernews",
+   "summary_zh": "文章展示了 GPT‑6 如何驱动全民可用的智能用户界面，演示了交互原型。",
+   "why_zh": "它表明大模型可以直接构建自然语言驱动的 UI，降低前端开发门槛。"
+  },
+  "https://arxiv.org/abs/2610.06923": {
+   "title": "RadOnc-Agent: An LLM-Orchestrated Framework for AI Workflows Across the Radiotherapy Care Pathway",
+   "date": "2026-10-09",
+   "tokens": [
+    "across",
+    "agent",
+    "ai",
+    "care",
+    "framework",
+    "llm",
+    "orchestrated",
+    "pathway",
+    "radiotherapy",
+    "radonc",
+    "workflows"
+   ],
+   "source": "paper",
+   "summary_zh": "RadOnc-Agent 使用 LLM 编排放射治疗全流程的 AI 工作流，覆盖决策、规划、交付和随访。",
+   "why_zh": "它将孤立的 AI 能力统一为端到端的临床路径，有助于提升治疗一致性和效率。"
+  },
+  "https://arxiv.org/abs/2610.08794": {
+   "title": "Tokka-Bench: Evaluating Tokenizers Across 100 Natural and 20 Programming Languages",
+   "date": "2026-10-09",
+   "tokens": [
+    "100",
+    "20",
+    "across",
+    "bench",
+    "evaluating",
+    "languages",
+    "natural",
+    "programming",
+    "tokenizers",
+    "tokka"
+   ],
+   "source": "paper",
+   "summary_zh": "Tokka-Bench 提出五维指标评估框架，覆盖 100 种自然语言和 20 种编程语言的分词器质量。",
+   "why_zh": "为跨语言大模型提供标准化分词器比较，帮助选择更合适的子词方案。"
+  },
+  "https://github.com/1173591564/Dynamics-memory": {
+   "title": "1173591564/Dynamics-memory",
+   "date": "2026-10-09",
+   "tokens": [
+    "1173591564",
+    "dynamics",
+    "memory"
+   ],
+   "source": "github",
+   "summary_zh": "提供有界、可自更新的长期记忆层，通过候选池、价值动态、张力裁决和因果回放评估实现LLM agent的自纠错。",
+   "why_zh": "解决LLM agent长期记忆的噪声和矛盾问题，提升任务连贯性和可靠性。"
+  },
+  "https://github.com/QingYunA/answer-me-with-html": {
+   "title": "QingYunA/answer-me-with-html",
+   "date": "2026-10-09",
+   "tokens": [
+    "answer",
+    "html",
+    "me",
+    "qingyuna"
+   ],
+   "source": "github",
+   "summary_zh": "让AI Agent用单页HTML直接呈现复杂问题答案，便于阅读和交互。",
+   "why_zh": "提供可视化、结构化的答案形式，降低解析成本，提升用户体验。"
+  },
+  "https://www.youtube.com/watch?v=_nmlHbSB8kM": {
+   "title": "Stop Overpaying for Intelligence | DevDay 2026",
+   "date": "2026-10-09",
+   "tokens": [
+    "2026",
+    "devday",
+    "intelligence",
+    "overpaying",
+    "stop"
+   ],
+   "source": "youtube",
+   "summary_zh": "教授如何通过任务成本测量、模型选择、提示缓存等技术降低AI使用成本而不损失质量。",
+   "why_zh": "为工程师提供实际成本控制方法，帮助在预算内保持性能。"
+  },
+  "https://www.youtube.com/watch?v=3glzJZ-_qB8": {
+   "title": "Stack Overflow - From Idea to Product | DevDay 2026",
+   "date": "2026-10-09",
+   "tokens": [
+    "2026",
+    "devday",
+    "idea",
+    "overflow",
+    "product",
+    "stack"
+   ],
+   "source": "youtube",
+   "summary_zh": "展示小团队如何利用Codex构建面向Agent的Stack Overflow并重构内部系统，提供研发加速经验。",
+   "why_zh": "为AI工程师提供快速将想法转化为产品的实战案例和方法论。"
+  },
+  "https://www.youtube.com/shorts/1BfAsoVz32Q": {
+   "title": "What is an agent skill? How to protect your agent's context window.",
+   "date": "2026-10-09",
+   "tokens": [
+    "agent",
+    "context",
+    "protect",
+    "skill",
+    "window"
+   ],
+   "source": "youtube",
+   "summary_zh": "介绍LangChain Deep Agents的Skill概念，通过任务级文件夹隔离上下文，防止信息过载导致卡顿。",
+   "why_zh": "帮助工程师设计可扩展的Agent，有效管理上下文窗口，提升任务执行可靠性。"
+  },
+  "https://www.marktechpost.com/2026/10/08/jetbrains-releases-mellum2-1-a-12b-moe-open-model-for-coding-agents/": {
+   "title": "JetBrains Releases Mellum2.1: A 12B MoE Open Model for Coding Agents",
+   "date": "2026-10-09",
+   "tokens": [
+    "12b",
+    "agents",
+    "coding",
+    "jetbrains",
+    "mellum2",
+    "model",
+    "moe",
+    "open",
+    "releases"
+   ],
+   "source": "blog",
+   "summary_zh": "JetBrains发布Mellum2.1，12B参数MoE开放模型，2.5B激活参数，SWE-bench Verified得分从2.0提升至47.0。",
+   "why_zh": "提供高效、开源的代码Agent基础模型，显著提升编码任务性能，降低开发门槛。"
+  },
+  "https://www.marktechpost.com/2026/10/08/nvidia-pivotopd-teaches-multi-turn-ai-agents-to-recover-from-pivotal-mistakes/": {
+   "title": "NVIDIA PivotOPD Teaches Multi-Turn AI Agents to Recover From Pivotal Mistakes",
+   "date": "2026-10-09",
+   "tokens": [
+    "agents",
+    "ai",
+    "mistakes",
+    "multi",
+    "nvidia",
+    "pivotal",
+    "pivotopd",
+    "recover",
+    "teaches",
+    "turn"
+   ],
+   "source": "blog",
+   "summary_zh": "NVIDIA 提出 PivotOPD，一种在策略蒸馏方法，训练多轮 LLM 代理避免早期关键错误并从中恢复，在三个代理基准上击败 13 个基线。",
+   "why_zh": "该方法显著提升多轮代理的容错能力，减少错误累积，有助于构建更可靠的 LLM 交互系统。"
+  },
+  "https://www.anthropic.com/engineering/how-we-contain-claude": {
+   "title": "How we contain Claude across products",
+   "date": "2026-10-09",
+   "tokens": [
+    "across",
+    "claude",
+    "contain",
+    "products",
+    "we"
+   ],
+   "source": "blog",
+   "summary_zh": "Anthropic 描述了其在各产品中对 Claude 模型进行约束和安全防护的方法，以确保模型行为符合预期。",
+   "why_zh": "了解其跨产品安全策略有助于工程师在部署大模型时采取类似防护措施，降低风险。"
   }
  },
- "updated": "2026-10-07T16:49:38.067107+00:00"
+ "updated": "2026-10-08T16:49:35.501714+00:00"
 }

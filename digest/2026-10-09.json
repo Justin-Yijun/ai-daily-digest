@@ -1,0 +1,542 @@
+{
+ "date": "2026-10-09",
+ "generated": "2026-10-09 00:49",
+ "source_count": {
+  "github": 63,
+  "youtube": 36,
+  "blog": 85,
+  "paper": 24,
+  "hackernews": 10
+ },
+ "failures": {
+  "importai.substack.com": 1
+ },
+ "failure_errors": {
+  "importai.substack.com": "HTTP 403 (Forbidden)"
+ },
+ "items": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Oldcircle/geo-sleuth",
+   "link": "https://github.com/Oldcircle/geo-sleuth",
+   "dt": "2026-09-18T08:51:34+00:00",
+   "summary": "An agent skill that finds where a photo was taken — OpenStreetMap geometry, elevation skylines, satellite imagery and street view — and shows its work. Works with Claude Code, Codex, Cursor, Gemini CLI, OpenCode and GitHub Copilot.",
+   "extra": {
+    "stars": 1422,
+    "language": "Python",
+    "topics": [
+     "agent-skills",
+     "ai-agents",
+     "claude-code",
+     "codex",
+     "computer-vision",
+     "cursor"
+    ],
+    "created": "2026-09-18",
+    "pushed": "2026-10-08"
+   },
+   "score": 4.131,
+   "tokens": [
+    "geo",
+    "oldcircle",
+    "sleuth"
+   ],
+   "flag": "new",
+   "summary_zh": "Oldcircle/geo-sleuth 是一个代理技能，利用 OpenStreetMap 几何、天际线、卫星影像和街景定位照片拍摄地点并展示推理过程。",
+   "why_zh": "它把多源地理数据与视觉定位结合，为 AI 编码助手提供可解释的地理推理能力。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "punkpeye/awesome-remote-mcp-servers",
+   "link": "https://github.com/punkpeye/awesome-remote-mcp-servers",
+   "dt": "2026-09-08T00:43:30+00:00",
+   "summary": "A collection of remote MCP servers.",
+   "extra": {
+    "stars": 923,
+    "language": "",
+    "topics": [
+     "mcp"
+    ],
+    "created": "2026-09-08",
+    "pushed": "2026-10-08"
+   },
+   "score": 4.095,
+   "tokens": [
+    "awesome",
+    "mcp",
+    "punkpeye",
+    "remote",
+    "servers"
+   ],
+   "flag": "new",
+   "summary_zh": "punkpeye/awesome-remote-mcp-servers 汇总了各种远程 MCP 服务器，便于快速部署和调用。",
+   "why_zh": "为需要远程模型上下文协议的 AI 应用提供一站式资源列表，降低集成成本。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Claude Haiku 5.5",
+   "link": "https://www.anthropic.com/claude-haiku-5-5",
+   "dt": "2026-10-07T18:01:32+00:00",
+   "summary": "",
+   "extra": {
+    "points": 994,
+    "comments": 469,
+    "hn_link": "https://news.ycombinator.com/item?id=49996437"
+   },
+   "score": 3.997,
+   "tokens": [
+    "claude",
+    "haiku"
+   ],
+   "flag": "new",
+   "summary_zh": "Claude Haiku 5.5 是 Anthropic 推出的轻量级多模态模型版本，提升了推理速度和成本效益。",
+   "why_zh": "该版本在保持低延迟的同时增强了多语言理解，适合资源受限的推理场景。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "GPT‑6 and Intelligent UI for everyone",
+   "link": "https://openai.com/index/gpt-6-for-everyone/",
+   "dt": "2026-10-07T18:00:58+00:00",
+   "summary": "",
+   "extra": {
+    "points": 725,
+    "comments": 427,
+    "hn_link": "https://news.ycombinator.com/item?id=49996425"
+   },
+   "score": 3.86,
+   "tokens": [
+    "everyone",
+    "gpt",
+    "intelligent",
+    "ui"
+   ],
+   "flag": "new",
+   "summary_zh": "文章展示了 GPT‑6 如何驱动全民可用的智能用户界面，演示了交互原型。",
+   "why_zh": "它表明大模型可以直接构建自然语言驱动的 UI，降低前端开发门槛。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "RadOnc-Agent: An LLM-Orchestrated Framework for AI Workflows Across the Radiotherapy Care Pathway",
+   "link": "https://arxiv.org/abs/2610.06923",
+   "dt": "2026-10-08T00:00:00-04:00",
+   "summary": "arXiv:2610.06923v1 Announce Type: new Abstract: Artificial intelligence has advanced individual radiotherapy tasks, yet these capabilities remain separated across clinical stages, software environments and data modalities. This fragmentation contrasts with the longitudinal radiotherapy workflow from treatment decision-making through follow-up. Here we present RadOnc-Agent, an agentic artificial-intelligence framework that formalizes radiotherapy into four clinical phases and provides 26 callable",
+   "extra": {},
+   "weight_override": 1.3,
+   "score": 3.51,
+   "tokens": [
+    "across",
+    "agent",
+    "ai",
+    "care",
+    "framework",
+    "llm",
+    "orchestrated",
+    "pathway",
+    "radiotherapy",
+    "radonc",
+    "workflows"
+   ],
+   "flag": "new",
+   "summary_zh": "RadOnc-Agent 使用 LLM 编排放射治疗全流程的 AI 工作流，覆盖决策、规划、交付和随访。",
+   "why_zh": "它将孤立的 AI 能力统一为端到端的临床路径，有助于提升治疗一致性和效率。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.CL",
+   "title": "Tokka-Bench: Evaluating Tokenizers Across 100 Natural and 20 Programming Languages",
+   "link": "https://arxiv.org/abs/2610.08794",
+   "dt": "2026-10-08T00:00:00-04:00",
+   "summary": "arXiv:2610.08794v1 Announce Type: new Abstract: Large language models rely on subword tokenizers whose quality varies across languages, yet no standardized multi-metric framework exists for broad comparative evaluation. We introduce Tokka-Bench, an open-source framework that evaluates tokenizers on five complementary metrics -- bytes per token, unique token coverage, subword fertility, word-split rate, and vocabulary composition -- across 100 natural languages (30+ scripts) and 20 programming la",
+   "extra": {},
+   "weight_override": 1.3,
+   "score": 3.51,
+   "tokens": [
+    "100",
+    "20",
+    "across",
+    "bench",
+    "evaluating",
+    "languages",
+    "natural",
+    "programming",
+    "tokenizers",
+    "tokka"
+   ],
+   "flag": "new",
+   "summary_zh": "Tokka-Bench 提出五维指标评估框架，覆盖 100 种自然语言和 20 种编程语言的分词器质量。",
+   "why_zh": "为跨语言大模型提供标准化分词器比较，帮助选择更合适的子词方案。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "1173591564/Dynamics-memory",
+   "link": "https://github.com/1173591564/Dynamics-memory",
+   "dt": "2026-09-15T11:16:41+00:00",
+   "summary": "LLM agent 的有界自纠错长期记忆层：把连续、含矛盾的项目交互日志蒸馏成有界、可自更新的记忆库。Bounded, self-correcting long-term memory for LLM agents — candidate pool + value dynamics + tension adjudication + causal-replay evals.",
+   "extra": {
+    "stars": 140,
+    "language": "TypeScript",
+    "topics": [
+     "agent-memory",
+     "agents",
+     "llm",
+     "llm-agents",
+     "long-term-memory",
+     "memory"
+    ],
+    "created": "2026-09-15",
+    "pushed": "2026-10-05"
+   },
+   "score": 3.249,
+   "tokens": [
+    "1173591564",
+    "dynamics",
+    "memory"
+   ],
+   "flag": "new",
+   "summary_zh": "提供有界、可自更新的长期记忆层，通过候选池、价值动态、张力裁决和因果回放评估实现LLM agent的自纠错。",
+   "why_zh": "解决LLM agent长期记忆的噪声和矛盾问题，提升任务连贯性和可靠性。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "QingYunA/answer-me-with-html",
+   "link": "https://github.com/QingYunA/answer-me-with-html",
+   "dt": "2026-10-02T09:57:40+00:00",
+   "summary": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
+   "extra": {
+    "stars": 2314,
+    "language": "JavaScript",
+    "topics": [
+     "agent-skill",
+     "ai-agent",
+     "claude-code",
+     "claude-code-skill",
+     "claude-skill",
+     "claude-skills"
+    ],
+    "created": "2026-10-02",
+    "pushed": "2026-10-08"
+   },
+   "score": 3.24,
+   "tokens": [
+    "answer",
+    "html",
+    "me",
+    "qingyuna"
+   ],
+   "flag": "new",
+   "summary_zh": "让AI Agent用单页HTML直接呈现复杂问题答案，便于阅读和交互。",
+   "why_zh": "提供可视化、结构化的答案形式，降低解析成本，提升用户体验。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "Stop Overpaying for Intelligence | DevDay 2026",
+   "link": "https://www.youtube.com/watch?v=_nmlHbSB8kM",
+   "dt": "2026-10-07T21:10:51+00:00",
+   "summary": "Cut AI costs while preserving quality. Learn to measure cost per completed task, choose models and reasoning effort, and use prompt caching, Programmatic Tool Calling, and the Batch API.",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": "_nmlHbSB8kM"
+   },
+   "score": 1.215,
+   "tokens": [
+    "2026",
+    "devday",
+    "intelligence",
+    "overpaying",
+    "stop"
+   ],
+   "flag": "new",
+   "summary_zh": "教授如何通过任务成本测量、模型选择、提示缓存等技术降低AI使用成本而不损失质量。",
+   "why_zh": "为工程师提供实际成本控制方法，帮助在预算内保持性能。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "Stack Overflow - From Idea to Product | DevDay 2026",
+   "link": "https://www.youtube.com/watch?v=3glzJZ-_qB8",
+   "dt": "2026-10-07T21:10:48+00:00",
+   "summary": "See how small teams at Stack Overflow used Codex to build Stack Overflow for Agents and reimagine Stack Internal. Take away lessons for accelerating R&D and bringing new products to market.",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": "3glzJZ-_qB8"
+   },
+   "score": 1.215,
+   "tokens": [
+    "2026",
+    "devday",
+    "idea",
+    "overflow",
+    "product",
+    "stack"
+   ],
+   "flag": "new",
+   "summary_zh": "展示小团队如何利用Codex构建面向Agent的Stack Overflow并重构内部系统，提供研发加速经验。",
+   "why_zh": "为AI工程师提供快速将想法转化为产品的实战案例和方法论。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "What is an agent skill? How to protect your agent's context window.",
+   "link": "https://www.youtube.com/shorts/1BfAsoVz32Q",
+   "dt": "2026-10-08T00:46:24+00:00",
+   "summary": "What’s the difference between a long-running agent that can seamlessly execute complex tasks, and one that constantly get stuck? The context. A bad agent is usually the outcome of high volume of information being crammed into a context window all at once. Skills are how LangChain's Deep Agents harness fixes that. A Skill is a folder with instructions, scripts, references, and assets for one task, but only its name and description load at startup. It’s like reading the back of a book instead of t…",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": ""
+   },
+   "score": 1.215,
+   "tokens": [
+    "agent",
+    "context",
+    "protect",
+    "skill",
+    "window"
+   ],
+   "flag": "new",
+   "summary_zh": "介绍LangChain Deep Agents的Skill概念，通过任务级文件夹隔离上下文，防止信息过载导致卡顿。",
+   "why_zh": "帮助工程师设计可扩展的Agent，有效管理上下文窗口，提升任务执行可靠性。"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "JetBrains Releases Mellum2.1: A 12B MoE Open Model for Coding Agents",
+   "link": "https://www.marktechpost.com/2026/10/08/jetbrains-releases-mellum2-1-a-12b-moe-open-model-for-coding-agents/",
+   "dt": "2026-10-08T16:17:35+00:00",
+   "summary": "JetBrains released Mellum2.1, an Apache 2.0, 12B mixture-of-experts thinking model with 2.5B active parameters. RL in real repositories lifted its SWE-bench Verified score from 2.0 to 47.0. The post JetBrains Releases Mellum2.1: A 12B MoE Open Model for Coding Agents appeared first on MarkTechPost .",
+   "extra": {},
+   "score": 1.147,
+   "tokens": [
+    "12b",
+    "agents",
+    "coding",
+    "jetbrains",
+    "mellum2",
+    "model",
+    "moe",
+    "open",
+    "releases"
+   ],
+   "flag": "new",
+   "summary_zh": "JetBrains发布Mellum2.1，12B参数MoE开放模型，2.5B激活参数，SWE-bench Verified得分从2.0提升至47.0。",
+   "why_zh": "提供高效、开源的代码Agent基础模型，显著提升编码任务性能，降低开发门槛。"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "NVIDIA PivotOPD Teaches Multi-Turn AI Agents to Recover From Pivotal Mistakes",
+   "link": "https://www.marktechpost.com/2026/10/08/nvidia-pivotopd-teaches-multi-turn-ai-agents-to-recover-from-pivotal-mistakes/",
+   "dt": "2026-10-08T08:40:02+00:00",
+   "summary": "NVIDIA researchers introduced PivotOPD, an on-policy distillation method that trains multi-turn LLM agents to avoid early pivotal mistakes and recover from them, posting the best average against 13 baselines on 3 agent benchmarks. The post NVIDIA PivotOPD Teaches Multi-Turn AI Agents to Recover From Pivotal Mistakes appeared first on MarkTechPost .",
+   "extra": {},
+   "score": 1.147,
+   "tokens": [
+    "agents",
+    "ai",
+    "mistakes",
+    "multi",
+    "nvidia",
+    "pivotal",
+    "pivotopd",
+    "recover",
+    "teaches",
+    "turn"
+   ],
+   "flag": "new",
+   "summary_zh": "NVIDIA 提出 PivotOPD，一种在策略蒸馏方法，训练多轮 LLM 代理避免早期关键错误并从中恢复，在三个代理基准上击败 13 个基线。",
+   "why_zh": "该方法显著提升多轮代理的容错能力，减少错误累积，有助于构建更可靠的 LLM 交互系统。"
+  },
+  {
+   "source": "blog",
+   "source_label": "Anthropic Engineering",
+   "title": "How we contain Claude across products",
+   "link": "https://www.anthropic.com/engineering/how-we-contain-claude",
+   "dt": "2026-04-23T00:00:00+00:00",
+   "summary": "",
+   "extra": {},
+   "weight_override": 1.5,
+   "score": 0.9,
+   "tokens": [
+    "across",
+    "claude",
+    "contain",
+    "products",
+    "we"
+   ],
+   "flag": "new",
+   "summary_zh": "Anthropic 描述了其在各产品中对 Claude 模型进行约束和安全防护的方法，以确保模型行为符合预期。",
+   "why_zh": "了解其跨产品安全策略有助于工程师在部署大模型时采取类似防护措施，降低风险。"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "yetone/magpie",
+   "link": "https://github.com/yetone/magpie",
+   "dt": "2026-09-23T16:22:35+00:00",
+   "summary": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+   "extra": {
+    "stars": 6692,
+    "language": "Go",
+    "topics": [
+     "claude-code",
+     "codex",
+     "deepseek",
+     "gemini-cli",
+     "llm",
+     "macos"
+    ],
+    "created": "2026-09-23",
+    "pushed": "2026-10-08"
+   },
+   "score": 4.131,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-08 推荐过",
+   "summary_zh": "菜单栏工具统一管理多种 AI 代理模型，如 Codex 在 DeepSeek、Claude Code 在 Kimi 上运行。",
+   "why_zh": "提供便捷切换与监控多模型代理的入口，提升开发效率。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Louis-CFM/coucou",
+   "link": "https://github.com/Louis-CFM/coucou",
+   "dt": "2026-09-27T21:54:12+00:00",
+   "summary": "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen.",
+   "extra": {
+    "stars": 4201,
+    "language": "Swift",
+    "topics": [
+     "ai-agents",
+     "anthropic",
+     "antigravity",
+     "claude",
+     "claude-code",
+     "codex"
+    ],
+    "created": "2026-09-27",
+    "pushed": "2026-10-08"
+   },
+   "score": 4.131,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-08 推荐过",
+   "summary_zh": "小巧的 Mac 菜单栏 / iPhone 小组件实时监控 Claude Code 等 AI 编码代理，支持从锁屏或刘海批准。",
+   "why_zh": "让工程师能即时监督并干预 AI 编码行为，提升安全与可控性。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "edenfunf/reelmimic",
+   "link": "https://github.com/edenfunf/reelmimic",
+   "dt": "2026-09-28T19:14:59+00:00",
+   "summary": "Show it a video you love. Get a new video in the same style. An AI crew (Claude Code or Codex) plans, builds and reviews it with you.",
+   "extra": {
+    "stars": 1714,
+    "language": "JavaScript",
+    "topics": [
+     "2d-animation",
+     "ai-agents",
+     "ai-video",
+     "animation",
+     "claude-code",
+     "codex"
+    ],
+    "created": "2026-09-28",
+    "pushed": "2026-10-07"
+   },
+   "score": 4.131,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-08 推荐过",
+   "summary_zh": "用户提供喜欢视频，AI 团队（Claude Code 或 Codex）规划、构建并审查生成同风格新视频。",
+   "why_zh": "展示 AI 代理协作进行视频风格迁移，降低创作门槛。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "lemomo-ai/lemo-opuscar",
+   "link": "https://github.com/lemomo-ai/lemo-opuscar",
+   "dt": "2026-09-26T10:10:41+00:00",
+   "summary": "Claude Code skill for short films with no video model: 43 film styles, each a style prompt plus a demo film made entirely in code by Claude Opus 5.5 (incl. OPUSCAR 98). By Lemomo. | Opus5.5 x 43 种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南",
+   "extra": {
+    "stars": 1408,
+    "language": "JavaScript",
+    "topics": [
+     "agent-skills",
+     "ai-agents",
+     "ai-short-film",
+     "ai-video",
+     "animation",
+     "canvas"
+    ],
+    "created": "2026-09-26",
+    "pushed": "2026-10-08"
+   },
+   "score": 4.131,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-08 推荐过",
+   "summary_zh": "Claude Opus 5.5 生成 43 种电影风格的纯代码短片，附风格提示词和导演指南。",
+   "why_zh": "展示大模型直接输出可运行代码实现多风格视觉内容，为程序化创作提供新范式。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "youngyangyang04/llm-master",
+   "link": "https://github.com/youngyangyang04/llm-master",
+   "dt": "2026-09-12T07:33:31+00:00",
+   "summary": "大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。",
+   "extra": {
+    "stars": 1164,
+    "language": "",
+    "topics": [
+     "agent",
+     "large-language-models",
+     "llm",
+     "llm-learning",
+     "llm-tutorial",
+     "rag"
+    ],
+    "created": "2026-09-12",
+    "pushed": "2026-10-05"
+   },
+   "score": 4.131,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-08 推荐过",
+   "summary_zh": "提供覆盖 Prompt Engineering 到模型部署等全栈 LLM 学习路线的中文教程。",
+   "why_zh": "对 AI 工程师系统掌握 LLM 技术栈和面试准备极具参考价值。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "rehan-remade/universal-modder",
+   "link": "https://github.com/rehan-remade/universal-modder",
+   "dt": "2026-09-30T05:00:35+00:00",
+   "summary": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
+   "extra": {
+    "stars": 5493,
+    "language": "Python",
+    "topics": [
+     "age-of-empires",
+     "claude-code",
+     "claude-code-plugin",
+     "fal",
+     "game-assets",
+     "game-modding"
+    ],
+    "created": "2026-09-30",
+    "pushed": "2026-10-08"
+   },
+   "score": 4.131,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-08 推荐过",
+   "summary_zh": "使用 Claude Code 及 fal MCP 进行游戏逆向、资产生成、测试等全流程 MOD 制作。",
+   "why_zh": "表明大模型可直接参与游戏逆向与内容创作，为工程师提供新范式。"
+  }
+ ]
+}
