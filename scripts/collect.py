@@ -52,8 +52,10 @@ SSL_CTX.verify_mode = ssl.CERT_NONE
 
 DEBUG = os.environ.get("DEBUG") == "1"
 
-# 记录本次访问失败的域名，用于在日报里提醒「某源今天没拿到数据」
+# 记录本次访问失败的域名，用于在日报里提醒「某源今天没拿到数据」；
+# FETCH_ERRORS 记最后一次的具体错误（HTTP 403 / 超时等），方便判断是被风控还是网络问题
 FETCH_FAILURES = {}
+FETCH_ERRORS = {}
 SOURCE_COUNT = {}
 
 
@@ -66,7 +68,10 @@ def log(*a):
 # --------------------------------------------------------------------------
 
 def http_get(url, timeout=45, retries=3, headers=None):
-    """带重试的 GET，返回 bytes；失败返回 None。"""
+    """带重试的 GET，返回 bytes；失败返回 None。
+
+    失败会记进 FETCH_FAILURES / FETCH_ERRORS，渲染进日报的「数据源访问异常」。
+    """
     hdrs = {
         "User-Agent": UA,
         "Accept": "application/json, text/xml, application/xml, text/html, */*",
@@ -90,13 +95,20 @@ def http_get(url, timeout=45, retries=3, headers=None):
                     except zlib.error:
                         body = zlib.decompress(body, -zlib.MAX_WBITS)
                 return body
+        except urllib.error.HTTPError as e:
+            last = f"HTTP {e.code} ({e.reason})"
+            if attempt < retries - 1:
+                # 403/429 多为 Cloudflare 风控 / 限流，短退避没用，等久一点再试
+                wait = 20 * (attempt + 1) if e.code in (403, 429) else 2 * (attempt + 1)
+                time.sleep(wait)
         except Exception as e:  # noqa: BLE001
-            last = e
+            last = f"{type(e).__name__}: {e}"
             if attempt < retries - 1:
                 time.sleep(2 * (attempt + 1))
     host = urllib.parse.urlparse(url).netloc
     FETCH_FAILURES[host] = FETCH_FAILURES.get(host, 0) + 1
-    log(f"  [warn] GET 失败 {url} -> {type(last).__name__}: {last}")
+    FETCH_ERRORS[host] = last
+    log(f"  [warn] GET 失败 {url} -> {last}")
     return None
 
 
@@ -1014,7 +1026,8 @@ def render(date_str, items, dup, now, top_n):
         out.append("本次运行中以下站点访问失败，对应内容可能缺失：")
         out.append("")
         for host, n in sorted(FETCH_FAILURES.items()):
-            out.append(f"- `{host}` — 失败 {n} 次")
+            err = FETCH_ERRORS.get(host)
+            out.append(f"- `{host}` — 失败 {n} 次" + (f"（{err}）" if err else ""))
         out.append("")
 
     if SOURCE_COUNT:
@@ -1181,6 +1194,7 @@ def main():
                 "generated": now.astimezone(CST).strftime("%Y-%m-%d %H:%M"),
                 "source_count": SOURCE_COUNT,
                 "failures": FETCH_FAILURES,
+                "failure_errors": FETCH_ERRORS,
                 "items": [jsonable(i) for i in items],
                 "dups": [jsonable(i) for i in dups],
             },

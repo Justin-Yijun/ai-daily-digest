@@ -402,6 +402,7 @@ def render_digest(d, rel_root="", canonical="", week="", total_days=0):
     dups = d.get("dups") or []
     cnt = d.get("source_count") or {}
     fails = d.get("failures") or {}
+    ferrs = d.get("failure_errors") or {}
 
     stats = stats_bar(
         ("今日", len(items) + len(dups), "条"),
@@ -423,7 +424,14 @@ def render_digest(d, rel_root="", canonical="", week="", total_days=0):
         )
 
     if fails:
-        lis = "".join(f"<li><code>{esc(h)}</code> — 失败 {n} 次</li>" for h, n in sorted(fails.items()))
+        lis = ""
+        for h, n in sorted(fails.items()):
+            err = ferrs.get(h)
+            lis += (
+                f"<li><code>{esc(h)}</code> — 失败 {n} 次"
+                + (f"（{esc(err)}）" if err else "")
+                + "</li>"
+            )
         body.append(
             '<div class="warn"><strong>⚠️ 数据源访问异常</strong>'
             "<p>本次运行中以下站点访问失败，对应内容可能缺失：</p>"
