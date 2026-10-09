@@ -15,7 +15,7 @@
   },
   "https://github.com/Louis-CFM/coucou": {
    "title": "Louis-CFM/coucou",
-   "date": "2026-10-09",
+   "date": "2026-10-10",
    "tokens": [],
    "source": "github",
    "summary_zh": "小巧的 Mac 菜单栏 / iPhone 小组件实时监控 Claude Code 等 AI 编码代理，支持从锁屏或刘海批准。",
@@ -31,7 +31,7 @@
   },
   "https://github.com/yetone/magpie": {
    "title": "yetone/magpie",
-   "date": "2026-10-09",
+   "date": "2026-10-10",
    "tokens": [],
    "source": "github",
    "summary_zh": "菜单栏工具统一管理多种 AI 代理模型，如 Codex 在 DeepSeek、Claude Code 在 Kimi 上运行。",
@@ -39,7 +39,7 @@
   },
   "https://github.com/youngyangyang04/llm-master": {
    "title": "youngyangyang04/llm-master",
-   "date": "2026-10-09",
+   "date": "2026-10-10",
    "tokens": [],
    "source": "github",
    "summary_zh": "提供覆盖 Prompt Engineering 到模型部署等全栈 LLM 学习路线的中文教程。",
@@ -156,7 +156,7 @@
   },
   "https://github.com/edenfunf/reelmimic": {
    "title": "edenfunf/reelmimic",
-   "date": "2026-10-09",
+   "date": "2026-10-10",
    "tokens": [],
    "source": "github",
    "summary_zh": "用户提供喜欢视频，AI 团队（Claude Code 或 Codex）规划、构建并审查生成同风格新视频。",
@@ -1233,7 +1233,7 @@
   },
   "https://github.com/lemomo-ai/lemo-opuscar": {
    "title": "lemomo-ai/lemo-opuscar",
-   "date": "2026-10-09",
+   "date": "2026-10-10",
    "tokens": [],
    "source": "github",
    "summary_zh": "Claude Opus 5.5 生成 43 种电影风格的纯代码短片，附风格提示词和导演指南。",
@@ -1429,12 +1429,8 @@
   },
   "https://github.com/Oldcircle/geo-sleuth": {
    "title": "Oldcircle/geo-sleuth",
-   "date": "2026-10-09",
-   "tokens": [
-    "geo",
-    "oldcircle",
-    "sleuth"
-   ],
+   "date": "2026-10-10",
+   "tokens": [],
    "source": "github",
    "summary_zh": "Oldcircle/geo-sleuth 是一个代理技能，利用 OpenStreetMap 几何、天际线、卫星影像和街景定位照片拍摄地点并展示推理过程。",
    "why_zh": "它把多源地理数据与视觉定位结合，为 AI 编码助手提供可解释的地理推理能力。"
@@ -1634,7 +1630,231 @@
    "source": "blog",
    "summary_zh": "Anthropic 描述了其在各产品中对 Claude 模型进行约束和安全防护的方法，以确保模型行为符合预期。",
    "why_zh": "了解其跨产品安全策略有助于工程师在部署大模型时采取类似防护措施，降低风险。"
+  },
+  "https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9": {
+   "title": "I think I found a planet nobody knew existed. I used Claude Code to find it",
+   "date": "2026-10-10",
+   "tokens": [
+    "claude",
+    "code",
+    "existed",
+    "find",
+    "found",
+    "knew",
+    "nobody",
+    "planet",
+    "think",
+    "used"
+   ],
+   "source": "hackernews",
+   "summary_zh": "用户用 Claude Code 发现一颗此前未知的行星。",
+   "why_zh": "展示 LLM 辅助科研发现潜力，对 AI 工程师具启发意义。"
+  },
+  "https://github.com/ruc-datalab/EvoOntology": {
+   "title": "ruc-datalab/EvoOntology",
+   "date": "2026-10-10",
+   "tokens": [
+    "datalab",
+    "evoontology",
+    "ruc"
+   ],
+   "source": "github",
+   "summary_zh": "EvoOntology 为 Claude Code/Codex 提供自演进的本体层，支持数据智能体。",
+   "why_zh": "通过自演进本体提升代理对复杂 schema 的理解与适配能力，降低手动维护成本。"
+  },
+  "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/": {
+   "title": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
+   "date": "2026-10-10",
+   "tokens": [
+    "ai",
+    "claude",
+    "employee",
+    "meta",
+    "microsoft",
+    "reduce",
+    "steps",
+    "take",
+    "usage"
+   ],
+   "source": "hackernews",
+   "summary_zh": "Meta 与 Microsoft 采取措施限制员工使用 Claude AI。",
+   "why_zh": "反映大厂对外部 AI 工具的合规与数据安全顾虑，提醒工程师关注使用政策。"
+  },
+  "https://arxiv.org/abs/2610.10549": {
+   "title": "Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction",
+   "date": "2026-10-10",
+   "tokens": [
+    "agent",
+    "coherent",
+    "data",
+    "enterprise",
+    "generating",
+    "interaction",
+    "scalable",
+    "simulation",
+    "synthesis",
+    "system",
+    "through"
+   ],
+   "source": "paper",
+   "summary_zh": "通过可扩展的 agent‑系统交互模拟生成符合企业 schema 的表格数据。",
+   "why_zh": "提供无需真实企业数据的可扩展训练与评估方案，缓解法律与业务限制。"
+  },
+  "https://arxiv.org/abs/2610.10590": {
+   "title": "Agent-Controlled Forgetting for Tool-Using Agents: Reversible Context Curation in Practice",
+   "date": "2026-10-10",
+   "tokens": [
+    "agent",
+    "agents",
+    "context",
+    "controlled",
+    "curation",
+    "forgetting",
+    "practice",
+    "reversible",
+    "tool"
+   ],
+   "source": "paper",
+   "summary_zh": "工具代理可选择性遗忘观察结果，用简短笔记替换并保存原始内容以便恢复。",
+   "why_zh": "实现可逆的上下文压缩，减少 token 开销同时保持信息可恢复，提升长任务效率。"
+  },
+  "https://github.com/ant-research/AntOmniEvo": {
+   "title": "ant-research/AntOmniEvo",
+   "date": "2026-10-10",
+   "tokens": [
+    "ant",
+    "antomnievo",
+    "research"
+   ],
+   "source": "github",
+   "summary_zh": "AntOmniEvo 提供自演进框架，能够持续优化任意目标，如全天候算法团队。",
+   "why_zh": "通过进化搜索自动改进模型或代码，减少人工调参，适用于持续集成与自动化优化流程。"
+  },
+  "https://github.com/amitshekhariitbhu/ai-system-design": {
+   "title": "amitshekhariitbhu/ai-system-design",
+   "date": "2026-10-10",
+   "tokens": [
+    "ai",
+    "amitshekhariitbhu",
+    "design",
+    "system"
+   ],
+   "source": "github",
+   "summary_zh": "教程展示如何逐步设计基于LLM、RAG和AI Agent的AI系统。",
+   "why_zh": "为工程师提供系统化的LLM应用架构指导，便于快速落地复杂AI产品。"
+  },
+  "https://github.com/undefined-ui/second-brain-os": {
+   "title": "undefined-ui/second-brain-os",
+   "date": "2026-10-10",
+   "tokens": [
+    "brain",
+    "os",
+    "second",
+    "ui",
+    "undefined"
+   ],
+   "source": "github",
+   "summary_zh": "提供自维护的AI第二大脑，含完整指南、起始库及Agent技能，用于Claude Code和Obsidian的自组织知识库。",
+   "why_zh": "帮助工程师快速搭建可自我更新的知识管理系统，提升信息检索与工作效率。"
+  },
+  "https://www.langchain.com/blog/slack-sdk-managed-deep-agents": {
+   "title": "How to build great out-of-the-box user experiences with Managed Deep Agents",
+   "date": "2026-10-10",
+   "tokens": [
+    "agents",
+    "box",
+    "build",
+    "deep",
+    "experiences",
+    "great",
+    "managed",
+    "user"
+   ],
+   "source": "blog",
+   "summary_zh": "Managed Deep Agents 新增分布式代理反应管理API及可自定义表情响应系统，提升开箱即用体验。",
+   "why_zh": "为工程师提供统一的代理交互控制机制，简化多代理系统的用户反馈实现。"
+  },
+  "https://www.youtube.com/shorts/Rs5qLAnkNcI": {
+   "title": "How Oracle Uses ChatGPT Work to Transform Recruitment",
+   "date": "2026-10-10",
+   "tokens": [
+    "chatgpt",
+    "oracle",
+    "recruitment",
+    "transform",
+    "uses",
+    "work"
+   ],
+   "source": "youtube",
+   "summary_zh": "Oracle 利用 ChatGPT Work 构建人才市场情报工具，自动研究岗位、基准薪酬并评估地域人才库。",
+   "why_zh": "展示大模型在招聘流程中的实际应用，为工程师提供可复制的数据驱动招聘方案。"
+  },
+  "https://www.youtube.com/watch?v=XcsspzECTKA": {
+   "title": "Managed Deep Agents | Deploying mission critical agents to production",
+   "date": "2026-10-10",
+   "tokens": [
+    "agents",
+    "critical",
+    "deep",
+    "deploying",
+    "managed",
+    "mission",
+    "production"
+   ],
+   "source": "youtube",
+   "summary_zh": "Managed Deep Agents 公开测试版发布，支持将代理定义为指令/技能/工具文件夹，本地测试后用 mda CLI 部署。",
+   "why_zh": "为工程师提供一套完整的代理开发到生产流程，降低 mission‑critical 代理上线门槛。"
+  },
+  "https://www.youtube.com/watch?v=cWjS56edaUA": {
+   "title": "Agentic Apps: How Big Companies Are Actually Deploying AI Agents",
+   "date": "2026-10-10",
+   "tokens": [
+    "actually",
+    "agentic",
+    "agents",
+    "ai",
+    "apps",
+    "big",
+    "companies",
+    "deploying"
+   ],
+   "source": "youtube",
+   "summary_zh": "讲解大公司如何构建 Agentic Apps：多代理协同达成目标，仅在需要判断时使用AI，其余由规则驱动。",
+   "why_zh": "提供企业级AI Agent落地的实战框架，帮助工程师在业务流程中合理分配AI与规则角色。"
+  },
+  "https://openai.com/index/oracle": {
+   "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+   "date": "2026-10-10",
+   "tokens": [
+    "chatgpt",
+    "codex",
+    "days",
+    "minutes",
+    "oracle",
+    "turns",
+    "work"
+   ],
+   "source": "blog",
+   "summary_zh": "Oracle 利用 ChatGPT 和 Codex 将招聘、工程、运营等专业知识转化为快速可重复的工作流，将几天工作缩短至分钟。",
+   "why_zh": "展示企业如何用大模型将专业知识产品化，显著提升效率并降低人力成本，对 AI 工程师具有参考价值。"
+  },
+  "https://openai.com/index/legalon-halves-codex-costs": {
+   "title": "LegalOn halves Codex costs while maintaining development speed",
+   "date": "2026-10-10",
+   "tokens": [
+    "codex",
+    "costs",
+    "development",
+    "halves",
+    "legalon",
+    "maintaining",
+    "speed",
+    "while"
+   ],
+   "source": "blog",
+   "summary_zh": "LegalOn 通过任务匹配和预算管理，将 Codex 每日成本降低 65%，保持开发速度不变。",
+   "why_zh": "展示通过任务匹配和预算管理降低大模型成本的实用方法，对控制费用的 AI 工程师有参考价值。"
   }
  },
- "updated": "2026-10-08T16:49:35.501714+00:00"
+ "updated": "2026-10-09T16:28:44.816117+00:00"
 }

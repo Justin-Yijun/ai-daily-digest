@@ -1,0 +1,562 @@
+{
+ "date": "2026-10-10",
+ "generated": "2026-10-10 00:28",
+ "source_count": {
+  "github": 63,
+  "youtube": 35,
+  "blog": 84,
+  "paper": 24,
+  "hackernews": 9
+ },
+ "failures": {
+  "importai.substack.com": 1
+ },
+ "failure_errors": {
+  "importai.substack.com": "HTTP 403 (Forbidden)"
+ },
+ "items": [
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "I think I found a planet nobody knew existed. I used Claude Code to find it",
+   "link": "https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9",
+   "dt": "2026-10-08T07:07:34+00:00",
+   "summary": "",
+   "extra": {
+    "points": 246,
+    "comments": 119,
+    "hn_link": "https://news.ycombinator.com/item?id=50002665"
+   },
+   "score": 4.578,
+   "tokens": [
+    "claude",
+    "code",
+    "existed",
+    "find",
+    "found",
+    "knew",
+    "nobody",
+    "planet",
+    "think",
+    "used"
+   ],
+   "flag": "new",
+   "summary_zh": "用户用 Claude Code 发现一颗此前未知的行星。",
+   "why_zh": "展示 LLM 辅助科研发现潜力，对 AI 工程师具启发意义。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ruc-datalab/EvoOntology",
+   "link": "https://github.com/ruc-datalab/EvoOntology",
+   "dt": "2026-09-15T01:57:40+00:00",
+   "summary": "EvoOntology: A Self-Evolving Ontology Layer for Data Agents ⚙️ EvoOntology插件为Claude Code/Codex 建立&进化本体层",
+   "extra": {
+    "stars": 708,
+    "language": "Python",
+    "topics": [
+     "agent",
+     "agentic-ai",
+     "claude-code",
+     "codex",
+     "data-analysis",
+     "data-science"
+    ],
+    "created": "2026-09-15",
+    "pushed": "2026-10-09"
+   },
+   "score": 3.976,
+   "tokens": [
+    "datalab",
+    "evoontology",
+    "ruc"
+   ],
+   "flag": "new",
+   "summary_zh": "EvoOntology 为 Claude Code/Codex 提供自演进的本体层，支持数据智能体。",
+   "why_zh": "通过自演进本体提升代理对复杂 schema 的理解与适配能力，降低手动维护成本。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
+   "link": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
+   "dt": "2026-10-07T18:49:40+00:00",
+   "summary": "",
+   "extra": {
+    "points": 373,
+    "comments": 382,
+    "hn_link": "https://news.ycombinator.com/item?id=49997161"
+   },
+   "score": 3.572,
+   "tokens": [
+    "ai",
+    "claude",
+    "employee",
+    "meta",
+    "microsoft",
+    "reduce",
+    "steps",
+    "take",
+    "usage"
+   ],
+   "flag": "new",
+   "summary_zh": "Meta 与 Microsoft 采取措施限制员工使用 Claude AI。",
+   "why_zh": "反映大厂对外部 AI 工具的合规与数据安全顾虑，提醒工程师关注使用政策。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction",
+   "link": "https://arxiv.org/abs/2610.10549",
+   "dt": "2026-10-09T00:00:00-04:00",
+   "summary": "arXiv:2610.10549v1 Announce Type: new Abstract: Tool-calling agents have become central to enterprise AI, yet training and evaluating them at scale remains severely constrained due to business and legal restrictions on enterprise systems, data, and database schemas. Tabular data synthesis offers a natural alternative, but its effectiveness is fundamentally limited by structural validity and schema availability, while procedure-based approaches yield the opposite weakness, typically lacking distr",
+   "extra": {},
+   "weight_override": 1.3,
+   "score": 3.51,
+   "tokens": [
+    "agent",
+    "coherent",
+    "data",
+    "enterprise",
+    "generating",
+    "interaction",
+    "scalable",
+    "simulation",
+    "synthesis",
+    "system",
+    "through"
+   ],
+   "flag": "new",
+   "summary_zh": "通过可扩展的 agent‑系统交互模拟生成符合企业 schema 的表格数据。",
+   "why_zh": "提供无需真实企业数据的可扩展训练与评估方案，缓解法律与业务限制。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Agent-Controlled Forgetting for Tool-Using Agents: Reversible Context Curation in Practice",
+   "link": "https://arxiv.org/abs/2610.10590",
+   "dt": "2026-10-09T00:00:00-04:00",
+   "summary": "arXiv:2610.10590v1 Announce Type: new Abstract: Tool-using agents repeatedly carry observations whose useful content can be much smaller than their original payload. We study agent-controlled forgetting: the acting model selects previously observed tool results, replaces each with a short note at its original position, and retains the exact original in a recoverable archive. A Python harness exposes batch archival and explicit recovery without task-specific model training, while protecting user ",
+   "extra": {},
+   "weight_override": 1.3,
+   "score": 3.51,
+   "tokens": [
+    "agent",
+    "agents",
+    "context",
+    "controlled",
+    "curation",
+    "forgetting",
+    "practice",
+    "reversible",
+    "tool"
+   ],
+   "flag": "new",
+   "summary_zh": "工具代理可选择性遗忘观察结果，用简短笔记替换并保存原始内容以便恢复。",
+   "why_zh": "实现可逆的上下文压缩，减少 token 开销同时保持信息可恢复，提升长任务效率。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ant-research/AntOmniEvo",
+   "link": "https://github.com/ant-research/AntOmniEvo",
+   "dt": "2026-09-15T04:33:20+00:00",
+   "summary": "An auto-evolution framework that optimizes anything — your 7×24 team of algorithm engineers.",
+   "extra": {
+    "stars": 1102,
+    "language": "Python",
+    "topics": [
+     "agent",
+     "agent-evolution",
+     "agentic",
+     "auto-optimization",
+     "automation",
+     "evolutionary-algorithms"
+    ],
+    "created": "2026-09-15",
+    "pushed": "2026-10-09"
+   },
+   "score": 3.06,
+   "tokens": [
+    "ant",
+    "antomnievo",
+    "research"
+   ],
+   "flag": "new",
+   "summary_zh": "AntOmniEvo 提供自演进框架，能够持续优化任意目标，如全天候算法团队。",
+   "why_zh": "通过进化搜索自动改进模型或代码，减少人工调参，适用于持续集成与自动化优化流程。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "amitshekhariitbhu/ai-system-design",
+   "link": "https://github.com/amitshekhariitbhu/ai-system-design",
+   "dt": "2026-09-25T04:50:06+00:00",
+   "summary": "AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
+   "extra": {
+    "stars": 651,
+    "language": "Markdown",
+    "topics": [
+     "ai",
+     "ai-agents",
+     "ai-engineering",
+     "ai-system",
+     "ai-system-design",
+     "ai-systems"
+    ],
+    "created": "2026-09-25",
+    "pushed": "2026-10-08"
+   },
+   "score": 2.917,
+   "tokens": [
+    "ai",
+    "amitshekhariitbhu",
+    "design",
+    "system"
+   ],
+   "flag": "new",
+   "summary_zh": "教程展示如何逐步设计基于LLM、RAG和AI Agent的AI系统。",
+   "why_zh": "为工程师提供系统化的LLM应用架构指导，便于快速落地复杂AI产品。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "undefined-ui/second-brain-os",
+   "link": "https://github.com/undefined-ui/second-brain-os",
+   "dt": "2026-09-07T15:08:13+00:00",
+   "summary": "An AI second brain that maintains itself. Full guide, starter vault, agent skills and scripts for a self-organizing knowledge base in Claude Code and Obsidian.",
+   "extra": {
+    "stars": 1020,
+    "language": "HTML",
+    "topics": [
+     "agent-skills",
+     "ai-agents",
+     "claude",
+     "claude-code",
+     "claude-skills",
+     "knowledge-graph"
+    ],
+    "created": "2026-09-07",
+    "pushed": "2026-10-07"
+   },
+   "score": 2.916,
+   "tokens": [
+    "brain",
+    "os",
+    "second",
+    "ui",
+    "undefined"
+   ],
+   "flag": "new",
+   "summary_zh": "提供自维护的AI第二大脑，含完整指南、起始库及Agent技能，用于Claude Code和Obsidian的自组织知识库。",
+   "why_zh": "帮助工程师快速搭建可自我更新的知识管理系统，提升信息检索与工作效率。"
+  },
+  {
+   "source": "blog",
+   "source_label": "LangChain 博客",
+   "title": "How to build great out-of-the-box user experiences with Managed Deep Agents",
+   "link": "https://www.langchain.com/blog/slack-sdk-managed-deep-agents",
+   "dt": "2026-10-09T16:22:09+00:00",
+   "summary": "Managed Deep Agents includes a new API for managing reactions for your distributed agents, and a system to dynamically assign emoji responses with your instrument of choice. Learn more.",
+   "extra": {},
+   "score": 1.275,
+   "tokens": [
+    "agents",
+    "box",
+    "build",
+    "deep",
+    "experiences",
+    "great",
+    "managed",
+    "user"
+   ],
+   "flag": "new",
+   "summary_zh": "Managed Deep Agents 新增分布式代理反应管理API及可自定义表情响应系统，提升开箱即用体验。",
+   "why_zh": "为工程师提供统一的代理交互控制机制，简化多代理系统的用户反馈实现。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "How Oracle Uses ChatGPT Work to Transform Recruitment",
+   "link": "https://www.youtube.com/shorts/Rs5qLAnkNcI",
+   "dt": "2026-10-08T17:43:05+00:00",
+   "summary": "“We’ve gone from zero to 100, not zero to 60.” Jan Ackerman shares how Oracle built a talent market intelligence tool with ChatGPT Work to transform hiring preparation. Starting with a job description, it researches comparable roles, benchmarks compensation, and assesses talent pools across locations, giving hiring managers consistent data and insights. Read how Oracle is transforming work with ChatGPT Work and Codex: https://openai.com/index/oracle/",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": ""
+   },
+   "score": 1.215,
+   "tokens": [
+    "chatgpt",
+    "oracle",
+    "recruitment",
+    "transform",
+    "uses",
+    "work"
+   ],
+   "flag": "new",
+   "summary_zh": "Oracle 利用 ChatGPT Work 构建人才市场情报工具，自动研究岗位、基准薪酬并评估地域人才库。",
+   "why_zh": "展示大模型在招聘流程中的实际应用，为工程师提供可复制的数据驱动招聘方案。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "Managed Deep Agents | Deploying mission critical agents to production",
+   "link": "https://www.youtube.com/watch?v=XcsspzECTKA",
+   "dt": "2026-10-09T14:41:48+00:00",
+   "summary": "Victor Moreira, Product Manager at LangChain, introduces Managed Deep Agents, now in public beta, which bundles the Deep Agents harness with managed LangSmith infrastructure so you can define an agent as a folder of instructions, skills, and tools, test it locally, and deploy it with the mda CLI. Using LangChain's internal go-to-market agent as the example, he walks through the questions that come up in production and how Managed Deep Agents answers them: caller identity across Slack and web sur…",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": "XcsspzECTKA"
+   },
+   "score": 1.215,
+   "tokens": [
+    "agents",
+    "critical",
+    "deep",
+    "deploying",
+    "managed",
+    "mission",
+    "production"
+   ],
+   "flag": "new",
+   "summary_zh": "Managed Deep Agents 公开测试版发布，支持将代理定义为指令/技能/工具文件夹，本地测试后用 mda CLI 部署。",
+   "why_zh": "为工程师提供一套完整的代理开发到生产流程，降低 mission‑critical 代理上线门槛。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Cole Medin",
+   "title": "Agentic Apps: How Big Companies Are Actually Deploying AI Agents",
+   "link": "https://www.youtube.com/watch?v=cWjS56edaUA",
+   "dt": "2026-10-09T14:52:28+00:00",
+   "summary": "Pretty much every AI agent I've built for myself is one agent I chat with. That's great for my own work, but it's not how companies actually adopt AI a lot of the time. So in this video I go through the lessons I end up teaching every company I work with, and how that takes shape as what Oracle calls agentic apps! Multiple agents working toward one goal, AI only where you need judgment, rules turned into actual code with tests, and a person approving anything that matters. ~~~~~~~~~~~~~~~~~~~~~~…",
+   "extra": {
+    "channel": "Cole Medin",
+    "video_id": "cWjS56edaUA"
+   },
+   "score": 1.215,
+   "tokens": [
+    "actually",
+    "agentic",
+    "agents",
+    "ai",
+    "apps",
+    "big",
+    "companies",
+    "deploying"
+   ],
+   "flag": "new",
+   "summary_zh": "讲解大公司如何构建 Agentic Apps：多代理协同达成目标，仅在需要判断时使用AI，其余由规则驱动。",
+   "why_zh": "提供企业级AI Agent落地的实战框架，帮助工程师在业务流程中合理分配AI与规则角色。"
+  },
+  {
+   "source": "blog",
+   "source_label": "OpenAI 官方博客",
+   "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+   "link": "https://openai.com/index/oracle",
+   "dt": "2026-10-08T16:00:00+00:00",
+   "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
+   "extra": {},
+   "score": 1.147,
+   "tokens": [
+    "chatgpt",
+    "codex",
+    "days",
+    "minutes",
+    "oracle",
+    "turns",
+    "work"
+   ],
+   "flag": "new",
+   "summary_zh": "Oracle 利用 ChatGPT 和 Codex 将招聘、工程、运营等专业知识转化为快速可重复的工作流，将几天工作缩短至分钟。",
+   "why_zh": "展示企业如何用大模型将专业知识产品化，显著提升效率并降低人力成本，对 AI 工程师具有参考价值。"
+  },
+  {
+   "source": "blog",
+   "source_label": "OpenAI 官方博客",
+   "title": "LegalOn halves Codex costs while maintaining development speed",
+   "link": "https://openai.com/index/legalon-halves-codex-costs",
+   "dt": "2026-10-08T12:00:00+00:00",
+   "summary": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
+   "extra": {},
+   "score": 1.147,
+   "tokens": [
+    "codex",
+    "costs",
+    "development",
+    "halves",
+    "legalon",
+    "maintaining",
+    "speed",
+    "while"
+   ],
+   "flag": "new",
+   "summary_zh": "LegalOn 通过任务匹配和预算管理，将 Codex 每日成本降低 65%，保持开发速度不变。",
+   "why_zh": "展示通过任务匹配和预算管理降低大模型成本的实用方法，对控制费用的 AI 工程师有参考价值。"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "yetone/magpie",
+   "link": "https://github.com/yetone/magpie",
+   "dt": "2026-09-23T16:22:35+00:00",
+   "summary": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+   "extra": {
+    "stars": 7376,
+    "language": "Go",
+    "topics": [
+     "claude-code",
+     "codex",
+     "deepseek",
+     "gemini-cli",
+     "llm",
+     "macos"
+    ],
+    "created": "2026-09-23",
+    "pushed": "2026-10-09"
+   },
+   "score": 4.131,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-09 推荐过",
+   "summary_zh": "菜单栏工具统一管理多种 AI 代理模型，如 Codex 在 DeepSeek、Claude Code 在 Kimi 上运行。",
+   "why_zh": "提供便捷切换与监控多模型代理的入口，提升开发效率。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Louis-CFM/coucou",
+   "link": "https://github.com/Louis-CFM/coucou",
+   "dt": "2026-09-27T21:54:12+00:00",
+   "summary": "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen.",
+   "extra": {
+    "stars": 4414,
+    "language": "Swift",
+    "topics": [
+     "ai-agents",
+     "anthropic",
+     "antigravity",
+     "claude",
+     "claude-code",
+     "codex"
+    ],
+    "created": "2026-09-27",
+    "pushed": "2026-10-09"
+   },
+   "score": 4.131,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-09 推荐过",
+   "summary_zh": "小巧的 Mac 菜单栏 / iPhone 小组件实时监控 Claude Code 等 AI 编码代理，支持从锁屏或刘海批准。",
+   "why_zh": "让工程师能即时监督并干预 AI 编码行为，提升安全与可控性。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "edenfunf/reelmimic",
+   "link": "https://github.com/edenfunf/reelmimic",
+   "dt": "2026-09-28T19:14:59+00:00",
+   "summary": "Show it a video you love. Get a new video in the same style. An AI crew (Claude Code or Codex) plans, builds and reviews it with you.",
+   "extra": {
+    "stars": 1918,
+    "language": "JavaScript",
+    "topics": [
+     "2d-animation",
+     "ai-agents",
+     "ai-video",
+     "animation",
+     "claude-code",
+     "codex"
+    ],
+    "created": "2026-09-28",
+    "pushed": "2026-10-09"
+   },
+   "score": 4.131,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-09 推荐过",
+   "summary_zh": "用户提供喜欢视频，AI 团队（Claude Code 或 Codex）规划、构建并审查生成同风格新视频。",
+   "why_zh": "展示 AI 代理协作进行视频风格迁移，降低创作门槛。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Oldcircle/geo-sleuth",
+   "link": "https://github.com/Oldcircle/geo-sleuth",
+   "dt": "2026-09-18T08:51:34+00:00",
+   "summary": "An agent skill that finds where a photo was taken — OpenStreetMap geometry, elevation skylines, satellite imagery and street view — and shows its work. Works with Claude Code, Codex, Cursor, Gemini CLI, OpenCode and GitHub Copilot.",
+   "extra": {
+    "stars": 1541,
+    "language": "Python",
+    "topics": [
+     "agent-skills",
+     "ai-agents",
+     "claude-code",
+     "codex",
+     "computer-vision",
+     "cursor"
+    ],
+    "created": "2026-09-18",
+    "pushed": "2026-10-09"
+   },
+   "score": 4.131,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-09 推荐过",
+   "summary_zh": "Oldcircle/geo-sleuth 是一个代理技能，利用 OpenStreetMap 几何、天际线、卫星影像和街景定位照片拍摄地点并展示推理过程。",
+   "why_zh": "它把多源地理数据与视觉定位结合，为 AI 编码助手提供可解释的地理推理能力。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "lemomo-ai/lemo-opuscar",
+   "link": "https://github.com/lemomo-ai/lemo-opuscar",
+   "dt": "2026-09-26T10:10:41+00:00",
+   "summary": "Claude Code skill for short films with no video model: 43 film styles, each a style prompt plus a demo film made entirely in code by Claude Opus 5.5 (incl. OPUSCAR 98). By Lemomo. | Opus5.5 x 43 种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南",
+   "extra": {
+    "stars": 1496,
+    "language": "JavaScript",
+    "topics": [
+     "agent-skills",
+     "ai-agents",
+     "ai-short-film",
+     "ai-video",
+     "animation",
+     "canvas"
+    ],
+    "created": "2026-09-26",
+    "pushed": "2026-10-09"
+   },
+   "score": 4.131,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-09 推荐过",
+   "summary_zh": "Claude Opus 5.5 生成 43 种电影风格的纯代码短片，附风格提示词和导演指南。",
+   "why_zh": "展示大模型直接输出可运行代码实现多风格视觉内容，为程序化创作提供新范式。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "youngyangyang04/llm-master",
+   "link": "https://github.com/youngyangyang04/llm-master",
+   "dt": "2026-09-12T07:33:31+00:00",
+   "summary": "大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。",
+   "extra": {
+    "stars": 1192,
+    "language": "",
+    "topics": [
+     "agent",
+     "large-language-models",
+     "llm",
+     "llm-learning",
+     "llm-tutorial",
+     "rag"
+    ],
+    "created": "2026-09-12",
+    "pushed": "2026-10-05"
+   },
+   "score": 4.131,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-09 推荐过",
+   "summary_zh": "提供覆盖 Prompt Engineering 到模型部署等全栈 LLM 学习路线的中文教程。",
+   "why_zh": "对 AI 工程师系统掌握 LLM 技术栈和面试准备极具参考价值。"
+  }
+ ]
+}
