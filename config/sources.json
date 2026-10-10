@@ -60,7 +60,6 @@
       { "name": "Lilian Weng",           "url": "https://lilianweng.github.io/index.xml", "weight": 1.5, "max_age_days": 150 },
       { "name": "The Gradient",          "url": "https://thegradient.pub/rss/" },
       { "name": "Interconnects (Nathan Lambert)", "url": "https://www.interconnects.ai/feed" },
-      { "name": "Import AI (Jack Clark)", "url": "https://importai.substack.com/feed" },
       { "name": "Latent Space",          "url": "https://www.latent.space/feed" },
       { "name": "Eugene Yan",            "url": "https://eugeneyan.com/rss/" },
       { "name": "Chip Huyen",            "url": "https://huyenchip.com/feed.xml" },
