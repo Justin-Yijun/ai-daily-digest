@@ -1,0 +1,539 @@
+{
+ "date": "2026-10-11",
+ "generated": "2026-10-11 01:02",
+ "source_count": {
+  "github": 61,
+  "youtube": 35,
+  "blog": 85,
+  "paper": 12,
+  "hackernews": 10
+ },
+ "failures": {},
+ "failure_errors": {},
+ "items": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "zai-org/ZCode",
+   "link": "https://github.com/zai-org/ZCode",
+   "dt": "2026-09-20T12:01:16+00:00",
+   "summary": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+   "extra": {
+    "stars": 7645,
+    "language": "TypeScript",
+    "topics": [],
+    "created": "2026-09-20",
+    "pushed": "2026-10-10"
+   },
+   "score": 4.131,
+   "tokens": [
+    "org",
+    "zai",
+    "zcode"
+   ],
+   "flag": "new",
+   "summary_zh": "Z.ai 发布 ZCode，提供强大、智能、可扩展的编码代理框架。",
+   "why_zh": "为 AI 工程师提供即插即用的代码生成与自动化工具，降低开发门槛。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Why are coding agents so dumb?",
+   "link": "https://mtlynch.io/why-are-coding-agents-so-dumb/",
+   "dt": "2026-10-09T14:21:31+00:00",
+   "summary": "",
+   "extra": {
+    "points": 97,
+    "comments": 95,
+    "hn_link": "https://news.ycombinator.com/item?id=50020947"
+   },
+   "score": 4.032,
+   "tokens": [
+    "agents",
+    "coding",
+    "dumb",
+    "so"
+   ],
+   "flag": "new",
+   "summary_zh": "HN 讨论指出当前编码代理能力有限，常犯低级错误。",
+   "why_zh": "揭示代理不足之处，帮助工程师改进模型与提示策略。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
+   "link": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+   "dt": "2026-10-09T11:03:48+00:00",
+   "summary": "",
+   "extra": {
+    "points": 404,
+    "comments": 184,
+    "hn_link": "https://news.ycombinator.com/item?id=50018817"
+   },
+   "score": 3.606,
+   "tokens": [
+    "agents",
+    "ai",
+    "arrows",
+    "big",
+    "boxes",
+    "hn",
+    "let",
+    "paint",
+    "screen",
+    "show",
+    "text"
+   ],
+   "flag": "new",
+   "summary_zh": "演示让 AI 代理在屏幕上绘制箭头、框和文本的可视化工具。",
+   "why_zh": "展示多模态交互新范式，便于调试与演示 AI 行为。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "duolahypercho/codex-router",
+   "link": "https://github.com/duolahypercho/codex-router",
+   "dt": "2026-07-19T23:16:41+00:00",
+   "summary": "External-model router for Codex with guided Kimi OAuth/API, DeepSeek, safe migration, and rollback.",
+   "extra": {
+    "stars": 3933,
+    "language": "JavaScript",
+    "topics": [
+     "codex",
+     "deepseek",
+     "kimi",
+     "litellm",
+     "model-router"
+    ],
+    "created": "2026-07-19",
+    "pushed": "2026-10-09"
+   },
+   "score": 2.916,
+   "tokens": [
+    "codex",
+    "duolahypercho",
+    "router"
+   ],
+   "flag": "new",
+   "summary_zh": "提供 Codex 外部模型路由，支持 Kimi OAuth/API、DeepSeek，并实现安全迁移与回滚。",
+   "why_zh": "让工程师灵活切换多模型后端，保障服务平滑升级。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "agents-universe/agents-universe",
+   "link": "https://github.com/agents-universe/agents-universe",
+   "dt": "2026-09-10T12:45:40+00:00",
+   "summary": "不是问答机器人，而是能真正干活的数字分身。共享智能体，共享项目上下文，让项目所有成员一起协同工作。同时智能体会像人一样通过资料或者工作抽象和总结经验到项目上下文中",
+   "extra": {
+    "stars": 540,
+    "language": "Python",
+    "topics": [
+     "agent",
+     "agent-framework",
+     "agent-orchestration",
+     "agent-skill",
+     "agentic-ai",
+     "ai-agents"
+    ],
+    "created": "2026-09-10",
+    "pushed": "2026-10-10"
+   },
+   "score": 2.855,
+   "tokens": [
+    "agents",
+    "universe"
+   ],
+   "flag": "new",
+   "summary_zh": "构建共享智能体平台，让团队成员协同工作，智能体能从资料中抽象经验并更新项目上下文。",
+   "why_zh": "实现跨人员智能体知识共享，提升团队开发效率。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "lobehub/awesome-rsi",
+   "link": "https://github.com/lobehub/awesome-rsi",
+   "dt": "2026-08-11T03:59:57+00:00",
+   "summary": "A curated research map of Recursive Self-Improvement (RSI): models, agents, harnesses, embodied systems, automated AI R&D, benchmarks, and safety.",
+   "extra": {
+    "stars": 524,
+    "language": "",
+    "topics": [
+     "agi",
+     "ai",
+     "ai-agents",
+     "ai-model",
+     "ai-safety",
+     "artificial-intelligence"
+    ],
+    "created": "2026-08-11",
+    "pushed": "2026-10-06"
+   },
+   "score": 2.711,
+   "tokens": [
+    "awesome",
+    "lobehub",
+    "rsi"
+   ],
+   "flag": "new",
+   "summary_zh": "收录递归自改进（RSI）研究资源，涵盖模型、代理、具身系统、自动化 AI 研发等。",
+   "why_zh": "为研究者提供一站式 RSI 文献与基准，推动前沿探索。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Evaluating the Transfer of Co-Evolved Communication from 2D to 3D Simulation",
+   "link": "https://huggingface.co/papers/2610.09280",
+   "dt": "2026-10-06T20:00:00+00:00",
+   "summary": "This work examines the transfer of a co-evolved communication mechanism between two robotic agents from a discrete two-dimensional (2D) simulator to a three-dimensional simulator with real physics (3D). The study focuses on whether a communication mechanism co-evolved in a 2D environment retains its functional role after transfer to a 3D physics-based simulator. To support this analysis, the effects of the episode time budget, the social cue, and the asymmetry between the two co-evolved roles we",
+   "extra": {
+    "upvotes": 0,
+    "arxiv": "https://arxiv.org/abs/2610.09280"
+   },
+   "score": 2.437,
+   "tokens": [
+    "2d",
+    "3d",
+    "co",
+    "communication",
+    "evaluating",
+    "evolved",
+    "simulation",
+    "transfer"
+   ],
+   "flag": "new",
+   "summary_zh": "研究在2D离散模拟中共进化的两机器人通信机制是否能在带真实物理的3D模拟中保持功能。",
+   "why_zh": "揭示跨维度通信迁移的可行性，对多机器人系统设计有指导意义。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Opera: A Verbal Critic Framework for Long-horizon Coding Agents",
+   "link": "https://huggingface.co/papers/2609.33987",
+   "dt": "2026-10-07T20:00:00+00:00",
+   "summary": "Long-horizon coding agents need timely corrections, yet feedback can be ineffective or even harmful when it misjudges ongoing work or fails to address the underlying problem. Existing critics focus on evaluating trajectories and generating feedback, but rarely track what happens after feedback is delivered. We present Opera, a verbal critic framework that treats each correction as a persistent note, followed until the diagnosed problem is resolved. Opera decides when to review through periodic a",
+   "extra": {
+    "upvotes": 10,
+    "arxiv": "https://arxiv.org/abs/2609.33987"
+   },
+   "score": 2.437,
+   "tokens": [
+    "agents",
+    "coding",
+    "critic",
+    "framework",
+    "horizon",
+    "long",
+    "opera",
+    "verbal"
+   ],
+   "flag": "new",
+   "summary_zh": "提出Opera框架，将每次代码纠错视为持久注释，以追踪反馈后效果并改进长horizon编码代理。",
+   "why_zh": "解决现有评论者缺乏后续跟踪的问题，帮助工程师构建更可靠的自动编码系统。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "Building the Codex community",
+   "link": "https://www.youtube.com/watch?v=enPbh_A5F7E",
+   "dt": "2026-10-09T17:00:34+00:00",
+   "summary": "See how the Codex community brings people together to build, learn, and share. Pauline Narvas and VB talk about growing the Codex Ambassador program, their favorite moments from local meetups and Build Week, and what it means to build with heart.",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": "enPbh_A5F7E"
+   },
+   "score": 1.215,
+   "tokens": [
+    "building",
+    "codex",
+    "community"
+   ],
+   "flag": "new",
+   "summary_zh": "介绍Codex社区如何通过大使项目、线下聚会和Build Week促进构建、学习与分享。",
+   "why_zh": "展示社区驱动的开发模式，为推广AI工具提供实践参考。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "Three Questions Every Agent Engineer Should Be Able To Answer",
+   "link": "https://www.youtube.com/watch?v=oVKGKdIAgtg",
+   "dt": "2026-10-09T17:16:00+00:00",
+   "summary": "Jake Broekhuizen of LangChain Labs argues that owning your own intelligence comes down to three questions every agent engineer should be able to answer: where is your agent failing, how can you reliably make it fail again, and what needs to happen so it stops failing. He covers using a fine-tuned judge to mine production traces when frontier LLM-as-judge evaluators get expensive at scale, building world specs and tasks that mimic production with LangChain's internal GTM agent as the example, and…",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": "oVKGKdIAgtg"
+   },
+   "score": 1.215,
+   "tokens": [
+    "able",
+    "agent",
+    "answer",
+    "engineer",
+    "every",
+    "questions",
+    "should",
+    "three"
+   ],
+   "flag": "new",
+   "summary_zh": "LangChain Labs提出三个关键问题：代理何时失效、如何可靠复现失效、何需改变以停止失效，并细述使用微调判定师等方法。",
+   "why_zh": "为工程师提供诊断和提升代理可靠性的实用框架，降低评估成本。"
+  },
+  {
+   "source": "blog",
+   "source_label": "OpenAI 官方博客",
+   "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+   "link": "https://openai.com/index/asana-browser-agent",
+   "dt": "2026-10-09T07:00:00+00:00",
+   "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+   "extra": {},
+   "score": 1.147,
+   "tokens": [
+    "76x",
+    "asana",
+    "browser",
+    "costs",
+    "cuts",
+    "gpt",
+    "model",
+    "sol",
+    "tests"
+   ],
+   "flag": "new",
+   "summary_zh": "Asana在浏览器代理中使用GPT-6 Astra，使成本降低76倍、速度提升5倍，提供更强大模型。",
+   "why_zh": "演示大规模推理成本优化的可行性，指导工程师在产品中采用高效模型。"
+  },
+  {
+   "source": "blog",
+   "source_label": "Simon Willison",
+   "title": "A new feature for my blog, built using my voice",
+   "link": "https://simonwillison.net/2026/Oct/9/built-using-my-voice/",
+   "dt": "2026-10-09T12:54:06+00:00",
+   "summary": "I shipped a new feature for my blog today: the Newsletters page, which offers an index of all of the newsletters I've sent out, both my free weekly Substack and my monthly sponsors-only updates. I built the feature almost entirely using my voice, chatting away to my laptop while I cooked dinner. Codex voice mode I used the ChatGPT desktop app for this, in the Codex tab, using the voice conversation mode, running against a local development environment. Here's what that looks like: I started the …",
+   "extra": {},
+   "score": 1.147,
+   "tokens": [
+    "blog",
+    "built",
+    "feature",
+    "my",
+    "voice"
+   ],
+   "flag": "new",
+   "summary_zh": "作者用ChatGPT desktop的Codex语音模式，边做饭边通过语音构建博客新闻页面。",
+   "why_zh": "展示语音编程在快速原型开发中的便利性，激发工程师尝试无手编码。"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "Meet the Underdog Saluki 27B: A 2-bit Qwen3.8-27B That Beats the Original at Tool Calling",
+   "link": "https://www.marktechpost.com/2026/10/09/meet-the-underdog-saluki-27b-a-2-bit-qwen3-8-27b-that-beats-the-original-at-tool-calling/",
+   "dt": "2026-10-09T07:23:36+00:00",
+   "summary": "Underdog Saluki 27B is a 7.89 GB, 2-bit GGUF of Qwen3.8-27B under Apache 2.0. It beats the 54 GB original on tool calling but gives up ground on competition math and reasoning. The post Meet the Underdog Saluki 27B: A 2-bit Qwen3.8-27B That Beats the Original at Tool Calling appeared first on MarkTechPost .",
+   "extra": {},
+   "score": 1.147,
+   "tokens": [
+    "27b",
+    "beats",
+    "bit",
+    "calling",
+    "meet",
+    "original",
+    "qwen3",
+    "saluki",
+    "tool",
+    "underdog"
+   ],
+   "flag": "new",
+   "summary_zh": "Underdog Saluki 27B 是 Qwen3.8-27B 的 2‑bit GGUF 量化版，7.89 GB，在工具调用上超越原始模型，但在数学和推理上略逊。",
+   "why_zh": "展示极致量化如何在保持工具调用能力的同时大幅降低模型体积，对边缘部署有重要参考价值。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "Set up your dot in the ChatGPT mobile app",
+   "link": "https://www.youtube.com/watch?v=p5KxBTUncoE",
+   "dt": "2026-10-09T19:13:03+00:00",
+   "summary": "You can now create a dot from the ChatGPT mobile app. Set up your dot, edit the name, customize the avatar, and set your dot to be the first conversation you see when you open the ChatGPT app. Learn more about dots here: https://learn.chatgpt.com/docs/dots",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": "p5KxBTUncoE"
+   },
+   "score": 0.9,
+   "tokens": [
+    "app",
+    "chatgpt",
+    "dot",
+    "mobile",
+    "set",
+    "up"
+   ],
+   "flag": "new",
+   "summary_zh": "ChatGPT 移动端新增 dot 功能，可创建、命名、自定义头像并设为打开时首个会话。",
+   "why_zh": "dot 功能让用户在移动端快速定制专属 AI 人格，提升个性化交互体验，对开发者有参考价值。"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "yetone/magpie",
+   "link": "https://github.com/yetone/magpie",
+   "dt": "2026-09-23T16:22:35+00:00",
+   "summary": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+   "extra": {
+    "stars": 8476,
+    "language": "Go",
+    "topics": [
+     "claude-code",
+     "codex",
+     "deepseek",
+     "gemini-cli",
+     "llm",
+     "macos"
+    ],
+    "created": "2026-09-23",
+    "pushed": "2026-10-10"
+   },
+   "score": 4.131,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-10 推荐过",
+   "summary_zh": "菜单栏工具统一管理多种 AI 代理模型，如 Codex 在 DeepSeek、Claude Code 在 Kimi 上运行。",
+   "why_zh": "提供便捷切换与监控多模型代理的入口，提升开发效率。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Louis-CFM/coucou",
+   "link": "https://github.com/Louis-CFM/coucou",
+   "dt": "2026-09-27T21:54:12+00:00",
+   "summary": "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen.",
+   "extra": {
+    "stars": 4650,
+    "language": "Swift",
+    "topics": [
+     "ai-agents",
+     "anthropic",
+     "antigravity",
+     "claude",
+     "claude-code",
+     "codex"
+    ],
+    "created": "2026-09-27",
+    "pushed": "2026-10-10"
+   },
+   "score": 4.131,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-10 推荐过",
+   "summary_zh": "小巧的 Mac 菜单栏 / iPhone 小组件实时监控 Claude Code 等 AI 编码代理，支持从锁屏或刘海批准。",
+   "why_zh": "让工程师能即时监督并干预 AI 编码行为，提升安全与可控性。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "edenfunf/reelmimic",
+   "link": "https://github.com/edenfunf/reelmimic",
+   "dt": "2026-09-28T19:14:59+00:00",
+   "summary": "Show it a video you love. Get a new video in the same style. An AI crew (Claude Code or Codex) plans, builds and reviews it with you.",
+   "extra": {
+    "stars": 1948,
+    "language": "JavaScript",
+    "topics": [
+     "2d-animation",
+     "ai-agents",
+     "ai-video",
+     "animation",
+     "claude-code",
+     "codex"
+    ],
+    "created": "2026-09-28",
+    "pushed": "2026-10-09"
+   },
+   "score": 4.131,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-10 推荐过",
+   "summary_zh": "用户提供喜欢视频，AI 团队（Claude Code 或 Codex）规划、构建并审查生成同风格新视频。",
+   "why_zh": "展示 AI 代理协作进行视频风格迁移，降低创作门槛。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "lemomo-ai/lemo-opuscar",
+   "link": "https://github.com/lemomo-ai/lemo-opuscar",
+   "dt": "2026-09-26T10:10:41+00:00",
+   "summary": "Claude Code skill for short films with no video model: 43 film styles, each a style prompt plus a demo film made entirely in code by Claude Opus 5.5 (incl. OPUSCAR 98). By Lemomo. · Opus5.5 x 43 种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南",
+   "extra": {
+    "stars": 1788,
+    "language": "JavaScript",
+    "topics": [
+     "agent-skills",
+     "ai-agents",
+     "ai-short-film",
+     "ai-video",
+     "animation",
+     "canvas"
+    ],
+    "created": "2026-09-26",
+    "pushed": "2026-10-10"
+   },
+   "score": 4.131,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-10 推荐过",
+   "summary_zh": "Claude Opus 5.5 生成 43 种电影风格的纯代码短片，附风格提示词和导演指南。",
+   "why_zh": "展示大模型直接输出可运行代码实现多风格视觉内容，为程序化创作提供新范式。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Oldcircle/geo-sleuth",
+   "link": "https://github.com/Oldcircle/geo-sleuth",
+   "dt": "2026-09-18T08:51:34+00:00",
+   "summary": "An agent skill that finds where a photo was taken — OpenStreetMap geometry, elevation skylines, satellite imagery and street view — and shows its work. Works with Claude Code, Codex, Cursor, Gemini CLI, OpenCode and GitHub Copilot.",
+   "extra": {
+    "stars": 1651,
+    "language": "Python",
+    "topics": [
+     "agent-skills",
+     "ai-agents",
+     "claude-code",
+     "codex",
+     "computer-vision",
+     "cursor"
+    ],
+    "created": "2026-09-18",
+    "pushed": "2026-10-10"
+   },
+   "score": 4.131,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-10 推荐过",
+   "summary_zh": "Oldcircle/geo-sleuth 是一个代理技能，利用 OpenStreetMap 几何、天际线、卫星影像和街景定位照片拍摄地点并展示推理过程。",
+   "why_zh": "它把多源地理数据与视觉定位结合，为 AI 编码助手提供可解释的地理推理能力。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "youngyangyang04/llm-master",
+   "link": "https://github.com/youngyangyang04/llm-master",
+   "dt": "2026-09-12T07:33:31+00:00",
+   "summary": "大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。",
+   "extra": {
+    "stars": 1221,
+    "language": "",
+    "topics": [
+     "agent",
+     "large-language-models",
+     "llm",
+     "llm-learning",
+     "llm-tutorial",
+     "rag"
+    ],
+    "created": "2026-09-12",
+    "pushed": "2026-10-05"
+   },
+   "score": 4.131,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-10 推荐过",
+   "summary_zh": "提供覆盖 Prompt Engineering 到模型部署等全栈 LLM 学习路线的中文教程。",
+   "why_zh": "对 AI 工程师系统掌握 LLM 技术栈和面试准备极具参考价值。"
+  }
+ ]
+}

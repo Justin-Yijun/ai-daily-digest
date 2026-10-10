@@ -15,7 +15,7 @@
   },
   "https://github.com/Louis-CFM/coucou": {
    "title": "Louis-CFM/coucou",
-   "date": "2026-10-10",
+   "date": "2026-10-11",
    "tokens": [],
    "source": "github",
    "summary_zh": "小巧的 Mac 菜单栏 / iPhone 小组件实时监控 Claude Code 等 AI 编码代理，支持从锁屏或刘海批准。",
@@ -31,7 +31,7 @@
   },
   "https://github.com/yetone/magpie": {
    "title": "yetone/magpie",
-   "date": "2026-10-10",
+   "date": "2026-10-11",
    "tokens": [],
    "source": "github",
    "summary_zh": "菜单栏工具统一管理多种 AI 代理模型，如 Codex 在 DeepSeek、Claude Code 在 Kimi 上运行。",
@@ -39,7 +39,7 @@
   },
   "https://github.com/youngyangyang04/llm-master": {
    "title": "youngyangyang04/llm-master",
-   "date": "2026-10-10",
+   "date": "2026-10-11",
    "tokens": [],
    "source": "github",
    "summary_zh": "提供覆盖 Prompt Engineering 到模型部署等全栈 LLM 学习路线的中文教程。",
@@ -156,7 +156,7 @@
   },
   "https://github.com/edenfunf/reelmimic": {
    "title": "edenfunf/reelmimic",
-   "date": "2026-10-10",
+   "date": "2026-10-11",
    "tokens": [],
    "source": "github",
    "summary_zh": "用户提供喜欢视频，AI 团队（Claude Code 或 Codex）规划、构建并审查生成同风格新视频。",
@@ -1233,7 +1233,7 @@
   },
   "https://github.com/lemomo-ai/lemo-opuscar": {
    "title": "lemomo-ai/lemo-opuscar",
-   "date": "2026-10-10",
+   "date": "2026-10-11",
    "tokens": [],
    "source": "github",
    "summary_zh": "Claude Opus 5.5 生成 43 种电影风格的纯代码短片，附风格提示词和导演指南。",
@@ -1429,7 +1429,7 @@
   },
   "https://github.com/Oldcircle/geo-sleuth": {
    "title": "Oldcircle/geo-sleuth",
-   "date": "2026-10-10",
+   "date": "2026-10-11",
    "tokens": [],
    "source": "github",
    "summary_zh": "Oldcircle/geo-sleuth 是一个代理技能，利用 OpenStreetMap 几何、天际线、卫星影像和街景定位照片拍摄地点并展示推理过程。",
@@ -1854,7 +1854,216 @@
    "source": "blog",
    "summary_zh": "LegalOn 通过任务匹配和预算管理，将 Codex 每日成本降低 65%，保持开发速度不变。",
    "why_zh": "展示通过任务匹配和预算管理降低大模型成本的实用方法，对控制费用的 AI 工程师有参考价值。"
+  },
+  "https://github.com/zai-org/ZCode": {
+   "title": "zai-org/ZCode",
+   "date": "2026-10-11",
+   "tokens": [
+    "org",
+    "zai",
+    "zcode"
+   ],
+   "source": "github",
+   "summary_zh": "Z.ai 发布 ZCode，提供强大、智能、可扩展的编码代理框架。",
+   "why_zh": "为 AI 工程师提供即插即用的代码生成与自动化工具，降低开发门槛。"
+  },
+  "https://mtlynch.io/why-are-coding-agents-so-dumb/": {
+   "title": "Why are coding agents so dumb?",
+   "date": "2026-10-11",
+   "tokens": [
+    "agents",
+    "coding",
+    "dumb",
+    "so"
+   ],
+   "source": "hackernews",
+   "summary_zh": "HN 讨论指出当前编码代理能力有限，常犯低级错误。",
+   "why_zh": "揭示代理不足之处，帮助工程师改进模型与提示策略。"
+  },
+  "https://github.com/franzenzenhofer/big-arrow-on-the-screen": {
+   "title": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
+   "date": "2026-10-11",
+   "tokens": [
+    "agents",
+    "ai",
+    "arrows",
+    "big",
+    "boxes",
+    "hn",
+    "let",
+    "paint",
+    "screen",
+    "show",
+    "text"
+   ],
+   "source": "hackernews",
+   "summary_zh": "演示让 AI 代理在屏幕上绘制箭头、框和文本的可视化工具。",
+   "why_zh": "展示多模态交互新范式，便于调试与演示 AI 行为。"
+  },
+  "https://github.com/duolahypercho/codex-router": {
+   "title": "duolahypercho/codex-router",
+   "date": "2026-10-11",
+   "tokens": [
+    "codex",
+    "duolahypercho",
+    "router"
+   ],
+   "source": "github",
+   "summary_zh": "提供 Codex 外部模型路由，支持 Kimi OAuth/API、DeepSeek，并实现安全迁移与回滚。",
+   "why_zh": "让工程师灵活切换多模型后端，保障服务平滑升级。"
+  },
+  "https://github.com/agents-universe/agents-universe": {
+   "title": "agents-universe/agents-universe",
+   "date": "2026-10-11",
+   "tokens": [
+    "agents",
+    "universe"
+   ],
+   "source": "github",
+   "summary_zh": "构建共享智能体平台，让团队成员协同工作，智能体能从资料中抽象经验并更新项目上下文。",
+   "why_zh": "实现跨人员智能体知识共享，提升团队开发效率。"
+  },
+  "https://github.com/lobehub/awesome-rsi": {
+   "title": "lobehub/awesome-rsi",
+   "date": "2026-10-11",
+   "tokens": [
+    "awesome",
+    "lobehub",
+    "rsi"
+   ],
+   "source": "github",
+   "summary_zh": "收录递归自改进（RSI）研究资源，涵盖模型、代理、具身系统、自动化 AI 研发等。",
+   "why_zh": "为研究者提供一站式 RSI 文献与基准，推动前沿探索。"
+  },
+  "https://huggingface.co/papers/2610.09280": {
+   "title": "Evaluating the Transfer of Co-Evolved Communication from 2D to 3D Simulation",
+   "date": "2026-10-11",
+   "tokens": [
+    "2d",
+    "3d",
+    "co",
+    "communication",
+    "evaluating",
+    "evolved",
+    "simulation",
+    "transfer"
+   ],
+   "source": "paper",
+   "summary_zh": "研究在2D离散模拟中共进化的两机器人通信机制是否能在带真实物理的3D模拟中保持功能。",
+   "why_zh": "揭示跨维度通信迁移的可行性，对多机器人系统设计有指导意义。"
+  },
+  "https://huggingface.co/papers/2609.33987": {
+   "title": "Opera: A Verbal Critic Framework for Long-horizon Coding Agents",
+   "date": "2026-10-11",
+   "tokens": [
+    "agents",
+    "coding",
+    "critic",
+    "framework",
+    "horizon",
+    "long",
+    "opera",
+    "verbal"
+   ],
+   "source": "paper",
+   "summary_zh": "提出Opera框架，将每次代码纠错视为持久注释，以追踪反馈后效果并改进长horizon编码代理。",
+   "why_zh": "解决现有评论者缺乏后续跟踪的问题，帮助工程师构建更可靠的自动编码系统。"
+  },
+  "https://www.youtube.com/watch?v=enPbh_A5F7E": {
+   "title": "Building the Codex community",
+   "date": "2026-10-11",
+   "tokens": [
+    "building",
+    "codex",
+    "community"
+   ],
+   "source": "youtube",
+   "summary_zh": "介绍Codex社区如何通过大使项目、线下聚会和Build Week促进构建、学习与分享。",
+   "why_zh": "展示社区驱动的开发模式，为推广AI工具提供实践参考。"
+  },
+  "https://www.youtube.com/watch?v=oVKGKdIAgtg": {
+   "title": "Three Questions Every Agent Engineer Should Be Able To Answer",
+   "date": "2026-10-11",
+   "tokens": [
+    "able",
+    "agent",
+    "answer",
+    "engineer",
+    "every",
+    "questions",
+    "should",
+    "three"
+   ],
+   "source": "youtube",
+   "summary_zh": "LangChain Labs提出三个关键问题：代理何时失效、如何可靠复现失效、何需改变以停止失效，并细述使用微调判定师等方法。",
+   "why_zh": "为工程师提供诊断和提升代理可靠性的实用框架，降低评估成本。"
+  },
+  "https://openai.com/index/asana-browser-agent": {
+   "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+   "date": "2026-10-11",
+   "tokens": [
+    "76x",
+    "asana",
+    "browser",
+    "costs",
+    "cuts",
+    "gpt",
+    "model",
+    "sol",
+    "tests"
+   ],
+   "source": "blog",
+   "summary_zh": "Asana在浏览器代理中使用GPT-6 Astra，使成本降低76倍、速度提升5倍，提供更强大模型。",
+   "why_zh": "演示大规模推理成本优化的可行性，指导工程师在产品中采用高效模型。"
+  },
+  "https://simonwillison.net/2026/Oct/9/built-using-my-voice/": {
+   "title": "A new feature for my blog, built using my voice",
+   "date": "2026-10-11",
+   "tokens": [
+    "blog",
+    "built",
+    "feature",
+    "my",
+    "voice"
+   ],
+   "source": "blog",
+   "summary_zh": "作者用ChatGPT desktop的Codex语音模式，边做饭边通过语音构建博客新闻页面。",
+   "why_zh": "展示语音编程在快速原型开发中的便利性，激发工程师尝试无手编码。"
+  },
+  "https://www.marktechpost.com/2026/10/09/meet-the-underdog-saluki-27b-a-2-bit-qwen3-8-27b-that-beats-the-original-at-tool-calling/": {
+   "title": "Meet the Underdog Saluki 27B: A 2-bit Qwen3.8-27B That Beats the Original at Tool Calling",
+   "date": "2026-10-11",
+   "tokens": [
+    "27b",
+    "beats",
+    "bit",
+    "calling",
+    "meet",
+    "original",
+    "qwen3",
+    "saluki",
+    "tool",
+    "underdog"
+   ],
+   "source": "blog",
+   "summary_zh": "Underdog Saluki 27B 是 Qwen3.8-27B 的 2‑bit GGUF 量化版，7.89 GB，在工具调用上超越原始模型，但在数学和推理上略逊。",
+   "why_zh": "展示极致量化如何在保持工具调用能力的同时大幅降低模型体积，对边缘部署有重要参考价值。"
+  },
+  "https://www.youtube.com/watch?v=p5KxBTUncoE": {
+   "title": "Set up your dot in the ChatGPT mobile app",
+   "date": "2026-10-11",
+   "tokens": [
+    "app",
+    "chatgpt",
+    "dot",
+    "mobile",
+    "set",
+    "up"
+   ],
+   "source": "youtube",
+   "summary_zh": "ChatGPT 移动端新增 dot 功能，可创建、命名、自定义头像并设为打开时首个会话。",
+   "why_zh": "dot 功能让用户在移动端快速定制专属 AI 人格，提升个性化交互体验，对开发者有参考价值。"
   }
  },
- "updated": "2026-10-09T16:28:44.816117+00:00"
+ "updated": "2026-10-10T17:02:20.166950+00:00"
 }
