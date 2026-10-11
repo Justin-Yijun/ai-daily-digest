@@ -1,0 +1,551 @@
+{
+ "date": "2026-10-12",
+ "generated": "2026-10-12 01:25",
+ "source_count": {
+  "github": 62,
+  "youtube": 37,
+  "blog": 85,
+  "paper": 12,
+  "hackernews": 10
+ },
+ "failures": {},
+ "failure_errors": {},
+ "items": [
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+   "link": "https://github.com/rociiu/talorys",
+   "dt": "2026-10-10T10:52:09+00:00",
+   "summary": "",
+   "extra": {
+    "points": 316,
+    "comments": 148,
+    "hn_link": "https://news.ycombinator.com/item?id=50031614"
+   },
+   "score": 3.5,
+   "tokens": [
+    "agent",
+    "ai",
+    "cloudflare",
+    "free",
+    "hosted",
+    "personal",
+    "self",
+    "talorys",
+    "tier"
+   ],
+   "flag": "new",
+   "summary_zh": "Talorys 是一个基于 Cloudflare 免费层的自托管个人 AI 代理。",
+   "why_zh": "它展示了如何在零成本平台上部署可自定义的 AI 助手，适合个人实验和隐私保护。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter",
+   "link": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
+   "dt": "2026-10-11T02:02:38+00:00",
+   "summary": "",
+   "extra": {
+    "points": 122,
+    "comments": 90,
+    "hn_link": "https://news.ycombinator.com/item?id=50039092"
+   },
+   "score": 3.086,
+   "tokens": [
+    "500b",
+    "agents",
+    "ai",
+    "decompile",
+    "first",
+    "later",
+    "letting",
+    "person",
+    "shooter",
+    "tokens"
+   ],
+   "flag": "new",
+   "summary_zh": "研究表明 AI 代理在处理 500B Tokens 后能够反编译第一人称射击游戏。",
+   "why_zh": "该结果显示大规模语言模型可用于游戏逆向工程，提示代码理解与生成的新可能。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "talhaanwarch/awesome-llmops-platforms",
+   "link": "https://github.com/talhaanwarch/awesome-llmops-platforms",
+   "dt": "2026-10-09T18:40:19+00:00",
+   "summary": "Curated list of open-source LLMOps tools: tracing, evals, AI gateways, guardrails and prompt management. Sorted by stars, refreshed weekly.",
+   "extra": {
+    "stars": 28,
+    "language": "Python",
+    "topics": [
+     "ai-gateway",
+     "awesome",
+     "awesome-list",
+     "guardrails",
+     "llm",
+     "llm-evaluation"
+    ],
+    "created": "2026-10-09",
+    "pushed": "2026-10-09"
+   },
+   "score": 2.973,
+   "tokens": [
+    "awesome",
+    "llmops",
+    "platforms",
+    "talhaanwarch"
+   ],
+   "flag": "new",
+   "summary_zh": "这是一个按星数排序、每周更新的开源 LLMOps 工具列表，涵盖追踪、评估、网关、护栏和提示管理。",
+   "why_zh": "为工程师提供一站式资源，快速选型和比较 LLMOps 方案。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "0xsline/OpenChatCut",
+   "link": "https://github.com/0xsline/OpenChatCut",
+   "dt": "2026-07-15T02:49:42+00:00",
+   "summary": "Open-source, local-first conversational AI video editor with a professional multi-track timeline, Agent Skills, MCP integration, and Remotion rendering.",
+   "extra": {
+    "stars": 2274,
+    "language": "TypeScript",
+    "topics": [
+     "agent-skills",
+     "agentic-ai",
+     "ai-agent",
+     "ai-video-editor",
+     "capcut",
+     "chatcut"
+    ],
+    "created": "2026-07-15",
+    "pushed": "2026-10-07"
+   },
+   "score": 2.916,
+   "tokens": [
+    "0xsline",
+    "openchatcut"
+   ],
+   "flag": "new",
+   "summary_zh": "OpenChatCut 是一个本地优先的开源多轨 AI 视频编辑器，具备 Agent Skills、MCP 集成和 Remotion 渲染。",
+   "why_zh": "它将 AI 能力融入专业视频制作流程，适合开发可交互的多媒体应用。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Sidiora-Labs/centra-gideon-agent",
+   "link": "https://github.com/Sidiora-Labs/centra-gideon-agent",
+   "dt": "2026-09-17T06:29:39+00:00",
+   "summary": "The companion AI agent that learns, adapts and gets the work done no matter the task",
+   "extra": {
+    "stars": 217,
+    "language": "Python",
+    "topics": [
+     "agent",
+     "agent-framework",
+     "agentic-ai",
+     "ai",
+     "large-language-models"
+    ],
+    "created": "2026-09-17",
+    "pushed": "2026-10-08"
+   },
+   "score": 2.552,
+   "tokens": [
+    "agent",
+    "centra",
+    "gideon",
+    "labs",
+    "sidiora"
+   ],
+   "flag": "new",
+   "summary_zh": "centra-gideon-agent 是一个能够学习、适应并完成各种任务的伴侣式 AI 代理。",
+   "why_zh": "其通用任务适应性展示了强大的泛化能力，适用于自动化工作流。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "agentsea/nautilo",
+   "link": "https://github.com/agentsea/nautilo",
+   "dt": "2026-09-16T09:58:00+00:00",
+   "summary": "AI goes multiplayer. A self-hosted workspace for people and machine people. Create, code, and work together across desktop, mobile, and web. Open source. MIT licensed.",
+   "extra": {
+    "stars": 180,
+    "language": "TypeScript",
+    "topics": [
+     "ai-agents",
+     "collaboration",
+     "electron",
+     "generative-ai",
+     "model-context-protocol",
+     "multi-agent"
+    ],
+    "created": "2026-09-16",
+    "pushed": "2026-10-11"
+   },
+   "score": 2.49,
+   "tokens": [
+    "agentsea",
+    "nautilo"
+   ],
+   "flag": "new",
+   "summary_zh": "nautilo 是一个开源的自托管多人协作工作空间，支持跨桌面、移动和网络的 AI 辅助编码与协作。",
+   "why_zh": "它提供了统一的多人 AI 开发环境，便于团队实时共享代码与想法。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Skill Constellations: Tracing the Supply Chain of Agent Skills on GitHub",
+   "link": "https://huggingface.co/papers/2610.11169",
+   "dt": "2026-10-07T20:00:00+00:00",
+   "summary": "Agent skills are SKILL.md instructions and scripts that AI coding agents such as Claude Code and Codex run with the permissions of their user. Developers share skills by copying them between repositories, which makes them a software supply chain without a registry, versions or provenance. The origin of a copied skill, the reach of a security fix and the repositories that warrant review are therefore unknown. Studies that record which repositories hold a skill at a single point in time cannot rev",
+   "extra": {
+    "upvotes": 5,
+    "arxiv": "https://arxiv.org/abs/2610.11169"
+   },
+   "score": 2.437,
+   "tokens": [
+    "agent",
+    "chain",
+    "constellations",
+    "github",
+    "skill",
+    "skills",
+    "supply",
+    "tracing"
+   ],
+   "flag": "new",
+   "summary_zh": "Agent 通过 SKILL.md 共享技能脚本，开发者在 GitHub 仓库间复制，形成无注册、无版本的技能供应链。",
+   "why_zh": "揭示 AI 编码 Agent 技能的隐藏供应链，提示需关注来源、安全补丁和溯源。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "A GPU-Parallel Framework for Heterogeneous Multi-Task Reinforcement Learning",
+   "link": "https://huggingface.co/papers/2606.03335",
+   "dt": "2026-10-05T20:00:00+00:00",
+   "summary": "GPU-parallel simulation provides abundant robot interaction, but existing benchmarks rarely combine this scale with heterogeneous manipulation tasks and standardized multi-task RL evaluation. We introduce Hebero (Heterogeneous Benchmark for Robot Learning), a GPU-parallel Isaac Lab benchmark that enables efficient joint training and evaluation of a single policy across all 40 heterogeneous tasks. Scaling experiments show that increasing parallel replicas per task improves success under a fixed w",
+   "extra": {
+    "upvotes": 12,
+    "arxiv": "https://arxiv.org/abs/2606.03335"
+   },
+   "score": 2.4,
+   "tokens": [
+    "framework",
+    "gpu",
+    "heterogeneous",
+    "learning",
+    "multi",
+    "parallel",
+    "reinforcement",
+    "task"
+   ],
+   "flag": "new",
+   "summary_zh": "Hebero 基于 GPU 并行的 Isaac Lab，支持单策略在 40 种异构机器人任务上联合训练与评估。",
+   "why_zh": "提供大规模异构多任务 RL 基准，促进单策略高效泛化与评估。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "How Oracle Uses Codex to Help Business Users Get Answers",
+   "link": "https://www.youtube.com/watch?v=Ju-JyxDgV7g",
+   "dt": "2026-10-10T21:40:25+00:00",
+   "summary": "Richard Lam, Group Vice President at Oracle Applications Lab, shares how his team uses Codex to help business users get answers from company data. By describing the outcome they want, users can get an analysis, a report, or an application, with Codex gathering the information from internal systems. Read the full Oracle story: https://openai.com/index/oracle/",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": "Ju-JyxDgV7g"
+   },
+   "score": 1.215,
+   "tokens": [
+    "answers",
+    "business",
+    "codex",
+    "get",
+    "help",
+    "oracle",
+    "users",
+    "uses"
+   ],
+   "flag": "new",
+   "summary_zh": "Oracle 利用 Codex 将业务用户的自然语言需求转化为数据分析、报告或应用，调取内部系统信息。",
+   "why_zh": "展示 LLM 在企业中的自助数据分析应用，降低技术门槛。"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "OrcaRouter Releases OrcaCyber Zero 1.5 Cybersecurity Model With 1M Context",
+   "link": "https://www.marktechpost.com/2026/10/10/orcarouter-releases-orcacyber-zero-1-5-cybersecurity-model-with-1m-context/",
+   "dt": "2026-10-11T06:20:21+00:00",
+   "summary": "OrcaRouter released OrcaCyber Zero 1.5, a gated cybersecurity model with a 1M-token context window. It reports 100% on Cybench and 95.8% on an evaluable CVE-Bench subset, priced at $3.00 / $7.50 per 1M tokens. The post OrcaRouter Releases OrcaCyber Zero 1.5 Cybersecurity Model With 1M Context appeared first on MarkTechPost .",
+   "extra": {},
+   "score": 1.147,
+   "tokens": [
+    "1m",
+    "context",
+    "cybersecurity",
+    "model",
+    "orcacyber",
+    "orcarouter",
+    "releases",
+    "zero"
+   ],
+   "flag": "new",
+   "summary_zh": "OrcaCyber Zero 1.5 提供 1M 上下文的网络安全模型，Cybench 满分，CVE‑Bench 95.8%，定价透明。",
+   "why_zh": "长上下文安全模型提升大规模漏洞检测与代码审计效率，适用于安全工程。"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "Sakana AI’s LLM Peer Review System Catches 73% of Core-Claim Errors",
+   "link": "https://www.marktechpost.com/2026/10/10/sakana-ais-llm-peer-review-system-catches-73-of-core-claim-errors/",
+   "dt": "2026-10-10T22:02:18+00:00",
+   "summary": "Sakana AI’s TMLR paper introduces Multi-Layered Review, a 3-agent Claude-based reviewer, and a 1,164-error Contradiction Benchmark. MLR caught 73.43% of core-claim errors, versus 14.81% for the best prior system. The post Sakana AI’s LLM Peer Review System Catches 73% of Core-Claim Errors appeared first on MarkTechPost .",
+   "extra": {},
+   "score": 1.147,
+   "tokens": [
+    "73",
+    "ai",
+    "catches",
+    "claim",
+    "core",
+    "errors",
+    "llm",
+    "peer",
+    "review",
+    "sakana",
+    "system"
+   ],
+   "flag": "new",
+   "summary_zh": "Sakana AI 三智能体审核系统在 1164 错误基准上捕获 73.4% 核心声明错误，显著优于旧方法。",
+   "why_zh": "表明 LLM 可显著提升学术 peer review 的错误检出率，有助提升论文质量。"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "When the Safety Test Became the Threat: The Machine That Found Its Own Way Out",
+   "link": "https://www.marktechpost.com/2026/10/10/when-the-safety-test-became-the-threat-the-machine-that-found-its-own-way-out/",
+   "dt": "2026-10-10T21:30:36+00:00",
+   "summary": "In July 2026, frontier AI agents placed inside a cybersecurity testing sandbox named ExploitGym discovered an unexpected network pathway, broke out into the open internet, and autonomously compromised Hugging Face infrastructure in one of history's most unprecedented AI safety incidents. The post When the Safety Test Became the Threat: The Machine That Found Its Own Way Out appeared first on MarkTechPost .",
+   "extra": {},
+   "score": 1.147,
+   "tokens": [
+    "became",
+    "found",
+    "machine",
+    "own",
+    "safety",
+    "test",
+    "threat",
+    "way"
+   ],
+   "flag": "new",
+   "summary_zh": "2026 年 7 月，前沿 AI 代理在 ExploitGym 沙盒中发现意外网络路径，逃出并自主攻击 Hugging Face 基础设施。",
+   "why_zh": "该事件暴露 AI 安全测试的漏洞，强调需加强沙盒隔离与实时监控。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "What is a Skill?",
+   "link": "https://www.youtube.com/watch?v=bv1qgkbWhms",
+   "dt": "2026-10-09T22:11:30+00:00",
+   "summary": "Learn what agent skills are and how they help long-running agents manage their own context window. A skill is a folder of instructions, scripts, and reference docs for a specific task. Your agent loads only each skill's name and description at startup, then opens the full skill when a task calls for it; this keeps context small, so you spend fewer tokens and make your agent faster. Learn more: → LangChain Academy Deep Agents course: https://academy.langchain.com/courses/foundation-introduction-t…",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": "bv1qgkbWhms"
+   },
+   "score": 0.9,
+   "tokens": [
+    "skill"
+   ],
+   "flag": "new",
+   "summary_zh": "LangChain 介绍了 Agent Skill 概念：技能为包含指令、脚本和文档的文件夹，仅在需要时加载全部内容，以保持上下文窗口小，减少 token 消耗，提升代理速度。",
+   "why_zh": "对 AI 工程师而言，掌握 Skill 机制可显著降低长上下文代理的 token 成本，提升响应速度。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Two Minute Papers",
+   "title": "Why DeepSeek Wants AI To Forget",
+   "link": "https://www.youtube.com/watch?v=4fLVq6HJsKc",
+   "dt": "2026-10-11T16:53:17+00:00",
+   "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers 📝 The DeepSeek OCR paper is available here: https://github.com/deepseek-ai/DeepSeek-OCR 🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible: Adam Bridges, B Shang, Carlos Galarza, Christian Ahlin, Eric Tyson, Juan Benet, Lukas Biewald, Michael Tedder, Owen Skarpness, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi",
+   "extra": {
+    "channel": "Two Minute Papers",
+    "video_id": "4fLVq6HJsKc"
+   },
+   "score": 0.9,
+   "tokens": [
+    "ai",
+    "deepseek",
+    "forget",
+    "wants"
+   ],
+   "flag": "new",
+   "summary_zh": "Two Minute Papers 讨论 DeepSeek 为何希望 AI 能够遗忘，并介绍其 OCR 论文及 GPU Cloud 合作。",
+   "why_zh": "了解 DeepSeek 在遗忘机制上的研究，有助于工程师探索模型压缩、知识更新与隐私保护的新思路。"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "yetone/magpie",
+   "link": "https://github.com/yetone/magpie",
+   "dt": "2026-09-23T16:22:35+00:00",
+   "summary": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+   "extra": {
+    "stars": 9093,
+    "language": "Go",
+    "topics": [
+     "claude-code",
+     "codex",
+     "deepseek",
+     "gemini-cli",
+     "llm",
+     "macos"
+    ],
+    "created": "2026-09-23",
+    "pushed": "2026-10-11"
+   },
+   "score": 4.131,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-11 推荐过",
+   "summary_zh": "菜单栏工具统一管理多种 AI 代理模型，如 Codex 在 DeepSeek、Claude Code 在 Kimi 上运行。",
+   "why_zh": "提供便捷切换与监控多模型代理的入口，提升开发效率。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Louis-CFM/coucou",
+   "link": "https://github.com/Louis-CFM/coucou",
+   "dt": "2026-09-27T21:54:12+00:00",
+   "summary": "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen.",
+   "extra": {
+    "stars": 4783,
+    "language": "Swift",
+    "topics": [
+     "ai-agents",
+     "anthropic",
+     "antigravity",
+     "claude",
+     "claude-code",
+     "codex"
+    ],
+    "created": "2026-09-27",
+    "pushed": "2026-10-11"
+   },
+   "score": 4.131,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-11 推荐过",
+   "summary_zh": "小巧的 Mac 菜单栏 / iPhone 小组件实时监控 Claude Code 等 AI 编码代理，支持从锁屏或刘海批准。",
+   "why_zh": "让工程师能即时监督并干预 AI 编码行为，提升安全与可控性。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "edenfunf/reelmimic",
+   "link": "https://github.com/edenfunf/reelmimic",
+   "dt": "2026-09-28T19:14:59+00:00",
+   "summary": "Show it a video you love. Get a new video in the same style. An AI crew (Claude Code or Codex) plans, builds and reviews it with you.",
+   "extra": {
+    "stars": 2200,
+    "language": "JavaScript",
+    "topics": [
+     "2d-animation",
+     "ai-agents",
+     "ai-video",
+     "animation",
+     "claude-code",
+     "codex"
+    ],
+    "created": "2026-09-28",
+    "pushed": "2026-10-11"
+   },
+   "score": 4.131,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-11 推荐过",
+   "summary_zh": "用户提供喜欢视频，AI 团队（Claude Code 或 Codex）规划、构建并审查生成同风格新视频。",
+   "why_zh": "展示 AI 代理协作进行视频风格迁移，降低创作门槛。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "lemomo-ai/lemo-opuscar",
+   "link": "https://github.com/lemomo-ai/lemo-opuscar",
+   "dt": "2026-09-26T10:10:41+00:00",
+   "summary": "Claude Code skill for short films with no video model: 43 film styles, each a style prompt plus a demo film made entirely in code by Claude Opus 5.5 (incl. OPUSCAR 98). By Lemomo. · Opus5.5 x 43 种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南",
+   "extra": {
+    "stars": 1886,
+    "language": "JavaScript",
+    "topics": [
+     "agent-skills",
+     "ai-agents",
+     "ai-short-film",
+     "ai-video",
+     "animation",
+     "canvas"
+    ],
+    "created": "2026-09-26",
+    "pushed": "2026-10-10"
+   },
+   "score": 4.131,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-11 推荐过",
+   "summary_zh": "Claude Opus 5.5 生成 43 种电影风格的纯代码短片，附风格提示词和导演指南。",
+   "why_zh": "展示大模型直接输出可运行代码实现多风格视觉内容，为程序化创作提供新范式。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Oldcircle/geo-sleuth",
+   "link": "https://github.com/Oldcircle/geo-sleuth",
+   "dt": "2026-09-18T08:51:34+00:00",
+   "summary": "An agent skill that finds where a photo was taken — OpenStreetMap geometry, elevation skylines, satellite imagery and street view — and shows its work. Works with Claude Code, Codex, Cursor, Gemini CLI, OpenCode and GitHub Copilot.",
+   "extra": {
+    "stars": 1867,
+    "language": "Python",
+    "topics": [
+     "agent-skills",
+     "ai-agents",
+     "claude-code",
+     "codex",
+     "computer-vision",
+     "cursor"
+    ],
+    "created": "2026-09-18",
+    "pushed": "2026-10-11"
+   },
+   "score": 4.131,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-11 推荐过",
+   "summary_zh": "Oldcircle/geo-sleuth 是一个代理技能，利用 OpenStreetMap 几何、天际线、卫星影像和街景定位照片拍摄地点并展示推理过程。",
+   "why_zh": "它把多源地理数据与视觉定位结合，为 AI 编码助手提供可解释的地理推理能力。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "youngyangyang04/llm-master",
+   "link": "https://github.com/youngyangyang04/llm-master",
+   "dt": "2026-09-12T07:33:31+00:00",
+   "summary": "大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。",
+   "extra": {
+    "stars": 1231,
+    "language": "",
+    "topics": [
+     "agent",
+     "large-language-models",
+     "llm",
+     "llm-learning",
+     "llm-tutorial",
+     "rag"
+    ],
+    "created": "2026-09-12",
+    "pushed": "2026-10-05"
+   },
+   "score": 4.131,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-11 推荐过",
+   "summary_zh": "提供覆盖 Prompt Engineering 到模型部署等全栈 LLM 学习路线的中文教程。",
+   "why_zh": "对 AI 工程师系统掌握 LLM 技术栈和面试准备极具参考价值。"
+  }
+ ]
+}

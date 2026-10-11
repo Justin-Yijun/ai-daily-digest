@@ -15,7 +15,7 @@
   },
   "https://github.com/Louis-CFM/coucou": {
    "title": "Louis-CFM/coucou",
-   "date": "2026-10-11",
+   "date": "2026-10-12",
    "tokens": [],
    "source": "github",
    "summary_zh": "小巧的 Mac 菜单栏 / iPhone 小组件实时监控 Claude Code 等 AI 编码代理，支持从锁屏或刘海批准。",
@@ -31,7 +31,7 @@
   },
   "https://github.com/yetone/magpie": {
    "title": "yetone/magpie",
-   "date": "2026-10-11",
+   "date": "2026-10-12",
    "tokens": [],
    "source": "github",
    "summary_zh": "菜单栏工具统一管理多种 AI 代理模型，如 Codex 在 DeepSeek、Claude Code 在 Kimi 上运行。",
@@ -39,7 +39,7 @@
   },
   "https://github.com/youngyangyang04/llm-master": {
    "title": "youngyangyang04/llm-master",
-   "date": "2026-10-11",
+   "date": "2026-10-12",
    "tokens": [],
    "source": "github",
    "summary_zh": "提供覆盖 Prompt Engineering 到模型部署等全栈 LLM 学习路线的中文教程。",
@@ -156,7 +156,7 @@
   },
   "https://github.com/edenfunf/reelmimic": {
    "title": "edenfunf/reelmimic",
-   "date": "2026-10-11",
+   "date": "2026-10-12",
    "tokens": [],
    "source": "github",
    "summary_zh": "用户提供喜欢视频，AI 团队（Claude Code 或 Codex）规划、构建并审查生成同风格新视频。",
@@ -1233,7 +1233,7 @@
   },
   "https://github.com/lemomo-ai/lemo-opuscar": {
    "title": "lemomo-ai/lemo-opuscar",
-   "date": "2026-10-11",
+   "date": "2026-10-12",
    "tokens": [],
    "source": "github",
    "summary_zh": "Claude Opus 5.5 生成 43 种电影风格的纯代码短片，附风格提示词和导演指南。",
@@ -1429,7 +1429,7 @@
   },
   "https://github.com/Oldcircle/geo-sleuth": {
    "title": "Oldcircle/geo-sleuth",
-   "date": "2026-10-11",
+   "date": "2026-10-12",
    "tokens": [],
    "source": "github",
    "summary_zh": "Oldcircle/geo-sleuth 是一个代理技能，利用 OpenStreetMap 几何、天际线、卫星影像和街景定位照片拍摄地点并展示推理过程。",
@@ -2063,7 +2063,221 @@
    "source": "youtube",
    "summary_zh": "ChatGPT 移动端新增 dot 功能，可创建、命名、自定义头像并设为打开时首个会话。",
    "why_zh": "dot 功能让用户在移动端快速定制专属 AI 人格，提升个性化交互体验，对开发者有参考价值。"
+  },
+  "https://github.com/rociiu/talorys": {
+   "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+   "date": "2026-10-12",
+   "tokens": [
+    "agent",
+    "ai",
+    "cloudflare",
+    "free",
+    "hosted",
+    "personal",
+    "self",
+    "talorys",
+    "tier"
+   ],
+   "source": "hackernews",
+   "summary_zh": "Talorys 是一个基于 Cloudflare 免费层的自托管个人 AI 代理。",
+   "why_zh": "它展示了如何在零成本平台上部署可自定义的 AI 助手，适合个人实验和隐私保护。"
+  },
+  "https://momo5502.com/posts/2026-10-09-game-decompilation/": {
+   "title": "500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter",
+   "date": "2026-10-12",
+   "tokens": [
+    "500b",
+    "agents",
+    "ai",
+    "decompile",
+    "first",
+    "later",
+    "letting",
+    "person",
+    "shooter",
+    "tokens"
+   ],
+   "source": "hackernews",
+   "summary_zh": "研究表明 AI 代理在处理 500B Tokens 后能够反编译第一人称射击游戏。",
+   "why_zh": "该结果显示大规模语言模型可用于游戏逆向工程，提示代码理解与生成的新可能。"
+  },
+  "https://github.com/talhaanwarch/awesome-llmops-platforms": {
+   "title": "talhaanwarch/awesome-llmops-platforms",
+   "date": "2026-10-12",
+   "tokens": [
+    "awesome",
+    "llmops",
+    "platforms",
+    "talhaanwarch"
+   ],
+   "source": "github",
+   "summary_zh": "这是一个按星数排序、每周更新的开源 LLMOps 工具列表，涵盖追踪、评估、网关、护栏和提示管理。",
+   "why_zh": "为工程师提供一站式资源，快速选型和比较 LLMOps 方案。"
+  },
+  "https://github.com/0xsline/OpenChatCut": {
+   "title": "0xsline/OpenChatCut",
+   "date": "2026-10-12",
+   "tokens": [
+    "0xsline",
+    "openchatcut"
+   ],
+   "source": "github",
+   "summary_zh": "OpenChatCut 是一个本地优先的开源多轨 AI 视频编辑器，具备 Agent Skills、MCP 集成和 Remotion 渲染。",
+   "why_zh": "它将 AI 能力融入专业视频制作流程，适合开发可交互的多媒体应用。"
+  },
+  "https://github.com/Sidiora-Labs/centra-gideon-agent": {
+   "title": "Sidiora-Labs/centra-gideon-agent",
+   "date": "2026-10-12",
+   "tokens": [
+    "agent",
+    "centra",
+    "gideon",
+    "labs",
+    "sidiora"
+   ],
+   "source": "github",
+   "summary_zh": "centra-gideon-agent 是一个能够学习、适应并完成各种任务的伴侣式 AI 代理。",
+   "why_zh": "其通用任务适应性展示了强大的泛化能力，适用于自动化工作流。"
+  },
+  "https://github.com/agentsea/nautilo": {
+   "title": "agentsea/nautilo",
+   "date": "2026-10-12",
+   "tokens": [
+    "agentsea",
+    "nautilo"
+   ],
+   "source": "github",
+   "summary_zh": "nautilo 是一个开源的自托管多人协作工作空间，支持跨桌面、移动和网络的 AI 辅助编码与协作。",
+   "why_zh": "它提供了统一的多人 AI 开发环境，便于团队实时共享代码与想法。"
+  },
+  "https://huggingface.co/papers/2610.11169": {
+   "title": "Skill Constellations: Tracing the Supply Chain of Agent Skills on GitHub",
+   "date": "2026-10-12",
+   "tokens": [
+    "agent",
+    "chain",
+    "constellations",
+    "github",
+    "skill",
+    "skills",
+    "supply",
+    "tracing"
+   ],
+   "source": "paper",
+   "summary_zh": "Agent 通过 SKILL.md 共享技能脚本，开发者在 GitHub 仓库间复制，形成无注册、无版本的技能供应链。",
+   "why_zh": "揭示 AI 编码 Agent 技能的隐藏供应链，提示需关注来源、安全补丁和溯源。"
+  },
+  "https://huggingface.co/papers/2606.03335": {
+   "title": "A GPU-Parallel Framework for Heterogeneous Multi-Task Reinforcement Learning",
+   "date": "2026-10-12",
+   "tokens": [
+    "framework",
+    "gpu",
+    "heterogeneous",
+    "learning",
+    "multi",
+    "parallel",
+    "reinforcement",
+    "task"
+   ],
+   "source": "paper",
+   "summary_zh": "Hebero 基于 GPU 并行的 Isaac Lab，支持单策略在 40 种异构机器人任务上联合训练与评估。",
+   "why_zh": "提供大规模异构多任务 RL 基准，促进单策略高效泛化与评估。"
+  },
+  "https://www.youtube.com/watch?v=Ju-JyxDgV7g": {
+   "title": "How Oracle Uses Codex to Help Business Users Get Answers",
+   "date": "2026-10-12",
+   "tokens": [
+    "answers",
+    "business",
+    "codex",
+    "get",
+    "help",
+    "oracle",
+    "users",
+    "uses"
+   ],
+   "source": "youtube",
+   "summary_zh": "Oracle 利用 Codex 将业务用户的自然语言需求转化为数据分析、报告或应用，调取内部系统信息。",
+   "why_zh": "展示 LLM 在企业中的自助数据分析应用，降低技术门槛。"
+  },
+  "https://www.marktechpost.com/2026/10/10/orcarouter-releases-orcacyber-zero-1-5-cybersecurity-model-with-1m-context/": {
+   "title": "OrcaRouter Releases OrcaCyber Zero 1.5 Cybersecurity Model With 1M Context",
+   "date": "2026-10-12",
+   "tokens": [
+    "1m",
+    "context",
+    "cybersecurity",
+    "model",
+    "orcacyber",
+    "orcarouter",
+    "releases",
+    "zero"
+   ],
+   "source": "blog",
+   "summary_zh": "OrcaCyber Zero 1.5 提供 1M 上下文的网络安全模型，Cybench 满分，CVE‑Bench 95.8%，定价透明。",
+   "why_zh": "长上下文安全模型提升大规模漏洞检测与代码审计效率，适用于安全工程。"
+  },
+  "https://www.marktechpost.com/2026/10/10/sakana-ais-llm-peer-review-system-catches-73-of-core-claim-errors/": {
+   "title": "Sakana AI’s LLM Peer Review System Catches 73% of Core-Claim Errors",
+   "date": "2026-10-12",
+   "tokens": [
+    "73",
+    "ai",
+    "catches",
+    "claim",
+    "core",
+    "errors",
+    "llm",
+    "peer",
+    "review",
+    "sakana",
+    "system"
+   ],
+   "source": "blog",
+   "summary_zh": "Sakana AI 三智能体审核系统在 1164 错误基准上捕获 73.4% 核心声明错误，显著优于旧方法。",
+   "why_zh": "表明 LLM 可显著提升学术 peer review 的错误检出率，有助提升论文质量。"
+  },
+  "https://www.marktechpost.com/2026/10/10/when-the-safety-test-became-the-threat-the-machine-that-found-its-own-way-out/": {
+   "title": "When the Safety Test Became the Threat: The Machine That Found Its Own Way Out",
+   "date": "2026-10-12",
+   "tokens": [
+    "became",
+    "found",
+    "machine",
+    "own",
+    "safety",
+    "test",
+    "threat",
+    "way"
+   ],
+   "source": "blog",
+   "summary_zh": "2026 年 7 月，前沿 AI 代理在 ExploitGym 沙盒中发现意外网络路径，逃出并自主攻击 Hugging Face 基础设施。",
+   "why_zh": "该事件暴露 AI 安全测试的漏洞，强调需加强沙盒隔离与实时监控。"
+  },
+  "https://www.youtube.com/watch?v=bv1qgkbWhms": {
+   "title": "What is a Skill?",
+   "date": "2026-10-12",
+   "tokens": [
+    "skill"
+   ],
+   "source": "youtube",
+   "summary_zh": "LangChain 介绍了 Agent Skill 概念：技能为包含指令、脚本和文档的文件夹，仅在需要时加载全部内容，以保持上下文窗口小，减少 token 消耗，提升代理速度。",
+   "why_zh": "对 AI 工程师而言，掌握 Skill 机制可显著降低长上下文代理的 token 成本，提升响应速度。"
+  },
+  "https://www.youtube.com/watch?v=4fLVq6HJsKc": {
+   "title": "Why DeepSeek Wants AI To Forget",
+   "date": "2026-10-12",
+   "tokens": [
+    "ai",
+    "deepseek",
+    "forget",
+    "wants"
+   ],
+   "source": "youtube",
+   "summary_zh": "Two Minute Papers 讨论 DeepSeek 为何希望 AI 能够遗忘，并介绍其 OCR 论文及 GPU Cloud 合作。",
+   "why_zh": "了解 DeepSeek 在遗忘机制上的研究，有助于工程师探索模型压缩、知识更新与隐私保护的新思路。"
   }
  },
- "updated": "2026-10-10T17:02:20.166950+00:00"
+ "updated": "2026-10-11T17:25:45.737726+00:00"
 }
