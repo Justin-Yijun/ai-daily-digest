@@ -1,0 +1,629 @@
+{
+ "date": "2026-10-13",
+ "generated": "2026-10-13 01:16",
+ "source_count": {
+  "github": 67,
+  "youtube": 38,
+  "blog": 85,
+  "paper": 24,
+  "hackernews": 10
+ },
+ "failures": {},
+ "failure_errors": {},
+ "items": [
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "EliteTable: Self-Improving Program Search for Executable Control Policies",
+   "link": "https://arxiv.org/abs/2610.12536",
+   "dt": "2026-10-12T00:00:00-04:00",
+   "summary": "arXiv:2610.12536v1 Announce Type: new Abstract: EliteTable is a self-improving program-search algorithm guided by large language models (LLMs) that uses a fixed-capacity table of high-scoring solutions to guide new proposals, edits of existing solutions, and remixes of several solutions. Performance was evaluated across six Gymnasium control tasks, each with ten generations and fifty candidate slots per generation. Each task was evaluated across ten independently initialized searches. Candidate-",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 3.729,
+   "score": 7.458,
+   "tokens": [
+    "control",
+    "elitetable",
+    "executable",
+    "improving",
+    "policies",
+    "program",
+    "search",
+    "self"
+   ],
+   "flag": "new",
+   "summary_zh": "EliteTable 是基于 LLM 的自改进程序搜索算法，利用固定容量高分方案表生成、编辑和混合新方案，并在六个 Gymnasium 控制任务上评估。",
+   "why_zh": "展示 LLM 引导的自改进程序搜索，可学习利用精英方案表进行策略生成与优化的可复用方法。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Equal-Budget Monte Carlo Tree Search versus Randomized-Restart List Scheduling for DAG Workflows: A Controlled Equal-Budget Computational Study",
+   "link": "https://arxiv.org/abs/2610.12542",
+   "dt": "2026-10-12T00:00:00-04:00",
+   "summary": "arXiv:2610.12542v1 Announce Type: new Abstract: Monte Carlo Tree Search (MCTS) is often proposed for scheduling directed-acyclic-graph (DAG) workflows, yet most studies never run the comparison that could refute it - giving a much simpler method the same search effort. We run that comparison under a controlled protocol. All arms receive an identical budget - the same number of candidate schedules built and evaluated: an MCTS scheduling method, preregistered as the main arm; a randomized-restart ",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 3.729,
+   "score": 7.458,
+   "tokens": [
+    "budget",
+    "carlo",
+    "computational",
+    "controlled",
+    "dag",
+    "equal",
+    "list",
+    "monte",
+    "randomized",
+    "restart",
+    "scheduling",
+    "search",
+    "study",
+    "tree",
+    "versus",
+    "workflows"
+   ],
+   "flag": "new",
+   "summary_zh": "在相同候选调度预算下，对比 MCTS 与随机重启列表调度在 DAG 工作流上的性能，检验简单方法是否同样有效。",
+   "why_zh": "说明在资源受限时如何公平比较搜索算法，可学习控制变量实验设计与调度算法评估方法。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "amontlabs/lcu",
+   "link": "https://github.com/amontlabs/lcu",
+   "dt": "2026-09-22T15:08:18+00:00",
+   "summary": "Codex computer use, decoupled from the app, for usage inside any harness.",
+   "extra": {
+    "stars": 1014,
+    "language": "JavaScript",
+    "topics": [
+     "accessibility",
+     "agent-skills",
+     "browser-automation",
+     "claude-code",
+     "codex-cli",
+     "computer-use"
+    ],
+    "created": "2026-09-22",
+    "pushed": "2026-10-12"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "tokens": [
+    "amontlabs",
+    "lcu"
+   ],
+   "flag": "new",
+   "summary_zh": "提供与应用解耦的 Codex 计算机使用能力，可在任意 harness 中调用。",
+   "why_zh": "展示如何将大模型能力封装为可插拔服务，可学习解耦设计与代理集成的实践。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Ayzzz123/mcd-coupon-strategist",
+   "link": "https://github.com/Ayzzz123/mcd-coupon-strategist",
+   "dt": "2026-10-10T12:59:19+00:00",
+   "summary": "麦麦省钱助手 —— 基于麦当劳 MCP 的点餐成本优化 Skill。算出当前门店最省钱的点餐方案，并主动提示凑单陷阱。",
+   "extra": {
+    "stars": 232,
+    "language": "Python",
+    "topics": [
+     "agent",
+     "cost-optimization",
+     "coupon",
+     "llm",
+     "mcd-mcp",
+     "mcdonalds"
+    ],
+    "created": "2026-10-10",
+    "pushed": "2026-10-12"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.962,
+   "score": 6.603,
+   "tokens": [
+    "ayzzz123",
+    "coupon",
+    "mcd",
+    "strategist"
+   ],
+   "flag": "new",
+   "summary_zh": "基于麦当劳 MCP 的点餐成本优化助手，给出最省钱方案并提醒凑单陷阱。",
+   "why_zh": "演示如何利用业务 MCP 进行成本优化决策，可学习结合领域知识与约束求解的实现方法。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "SpireBench: Evaluating Long-Horizon Strategic Play of Agentic Models with Slay the Spire",
+   "link": "https://arxiv.org/abs/2610.12596",
+   "dt": "2026-10-12T00:00:00-04:00",
+   "summary": "arXiv:2610.12596v1 Announce Type: new Abstract: Agentic large language models now tackle complex tasks, yet strategic reasoning over long horizons is under-studied: most agentic benchmarks are short and episodic, and performance on long tasks is hard to dissect into stored knowledge, reasoning and luck. We introduce SpireBench, in which models play the complete commercial deck-builder Slay the Spire (StS), where early decisions decide long-term success. Across 20 large language models (LLMs) at ",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 2.983,
+   "score": 5.966,
+   "tokens": [
+    "agentic",
+    "evaluating",
+    "horizon",
+    "long",
+    "models",
+    "play",
+    "slay",
+    "spire",
+    "spirebench",
+    "strategic"
+   ],
+   "flag": "new",
+   "summary_zh": "使用完整商业牌组 Slay the Spire 构建长 horizon 战略基准，评估 agentic 模型的长期规划能力。",
+   "why_zh": "提供长 horizon 战略推理评估框架，可学习将复杂游戏作为任务基准来测试模型规划与知识利用。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "IvenKooLab/loci",
+   "link": "https://github.com/IvenKooLab/loci",
+   "dt": "2026-09-03T16:50:08+00:00",
+   "summary": "A queryable second brain over your scattered notes and docs - hybrid retrieval (vector + BM25), section-level citations, and an MCP server so AI agents can use it. ~300 lines, no LangChain.",
+   "extra": {
+    "stars": 100,
+    "language": "Python",
+    "topics": [
+     "ai-agents",
+     "bm25",
+     "chromadb",
+     "cross-ide",
+     "embeddings",
+     "feedback-loop"
+    ],
+    "created": "2026-09-03",
+    "pushed": "2026-10-10"
+   },
+   "skills": [
+    "rag",
+    "tool_mcp",
+    "eval_observability"
+   ],
+   "learn_score": 1.735,
+   "score": 5.205,
+   "tokens": [
+    "ivenkoolab",
+    "loci"
+   ],
+   "flag": "new",
+   "summary_zh": "提供混合检索的个人知识库，支持向量+BM25、章节引用及 MCP 接口，供 AI 调用。",
+   "why_zh": "展示轻量级混合检索与 MCP 服务集成，可学习构建可查询的第二大脑及代理友好接口的实践。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "tristmeister/HEISS-UI",
+   "link": "https://github.com/tristmeister/HEISS-UI",
+   "dt": "2026-09-22T19:23:08+00:00",
+   "summary": "ComfyUI, without the graph. A calm, local front end for ComfyUI. Bring your own workflows, write a prompt, watch it render.",
+   "extra": {
+    "stars": 57,
+    "language": "JavaScript",
+    "topics": [
+     "ai-art",
+     "ai-image-generator",
+     "comfyui",
+     "comfyui-frontend",
+     "comfyui-ui",
+     "flux"
+    ],
+    "created": "2026-09-22",
+    "pushed": "2026-10-11"
+   },
+   "skills": [
+    "prompt_context"
+   ],
+   "learn_score": 1.626,
+   "score": 4.481,
+   "tokens": [
+    "heiss",
+    "tristmeister",
+    "ui"
+   ],
+   "flag": "new",
+   "summary_zh": "提供无需图形界面的本地 ComfyUI 前端，可直接写 prompt 渲染工作流。",
+   "why_zh": "学习如何构建轻量级 UI 前端，解耦图形依赖，提升本地推理交互体验。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "The gap in shared understanding of LLM capability is widening",
+   "link": "https://twitter.com/karpathy/status/2109361546505966046",
+   "dt": "2026-10-11T20:20:52+00:00",
+   "summary": "",
+   "extra": {
+    "points": 615,
+    "comments": 888,
+    "hn_link": "https://news.ycombinator.com/item?id=50047422"
+   },
+   "skills": [],
+   "learn_score": 1.0,
+   "score": 3.789,
+   "tokens": [
+    "capability",
+    "gap",
+    "llm",
+    "shared",
+    "understanding",
+    "widening"
+   ],
+   "flag": "new",
+   "summary_zh": "描述人们对 LLM 能力的共识差距正在扩大。",
+   "why_zh": "面试中需评估模型实际能力与宣传的差异，培养批判性评估技能。"
+  },
+  {
+   "source": "blog",
+   "source_label": "量子位",
+   "title": "用不着Ctrl+F了！全新AI论文工具，帮你在原文献里海里捞针",
+   "link": "https://www.qbitai.com/2026/10/502644.html",
+   "dt": "2026-10-11T09:04:31+00:00",
+   "summary": "一套生成论文初稿的多智能体工作流",
+   "extra": {},
+   "skills": [
+    "agent_architecture",
+    "multi_agent"
+   ],
+   "learn_score": 2.167,
+   "score": 2.167,
+   "tokens": [
+    "f了",
+    "全新ai论文工具",
+    "帮你在原文献里海里捞针",
+    "用不着ctrl"
+   ],
+   "flag": "new",
+   "summary_zh": "多智能体协作生成论文初稿，自动检索文献并撰写。",
+   "why_zh": "学习多智能体工作流设计，掌握自动化文献综述与草稿生成的可复用范式。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · IndyDevDan",
+   "title": "Pi Durable PROACTIVE Agents: Jev Triggers My ON-CALL Pi Agent",
+   "link": "https://www.youtube.com/watch?v=DNDYYHsypZg",
+   "dt": "2026-10-12T13:00:15+00:00",
+   "summary": "Engineers... your agents are LAZY. 😲 They sit in a terminal and wait for YOU to prompt them. The future belongs to PROACTIVE agents: durable agents that don't wait for you to work. They work for you, then wait. Mario and Armin just dropped Pi Durable, and it changes how you build long-running agents. 🔥 PHASE 3 Early-Signup https://agenticengineer.com/ia3-pre-launch?y=DNDYYHsypZg 🎥 VIDEO REFERENCES • Pi Durable PROACTIVE Agent Codebase: https://github.com/disler/durable-pi • Ten Levels Of JEV For…",
+   "extra": {
+    "channel": "IndyDevDan",
+    "video_id": "DNDYYHsypZg"
+   },
+   "skills": [
+    "prompt_context"
+   ],
+   "learn_score": 2.066,
+   "score": 2.066,
+   "tokens": [
+    "agent",
+    "agents",
+    "call",
+    "durable",
+    "jev",
+    "my",
+    "pi",
+    "proactive",
+    "triggers"
+   ],
+   "flag": "new",
+   "summary_zh": "提出持久主动 AI 代理，无需用户提示即可执行任务并等待。",
+   "why_zh": "学习构建耐久、主动的代理架构，掌握任务自调度与长时运行的实践。"
+  },
+  {
+   "source": "blog",
+   "source_label": "微软研究院博客",
+   "title": "Simulating student learning for better AI tutoring",
+   "link": "https://www.microsoft.com/en-us/research/blog/simulating-student-learning-for-better-ai-tutoring/",
+   "dt": "2026-10-12T16:00:00+00:00",
+   "summary": "StudentSim is a research system for evaluating and improving AI tutoring tools before they are tested with learners. It models how individuals may engage with tutors, giving feedback to improve tutor performance across subjects like chess, writing, and mathematics. The post Simulating student learning for better AI tutoring appeared first on Microsoft Research .",
+   "extra": {},
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.951,
+   "score": 1.951,
+   "tokens": [
+    "ai",
+    "better",
+    "learning",
+    "simulating",
+    "student",
+    "tutoring"
+   ],
+   "flag": "new",
+   "summary_zh": "提出 StudentSim 系统模拟学生行为，用于评估改进 AI 辅导工具。",
+   "why_zh": "学习如何用仿真环境评估和优化 AI 教学系统，掌握以数据驱动的迭代改进方法。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · bycloud",
+   "title": "DeepSeek-V4.1 Flash: The Most Insane Optimization So Far",
+   "link": "https://www.youtube.com/watch?v=CsSnSBCVoDU",
+   "dt": "2026-10-10T17:11:00+00:00",
+   "summary": "Your private local AI server needs an upgrade or maintenance support? Book a free audit now at https://nimbuskernel.com/ DeepSeek-V4.1-Flash is probably the craziest architecture revamp to date. In today's video, I'll be diving deep into its architecture and walk you through what's so fascinating about it. my latest project: Intuitive AI Academy We just wrote a new piece on Linear Attention!! https://intuitiveai.academy/ limited time code \"BACK2SCHOOL\" for 50% off yearly plan My Newsletter (week…",
+   "extra": {
+    "channel": "bycloud",
+    "video_id": "CsSnSBCVoDU"
+   },
+   "skills": [
+    "llm_fundamentals",
+    "system_design"
+   ],
+   "learn_score": 1.744,
+   "score": 1.744,
+   "tokens": [
+    "deepseek",
+    "far",
+    "flash",
+    "insane",
+    "optimization",
+    "so",
+    "v4"
+   ],
+   "flag": "new",
+   "summary_zh": "深度解析 DeepSeek-V4.1 Flash 架构，揭示局部注意力与极致优化。",
+   "why_zh": "学习前沿注意力优化技巧，掌握局部稀疏注意力设计与高效推理实践。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "Why \"best model\" is the wrong question now",
+   "link": "https://www.youtube.com/shorts/n6NJ37qJ7WQ",
+   "dt": "2026-10-12T11:30:12+00:00",
+   "summary": "Cognition President Russell Kaplan explains why developer priorities have flipped: once software tasks hit the saturation point where every model can do them well, speed and cost start to matter more than raw capability. This clip is from Max Agency, a podcast about how the best AI agents are actually being built. Hosted by Harrison Chase, CEO of LangChain, each episode goes deep with the builders designing, deploying, and learning from real agent systems in the wild. From architecture decisions…",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": ""
+   },
+   "skills": [
+    "system_design"
+   ],
+   "learn_score": 1.53,
+   "score": 1.53,
+   "tokens": [
+    "best",
+    "model",
+    "now",
+    "question",
+    "wrong"
+   ],
+   "flag": "new",
+   "summary_zh": "Russell Kaplan 解释：当模型能力达到饱和时，开发者更看重速度和成本，而非单纯能力。",
+   "why_zh": "体现模型选型中的效能权衡能力，可学习在任务饱和后关注推理速度与成本优化的实践。"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "TII Releases Falcon-ASR: 1.6B Arabic Speech Model Hits 20.92% WER",
+   "link": "https://www.marktechpost.com/2026/10/11/tii-falcon-asr-arabic-speech-recognition/",
+   "dt": "2026-10-12T03:16:09+00:00",
+   "summary": "TII has released Falcon-ASR, a 1.6B speech recognition model for Arabic with an Emirati focus. It reports 20.92% average WER on 6 Arabic test sets, but weights and an API are not yet available. The post TII Releases Falcon-ASR: 1.6B Arabic Speech Model Hits 20.92% WER appeared first on MarkTechPost .",
+   "extra": {},
+   "skills": [
+    "rag"
+   ],
+   "learn_score": 1.445,
+   "score": 1.445,
+   "tokens": [
+    "20",
+    "6b",
+    "92",
+    "arabic",
+    "asr",
+    "falcon",
+    "hits",
+    "model",
+    "releases",
+    "speech",
+    "tii",
+    "wer"
+   ],
+   "flag": "new",
+   "summary_zh": "TII 发布 1.6B 参数的阿拉伯语语音识别模型 Falcon-ASR，在六套测试集上平均 WER 20.92%。",
+   "why_zh": "展示评估阿语 ASR 模型的技能，学会解读 WER 并注意模型权重与 API 可用性的实际影响。"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "lemomo-ai/lemo-opuscar",
+   "link": "https://github.com/lemomo-ai/lemo-opuscar",
+   "dt": "2026-09-26T10:10:41+00:00",
+   "summary": "Claude Code skill for short films with no video model: 43 film styles, each a style prompt plus a demo film made entirely in code by Claude Opus 5.5 (incl. OPUSCAR 98). By Lemomo. · Opus5.5 x 43 种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南",
+   "extra": {
+    "stars": 2046,
+    "language": "JavaScript",
+    "topics": [
+     "agent-skills",
+     "ai-agents",
+     "ai-short-film",
+     "ai-video",
+     "animation",
+     "canvas"
+    ],
+    "created": "2026-09-26",
+    "pushed": "2026-10-12"
+   },
+   "skills": [
+    "prompt_context"
+   ],
+   "learn_score": 2.195,
+   "score": 8.78,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-12 推荐过",
+   "summary_zh": "Claude Opus 5.5 生成 43 种电影风格的纯代码短片，附风格提示词和导演指南。",
+   "why_zh": "展示大模型直接输出可运行代码实现多风格视觉内容，为程序化创作提供新范式。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "amitshekhariitbhu/ai-system-design",
+   "link": "https://github.com/amitshekhariitbhu/ai-system-design",
+   "dt": "2026-09-25T04:50:06+00:00",
+   "summary": "AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
+   "extra": {
+    "stars": 657,
+    "language": "Markdown",
+    "topics": [
+     "ai",
+     "ai-agents",
+     "ai-engineering",
+     "ai-system",
+     "ai-system-design",
+     "ai-systems"
+    ],
+    "created": "2026-09-25",
+    "pushed": "2026-10-12"
+   },
+   "skills": [
+    "rag",
+    "system_design"
+   ],
+   "learn_score": 1.951,
+   "score": 7.448,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-10 推荐过",
+   "summary_zh": "教程展示如何逐步设计基于LLM、RAG和AI Agent的AI系统。",
+   "why_zh": "为工程师提供系统化的LLM应用架构指导，便于快速落地复杂AI产品。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "rehan-remade/universal-modder",
+   "link": "https://github.com/rehan-remade/universal-modder",
+   "dt": "2026-09-30T05:00:35+00:00",
+   "summary": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
+   "extra": {
+    "stars": 6974,
+    "language": "Python",
+    "topics": [
+     "age-of-empires",
+     "claude-code",
+     "claude-code-plugin",
+     "fal",
+     "game-assets",
+     "game-modding"
+    ],
+    "created": "2026-09-30",
+    "pushed": "2026-10-12"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-09 推荐过",
+   "summary_zh": "使用 Claude Code 及 fal MCP 进行游戏逆向、资产生成、测试等全流程 MOD 制作。",
+   "why_zh": "表明大模型可直接参与游戏逆向与内容创作，为工程师提供新范式。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "zai-org/ZCode",
+   "link": "https://github.com/zai-org/ZCode",
+   "dt": "2026-09-20T12:01:16+00:00",
+   "summary": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+   "extra": {
+    "stars": 7717,
+    "language": "TypeScript",
+    "topics": [],
+    "created": "2026-09-20",
+    "pushed": "2026-10-10"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-11 推荐过",
+   "summary_zh": "Z.ai 发布 ZCode，提供强大、智能、可扩展的编码代理框架。",
+   "why_zh": "为 AI 工程师提供即插即用的代码生成与自动化工具，降低开发门槛。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "talhaanwarch/awesome-llmops-platforms",
+   "link": "https://github.com/talhaanwarch/awesome-llmops-platforms",
+   "dt": "2026-10-09T18:40:19+00:00",
+   "summary": "Curated list of open-source LLMOps tools: tracing, evals, AI gateways, guardrails and prompt management. Sorted by stars, refreshed weekly.",
+   "extra": {
+    "stars": 34,
+    "language": "Python",
+    "topics": [
+     "ai-gateway",
+     "awesome",
+     "awesome-list",
+     "guardrails",
+     "llm",
+     "llm-evaluation"
+    ],
+    "created": "2026-10-09",
+    "pushed": "2026-10-12"
+   },
+   "skills": [
+    "prompt_context",
+    "eval_observability"
+   ],
+   "learn_score": 2.355,
+   "score": 5.962,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-12 推荐过",
+   "summary_zh": "这是一个按星数排序、每周更新的开源 LLMOps 工具列表，涵盖追踪、评估、网关、护栏和提示管理。",
+   "why_zh": "为工程师提供一站式资源，快速选型和比较 LLMOps 方案。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "tigerless-labs/agent-memory",
+   "link": "https://github.com/tigerless-labs/agent-memory",
+   "dt": "2026-09-01T21:52:29+00:00",
+   "summary": "Long-term memory runtime for AI agents — plain Markdown as the source of truth, local ranked retrieval, and an independent sleep-time Manage layer. Claude Code and Codex share one store. No API key.",
+   "extra": {
+    "stars": 3403,
+    "language": "Python",
+    "topics": [
+     "agent-memory",
+     "ai-agents",
+     "claude-code",
+     "codex",
+     "llm",
+     "local-first"
+    ],
+    "created": "2026-09-01",
+    "pushed": "2026-10-12"
+   },
+   "skills": [
+    "rag",
+    "eval_observability"
+   ],
+   "learn_score": 1.487,
+   "score": 5.948,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-06 推荐过",
+   "summary_zh": "agent-memory 以纯 Markdown 存储长期记忆，提供本地排序检索和独立睡眠期管理层，Claude Code 与 Codex 共享存储，无需 API Key。",
+   "why_zh": "实现零依赖的本地长期记忆，支持跨代理共享与睡眠期维护，便于构建持久状态 AI 系统。"
+  }
+ ]
+}

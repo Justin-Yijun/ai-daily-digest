@@ -23,7 +23,7 @@
   },
   "https://github.com/rehan-remade/universal-modder": {
    "title": "rehan-remade/universal-modder",
-   "date": "2026-10-09",
+   "date": "2026-10-13",
    "tokens": [],
    "source": "github",
    "summary_zh": "使用 Claude Code 及 fal MCP 进行游戏逆向、资产生成、测试等全流程 MOD 制作。",
@@ -835,13 +835,8 @@
   },
   "https://github.com/tigerless-labs/agent-memory": {
    "title": "tigerless-labs/agent-memory",
-   "date": "2026-10-06",
-   "tokens": [
-    "agent",
-    "labs",
-    "memory",
-    "tigerless"
-   ],
+   "date": "2026-10-13",
+   "tokens": [],
    "source": "github",
    "summary_zh": "agent-memory 以纯 Markdown 存储长期记忆，提供本地排序检索和独立睡眠期管理层，Claude Code 与 Codex 共享存储，无需 API Key。",
    "why_zh": "实现零依赖的本地长期记忆，支持跨代理共享与睡眠期维护，便于构建持久状态 AI 系统。"
@@ -1233,7 +1228,7 @@
   },
   "https://github.com/lemomo-ai/lemo-opuscar": {
    "title": "lemomo-ai/lemo-opuscar",
-   "date": "2026-10-12",
+   "date": "2026-10-13",
    "tokens": [],
    "source": "github",
    "summary_zh": "Claude Opus 5.5 生成 43 种电影风格的纯代码短片，附风格提示词和导演指南。",
@@ -1732,13 +1727,8 @@
   },
   "https://github.com/amitshekhariitbhu/ai-system-design": {
    "title": "amitshekhariitbhu/ai-system-design",
-   "date": "2026-10-10",
-   "tokens": [
-    "ai",
-    "amitshekhariitbhu",
-    "design",
-    "system"
-   ],
+   "date": "2026-10-13",
+   "tokens": [],
    "source": "github",
    "summary_zh": "教程展示如何逐步设计基于LLM、RAG和AI Agent的AI系统。",
    "why_zh": "为工程师提供系统化的LLM应用架构指导，便于快速落地复杂AI产品。"
@@ -1857,12 +1847,8 @@
   },
   "https://github.com/zai-org/ZCode": {
    "title": "zai-org/ZCode",
-   "date": "2026-10-11",
-   "tokens": [
-    "org",
-    "zai",
-    "zcode"
-   ],
+   "date": "2026-10-13",
+   "tokens": [],
    "source": "github",
    "summary_zh": "Z.ai 发布 ZCode，提供强大、智能、可扩展的编码代理框架。",
    "why_zh": "为 AI 工程师提供即插即用的代码生成与自动化工具，降低开发门槛。"
@@ -2103,13 +2089,8 @@
   },
   "https://github.com/talhaanwarch/awesome-llmops-platforms": {
    "title": "talhaanwarch/awesome-llmops-platforms",
-   "date": "2026-10-12",
-   "tokens": [
-    "awesome",
-    "llmops",
-    "platforms",
-    "talhaanwarch"
-   ],
+   "date": "2026-10-13",
+   "tokens": [],
    "source": "github",
    "summary_zh": "这是一个按星数排序、每周更新的开源 LLMOps 工具列表，涵盖追踪、评估、网关、护栏和提示管理。",
    "why_zh": "为工程师提供一站式资源，快速选型和比较 LLMOps 方案。"
@@ -2277,7 +2258,227 @@
    "source": "youtube",
    "summary_zh": "Two Minute Papers 讨论 DeepSeek 为何希望 AI 能够遗忘，并介绍其 OCR 论文及 GPU Cloud 合作。",
    "why_zh": "了解 DeepSeek 在遗忘机制上的研究，有助于工程师探索模型压缩、知识更新与隐私保护的新思路。"
+  },
+  "https://arxiv.org/abs/2610.12536": {
+   "title": "EliteTable: Self-Improving Program Search for Executable Control Policies",
+   "date": "2026-10-13",
+   "tokens": [
+    "control",
+    "elitetable",
+    "executable",
+    "improving",
+    "policies",
+    "program",
+    "search",
+    "self"
+   ],
+   "source": "paper",
+   "summary_zh": "EliteTable 是基于 LLM 的自改进程序搜索算法，利用固定容量高分方案表生成、编辑和混合新方案，并在六个 Gymnasium 控制任务上评估。",
+   "why_zh": "展示 LLM 引导的自改进程序搜索，可学习利用精英方案表进行策略生成与优化的可复用方法。"
+  },
+  "https://arxiv.org/abs/2610.12542": {
+   "title": "Equal-Budget Monte Carlo Tree Search versus Randomized-Restart List Scheduling for DAG Workflows: A Controlled Equal-Budget Computational Study",
+   "date": "2026-10-13",
+   "tokens": [
+    "budget",
+    "carlo",
+    "computational",
+    "controlled",
+    "dag",
+    "equal",
+    "list",
+    "monte",
+    "randomized",
+    "restart",
+    "scheduling",
+    "search",
+    "study",
+    "tree",
+    "versus",
+    "workflows"
+   ],
+   "source": "paper",
+   "summary_zh": "在相同候选调度预算下，对比 MCTS 与随机重启列表调度在 DAG 工作流上的性能，检验简单方法是否同样有效。",
+   "why_zh": "说明在资源受限时如何公平比较搜索算法，可学习控制变量实验设计与调度算法评估方法。"
+  },
+  "https://github.com/amontlabs/lcu": {
+   "title": "amontlabs/lcu",
+   "date": "2026-10-13",
+   "tokens": [
+    "amontlabs",
+    "lcu"
+   ],
+   "source": "github",
+   "summary_zh": "提供与应用解耦的 Codex 计算机使用能力，可在任意 harness 中调用。",
+   "why_zh": "展示如何将大模型能力封装为可插拔服务，可学习解耦设计与代理集成的实践。"
+  },
+  "https://github.com/Ayzzz123/mcd-coupon-strategist": {
+   "title": "Ayzzz123/mcd-coupon-strategist",
+   "date": "2026-10-13",
+   "tokens": [
+    "ayzzz123",
+    "coupon",
+    "mcd",
+    "strategist"
+   ],
+   "source": "github",
+   "summary_zh": "基于麦当劳 MCP 的点餐成本优化助手，给出最省钱方案并提醒凑单陷阱。",
+   "why_zh": "演示如何利用业务 MCP 进行成本优化决策，可学习结合领域知识与约束求解的实现方法。"
+  },
+  "https://arxiv.org/abs/2610.12596": {
+   "title": "SpireBench: Evaluating Long-Horizon Strategic Play of Agentic Models with Slay the Spire",
+   "date": "2026-10-13",
+   "tokens": [
+    "agentic",
+    "evaluating",
+    "horizon",
+    "long",
+    "models",
+    "play",
+    "slay",
+    "spire",
+    "spirebench",
+    "strategic"
+   ],
+   "source": "paper",
+   "summary_zh": "使用完整商业牌组 Slay the Spire 构建长 horizon 战略基准，评估 agentic 模型的长期规划能力。",
+   "why_zh": "提供长 horizon 战略推理评估框架，可学习将复杂游戏作为任务基准来测试模型规划与知识利用。"
+  },
+  "https://github.com/IvenKooLab/loci": {
+   "title": "IvenKooLab/loci",
+   "date": "2026-10-13",
+   "tokens": [
+    "ivenkoolab",
+    "loci"
+   ],
+   "source": "github",
+   "summary_zh": "提供混合检索的个人知识库，支持向量+BM25、章节引用及 MCP 接口，供 AI 调用。",
+   "why_zh": "展示轻量级混合检索与 MCP 服务集成，可学习构建可查询的第二大脑及代理友好接口的实践。"
+  },
+  "https://github.com/tristmeister/HEISS-UI": {
+   "title": "tristmeister/HEISS-UI",
+   "date": "2026-10-13",
+   "tokens": [
+    "heiss",
+    "tristmeister",
+    "ui"
+   ],
+   "source": "github",
+   "summary_zh": "提供无需图形界面的本地 ComfyUI 前端，可直接写 prompt 渲染工作流。",
+   "why_zh": "学习如何构建轻量级 UI 前端，解耦图形依赖，提升本地推理交互体验。"
+  },
+  "https://twitter.com/karpathy/status/2109361546505966046": {
+   "title": "The gap in shared understanding of LLM capability is widening",
+   "date": "2026-10-13",
+   "tokens": [
+    "capability",
+    "gap",
+    "llm",
+    "shared",
+    "understanding",
+    "widening"
+   ],
+   "source": "hackernews",
+   "summary_zh": "描述人们对 LLM 能力的共识差距正在扩大。",
+   "why_zh": "面试中需评估模型实际能力与宣传的差异，培养批判性评估技能。"
+  },
+  "https://www.qbitai.com/2026/10/502644.html": {
+   "title": "用不着Ctrl+F了！全新AI论文工具，帮你在原文献里海里捞针",
+   "date": "2026-10-13",
+   "tokens": [
+    "f了",
+    "全新ai论文工具",
+    "帮你在原文献里海里捞针",
+    "用不着ctrl"
+   ],
+   "source": "blog",
+   "summary_zh": "多智能体协作生成论文初稿，自动检索文献并撰写。",
+   "why_zh": "学习多智能体工作流设计，掌握自动化文献综述与草稿生成的可复用范式。"
+  },
+  "https://www.youtube.com/watch?v=DNDYYHsypZg": {
+   "title": "Pi Durable PROACTIVE Agents: Jev Triggers My ON-CALL Pi Agent",
+   "date": "2026-10-13",
+   "tokens": [
+    "agent",
+    "agents",
+    "call",
+    "durable",
+    "jev",
+    "my",
+    "pi",
+    "proactive",
+    "triggers"
+   ],
+   "source": "youtube",
+   "summary_zh": "提出持久主动 AI 代理，无需用户提示即可执行任务并等待。",
+   "why_zh": "学习构建耐久、主动的代理架构，掌握任务自调度与长时运行的实践。"
+  },
+  "https://www.microsoft.com/en-us/research/blog/simulating-student-learning-for-better-ai-tutoring/": {
+   "title": "Simulating student learning for better AI tutoring",
+   "date": "2026-10-13",
+   "tokens": [
+    "ai",
+    "better",
+    "learning",
+    "simulating",
+    "student",
+    "tutoring"
+   ],
+   "source": "blog",
+   "summary_zh": "提出 StudentSim 系统模拟学生行为，用于评估改进 AI 辅导工具。",
+   "why_zh": "学习如何用仿真环境评估和优化 AI 教学系统，掌握以数据驱动的迭代改进方法。"
+  },
+  "https://www.youtube.com/watch?v=CsSnSBCVoDU": {
+   "title": "DeepSeek-V4.1 Flash: The Most Insane Optimization So Far",
+   "date": "2026-10-13",
+   "tokens": [
+    "deepseek",
+    "far",
+    "flash",
+    "insane",
+    "optimization",
+    "so",
+    "v4"
+   ],
+   "source": "youtube",
+   "summary_zh": "深度解析 DeepSeek-V4.1 Flash 架构，揭示局部注意力与极致优化。",
+   "why_zh": "学习前沿注意力优化技巧，掌握局部稀疏注意力设计与高效推理实践。"
+  },
+  "https://www.youtube.com/shorts/n6NJ37qJ7WQ": {
+   "title": "Why \"best model\" is the wrong question now",
+   "date": "2026-10-13",
+   "tokens": [
+    "best",
+    "model",
+    "now",
+    "question",
+    "wrong"
+   ],
+   "source": "youtube",
+   "summary_zh": "Russell Kaplan 解释：当模型能力达到饱和时，开发者更看重速度和成本，而非单纯能力。",
+   "why_zh": "体现模型选型中的效能权衡能力，可学习在任务饱和后关注推理速度与成本优化的实践。"
+  },
+  "https://www.marktechpost.com/2026/10/11/tii-falcon-asr-arabic-speech-recognition/": {
+   "title": "TII Releases Falcon-ASR: 1.6B Arabic Speech Model Hits 20.92% WER",
+   "date": "2026-10-13",
+   "tokens": [
+    "20",
+    "6b",
+    "92",
+    "arabic",
+    "asr",
+    "falcon",
+    "hits",
+    "model",
+    "releases",
+    "speech",
+    "tii",
+    "wer"
+   ],
+   "source": "blog",
+   "summary_zh": "TII 发布 1.6B 参数的阿拉伯语语音识别模型 Falcon-ASR，在六套测试集上平均 WER 20.92%。",
+   "why_zh": "展示评估阿语 ASR 模型的技能，学会解读 WER 并注意模型权重与 API 可用性的实际影响。"
   }
  },
- "updated": "2026-10-11T17:25:45.737726+00:00"
+ "updated": "2026-10-12T17:16:24.430674+00:00"
 }
