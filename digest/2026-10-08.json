@@ -13,34 +13,6 @@
  },
  "items": [
   {
-   "source": "hackernews",
-   "source_label": "Hacker News",
-   "title": "Claude Code’s suggested message feature: I think the real customer is the model",
-   "link": "https://www.zohaib.cc/blog/smartest-claude-code-feature",
-   "dt": "2026-10-06T18:00:34+00:00",
-   "summary": "",
-   "extra": {
-    "points": 255,
-    "comments": 149,
-    "hn_link": "https://news.ycombinator.com/item?id=49981905"
-   },
-   "score": 4.599,
-   "tokens": [
-    "claude",
-    "code",
-    "customer",
-    "feature",
-    "message",
-    "model",
-    "real",
-    "suggested",
-    "think"
-   ],
-   "flag": "new",
-   "summary_zh": "Claude Code 新增建议消息功能，认为真正的用户是模型自身。",
-   "why_zh": "对 AI 工程师值得关注：该功能让模型能自我引导提示，提升代码生成可控性。"
-  },
-  {
    "source": "github",
    "source_label": "GitHub",
    "title": "lemomo-ai/lemo-opuscar",
@@ -61,7 +33,7 @@
     "created": "2026-09-26",
     "pushed": "2026-10-05"
    },
-   "score": 4.131,
+   "score": 8.78,
    "tokens": [
     "ai",
     "lemo",
@@ -70,7 +42,11 @@
    ],
    "flag": "new",
    "summary_zh": "Claude Opus 5.5 生成 43 种电影风格的纯代码短片，附风格提示词和导演指南。",
-   "why_zh": "展示大模型直接输出可运行代码实现多风格视觉内容，为程序化创作提供新范式。"
+   "why_zh": "展示如何用 LLM 生成可运行代码实现创意内容，可学习提示词工程与代码生成结合的实践。",
+   "skills": [
+    "prompt_context"
+   ],
+   "learn_score": 2.195
   },
   {
    "source": "github",
@@ -93,7 +69,7 @@
     "created": "2026-09-12",
     "pushed": "2026-10-07"
    },
-   "score": 4.131,
+   "score": 7.024,
    "tokens": [
     "clearai",
     "clearailhc",
@@ -101,57 +77,11 @@
    ],
    "flag": "new",
    "summary_zh": "ClearAI 为 DeepSeek Harness 提供原生 DSH 插件，引入认知循环机制。",
-   "why_zh": "将认知循环嵌入模型 harness，有助于提升推理一致性和可调试性，对工程师有实用价值。"
-  },
-  {
-   "source": "hackernews",
-   "source_label": "Hacker News",
-   "title": "Sharing AI progress in mathematics",
-   "link": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
-   "dt": "2026-10-06T22:17:21+00:00",
-   "summary": "https://github.com/openai/math https://github.com/openai/math/tree/main/preprints",
-   "extra": {
-    "points": 1144,
-    "comments": 1255,
-    "hn_link": "https://news.ycombinator.com/item?id=49984923"
-   },
-   "score": 4.0,
-   "tokens": [
-    "ai",
-    "mathematics",
-    "progress",
-    "sharing"
+   "why_zh": "演示如何在 LLM 框架中集成认知循环以提升推理一致性，可学习插件化设计与循环反馈实现。",
+   "skills": [
+    "agent_architecture"
    ],
-   "flag": "new",
-   "summary_zh": "OpenAI 公布数学领域最新进展，包含预印本论文和代码仓库。",
-   "why_zh": "提供前沿数学推理模型和数据，帮助 AI 工程师研究形式化推理与证明生成。"
-  },
-  {
-   "source": "paper",
-   "source_label": "arXiv cs.AI",
-   "title": "GAMEGO: Training Game-Dev Agents with Synthetic Trajectories Anchored in Real-World Assets",
-   "link": "https://arxiv.org/abs/2610.06910",
-   "dt": "2026-10-07T00:00:00-04:00",
-   "summary": "arXiv:2610.06910v1 Announce Type: new Abstract: Recent advances in Large Language Models (LLMs) have demonstrated remarkable capabilities in web front-end execution, with browser-based game generation emerging as a particularly prominent frontier. While previous efforts frequently rely on complex multi-turn workflows or focus on static game evaluation benchmarks, this work targets direct end-to-end real-world game synthesis driven by coding agents. However, generating complex games directly from",
-   "extra": {},
-   "weight_override": 1.3,
-   "score": 3.51,
-   "tokens": [
-    "agents",
-    "anchored",
-    "assets",
-    "dev",
-    "game",
-    "gamego",
-    "real",
-    "synthetic",
-    "training",
-    "trajectories",
-    "world"
-   ],
-   "flag": "new",
-   "summary_zh": "使用合成轨迹训练游戏开发代理，锚定真实世界资产实现端到端游戏生成。",
-   "why_zh": "直接从资产生成可玩游戏，降低多步骤工作流复杂度，为 AI 驱动的内容创作提供新路径。"
+   "learn_score": 1.756
   },
   {
    "source": "paper",
@@ -162,7 +92,7 @@
    "summary": "arXiv:2610.06914v1 Announce Type: new Abstract: Text2Dashboard is a DataBrain-specific prototype that turns natural-language analytic requests into inspectable dashboards. An installable Codex plugin and standalone Agent Runtime combine schema-constrained model decisions with typed tools, persistent state, and deterministic Hooks for approval, audit, checkpointing, recovery, and failure handling. The pipeline resolves entities, discovers metadata, enforces read-only SQL, composes dashboards, and",
    "extra": {},
    "weight_override": 1.3,
-   "score": 3.51,
+   "score": 6.444,
    "tokens": [
     "agent",
     "architecture",
@@ -177,8 +107,13 @@
     "text2dashboard"
    ],
    "flag": "new",
-   "summary_zh": "Text2Dashboard 将自然语言分析请求转换为可检查的企业仪表盘，含插件和运行时。",
-   "why_zh": "提供可审计、可恢复的仪表盘生成流程，满足企业级数据可视化的治理需求。"
+   "summary_zh": "Text2Dashboard 将自然语言分析请求转换为可检查的企业仪表盘，含插件、运行时和审计机制。",
+   "why_zh": "演示受控 Agent 架构如何实现可审计、可恢复的数据分析，可学习在企业场景中构建可信任的 LLM 工具。",
+   "skills": [
+    "agent_architecture",
+    "system_design"
+   ],
+   "learn_score": 3.222
   },
   {
    "source": "github",
@@ -201,7 +136,7 @@
     "created": "2026-09-29",
     "pushed": "2026-10-07"
    },
-   "score": 3.06,
+   "score": 5.2,
    "tokens": [
     "effects",
     "inc",
@@ -210,7 +145,11 @@
    ],
    "flag": "new",
    "summary_zh": "提供适用于 React、Vue 等框架的 WebGPU 组件库。",
-   "why_zh": "让前端开发者轻松使用 WebGPU 进行高性能图形计算。"
+   "why_zh": "学习如何将底层图形 API 封装为前端框架可用组件，提升可复用的图形渲染能力。",
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.3
   },
   {
    "source": "github",
@@ -233,38 +172,128 @@
     "created": "2026-09-07",
     "pushed": "2026-10-07"
    },
-   "score": 2.987,
+   "score": 4.301,
    "tokens": [
     "denrakeiw",
     "scumble"
    ],
    "flag": "new",
-   "summary_zh": "开源 AI 修图桌面编辑器，支持多种模型及 PSD 导出。",
-   "why_zh": "集成多模型与图层操作，便于工程师快速构建修图工作流。"
+   "summary_zh": "提供基于多种模型的 AI 修图桌面编辑器，支持选区提示、颜色匹配及 PSD 导出。",
+   "why_zh": "学习如何把多模型 API 与本地编辑 UI 结构结合，实现可扩展的 AI 图像编辑工作流。",
+   "skills": [
+    "prompt_context",
+    "tool_mcp"
+   ],
+   "learn_score": 1.487
   },
   {
-   "source": "youtube",
-   "source_label": "YouTube · OpenAI",
-   "title": "Production Monitoring with Codex: Grafana, Kubernetes, & Security",
-   "link": "https://www.youtube.com/watch?v=DmCaBWv5yG8",
-   "dt": "2026-10-07T14:57:47+00:00",
-   "summary": "It’s 3 a.m. and checkout errors are climbing. What do you check first? Join cohosts Tony Loehr and Anke Hao for three practical production-monitoring demos with Codex. Follow a checkout failure in Grafana, investigate a Kubernetes rollout that causes out-of-memory restarts, and explore how a Codex Security finding connects service availability to a missing resource limit. See how telemetry, release history, and code support an investigation; learn how engineers review a proposed change and check…",
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Claude Code’s suggested message feature: I think the real customer is the model",
+   "link": "https://www.zohaib.cc/blog/smartest-claude-code-feature",
+   "dt": "2026-10-06T18:00:34+00:00",
+   "summary": "",
    "extra": {
-    "channel": "OpenAI",
-    "video_id": "DmCaBWv5yG8"
+    "points": 255,
+    "comments": 149,
+    "hn_link": "https://news.ycombinator.com/item?id=49981905"
    },
-   "score": 1.215,
+   "score": 4.139,
    "tokens": [
-    "codex",
-    "grafana",
-    "kubernetes",
-    "monitoring",
-    "production",
-    "security"
+    "claude",
+    "code",
+    "customer",
+    "feature",
+    "message",
+    "model",
+    "real",
+    "suggested",
+    "think"
    ],
    "flag": "new",
-   "summary_zh": "使用 Codex 演示在 Grafana、K8s 中进行故障排查与安全监控。",
-   "why_zh": "展示如何利用 AI 辅助定位服务可用性问题，提升运维效率。"
+   "summary_zh": "Claude Code 新增建议消息功能，旨在让模型成为主要使用者。",
+   "why_zh": "体现模型为中心的交互设计，可学习如何为 LLM 构建主动提示功能。",
+   "skills": [],
+   "learn_score": 1.215
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "GAMEGO: Training Game-Dev Agents with Synthetic Trajectories Anchored in Real-World Assets",
+   "link": "https://arxiv.org/abs/2610.06910",
+   "dt": "2026-10-07T00:00:00-04:00",
+   "summary": "arXiv:2610.06910v1 Announce Type: new Abstract: Recent advances in Large Language Models (LLMs) have demonstrated remarkable capabilities in web front-end execution, with browser-based game generation emerging as a particularly prominent frontier. While previous efforts frequently rely on complex multi-turn workflows or focus on static game evaluation benchmarks, this work targets direct end-to-end real-world game synthesis driven by coding agents. However, generating complex games directly from",
+   "extra": {},
+   "weight_override": 1.3,
+   "score": 4.028,
+   "tokens": [
+    "agents",
+    "anchored",
+    "assets",
+    "dev",
+    "game",
+    "gamego",
+    "real",
+    "synthetic",
+    "training",
+    "trajectories",
+    "world"
+   ],
+   "flag": "new",
+   "summary_zh": "使用真实资产锚定的轨迹合成训练游戏开发 Agent，实现端到端游戏生成。",
+   "why_zh": "展示合成数据与真实资产结合训练 Agent 的方法，可学习如何构建可控的游戏内容生成流程。",
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 2.014
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Sharing AI progress in mathematics",
+   "link": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+   "dt": "2026-10-06T22:17:21+00:00",
+   "summary": "https://github.com/openai/math https://github.com/openai/math/tree/main/preprints",
+   "extra": {
+    "points": 1144,
+    "comments": 1255,
+    "hn_link": "https://news.ycombinator.com/item?id=49984923"
+   },
+   "score": 3.6,
+   "tokens": [
+    "ai",
+    "mathematics",
+    "progress",
+    "sharing"
+   ],
+   "flag": "new",
+   "summary_zh": "OpenAI 发布数学领域的研究进展，包括代码和预印本。",
+   "why_zh": "体现前沿模型在数学推理上的应用，可学习如何评估和复现模型在形式化证明等任务中的表现。",
+   "skills": [],
+   "learn_score": 0.9
+  },
+  {
+   "source": "blog",
+   "source_label": "OpenAI 官方博客",
+   "title": "Advancing computer use with Ironclad",
+   "link": "https://openai.com/index/advancing-computer-use-with-ironclad",
+   "dt": "2026-10-06T10:00:00+00:00",
+   "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
+   "extra": {},
+   "score": 2.195,
+   "tokens": [
+    "advancing",
+    "computer",
+    "ironclad",
+    "use"
+   ],
+   "flag": "new",
+   "summary_zh": "OpenAI 与 Ironclad 合作在复杂合同流程上训练评估 AI Agent，推动专业场景的计算机使用。",
+   "why_zh": "学习在垂直领域（法律合同）中如何通过任务驱动数据与评估体系提升 Agent 实用性。",
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 2.195
   },
   {
    "source": "youtube",
@@ -277,7 +306,7 @@
     "channel": "LangChain",
     "video_id": "S3l7U7gOsyY"
    },
-   "score": 1.215,
+   "score": 1.859,
    "tokens": [
     "agent",
     "approaches",
@@ -288,8 +317,12 @@
     "v2"
    ],
    "flag": "new",
-   "summary_zh": "介绍 LangSmith Engine 如何通过基准评估提升 Agent 错误检测能力。",
-   "why_zh": "描述其在 IssueBench 上错误识别提升 2 倍的方法，可参考用于 Agent 改进。"
+   "summary_zh": "介绍 LangSmith Engine 如何通过基准测试与自动评估提升 Agent 错误发现能力。",
+   "why_zh": "学习构建 Agent 自我改进闭环的评测与修复流程，提升可靠性。",
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.859
   },
   {
    "source": "youtube",
@@ -302,7 +335,7 @@
     "channel": "LangChain",
     "video_id": ""
    },
-   "score": 1.215,
+   "score": 1.859,
    "tokens": [
     "agents",
     "deep",
@@ -313,27 +346,12 @@
     "source"
    ],
    "flag": "new",
-   "summary_zh": "Deep Agents 提供模型中立的 Agent 框架，包含上下文、工具、记忆等。",
-   "why_zh": "使任意 LLM 能胜任长复杂任务，降低自研 Agent 开发成本。"
-  },
-  {
-   "source": "blog",
-   "source_label": "OpenAI 官方博客",
-   "title": "Advancing computer use with Ironclad",
-   "link": "https://openai.com/index/advancing-computer-use-with-ironclad",
-   "dt": "2026-10-06T10:00:00+00:00",
-   "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
-   "extra": {},
-   "score": 1.147,
-   "tokens": [
-    "advancing",
-    "computer",
-    "ironclad",
-    "use"
+   "summary_zh": "Deep Agents 提供模型中立的 Agent 框架，包含上下文管理、工具、记忆、子 Agent 等能力。",
+   "why_zh": "学习如何设计可复用的 Agent 编排层，实现长任务的状态持久化与容错。",
+   "skills": [
+    "agent_architecture"
    ],
-   "flag": "new",
-   "summary_zh": "OpenAI 与 Ironclad 合作训练 AI Agent 处理复杂合同工作流。",
-   "why_zh": "展示 AI 在专业法律场景中的实际应用路径，可借鉴 Agent 设计。"
+   "learn_score": 1.859
   },
   {
    "source": "blog",
@@ -343,7 +361,7 @@
    "dt": "2026-10-07T14:10:45+00:00",
    "summary": "Kubernetes co-creators Craig McLuckie and Joe Beda aim to bring agent harnesses fully into the cloud.",
    "extra": {},
-   "score": 1.147,
+   "score": 1.756,
    "tokens": [
     "agents",
     "beyond",
@@ -355,8 +373,12 @@
     "reliable"
    ],
    "flag": "new",
-   "summary_zh": "Kubernetes 联合创始人 Craig McLuckie 和 Joe Beda 计划将代理 harness 完全迁移到云端。",
-   "why_zh": "云原生 harness 能让代理在分布式环境中更可靠、可伸缩，便于大规模强化学习。"
+   "summary_zh": "Craig McLuckie 和 Joe Beda 计划将 agent harness 完全迁移到云端，以提升可靠性。",
+   "why_zh": "面试价值：了解云原生基础设施如何支撑 agent 可靠运行，学习利用 Kubernetes 构建可伸缩 agent 系统的做法。",
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.756
   },
   {
    "source": "blog",
@@ -366,7 +388,7 @@
    "dt": "2026-10-07T16:00:00+00:00",
    "summary": "Training AI agents with reinforcement learning can be challenging because their tools, context, and decision-making are managed by complex frameworks. Agent Lightning connects existing agents to RL training, making it easier to improve them without rebuilding them. The post Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training Agents with Real Harnesses appeared first on Microsoft Research .",
    "extra": {},
-   "score": 1.147,
+   "score": 1.756,
    "tokens": [
     "500",
     "agent",
@@ -383,8 +405,38 @@
     "v1"
    ],
    "flag": "new",
-   "summary_zh": "Agent Lightning 提供仅 3500 行的轻量级代理 RL 框架，可直接接入现有代理进行强化学习训练。",
-   "why_zh": "低门槛、轻量化的 RL 框架让工程师能快速在真实 harness 上迭代优化代理，无需重构。"
+   "summary_zh": "Agent Lightning 提供 3500 行轻量级框架，连接现有 agent 进行强化学习训练，无需重构。",
+   "why_zh": "面试价值：掌握轻量级 RL 框架设计，学会如何在不改动原有代码的前提下接入强化学习训练，提升 agent 性能。",
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.756
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "Production Monitoring with Codex: Grafana, Kubernetes, & Security",
+   "link": "https://www.youtube.com/watch?v=DmCaBWv5yG8",
+   "dt": "2026-10-07T14:57:47+00:00",
+   "summary": "It’s 3 a.m. and checkout errors are climbing. What do you check first? Join cohosts Tony Loehr and Anke Hao for three practical production-monitoring demos with Codex. Follow a checkout failure in Grafana, investigate a Kubernetes rollout that causes out-of-memory restarts, and explore how a Codex Security finding connects service availability to a missing resource limit. See how telemetry, release history, and code support an investigation; learn how engineers review a proposed change and check…",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": "DmCaBWv5yG8"
+   },
+   "score": 1.094,
+   "tokens": [
+    "codex",
+    "grafana",
+    "kubernetes",
+    "monitoring",
+    "production",
+    "security"
+   ],
+   "flag": "new",
+   "summary_zh": "演示如何用 Codex 在 Grafana、K8s 中排查结账错误、OOM 重启及安全限制问题。",
+   "why_zh": "学习利用大模型辅助的可观测性手段快速定位生产环境故障的实战方法。",
+   "skills": [],
+   "learn_score": 1.094
   }
  ],
  "dups": [
@@ -412,8 +464,8 @@
    "score": 4.374,
    "flag": "dup",
    "dup_note": "已于 2026-10-07 推荐过",
-   "summary_zh": "使用 Claude Code 及 fal MCP 进行游戏逆向、资产生成、测试等全流程 MOD 制作。",
-   "why_zh": "表明大模型可直接参与游戏逆向与内容创作，为工程师提供新范式。"
+   "summary_zh": "该项目让 Claude 能够逆向工程、生成艺术/3D/音频并进行游戏测试，实现对任意 PC 游戏的 Mod。",
+   "why_zh": "面试价值：学习利用大语言模型进行游戏逆向与内容生成的全流程，掌握多模态工具链与自动化测试的实践。"
   },
   {
    "source": "github",
@@ -439,8 +491,8 @@
    "score": 4.131,
    "flag": "dup",
    "dup_note": "已于 2026-10-07 推荐过",
-   "summary_zh": "菜单栏工具统一管理多种 AI 代理模型，如 Codex 在 DeepSeek、Claude Code 在 Kimi 上运行。",
-   "why_zh": "提供便捷切换与监控多模型代理的入口，提升开发效率。"
+   "summary_zh": "magpie 集成 DeepSeek 的 Codex、Kimi 的 Claude Code 等多模型，统一菜单栏入口管理 agent 模型。",
+   "why_zh": "面试价值：了解如何构建统一的模型调度平台，学习多模型切换与菜单栏集成的实现方式，提升开发效率。"
   },
   {
    "source": "github",
@@ -466,8 +518,8 @@
    "score": 4.131,
    "flag": "dup",
    "dup_note": "已于 2026-10-07 推荐过",
-   "summary_zh": "小巧的 Mac 菜单栏 / iPhone 小组件实时监控 Claude Code 等 AI 编码代理，支持从锁屏或刘海批准。",
-   "why_zh": "让工程师能即时监督并干预 AI 编码行为，提升安全与可控性。"
+   "summary_zh": "coucou 为 Mac 钻石孔和 iPhone 提供小部件，实时监控 Claude Code、Codex 等 AI 编码代理，支持批准操作。",
+   "why_zh": "面试价值：学习在系统级 UI（如 Notch、锁屏）嵌入监控与交互组件，掌握轻量级代理状态可视化的做法。"
   },
   {
    "source": "github",
@@ -493,8 +545,8 @@
    "score": 4.131,
    "flag": "dup",
    "dup_note": "已于 2026-10-07 推荐过",
-   "summary_zh": "用户提供喜欢视频，AI 团队（Claude Code 或 Codex）规划、构建并审查生成同风格新视频。",
-   "why_zh": "展示 AI 代理协作进行视频风格迁移，降低创作门槛。"
+   "summary_zh": "给定喜欢视频，AI 团队（Claude Code 或 Codex）负责规划、构建并评审同风格新视频，实现风格迁移创作。",
+   "why_zh": "面试价值：掌握基于大模型的视频风格迁移流程，学习多角色协作（规划、构建、评审）在创意任务中的应用。"
   },
   {
    "source": "github",
@@ -520,8 +572,8 @@
    "score": 4.131,
    "flag": "dup",
    "dup_note": "已于 2026-10-07 推荐过",
-   "summary_zh": "提供覆盖 Prompt Engineering 到模型部署等全栈 LLM 学习路线的中文教程。",
-   "why_zh": "对 AI 工程师系统掌握 LLM 技术栈和面试准备极具参考价值。"
+   "summary_zh": "youngyangyang04/llm-master 提供大模型全栈学习路线与中文教程，覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、部署、Transformer、AI 编程及大厂面试。",
+   "why_zh": "面试价值：学习系统化 LLM 全栈技能，掌握 Prompt、RAG、Agent 等实战方案，提升大厂面试竞争力。"
   },
   {
    "source": "github",
@@ -546,7 +598,9 @@
    },
    "score": 4.131,
    "flag": "dup",
-   "dup_note": "已于 2026-10-07 推荐过"
+   "dup_note": "已于 2026-10-07 推荐过",
+   "summary_zh": "qiz029/dscode 提供 DeepSeek 编码 Agent 框架，含持久化 shell、Ultra subagents、自动批准、Chrome MCP 及会话遥测。",
+   "why_zh": "面试价值：掌握持久化 Shell、子 Agent 编排及 MCP 集成实践，提升构建可靠编码 Agent 能力。"
   }
  ]
 }

@@ -15,36 +15,6 @@
   {
    "source": "github",
    "source_label": "GitHub",
-   "title": "edenfunf/reelmimic",
-   "link": "https://github.com/edenfunf/reelmimic",
-   "dt": "2026-09-28T19:14:59+00:00",
-   "summary": "Show it a video you love. Get a new video in the same style. An AI crew (Claude Code or Codex) plans, builds and reviews it with you.",
-   "extra": {
-    "stars": 1442,
-    "language": "JavaScript",
-    "topics": [
-     "2d-animation",
-     "ai-agents",
-     "ai-video",
-     "animation",
-     "claude-code",
-     "codex"
-    ],
-    "created": "2026-09-28",
-    "pushed": "2026-10-06"
-   },
-   "score": 4.374,
-   "tokens": [
-    "edenfunf",
-    "reelmimic"
-   ],
-   "flag": "new",
-   "summary_zh": "用户提供喜欢视频，AI 团队（Claude Code 或 Codex）规划、构建并审查生成同风格新视频。",
-   "why_zh": "展示 AI 代理协作进行视频风格迁移，降低创作门槛。"
-  },
-  {
-   "source": "github",
-   "source_label": "GitHub",
    "title": "rehan-remade/universal-modder",
    "link": "https://github.com/rehan-remade/universal-modder",
    "dt": "2026-09-30T05:00:35+00:00",
@@ -63,7 +33,7 @@
     "created": "2026-09-30",
     "pushed": "2026-10-06"
    },
-   "score": 4.374,
+   "score": 7.024,
    "tokens": [
     "modder",
     "rehan",
@@ -71,8 +41,44 @@
     "universal"
    ],
    "flag": "new",
-   "summary_zh": "使用 Claude Code 及 fal MCP 进行游戏逆向、资产生成、测试等全流程 MOD 制作。",
-   "why_zh": "表明大模型可直接参与游戏逆向与内容创作，为工程师提供新范式。"
+   "summary_zh": "通过 Claude Code 配合 fal MCP，可对任意 PC 游戏进行逆向、资产生成、测试并制作展示视频。",
+   "why_zh": "演示大模型在游戏 MOD 中的端到端工具链，可学习如何结合逆向工程与生成式内容进行自动化改造。",
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "edenfunf/reelmimic",
+   "link": "https://github.com/edenfunf/reelmimic",
+   "dt": "2026-09-28T19:14:59+00:00",
+   "summary": "Show it a video you love. Get a new video in the same style. An AI crew (Claude Code or Codex) plans, builds and reviews it with you.",
+   "extra": {
+    "stars": 1442,
+    "language": "JavaScript",
+    "topics": [
+     "2d-animation",
+     "ai-agents",
+     "ai-video",
+     "animation",
+     "claude-code",
+     "codex"
+    ],
+    "created": "2026-09-28",
+    "pushed": "2026-10-06"
+   },
+   "score": 4.132,
+   "tokens": [
+    "edenfunf",
+    "reelmimic"
+   ],
+   "flag": "new",
+   "summary_zh": "用户提供喜欢视频，AI 团队（Claude Code 或 Codex）协同规划、生成并审视相同风格的新视频。",
+   "why_zh": "展示多智能体协作流程，可学习如何用 Claude Code/Codex 进行任务分解、规划与代码审查。",
+   "skills": [],
+   "learn_score": 1.033
   },
   {
    "source": "github",
@@ -95,14 +101,16 @@
     "created": "2026-09-23",
     "pushed": "2026-10-06"
    },
-   "score": 4.131,
+   "score": 4.132,
    "tokens": [
     "magpie",
     "yetone"
    ],
    "flag": "new",
-   "summary_zh": "菜单栏工具统一管理多种 AI 代理模型，如 Codex 在 DeepSeek、Claude Code 在 Kimi 上运行。",
-   "why_zh": "提供便捷切换与监控多模型代理的入口，提升开发效率。"
+   "summary_zh": "菜单栏工具统一管理多种代理模型，支持 DeepSeek 的 Codex、Kimi 的 Claude Code 等。",
+   "why_zh": "提供模型切换与统一入口的实践，可学习如何构建跨模型代理调度平台。",
+   "skills": [],
+   "learn_score": 1.033
   },
   {
    "source": "github",
@@ -125,15 +133,47 @@
     "created": "2026-09-27",
     "pushed": "2026-10-06"
    },
-   "score": 4.131,
+   "score": 4.132,
    "tokens": [
     "cfm",
     "coucou",
     "louis"
    ],
    "flag": "new",
-   "summary_zh": "小巧的 Mac 菜单栏 / iPhone 小组件实时监控 Claude Code 等 AI 编码代理，支持从锁屏或刘海批准。",
-   "why_zh": "让工程师能即时监督并干预 AI 编码行为，提升安全与可控性。"
+   "summary_zh": "系统通知栏小助手实时监控 Claude Code 等 AI 编码代理，支持在刘海或锁屏批准操作。",
+   "why_zh": "展示边缘 UI 与代理监控的结合，可学习如何在系统层面提供代理行为的可视化审核与交互。",
+   "skills": [],
+   "learn_score": 1.033
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Foundations of Proactive Agents: Principles, Technical Layers, and Proactivity-Gym",
+   "link": "https://huggingface.co/papers/2609.37267",
+   "dt": "2026-09-28T20:00:00+00:00",
+   "summary": "Proactive LLM agents can turn idle compute into useful support before users ask. Yet even correct work can misread user context, impose review costs, or undermine trust. This work proposes foundations for designing, realizing, and evaluating proactive LLM agents around three joint principles (3T): Task Capability, anticipating relevant needs and correctly performing useful work; Temporal Allocation, allocating compute according to resource availability and when results are needed; and Trust, sus",
+   "extra": {
+    "upvotes": 14,
+    "arxiv": "https://arxiv.org/abs/2609.37267"
+   },
+   "score": 3.977,
+   "tokens": [
+    "agents",
+    "foundations",
+    "gym",
+    "layers",
+    "principles",
+    "proactive",
+    "proactivity",
+    "technical"
+   ],
+   "flag": "new",
+   "summary_zh": "提出主动LLM代理的三T原则框架，用于设计、实现和评估",
+   "why_zh": "属于代理系统设计，可学到如何通过任务能力、时间分配等原则构建可靠主动代理",
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.853
   },
   {
    "source": "hackernews",
@@ -147,7 +187,7 @@
     "comments": 416,
     "hn_link": "https://news.ycombinator.com/item?id=49953495"
    },
-   "score": 3.963,
+   "score": 3.567,
    "tokens": [
     "100t",
     "125b",
@@ -161,8 +201,10 @@
     "run"
    ],
    "flag": "new",
-   "summary_zh": "在消费级 RTX 4090 上运行 125B 参数的 Qwen 3.8 Flash Next，达到每秒 100 Token。",
-   "why_zh": "表明大模型可在单卡消费级硬件上实现高吞吐，降低部署成本。"
+   "summary_zh": "在 RTX 4090 上运行 125B 参数的 Qwen 3.8 Flash Next，达到每秒 100T 次推理吞吐。",
+   "why_zh": "演示大模型在消费级 GPU 上的高效推理优化，可学习量化、并行与内存调度技巧。",
+   "skills": [],
+   "learn_score": 0.9
   },
   {
    "source": "hackernews",
@@ -176,7 +218,7 @@
     "comments": 582,
     "hn_link": "https://news.ycombinator.com/item?id=49961057"
    },
-   "score": 3.875,
+   "score": 3.488,
    "tokens": [
     "anthropic",
     "charge",
@@ -189,8 +231,10 @@
     "woman"
    ],
    "flag": "new",
-   "summary_zh": "Anthropic 将用户日记内容上报警方，导致该女子面临重罪指控。",
-   "why_zh": "提醒 AI 工程师注意模型使用中的隐私与合规风险，避免法律纠纷。"
+   "summary_zh": "Anthropic 将用户日记内容上报警方，导致女性面临重罪指控。",
+   "why_zh": "提醒 AI 工程师关注数据隐私与合规风险，可学习如何在系统设计中审查敏感信息处理与上报机制。",
+   "skills": [],
+   "learn_score": 0.9
   },
   {
    "source": "paper",
@@ -203,7 +247,7 @@
     "upvotes": 11,
     "arxiv": "https://arxiv.org/abs/2610.06577"
    },
-   "score": 2.618,
+   "score": 3.005,
    "tokens": [
     "discover",
     "faster",
@@ -215,34 +259,38 @@
     "relaxation"
    ],
    "flag": "new",
-   "summary_zh": "语言模型自主重写优化器，以加速量子化学中的几何弛豫过程。",
-   "why_zh": "表明LLM能自动改进传统优化算法，为高成本量子计算提供潜在加速方案。"
+   "summary_zh": "语言模型自主重写优化器以加速分子弛豫几何优化",
+   "why_zh": "展示如何用LLM自动设计优化器，可学到将语言模型用于算法改进的实践",
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.472
   },
   {
-   "source": "paper",
-   "source_label": "HF Daily Papers",
-   "title": "Foundations of Proactive Agents: Principles, Technical Layers, and Proactivity-Gym",
-   "link": "https://huggingface.co/papers/2609.37267",
-   "dt": "2026-09-28T20:00:00+00:00",
-   "summary": "Proactive LLM agents can turn idle compute into useful support before users ask. Yet even correct work can misread user context, impose review costs, or undermine trust. This work proposes foundations for designing, realizing, and evaluating proactive LLM agents around three joint principles (3T): Task Capability, anticipating relevant needs and correctly performing useful work; Temporal Allocation, allocating compute according to resource availability and when results are needed; and Trust, sus",
-   "extra": {
-    "upvotes": 14,
-    "arxiv": "https://arxiv.org/abs/2609.37267"
-   },
-   "score": 2.477,
+   "source": "blog",
+   "source_label": "Anthropic Engineering",
+   "title": "Harness design for long-running application development",
+   "link": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
+   "dt": "2026-03-24T00:00:00+00:00",
+   "summary": "",
+   "extra": {},
+   "weight_override": 1.5,
+   "score": 2.065,
    "tokens": [
-    "agents",
-    "foundations",
-    "gym",
-    "layers",
-    "principles",
-    "proactive",
-    "proactivity",
-    "technical"
+    "application",
+    "design",
+    "development",
+    "harness",
+    "long",
+    "running"
    ],
    "flag": "new",
-   "summary_zh": "提出三T原则框架，指导构建能在用户未请求前主动提供有用支持的LLM代理。",
-   "why_zh": "为主动Agent设计提供理论基础，帮助工程师平衡实用性与信任成本。"
+   "summary_zh": "Anthropic 介绍了用于长期运行应用的 harness 设计方法。",
+   "why_zh": "面试价值：掌握可持续 AI 应用的架构模式，学习 harness 设计的可复用原则。",
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 2.065
   },
   {
    "source": "blog",
@@ -252,7 +300,7 @@
    "dt": "2026-10-06T06:45:31+00:00",
    "summary": "Reka has released Rho-1, a 19B omni-reasoning model trained from scratch. One network reads and generates text, images, video and robot actions over a shared KV cache. A distilled variant returns a 5.3-second clip in about a second. It is a research preview with no public weights yet. The post Reka Releases Rho-1: A 19B Omni-Reasoning Model That Understands, Generates Video and Outputs Robot Actions in One appeared first on MarkTechPost .",
    "extra": {},
-   "score": 1.275,
+   "score": 1.561,
    "tokens": [
     "19b",
     "actions",
@@ -270,8 +318,13 @@
     "video"
    ],
    "flag": "new",
-   "summary_zh": "Reka 发布 19B 参数全模态模型 Rho-1，统一处理文本、图像、视频并输出机器人动作。",
-   "why_zh": "展示单一Transformer通过共享KV缓存实现多模态推理，为端到端机器人控制提供新范式。"
+   "summary_zh": "Reka 发布 19B 参数的 omni-reasoning 模型 Rho-1，统一文图视频与机器人动作",
+   "why_zh": "属于多模态推理模型，可学到在共享 KV cache 上统一多模态生成与机器人控制的做法",
+   "skills": [
+    "training_serving",
+    "system_design"
+   ],
+   "learn_score": 1.561
   },
   {
    "source": "youtube",
@@ -284,40 +337,17 @@
     "channel": "OpenAI",
     "video_id": "PUBc2G0Tj5E"
    },
-   "score": 1.215,
+   "score": 1.367,
    "tokens": [
     "cli",
     "codex",
     "meet"
    ],
    "flag": "new",
-   "summary_zh": "OpenAI 更新 Codex CLI，提供全新终端界面和交互方式，便于开发者使用代码生成助手。",
-   "why_zh": "降低代码生成工具的使用门槛，提升工程师在本地终端的工作流效率。"
-  },
-  {
-   "source": "youtube",
-   "source_label": "YouTube · IndyDevDan",
-   "title": "OpenRouter State Of Models: Jev, Open-Weights, and Tokenomics",
-   "link": "https://www.youtube.com/watch?v=8BD6w5wELRo",
-   "dt": "2026-10-05T13:00:15+00:00",
-   "summary": "There is NO AI bubble. OpenRouter just pushed 146 TRILLION tokens in a single week. One year ago? 4.5 trillion. Meanwhile Anthropic is targeting a $2 TRILLION IPO while losing almost $50 billion. If token usage keeps climbing, the bulls win. If it stalls, the house of cards starts falling, and OpenAI likely follows. 🚀 PHASE 3 AGENTIC ENGINEERING (EARLY SIGN UP) https://agenticengineer.com/ia3-pre-launch?y=8BD6w5wELRo 🎥 WATCH THESE NEXT • 10 Levels Of JEV: https://youtu.be/_U-O5lYhJ7Q • Model Sta…",
-   "extra": {
-    "channel": "IndyDevDan",
-    "video_id": "8BD6w5wELRo"
-   },
-   "score": 1.215,
-   "tokens": [
-    "jev",
-    "models",
-    "open",
-    "openrouter",
-    "state",
-    "tokenomics",
-    "weights"
-   ],
-   "flag": "new",
-   "summary_zh": "OpenRouter 一周处理 146 万亿 tokens，显示 AI 使用量快速增长，暗示代理工程阶段即将到来。",
-   "why_zh": "Token 消耗规模直接反映模型服务需求，对评估算力成本和商业模式具有重要参考价值。"
+   "summary_zh": "展示 Codex CLI 最新更新和终端体验，演示新界面及使用方式",
+   "why_zh": "属于工具链/开发者助手，可学到如何通过 CLI 提升代码生成交互效率",
+   "skills": [],
+   "learn_score": 1.367
   },
   {
    "source": "blog",
@@ -342,30 +372,10 @@
     "we"
    ],
    "flag": "new",
-   "summary_zh": "Anthropic 介绍 Claude Code 自动模式的实现细节，提供更安全的免权限代码执行方式。",
-   "why_zh": "为工程师展示如何在保障安全的前提下自动化代码生成与执行，降低人工干预成本。"
-  },
-  {
-   "source": "blog",
-   "source_label": "Anthropic Engineering",
-   "title": "Harness design for long-running application development",
-   "link": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
-   "dt": "2026-03-24T00:00:00+00:00",
-   "summary": "",
-   "extra": {},
-   "weight_override": 1.5,
-   "score": 1.215,
-   "tokens": [
-    "application",
-    "design",
-    "development",
-    "harness",
-    "long",
-    "running"
-   ],
-   "flag": "new",
-   "summary_zh": "Anthropic Engineering 介绍了用于长时间运行应用开发的 harness 设计。",
-   "why_zh": "该设计提升了长时任务的可维护性和性能，为构建稳定的 AI 系统提供参考。"
+   "summary_zh": "介绍 Claude Code 自动模式的构建方法，提供更安全的免权限代码执行方式",
+   "why_zh": "属于代码助手安全设计，可学到如何通过自动模式降低权限风险同时保持代码生成便利",
+   "skills": [],
+   "learn_score": 1.215
   },
   {
    "source": "youtube",
@@ -378,15 +388,44 @@
     "channel": "OpenAI",
     "video_id": "sKltfHvsDQM"
    },
-   "score": 1.094,
+   "score": 1.033,
    "tokens": [
     "build",
     "faster",
     "ultrafast"
    ],
    "flag": "new",
-   "summary_zh": "OpenAI 发布 Ultrafast，在 Codex 中比 Astra Standard 快 8 倍、比 Astra Fast 快 4 倍，极速实现想法。",
-   "why_zh": "大幅提升代码生成速度，显著缩短 AI 应用原型开发周期，对工程师提效有直接影响。"
+   "summary_zh": "OpenAI 推出 Ultrafast，在 Codex 中比 Astra Standard 快 8 倍、比 Astra Fast 快 4 倍。",
+   "why_zh": "面试价值：学习加速代码生成的技术手段，可提升 Agent 开发效率。",
+   "skills": [],
+   "learn_score": 1.033
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · IndyDevDan",
+   "title": "OpenRouter State Of Models: Jev, Open-Weights, and Tokenomics",
+   "link": "https://www.youtube.com/watch?v=8BD6w5wELRo",
+   "dt": "2026-10-05T13:00:15+00:00",
+   "summary": "There is NO AI bubble. OpenRouter just pushed 146 TRILLION tokens in a single week. One year ago? 4.5 trillion. Meanwhile Anthropic is targeting a $2 TRILLION IPO while losing almost $50 billion. If token usage keeps climbing, the bulls win. If it stalls, the house of cards starts falling, and OpenAI likely follows. 🚀 PHASE 3 AGENTIC ENGINEERING (EARLY SIGN UP) https://agenticengineer.com/ia3-pre-launch?y=8BD6w5wELRo 🎥 WATCH THESE NEXT • 10 Levels Of JEV: https://youtu.be/_U-O5lYhJ7Q • Model Sta…",
+   "extra": {
+    "channel": "IndyDevDan",
+    "video_id": "8BD6w5wELRo"
+   },
+   "score": 0.656,
+   "tokens": [
+    "jev",
+    "models",
+    "open",
+    "openrouter",
+    "state",
+    "tokenomics",
+    "weights"
+   ],
+   "flag": "new",
+   "summary_zh": "OpenRouter 一周推送 146 万亿 tokens，远超去年 4.5 万亿，暗示算力需求增长与 IPO 风险",
+   "why_zh": "属于系统规模/token 经济学，可学到大规模 token 吞吐对模型服务成本与商业模式的影响",
+   "skills": [],
+   "learn_score": 0.656
   }
  ],
  "dups": [
@@ -401,8 +440,8 @@
    "score": 1.635,
    "flag": "dup",
    "dup_note": "已于 2026-10-05 推荐过",
-   "summary_zh": "介绍在 Open SWE harness 中构建模型路由器，使每个编码任务的中位成本降低 64%，质量无显著下降，并给出构建指南。",
-   "why_zh": "为工程师提供可复用的低成本模型选择方案，易于集成到现有 agent 框架。"
+   "summary_zh": "LangChain 在 Open SWE harness 中加入模型路由，使编码任务中位成本降 64%，质量不变。",
+   "why_zh": "面试价值：掌握构建成本敏感的模型路由方法，可复用降低推理开销的做法。"
   },
   {
    "source": "youtube",
@@ -418,8 +457,8 @@
    "score": 1.215,
    "flag": "dup",
    "dup_note": "已于 2026-10-05 推荐过",
-   "summary_zh": "Harrison Chase 以 Rogo、Harvey、JPMorgan 等案例阐述“拥有你的智能”，强调开放模型中立 harness、学习循环与内部治理三大支柱。",
-   "why_zh": "为 AI 工程师提供构建可控、可演进的 domain‑specific agent 系统的架构思路。"
+   "summary_zh": "LangChain CEO 阐述‘拥有你的智能’：围绕模型构建领域特定组件，需开放中立 harness、学习循环和治理三大支柱。",
+   "why_zh": "面试价值：理解如何通过可扩展 harness 和治理实现领域 Agent 的持续改进，可复用的架构思路。"
   },
   {
    "source": "blog",
@@ -433,8 +472,8 @@
    "score": 1.215,
    "flag": "dup",
    "dup_note": "已于 2026-10-05 推荐过",
-   "summary_zh": "回顾递归自我改进概念，阐述 AI 利用自身智能改善认知机制的反馈循环，并讨论其实现路径与挑战。",
-   "why_zh": "帮助工程师理解并设计具备自我优化能力的 agent 系统，推动长期性能提升。"
+   "summary_zh": "论述递归自我改进的概念及其在 AI 中的实现路径，强调利用当前智能改善认知机制。",
+   "why_zh": "面试价值：掌握自我改进 Agent 的核心反馈环设计，可用于构建能持续优化的系统。"
   },
   {
    "source": "blog",
@@ -448,8 +487,8 @@
    "score": 1.215,
    "flag": "dup",
    "dup_note": "已于 2026-10-05 推荐过",
-   "summary_zh": "Anthropic 发布 Claude Code 最新质量报告更新，说明模型在代码生成任务中的表现与改进方向。",
-   "why_zh": "为依赖 Claude Code 进行编码的工程师提供最新基准与质量保障信息。"
+   "summary_zh": "Anthropic 发布 Claude Code 最新质量报告更新。",
+   "why_zh": "面试价值：了解代码生成模型的质量评估指标及改进方向，可复用的评估方法。"
   },
   {
    "source": "youtube",
@@ -465,8 +504,8 @@
    "score": 1.154,
    "flag": "dup",
    "dup_note": "已于 2026-10-05 推荐过",
-   "summary_zh": "Vercel CEO 分享 Agentic 工作流，演示用 Vercel、Supabase、Cloudroom 构建 AI 代理。",
-   "why_zh": "展示实际 AI 工程实践，提供全栈工具链参考，帮助工程师快速构建可落地的 Agent 系统。"
+   "summary_zh": "Vercel CEO Guillermo Rauch 分享了他的 Agentic Engineering 工作流程，展示如何用 Vercel、Supabase、Cloudroom 等工具构建自主代理系统。",
+   "why_zh": "面试中可展示如何把 Agentic 概念转化为可落地的全栈方案，掌握 Vercel+Supabase+Cloudroom 工具链，快速构建、测试和迭代自主代理系统的实战经验。"
   },
   {
    "source": "youtube",
@@ -482,8 +521,8 @@
    "score": 1.147,
    "flag": "dup",
    "dup_note": "已于 2026-10-05 推荐过",
-   "summary_zh": "Gemini 3.8 文本转语音支持自然语言提示定制新声线，或从 30 秒音频克隆声音，适用于游戏、有声书等场景。",
-   "why_zh": "展示细粒度声线控制能力，为 AI 应用提供个性化、可复制的语音生成方案，降低内容制作门槛。"
+   "summary_zh": "Gemini 3.8 文本转语音模型可从零生成自定义声线，或用 30 秒音频克隆声音，适用于游戏、有声书、双人播客等场景。",
+   "why_zh": "面试中可说明如何运用 Gemini 3.8 进行可控语音合成，掌握提示词工程与声线克隆技术，为 Agent 交互和多模态应用提供可复用的语音生成方案。"
   }
  ]
 }

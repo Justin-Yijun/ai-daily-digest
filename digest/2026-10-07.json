@@ -13,6 +13,40 @@
  },
  "items": [
   {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Beyond Semantic Similarity: Performance and Costs of Agentic Retrieval for Complex Tasks",
+   "link": "https://huggingface.co/papers/2610.05750",
+   "dt": "2026-10-04T20:00:00+00:00",
+   "summary": "Modern information systems, including many agentic workflows, use dense retrieval to explore large amounts of unstructured data. However, dense retrieval relies on surface-level semantic similarity, which is insufficient for increasingly complex search applications. Here, we investigate agentic retrieval that combines the reasoning capabilities of Large Language Models (LLMs) with the efficient corpus exploration of retrievers in a ReAct agentic loop to solve complex retrieval tasks. In our expe",
+   "extra": {
+    "upvotes": 1,
+    "arxiv": "https://arxiv.org/abs/2610.05750"
+   },
+   "score": 7.848,
+   "tokens": [
+    "agentic",
+    "beyond",
+    "complex",
+    "costs",
+    "performance",
+    "retrieval",
+    "semantic",
+    "similarity",
+    "tasks"
+   ],
+   "flag": "new",
+   "summary_zh": "提出结合LLM推理的agentic检索方法，以提升复杂任务的检索性能并分析成本。",
+   "why_zh": "体现检索增强生成与LLM推理结合的设计思路，可学习复杂任务下的检索策略与成本评估方法。",
+   "skills": [
+    "rag",
+    "agent_architecture",
+    "eval_observability",
+    "training_serving"
+   ],
+   "learn_score": 3.924
+  },
+  {
    "source": "github",
    "source_label": "GitHub",
    "title": "deepseek-ai/deepseek-harness",
@@ -31,15 +65,19 @@
     "created": "2026-08-13",
     "pushed": "2026-10-03"
    },
-   "score": 2.916,
+   "score": 4.956,
    "tokens": [
     "ai",
     "deepseek",
     "harness"
    ],
    "flag": "new",
-   "summary_zh": "DeepSeek Harness 框架将所有功能插件化，提供统一插件接口。",
-   "why_zh": "为工程师提供灵活可扩展的 Agent 构建基础，降低插件开发门槛。"
+   "summary_zh": "DeepSeek Harness 实现全部功能插件化，提供统一插件框架。",
+   "why_zh": "体现插件化设计，可学习构建可插拔 Agent 组件，提升系统可扩展性。",
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.239
   },
   {
    "source": "github",
@@ -61,15 +99,19 @@
     "created": "2026-08-13",
     "pushed": "2026-10-05"
    },
-   "score": 2.916,
+   "score": 4.956,
    "tokens": [
     "awesome",
     "dsh",
     "plugin"
    ],
    "flag": "new",
-   "summary_zh": "收录 DeepSeek Harness 生态的插件资源，提供分类索引与使用示例。",
-   "why_zh": "帮助开发者快速查找和复用社区插件，加速基于 DSH 的 Agent 开发。"
+   "summary_zh": "提供 DeepSeek Harness 插件精选列表，便于发现和使用社区插件。",
+   "why_zh": "了解插件生态，学习评估和选用第三方插件，提升项目集成效率。",
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.239
   },
   {
    "source": "github",
@@ -90,15 +132,19 @@
     "created": "2026-07-29",
     "pushed": "2026-10-06"
    },
-   "score": 2.916,
+   "score": 4.956,
    "tokens": [
     "qm",
     "software",
     "yc"
    ],
    "flag": "new",
-   "summary_zh": "提供多智能体协作的工作流引擎，支持实时交互与任务分配。",
-   "why_zh": "适用于需要多人协同的 AI Agent 场景，降低多智能体系统构建复杂度。"
+   "summary_zh": "提供多智能体协作的工作平台，支持团队任务分配与执行。",
+   "why_zh": "展示多智能体协作框架，可学习任务调度与通信机制，适用于构建协作 Agent 系统。",
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.239
   },
   {
    "source": "github",
@@ -120,14 +166,18 @@
     "created": "2026-07-23",
     "pushed": "2026-10-06"
    },
-   "score": 2.916,
+   "score": 4.956,
    "tokens": [
     "trueforge",
     "truefoundry"
    ],
    "flag": "new",
-   "summary_zh": "TrueForge 提供开源 Agent 运行时，把 LLM 包装成可执行的智能体。",
-   "why_zh": "帮助工程师快速构建可生产的 LLM Agent，减少底层基础设施工作。"
+   "summary_zh": "TrueForge 是开源 Agent 运行时，将 LLM 包装成可执行的智能体。",
+   "why_zh": "体现运行时层设计，可学习将模型封装为具备工具调用和状态管理的 Agent。",
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.239
   },
   {
    "source": "github",
@@ -159,8 +209,10 @@
     "video"
    ],
    "flag": "new",
-   "summary_zh": "提供与厂商无关的 Codex 技能，从脚本和授权人物图像生成可验证的 AI 主讲视频。",
-   "why_zh": "让开发者可统一接口生成合规 AI 讲解视频，避免供应商锁定。"
+   "summary_zh": "提供与提供商无关的 Codex 技能，根据脚本和授权图像生成验证过的 AI 主讲视频。",
+   "why_zh": "展示如何构建 Provider-neutral 技能，可学习多模态生成与内容审核流程，适用于视频 Agent 开发。",
+   "skills": [],
+   "learn_score": 0.729
   },
   {
    "source": "github",
@@ -182,35 +234,37 @@
     "yetone"
    ],
    "flag": "new",
-   "summary_zh": "提供跨平台的 AI Agent 团队聊天工具，支持云端或自带 Claude Code/Codex 大脑。",
-   "why_zh": "让多个 AI Agent 能像队友一样协作，降低多智能体系统的沟通成本。"
+   "summary_zh": "Cumora 提供跨平台团队聊天，AI Agent 作为一等成员参与，支持自带或云端大脑。",
+   "why_zh": "体现 Agent 团队协作平台设计，可学习多 Agent 通信、角色定义及插件化大脑接入。",
+   "skills": [],
+   "learn_score": 0.729
   },
   {
-   "source": "paper",
-   "source_label": "HF Daily Papers",
-   "title": "Beyond Semantic Similarity: Performance and Costs of Agentic Retrieval for Complex Tasks",
-   "link": "https://huggingface.co/papers/2610.05750",
-   "dt": "2026-10-04T20:00:00+00:00",
-   "summary": "Modern information systems, including many agentic workflows, use dense retrieval to explore large amounts of unstructured data. However, dense retrieval relies on surface-level semantic similarity, which is insufficient for increasingly complex search applications. Here, we investigate agentic retrieval that combines the reasoning capabilities of Large Language Models (LLMs) with the efficient corpus exploration of retrievers in a ReAct agentic loop to solve complex retrieval tasks. In our expe",
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "How to Build a Model Router in the Harness",
+   "link": "https://www.youtube.com/watch?v=5kTFyEOgark",
+   "dt": "2026-10-06T16:31:25+00:00",
+   "summary": "Sydney Runkle, product manager for LangChain's open source team, walks through how the team built a model router into Open SWE, LangChain's open source coding agent. She covers the four steps: mapping the task mix from LangSmith traces, picking models along the Pareto frontier, building the router in the harness, and tracking outcomes. In an A/B test against always using the performance model, the router cut median cost per thread by 64% with no measurable change in quality. Chapters: 0:00 Front…",
    "extra": {
-    "upvotes": 1,
-    "arxiv": "https://arxiv.org/abs/2610.05750"
+    "channel": "LangChain",
+    "video_id": "5kTFyEOgark"
    },
-   "score": 2.565,
+   "score": 2.788,
    "tokens": [
-    "agentic",
-    "beyond",
-    "complex",
-    "costs",
-    "performance",
-    "retrieval",
-    "semantic",
-    "similarity",
-    "tasks"
+    "build",
+    "harness",
+    "model",
+    "router"
    ],
    "flag": "new",
-   "summary_zh": "提出结合LLM推理的agentic检索方法，以应对复杂任务中的稠密检索不足。",
-   "why_zh": "为工程师提供提升检索准确率和成本分析的新思路。"
+   "summary_zh": "说明在Open SWE agent中构建模型路由器的四步：任务混合映射、Pareto前沿模型选择、harness集成及结果追踪。",
+   "why_zh": "展示如何基于任务特征选择模型并构建路由，可学习模型组合与性能成本权衡的实践。",
+   "skills": [
+    "agent_architecture",
+    "system_design"
+   ],
+   "learn_score": 2.788
   },
   {
    "source": "paper",
@@ -223,7 +277,7 @@
     "upvotes": 1,
     "arxiv": "https://arxiv.org/abs/2610.05790"
    },
-   "score": 2.565,
+   "score": 2.354,
    "tokens": [
     "aware",
     "benchmark",
@@ -237,30 +291,12 @@
     "sensing"
    ],
    "flag": "new",
-   "summary_zh": "提出基于生物群的RSFM基准FairRSFM，揭示不同生态区域性能差异并提供去偏框架。",
-   "why_zh": "帮助工程师评估和改进遥感基础模型在各生态群上的公平性与鲁棒性。"
-  },
-  {
-   "source": "youtube",
-   "source_label": "YouTube · LangChain",
-   "title": "How to Build a Model Router in the Harness",
-   "link": "https://www.youtube.com/watch?v=5kTFyEOgark",
-   "dt": "2026-10-06T16:31:25+00:00",
-   "summary": "Sydney Runkle, product manager for LangChain's open source team, walks through how the team built a model router into Open SWE, LangChain's open source coding agent. She covers the four steps: mapping the task mix from LangSmith traces, picking models along the Pareto frontier, building the router in the harness, and tracking outcomes. In an A/B test against always using the performance model, the router cut median cost per thread by 64% with no measurable change in quality. Chapters: 0:00 Front…",
-   "extra": {
-    "channel": "LangChain",
-    "video_id": "5kTFyEOgark"
-   },
-   "score": 1.823,
-   "tokens": [
-    "build",
-    "harness",
-    "model",
-    "router"
+   "summary_zh": "提出基于生物群落的遥感基础模型公平基准FairRSFM，用六宏观生态组评估模型在不同地区的鲁棒性。",
+   "why_zh": "展示如何构建偏感知基准与去偏框架，可学习跨域模型公平评估与偏缓解技术。",
+   "skills": [
+    "eval_observability"
    ],
-   "flag": "new",
-   "summary_zh": "介绍LangChain团构建模型路由器的四步骤：任务混合映射、Pareto前沿模型选择、在harness中构建路由、追踪结果。",
-   "why_zh": "为工程师提供可落地的模型选择与路由实践，可提升推理成本效益。"
+   "learn_score": 1.177
   },
   {
    "source": "youtube",
@@ -273,7 +309,7 @@
     "channel": "LangChain",
     "video_id": "KAITWbHLSSE"
    },
-   "score": 1.215,
+   "score": 2.324,
    "tokens": [
     "add",
     "agents",
@@ -287,8 +323,40 @@
     "web"
    ],
    "flag": "new",
-   "summary_zh": "通过单个MCP配置免费为LangChain托管深度代理添加网页搜索功能，无需额外认证。",
-   "why_zh": "让工程师能快速扩展代理能力，利用内置搜索提升任务解答覆盖率。"
+   "summary_zh": "演示如何通过单个MCP配置免费为LangChain托管深度代理添加网页搜索工具，无需额外认证。",
+   "why_zh": "展示工具集成的标准化流程（MCP），可学习在代理中快速插入外部能力而不改动核心逻辑。",
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 2.324
+  },
+  {
+   "source": "blog",
+   "source_label": "NVIDIA 技术博客",
+   "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+   "link": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
+   "dt": "2026-10-01T23:44:13+00:00",
+   "summary": "GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x faster token generation than the Astra Standard mode. For developers, […]",
+   "extra": {},
+   "score": 1.99,
+   "tokens": [
+    "accelerate",
+    "astra",
+    "gpt",
+    "gpus",
+    "help",
+    "nvidia",
+    "openai",
+    "ultrafast"
+   ],
+   "flag": "new",
+   "summary_zh": "NVIDIA Blackwell GPU 加速 OpenAI GPT-6 Astra Ultrafast，最高提升 8× token 生成速度。",
+   "why_zh": "推理优化与 GPU 架构协同提升大模型吞吐，掌握加速技巧与性能评估方法。",
+   "skills": [
+    "training_serving",
+    "system_design"
+   ],
+   "learn_score": 1.99
   },
   {
    "source": "youtube",
@@ -301,7 +369,7 @@
     "channel": "Sam Witteveen",
     "video_id": "vKjnZAcimss"
    },
-   "score": 1.215,
+   "score": 1.859,
    "tokens": [
     "calls",
     "clicks",
@@ -311,8 +379,12 @@
     "tools"
    ],
    "flag": "new",
-   "summary_zh": "介绍开放权重模型Holo4，能够点击GUI、编写运行代码并调用MCP工具，自动选择合适工具。",
-   "why_zh": "展示多模态工具使用能力，为工程师提供可直接操作GUI与代码的通用Agent范例。"
+   "summary_zh": "介绍开放权重模型Holo4，能够操作GUI、编写执行代码并调用MCP工具，实现多步骤自主任务。",
+   "why_zh": "展示模型如何结合工具使用与代码生成，可学习构建具备交互、编程和工具调用能力的Agent架构。",
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.859
   },
   {
    "source": "blog",
@@ -322,7 +394,7 @@
    "dt": "2026-10-02T06:40:53+00:00",
    "summary": "the minimalist harness goes stable... and TypeScript!",
    "extra": {},
-   "score": 1.033,
+   "score": 1.658,
    "tokens": [
     "aie",
     "ainews",
@@ -331,8 +403,12 @@
     "pi"
    ],
    "flag": "new",
-   "summary_zh": "Pi 1.0及其Durable版本发布，最小化harness稳定并支持TypeScript。",
-   "why_zh": "为工程师提供更稳定、类型安全的AI开发框架，便于在项目中引入Pi及其扩展。"
+   "summary_zh": "Pi 1.0及其Durable版本发布，最小化harness稳定并加入TypeScript支持。",
+   "why_zh": "展示轻量级框架的稳定化与多语言扩展，可学习如何在保持简约的同时引入TypeScript提升工程体验。",
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.658
   },
   {
    "source": "blog",
@@ -342,7 +418,7 @@
    "dt": "2026-10-02T00:28:04+00:00",
    "summary": "We catch up with RLM first author Alex Zhang, MIT PhD, on Jev, PhD masxing, and the future of harnesses.",
    "extra": {},
-   "score": 1.033,
+   "score": 1.658,
    "tokens": [
     "academia",
     "alex",
@@ -351,31 +427,12 @@
     "zhang"
    ],
    "flag": "new",
-   "summary_zh": "采访 MIT 博士 Alex Zhang，谈 RLM 首作、Jev、PhD masxing 及未来 harnesses 方向。",
-   "why_zh": "揭示顶尖学术研究在大模型与检索增强方面的最新思路，对工程师有启发。"
-  },
-  {
-   "source": "blog",
-   "source_label": "NVIDIA 技术博客",
-   "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
-   "link": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
-   "dt": "2026-10-01T23:44:13+00:00",
-   "summary": "GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x faster token generation than the Astra Standard mode. For developers, […]",
-   "extra": {},
-   "score": 1.033,
-   "tokens": [
-    "accelerate",
-    "astra",
-    "gpt",
-    "gpus",
-    "help",
-    "nvidia",
-    "openai",
-    "ultrafast"
+   "summary_zh": "采访 MIT 博士 Alex Zhang，讨论 RLM 首作、Jev、PhD masxing 及未来 harnesses 应用。",
+   "why_zh": "了解顶尖学术访谈中如何评估新型语言模型与系统设计，学习研究思路与技术趋势的捕捉方法。",
+   "skills": [
+    "agent_architecture"
    ],
-   "flag": "new",
-   "summary_zh": "GPT-6 Astra Ultrafast 在 NVIDIA Blackwell GPU 上运行，提供最高 8 倍更快的 token 生成。",
-   "why_zh": "展示最新推理加速技术及可用 API，帮助工程师提升模型部署效率。"
+   "learn_score": 1.658
   }
  ],
  "dups": [
@@ -403,8 +460,8 @@
    "score": 4.374,
    "flag": "dup",
    "dup_note": "已于 2026-10-06 推荐过",
-   "summary_zh": "用户提供喜欢视频，AI 团队（Claude Code 或 Codex）规划、构建并审查生成同风格新视频。",
-   "why_zh": "展示 AI 代理协作进行视频风格迁移，降低创作门槛。"
+   "summary_zh": "输入喜欢视频，AI 团队（Claude Code/Codex）生成同风格新视频。",
+   "why_zh": "学习多模态视频生成流程，利用 LLM 进行创意规划、构建与评审的协作实践。"
   },
   {
    "source": "github",
@@ -430,8 +487,8 @@
    "score": 4.374,
    "flag": "dup",
    "dup_note": "已于 2026-10-06 推荐过",
-   "summary_zh": "使用 Claude Code 及 fal MCP 进行游戏逆向、资产生成、测试等全流程 MOD 制作。",
-   "why_zh": "表明大模型可直接参与游戏逆向与内容创作，为工程师提供新范式。"
+   "summary_zh": "使用 Claude Code 通过技能、工具和 fal MCP 对任意 PC 游戏进行逆向、修改、资产生成及测试。",
+   "why_zh": "掌握游戏逆向工程、LLM 驱动的 mod 流程，以及自动化艺术/3D/音频生成与内测一体化方法。"
   },
   {
    "source": "github",
@@ -457,8 +514,8 @@
    "score": 4.131,
    "flag": "dup",
    "dup_note": "已于 2026-10-06 推荐过",
-   "summary_zh": "菜单栏工具统一管理多种 AI 代理模型，如 Codex 在 DeepSeek、Claude Code 在 Kimi 上运行。",
-   "why_zh": "提供便捷切换与监控多模型代理的入口，提升开发效率。"
+   "summary_zh": "菜单栏工具统一管理多种 Agent 模型，如 Codex 在 DeepSeek、Claude Code 在 Kimi。",
+   "why_zh": "学习多模型切换与集成、Agent 调度界面设计，以及统一模型管理的实践经验。"
   },
   {
    "source": "github",
@@ -484,8 +541,8 @@
    "score": 4.131,
    "flag": "dup",
    "dup_note": "已于 2026-10-06 推荐过",
-   "summary_zh": "小巧的 Mac 菜单栏 / iPhone 小组件实时监控 Claude Code 等 AI 编码代理，支持从锁屏或刘海批准。",
-   "why_zh": "让工程师能即时监督并干预 AI 编码行为，提升安全与可控性。"
+   "summary_zh": "菜单栏/锁屏小工具实时监控 AI 编码代理（Claude Code、Codex 等），支持批准操作。",
+   "why_zh": "了解 AI 代理状态可视化与快速审批机制，掌握跨平台监控与交互的实现方法。"
   },
   {
    "source": "github",
@@ -511,8 +568,8 @@
    "score": 4.131,
    "flag": "dup",
    "dup_note": "已于 2026-10-06 推荐过",
-   "summary_zh": "提供覆盖 Prompt Engineering 到模型部署等全栈 LLM 学习路线的中文教程。",
-   "why_zh": "对 AI 工程师系统掌握 LLM 技术栈和面试准备极具参考价值。"
+   "summary_zh": "提供覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程及大厂面试的 LLM 全栈学习路线和中文教程。",
+   "why_zh": "面试价值：系统化掌握 LLM 全链路技能，可直接用于大模型工程、Agent 构建及模型部署实战，提升面试竞争力。"
   },
   {
    "source": "github",
@@ -537,7 +594,9 @@
    },
    "score": 4.131,
    "flag": "dup",
-   "dup_note": "已于 2026-10-06 推荐过"
+   "dup_note": "已于 2026-10-06 推荐过",
+   "summary_zh": "提供基于 DeepSeek 的编码 Agent 框架，具备持久化 shell、Ultra 子代理、自动批准、Chrome MCP 及会话遥测功能。",
+   "why_zh": "面试价值：学习构建持久化、可扩展的 AI 编码 Agent，掌握子代理调度、自动批准及 MCP 集成等实用做法。"
   }
  ]
 }

@@ -19,6 +19,7 @@ AI 前沿日报采集器
 import gzip
 import html
 import json
+import math
 import os
 import re
 import ssl
@@ -673,7 +674,21 @@ def jaccard(a, b):
     return len(a & b) / len(a | b)
 
 
-def score_item(item, scoring, now):
+def match_skill_tree(hay, tree):
+    """返回命中的面试技能树分支 key（按配置顺序）。"""
+    if not hay or not tree:
+        return []
+    low = hay.lower()
+    return [
+        node
+        for node, kws in tree.items()
+        if not node.startswith("_") and any(k.lower() in low for k in kws)
+    ]
+
+
+def learn_score_item(item, scoring, now):
+    """面试学习价值：不看星数/分数等热度基数，只看来源权重、时效、
+    以及技能树 / 实践 / 新闻加权。周报用它排序，避免热门新闻霸榜。"""
     w = item.get("weight_override") or scoring["source_weight"].get(item["source"], 0.7)
     days = (now - item["dt"]).days if item["dt"] else 99
     rf = 0.5
@@ -685,21 +700,36 @@ def score_item(item, scoring, now):
     hay = (item["title"] + " " + item["summary"]).lower()
     if any(k.lower() in hay for k in scoring["hot_keywords"]):
         boost *= float(scoring["hot_boost"])
-    # 面试硬通货：系统设计 / 从零实现 / 深入原理。只对博客和视频生效，
-    # 论文不加这个加成（否则 arXiv 会被顶得过高）。
-    if item["source"] in ("blog", "youtube") and any(
-        k.lower() in hay for k in scoring.get("interview_keywords", [])
-    ):
-        boost *= float(scoring.get("interview_boost", 1.0))
+    # 面试技能树：命中分支即加权，命中越多加成越高。目的是把内容从
+    # 「新闻」推向「可复习、面试能讲出来的技能」，周报再按技能树归类。
+    skills = match_skill_tree(hay, scoring.get("interview_skill_tree") or {})
+    item["skills"] = skills
+    if skills:
+        boost *= float(scoring.get("interview_skill_boost", 1.6))
+        extra = min(3, len(skills) - 1)
+        boost *= 1.0 + extra * float(scoring.get("interview_skill_stack_bonus", 0.2))
+    # 可复用的实践 / 教程类再加权
+    if any(k.lower() in hay for k in scoring.get("practice_keywords", [])):
+        boost *= float(scoring.get("practice_boost", 1.0))
+    # 纯新闻 / 资本 / 榜单类降权，避免占满周报版面
+    if any(k.lower() in hay for k in scoring.get("news_keywords", [])):
+        boost *= float(scoring.get("news_penalty", 1.0))
+    return round(w * rf * boost, 3)
+
+
+def score_item(item, scoring, now):
+    """日报排序分：学习价值 × 热度基数（星数 / 分数 / 点赞）。"""
+    ls = learn_score_item(item, scoring, now)
+    item["learn_score"] = ls
     base = 1.0
     ex = item.get("extra", {})
     if item["source"] == "github":
-        base = 1.0 + min(3.0, __import__("math").log10(max(10, ex.get("stars", 0))))
+        base = 1.0 + min(3.0, math.log10(max(10, ex.get("stars", 0))))
     elif item["source"] == "hackernews":
-        base = 1.0 + min(3.0, __import__("math").log10(max(10, ex.get("points", 0))))
+        base = 1.0 + min(3.0, math.log10(max(10, ex.get("points", 0))))
     elif item["source"] == "paper":
-        base = 1.0 + min(2.0, __import__("math").log10(max(10, ex.get("upvotes", 10))))
-    return round(w * rf * boost * base, 3)
+        base = 1.0 + min(2.0, math.log10(max(10, ex.get("upvotes", 10))))
+    return round(ls * base, 3)
 
 
 # --------------------------------------------------------------------------
@@ -764,7 +794,8 @@ def build_prompt(batch):
         "下面是今天采集到的 AI 前沿动态条目。请为每一条输出：\n"
         '  "summary": 一句中文摘要（不超过 70 字，说清楚它做了什么 / 发了什么，'
         "保留专有名词原文，不要客套话）\n"
-        '  "why": 一句中文「为什么值得关注」（不超过 60 字，面向 AI 工程师）\n'
+        '  "why": 一句中文「面试价值」（不超过 70 字，面向 agent / AI 工程师面试：'
+        "点明它属于哪个技能点、能学到什么可复用的做法，不要空泛地说「有启发」）\n"
         '严格输出 JSON：{"items":[{"id":0,"summary":"…","why":"…"}, …]}，'
         "id 必须与输入编号一致，不要遗漏任何编号。\n\n" + "\n\n".join(lines)
     )

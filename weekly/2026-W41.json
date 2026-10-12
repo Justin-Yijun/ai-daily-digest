@@ -2,210 +2,446 @@
  "week": "2026-W41",
  "start": "2026-10-05",
  "end": "2026-10-11",
- "generated": "2026-10-11 23:54",
+ "generated": "2026-10-12 16:50",
+ "groups": [
+  {
+   "skill": "prompt_context",
+   "label": "提示 / 上下文工程",
+   "items": [
+    {
+     "source": "github",
+     "source_label": "GitHub",
+     "title": "youngyangyang04/llm-master",
+     "link": "https://github.com/youngyangyang04/llm-master",
+     "dt": "2026-09-12T07:33:31+00:00",
+     "summary": "大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。",
+     "extra": {
+      "stars": 1084,
+      "language": "",
+      "topics": [
+       "agent",
+       "large-language-models",
+       "llm",
+       "llm-learning",
+       "llm-tutorial",
+       "rag"
+      ],
+      "created": "2026-09-12",
+      "pushed": "2026-10-05"
+     },
+     "score": 14.044,
+     "tokens": [
+      "llm",
+      "master",
+      "youngyangyang04"
+     ],
+     "flag": "new",
+     "summary_zh": "一份覆盖 Prompt Engineering、RAG、AI Agent、MCP 等全栈内容的中文 LLM 学习路线教程。",
+     "why_zh": "系统学习 LLM 全栈技术栈，从 Prompt Engineering 到模型部署，面试中可证明端到端项目能力。",
+     "skills": [
+      "prompt_context",
+      "rag",
+      "tool_mcp",
+      "training_serving",
+      "llm_fundamentals"
+     ],
+     "learn_score": 3.511
+    },
+    {
+     "source": "youtube",
+     "source_label": "YouTube · OpenAI",
+     "title": "Stop Overpaying for Intelligence | DevDay 2026",
+     "link": "https://www.youtube.com/watch?v=_nmlHbSB8kM",
+     "dt": "2026-10-07T21:10:51+00:00",
+     "summary": "Cut AI costs while preserving quality. Learn to measure cost per completed task, choose models and reasoning effort, and use prompt caching, Programmatic Tool Calling, and the Batch API.",
+     "extra": {
+      "channel": "OpenAI",
+      "video_id": "_nmlHbSB8kM"
+     },
+     "score": 2.603,
+     "tokens": [
+      "2026",
+      "devday",
+      "intelligence",
+      "overpaying",
+      "stop"
+     ],
+     "flag": "new",
+     "summary_zh": "教如何降低 AI 成本而不损失质量，使用每任务成本度量、模型选择、提示缓存、工具调用和批量 API。",
+     "why_zh": "提供成本优化实战方法，帮助工程师在实际项目中平衡性能与费用。",
+     "skills": [
+      "prompt_context",
+      "tool_mcp",
+      "training_serving"
+     ],
+     "learn_score": 2.603
+    }
+   ]
+  },
+  {
+   "skill": "rag",
+   "label": "RAG 检索增强",
+   "items": [
+    {
+     "source": "paper",
+     "source_label": "HF Daily Papers",
+     "title": "Beyond Semantic Similarity: Performance and Costs of Agentic Retrieval for Complex Tasks",
+     "link": "https://huggingface.co/papers/2610.05750",
+     "dt": "2026-10-04T20:00:00+00:00",
+     "summary": "Modern information systems, including many agentic workflows, use dense retrieval to explore large amounts of unstructured data. However, dense retrieval relies on surface-level semantic similarity, which is insufficient for increasingly complex search applications. Here, we investigate agentic retrieval that combines the reasoning capabilities of Large Language Models (LLMs) with the efficient corpus exploration of retrievers in a ReAct agentic loop to solve complex retrieval tasks. In our expe",
+     "extra": {
+      "upvotes": 1,
+      "arxiv": "https://arxiv.org/abs/2610.05750"
+     },
+     "score": 7.848,
+     "tokens": [
+      "agentic",
+      "beyond",
+      "complex",
+      "costs",
+      "performance",
+      "retrieval",
+      "semantic",
+      "similarity",
+      "tasks"
+     ],
+     "flag": "new",
+     "summary_zh": "提出结合LLM推理的agentic检索方法，以提升复杂任务的检索性能并分析成本。",
+     "why_zh": "体现检索增强生成与LLM推理结合的设计思路，可学习复杂任务下的检索策略与成本评估方法。",
+     "skills": [
+      "rag",
+      "agent_architecture",
+      "eval_observability",
+      "training_serving"
+     ],
+     "learn_score": 3.924
+    },
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.AI",
+     "title": "RadOnc-Agent: An LLM-Orchestrated Framework for AI Workflows Across the Radiotherapy Care Pathway",
+     "link": "https://arxiv.org/abs/2610.06923",
+     "dt": "2026-10-08T00:00:00-04:00",
+     "summary": "arXiv:2610.06923v1 Announce Type: new Abstract: Artificial intelligence has advanced individual radiotherapy tasks, yet these capabilities remain separated across clinical stages, software environments and data modalities. This fragmentation contrasts with the longitudinal radiotherapy workflow from treatment decision-making through follow-up. Here we present RadOnc-Agent, an agentic artificial-intelligence framework that formalizes radiotherapy into four clinical phases and provides 26 callable",
+     "extra": {},
+     "weight_override": 1.3,
+     "score": 6.712,
+     "tokens": [
+      "across",
+      "agent",
+      "ai",
+      "care",
+      "framework",
+      "llm",
+      "orchestrated",
+      "pathway",
+      "radiotherapy",
+      "radonc",
+      "workflows"
+     ],
+     "flag": "new",
+     "summary_zh": "提出 RadOnc-Agent，利用 LLM 编排放射治疗全流程的 AI 工作流，实现跨阶段、跨模态的协同。",
+     "why_zh": "了解如何用 LLM 编排复杂多步骤医疗工作流，学习跨模态数据融合与任务分解的实践框架。",
+     "skills": [
+      "rag"
+     ],
+     "learn_score": 3.356
+    }
+   ]
+  },
+  {
+   "skill": "tool_mcp",
+   "label": "工具调用 / MCP",
+   "items": [
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.AI",
+     "title": "Choosing Before Acting: Comparative Value Estimation for Long-Horizon Tool-Use Agents",
+     "link": "https://arxiv.org/abs/2610.02330",
+     "dt": "2026-10-05T00:00:00-04:00",
+     "summary": "arXiv:2610.02330v1 Announce Type: new Abstract: Large language models (LLMs) rely on long-horizon tool invocation sequences for complex tasks, where each invocation can alter the task state and condition subsequent decisions. In long-horizon tool use, final-outcome rewards provide weak credit assignment over long interaction traces. Step-level rewards can offer more targeted feedback, but obtaining reliable step supervision often requires human or LLM judgment, or additional rollouts to estimate",
+     "extra": {},
+     "weight_override": 1.3,
+     "score": 5.37,
+     "tokens": [
+      "acting",
+      "agents",
+      "before",
+      "choosing",
+      "comparative",
+      "estimation",
+      "horizon",
+      "long",
+      "tool",
+      "use",
+      "value"
+     ],
+     "flag": "new",
+     "summary_zh": "提出比较价值估计方法为长 horizon 工具使用Agent提供步骤级奖励，改善信用分配。",
+     "why_zh": "教授如何设计步骤奖励函数，提升长序列决策的强化学习效果。",
+     "skills": [
+      "tool_mcp"
+     ],
+     "learn_score": 2.685
+    },
+    {
+     "source": "youtube",
+     "source_label": "YouTube · LangChain",
+     "title": "Add Web Search to Managed Deep Agents for free with One MCP Config",
+     "link": "https://www.youtube.com/watch?v=KAITWbHLSSE",
+     "dt": "2026-10-06T15:52:50+00:00",
+     "summary": "Nathan Drezner, PM at LangChain, shows how to add web search to a managed deep agent. LangSmith includes built-in search powered by Parallel, so it takes one MCP connection with no extra authentication. He asks a research agent a question its internal docs can't fully answer, adds the search server, then deploys to LangSmith and inspects the search tool calls in LangSmith Studio. Chapters: 0:00 Why give your managed deep agent web search 0:21 Start from the docs 0:38 A research agent limited to …",
+     "extra": {
+      "channel": "LangChain",
+      "video_id": "KAITWbHLSSE"
+     },
+     "score": 2.324,
+     "tokens": [
+      "add",
+      "agents",
+      "config",
+      "deep",
+      "free",
+      "managed",
+      "mcp",
+      "one",
+      "search",
+      "web"
+     ],
+     "flag": "new",
+     "summary_zh": "演示如何通过单个MCP配置免费为LangChain托管深度代理添加网页搜索工具，无需额外认证。",
+     "why_zh": "展示工具集成的标准化流程（MCP），可学习在代理中快速插入外部能力而不改动核心逻辑。",
+     "skills": [
+      "tool_mcp"
+     ],
+     "learn_score": 2.324
+    }
+   ]
+  },
+  {
+   "skill": "agent_architecture",
+   "label": "Agent 架构与循环",
+   "items": [
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.AI",
+     "title": "Text2Dashboard: A Governed Agent Architecture for Natural-Language Dashboard Generation over Enterprise DataBrain",
+     "link": "https://arxiv.org/abs/2610.06914",
+     "dt": "2026-10-07T00:00:00-04:00",
+     "summary": "arXiv:2610.06914v1 Announce Type: new Abstract: Text2Dashboard is a DataBrain-specific prototype that turns natural-language analytic requests into inspectable dashboards. An installable Codex plugin and standalone Agent Runtime combine schema-constrained model decisions with typed tools, persistent state, and deterministic Hooks for approval, audit, checkpointing, recovery, and failure handling. The pipeline resolves entities, discovers metadata, enforces read-only SQL, composes dashboards, and",
+     "extra": {},
+     "weight_override": 1.3,
+     "score": 6.444,
+     "tokens": [
+      "agent",
+      "architecture",
+      "dashboard",
+      "databrain",
+      "enterprise",
+      "generation",
+      "governed",
+      "language",
+      "natural",
+      "over",
+      "text2dashboard"
+     ],
+     "flag": "new",
+     "summary_zh": "Text2Dashboard 将自然语言分析请求转换为可检查的企业仪表盘，含插件、运行时和审计机制。",
+     "why_zh": "演示受控 Agent 架构如何实现可审计、可恢复的数据分析，可学习在企业场景中构建可信任的 LLM 工具。",
+     "skills": [
+      "agent_architecture",
+      "system_design"
+     ],
+     "learn_score": 3.222
+    },
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.AI",
+     "title": "Agent-Controlled Forgetting for Tool-Using Agents: Reversible Context Curation in Practice",
+     "link": "https://arxiv.org/abs/2610.10590",
+     "dt": "2026-10-09T00:00:00-04:00",
+     "summary": "arXiv:2610.10590v1 Announce Type: new Abstract: Tool-using agents repeatedly carry observations whose useful content can be much smaller than their original payload. We study agent-controlled forgetting: the acting model selects previously observed tool results, replaces each with a short note at its original position, and retains the exact original in a recoverable archive. A Python harness exposes batch archival and explicit recovery without task-specific model training, while protecting user ",
+     "extra": {},
+     "weight_override": 1.3,
+     "score": 5.668,
+     "tokens": [
+      "agent",
+      "agents",
+      "context",
+      "controlled",
+      "curation",
+      "forgetting",
+      "practice",
+      "reversible",
+      "tool"
+     ],
+     "flag": "new",
+     "summary_zh": "提出 Agent‑可控遗忘机制，用短注释替换工具结果并保存原始内容以便恢复。",
+     "why_zh": "展示如何在 Agent 中实现可逆的上下文压缩，提升长任务中的信息检索效率。",
+     "skills": [
+      "agent_architecture"
+     ],
+     "learn_score": 2.834
+    },
+    {
+     "source": "youtube",
+     "source_label": "YouTube · LangChain",
+     "title": "How to Build a Model Router in the Harness",
+     "link": "https://www.youtube.com/watch?v=5kTFyEOgark",
+     "dt": "2026-10-06T16:31:25+00:00",
+     "summary": "Sydney Runkle, product manager for LangChain's open source team, walks through how the team built a model router into Open SWE, LangChain's open source coding agent. She covers the four steps: mapping the task mix from LangSmith traces, picking models along the Pareto frontier, building the router in the harness, and tracking outcomes. In an A/B test against always using the performance model, the router cut median cost per thread by 64% with no measurable change in quality. Chapters: 0:00 Front…",
+     "extra": {
+      "channel": "LangChain",
+      "video_id": "5kTFyEOgark"
+     },
+     "score": 2.788,
+     "tokens": [
+      "build",
+      "harness",
+      "model",
+      "router"
+     ],
+     "flag": "new",
+     "summary_zh": "说明在Open SWE agent中构建模型路由器的四步：任务混合映射、Pareto前沿模型选择、harness集成及结果追踪。",
+     "why_zh": "展示如何基于任务特征选择模型并构建路由，可学习模型组合与性能成本权衡的实践。",
+     "skills": [
+      "agent_architecture",
+      "system_design"
+     ],
+     "learn_score": 2.788
+    },
+    {
+     "source": "youtube",
+     "source_label": "YouTube · LangChain",
+     "title": "What is an agent skill? How to protect your agent's context window.",
+     "link": "https://www.youtube.com/shorts/1BfAsoVz32Q",
+     "dt": "2026-10-08T00:46:24+00:00",
+     "summary": "What’s the difference between a long-running agent that can seamlessly execute complex tasks, and one that constantly get stuck? The context. A bad agent is usually the outcome of high volume of information being crammed into a context window all at once. Skills are how LangChain's Deep Agents harness fixes that. A Skill is a folder with instructions, scripts, references, and assets for one task, but only its name and description load at startup. It’s like reading the back of a book instead of t…",
+     "extra": {
+      "channel": "LangChain",
+      "video_id": ""
+     },
+     "score": 2.324,
+     "tokens": [
+      "agent",
+      "context",
+      "protect",
+      "skill",
+      "window"
+     ],
+     "flag": "new",
+     "summary_zh": "解释 Agent Skill 为文件夹形式的任务指令、脚本等，用以防止上下文窗口过载并提升复杂任务执行。",
+     "why_zh": "教授如何通过 Skill 机制管理上下文，提升 Agent 任务鲁棒性，是 LangChain 深度 Agent 的核心实践。",
+     "skills": [
+      "agent_architecture"
+     ],
+     "learn_score": 2.324
+    }
+   ]
+  },
+  {
+   "skill": "eval_observability",
+   "label": "评测与可观测",
+   "items": [
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.AI",
+     "title": "Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction",
+     "link": "https://arxiv.org/abs/2610.10549",
+     "dt": "2026-10-09T00:00:00-04:00",
+     "summary": "arXiv:2610.10549v1 Announce Type: new Abstract: Tool-calling agents have become central to enterprise AI, yet training and evaluating them at scale remains severely constrained due to business and legal restrictions on enterprise systems, data, and database schemas. Tabular data synthesis offers a natural alternative, but its effectiveness is fundamentally limited by structural validity and schema availability, while procedure-based approaches yield the opposite weakness, typically lacking distr",
+     "extra": {},
+     "weight_override": 1.3,
+     "score": 5.668,
+     "tokens": [
+      "agent",
+      "coherent",
+      "data",
+      "enterprise",
+      "generating",
+      "interaction",
+      "scalable",
+      "simulation",
+      "synthesis",
+      "system",
+      "through"
+     ],
+     "flag": "new",
+     "summary_zh": "通过可扩展的 Agent‑系统交互模拟生成符合企业 schema 的表格数据，用于训练工具调用 Agent。",
+     "why_zh": "提供可复用的数据合成方法，解决企业数据受限下的 Agent 训练与评估问题。",
+     "skills": [
+      "eval_observability"
+     ],
+     "learn_score": 2.834
+    },
+    {
+     "source": "youtube",
+     "source_label": "YouTube · LangChain",
+     "title": "Three Questions Every Agent Engineer Should Be Able To Answer",
+     "link": "https://www.youtube.com/watch?v=oVKGKdIAgtg",
+     "dt": "2026-10-09T17:16:00+00:00",
+     "summary": "Jake Broekhuizen of LangChain Labs argues that owning your own intelligence comes down to three questions every agent engineer should be able to answer: where is your agent failing, how can you reliably make it fail again, and what needs to happen so it stops failing. He covers using a fine-tuned judge to mine production traces when frontier LLM-as-judge evaluators get expensive at scale, building world specs and tasks that mimic production with LangChain's internal GTM agent as the example, and…",
+     "extra": {
+      "channel": "LangChain",
+      "video_id": "oVKGKdIAgtg"
+     },
+     "score": 2.355,
+     "tokens": [
+      "able",
+      "agent",
+      "answer",
+      "engineer",
+      "every",
+      "questions",
+      "should",
+      "three"
+     ],
+     "flag": "new",
+     "summary_zh": "提出三个关键问题：代理失效位置、可靠复现方法及停止失效所需条件，并介绍微调判定法挖掘生产轨迹",
+     "why_zh": "提供定位与复现代理失效的系统化思路，可用于调试和提升代理鲁棒性",
+     "skills": [
+      "eval_observability",
+      "training_serving"
+     ],
+     "learn_score": 2.355
+    }
+   ]
+  }
+ ],
  "items": [
   {
-   "source": "hackernews",
-   "source_label": "Hacker News",
-   "title": "Claude Code’s suggested message feature: I think the real customer is the model",
-   "link": "https://www.zohaib.cc/blog/smartest-claude-code-feature",
-   "dt": "2026-10-06T18:00:34+00:00",
-   "summary": "",
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Beyond Semantic Similarity: Performance and Costs of Agentic Retrieval for Complex Tasks",
+   "link": "https://huggingface.co/papers/2610.05750",
+   "dt": "2026-10-04T20:00:00+00:00",
+   "summary": "Modern information systems, including many agentic workflows, use dense retrieval to explore large amounts of unstructured data. However, dense retrieval relies on surface-level semantic similarity, which is insufficient for increasingly complex search applications. Here, we investigate agentic retrieval that combines the reasoning capabilities of Large Language Models (LLMs) with the efficient corpus exploration of retrievers in a ReAct agentic loop to solve complex retrieval tasks. In our expe",
    "extra": {
-    "points": 255,
-    "comments": 149,
-    "hn_link": "https://news.ycombinator.com/item?id=49981905"
+    "upvotes": 1,
+    "arxiv": "https://arxiv.org/abs/2610.05750"
    },
-   "score": 4.599,
+   "score": 7.848,
    "tokens": [
-    "claude",
-    "code",
-    "customer",
-    "feature",
-    "message",
-    "model",
-    "real",
-    "suggested",
-    "think"
+    "agentic",
+    "beyond",
+    "complex",
+    "costs",
+    "performance",
+    "retrieval",
+    "semantic",
+    "similarity",
+    "tasks"
    ],
    "flag": "new",
-   "summary_zh": "Claude Code 新增建议消息功能，认为真正的用户是模型自身。",
-   "why_zh": "对 AI 工程师值得关注：该功能让模型能自我引导提示，提升代码生成可控性。"
-  },
-  {
-   "source": "hackernews",
-   "source_label": "Hacker News",
-   "title": "I think I found a planet nobody knew existed. I used Claude Code to find it",
-   "link": "https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9",
-   "dt": "2026-10-08T07:07:34+00:00",
-   "summary": "",
-   "extra": {
-    "points": 246,
-    "comments": 119,
-    "hn_link": "https://news.ycombinator.com/item?id=50002665"
-   },
-   "score": 4.578,
-   "tokens": [
-    "claude",
-    "code",
-    "existed",
-    "find",
-    "found",
-    "knew",
-    "nobody",
-    "planet",
-    "think",
-    "used"
+   "summary_zh": "提出结合LLM推理的agentic检索方法，以提升复杂任务的检索性能并分析成本。",
+   "why_zh": "体现检索增强生成与LLM推理结合的设计思路，可学习复杂任务下的检索策略与成本评估方法。",
+   "skills": [
+    "rag",
+    "agent_architecture",
+    "eval_observability",
+    "training_serving"
    ],
-   "flag": "new",
-   "summary_zh": "用户用 Claude Code 发现一颗此前未知的行星。",
-   "why_zh": "展示 LLM 辅助科研发现潜力，对 AI 工程师具启发意义。"
-  },
-  {
-   "source": "hackernews",
-   "source_label": "Hacker News",
-   "title": "Getting the most out of Opus 5.5 in Claude and Claude Code",
-   "link": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/",
-   "dt": "2026-10-03T18:29:30+00:00",
-   "summary": "",
-   "extra": {
-    "points": 235,
-    "comments": 157,
-    "hn_link": "https://news.ycombinator.com/item?id=49946567"
-   },
-   "score": 4.551,
-   "tokens": [
-    "claude",
-    "code",
-    "getting",
-    "opus"
-   ],
-   "flag": "new",
-   "summary_zh": "介绍如何在 Claude 及 Claude Code 中充分利用 Opus 5.5 模型。",
-   "why_zh": "对提升代码助手性能和效果有实用指导。"
-  },
-  {
-   "source": "github",
-   "source_label": "GitHub",
-   "title": "Louis-CFM/coucou",
-   "link": "https://github.com/Louis-CFM/coucou",
-   "dt": "2026-09-27T21:54:12+00:00",
-   "summary": "A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows, Linux) and keeps an eye on your coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more.",
-   "extra": {
-    "stars": 3592,
-    "language": "Swift",
-    "topics": [
-     "ai-agents",
-     "anthropic",
-     "antigravity",
-     "claude",
-     "claude-code",
-     "codex"
-    ],
-    "created": "2026-09-27",
-    "pushed": "2026-10-05"
-   },
-   "score": 4.374,
-   "tokens": [
-    "cfm",
-    "coucou",
-    "louis"
-   ],
-   "flag": "new",
-   "summary_zh": "一个小工具居住在系统栏，实时监控 Claude Code 等编码代理的状态。",
-   "why_zh": "让开发者一眼看到多代理运行情况，提升调度与调试便利。"
-  },
-  {
-   "source": "github",
-   "source_label": "GitHub",
-   "title": "rehan-remade/universal-modder",
-   "link": "https://github.com/rehan-remade/universal-modder",
-   "dt": "2026-09-30T05:00:35+00:00",
-   "summary": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
-   "extra": {
-    "stars": 3546,
-    "language": "Python",
-    "topics": [
-     "age-of-empires",
-     "claude-code",
-     "claude-code-plugin",
-     "fal",
-     "game-assets",
-     "game-modding"
-    ],
-    "created": "2026-09-30",
-    "pushed": "2026-10-05"
-   },
-   "score": 4.374,
-   "tokens": [
-    "modder",
-    "rehan",
-    "remade",
-    "universal"
-   ],
-   "flag": "new",
-   "summary_zh": "使 Claude Code 能够通过技能、工具和 fal MCP 对任意 PC 游戏进行逆向、生成资产和测试。",
-   "why_zh": "为游戏 MOD 开发提供 AI 辅助流程，大幅降低逆向和内容创作门槛。"
-  },
-  {
-   "source": "github",
-   "source_label": "GitHub",
-   "title": "edenfunf/reelmimic",
-   "link": "https://github.com/edenfunf/reelmimic",
-   "dt": "2026-09-28T19:14:59+00:00",
-   "summary": "Show it a video you love. Get a new video in the same style. An AI crew (Claude Code or Codex) plans, builds and reviews it with you.",
-   "extra": {
-    "stars": 1442,
-    "language": "JavaScript",
-    "topics": [
-     "2d-animation",
-     "ai-agents",
-     "ai-video",
-     "animation",
-     "claude-code",
-     "codex"
-    ],
-    "created": "2026-09-28",
-    "pushed": "2026-10-06"
-   },
-   "score": 4.374,
-   "tokens": [
-    "edenfunf",
-    "reelmimic"
-   ],
-   "flag": "new",
-   "summary_zh": "用户提供喜欢视频，AI 团队（Claude Code 或 Codex）规划、构建并审查生成同风格新视频。",
-   "why_zh": "展示 AI 代理协作进行视频风格迁移，降低创作门槛。"
-  },
-  {
-   "source": "github",
-   "source_label": "GitHub",
-   "title": "yetone/magpie",
-   "link": "https://github.com/yetone/magpie",
-   "dt": "2026-09-23T16:22:35+00:00",
-   "summary": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-   "extra": {
-    "stars": 5030,
-    "language": "Go",
-    "topics": [
-     "claude-code",
-     "codex",
-     "deepseek",
-     "gemini-cli",
-     "llm",
-     "macos"
-    ],
-    "created": "2026-09-23",
-    "pushed": "2026-10-05"
-   },
-   "score": 4.131,
-   "tokens": [
-    "magpie",
-    "yetone"
-   ],
-   "flag": "new",
-   "summary_zh": "菜单栏工具统一管理多种代理模型，如 Codex 在 DeepSeek、Claude Code 在 Kimi 上运行。",
-   "why_zh": "让开发者快速切换和比较不同后端模型，提升实验效率。"
+   "learn_score": 3.924
   },
   {
    "source": "github",
@@ -228,133 +464,323 @@
     "created": "2026-09-12",
     "pushed": "2026-10-05"
    },
-   "score": 4.131,
+   "score": 14.044,
    "tokens": [
     "llm",
     "master",
     "youngyangyang04"
    ],
    "flag": "new",
-   "summary_zh": "提供覆盖 Prompt Engineering 到模型部署等全栈 LLM 学习路线的中文教程。",
-   "why_zh": "对 AI 工程师系统掌握 LLM 技术栈和面试准备极具参考价值。"
+   "summary_zh": "一份覆盖 Prompt Engineering、RAG、AI Agent、MCP 等全栈内容的中文 LLM 学习路线教程。",
+   "why_zh": "系统学习 LLM 全栈技术栈，从 Prompt Engineering 到模型部署，面试中可证明端到端项目能力。",
+   "skills": [
+    "prompt_context",
+    "rag",
+    "tool_mcp",
+    "training_serving",
+    "llm_fundamentals"
+   ],
+   "learn_score": 3.511
   },
   {
-   "source": "github",
-   "source_label": "GitHub",
-   "title": "lemomo-ai/lemo-opuscar",
-   "link": "https://github.com/lemomo-ai/lemo-opuscar",
-   "dt": "2026-09-26T10:10:41+00:00",
-   "summary": "Claude Code skill for short films with no video model: 43 film styles, each a style prompt plus a demo film made entirely in code by Claude Opus 5.5 (incl. OPUSCAR 98). By Lemomo. | Opus5.5 x 43 种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南",
-   "extra": {
-    "stars": 1335,
-    "language": "JavaScript",
-    "topics": [
-     "agent-skills",
-     "ai-agents",
-     "ai-short-film",
-     "ai-video",
-     "animation",
-     "canvas"
-    ],
-    "created": "2026-09-26",
-    "pushed": "2026-10-05"
-   },
-   "score": 4.131,
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "RadOnc-Agent: An LLM-Orchestrated Framework for AI Workflows Across the Radiotherapy Care Pathway",
+   "link": "https://arxiv.org/abs/2610.06923",
+   "dt": "2026-10-08T00:00:00-04:00",
+   "summary": "arXiv:2610.06923v1 Announce Type: new Abstract: Artificial intelligence has advanced individual radiotherapy tasks, yet these capabilities remain separated across clinical stages, software environments and data modalities. This fragmentation contrasts with the longitudinal radiotherapy workflow from treatment decision-making through follow-up. Here we present RadOnc-Agent, an agentic artificial-intelligence framework that formalizes radiotherapy into four clinical phases and provides 26 callable",
+   "extra": {},
+   "weight_override": 1.3,
+   "score": 6.712,
    "tokens": [
+    "across",
+    "agent",
     "ai",
-    "lemo",
-    "lemomo",
-    "opuscar"
+    "care",
+    "framework",
+    "llm",
+    "orchestrated",
+    "pathway",
+    "radiotherapy",
+    "radonc",
+    "workflows"
    ],
    "flag": "new",
-   "summary_zh": "Claude Opus 5.5 生成 43 种电影风格的纯代码短片，附风格提示词和导演指南。",
-   "why_zh": "展示大模型直接输出可运行代码实现多风格视觉内容，为程序化创作提供新范式。"
+   "summary_zh": "提出 RadOnc-Agent，利用 LLM 编排放射治疗全流程的 AI 工作流，实现跨阶段、跨模态的协同。",
+   "why_zh": "了解如何用 LLM 编排复杂多步骤医疗工作流，学习跨模态数据融合与任务分解的实践框架。",
+   "skills": [
+    "rag"
+   ],
+   "learn_score": 3.356
   },
   {
-   "source": "github",
-   "source_label": "GitHub",
-   "title": "Clearailhc/clearai-dsh",
-   "link": "https://github.com/Clearailhc/clearai-dsh",
-   "dt": "2026-09-12T12:58:44+00:00",
-   "summary": "ClearAI is a native DSH plugin that brings the Epistemic Loop to DeepSeek Harness.",
-   "extra": {
-    "stars": 1314,
-    "language": "JavaScript",
-    "topics": [
-     "agent-preset",
-     "ai-agents",
-     "deepseek-harness",
-     "dsh",
-     "dsh-plugin",
-     "dsh-plugins"
-    ],
-    "created": "2026-09-12",
-    "pushed": "2026-10-07"
-   },
-   "score": 4.131,
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Text2Dashboard: A Governed Agent Architecture for Natural-Language Dashboard Generation over Enterprise DataBrain",
+   "link": "https://arxiv.org/abs/2610.06914",
+   "dt": "2026-10-07T00:00:00-04:00",
+   "summary": "arXiv:2610.06914v1 Announce Type: new Abstract: Text2Dashboard is a DataBrain-specific prototype that turns natural-language analytic requests into inspectable dashboards. An installable Codex plugin and standalone Agent Runtime combine schema-constrained model decisions with typed tools, persistent state, and deterministic Hooks for approval, audit, checkpointing, recovery, and failure handling. The pipeline resolves entities, discovers metadata, enforces read-only SQL, composes dashboards, and",
+   "extra": {},
+   "weight_override": 1.3,
+   "score": 6.444,
    "tokens": [
-    "clearai",
-    "clearailhc",
-    "dsh"
+    "agent",
+    "architecture",
+    "dashboard",
+    "databrain",
+    "enterprise",
+    "generation",
+    "governed",
+    "language",
+    "natural",
+    "over",
+    "text2dashboard"
    ],
    "flag": "new",
-   "summary_zh": "ClearAI 为 DeepSeek Harness 提供原生 DSH 插件，引入认知循环机制。",
-   "why_zh": "将认知循环嵌入模型 harness，有助于提升推理一致性和可调试性，对工程师有实用价值。"
+   "summary_zh": "Text2Dashboard 将自然语言分析请求转换为可检查的企业仪表盘，含插件、运行时和审计机制。",
+   "why_zh": "演示受控 Agent 架构如何实现可审计、可恢复的数据分析，可学习在企业场景中构建可信任的 LLM 工具。",
+   "skills": [
+    "agent_architecture",
+    "system_design"
+   ],
+   "learn_score": 3.222
   },
   {
-   "source": "github",
-   "source_label": "GitHub",
-   "title": "Oldcircle/geo-sleuth",
-   "link": "https://github.com/Oldcircle/geo-sleuth",
-   "dt": "2026-09-18T08:51:34+00:00",
-   "summary": "An agent skill that finds where a photo was taken — OpenStreetMap geometry, elevation skylines, satellite imagery and street view — and shows its work. Works with Claude Code, Codex, Cursor, Gemini CLI, OpenCode and GitHub Copilot.",
-   "extra": {
-    "stars": 1422,
-    "language": "Python",
-    "topics": [
-     "agent-skills",
-     "ai-agents",
-     "claude-code",
-     "codex",
-     "computer-vision",
-     "cursor"
-    ],
-    "created": "2026-09-18",
-    "pushed": "2026-10-08"
-   },
-   "score": 4.131,
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction",
+   "link": "https://arxiv.org/abs/2610.10549",
+   "dt": "2026-10-09T00:00:00-04:00",
+   "summary": "arXiv:2610.10549v1 Announce Type: new Abstract: Tool-calling agents have become central to enterprise AI, yet training and evaluating them at scale remains severely constrained due to business and legal restrictions on enterprise systems, data, and database schemas. Tabular data synthesis offers a natural alternative, but its effectiveness is fundamentally limited by structural validity and schema availability, while procedure-based approaches yield the opposite weakness, typically lacking distr",
+   "extra": {},
+   "weight_override": 1.3,
+   "score": 5.668,
    "tokens": [
-    "geo",
-    "oldcircle",
-    "sleuth"
+    "agent",
+    "coherent",
+    "data",
+    "enterprise",
+    "generating",
+    "interaction",
+    "scalable",
+    "simulation",
+    "synthesis",
+    "system",
+    "through"
    ],
    "flag": "new",
-   "summary_zh": "Oldcircle/geo-sleuth 是一个代理技能，利用 OpenStreetMap 几何、天际线、卫星影像和街景定位照片拍摄地点并展示推理过程。",
-   "why_zh": "它把多源地理数据与视觉定位结合，为 AI 编码助手提供可解释的地理推理能力。"
+   "summary_zh": "通过可扩展的 Agent‑系统交互模拟生成符合企业 schema 的表格数据，用于训练工具调用 Agent。",
+   "why_zh": "提供可复用的数据合成方法，解决企业数据受限下的 Agent 训练与评估问题。",
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 2.834
   },
   {
-   "source": "github",
-   "source_label": "GitHub",
-   "title": "zai-org/ZCode",
-   "link": "https://github.com/zai-org/ZCode",
-   "dt": "2026-09-20T12:01:16+00:00",
-   "summary": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
-   "extra": {
-    "stars": 7645,
-    "language": "TypeScript",
-    "topics": [],
-    "created": "2026-09-20",
-    "pushed": "2026-10-10"
-   },
-   "score": 4.131,
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Agent-Controlled Forgetting for Tool-Using Agents: Reversible Context Curation in Practice",
+   "link": "https://arxiv.org/abs/2610.10590",
+   "dt": "2026-10-09T00:00:00-04:00",
+   "summary": "arXiv:2610.10590v1 Announce Type: new Abstract: Tool-using agents repeatedly carry observations whose useful content can be much smaller than their original payload. We study agent-controlled forgetting: the acting model selects previously observed tool results, replaces each with a short note at its original position, and retains the exact original in a recoverable archive. A Python harness exposes batch archival and explicit recovery without task-specific model training, while protecting user ",
+   "extra": {},
+   "weight_override": 1.3,
+   "score": 5.668,
    "tokens": [
-    "org",
-    "zai",
-    "zcode"
+    "agent",
+    "agents",
+    "context",
+    "controlled",
+    "curation",
+    "forgetting",
+    "practice",
+    "reversible",
+    "tool"
    ],
    "flag": "new",
-   "summary_zh": "Z.ai 发布 ZCode，提供强大、智能、可扩展的编码代理框架。",
-   "why_zh": "为 AI 工程师提供即插即用的代码生成与自动化工具，降低开发门槛。"
+   "summary_zh": "提出 Agent‑可控遗忘机制，用短注释替换工具结果并保存原始内容以便恢复。",
+   "why_zh": "展示如何在 Agent 中实现可逆的上下文压缩，提升长任务中的信息检索效率。",
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 2.834
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "How to Build a Model Router in the Harness",
+   "link": "https://www.youtube.com/watch?v=5kTFyEOgark",
+   "dt": "2026-10-06T16:31:25+00:00",
+   "summary": "Sydney Runkle, product manager for LangChain's open source team, walks through how the team built a model router into Open SWE, LangChain's open source coding agent. She covers the four steps: mapping the task mix from LangSmith traces, picking models along the Pareto frontier, building the router in the harness, and tracking outcomes. In an A/B test against always using the performance model, the router cut median cost per thread by 64% with no measurable change in quality. Chapters: 0:00 Front…",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": "5kTFyEOgark"
+   },
+   "score": 2.788,
+   "tokens": [
+    "build",
+    "harness",
+    "model",
+    "router"
+   ],
+   "flag": "new",
+   "summary_zh": "说明在Open SWE agent中构建模型路由器的四步：任务混合映射、Pareto前沿模型选择、harness集成及结果追踪。",
+   "why_zh": "展示如何基于任务特征选择模型并构建路由，可学习模型组合与性能成本权衡的实践。",
+   "skills": [
+    "agent_architecture",
+    "system_design"
+   ],
+   "learn_score": 2.788
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Choosing Before Acting: Comparative Value Estimation for Long-Horizon Tool-Use Agents",
+   "link": "https://arxiv.org/abs/2610.02330",
+   "dt": "2026-10-05T00:00:00-04:00",
+   "summary": "arXiv:2610.02330v1 Announce Type: new Abstract: Large language models (LLMs) rely on long-horizon tool invocation sequences for complex tasks, where each invocation can alter the task state and condition subsequent decisions. In long-horizon tool use, final-outcome rewards provide weak credit assignment over long interaction traces. Step-level rewards can offer more targeted feedback, but obtaining reliable step supervision often requires human or LLM judgment, or additional rollouts to estimate",
+   "extra": {},
+   "weight_override": 1.3,
+   "score": 5.37,
+   "tokens": [
+    "acting",
+    "agents",
+    "before",
+    "choosing",
+    "comparative",
+    "estimation",
+    "horizon",
+    "long",
+    "tool",
+    "use",
+    "value"
+   ],
+   "flag": "new",
+   "summary_zh": "提出比较价值估计方法为长 horizon 工具使用Agent提供步骤级奖励，改善信用分配。",
+   "why_zh": "教授如何设计步骤奖励函数，提升长序列决策的强化学习效果。",
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 2.685
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "Stop Overpaying for Intelligence | DevDay 2026",
+   "link": "https://www.youtube.com/watch?v=_nmlHbSB8kM",
+   "dt": "2026-10-07T21:10:51+00:00",
+   "summary": "Cut AI costs while preserving quality. Learn to measure cost per completed task, choose models and reasoning effort, and use prompt caching, Programmatic Tool Calling, and the Batch API.",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": "_nmlHbSB8kM"
+   },
+   "score": 2.603,
+   "tokens": [
+    "2026",
+    "devday",
+    "intelligence",
+    "overpaying",
+    "stop"
+   ],
+   "flag": "new",
+   "summary_zh": "教如何降低 AI 成本而不损失质量，使用每任务成本度量、模型选择、提示缓存、工具调用和批量 API。",
+   "why_zh": "提供成本优化实战方法，帮助工程师在实际项目中平衡性能与费用。",
+   "skills": [
+    "prompt_context",
+    "tool_mcp",
+    "training_serving"
+   ],
+   "learn_score": 2.603
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "Three Questions Every Agent Engineer Should Be Able To Answer",
+   "link": "https://www.youtube.com/watch?v=oVKGKdIAgtg",
+   "dt": "2026-10-09T17:16:00+00:00",
+   "summary": "Jake Broekhuizen of LangChain Labs argues that owning your own intelligence comes down to three questions every agent engineer should be able to answer: where is your agent failing, how can you reliably make it fail again, and what needs to happen so it stops failing. He covers using a fine-tuned judge to mine production traces when frontier LLM-as-judge evaluators get expensive at scale, building world specs and tasks that mimic production with LangChain's internal GTM agent as the example, and…",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": "oVKGKdIAgtg"
+   },
+   "score": 2.355,
+   "tokens": [
+    "able",
+    "agent",
+    "answer",
+    "engineer",
+    "every",
+    "questions",
+    "should",
+    "three"
+   ],
+   "flag": "new",
+   "summary_zh": "提出三个关键问题：代理失效位置、可靠复现方法及停止失效所需条件，并介绍微调判定法挖掘生产轨迹",
+   "why_zh": "提供定位与复现代理失效的系统化思路，可用于调试和提升代理鲁棒性",
+   "skills": [
+    "eval_observability",
+    "training_serving"
+   ],
+   "learn_score": 2.355
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "Add Web Search to Managed Deep Agents for free with One MCP Config",
+   "link": "https://www.youtube.com/watch?v=KAITWbHLSSE",
+   "dt": "2026-10-06T15:52:50+00:00",
+   "summary": "Nathan Drezner, PM at LangChain, shows how to add web search to a managed deep agent. LangSmith includes built-in search powered by Parallel, so it takes one MCP connection with no extra authentication. He asks a research agent a question its internal docs can't fully answer, adds the search server, then deploys to LangSmith and inspects the search tool calls in LangSmith Studio. Chapters: 0:00 Why give your managed deep agent web search 0:21 Start from the docs 0:38 A research agent limited to …",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": "KAITWbHLSSE"
+   },
+   "score": 2.324,
+   "tokens": [
+    "add",
+    "agents",
+    "config",
+    "deep",
+    "free",
+    "managed",
+    "mcp",
+    "one",
+    "search",
+    "web"
+   ],
+   "flag": "new",
+   "summary_zh": "演示如何通过单个MCP配置免费为LangChain托管深度代理添加网页搜索工具，无需额外认证。",
+   "why_zh": "展示工具集成的标准化流程（MCP），可学习在代理中快速插入外部能力而不改动核心逻辑。",
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 2.324
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "What is an agent skill? How to protect your agent's context window.",
+   "link": "https://www.youtube.com/shorts/1BfAsoVz32Q",
+   "dt": "2026-10-08T00:46:24+00:00",
+   "summary": "What’s the difference between a long-running agent that can seamlessly execute complex tasks, and one that constantly get stuck? The context. A bad agent is usually the outcome of high volume of information being crammed into a context window all at once. Skills are how LangChain's Deep Agents harness fixes that. A Skill is a folder with instructions, scripts, references, and assets for one task, but only its name and description load at startup. It’s like reading the back of a book instead of t…",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": ""
+   },
+   "score": 2.324,
+   "tokens": [
+    "agent",
+    "context",
+    "protect",
+    "skill",
+    "window"
+   ],
+   "flag": "new",
+   "summary_zh": "解释 Agent Skill 为文件夹形式的任务指令、脚本等，用以防止上下文窗口过载并提升复杂任务执行。",
+   "why_zh": "教授如何通过 Skill 机制管理上下文，提升 Agent 任务鲁棒性，是 LangChain 深度 Agent 的核心实践。",
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 2.324
   }
  ]
 }

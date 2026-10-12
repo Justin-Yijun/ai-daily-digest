@@ -16,6 +16,103 @@
  },
  "items": [
   {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "amitshekhariitbhu/ai-system-design",
+   "link": "https://github.com/amitshekhariitbhu/ai-system-design",
+   "dt": "2026-09-25T04:50:06+00:00",
+   "summary": "AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
+   "extra": {
+    "stars": 651,
+    "language": "Markdown",
+    "topics": [
+     "ai",
+     "ai-agents",
+     "ai-engineering",
+     "ai-system",
+     "ai-system-design",
+     "ai-systems"
+    ],
+    "created": "2026-09-25",
+    "pushed": "2026-10-08"
+   },
+   "score": 7.44,
+   "tokens": [
+    "ai",
+    "amitshekhariitbhu",
+    "design",
+    "system"
+   ],
+   "flag": "new",
+   "summary_zh": "教程逐步讲解如何基于LLM、RAG和AI Agent构建AI系统",
+   "why_zh": "掌握LLM+RAG+Agent架构设计，可复用的系统分层思路与实践模板",
+   "skills": [
+    "rag",
+    "system_design"
+   ],
+   "learn_score": 1.951
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction",
+   "link": "https://arxiv.org/abs/2610.10549",
+   "dt": "2026-10-09T00:00:00-04:00",
+   "summary": "arXiv:2610.10549v1 Announce Type: new Abstract: Tool-calling agents have become central to enterprise AI, yet training and evaluating them at scale remains severely constrained due to business and legal restrictions on enterprise systems, data, and database schemas. Tabular data synthesis offers a natural alternative, but its effectiveness is fundamentally limited by structural validity and schema availability, while procedure-based approaches yield the opposite weakness, typically lacking distr",
+   "extra": {},
+   "weight_override": 1.3,
+   "score": 5.668,
+   "tokens": [
+    "agent",
+    "coherent",
+    "data",
+    "enterprise",
+    "generating",
+    "interaction",
+    "scalable",
+    "simulation",
+    "synthesis",
+    "system",
+    "through"
+   ],
+   "flag": "new",
+   "summary_zh": "通过可扩展的 Agent‑系统交互模拟生成符合企业 schema 的表格数据，用于训练工具调用 Agent。",
+   "why_zh": "提供可复用的数据合成方法，解决企业数据受限下的 Agent 训练与评估问题。",
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 2.834
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Agent-Controlled Forgetting for Tool-Using Agents: Reversible Context Curation in Practice",
+   "link": "https://arxiv.org/abs/2610.10590",
+   "dt": "2026-10-09T00:00:00-04:00",
+   "summary": "arXiv:2610.10590v1 Announce Type: new Abstract: Tool-using agents repeatedly carry observations whose useful content can be much smaller than their original payload. We study agent-controlled forgetting: the acting model selects previously observed tool results, replaces each with a short note at its original position, and retains the exact original in a recoverable archive. A Python harness exposes batch archival and explicit recovery without task-specific model training, while protecting user ",
+   "extra": {},
+   "weight_override": 1.3,
+   "score": 5.668,
+   "tokens": [
+    "agent",
+    "agents",
+    "context",
+    "controlled",
+    "curation",
+    "forgetting",
+    "practice",
+    "reversible",
+    "tool"
+   ],
+   "flag": "new",
+   "summary_zh": "提出 Agent‑可控遗忘机制，用短注释替换工具结果并保存原始内容以便恢复。",
+   "why_zh": "展示如何在 Agent 中实现可逆的上下文压缩，提升长任务中的信息检索效率。",
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 2.834
+  },
+  {
    "source": "hackernews",
    "source_label": "Hacker News",
    "title": "I think I found a planet nobody knew existed. I used Claude Code to find it",
@@ -27,7 +124,7 @@
     "comments": 119,
     "hn_link": "https://news.ycombinator.com/item?id=50002665"
    },
-   "score": 4.578,
+   "score": 4.12,
    "tokens": [
     "claude",
     "code",
@@ -41,8 +138,10 @@
     "used"
    ],
    "flag": "new",
-   "summary_zh": "用户用 Claude Code 发现一颗此前未知的行星。",
-   "why_zh": "展示 LLM 辅助科研发现潜力，对 AI 工程师具启发意义。"
+   "summary_zh": "用户利用 Claude Code 发现一颗此前未知的行星。",
+   "why_zh": "展示大模型辅助科学发现的实践，可学习如何利用 LLM 进行数据检索与假设生成。",
+   "skills": [],
+   "learn_score": 1.215
   },
   {
    "source": "github",
@@ -65,15 +164,52 @@
     "created": "2026-09-15",
     "pushed": "2026-10-09"
    },
-   "score": 3.976,
+   "score": 3.977,
    "tokens": [
     "datalab",
     "evoontology",
     "ruc"
    ],
    "flag": "new",
-   "summary_zh": "EvoOntology 为 Claude Code/Codex 提供自演进的本体层，支持数据智能体。",
-   "why_zh": "通过自演进本体提升代理对复杂 schema 的理解与适配能力，降低手动维护成本。"
+   "summary_zh": "EvoOntology 为 Claude Code/Codex 提供自演进的本体层，支持数据智能体持续学习。",
+   "why_zh": "演示如何构建可自我更新的知识图谱，提升 Agent 的领域适配能力。",
+   "skills": [],
+   "learn_score": 1.033
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "undefined-ui/second-brain-os",
+   "link": "https://github.com/undefined-ui/second-brain-os",
+   "dt": "2026-09-07T15:08:13+00:00",
+   "summary": "An AI second brain that maintains itself. Full guide, starter vault, agent skills and scripts for a self-organizing knowledge base in Claude Code and Obsidian.",
+   "extra": {
+    "stars": 1020,
+    "language": "HTML",
+    "topics": [
+     "agent-skills",
+     "ai-agents",
+     "claude",
+     "claude-code",
+     "claude-skills",
+     "knowledge-graph"
+    ],
+    "created": "2026-09-07",
+    "pushed": "2026-10-07"
+   },
+   "score": 3.644,
+   "tokens": [
+    "brain",
+    "os",
+    "second",
+    "ui",
+    "undefined"
+   ],
+   "flag": "new",
+   "summary_zh": "提供自组织知识库的完整指南、启动库、Agent技能与脚本，适用于Claude Code和Obsidian",
+   "why_zh": "学习构建自我维护的知识库，掌握Agent技能编排与脚本自动化，可迁移到个人或企业知识管理",
+   "skills": [],
+   "learn_score": 0.911
   },
   {
    "source": "hackernews",
@@ -87,7 +223,7 @@
     "comments": 382,
     "hn_link": "https://news.ycombinator.com/item?id=49997161"
    },
-   "score": 3.572,
+   "score": 3.215,
    "tokens": [
     "ai",
     "claude",
@@ -100,60 +236,10 @@
     "usage"
    ],
    "flag": "new",
-   "summary_zh": "Meta 与 Microsoft 采取措施限制员工使用 Claude AI。",
-   "why_zh": "反映大厂对外部 AI 工具的合规与数据安全顾虑，提醒工程师关注使用政策。"
-  },
-  {
-   "source": "paper",
-   "source_label": "arXiv cs.AI",
-   "title": "Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction",
-   "link": "https://arxiv.org/abs/2610.10549",
-   "dt": "2026-10-09T00:00:00-04:00",
-   "summary": "arXiv:2610.10549v1 Announce Type: new Abstract: Tool-calling agents have become central to enterprise AI, yet training and evaluating them at scale remains severely constrained due to business and legal restrictions on enterprise systems, data, and database schemas. Tabular data synthesis offers a natural alternative, but its effectiveness is fundamentally limited by structural validity and schema availability, while procedure-based approaches yield the opposite weakness, typically lacking distr",
-   "extra": {},
-   "weight_override": 1.3,
-   "score": 3.51,
-   "tokens": [
-    "agent",
-    "coherent",
-    "data",
-    "enterprise",
-    "generating",
-    "interaction",
-    "scalable",
-    "simulation",
-    "synthesis",
-    "system",
-    "through"
-   ],
-   "flag": "new",
-   "summary_zh": "通过可扩展的 agent‑系统交互模拟生成符合企业 schema 的表格数据。",
-   "why_zh": "提供无需真实企业数据的可扩展训练与评估方案，缓解法律与业务限制。"
-  },
-  {
-   "source": "paper",
-   "source_label": "arXiv cs.AI",
-   "title": "Agent-Controlled Forgetting for Tool-Using Agents: Reversible Context Curation in Practice",
-   "link": "https://arxiv.org/abs/2610.10590",
-   "dt": "2026-10-09T00:00:00-04:00",
-   "summary": "arXiv:2610.10590v1 Announce Type: new Abstract: Tool-using agents repeatedly carry observations whose useful content can be much smaller than their original payload. We study agent-controlled forgetting: the acting model selects previously observed tool results, replaces each with a short note at its original position, and retains the exact original in a recoverable archive. A Python harness exposes batch archival and explicit recovery without task-specific model training, while protecting user ",
-   "extra": {},
-   "weight_override": 1.3,
-   "score": 3.51,
-   "tokens": [
-    "agent",
-    "agents",
-    "context",
-    "controlled",
-    "curation",
-    "forgetting",
-    "practice",
-    "reversible",
-    "tool"
-   ],
-   "flag": "new",
-   "summary_zh": "工具代理可选择性遗忘观察结果，用简短笔记替换并保存原始内容以便恢复。",
-   "why_zh": "实现可逆的上下文压缩，减少 token 开销同时保持信息可恢复，提升长任务效率。"
+   "summary_zh": "Meta 与 Microsoft 限制员工使用 Claude AI，以降低数据泄露与合规风险。",
+   "why_zh": "反映企业对大模型使用的治理需求，可学习合规审计与使用政策制定。",
+   "skills": [],
+   "learn_score": 0.9
   },
   {
    "source": "github",
@@ -183,73 +269,10 @@
     "research"
    ],
    "flag": "new",
-   "summary_zh": "AntOmniEvo 提供自演进框架，能够持续优化任意目标，如全天候算法团队。",
-   "why_zh": "通过进化搜索自动改进模型或代码，减少人工调参，适用于持续集成与自动化优化流程。"
-  },
-  {
-   "source": "github",
-   "source_label": "GitHub",
-   "title": "amitshekhariitbhu/ai-system-design",
-   "link": "https://github.com/amitshekhariitbhu/ai-system-design",
-   "dt": "2026-09-25T04:50:06+00:00",
-   "summary": "AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
-   "extra": {
-    "stars": 651,
-    "language": "Markdown",
-    "topics": [
-     "ai",
-     "ai-agents",
-     "ai-engineering",
-     "ai-system",
-     "ai-system-design",
-     "ai-systems"
-    ],
-    "created": "2026-09-25",
-    "pushed": "2026-10-08"
-   },
-   "score": 2.917,
-   "tokens": [
-    "ai",
-    "amitshekhariitbhu",
-    "design",
-    "system"
-   ],
-   "flag": "new",
-   "summary_zh": "教程展示如何逐步设计基于LLM、RAG和AI Agent的AI系统。",
-   "why_zh": "为工程师提供系统化的LLM应用架构指导，便于快速落地复杂AI产品。"
-  },
-  {
-   "source": "github",
-   "source_label": "GitHub",
-   "title": "undefined-ui/second-brain-os",
-   "link": "https://github.com/undefined-ui/second-brain-os",
-   "dt": "2026-09-07T15:08:13+00:00",
-   "summary": "An AI second brain that maintains itself. Full guide, starter vault, agent skills and scripts for a self-organizing knowledge base in Claude Code and Obsidian.",
-   "extra": {
-    "stars": 1020,
-    "language": "HTML",
-    "topics": [
-     "agent-skills",
-     "ai-agents",
-     "claude",
-     "claude-code",
-     "claude-skills",
-     "knowledge-graph"
-    ],
-    "created": "2026-09-07",
-    "pushed": "2026-10-07"
-   },
-   "score": 2.916,
-   "tokens": [
-    "brain",
-    "os",
-    "second",
-    "ui",
-    "undefined"
-   ],
-   "flag": "new",
-   "summary_zh": "提供自维护的AI第二大脑，含完整指南、起始库及Agent技能，用于Claude Code和Obsidian的自组织知识库。",
-   "why_zh": "帮助工程师快速搭建可自我更新的知识管理系统，提升信息检索与工作效率。"
+   "summary_zh": "AntOmniEvo 提供自进化框架，持续优化算法，像 7×24 的算法工程师团队。",
+   "why_zh": "演示如何用进化搜索自动改进模型或代码，可迁移到自动化 ML 工程与系统优化。",
+   "skills": [],
+   "learn_score": 0.765
   },
   {
    "source": "blog",
@@ -259,7 +282,7 @@
    "dt": "2026-10-09T16:22:09+00:00",
    "summary": "Managed Deep Agents includes a new API for managing reactions for your distributed agents, and a system to dynamically assign emoji responses with your instrument of choice. Learn more.",
    "extra": {},
-   "score": 1.275,
+   "score": 2.059,
    "tokens": [
     "agents",
     "box",
@@ -271,32 +294,13 @@
     "user"
    ],
    "flag": "new",
-   "summary_zh": "Managed Deep Agents 新增分布式代理反应管理API及可自定义表情响应系统，提升开箱即用体验。",
-   "why_zh": "为工程师提供统一的代理交互控制机制，简化多代理系统的用户反馈实现。"
-  },
-  {
-   "source": "youtube",
-   "source_label": "YouTube · OpenAI",
-   "title": "How Oracle Uses ChatGPT Work to Transform Recruitment",
-   "link": "https://www.youtube.com/shorts/Rs5qLAnkNcI",
-   "dt": "2026-10-08T17:43:05+00:00",
-   "summary": "“We’ve gone from zero to 100, not zero to 60.” Jan Ackerman shares how Oracle built a talent market intelligence tool with ChatGPT Work to transform hiring preparation. Starting with a job description, it researches comparable roles, benchmarks compensation, and assesses talent pools across locations, giving hiring managers consistent data and insights. Read how Oracle is transforming work with ChatGPT Work and Codex: https://openai.com/index/oracle/",
-   "extra": {
-    "channel": "OpenAI",
-    "video_id": ""
-   },
-   "score": 1.215,
-   "tokens": [
-    "chatgpt",
-    "oracle",
-    "recruitment",
-    "transform",
-    "uses",
-    "work"
+   "summary_zh": "Managed Deep Agents新增管理反应API及动态表情分配系统，提升分布式Agent交互体验",
+   "why_zh": "了解如何通过托管深度Agent统一管理反应与UI，可复用的交互增强方案",
+   "skills": [
+    "agent_architecture",
+    "system_design"
    ],
-   "flag": "new",
-   "summary_zh": "Oracle 利用 ChatGPT Work 构建人才市场情报工具，自动研究岗位、基准薪酬并评估地域人才库。",
-   "why_zh": "展示大模型在招聘流程中的实际应用，为工程师提供可复制的数据驱动招聘方案。"
+   "learn_score": 2.059
   },
   {
    "source": "youtube",
@@ -309,7 +313,7 @@
     "channel": "LangChain",
     "video_id": "XcsspzECTKA"
    },
-   "score": 1.215,
+   "score": 1.962,
    "tokens": [
     "agents",
     "critical",
@@ -320,8 +324,64 @@
     "production"
    ],
    "flag": "new",
-   "summary_zh": "Managed Deep Agents 公开测试版发布，支持将代理定义为指令/技能/工具文件夹，本地测试后用 mda CLI 部署。",
-   "why_zh": "为工程师提供一套完整的代理开发到生产流程，降低 mission‑critical 代理上线门槛。"
+   "summary_zh": "Managed Deep Agents公测，将Deep Agents harness与LangSmith基础设施捆绑，支持本地测试及mda CLI部署",
+   "why_zh": "掌握Agent作为文件夹的定义、本地调试与生产部署流程，可复用的交付链路",
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.962
+  },
+  {
+   "source": "blog",
+   "source_label": "OpenAI 官方博客",
+   "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+   "link": "https://openai.com/index/oracle",
+   "dt": "2026-10-08T16:00:00+00:00",
+   "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
+   "extra": {},
+   "score": 1.363,
+   "tokens": [
+    "chatgpt",
+    "codex",
+    "days",
+    "minutes",
+    "oracle",
+    "turns",
+    "work"
+   ],
+   "flag": "new",
+   "summary_zh": "Oracle 使用 ChatGPT 和 Codex 将招聘、工程、运营等专家知识转化为快速可重复的工作流。",
+   "why_zh": "展示如何将专家知识封装进 ChatGPT/Codex，构建可复用的自动化工作流，提升工程效率。",
+   "skills": [],
+   "learn_score": 1.363
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "How Oracle Uses ChatGPT Work to Transform Recruitment",
+   "link": "https://www.youtube.com/shorts/Rs5qLAnkNcI",
+   "dt": "2026-10-08T17:43:05+00:00",
+   "summary": "“We’ve gone from zero to 100, not zero to 60.” Jan Ackerman shares how Oracle built a talent market intelligence tool with ChatGPT Work to transform hiring preparation. Starting with a job description, it researches comparable roles, benchmarks compensation, and assesses talent pools across locations, giving hiring managers consistent data and insights. Read how Oracle is transforming work with ChatGPT Work and Codex: https://openai.com/index/oracle/",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": ""
+   },
+   "score": 1.177,
+   "tokens": [
+    "chatgpt",
+    "oracle",
+    "recruitment",
+    "transform",
+    "uses",
+    "work"
+   ],
+   "flag": "new",
+   "summary_zh": "Oracle利用ChatGPT Work构建人才市场情报工具，从岗位描述出发研究可比岗位、薪酬基准及人才池",
+   "why_zh": "学会用LLM做岗位匹配、薪酬benchmark和人才池分析，提升招聘数据驱动能力",
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.177
   },
   {
    "source": "youtube",
@@ -334,7 +394,7 @@
     "channel": "Cole Medin",
     "video_id": "cWjS56edaUA"
    },
-   "score": 1.215,
+   "score": 1.154,
    "tokens": [
     "actually",
     "agentic",
@@ -346,30 +406,10 @@
     "deploying"
    ],
    "flag": "new",
-   "summary_zh": "讲解大公司如何构建 Agentic Apps：多代理协同达成目标，仅在需要判断时使用AI，其余由规则驱动。",
-   "why_zh": "提供企业级AI Agent落地的实战框架，帮助工程师在业务流程中合理分配AI与规则角色。"
-  },
-  {
-   "source": "blog",
-   "source_label": "OpenAI 官方博客",
-   "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
-   "link": "https://openai.com/index/oracle",
-   "dt": "2026-10-08T16:00:00+00:00",
-   "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
-   "extra": {},
-   "score": 1.147,
-   "tokens": [
-    "chatgpt",
-    "codex",
-    "days",
-    "minutes",
-    "oracle",
-    "turns",
-    "work"
-   ],
-   "flag": "new",
-   "summary_zh": "Oracle 利用 ChatGPT 和 Codex 将招聘、工程、运营等专业知识转化为快速可重复的工作流，将几天工作缩短至分钟。",
-   "why_zh": "展示企业如何用大模型将专业知识产品化，显著提升效率并降低人力成本，对 AI 工程师具有参考价值。"
+   "summary_zh": "介绍企业如何通过多Agent协作（Agentic Apps）实现目标，仅在需要判断时使用AI，其余采用规则",
+   "why_zh": "学习混合规则与AI的Agent架构，掌握多Agent目标分解与判断隔离的实践模式",
+   "skills": [],
+   "learn_score": 1.154
   },
   {
    "source": "blog",
@@ -379,7 +419,7 @@
    "dt": "2026-10-08T12:00:00+00:00",
    "summary": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
    "extra": {},
-   "score": 1.147,
+   "score": 1.09,
    "tokens": [
     "codex",
     "costs",
@@ -391,8 +431,10 @@
     "while"
    ],
    "flag": "new",
-   "summary_zh": "LegalOn 通过任务匹配和预算管理，将 Codex 每日成本降低 65%，保持开发速度不变。",
-   "why_zh": "展示通过任务匹配和预算管理降低大模型成本的实用方法，对控制费用的 AI 工程师有参考价值。"
+   "summary_zh": "LegalOn 通过任务匹配和预算管理，将 Codex 日成本降低 65%，同时保持开发速度。",
+   "why_zh": "展示成本优化技巧：按任务匹配模型并策略化预算，可在不牺牲速度的前提下降低 LLM 使用费用，适用于工程预算控制。",
+   "skills": [],
+   "learn_score": 1.09
   }
  ],
  "dups": [
@@ -420,8 +462,8 @@
    "score": 4.131,
    "flag": "dup",
    "dup_note": "已于 2026-10-09 推荐过",
-   "summary_zh": "菜单栏工具统一管理多种 AI 代理模型，如 Codex 在 DeepSeek、Claude Code 在 Kimi 上运行。",
-   "why_zh": "提供便捷切换与监控多模型代理的入口，提升开发效率。"
+   "summary_zh": "Magpie 提供菜单栏统一入口，集成 DeepSeek 的 Codex 和 Kimi 的 Claude Code，便于快速切换多模型代理。",
+   "why_zh": "展示如何构建统一的模型调度入口，帮助工程师快速在不同 LLM 之间切换，提升多模型开发效率。"
   },
   {
    "source": "github",
@@ -447,8 +489,8 @@
    "score": 4.131,
    "flag": "dup",
    "dup_note": "已于 2026-10-09 推荐过",
-   "summary_zh": "小巧的 Mac 菜单栏 / iPhone 小组件实时监控 Claude Code 等 AI 编码代理，支持从锁屏或刘海批准。",
-   "why_zh": "让工程师能即时监督并干预 AI 编码行为，提升安全与可控性。"
+   "summary_zh": "Coucou 为 Mac 锥齿和 iPhone 提供小部件，实时监控 Claude Code、Codex 等 AI 编码代理，支持从锁屏或刘海批准操作。",
+   "why_zh": "展示边侧监控 UI 设计思路，帮助工程师在移动端实时查看并干预 AI 代理行为，提升交互安全性。"
   },
   {
    "source": "github",
@@ -474,8 +516,8 @@
    "score": 4.131,
    "flag": "dup",
    "dup_note": "已于 2026-10-09 推荐过",
-   "summary_zh": "用户提供喜欢视频，AI 团队（Claude Code 或 Codex）规划、构建并审查生成同风格新视频。",
-   "why_zh": "展示 AI 代理协作进行视频风格迁移，降低创作门槛。"
+   "summary_zh": "Reelmimic 让用户提供喜欢视频，AI 团队（Claude Code 或 Codex）负责规划、生成并审查同风格新视频。",
+   "why_zh": "展示多模型协作完成创意任务的流程，可学习如何让 LLM 负责规划、生成与评审，提升内容创作自动化能力。"
   },
   {
    "source": "github",
@@ -501,8 +543,8 @@
    "score": 4.131,
    "flag": "dup",
    "dup_note": "已于 2026-10-09 推荐过",
-   "summary_zh": "Oldcircle/geo-sleuth 是一个代理技能，利用 OpenStreetMap 几何、天际线、卫星影像和街景定位照片拍摄地点并展示推理过程。",
-   "why_zh": "它把多源地理数据与视觉定位结合，为 AI 编码助手提供可解释的地理推理能力。"
+   "summary_zh": "Geo‑Sleuth 是一个代理技能，利用 OpenStreetMap、卫星图像等多源数据定位照片拍摄地点，并展示推理过程，支持多种 LLM。",
+   "why_zh": "展示如何结合地理空间数据与 LLM 推理，构建可解释的定位代理，提升多模态信息融合与溯源能力。"
   },
   {
    "source": "github",
@@ -528,8 +570,8 @@
    "score": 4.131,
    "flag": "dup",
    "dup_note": "已于 2026-10-09 推荐过",
-   "summary_zh": "Claude Opus 5.5 生成 43 种电影风格的纯代码短片，附风格提示词和导演指南。",
-   "why_zh": "展示大模型直接输出可运行代码实现多风格视觉内容，为程序化创作提供新范式。"
+   "summary_zh": "Claude Opus 5.5 通过代码生成 43 种电影风格的短片，每种风格附带提示词和代码样片。",
+   "why_zh": "展示如何利用大模型生成代码实现创意内容，可学习 Prompt 工程、代码生成及多模态创作的实践。"
   },
   {
    "source": "github",
@@ -555,8 +597,8 @@
    "score": 4.131,
    "flag": "dup",
    "dup_note": "已于 2026-10-09 推荐过",
-   "summary_zh": "提供覆盖 Prompt Engineering 到模型部署等全栈 LLM 学习路线的中文教程。",
-   "why_zh": "对 AI 工程师系统掌握 LLM 技术栈和面试准备极具参考价值。"
+   "summary_zh": "提供 LLM 全栈学习路线，涵盖 Prompt、RAG、Agent、微调、部署等内容的中文教程。",
+   "why_zh": "系统化学习 LLM 工程技能，掌握从提示到部署的全流程，面试常考点。"
   }
  ]
 }

@@ -480,8 +480,23 @@ def render_weekly(w, rel_root="", total_days=0):
         f'<p class="meta">覆盖 {esc(w.get("start"))} ~ {esc(w.get("end"))}'
         f'　｜　共 {len(items)} 条　｜　生成 {esc(w.get("generated"))} (CST)</p>'
     )
-    for i, it in enumerate(items, 1):
-        body.append(item_html(it, idx=i, cls="pick"))
+    body.append(
+        '<blockquote><p>按 Agent / AI 面试技能树归类，'
+        '优先收录可复习、能讲出来的实践内容。</p></blockquote>'
+    )
+    groups = w.get("groups")
+    if groups:
+        for g in groups:
+            git = g.get("items") or []
+            if not git:
+                continue
+            body.append(f'<h2>🧠 {esc(g.get("label"))}（{len(git)}）</h2>')
+            for it in git:
+                body.append(item_html(it))
+    else:
+        # 兼容旧周报 JSON（没有 groups 字段）
+        for i, it in enumerate(items, 1):
+            body.append(item_html(it, idx=i, cls="pick"))
     return page(
         f'本周精选 {w.get("week")} · ' + SITE_TITLE,
         "\n".join(body),
@@ -550,7 +565,10 @@ def render_about(all_d, all_w):
         "<h2>怎么做的</h2>",
         "<p>每天 16:00（北京时间）由 GitHub Actions 自动采集，"
         "按来源配额与关键词打分排序，用大模型生成中文摘要，"
-        "并与历史记录比对去重、标记相似内容。</p>",
+        "并与历史记录比对去重、标记相似内容。"
+        "周报按 Agent / AI 面试技能树（提示与上下文工程、RAG、工具调用 / MCP、"
+        "Agent 架构、多智能体、评测、训练与部署、系统设计）归类，"
+        "并用不含星数/热度的「面试学习价值」排序，优先收录可复习、面试能讲出来的实践内容。</p>",
         "<h2>订阅</h2>",
         f'<p>RSS：<a href="{SITE_URL}/feed.xml">{SITE_URL}/feed.xml</a></p>',
         f'<p>全部内容归档在 <a href="https://github.com/Justin-Yijun/ai-daily-digest" '

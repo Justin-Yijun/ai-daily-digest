@@ -120,7 +120,7 @@
   },
 
   "scoring": {
-    "_comment": "score = base(按源) × recency × hot_boost。数字越大越靠前。",
+    "_comment": "score = base(按源) × recency × hot_boost × interview_skill_boost × practice_boost × news_penalty。数字越大越靠前。",
     "source_weight": {
       "github": 0.9,
       "hackernews": 1.0,
@@ -134,11 +134,76 @@
       "computer use", "browser use", "sandbox", "eval", "benchmark"
     ],
     "hot_boost": 1.35,
-    "interview_keywords": [
-      "system design", "how to build", "from scratch", "internals",
-      "implementation", "deep dive", "design a"
+
+    "_comment_skill_tree": "Agent / AI 面试技能树。命中任一分支即视为面试相关并加权；命中分支越多加成越高。分支顺序 = 周报里的展示顺序。",
+    "interview_skill_tree": {
+      "prompt_context": [
+        "prompt engineering", "context engineering", "system prompt", "few-shot",
+        "chain of thought", "cot", "prompt", "提示工程", "上下文工程", "提示词", "系统提示"
+      ],
+      "rag": [
+        "rag", "retrieval", "retrieval-augmented", "embedding", "vector database",
+        "vector store", "rerank", "re-rank", "chunking", "hybrid search", "检索增强", "向量检索", "知识库"
+      ],
+      "tool_mcp": [
+        "tool calling", "tool use", "function calling", "mcp", "model context protocol",
+        "tool schema", "工具调用", "函数调用", "工具使用"
+      ],
+      "agent_architecture": [
+        "react", "agent loop", "agent architecture", "planning", "agent memory", "reflection",
+        "harness", "scaffold", "agent framework", "subagent", "sub-agent", "智能体", "agent 架构", "代理框架", "认知循环"
+      ],
+      "multi_agent": [
+        "multi-agent", "multiagent", "orchestration", "handoff", "a2a", "swarm",
+        "agent collaboration", "多智能体", "多代理", "协作"
+      ],
+      "eval_observability": [
+        "eval", "evaluation", "benchmark", "tracing", "observability", "llm-as-judge",
+        "llm as judge", "ab test", "评测", "可观测", "评估"
+      ],
+      "training_serving": [
+        "fine-tune", "fine-tuning", "sft", "rlhf", "dpo", "lora", "vllm", "sglang",
+        "quantization", "serving", "inference", "kv cache", "微调", "推理部署", "量化"
+      ],
+      "llm_fundamentals": [
+        "transformer", "attention", "tokenization", "positional encoding", "scaling law",
+        "mixture of experts", "moe", "注意力机制", "大模型原理"
+      ],
+      "system_design": [
+        "system design", "how to build", "from scratch", "internals", "implementation",
+        "deep dive", "design a", "best practice", "architecture", "系统设计", "从零实现", "架构设计"
+      ]
+    },
+    "interview_skill_labels": {
+      "prompt_context": "提示 / 上下文工程",
+      "rag": "RAG 检索增强",
+      "tool_mcp": "工具调用 / MCP",
+      "agent_architecture": "Agent 架构与循环",
+      "multi_agent": "多智能体协作",
+      "eval_observability": "评测与可观测",
+      "training_serving": "训练 / 推理部署",
+      "llm_fundamentals": "LLM 原理基础",
+      "system_design": "系统设计 / 从零实现"
+    },
+    "interview_skill_boost": 1.7,
+    "interview_skill_stack_bonus": 0.2,
+
+    "_comment_practice": "可复用的实践/教程类内容再加权。",
+    "practice_keywords": [
+      "how to", "guide", "tutorial", "walkthrough", "playbook", "cookbook",
+      "best practice", "step by step", "workflow", "lessons learned", "pitfall",
+      "实战", "教程", "指南", "入门", "工作流", "最佳实践", "方法论", "踩坑", "经验"
     ],
-    "interview_boost": 1.5,
+    "practice_boost": 1.25,
+
+    "_comment_news": "纯新闻/资本/榜单类内容降权，避免占满周报版面。",
+    "news_keywords": [
+      "raises", "raised", "funding", "valuation", "ipo", "acquires", "acquisition",
+      "announces", "announced", "launches", "beats", "record high", "revenue",
+      "partnership", "hiring", "layoff", "融资", "收购", "发布", "估值"
+    ],
+    "news_penalty": 0.6,
+
     "recency_factor": { "1": 1.0, "3": 0.95, "7": 0.9, "30": 0.85, "9999": 0.6 }
   },
 
@@ -155,6 +220,7 @@
       "hackernews": 2
     },
     "keep_state_days": 120,
-    "similarity_threshold": 0.6
+    "similarity_threshold": 0.6,
+    "weekly_skill_penalty": 0.7
   }
 }
