@@ -1,0 +1,589 @@
+{
+ "date": "2026-10-14",
+ "generated": "2026-10-14 01:05",
+ "source_count": {
+  "github": 67,
+  "youtube": 41,
+  "blog": 87,
+  "paper": 24,
+  "hackernews": 10
+ },
+ "failures": {},
+ "failure_errors": {},
+ "items": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "bherbruck/solidcraft",
+   "link": "https://github.com/bherbruck/solidcraft",
+   "dt": "2026-10-07T18:57:48+00:00",
+   "summary": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+   "extra": {
+    "stars": 1612,
+    "language": "Rust",
+    "topics": [
+     "3d-modeling",
+     "brep",
+     "cad",
+     "egui",
+     "mcp",
+     "parametric-cad"
+    ],
+    "created": "2026-10-07",
+    "pushed": "2026-10-13"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.859,
+   "score": 7.436,
+   "tokens": [
+    "bherbruck",
+    "solidcraft"
+   ],
+   "flag": "new",
+   "summary_zh": "SolidCraft 是纯 Rust 开源参数化 3D CAD，支持桌面、网页及 MCP 自动化。",
+   "why_zh": "体现 Rust 在复杂图形应用中的工程实践，可学跨平台 UI、插件扩展及 MCP 自动化技术。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "AgentSWE: Can Coding Agents Build the Agent You Actually Want?",
+   "link": "https://huggingface.co/papers/2610.13361",
+   "dt": "2026-10-08T20:00:00+00:00",
+   "summary": "As the production of software passes into the hands of software itself, coding agents are increasingly commissioned to build agents fitted to their users' own workflows. This delegation carries a quiet assumption, that the delivered agent will faithfully serve the requirement it was built for, rather than merely appear to. No existing benchmark tests that assumption. We introduce AgentSWE, a benchmark for agent software engineering spanning three stages of the agent development lifecycle: Creati",
+   "extra": {
+    "upvotes": 201,
+    "arxiv": "https://arxiv.org/abs/2610.13361"
+   },
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 2.453,
+   "score": 7.359,
+   "tokens": [
+    "actually",
+    "agent",
+    "agents",
+    "agentswe",
+    "build",
+    "coding",
+    "want"
+   ],
+   "flag": "new",
+   "summary_zh": "AgentSWE 是评估编码代理是否能构建真正满足用户需求的代理的基准。",
+   "why_zh": "考察代理可靠性与需求对齐，可学习构建可验证的代理评估方法。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Scaling Agentic Data for Long-Horizon Terminal Intelligence",
+   "link": "https://huggingface.co/papers/2610.13166",
+   "dt": "2026-10-08T20:00:00+00:00",
+   "summary": "Terminal agents are moving beyond local operations toward completing real-world professional tasks. Short trajectories can demonstrate commands and tool calls, but they do not fully show how agents accumulate evidence through exploration, use it to inform judgments, continually adjust strategies based on feedback, and turn intermediate results into final deliverables. High-quality long-horizon trajectories capture these agentic behavioral patterns and their connections within a single problem-so",
+   "extra": {
+    "upvotes": 132,
+    "arxiv": "https://arxiv.org/abs/2610.13166"
+   },
+   "skills": [
+    "training_serving"
+   ],
+   "learn_score": 1.962,
+   "score": 5.886,
+   "tokens": [
+    "agentic",
+    "data",
+    "horizon",
+    "intelligence",
+    "long",
+    "scaling",
+    "terminal"
+   ],
+   "flag": "new",
+   "summary_zh": "提出长 horizon 终端代理数据，展示代理如何通过探索积累证据并调整策略。",
+   "why_zh": "强调长期任务中的证据积累与策略调整，可学习构建具备反馈循环的代理系统。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "incoai/splash",
+   "link": "https://github.com/incoai/splash",
+   "dt": "2026-09-18T20:01:48+00:00",
+   "summary": "A local inference engine for Apple silicon, built around the model.",
+   "extra": {
+    "stars": 1410,
+    "language": "C++",
+    "topics": [
+     "apple-silicon",
+     "coding-agents",
+     "llm-inference",
+     "macos",
+     "metal",
+     "speculative-decoding"
+    ],
+    "created": "2026-09-18",
+    "pushed": "2026-10-13"
+   },
+   "skills": [
+    "training_serving"
+   ],
+   "learn_score": 1.3,
+   "score": 5.2,
+   "tokens": [
+    "incoai",
+    "splash"
+   ],
+   "flag": "new",
+   "summary_zh": "splash 是针对 Apple Silicon 的本地推理引擎，围绕模型构建。",
+   "why_zh": "展示在 ARM 设备上高效推理的实现，可学习模型优化与硬件适配技巧。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Codex CLI installs a persistent, self-updating background daemon by default",
+   "link": "https://github.com/openai/codex/issues/48195",
+   "dt": "2026-10-12T18:29:04+00:00",
+   "summary": "",
+   "extra": {
+    "points": 590,
+    "comments": 285,
+    "hn_link": "https://news.ycombinator.com/item?id=50060694"
+   },
+   "skills": [],
+   "learn_score": 1.35,
+   "score": 5.091,
+   "tokens": [
+    "background",
+    "cli",
+    "codex",
+    "daemon",
+    "default",
+    "installs",
+    "persistent",
+    "self",
+    "updating"
+   ],
+   "flag": "new",
+   "summary_zh": "Codex CLI 默认会安装一个持续自更新的后台守护进程。",
+   "why_zh": "展示 CLI 工具的后台服务设计与自更新机制，可学习构建可靠的开发者工具。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "agent-for-dummys/Agent-For-Dummies",
+   "link": "https://github.com/agent-for-dummys/Agent-For-Dummies",
+   "dt": "2026-09-19T07:04:15+00:00",
+   "summary": "Agent/RAG/AI应用：Agent学习笔记 图文结合零基础入门学习笔记",
+   "extra": {
+    "stars": 92,
+    "language": "Vue",
+    "topics": [
+     "agent",
+     "beginner-friendly",
+     "chinese",
+     "llm",
+     "llm-agents",
+     "rag"
+    ],
+    "created": "2026-09-19",
+    "pushed": "2026-10-13"
+   },
+   "skills": [
+    "rag"
+   ],
+   "learn_score": 1.626,
+   "score": 4.819,
+   "tokens": [
+    "agent",
+    "dummies",
+    "dummys"
+   ],
+   "flag": "new",
+   "summary_zh": "Agent-For-Dummies 提供图文并茂的 Agent 零基础入门笔记，覆盖 RAG 与 AI 应用。",
+   "why_zh": "适合快速掌握 Agent 基础概念与实践，可学习从零构建 Agent 的学习路径。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "AI coding agents generate more code, but not more software",
+   "link": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+   "dt": "2026-10-12T17:14:01+00:00",
+   "summary": "",
+   "extra": {
+    "points": 354,
+    "comments": 293,
+    "hn_link": "https://news.ycombinator.com/item?id=50059523"
+   },
+   "skills": [],
+   "learn_score": 1.35,
+   "score": 4.791,
+   "tokens": [
+    "agents",
+    "ai",
+    "code",
+    "coding",
+    "generate",
+    "software"
+   ],
+   "flag": "new",
+   "summary_zh": "AI 编码代理能产生更多代码，但未提升实际软件功能或质量。",
+   "why_zh": "面试价值：说明代码生成与软件工程的区别，提醒关注可维护性、需求实现而非仅代码量。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ashishsinha1602/schemagate",
+   "link": "https://github.com/ashishsinha1602/schemagate",
+   "dt": "2026-09-06T15:28:25+00:00",
+   "summary": "Text-to-SQL access control: schema selection that gives the LLM only the tables the caller is allowed to read. Row-level-security-aware table pruning for LangChain, MCP and any SQL agent. Postgres, Oracle, MySQL, SQL Server. 75% fewer prompt tokens.",
+   "extra": {
+    "stars": 102,
+    "language": "Python",
+    "topics": [
+     "access-control",
+     "ai-agents",
+     "data-engineering",
+     "database",
+     "langchain",
+     "llm"
+    ],
+    "created": "2026-09-06",
+    "pushed": "2026-10-13"
+   },
+   "skills": [
+    "prompt_context",
+    "tool_mcp"
+   ],
+   "learn_score": 1.487,
+   "score": 4.474,
+   "tokens": [
+    "ashishsinha1602",
+    "schemagate"
+   ],
+   "flag": "new",
+   "summary_zh": "Text-to-SQL 访问控制：根据调用者权限只暴露允许读取的表，支持行级安全，适用于 LangChain、MCP 等 SQL Agent，可削减 75% 提示 token。",
+   "why_zh": "面试价值：展示如何在 LLM 与数据库交互中实现最小权限原则，减少提示长度并提升安全性，是可复用的访问控制模式。"
+  },
+  {
+   "source": "blog",
+   "source_label": "LangChain 博客",
+   "title": "Open Models have crossed a threshold",
+   "link": "https://www.langchain.com/blog/open-models-have-crossed-a-threshold",
+   "dt": "2026-10-13T16:11:23+00:00",
+   "summary": "Open models like GLM-5 and MiniMax M2.7 now match closed frontier models on core agent tasks — file operations, tool use, and instruction following — at a fraction of the cost and latency. Here's what our evals show and how to start using them in Deep Agents.",
+   "extra": {},
+   "skills": [
+    "tool_mcp",
+    "eval_observability"
+   ],
+   "learn_score": 2.926,
+   "score": 2.926,
+   "tokens": [
+    "crossed",
+    "models",
+    "open",
+    "threshold"
+   ],
+   "flag": "new",
+   "summary_zh": "开源模型如 GLM-5、MiniMax M2.7 在文件操作、工具使用、指令遵循等核心 Agent 任务上已匹配闭源前沿模型，成本和延迟更低。",
+   "why_zh": "面试价值：说明开源模型已具备产品级 Agent 能力，可在成本敏感场景替换闭源模型，需了解评估与部署方法。"
+  },
+  {
+   "source": "blog",
+   "source_label": "LangChain 博客",
+   "title": "How Orange Business Built Live Intelligence with LangChain and LangSmith",
+   "link": "https://www.langchain.com/blog/how-orange-business-built-live-intelligence-on-langchain-and-langsmith",
+   "dt": "2026-10-13T16:56:08+00:00",
+   "summary": "Learn how Orange Business used LangChain and LangSmith to build Live Intelligence, a governed AI platform for agents, evals, observability, and production scale.",
+   "extra": {},
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.951,
+   "score": 1.951,
+   "tokens": [
+    "built",
+    "business",
+    "intelligence",
+    "langchain",
+    "langsmith",
+    "live",
+    "orange"
+   ],
+   "flag": "new",
+   "summary_zh": "Orange Business 使用 LangChain 与 LangSmith 构建 Live Intelligence 平台，实现 Agent 治理、评估、可观测性及大规模生产。",
+   "why_zh": "面试价值：展示企业级 Agent 平台的落地实践，涉及治理、监控与可扩展性，是构建产品化 Agent 的参考框架。"
+  },
+  {
+   "source": "blog",
+   "source_label": "LangChain 博客",
+   "title": "MCP in LangChain: Stateless Protocol, Elicitation, and More!",
+   "link": "https://www.langchain.com/blog/mcp-in-langchain-stateless-protocol-elicitation-and-more",
+   "dt": "2026-10-13T16:11:23+00:00",
+   "summary": "MCP support now lives in langchain.mcp, built on FastMCP for the 2026-07-28 spec, with elicitation handled as a LangGraph interrupt and tool lists cached.",
+   "extra": {},
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.951,
+   "score": 1.951,
+   "tokens": [
+    "elicitation",
+    "langchain",
+    "mcp",
+    "protocol",
+    "stateless"
+   ],
+   "flag": "new",
+   "summary_zh": "LangChain 现支持 MCP（2026-07-28 规范），基于 FastMCP 实现无状态协议，elicitation 通过 LangGraph 中断处理，工具列表可缓存。",
+   "why_zh": "面试价值：掌握 MCP 在 LangChain 的集成方式，了解无状态协议、中断 elicitation 与缓存机制，是构建可插拔 Agent 的关键技术。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Google DeepMind",
+   "title": "Applying Gemini 4 for large-scale codebase maintenance in Chromium",
+   "link": "https://www.youtube.com/watch?v=LVEfFyijQ2c",
+   "dt": "2026-10-13T16:38:17+00:00",
+   "summary": "The Chromium codebase is millions of lines long and decades old. In the past, working with it has meant navigating decades of tangled features, where touching one component can unexpectedly affect another. Erik Chen, an engineer at Google, is using Gemini 4 Argon to ‘untangle’ the architecture. The model’s coding capabilities mean that multiple agents can work independently to refactor the codebase (all verified by Chromium's test suites and code reviews from engineers). With Gemini 4 Argon main…",
+   "extra": {
+    "channel": "Google DeepMind",
+    "video_id": "LVEfFyijQ2c"
+   },
+   "skills": [
+    "system_design"
+   ],
+   "learn_score": 1.53,
+   "score": 1.53,
+   "tokens": [
+    "applying",
+    "chromium",
+    "codebase",
+    "gemini",
+    "large",
+    "maintenance",
+    "scale"
+   ],
+   "flag": "new",
+   "summary_zh": "Google 工程师利用 Gemini 4 Argon 对 Chromium 百万行代码进行架构梳理，多个 Agent 可独立重构以降低耦合风险。",
+   "why_zh": "面试价值：展示大规模代码维护中利用 LLM 进行自动化重构与解耦的策略，提升代码质量与团队并行效率，是高级软件工程与 AI 结合的典型案例。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "Code review is no longer the bottleneck",
+   "link": "https://www.youtube.com/watch?v=IZXv6a78NDw",
+   "dt": "2026-10-12T16:00:08+00:00",
+   "summary": "Code review is the new bottleneck. Codex brings pull requests, review feedback, and private conversations about your code into one place. See how to find reviews across repositories, understand changes and risks, apply your team’s review guidelines, and draft comments without switching tools. GitHub code review is generally available, with GitLab support in preview.",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": "IZXv6a78NDw"
+   },
+   "skills": [],
+   "learn_score": 1.519,
+   "score": 1.519,
+   "tokens": [
+    "bottleneck",
+    "code",
+    "longer",
+    "no",
+    "review"
+   ],
+   "flag": "new",
+   "summary_zh": "Codex 将 PR、审查反馈和私密讨论统一在一处，支持跨仓库查找、理解变更、应用团队规则并直接撰写评论，GitHub 代码审查正式发布，GitLab 预览中。",
+   "why_zh": "展示如何利用大模型自动化代码审查流程，可学习 AI 工具链集成、提升代码质量的可复用做法。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Wes Roth",
+   "title": "OpenAI’s “Alien Math” Is Freaking People Out",
+   "link": "https://www.youtube.com/watch?v=rxpV3QLV-pg",
+   "dt": "2026-10-09T04:28:24+00:00",
+   "summary": "OpenAI released hundreds of mathematical results—and a group of mathematicians called for a boycott. Scott Aaronson calls it the “Mathocalypse,” while Vitalik Buterin and Justin Drake warn about what AI-driven discoveries could mean for Bitcoin, Ethereum, and encryption. We explore the backlash, the strange new proofs, and why Anthropic is drawing a line around how people treat Claude. ______________________________________________ My Links 🔗 ➡️ Twitter: https://x.com/WesRothMoney ➡️ AI Newslett…",
+   "extra": {
+    "channel": "Wes Roth",
+    "video_id": "rxpV3QLV-pg"
+   },
+   "skills": [
+    "prompt_context"
+   ],
+   "learn_score": 1.377,
+   "score": 1.377,
+   "tokens": [
+    "alien",
+    "freaking",
+    "math",
+    "openai",
+    "people"
+   ],
+   "flag": "new",
+   "summary_zh": "OpenAI 公布数百项 AI 生成的数学结果，引发数学家抵制，并引发对加密货币安全的担忧；Anthropic 限制 Claude 的使用方式。",
+   "why_zh": "体现 AI 生成科学成果的安全与伦理挑战，可学习评估 AI 对密码学、加密资产的影响及应对策略。"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "lemomo-ai/lemo-opuscar",
+   "link": "https://github.com/lemomo-ai/lemo-opuscar",
+   "dt": "2026-09-26T10:10:41+00:00",
+   "summary": "Claude Code skill for short films with no video model: 43 film styles, each a style prompt plus a demo film made entirely in code by Claude Opus 5.5 (incl. OPUSCAR 98). By Lemomo. · Opus5.5 x 43 种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南",
+   "extra": {
+    "stars": 2156,
+    "language": "JavaScript",
+    "topics": [
+     "agent-skills",
+     "ai-agents",
+     "ai-short-film",
+     "ai-video",
+     "animation",
+     "canvas"
+    ],
+    "created": "2026-09-26",
+    "pushed": "2026-10-13"
+   },
+   "skills": [
+    "prompt_context"
+   ],
+   "learn_score": 2.195,
+   "score": 8.78,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-13 推荐过",
+   "summary_zh": "Claude Opus 5.5 生成 43 种电影风格的纯代码短片，附风格提示词和导演指南。",
+   "why_zh": "展示大模型直接输出可运行代码实现多风格视觉内容，为程序化创作提供新范式。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "amitshekhariitbhu/ai-engineering-course",
+   "link": "https://github.com/amitshekhariitbhu/ai-engineering-course",
+   "dt": "2026-09-23T08:04:42+00:00",
+   "summary": "AI Engineering Course - A free and complete AI Engineering Course to learn AI Engineering step by step - from Machine Learning, Neural Networks, and Transformers to LLMs, Fine-Tuning, RAG, AI Agents, LLM Inference, Evaluation, AI Safety, and AI System Design.",
+   "extra": {
+    "stars": 529,
+    "language": "Markdown",
+    "topics": [
+     "ai-course",
+     "ai-engineering",
+     "ai-engineering-course",
+     "ai-engineering-curriculum",
+     "large-language-models"
+    ],
+    "created": "2026-09-23",
+    "pushed": "2026-10-12"
+   },
+   "skills": [
+    "rag",
+    "eval_observability",
+    "training_serving",
+    "llm_fundamentals",
+    "system_design"
+   ],
+   "learn_score": 2.107,
+   "score": 7.845,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-06 推荐过"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "amitshekhariitbhu/ai-system-design",
+   "link": "https://github.com/amitshekhariitbhu/ai-system-design",
+   "dt": "2026-09-25T04:50:06+00:00",
+   "summary": "AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
+   "extra": {
+    "stars": 666,
+    "language": "Markdown",
+    "topics": [
+     "ai",
+     "ai-agents",
+     "ai-engineering",
+     "ai-system",
+     "ai-system-design",
+     "ai-systems"
+    ],
+    "created": "2026-09-25",
+    "pushed": "2026-10-12"
+   },
+   "skills": [
+    "rag",
+    "system_design"
+   ],
+   "learn_score": 1.951,
+   "score": 7.46,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-13 推荐过",
+   "summary_zh": "教程展示如何逐步设计基于LLM、RAG和AI Agent的AI系统。",
+   "why_zh": "为工程师提供系统化的LLM应用架构指导，便于快速落地复杂AI产品。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "EliteTable: Self-Improving Program Search for Executable Control Policies",
+   "link": "https://arxiv.org/abs/2610.12536",
+   "dt": "2026-10-13T00:00:00-04:00",
+   "summary": "arXiv:2610.12536v1 Announce Type: new Abstract: EliteTable is a self-improving program-search algorithm guided by large language models (LLMs) that uses a fixed-capacity table of high-scoring solutions to guide new proposals, edits of existing solutions, and remixes of several solutions. Performance was evaluated across six Gymnasium control tasks, each with ten generations and fifty candidate slots per generation. Each task was evaluated across ten independently initialized searches. Candidate-",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 3.729,
+   "score": 7.458,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-13 推荐过",
+   "summary_zh": "EliteTable 是基于 LLM 的自改进程序搜索算法，利用固定容量高分方案表生成、编辑和混合新方案，并在六个 Gymnasium 控制任务上评估。",
+   "why_zh": "展示 LLM 引导的自改进程序搜索，可学习利用精英方案表进行策略生成与优化的可复用方法。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Equal-Budget Monte Carlo Tree Search versus Randomized-Restart List Scheduling for DAG Workflows: A Controlled Equal-Budget Computational Study",
+   "link": "https://arxiv.org/abs/2610.12542",
+   "dt": "2026-10-13T00:00:00-04:00",
+   "summary": "arXiv:2610.12542v1 Announce Type: new Abstract: Monte Carlo Tree Search (MCTS) is often proposed for scheduling directed-acyclic-graph (DAG) workflows, yet most studies never run the comparison that could refute it - giving a much simpler method the same search effort. We run that comparison under a controlled protocol. All arms receive an identical budget - the same number of candidate schedules built and evaluated: an MCTS scheduling method, preregistered as the main arm; a randomized-restart ",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 3.729,
+   "score": 7.458,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-13 推荐过",
+   "summary_zh": "在相同候选调度预算下，对比 MCTS 与随机重启列表调度在 DAG 工作流上的性能，检验简单方法是否同样有效。",
+   "why_zh": "说明在资源受限时如何公平比较搜索算法，可学习控制变量实验设计与调度算法评估方法。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "rehan-remade/universal-modder",
+   "link": "https://github.com/rehan-remade/universal-modder",
+   "dt": "2026-09-30T05:00:35+00:00",
+   "summary": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
+   "extra": {
+    "stars": 7314,
+    "language": "Python",
+    "topics": [
+     "age-of-empires",
+     "claude-code",
+     "claude-code-plugin",
+     "fal",
+     "game-assets",
+     "game-modding"
+    ],
+    "created": "2026-09-30",
+    "pushed": "2026-10-13"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-13 推荐过",
+   "summary_zh": "使用 Claude Code 及 fal MCP 进行游戏逆向、资产生成、测试等全流程 MOD 制作。",
+   "why_zh": "表明大模型可直接参与游戏逆向与内容创作，为工程师提供新范式。"
+  }
+ ]
+}

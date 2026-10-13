@@ -23,7 +23,7 @@
   },
   "https://github.com/rehan-remade/universal-modder": {
    "title": "rehan-remade/universal-modder",
-   "date": "2026-10-13",
+   "date": "2026-10-14",
    "tokens": [],
    "source": "github",
    "summary_zh": "使用 Claude Code 及 fal MCP 进行游戏逆向、资产生成、测试等全流程 MOD 制作。",
@@ -190,13 +190,8 @@
   },
   "https://github.com/amitshekhariitbhu/ai-engineering-course": {
    "title": "amitshekhariitbhu/ai-engineering-course",
-   "date": "2026-10-06",
-   "tokens": [
-    "ai",
-    "amitshekhariitbhu",
-    "course",
-    "engineering"
-   ],
+   "date": "2026-10-14",
+   "tokens": [],
    "source": "github",
    "summary_zh": "",
    "why_zh": ""
@@ -1228,7 +1223,7 @@
   },
   "https://github.com/lemomo-ai/lemo-opuscar": {
    "title": "lemomo-ai/lemo-opuscar",
-   "date": "2026-10-13",
+   "date": "2026-10-14",
    "tokens": [],
    "source": "github",
    "summary_zh": "Claude Opus 5.5 生成 43 种电影风格的纯代码短片，附风格提示词和导演指南。",
@@ -1727,7 +1722,7 @@
   },
   "https://github.com/amitshekhariitbhu/ai-system-design": {
    "title": "amitshekhariitbhu/ai-system-design",
-   "date": "2026-10-13",
+   "date": "2026-10-14",
    "tokens": [],
    "source": "github",
    "summary_zh": "教程展示如何逐步设计基于LLM、RAG和AI Agent的AI系统。",
@@ -2261,42 +2256,16 @@
   },
   "https://arxiv.org/abs/2610.12536": {
    "title": "EliteTable: Self-Improving Program Search for Executable Control Policies",
-   "date": "2026-10-13",
-   "tokens": [
-    "control",
-    "elitetable",
-    "executable",
-    "improving",
-    "policies",
-    "program",
-    "search",
-    "self"
-   ],
+   "date": "2026-10-14",
+   "tokens": [],
    "source": "paper",
    "summary_zh": "EliteTable 是基于 LLM 的自改进程序搜索算法，利用固定容量高分方案表生成、编辑和混合新方案，并在六个 Gymnasium 控制任务上评估。",
    "why_zh": "展示 LLM 引导的自改进程序搜索，可学习利用精英方案表进行策略生成与优化的可复用方法。"
   },
   "https://arxiv.org/abs/2610.12542": {
    "title": "Equal-Budget Monte Carlo Tree Search versus Randomized-Restart List Scheduling for DAG Workflows: A Controlled Equal-Budget Computational Study",
-   "date": "2026-10-13",
-   "tokens": [
-    "budget",
-    "carlo",
-    "computational",
-    "controlled",
-    "dag",
-    "equal",
-    "list",
-    "monte",
-    "randomized",
-    "restart",
-    "scheduling",
-    "search",
-    "study",
-    "tree",
-    "versus",
-    "workflows"
-   ],
+   "date": "2026-10-14",
+   "tokens": [],
    "source": "paper",
    "summary_zh": "在相同候选调度预算下，对比 MCTS 与随机重启列表调度在 DAG 工作流上的性能，检验简单方法是否同样有效。",
    "why_zh": "说明在资源受限时如何公平比较搜索算法，可学习控制变量实验设计与调度算法评估方法。"
@@ -2478,7 +2447,204 @@
    "source": "blog",
    "summary_zh": "TII 发布 1.6B 参数的阿拉伯语语音识别模型 Falcon-ASR，在六套测试集上平均 WER 20.92%。",
    "why_zh": "展示评估阿语 ASR 模型的技能，学会解读 WER 并注意模型权重与 API 可用性的实际影响。"
+  },
+  "https://github.com/bherbruck/solidcraft": {
+   "title": "bherbruck/solidcraft",
+   "date": "2026-10-14",
+   "tokens": [
+    "bherbruck",
+    "solidcraft"
+   ],
+   "source": "github",
+   "summary_zh": "SolidCraft 是纯 Rust 开源参数化 3D CAD，支持桌面、网页及 MCP 自动化。",
+   "why_zh": "体现 Rust 在复杂图形应用中的工程实践，可学跨平台 UI、插件扩展及 MCP 自动化技术。"
+  },
+  "https://huggingface.co/papers/2610.13361": {
+   "title": "AgentSWE: Can Coding Agents Build the Agent You Actually Want?",
+   "date": "2026-10-14",
+   "tokens": [
+    "actually",
+    "agent",
+    "agents",
+    "agentswe",
+    "build",
+    "coding",
+    "want"
+   ],
+   "source": "paper",
+   "summary_zh": "AgentSWE 是评估编码代理是否能构建真正满足用户需求的代理的基准。",
+   "why_zh": "考察代理可靠性与需求对齐，可学习构建可验证的代理评估方法。"
+  },
+  "https://huggingface.co/papers/2610.13166": {
+   "title": "Scaling Agentic Data for Long-Horizon Terminal Intelligence",
+   "date": "2026-10-14",
+   "tokens": [
+    "agentic",
+    "data",
+    "horizon",
+    "intelligence",
+    "long",
+    "scaling",
+    "terminal"
+   ],
+   "source": "paper",
+   "summary_zh": "提出长 horizon 终端代理数据，展示代理如何通过探索积累证据并调整策略。",
+   "why_zh": "强调长期任务中的证据积累与策略调整，可学习构建具备反馈循环的代理系统。"
+  },
+  "https://github.com/incoai/splash": {
+   "title": "incoai/splash",
+   "date": "2026-10-14",
+   "tokens": [
+    "incoai",
+    "splash"
+   ],
+   "source": "github",
+   "summary_zh": "splash 是针对 Apple Silicon 的本地推理引擎，围绕模型构建。",
+   "why_zh": "展示在 ARM 设备上高效推理的实现，可学习模型优化与硬件适配技巧。"
+  },
+  "https://github.com/openai/codex/issues/48195": {
+   "title": "Codex CLI installs a persistent, self-updating background daemon by default",
+   "date": "2026-10-14",
+   "tokens": [
+    "background",
+    "cli",
+    "codex",
+    "daemon",
+    "default",
+    "installs",
+    "persistent",
+    "self",
+    "updating"
+   ],
+   "source": "hackernews",
+   "summary_zh": "Codex CLI 默认会安装一个持续自更新的后台守护进程。",
+   "why_zh": "展示 CLI 工具的后台服务设计与自更新机制，可学习构建可靠的开发者工具。"
+  },
+  "https://github.com/agent-for-dummys/Agent-For-Dummies": {
+   "title": "agent-for-dummys/Agent-For-Dummies",
+   "date": "2026-10-14",
+   "tokens": [
+    "agent",
+    "dummies",
+    "dummys"
+   ],
+   "source": "github",
+   "summary_zh": "Agent-For-Dummies 提供图文并茂的 Agent 零基础入门笔记，覆盖 RAG 与 AI 应用。",
+   "why_zh": "适合快速掌握 Agent 基础概念与实践，可学习从零构建 Agent 的学习路径。"
+  },
+  "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/": {
+   "title": "AI coding agents generate more code, but not more software",
+   "date": "2026-10-14",
+   "tokens": [
+    "agents",
+    "ai",
+    "code",
+    "coding",
+    "generate",
+    "software"
+   ],
+   "source": "hackernews",
+   "summary_zh": "AI 编码代理能产生更多代码，但未提升实际软件功能或质量。",
+   "why_zh": "面试价值：说明代码生成与软件工程的区别，提醒关注可维护性、需求实现而非仅代码量。"
+  },
+  "https://github.com/ashishsinha1602/schemagate": {
+   "title": "ashishsinha1602/schemagate",
+   "date": "2026-10-14",
+   "tokens": [
+    "ashishsinha1602",
+    "schemagate"
+   ],
+   "source": "github",
+   "summary_zh": "Text-to-SQL 访问控制：根据调用者权限只暴露允许读取的表，支持行级安全，适用于 LangChain、MCP 等 SQL Agent，可削减 75% 提示 token。",
+   "why_zh": "面试价值：展示如何在 LLM 与数据库交互中实现最小权限原则，减少提示长度并提升安全性，是可复用的访问控制模式。"
+  },
+  "https://www.langchain.com/blog/open-models-have-crossed-a-threshold": {
+   "title": "Open Models have crossed a threshold",
+   "date": "2026-10-14",
+   "tokens": [
+    "crossed",
+    "models",
+    "open",
+    "threshold"
+   ],
+   "source": "blog",
+   "summary_zh": "开源模型如 GLM-5、MiniMax M2.7 在文件操作、工具使用、指令遵循等核心 Agent 任务上已匹配闭源前沿模型，成本和延迟更低。",
+   "why_zh": "面试价值：说明开源模型已具备产品级 Agent 能力，可在成本敏感场景替换闭源模型，需了解评估与部署方法。"
+  },
+  "https://www.langchain.com/blog/how-orange-business-built-live-intelligence-on-langchain-and-langsmith": {
+   "title": "How Orange Business Built Live Intelligence with LangChain and LangSmith",
+   "date": "2026-10-14",
+   "tokens": [
+    "built",
+    "business",
+    "intelligence",
+    "langchain",
+    "langsmith",
+    "live",
+    "orange"
+   ],
+   "source": "blog",
+   "summary_zh": "Orange Business 使用 LangChain 与 LangSmith 构建 Live Intelligence 平台，实现 Agent 治理、评估、可观测性及大规模生产。",
+   "why_zh": "面试价值：展示企业级 Agent 平台的落地实践，涉及治理、监控与可扩展性，是构建产品化 Agent 的参考框架。"
+  },
+  "https://www.langchain.com/blog/mcp-in-langchain-stateless-protocol-elicitation-and-more": {
+   "title": "MCP in LangChain: Stateless Protocol, Elicitation, and More!",
+   "date": "2026-10-14",
+   "tokens": [
+    "elicitation",
+    "langchain",
+    "mcp",
+    "protocol",
+    "stateless"
+   ],
+   "source": "blog",
+   "summary_zh": "LangChain 现支持 MCP（2026-07-28 规范），基于 FastMCP 实现无状态协议，elicitation 通过 LangGraph 中断处理，工具列表可缓存。",
+   "why_zh": "面试价值：掌握 MCP 在 LangChain 的集成方式，了解无状态协议、中断 elicitation 与缓存机制，是构建可插拔 Agent 的关键技术。"
+  },
+  "https://www.youtube.com/watch?v=LVEfFyijQ2c": {
+   "title": "Applying Gemini 4 for large-scale codebase maintenance in Chromium",
+   "date": "2026-10-14",
+   "tokens": [
+    "applying",
+    "chromium",
+    "codebase",
+    "gemini",
+    "large",
+    "maintenance",
+    "scale"
+   ],
+   "source": "youtube",
+   "summary_zh": "Google 工程师利用 Gemini 4 Argon 对 Chromium 百万行代码进行架构梳理，多个 Agent 可独立重构以降低耦合风险。",
+   "why_zh": "面试价值：展示大规模代码维护中利用 LLM 进行自动化重构与解耦的策略，提升代码质量与团队并行效率，是高级软件工程与 AI 结合的典型案例。"
+  },
+  "https://www.youtube.com/watch?v=IZXv6a78NDw": {
+   "title": "Code review is no longer the bottleneck",
+   "date": "2026-10-14",
+   "tokens": [
+    "bottleneck",
+    "code",
+    "longer",
+    "no",
+    "review"
+   ],
+   "source": "youtube",
+   "summary_zh": "Codex 将 PR、审查反馈和私密讨论统一在一处，支持跨仓库查找、理解变更、应用团队规则并直接撰写评论，GitHub 代码审查正式发布，GitLab 预览中。",
+   "why_zh": "展示如何利用大模型自动化代码审查流程，可学习 AI 工具链集成、提升代码质量的可复用做法。"
+  },
+  "https://www.youtube.com/watch?v=rxpV3QLV-pg": {
+   "title": "OpenAI’s “Alien Math” Is Freaking People Out",
+   "date": "2026-10-14",
+   "tokens": [
+    "alien",
+    "freaking",
+    "math",
+    "openai",
+    "people"
+   ],
+   "source": "youtube",
+   "summary_zh": "OpenAI 公布数百项 AI 生成的数学结果，引发数学家抵制，并引发对加密货币安全的担忧；Anthropic 限制 Claude 的使用方式。",
+   "why_zh": "体现 AI 生成科学成果的安全与伦理挑战，可学习评估 AI 对密码学、加密资产的影响及应对策略。"
   }
  },
- "updated": "2026-10-12T17:16:24.430674+00:00"
+ "updated": "2026-10-13T17:05:17.583715+00:00"
 }
