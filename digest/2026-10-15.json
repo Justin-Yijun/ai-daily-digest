@@ -1,0 +1,620 @@
+{
+ "date": "2026-10-15",
+ "generated": "2026-10-15 00:40",
+ "source_count": {
+  "github": 67,
+  "youtube": 40,
+  "blog": 86,
+  "paper": 12,
+  "hackernews": 10
+ },
+ "failures": {},
+ "failure_errors": {},
+ "items": [
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Reading Right, Acting Wrong: Diagnosing Decision Failures of System One Models in Agent Loops",
+   "link": "https://huggingface.co/papers/2610.18579",
+   "dt": "2026-10-12T20:00:00+00:00",
+   "summary": "System One models choose an agent's next action by scoring a supplied set of options in a single pass. This makes them fast and cheap, but when they choose wrongly there is nothing to inspect: did the model misread what the agent has seen, or read it correctly and still act wrongly? We answer behaviorally. On a frozen benchmark of agent decision states from simulated environments, customer-service policies, tool use, web navigation and coding, we pair every next-action question with factual prob",
+   "extra": {
+    "upvotes": 4,
+    "arxiv": "https://arxiv.org/abs/2610.18579"
+   },
+   "skills": [
+    "tool_mcp",
+    "agent_architecture",
+    "eval_observability"
+   ],
+   "learn_score": 3.052,
+   "score": 6.104,
+   "tokens": [
+    "acting",
+    "agent",
+    "decision",
+    "diagnosing",
+    "failures",
+    "loops",
+    "models",
+    "one",
+    "reading",
+    "right",
+    "system",
+    "wrong"
+   ],
+   "flag": "new",
+   "summary_zh": "该研究通过冻结基准评估 System One 模型在智能体循环中的决策失误，区分是感知错误还是执行错误。",
+   "why_zh": "属于智能体决策诊断技能，可学习如何通过行为实验区分感知与执行错误，提升 Agent 可靠性。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Words to World: Benchmarking LLMs in Interactive Physical Environments",
+   "link": "https://huggingface.co/papers/2610.15228",
+   "dt": "2026-10-09T20:00:00+00:00",
+   "summary": "Words are increasingly becoming an interface for action: large language models (LLMs) can now invoke tools, operate devices, and make decisions that affect the physical world. However, current benchmarks largely evaluate LLMs through static text responses, offline tool calls, or simulated tasks, leaving open the question of how well they can act in real physical environments. We present a benchmark for measuring LLMs in closed-loop physical interaction, where models control a harness system conn",
+   "extra": {
+    "upvotes": 0,
+    "arxiv": "https://arxiv.org/abs/2610.15228"
+   },
+   "skills": [
+    "agent_architecture",
+    "eval_observability"
+   ],
+   "learn_score": 2.355,
+   "score": 4.71,
+   "tokens": [
+    "benchmarking",
+    "environments",
+    "interactive",
+    "llms",
+    "physical",
+    "words",
+    "world"
+   ],
+   "flag": "new",
+   "summary_zh": "提出基准测试 LLMs 在真实物理环境中的工具调用与决策能力，超越静态文本评估。",
+   "why_zh": "属于 LLM 与物理交互评估技能，可学习如何构建真实世界任务基准，评估模型的工具使用与决策。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Let the Mind Conceive, Let the Hand Achieve: Following Multimodal Instructions for Long-Horizon Robotic Manipulation",
+   "link": "https://huggingface.co/papers/2610.18352",
+   "dt": "2026-10-12T20:00:00+00:00",
+   "summary": "A robot following a multi-step instruction needs to act on the right objects in the right order, even as the scene changes. It must also maintain awareness of task progress and determine when to advance. To address these challenges, we introduce Orchestra, an agent harness that separates task planning and execution management from action generation. Orchestra decomposes a complete multimodal instruction into ordered subtasks, tracks completed steps, and updates the locations of relevant objects ",
+   "extra": {
+    "upvotes": 1,
+    "arxiv": "https://arxiv.org/abs/2610.18352"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 2.18,
+   "score": 4.36,
+   "tokens": [
+    "achieve",
+    "conceive",
+    "following",
+    "hand",
+    "horizon",
+    "instructions",
+    "let",
+    "long",
+    "manipulation",
+    "mind",
+    "multimodal",
+    "robotic"
+   ],
+   "flag": "new",
+   "summary_zh": "提出 Orchestra 框架，分离任务规划与执行管理，使机器人能够依据多模态指令完成长序列操作。",
+   "why_zh": "属于多模态任务规划与执行解耦技能，可学习如何设计分层 Agent 架构以处理长 horizon 机器人任务。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "liaosiliangCodeLife/harness-mate-plat",
+   "link": "https://github.com/liaosiliangCodeLife/harness-mate-plat",
+   "dt": "2026-10-08T02:03:17+00:00",
+   "summary": "端到端智能体平台：把本机的 AI Agent 变成人人可用的 Web 产品（Vue 3 + Flask + Go WS 网关 + Docker 部署）",
+   "extra": {
+    "stars": 21,
+    "language": "Python",
+    "topics": [
+     "ai-agent",
+     "ai-agents",
+     "autonomous-agents",
+     "chatbot",
+     "deepseek",
+     "dsh"
+    ],
+    "created": "2026-10-08",
+    "pushed": "2026-10-12"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.859,
+   "score": 4.317,
+   "tokens": [
+    "harness",
+    "liaosiliangcodelife",
+    "mate",
+    "plat"
+   ],
+   "flag": "new",
+   "summary_zh": "提供端到端智能体平台，将本机 AI Agent 包装为可通过 Web 访问的产品，使用 Vue3、Flask、Go WebSocket 网关及 Docker 部署。",
+   "why_zh": "属于智能体产品化与全栈部署技能，可学习如何将后端 Agent 前端化、容器化并提供可扩展 Web 服务。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "himovo/movo",
+   "link": "https://github.com/himovo/movo",
+   "dt": "2026-09-01T08:46:57+00:00",
+   "summary": "Turn DeepSeek Harness into a self-hosted enterprise Agent platform with knowledge, deep research, content generation, vibe coding, browser automation, governance, and admin controls.",
+   "extra": {
+    "stars": 266,
+    "language": "Python",
+    "topics": [
+     "agent",
+     "ai-agents",
+     "brower-automation",
+     "dsh-plugin",
+     "enterprise-agents",
+     "mcp"
+    ],
+    "created": "2026-09-01",
+    "pushed": "2026-10-14"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.239,
+   "score": 4.243,
+   "tokens": [
+    "himovo",
+    "movo"
+   ],
+   "flag": "new",
+   "summary_zh": "基于 DeepSeek Harness 构建自托管企业级 Agent 平台，集成知识库、深度研究、内容生成、浏览器自动化、治理与管理功能。",
+   "why_zh": "属于企业级 Agent 平台构建技能，可学习如何在开源基础上添加知识、自动化与治理模块，实现私有化部署。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "inikolax/remiqora",
+   "link": "https://github.com/inikolax/remiqora",
+   "dt": "2026-09-17T13:09:15+00:00",
+   "summary": "Free, open-source local AI music studio: ACE-Step 1.5 and YuE2-3B text-to-music, stem separation, an AI arranger that adds parts to your track, a multitrack DAW, MIDI transcription and LoRA training.",
+   "extra": {
+    "stars": 156,
+    "language": "Vue",
+    "topics": [
+     "ace-step",
+     "ai-arranger",
+     "ai-music",
+     "apple-silicon",
+     "daw",
+     "demucs"
+    ],
+    "created": "2026-09-17",
+    "pushed": "2026-10-11"
+   },
+   "skills": [
+    "training_serving"
+   ],
+   "learn_score": 1.3,
+   "score": 4.151,
+   "tokens": [
+    "inikolax",
+    "remiqora"
+   ],
+   "flag": "new",
+   "summary_zh": "开源本地 AI 音乐工作室，集成文本生成音乐、音轨分离、AI 编曲、多轨 DAW、MIDI 转录及 LoRA 训练功能。",
+   "why_zh": "属于多模态创作与模型微调技能，可学习如何将文本到音乐、音源分离及 LoRA 训练结合到 DAW 中，实现可定制的 AI 音乐制作。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Harvil1/codeAgent",
+   "link": "https://github.com/Harvil1/codeAgent",
+   "dt": "2026-10-02T05:15:41+00:00",
+   "summary": "CodeAgent is an open-source coding agent that lives in your terminal. It understands your repository, plans multi-step changes, writes and edits files, runs commands and tests, and iterates until the task is done — all with a transparent, extensible tool loop.",
+   "extra": {
+    "stars": 631,
+    "language": "Python",
+    "topics": [
+     "agent",
+     "ai-agent",
+     "cli",
+     "coding-agent",
+     "context-engineering",
+     "deepseek"
+    ],
+    "created": "2026-10-02",
+    "pushed": "2026-10-14"
+   },
+   "skills": [],
+   "learn_score": 1.033,
+   "score": 3.925,
+   "tokens": [
+    "codeagent",
+    "harvil1"
+   ],
+   "flag": "new",
+   "summary_zh": "CodeAgent 是终端中的开源编码代理，能理解仓库、规划多步修改、编辑文件、运行命令与测试并迭代直至完成。",
+   "why_zh": "学会构建可扩展代理工具循环，掌握仓库感知、多步规划、文件编辑、命令执行与测试迭代的实践方法。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
+   "link": "https://github.com/prabanta-dev/janas",
+   "dt": "2026-10-12T22:05:43+00:00",
+   "summary": "",
+   "extra": {
+    "points": 219,
+    "comments": 93,
+    "hn_link": "https://news.ycombinator.com/item?id=50063717"
+   },
+   "skills": [],
+   "learn_score": 1.0,
+   "score": 3.34,
+   "tokens": [
+    "experts",
+    "janas",
+    "larger",
+    "llms",
+    "ram",
+    "run",
+    "ssd",
+    "streaming",
+    "than"
+   ],
+   "flag": "new",
+   "summary_zh": "Janas 通过从 SSD 流式读取专家层，使超出内存的大型 LLM 能够运行。",
+   "why_zh": "了解模型并行与外存交换技术，学习如何通过 SSD 流式加载专家实现大模型推理的资源高效方案。"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "How to Use Meta’s Rebalancer for Task Placement & Optimization",
+   "link": "https://www.marktechpost.com/2026/10/13/how-to-use-metas-rebalancer-for-task-placement-optimization/",
+   "dt": "2026-10-13T22:14:20+00:00",
+   "summary": "In this comprehensive coding tutorial, we explore Meta's Rebalancer assignment solver using its C++ core and Python bindings. Learn how to build datacenters, manage task placements across racks, handle constraints and goal priorities, and compare local search against the exact HiGHS solver using published benchmarks. The post How to Use Meta’s Rebalancer for Task Placement & Optimization appeared first on MarkTechPost .",
+   "extra": {},
+   "skills": [
+    "eval_observability",
+    "system_design"
+   ],
+   "learn_score": 2.926,
+   "score": 2.926,
+   "tokens": [
+    "meta",
+    "optimization",
+    "placement",
+    "rebalancer",
+    "task",
+    "use"
+   ],
+   "flag": "new",
+   "summary_zh": "使用 Meta 的 Rebalancer（C++核心+Python绑定）进行任务放置与优化，构建数据中心机架任务分配，处理约束与优先级，并与 HiGHS 求解器基准比较。",
+   "why_zh": "学习约束求解与局部搜索在任务调度中的应用，掌握 C++核心+Python绑定的混合开发及基准评估方法。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "What is an Agent Harness?",
+   "link": "https://www.youtube.com/watch?v=R0ckdFjUF5U",
+   "dt": "2026-10-13T19:56:01+00:00",
+   "summary": "Harness engineering is how we build systems around models to turn them into work engines. A harness is every piece of code, configuration, and execution logic that isn't the model itself. A raw model is not an agent, but can become one when a harness gives it things like state, tool execution, feedback loops, and enforceable constraints. Concretely, a harness includes things like: • System Prompts • Tools, Skills, MCPs + and their descriptions • Bundled Infrastructure (filesystem, sandbox, brows…",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": "R0ckdFjUF5U"
+   },
+   "skills": [
+    "prompt_context",
+    "tool_mcp",
+    "agent_architecture"
+   ],
+   "learn_score": 2.892,
+   "score": 2.892,
+   "tokens": [
+    "agent",
+    "harness"
+   ],
+   "flag": "new",
+   "summary_zh": "Agent Harness 是围绕模型构建的系统代码、配置与执行逻辑，提供状态、工具执行、反馈循环和可强制约束，使原始模型成为可工作的代理。",
+   "why_zh": "理解代理 harness 的组成与作用，学习如何为模型添加状态、工具、反馈与约束以构建可靠的 AI 系统。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "What is Deep Agents?",
+   "link": "https://www.youtube.com/watch?v=8gCam2-iGLc",
+   "dt": "2026-10-14T15:12:04+00:00",
+   "summary": "Deep Agents is LangChain's open source agent harness built for long-running tasks. It handles planning, context management, and multi-agent orchestration for complex work like research and coding. Learn more about Deep Agents: LangChain Academy → https://academy.langchain.com/courses/foundation-introduction-to-deepagents Docs → https://docs.langchain.com/oss/python/deepagents/overview Intro to Deep Agents Virtual Workshop (Recording) → https://events.langchain.com/intro-to-deep-agents-101/ Intro…",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": "8gCam2-iGLc"
+   },
+   "skills": [
+    "agent_architecture",
+    "multi_agent"
+   ],
+   "learn_score": 2.479,
+   "score": 2.479,
+   "tokens": [
+    "agents",
+    "deep"
+   ],
+   "flag": "new",
+   "summary_zh": "Deep Agents 是 LangChain 的开源 agent harness，专为长时任务设计，处理规划、上下文管理及多代理编排，适用于研究与编码等复杂工作。",
+   "why_zh": "学习长时任务代理的规划与上下文管理技术，掌握多代理协作与任务编排的实现方式。"
+  },
+  {
+   "source": "blog",
+   "source_label": "LangChain 博客",
+   "title": "Deep Agents Deploy: an open alternative to Claude Managed Agents",
+   "link": "https://www.langchain.com/blog/deep-agents-deploy-an-open-alternative-to-claude-managed-agents",
+   "dt": "2026-10-13T19:56:07+00:00",
+   "summary": "Today we’re launching Deep Agents deploy in beta. Deep Agents deploy is the fastest way to deploy a model agnostic, open source agent harness in a production ready way.",
+   "extra": {},
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.951,
+   "score": 1.951,
+   "tokens": [
+    "agents",
+    "alternative",
+    "claude",
+    "deep",
+    "deploy",
+    "managed",
+    "open"
+   ],
+   "flag": "new",
+   "summary_zh": "Deep Agents Deploy 测试版发布，提供最快的生产就绪方式，以模型无关的开源 agent harness 部署。",
+   "why_zh": "了解如何快速部署生产级开源代理 harness，学习模型无关、可扩展的部署流程与最佳实践。"
+  },
+  {
+   "source": "blog",
+   "source_label": "Latent Space",
+   "title": "[AINews] AI Engineer NYC: Gemini 4 Argon, Vals AI Benchmarks",
+   "link": "https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon",
+   "dt": "2026-10-14T05:40:28+00:00",
+   "summary": "Gemini 4 Argon went GA today, but we already gave it title story 2 weeks ago and most benchmarks, like CursorBench, simply independently confirm their claims.",
+   "extra": {},
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.951,
+   "score": 1.951,
+   "tokens": [
+    "ai",
+    "ainews",
+    "argon",
+    "benchmarks",
+    "engineer",
+    "gemini",
+    "nyc",
+    "vals"
+   ],
+   "flag": "new",
+   "summary_zh": "Gemini 4 Argon 正式发布，基准测试如 CursorBench 独立验证其性能声明。",
+   "why_zh": "了解大模型发布流程及基准验证方法，可复用评估新模型性能的实践。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Sam Witteveen",
+   "title": "Which is The Best Qwen3.8-27B?",
+   "link": "https://www.youtube.com/watch?v=2RA7jWJvQ1U",
+   "dt": "2026-10-04T16:20:09+00:00",
+   "summary": "Which is the best fine-tune of Qwen3.8 27B that reduces the amount of thinking and reasoning tokens but still keeps the best accuracy for your particular use case? Thanks to Dell for Sponsoring the Compute #NVIDIA #DellProPrecision #DellProMax ThinkingCap: https://bottlecapai.com/post/thinkingcap-qwen3-8-27b/ Swift 1.5: https://ukisai.com/swift-1-5-27b QwenPi: https://huggingface.co/bytkim/Qwen3.8-27B-pi 2nd Channel: https://www.youtube.com/channel/UCUF7WtR4JpVbQqcQGrLeADw Twitter: https://x.com…",
+   "extra": {
+    "channel": "Sam Witteveen",
+    "video_id": "2RA7jWJvQ1U"
+   },
+   "skills": [
+    "training_serving"
+   ],
+   "learn_score": 1.3,
+   "score": 1.3,
+   "tokens": [
+    "27b",
+    "best",
+    "qwen3",
+    "which"
+   ],
+   "flag": "new",
+   "summary_zh": "比较多个 Qwen3.8-27B 微调版本，旨在减少思考/推理 token 同时保持最高准确率。",
+   "why_zh": "学习如何在保持精度的前提下裁剪推理开销，掌握模型微调与资源权衡的技巧。"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "lemomo-ai/lemo-opuscar",
+   "link": "https://github.com/lemomo-ai/lemo-opuscar",
+   "dt": "2026-09-26T10:10:41+00:00",
+   "summary": "Claude Code skill for short films with no video model: 43 film styles, each a style prompt plus a demo film made entirely in code by Claude Opus 5.5 (incl. OPUSCAR 98). By Lemomo. · Opus5.5 x 43 种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南",
+   "extra": {
+    "stars": 2317,
+    "language": "JavaScript",
+    "topics": [
+     "agent-skills",
+     "ai-agents",
+     "ai-short-film",
+     "ai-video",
+     "animation",
+     "canvas"
+    ],
+    "created": "2026-09-26",
+    "pushed": "2026-10-13"
+   },
+   "skills": [
+    "prompt_context"
+   ],
+   "learn_score": 2.195,
+   "score": 8.78,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-14 推荐过",
+   "summary_zh": "Claude Opus 5.5 生成 43 种电影风格的纯代码短片，附风格提示词和导演指南。",
+   "why_zh": "展示大模型直接输出可运行代码实现多风格视觉内容，为程序化创作提供新范式。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "amitshekhariitbhu/ai-engineering-course",
+   "link": "https://github.com/amitshekhariitbhu/ai-engineering-course",
+   "dt": "2026-09-23T08:04:42+00:00",
+   "summary": "AI Engineering Course - A free and complete AI Engineering Course to learn AI Engineering step by step - from Machine Learning, Neural Networks, and Transformers to LLMs, Fine-Tuning, RAG, AI Agents, LLM Inference, Evaluation, AI Safety, and AI System Design.",
+   "extra": {
+    "stars": 529,
+    "language": "Markdown",
+    "topics": [
+     "ai-course",
+     "ai-engineering",
+     "ai-engineering-course",
+     "ai-engineering-curriculum",
+     "large-language-models"
+    ],
+    "created": "2026-09-23",
+    "pushed": "2026-10-14"
+   },
+   "skills": [
+    "rag",
+    "eval_observability",
+    "training_serving",
+    "llm_fundamentals",
+    "system_design"
+   ],
+   "learn_score": 2.107,
+   "score": 7.845,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-14 推荐过"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "amitshekhariitbhu/ai-system-design",
+   "link": "https://github.com/amitshekhariitbhu/ai-system-design",
+   "dt": "2026-09-25T04:50:06+00:00",
+   "summary": "AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
+   "extra": {
+    "stars": 670,
+    "language": "Markdown",
+    "topics": [
+     "ai",
+     "ai-agents",
+     "ai-engineering",
+     "ai-system",
+     "ai-system-design",
+     "ai-systems"
+    ],
+    "created": "2026-09-25",
+    "pushed": "2026-10-14"
+   },
+   "skills": [
+    "rag",
+    "system_design"
+   ],
+   "learn_score": 1.951,
+   "score": 7.465,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-14 推荐过",
+   "summary_zh": "教程展示如何逐步设计基于LLM、RAG和AI Agent的AI系统。",
+   "why_zh": "为工程师提供系统化的LLM应用架构指导，便于快速落地复杂AI产品。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "bherbruck/solidcraft",
+   "link": "https://github.com/bherbruck/solidcraft",
+   "dt": "2026-10-07T18:57:48+00:00",
+   "summary": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+   "extra": {
+    "stars": 2212,
+    "language": "Rust",
+    "topics": [
+     "3d-modeling",
+     "brep",
+     "cad",
+     "egui",
+     "mcp",
+     "parametric-cad"
+    ],
+    "created": "2026-10-07",
+    "pushed": "2026-10-14"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.859,
+   "score": 7.436,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-14 推荐过",
+   "summary_zh": "SolidCraft 是纯 Rust 开源参数化 3D CAD，支持桌面、网页及 MCP 自动化。",
+   "why_zh": "体现 Rust 在复杂图形应用中的工程实践，可学跨平台 UI、插件扩展及 MCP 自动化技术。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "rehan-remade/universal-modder",
+   "link": "https://github.com/rehan-remade/universal-modder",
+   "dt": "2026-09-30T05:00:35+00:00",
+   "summary": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
+   "extra": {
+    "stars": 7592,
+    "language": "Python",
+    "topics": [
+     "age-of-empires",
+     "claude-code",
+     "claude-code-plugin",
+     "fal",
+     "game-assets",
+     "game-modding"
+    ],
+    "created": "2026-09-30",
+    "pushed": "2026-10-14"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-14 推荐过",
+   "summary_zh": "使用 Claude Code 及 fal MCP 进行游戏逆向、资产生成、测试等全流程 MOD 制作。",
+   "why_zh": "表明大模型可直接参与游戏逆向与内容创作，为工程师提供新范式。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "zai-org/ZCode",
+   "link": "https://github.com/zai-org/ZCode",
+   "dt": "2026-09-20T12:01:16+00:00",
+   "summary": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+   "extra": {
+    "stars": 7821,
+    "language": "TypeScript",
+    "topics": [],
+    "created": "2026-09-20",
+    "pushed": "2026-10-10"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-13 推荐过",
+   "summary_zh": "Z.ai 发布 ZCode，提供强大、智能、可扩展的编码代理框架。",
+   "why_zh": "为 AI 工程师提供即插即用的代码生成与自动化工具，降低开发门槛。"
+  }
+ ]
+}
