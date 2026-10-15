@@ -1,0 +1,616 @@
+{
+ "date": "2026-10-16",
+ "generated": "2026-10-16 00:26",
+ "source_count": {
+  "github": 66,
+  "youtube": 40,
+  "blog": 86,
+  "paper": 24,
+  "hackernews": 10
+ },
+ "failures": {},
+ "failure_errors": {},
+ "items": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Fazmin/AILearningGuide",
+   "link": "https://github.com/Fazmin/AILearningGuide",
+   "dt": "2026-10-05T02:29:23+00:00",
+   "summary": "Interactive desktop app with 51 labs covering ML fundamentals, transformers, RAG, agents, fine-tuning and quantization and more.",
+   "extra": {
+    "stars": 180,
+    "language": "TypeScript",
+    "topics": [
+     "ai",
+     "ai-education",
+     "deep-learning",
+     "educational",
+     "educational-resources",
+     "educational-tool"
+    ],
+    "created": "2026-10-05",
+    "pushed": "2026-10-15"
+   },
+   "skills": [
+    "rag",
+    "training_serving",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.276,
+   "score": 7.409,
+   "tokens": [
+    "ailearningguide",
+    "fazmin"
+   ],
+   "flag": "new",
+   "summary_zh": "提供交互式桌面应用，包含51个实验涵盖机器学习基础、Transformer、RAG、Agent、微调与量化等内容。",
+   "why_zh": "可学习动手实验的组织方式，掌握从基础到高级模型的全流程实践，适合面试中展示系统化学习能力。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence",
+   "link": "https://arxiv.org/abs/2610.14005",
+   "dt": "2026-10-15T00:00:00-04:00",
+   "summary": "arXiv:2610.14005v1 Announce Type: new Abstract: Under the accelerated pace of AI development, any benchmark whose difficulty is calibrated with humans or current AI systems becomes circular, or saturates soon. How can we then evaluate machines that may become more capable than the current machines and the people who write the tests? One answer to the question hinges on inverse problems, inductive inference questions for which difficulty depends on the complexity of the underlying mechanism, give",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "eval_observability",
+    "training_serving"
+   ],
+   "learn_score": 3.58,
+   "score": 7.16,
+   "tokens": [
+    "artificiality",
+    "exam",
+    "first",
+    "llm",
+    "referenced",
+    "supraintelligence",
+    "test"
+   ],
+   "flag": "new",
+   "summary_zh": "提出基于逆问题的LLM参照C-test，用于评估超越当前AI和人类的超智能系统能力。",
+   "why_zh": "体现评估超智能的新思路，可学习逆问题设计方法，面试中展示对基准设计的前瞻性理解。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "ClawLoop: Self-Improving Agents via Harness-Native Training Loop",
+   "link": "https://arxiv.org/abs/2610.14118",
+   "dt": "2026-10-15T00:00:00-04:00",
+   "summary": "arXiv:2610.14118v1 Announce Type: new Abstract: The rapid advancement of Large Language Models (LLMs) has driven their deployment toward general-purpose harness environments, where LLM-based agents operate in sandbox workspaces and interact directly with file systems and shells. While numerous post-training pipelines exist for tool-use agents, their counterparts for harness-based agents remain scarce and are predominantly one-shot and teacher-dependent: a stronger external model synthesizes task",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 2.983,
+   "score": 5.966,
+   "tokens": [
+    "agents",
+    "clawloop",
+    "harness",
+    "improving",
+    "loop",
+    "native",
+    "self",
+    "training"
+   ],
+   "flag": "new",
+   "summary_zh": "提出利用原生训练循环的ClawLoop，使基于LLM的Agent在沙箱环境中自举改进工具使用能力。",
+   "why_zh": "展示Agent自我改进的训练循环设计，可学习 harness-native 强化学习技巧，面试中体现对Agent训练 pipeline 的理解。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "modelscope/ms-cookbook",
+   "link": "https://github.com/modelscope/ms-cookbook",
+   "dt": "2026-09-11T14:27:35+00:00",
+   "summary": "魔搭紫皮书｜ModelScope Cookbook：面向开发者的开源模型应用实战指南，覆盖模型选型、推理、微调、评测、RAG、Agent 与 AIGC，从跑通第一个模型到构建实际应用。",
+   "extra": {
+    "stars": 472,
+    "language": "HTML",
+    "topics": [
+     "ai-agents",
+     "cookbook",
+     "diffusion-models",
+     "fine-tuning",
+     "generative-ai",
+     "llm"
+    ],
+    "created": "2026-09-11",
+    "pushed": "2026-10-15"
+   },
+   "skills": [
+    "rag",
+    "eval_observability",
+    "training_serving"
+   ],
+   "learn_score": 1.606,
+   "score": 5.9,
+   "tokens": [
+    "cookbook",
+    "modelscope",
+    "ms"
+   ],
+   "flag": "new",
+   "summary_zh": "魔搭紫皮书提供开源模型全链路实战指南，从选型到Agent与AIGC应用。",
+   "why_zh": "汇集模型应用最佳实践，可学习端到端工程流程，面试中展示对模型工程化的全面掌握。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "kajisho5/ffmpeg-skill",
+   "link": "https://github.com/kajisho5/ffmpeg-skill",
+   "dt": "2026-09-03T14:33:38+00:00",
+   "summary": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
+   "extra": {
+    "stars": 1957,
+    "language": "Python",
+    "topics": [
+     "agent-skills",
+     "ai-agents",
+     "audio-processing",
+     "captions",
+     "claude-code",
+     "codex"
+    ],
+    "created": "2026-09-03",
+    "pushed": "2026-10-15"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.239,
+   "score": 4.956,
+   "tokens": [
+    "ffmpeg",
+    "kajisho5",
+    "skill"
+   ],
+   "flag": "new",
+   "summary_zh": "提供本地视频编辑工具集，42个FFmpeg操作及MCP服务，供编码Agent直接调用。",
+   "why_zh": "展示如何为Agent构建可机器读取的多媒体工具链，可学习工具封装与协议设计，面试中体现对Agent交互能力的实现。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "lnkiai/m3e-canvas",
+   "link": "https://github.com/lnkiai/m3e-canvas",
+   "dt": "2026-09-02T04:36:34+00:00",
+   "summary": "Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.",
+   "extra": {
+    "stars": 9369,
+    "language": "TypeScript",
+    "topics": [
+     "design-tool",
+     "material-3-expressive",
+     "material-design",
+     "material3",
+     "nextjs",
+     "prompt"
+    ],
+    "created": "2026-09-02",
+    "pushed": "2026-10-15"
+   },
+   "skills": [
+    "prompt_context"
+   ],
+   "learn_score": 0.918,
+   "score": 3.672,
+   "tokens": [
+    "canvas",
+    "lnkiai",
+    "m3e"
+   ],
+   "flag": "new",
+   "summary_zh": "浏览器中绘制Material 3表现力界面，并转换为振动编码提示词。",
+   "why_zh": "将UI设计与Prompt工程结合，可学习可视化Prompt生成方法，面试中展示跨模态创意技术。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "LFM2.5-24B-A2B: Built for fast on-device agents",
+   "link": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+   "dt": "2026-10-14T23:59:37+00:00",
+   "summary": "",
+   "extra": {
+    "points": 268,
+    "comments": 71,
+    "hn_link": "https://news.ycombinator.com/item?id=50097369"
+   },
+   "skills": [],
+   "learn_score": 1.0,
+   "score": 3.428,
+   "tokens": [
+    "24b",
+    "a2b",
+    "agents",
+    "built",
+    "device",
+    "fast",
+    "lfm2"
+   ],
+   "flag": "new",
+   "summary_zh": "LFM2.5-24B-A2B 是专为快速在设备上运行的 AI 代理而设计的模型。",
+   "why_zh": "展示轻量级大模型在端侧部署的技巧，可学习模型压缩与低延迟推理。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Why do LLM pelicans look like this?",
+   "link": "https://arcfu.com/post/the-emperor-pelican-has-no-clothes/",
+   "dt": "2026-10-14T16:33:34+00:00",
+   "summary": "",
+   "extra": {
+    "points": 163,
+    "comments": 140,
+    "hn_link": "https://news.ycombinator.com/item?id=50090443"
+   },
+   "skills": [],
+   "learn_score": 1.0,
+   "score": 3.212,
+   "tokens": [
+    "do",
+    "like",
+    "llm",
+    "look",
+    "pelicans"
+   ],
+   "flag": "new",
+   "summary_zh": "解释了 LLM 某种可视化呈现为鹈鹕形状的原因。",
+   "why_zh": "展示了如何通过可视化分析模型内部结构，可学习解释性技术。"
+  },
+  {
+   "source": "blog",
+   "source_label": "LangChain 博客",
+   "title": "Context Engineering with Deep Agents: How To Remember Without Keeping Everything In Context",
+   "link": "https://www.langchain.com/blog/context-engineering-deep-agents-remember",
+   "dt": "2026-10-14T17:39:26+00:00",
+   "summary": "Long-running agents degrade as context piles up. Learn how offloading, summarization, skills, subagents, and memory keep your agent's context window focused.",
+   "extra": {},
+   "skills": [
+    "prompt_context",
+    "agent_architecture"
+   ],
+   "learn_score": 2.926,
+   "score": 2.926,
+   "tokens": [
+    "agents",
+    "context",
+    "deep",
+    "engineering",
+    "everything",
+    "keeping",
+    "remember",
+    "without"
+   ],
+   "flag": "new",
+   "summary_zh": "介绍通过卸载、摘要、技能、子代理和记忆机制让长运行代理保持上下文窗口聚焦。",
+   "why_zh": "展示上下文压缩与模块化设计的实践，可学习构建可扩展代理的方法。"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "CopilotKit Releases CLiF: A Continual Learning Platform That Turns Agent Traces and User Actions into Skills, Evals, and Fine-Tuning Data",
+   "link": "https://www.marktechpost.com/2026/10/15/copilotkit-releases-clif-a-continual-learning-platform-that-turns-agent-traces-and-user-actions-into-skills-evals-and-fine-tuning-data/",
+   "dt": "2026-10-15T14:19:27+00:00",
+   "summary": "Introduction Teams shipping AI agents at scale keep running into the same pattern. Even agents built on top-tier models like Fable and Astra struggle to carry out complex, end-to-end tasks inside a specific product consistently enough to deploy. So teams grind out evals for the workflows that matter most, often hundreds or thousands of hand-written […] The post CopilotKit Releases CLiF: A Continual Learning Platform That Turns Agent Traces and User Actions into Skills, Evals, and Fine-Tuning Dat…",
+   "extra": {},
+   "skills": [
+    "eval_observability",
+    "training_serving"
+   ],
+   "learn_score": 2.926,
+   "score": 2.926,
+   "tokens": [
+    "actions",
+    "agent",
+    "clif",
+    "continual",
+    "copilotkit",
+    "data",
+    "evals",
+    "fine",
+    "learning",
+    "platform",
+    "releases",
+    "skills",
+    "traces",
+    "tuning",
+    "turns",
+    "user"
+   ],
+   "flag": "new",
+   "summary_zh": "CopilotKit 发布 CLiF 平台，将代理轨迹和用户行为转化为技能、评估和微调数据。",
+   "why_zh": "展示持续学习闭环的实现，可学习从运行中自动生成训练数据与评估。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "How Stripe Built Kai",
+   "link": "https://www.youtube.com/watch?v=rduH9wnXto8",
+   "dt": "2026-10-15T13:25:13+00:00",
+   "summary": "What if everyone had an always-on, production-ready assistant? At Stripe, their answer was a company-wide AI agent called Knowledge AI Platform, also known as Kai. In less than 2 minutes, learn how Stripe built Kai in just 1 week using Deep Agents, LangChain's open-source agent harness. Deep Agents provides the foundation that wires together the tool-calling loop, middleware composition, streaming, and state management that would otherwise take months to build and harden from scratch. Learn more…",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": "rduH9wnXto8"
+   },
+   "skills": [
+    "agent_architecture",
+    "system_design"
+   ],
+   "learn_score": 2.479,
+   "score": 2.479,
+   "tokens": [
+    "built",
+    "kai",
+    "stripe"
+   ],
+   "flag": "new",
+   "summary_zh": "Stripe 使用 Deep Agents 和 LangChain 在一周内构建了公司级 AI 助手 Kai，实现工具调用、中间件组合和流式输出。",
+   "why_zh": "展示快速搭建生产级代理的全流程，可学习基于开源框架的快速迭代与工程实践。"
+  },
+  {
+   "source": "blog",
+   "source_label": "Simon Willison",
+   "title": "Tree Appreciator",
+   "link": "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
+   "dt": "2026-10-14T21:23:01+00:00",
+   "summary": "Tool: Tree Appreciator Another game experiment with Claude. This one used the default Claude iPhone app (chat mode, not Claude Code mode), where I prompted Claude Opus 5.5 Max with: Build a three js game called \"Tree appreciator\" - it shows you two algorithmically generated trees and the game mechanics is about appreciating the differences between them. Think hard about how to make sure it is both fun and beautiful. Somewhat embarrassingly given my recent talk , I've found that telling Opus 5.5 …",
+   "extra": {},
+   "skills": [
+    "prompt_context"
+   ],
+   "learn_score": 2.438,
+   "score": 2.438,
+   "tokens": [
+    "appreciator",
+    "tree"
+   ],
+   "flag": "new",
+   "summary_zh": "使用 Claude Opus 5.5 Max 构建了一个 Three.js 小游戏，展示两棵算法生成的树并让玩家欣赏它们的差异。",
+   "why_zh": "展示利用大模型快速原型化交互式 3D 应用，可学习提示工程与跨模态实现。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Cole Medin",
+   "title": "Is Learning to Build Software Still Worth It with AI? (My Honest Take)",
+   "link": "https://www.youtube.com/watch?v=PMOnd8T7Py0",
+   "dt": "2026-10-12T15:32:59+00:00",
+   "summary": "REA (Reverse Engineer Anything) hit #1 on GitHub Trending last week. Point your AI coding agent at an app and it works out how a feature is built, down to the binary, then rebuilds it. When AI can do THAT, is anything still worth learning? The simple answer is yes, because no model can read your mind. In this video I break down why reverse engineering works so well (the finished app already holds the intent) and the \"meat proxy\" trap of dumping a ticket into your coding agent and pasting back wh…",
+   "extra": {
+    "channel": "Cole Medin",
+    "video_id": "PMOnd8T7Py0"
+   },
+   "skills": [],
+   "learn_score": 1.154,
+   "score": 1.154,
+   "tokens": [
+    "ai",
+    "build",
+    "honest",
+    "learning",
+    "my",
+    "software",
+    "still",
+    "take",
+    "worth"
+   ],
+   "flag": "new",
+   "summary_zh": "REA 项目登顶 GitHub Trending，AI 编码 Agent 能逆向还原 App 细节至二进制并重建。",
+   "why_zh": "体现 AI Agent 在代码逆向与理解中的应用，可学习利用 AI 拆解复杂系统、提升调试与重构能力。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · David Ondrej",
+   "title": "Stop coding, build Software Factories instead",
+   "link": "https://www.youtube.com/watch?v=ZHOmBeMNbnc",
+   "dt": "2026-10-11T21:55:42+00:00",
+   "summary": "Try PostHog yourself: https://go.posthog.com/david Cloudroom: https://cloudroom.dev/ My Skills repo: https://github.com/davidondrej/skills Follow me on Instagram - https://www.instagram.com/davidondrej1/ Follow me on Twitter - https://x.com/DavidOndrej1 Watch my podcasts on Spotify: https://open.spotify.com/show/033E1ULeu3Pj9JU2MABz2U?si=vvf361b2R3O2Dg0obO-2IQ Subscribe if you're serious about AI. The future of AI Agents will look very different than today... Software Factories, Agentic Loops, C…",
+   "extra": {
+    "channel": "David Ondrej",
+    "video_id": "ZHOmBeMNbnc"
+   },
+   "skills": [],
+   "learn_score": 1.154,
+   "score": 1.154,
+   "tokens": [
+    "build",
+    "coding",
+    "factories",
+    "instead",
+    "software",
+    "stop"
+   ],
+   "flag": "new",
+   "summary_zh": "提出停止手写代码，转而构建软件工厂，利用 PostHog、Cloudroom 等工具实现自动化软件生产。",
+   "why_zh": "展示平台化、自动化软件交付思路，可学习 DevOps、平台工程及模板化开发的可复用做法。"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "lemomo-ai/lemo-opuscar",
+   "link": "https://github.com/lemomo-ai/lemo-opuscar",
+   "dt": "2026-09-26T10:10:41+00:00",
+   "summary": "Claude Code skill for short films with no video model: 43 film styles, each a style prompt plus a demo film made entirely in code by Claude Opus 5.5 (incl. OPUSCAR 98). By Lemomo. · Opus5.5 x 43 种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南",
+   "extra": {
+    "stars": 2447,
+    "language": "JavaScript",
+    "topics": [
+     "agent-skills",
+     "ai-agents",
+     "ai-short-film",
+     "ai-video",
+     "animation",
+     "canvas"
+    ],
+    "created": "2026-09-26",
+    "pushed": "2026-10-13"
+   },
+   "skills": [
+    "prompt_context"
+   ],
+   "learn_score": 2.195,
+   "score": 8.78,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-15 推荐过",
+   "summary_zh": "Claude Opus 5.5 生成 43 种电影风格的纯代码短片，附风格提示词和导演指南。",
+   "why_zh": "展示大模型直接输出可运行代码实现多风格视觉内容，为程序化创作提供新范式。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "amitshekhariitbhu/ai-system-design",
+   "link": "https://github.com/amitshekhariitbhu/ai-system-design",
+   "dt": "2026-09-25T04:50:06+00:00",
+   "summary": "AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
+   "extra": {
+    "stars": 672,
+    "language": "Markdown",
+    "topics": [
+     "ai",
+     "ai-agents",
+     "ai-engineering",
+     "ai-system",
+     "ai-system-design",
+     "ai-systems"
+    ],
+    "created": "2026-09-25",
+    "pushed": "2026-10-14"
+   },
+   "skills": [
+    "rag",
+    "system_design"
+   ],
+   "learn_score": 1.951,
+   "score": 7.467,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-15 推荐过",
+   "summary_zh": "教程展示如何逐步设计基于LLM、RAG和AI Agent的AI系统。",
+   "why_zh": "为工程师提供系统化的LLM应用架构指导，便于快速落地复杂AI产品。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "bherbruck/solidcraft",
+   "link": "https://github.com/bherbruck/solidcraft",
+   "dt": "2026-10-07T18:57:48+00:00",
+   "summary": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+   "extra": {
+    "stars": 2628,
+    "language": "Rust",
+    "topics": [
+     "3d-modeling",
+     "brep",
+     "cad",
+     "egui",
+     "mcp",
+     "parametric-cad"
+    ],
+    "created": "2026-10-07",
+    "pushed": "2026-10-15"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.859,
+   "score": 7.436,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-15 推荐过",
+   "summary_zh": "SolidCraft 是纯 Rust 开源参数化 3D CAD，支持桌面、网页及 MCP 自动化。",
+   "why_zh": "体现 Rust 在复杂图形应用中的工程实践，可学跨平台 UI、插件扩展及 MCP 自动化技术。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "rehan-remade/universal-modder",
+   "link": "https://github.com/rehan-remade/universal-modder",
+   "dt": "2026-09-30T05:00:35+00:00",
+   "summary": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
+   "extra": {
+    "stars": 7851,
+    "language": "Python",
+    "topics": [
+     "age-of-empires",
+     "claude-code",
+     "claude-code-plugin",
+     "fal",
+     "game-assets",
+     "game-modding"
+    ],
+    "created": "2026-09-30",
+    "pushed": "2026-10-15"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-15 推荐过",
+   "summary_zh": "使用 Claude Code 及 fal MCP 进行游戏逆向、资产生成、测试等全流程 MOD 制作。",
+   "why_zh": "表明大模型可直接参与游戏逆向与内容创作，为工程师提供新范式。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "zai-org/ZCode",
+   "link": "https://github.com/zai-org/ZCode",
+   "dt": "2026-09-20T12:01:16+00:00",
+   "summary": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+   "extra": {
+    "stars": 7849,
+    "language": "TypeScript",
+    "topics": [],
+    "created": "2026-09-20",
+    "pushed": "2026-10-10"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-15 推荐过",
+   "summary_zh": "Z.ai 发布 ZCode，提供强大、智能、可扩展的编码代理框架。",
+   "why_zh": "为 AI 工程师提供即插即用的代码生成与自动化工具，降低开发门槛。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Ayzzz123/mcd-coupon-strategist",
+   "link": "https://github.com/Ayzzz123/mcd-coupon-strategist",
+   "dt": "2026-10-10T12:59:19+00:00",
+   "summary": "麦麦省钱助手 —— 基于麦当劳 MCP 的点餐成本优化 Skill。算出当前门店最省钱的点餐方案，并主动提示凑单陷阱。",
+   "extra": {
+    "stars": 342,
+    "language": "Python",
+    "topics": [
+     "agent",
+     "cost-optimization",
+     "coupon",
+     "llm",
+     "mcd-mcp",
+     "mcdonalds"
+    ],
+    "created": "2026-10-10",
+    "pushed": "2026-10-14"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.859,
+   "score": 6.57,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-13 推荐过",
+   "summary_zh": "基于麦当劳 MCP 的点餐成本优化助手，给出最省钱方案并提醒凑单陷阱。",
+   "why_zh": "演示如何利用业务 MCP 进行成本优化决策，可学习结合领域知识与约束求解的实现方法。"
+  }
+ ]
+}

@@ -23,7 +23,7 @@
   },
   "https://github.com/rehan-remade/universal-modder": {
    "title": "rehan-remade/universal-modder",
-   "date": "2026-10-15",
+   "date": "2026-10-16",
    "tokens": [],
    "source": "github",
    "summary_zh": "使用 Claude Code 及 fal MCP 进行游戏逆向、资产生成、测试等全流程 MOD 制作。",
@@ -1223,7 +1223,7 @@
   },
   "https://github.com/lemomo-ai/lemo-opuscar": {
    "title": "lemomo-ai/lemo-opuscar",
-   "date": "2026-10-15",
+   "date": "2026-10-16",
    "tokens": [],
    "source": "github",
    "summary_zh": "Claude Opus 5.5 生成 43 种电影风格的纯代码短片，附风格提示词和导演指南。",
@@ -1722,7 +1722,7 @@
   },
   "https://github.com/amitshekhariitbhu/ai-system-design": {
    "title": "amitshekhariitbhu/ai-system-design",
-   "date": "2026-10-15",
+   "date": "2026-10-16",
    "tokens": [],
    "source": "github",
    "summary_zh": "教程展示如何逐步设计基于LLM、RAG和AI Agent的AI系统。",
@@ -1842,7 +1842,7 @@
   },
   "https://github.com/zai-org/ZCode": {
    "title": "zai-org/ZCode",
-   "date": "2026-10-15",
+   "date": "2026-10-16",
    "tokens": [],
    "source": "github",
    "summary_zh": "Z.ai 发布 ZCode，提供强大、智能、可扩展的编码代理框架。",
@@ -2283,13 +2283,8 @@
   },
   "https://github.com/Ayzzz123/mcd-coupon-strategist": {
    "title": "Ayzzz123/mcd-coupon-strategist",
-   "date": "2026-10-13",
-   "tokens": [
-    "ayzzz123",
-    "coupon",
-    "mcd",
-    "strategist"
-   ],
+   "date": "2026-10-16",
+   "tokens": [],
    "source": "github",
    "summary_zh": "基于麦当劳 MCP 的点餐成本优化助手，给出最省钱方案并提醒凑单陷阱。",
    "why_zh": "演示如何利用业务 MCP 进行成本优化决策，可学习结合领域知识与约束求解的实现方法。"
@@ -2450,7 +2445,7 @@
   },
   "https://github.com/bherbruck/solidcraft": {
    "title": "bherbruck/solidcraft",
-   "date": "2026-10-15",
+   "date": "2026-10-16",
    "tokens": [],
    "source": "github",
    "summary_zh": "SolidCraft 是纯 Rust 开源参数化 3D CAD，支持桌面、网页及 MCP 自动化。",
@@ -2846,7 +2841,215 @@
    "source": "youtube",
    "summary_zh": "比较多个 Qwen3.8-27B 微调版本，旨在减少思考/推理 token 同时保持最高准确率。",
    "why_zh": "学习如何在保持精度的前提下裁剪推理开销，掌握模型微调与资源权衡的技巧。"
+  },
+  "https://github.com/Fazmin/AILearningGuide": {
+   "title": "Fazmin/AILearningGuide",
+   "date": "2026-10-16",
+   "tokens": [
+    "ailearningguide",
+    "fazmin"
+   ],
+   "source": "github",
+   "summary_zh": "提供交互式桌面应用，包含51个实验涵盖机器学习基础、Transformer、RAG、Agent、微调与量化等内容。",
+   "why_zh": "可学习动手实验的组织方式，掌握从基础到高级模型的全流程实践，适合面试中展示系统化学习能力。"
+  },
+  "https://arxiv.org/abs/2610.14005": {
+   "title": "Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence",
+   "date": "2026-10-16",
+   "tokens": [
+    "artificiality",
+    "exam",
+    "first",
+    "llm",
+    "referenced",
+    "supraintelligence",
+    "test"
+   ],
+   "source": "paper",
+   "summary_zh": "提出基于逆问题的LLM参照C-test，用于评估超越当前AI和人类的超智能系统能力。",
+   "why_zh": "体现评估超智能的新思路，可学习逆问题设计方法，面试中展示对基准设计的前瞻性理解。"
+  },
+  "https://arxiv.org/abs/2610.14118": {
+   "title": "ClawLoop: Self-Improving Agents via Harness-Native Training Loop",
+   "date": "2026-10-16",
+   "tokens": [
+    "agents",
+    "clawloop",
+    "harness",
+    "improving",
+    "loop",
+    "native",
+    "self",
+    "training"
+   ],
+   "source": "paper",
+   "summary_zh": "提出利用原生训练循环的ClawLoop，使基于LLM的Agent在沙箱环境中自举改进工具使用能力。",
+   "why_zh": "展示Agent自我改进的训练循环设计，可学习 harness-native 强化学习技巧，面试中体现对Agent训练 pipeline 的理解。"
+  },
+  "https://github.com/modelscope/ms-cookbook": {
+   "title": "modelscope/ms-cookbook",
+   "date": "2026-10-16",
+   "tokens": [
+    "cookbook",
+    "modelscope",
+    "ms"
+   ],
+   "source": "github",
+   "summary_zh": "魔搭紫皮书提供开源模型全链路实战指南，从选型到Agent与AIGC应用。",
+   "why_zh": "汇集模型应用最佳实践，可学习端到端工程流程，面试中展示对模型工程化的全面掌握。"
+  },
+  "https://github.com/kajisho5/ffmpeg-skill": {
+   "title": "kajisho5/ffmpeg-skill",
+   "date": "2026-10-16",
+   "tokens": [
+    "ffmpeg",
+    "kajisho5",
+    "skill"
+   ],
+   "source": "github",
+   "summary_zh": "提供本地视频编辑工具集，42个FFmpeg操作及MCP服务，供编码Agent直接调用。",
+   "why_zh": "展示如何为Agent构建可机器读取的多媒体工具链，可学习工具封装与协议设计，面试中体现对Agent交互能力的实现。"
+  },
+  "https://github.com/lnkiai/m3e-canvas": {
+   "title": "lnkiai/m3e-canvas",
+   "date": "2026-10-16",
+   "tokens": [
+    "canvas",
+    "lnkiai",
+    "m3e"
+   ],
+   "source": "github",
+   "summary_zh": "浏览器中绘制Material 3表现力界面，并转换为振动编码提示词。",
+   "why_zh": "将UI设计与Prompt工程结合，可学习可视化Prompt生成方法，面试中展示跨模态创意技术。"
+  },
+  "https://www.liquid.ai/blog/lfm2-5-24b-a2b": {
+   "title": "LFM2.5-24B-A2B: Built for fast on-device agents",
+   "date": "2026-10-16",
+   "tokens": [
+    "24b",
+    "a2b",
+    "agents",
+    "built",
+    "device",
+    "fast",
+    "lfm2"
+   ],
+   "source": "hackernews",
+   "summary_zh": "LFM2.5-24B-A2B 是专为快速在设备上运行的 AI 代理而设计的模型。",
+   "why_zh": "展示轻量级大模型在端侧部署的技巧，可学习模型压缩与低延迟推理。"
+  },
+  "https://arcfu.com/post/the-emperor-pelican-has-no-clothes/": {
+   "title": "Why do LLM pelicans look like this?",
+   "date": "2026-10-16",
+   "tokens": [
+    "do",
+    "like",
+    "llm",
+    "look",
+    "pelicans"
+   ],
+   "source": "hackernews",
+   "summary_zh": "解释了 LLM 某种可视化呈现为鹈鹕形状的原因。",
+   "why_zh": "展示了如何通过可视化分析模型内部结构，可学习解释性技术。"
+  },
+  "https://www.langchain.com/blog/context-engineering-deep-agents-remember": {
+   "title": "Context Engineering with Deep Agents: How To Remember Without Keeping Everything In Context",
+   "date": "2026-10-16",
+   "tokens": [
+    "agents",
+    "context",
+    "deep",
+    "engineering",
+    "everything",
+    "keeping",
+    "remember",
+    "without"
+   ],
+   "source": "blog",
+   "summary_zh": "介绍通过卸载、摘要、技能、子代理和记忆机制让长运行代理保持上下文窗口聚焦。",
+   "why_zh": "展示上下文压缩与模块化设计的实践，可学习构建可扩展代理的方法。"
+  },
+  "https://www.marktechpost.com/2026/10/15/copilotkit-releases-clif-a-continual-learning-platform-that-turns-agent-traces-and-user-actions-into-skills-evals-and-fine-tuning-data/": {
+   "title": "CopilotKit Releases CLiF: A Continual Learning Platform That Turns Agent Traces and User Actions into Skills, Evals, and Fine-Tuning Data",
+   "date": "2026-10-16",
+   "tokens": [
+    "actions",
+    "agent",
+    "clif",
+    "continual",
+    "copilotkit",
+    "data",
+    "evals",
+    "fine",
+    "learning",
+    "platform",
+    "releases",
+    "skills",
+    "traces",
+    "tuning",
+    "turns",
+    "user"
+   ],
+   "source": "blog",
+   "summary_zh": "CopilotKit 发布 CLiF 平台，将代理轨迹和用户行为转化为技能、评估和微调数据。",
+   "why_zh": "展示持续学习闭环的实现，可学习从运行中自动生成训练数据与评估。"
+  },
+  "https://www.youtube.com/watch?v=rduH9wnXto8": {
+   "title": "How Stripe Built Kai",
+   "date": "2026-10-16",
+   "tokens": [
+    "built",
+    "kai",
+    "stripe"
+   ],
+   "source": "youtube",
+   "summary_zh": "Stripe 使用 Deep Agents 和 LangChain 在一周内构建了公司级 AI 助手 Kai，实现工具调用、中间件组合和流式输出。",
+   "why_zh": "展示快速搭建生产级代理的全流程，可学习基于开源框架的快速迭代与工程实践。"
+  },
+  "https://simonwillison.net/2026/Oct/14/tree-appreciator/": {
+   "title": "Tree Appreciator",
+   "date": "2026-10-16",
+   "tokens": [
+    "appreciator",
+    "tree"
+   ],
+   "source": "blog",
+   "summary_zh": "使用 Claude Opus 5.5 Max 构建了一个 Three.js 小游戏，展示两棵算法生成的树并让玩家欣赏它们的差异。",
+   "why_zh": "展示利用大模型快速原型化交互式 3D 应用，可学习提示工程与跨模态实现。"
+  },
+  "https://www.youtube.com/watch?v=PMOnd8T7Py0": {
+   "title": "Is Learning to Build Software Still Worth It with AI? (My Honest Take)",
+   "date": "2026-10-16",
+   "tokens": [
+    "ai",
+    "build",
+    "honest",
+    "learning",
+    "my",
+    "software",
+    "still",
+    "take",
+    "worth"
+   ],
+   "source": "youtube",
+   "summary_zh": "REA 项目登顶 GitHub Trending，AI 编码 Agent 能逆向还原 App 细节至二进制并重建。",
+   "why_zh": "体现 AI Agent 在代码逆向与理解中的应用，可学习利用 AI 拆解复杂系统、提升调试与重构能力。"
+  },
+  "https://www.youtube.com/watch?v=ZHOmBeMNbnc": {
+   "title": "Stop coding, build Software Factories instead",
+   "date": "2026-10-16",
+   "tokens": [
+    "build",
+    "coding",
+    "factories",
+    "instead",
+    "software",
+    "stop"
+   ],
+   "source": "youtube",
+   "summary_zh": "提出停止手写代码，转而构建软件工厂，利用 PostHog、Cloudroom 等工具实现自动化软件生产。",
+   "why_zh": "展示平台化、自动化软件交付思路，可学习 DevOps、平台工程及模板化开发的可复用做法。"
   }
  },
- "updated": "2026-10-14T16:40:40.007854+00:00"
+ "updated": "2026-10-15T16:26:21.542411+00:00"
 }
