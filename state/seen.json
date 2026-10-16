@@ -23,7 +23,7 @@
   },
   "https://github.com/rehan-remade/universal-modder": {
    "title": "rehan-remade/universal-modder",
-   "date": "2026-10-16",
+   "date": "2026-10-17",
    "tokens": [],
    "source": "github",
    "summary_zh": "使用 Claude Code 及 fal MCP 进行游戏逆向、资产生成、测试等全流程 MOD 制作。",
@@ -1223,7 +1223,7 @@
   },
   "https://github.com/lemomo-ai/lemo-opuscar": {
    "title": "lemomo-ai/lemo-opuscar",
-   "date": "2026-10-16",
+   "date": "2026-10-17",
    "tokens": [],
    "source": "github",
    "summary_zh": "Claude Opus 5.5 生成 43 种电影风格的纯代码短片，附风格提示词和导演指南。",
@@ -1722,7 +1722,7 @@
   },
   "https://github.com/amitshekhariitbhu/ai-system-design": {
    "title": "amitshekhariitbhu/ai-system-design",
-   "date": "2026-10-16",
+   "date": "2026-10-17",
    "tokens": [],
    "source": "github",
    "summary_zh": "教程展示如何逐步设计基于LLM、RAG和AI Agent的AI系统。",
@@ -2272,11 +2272,8 @@
   },
   "https://github.com/amontlabs/lcu": {
    "title": "amontlabs/lcu",
-   "date": "2026-10-13",
-   "tokens": [
-    "amontlabs",
-    "lcu"
-   ],
+   "date": "2026-10-17",
+   "tokens": [],
    "source": "github",
    "summary_zh": "提供与应用解耦的 Codex 计算机使用能力，可在任意 harness 中调用。",
    "why_zh": "展示如何将大模型能力封装为可插拔服务，可学习解耦设计与代理集成的实践。"
@@ -2445,7 +2442,7 @@
   },
   "https://github.com/bherbruck/solidcraft": {
    "title": "bherbruck/solidcraft",
-   "date": "2026-10-16",
+   "date": "2026-10-17",
    "tokens": [],
    "source": "github",
    "summary_zh": "SolidCraft 是纯 Rust 开源参数化 3D CAD，支持桌面、网页及 MCP 自动化。",
@@ -2844,11 +2841,8 @@
   },
   "https://github.com/Fazmin/AILearningGuide": {
    "title": "Fazmin/AILearningGuide",
-   "date": "2026-10-16",
-   "tokens": [
-    "ailearningguide",
-    "fazmin"
-   ],
+   "date": "2026-10-17",
+   "tokens": [],
    "source": "github",
    "summary_zh": "提供交互式桌面应用，包含51个实验涵盖机器学习基础、Transformer、RAG、Agent、微调与量化等内容。",
    "why_zh": "可学习动手实验的组织方式，掌握从基础到高级模型的全流程实践，适合面试中展示系统化学习能力。"
@@ -3049,7 +3043,223 @@
    "source": "youtube",
    "summary_zh": "提出停止手写代码，转而构建软件工厂，利用 PostHog、Cloudroom 等工具实现自动化软件生产。",
    "why_zh": "展示平台化、自动化软件交付思路，可学习 DevOps、平台工程及模板化开发的可复用做法。"
+  },
+  "https://arxiv.org/abs/2610.20628": {
+   "title": "PRISM: PRIvileged Sibling-guided Multi-Agent Topology Design",
+   "date": "2026-10-17",
+   "tokens": [
+    "agent",
+    "design",
+    "guided",
+    "multi",
+    "prism",
+    "privileged",
+    "sibling",
+    "topology"
+   ],
+   "source": "paper",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://arxiv.org/abs/2610.20632": {
+   "title": "MeddeX: A Retrieval-Augmented LLaMA-3 System with Gemini Vision for Evidence-Backed Medical Report Analysis",
+   "date": "2026-10-17",
+   "tokens": [
+    "analysis",
+    "augmented",
+    "backed",
+    "evidence",
+    "gemini",
+    "llama",
+    "meddex",
+    "medical",
+    "report",
+    "retrieval",
+    "system",
+    "vision"
+   ],
+   "source": "paper",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://arxiv.org/abs/2610.20667": {
+   "title": "Evaluating Model Capabilities After Benchmark Saturation",
+   "date": "2026-10-17",
+   "tokens": [
+    "after",
+    "benchmark",
+    "capabilities",
+    "evaluating",
+    "model",
+    "saturation"
+   ],
+   "source": "paper",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://github.com/FlashML-org/FreeToken": {
+   "title": "FlashML-org/FreeToken",
+   "date": "2026-10-17",
+   "tokens": [
+    "flashml",
+    "freetoken",
+    "org"
+   ],
+   "source": "github",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://github.com/Innei/lody-ios": {
+   "title": "Innei/lody-ios",
+   "date": "2026-10-17",
+   "tokens": [
+    "innei",
+    "ios",
+    "lody"
+   ],
+   "source": "github",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://github.com/onehumanbeing/esp32-iphone-agent": {
+   "title": "onehumanbeing/esp32-iphone-agent",
+   "date": "2026-10-17",
+   "tokens": [
+    "agent",
+    "esp32",
+    "iphone",
+    "onehumanbeing"
+   ],
+   "source": "github",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://lwn.net/Articles/1100449/": {
+   "title": "Linus Torvalds's first LLM-assisted patch series",
+   "date": "2026-10-17",
+   "tokens": [
+    "assisted",
+    "first",
+    "linus",
+    "llm",
+    "patch",
+    "series",
+    "torvalds"
+   ],
+   "source": "hackernews",
+   "summary_zh": "Linus Torvalds 首次使用 LLM 辅助生成内核补丁系列。",
+   "why_zh": "展示 LLM 在低级系统开发中的辅助作用，可学习提示工程与代码审查流程。"
+  },
+  "https://github.com/LosaLosSantos/aurelio-finance": {
+   "title": "LosaLosSantos/aurelio-finance",
+   "date": "2026-10-17",
+   "tokens": [
+    "aurelio",
+    "finance",
+    "losalossantos"
+   ],
+   "source": "github",
+   "summary_zh": "开源个人理财应用，内置 AI 财务顾问，可追踪净资产、投资、ETF、现金和债务。",
+   "why_zh": "结合后端数据与 LLM 构建财务顾问，可学习工具调用与状态管理实践。"
+  },
+  "https://www.marktechpost.com/2026/10/15/meta-muse-spark-open-816b-open-weight-model/": {
+   "title": "Meta Releases Muse Spark Open: 816B Open-Weight MoE With 1M Context",
+   "date": "2026-10-17",
+   "tokens": [
+    "1m",
+    "816b",
+    "context",
+    "meta",
+    "moe",
+    "muse",
+    "open",
+    "releases",
+    "spark",
+    "weight"
+   ],
+   "source": "blog",
+   "summary_zh": "Meta 发布 816B 参数开放权重 MoE 模型，激活参数 42B，支持 1M token 上下文。",
+   "why_zh": "展示超大规模稀疏模型设计与推理优化，可学习 MoE 路由与长上下文处理技巧。"
+  },
+  "https://www.youtube.com/watch?v=1BZB4c792-0": {
+   "title": "Xiaomi Just Showed Us What Million-Dollar RL Training Looks Like",
+   "date": "2026-10-17",
+   "tokens": [
+    "dollar",
+    "just",
+    "like",
+    "looks",
+    "million",
+    "rl",
+    "showed",
+    "training",
+    "us",
+    "xiaomi"
+   ],
+   "source": "youtube",
+   "summary_zh": "小米在 Crusoe Intelligence Foundry 上花费 347 万美元完成 30 步强化学习训练，展示前沿 agentic RL 规模。",
+   "why_zh": "揭示大规模 RL 训练基础设施与成本结构，可学习分布式强化学习流程与资源评估。"
+  },
+  "https://www.langchain.com/blog/common-questions-about-agent-evals": {
+   "title": "The Most Common Questions About Agent Evals, Answered",
+   "date": "2026-10-17",
+   "tokens": [
+    "about",
+    "agent",
+    "answered",
+    "common",
+    "evals",
+    "questions"
+   ],
+   "source": "blog",
+   "summary_zh": "LangChain 解答 Agent 评估常见问题，涵盖离线/在线评估、评估器类型、LLM 判官、Harbor 基准、多轮评估与成本控制。",
+   "why_zh": "提供 Agent 评估全流程方法论，可学习设计可靠评估指标与降低评估开销的技巧。"
+  },
+  "https://huggingface.co/blog/ibm-granite/granite-switch-4-1": {
+   "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+   "date": "2026-10-17",
+   "tokens": [
+    "chat",
+    "decisions",
+    "endpoint",
+    "granite",
+    "one",
+    "speech",
+    "switch"
+   ],
+   "source": "blog",
+   "summary_zh": "HuggingFace 发布 Granite Switch 4.1，统一端点支持对话、决策与语音三种任务。",
+   "why_zh": "展示多任务统一模型架构与端点服务化，可学习任务路由与多模态推理的实现方式。"
+  },
+  "https://www.youtube.com/watch?v=_MsL_RIztVc": {
+   "title": "Vanta and LangSmith: Assessing Compliance Evidence Like an Auditor",
+   "date": "2026-10-17",
+   "tokens": [
+    "assessing",
+    "auditor",
+    "compliance",
+    "evidence",
+    "langsmith",
+    "like",
+    "vanta"
+   ],
+   "source": "youtube",
+   "summary_zh": "Vanta 使用 LangSmith 可观测性追踪合规证据，像审计师一样快速定位数据。",
+   "why_zh": "展示如何利用可观测性平台进行故障排查和数据追溯，提升工程调试效率。"
+  },
+  "https://www.youtube.com/watch?v=KJ_7KPKlO_Q": {
+   "title": "Build more personal sites with Codex",
+   "date": "2026-10-17",
+   "tokens": [
+    "build",
+    "codex",
+    "personal",
+    "sites"
+   ],
+   "source": "youtube",
+   "summary_zh": "使用 Codex 自动刷新站点数据并让用户插件实现个性化视图。",
+   "why_zh": "体现利用大语言模型生成代码自动化任务，提升前端个性化和定时任务集成能力。"
   }
  },
- "updated": "2026-10-15T16:26:21.542411+00:00"
+ "updated": "2026-10-16T16:11:51.390315+00:00"
 }
