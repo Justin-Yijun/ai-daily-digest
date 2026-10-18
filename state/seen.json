@@ -23,7 +23,7 @@
   },
   "https://github.com/rehan-remade/universal-modder": {
    "title": "rehan-remade/universal-modder",
-   "date": "2026-10-17",
+   "date": "2026-10-18",
    "tokens": [],
    "source": "github",
    "summary_zh": "使用 Claude Code 及 fal MCP 进行游戏逆向、资产生成、测试等全流程 MOD 制作。",
@@ -190,7 +190,7 @@
   },
   "https://github.com/amitshekhariitbhu/ai-engineering-course": {
    "title": "amitshekhariitbhu/ai-engineering-course",
-   "date": "2026-10-15",
+   "date": "2026-10-18",
    "tokens": [],
    "source": "github",
    "summary_zh": "",
@@ -1223,7 +1223,7 @@
   },
   "https://github.com/lemomo-ai/lemo-opuscar": {
    "title": "lemomo-ai/lemo-opuscar",
-   "date": "2026-10-17",
+   "date": "2026-10-18",
    "tokens": [],
    "source": "github",
    "summary_zh": "Claude Opus 5.5 生成 43 种电影风格的纯代码短片，附风格提示词和导演指南。",
@@ -1722,7 +1722,7 @@
   },
   "https://github.com/amitshekhariitbhu/ai-system-design": {
    "title": "amitshekhariitbhu/ai-system-design",
-   "date": "2026-10-17",
+   "date": "2026-10-18",
    "tokens": [],
    "source": "github",
    "summary_zh": "教程展示如何逐步设计基于LLM、RAG和AI Agent的AI系统。",
@@ -2272,7 +2272,7 @@
   },
   "https://github.com/amontlabs/lcu": {
    "title": "amontlabs/lcu",
-   "date": "2026-10-17",
+   "date": "2026-10-18",
    "tokens": [],
    "source": "github",
    "summary_zh": "提供与应用解耦的 Codex 计算机使用能力，可在任意 harness 中调用。",
@@ -2841,7 +2841,7 @@
   },
   "https://github.com/Fazmin/AILearningGuide": {
    "title": "Fazmin/AILearningGuide",
-   "date": "2026-10-17",
+   "date": "2026-10-18",
    "tokens": [],
    "source": "github",
    "summary_zh": "提供交互式桌面应用，包含51个实验涵盖机器学习基础、Transformer、RAG、Agent、微调与量化等内容。",
@@ -3259,7 +3259,210 @@
    "source": "youtube",
    "summary_zh": "使用 Codex 自动刷新站点数据并让用户插件实现个性化视图。",
    "why_zh": "体现利用大语言模型生成代码自动化任务，提升前端个性化和定时任务集成能力。"
+  },
+  "https://www.mercor.com/research/labor-index/benchmark-map/": {
+   "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+   "date": "2026-10-18",
+   "tokens": [
+    "90",
+    "ai",
+    "benchmarks",
+    "covered",
+    "hours",
+    "spent",
+    "tasks",
+    "us",
+    "well",
+    "working"
+   ],
+   "source": "hackernews",
+   "summary_zh": "美国90%的工作时间涉及AI基准测试未充分覆盖的任务。",
+   "why_zh": "说明评估AI能力需关注真实工作场景，提示工程师关注任务覆盖度与基准设计。"
+  },
+  "https://starskirmish.com/bench/v0-2/": {
+   "title": "Show HN: Gemini 4 Argon plays StarCraft",
+   "date": "2026-10-18",
+   "tokens": [
+    "argon",
+    "gemini",
+    "hn",
+    "plays",
+    "show",
+    "starcraft"
+   ],
+   "source": "hackernews",
+   "summary_zh": "Gemini 4 Argon 通过编写代码让LLM在StarCraft BW中对战，刷新了StarSkirmish基准。",
+   "why_zh": "展示LLM代码生成与实时策略游戏结合，可学习强化学习与环境交互技巧。"
+  },
+  "https://github.com/tangency-labs/solidcraft": {
+   "title": "tangency-labs/solidcraft",
+   "date": "2026-10-18",
+   "tokens": [
+    "labs",
+    "solidcraft",
+    "tangency"
+   ],
+   "source": "github",
+   "summary_zh": "SolidCraft 是用纯 Rust 构建的开源参数化3D CAD 应用，支持桌面、网页及MCP自动化。",
+   "why_zh": "演示Rust在复杂图形系统中的工程实践，可参考高性能跨平台CAD开发。"
+  },
+  "https://huggingface.co/papers/2610.19247": {
+   "title": "Copy-Paste Language Models",
+   "date": "2026-10-18",
+   "tokens": [
+    "copy",
+    "language",
+    "models",
+    "paste"
+   ],
+   "source": "paper",
+   "summary_zh": "CPLM 在语言模型头部加入轻量复制粘贴头，显著提升上下文复制能力及训练效率。",
+   "why_zh": "提供显式建模复制行为的方法，可用于提升LLM在代码生成、摘录任务中的忠实度。"
+  },
+  "https://github.com/omnirush-ai/omnirush-gui": {
+   "title": "omnirush-ai/omnirush-gui",
+   "date": "2026-10-18",
+   "tokens": [
+    "ai",
+    "gui",
+    "omnirush"
+   ],
+   "source": "github",
+   "summary_zh": "桌面编码代理，免费调用前沿模型，提供可视化交互界面。",
+   "why_zh": "展示如何将大模型封装为本地代理工具，可学习工具链构建与交互设计。"
+  },
+  "https://github.com/shadcn-ui/chatbot-template": {
+   "title": "shadcn-ui/chatbot-template",
+   "date": "2026-10-18",
+   "tokens": [
+    "chatbot",
+    "shadcn",
+    "template",
+    "ui"
+   ],
+   "source": "github",
+   "summary_zh": "基于Next.js、AI SDK、shadcn/ui 的极简聊天机器人模板，运行在Vercel AI Gateway。",
+   "why_zh": "提供快速搭建生产级AI聊天界面的参考实践，适用于前端工程师快速原型。"
+  },
+  "https://github.com/deeplethe/solid-glass": {
+   "title": "deeplethe/solid-glass",
+   "date": "2026-10-18",
+   "tokens": [
+    "deeplethe",
+    "glass",
+    "solid"
+   ],
+   "source": "github",
+   "summary_zh": "提供 AI 应用的设计系统，包含 Material、physical、tactile、technical 组件。",
+   "why_zh": "学习如何构建统一的 UI 组件库，提升 AI 产品交互一致性，可复用设计系统方法。"
+  },
+  "https://huggingface.co/papers/2610.22280": {
+   "title": "LEASH: Uncertainty-Aware Weak-to-Strong Escalation and Oversight for Computer-Use Agents",
+   "date": "2026-10-18",
+   "tokens": [
+    "agents",
+    "aware",
+    "computer",
+    "escalation",
+    "leash",
+    "oversight",
+    "strong",
+    "uncertainty",
+    "use",
+    "weak"
+   ],
+   "source": "paper",
+   "summary_zh": "提出基于不确定性的弱到强模型切换机制，降低计算成本同时保持性能。",
+   "why_zh": "了解不确定性驱动的模型路由技术，可用于资源受限的 Agent 设计。"
+  },
+  "https://www.qbitai.com/2026/10/503935.html": {
+   "title": "清华开源！智能体操作系统任务成本降83%，AI记忆可查可改",
+   "date": "2026-10-18",
+   "tokens": [
+    "ai记忆可查可改",
+    "智能体操作系统任务成本降83",
+    "清华开源"
+   ],
+   "source": "blog",
+   "summary_zh": "清华开源 Agent OS，通过可查可改记忆降低任务成本83%，原生支持 MCP。",
+   "why_zh": "学习如何设计可修改记忆层和系统级优化，提升 Agent 效率，可迁移到其他框架。"
+  },
+  "https://www.youtube.com/shorts/KcaANIsO6i4": {
+   "title": "Using GPT to Judge GPT Is a Mistake, Here's Why",
+   "date": "2026-10-18",
+   "tokens": [
+    "gpt",
+    "here",
+    "judge",
+    "mistake"
+   ],
+   "source": "youtube",
+   "summary_zh": "指出用同家族 GPT 评估自身会测量一致而非质量，需用不同模型族作判断。",
+   "why_zh": "掌握评估偏差的根源，学会构建对抗式、跨模型评估体系，提升 Agent 性能测试可靠性。"
+  },
+  "https://www.marktechpost.com/2026/10/18/google-harness2-recursive-agent-harnessing-framework/": {
+   "title": "Google Open-Sources Harness2, a Recursive Agent Harnessing Framework",
+   "date": "2026-10-18",
+   "tokens": [
+    "agent",
+    "framework",
+    "google",
+    "harness2",
+    "harnessing",
+    "open",
+    "recursive",
+    "sources"
+   ],
+   "source": "blog",
+   "summary_zh": "Google 开源 Harness2，可在测试时重写 Agent harness，无需更新权重即提升性能。",
+   "why_zh": "了解递归 harness 技术，学会在运行时动态优化 Agent 行为，可复用于性能提升而不微调。"
+  },
+  "https://www.marktechpost.com/2026/10/17/meet-kyutai-reki-the-2-4b-vla-model-bringing-efficient-memory-to-robot-manipulation/": {
+   "title": "Meet Kyutai REKI: The 2.4B VLA Model Bringing Efficient Memory to Robot Manipulation",
+   "date": "2026-10-18",
+   "tokens": [
+    "4b",
+    "bringing",
+    "efficient",
+    "kyutai",
+    "manipulation",
+    "meet",
+    "memory",
+    "model",
+    "reki",
+    "robot",
+    "vla"
+   ],
+   "source": "blog",
+   "summary_zh": "Kyutai 发布 2.4B 参数 VLA 模型 REKI，具备廉价近期记忆，机器人操作表现接近两倍大模型。",
+   "why_zh": "学习如何在 VLA 中加入轻量记忆机制，实现高效机器人控制，可迁移到其他视觉语言动作任务。"
+  },
+  "https://www.youtube.com/watch?v=GBOZIRK1ujw": {
+   "title": "Put your dot on call",
+   "date": "2026-10-18",
+   "tokens": [
+    "call",
+    "dot",
+    "put"
+   ],
+   "source": "youtube",
+   "summary_zh": "Ali 使用 OpenAI 的 dot 在凌晨3时自动排查故障并启动 Codex 线程，可通过手机 ChatGPT 控制。",
+   "why_zh": "展示利用 dot 自动化排障并触发 Codex 线程，体现 AI 工程师在生产环境中结合大模型进行故障响应的可复用做法。"
+  },
+  "https://www.youtube.com/watch?v=GyO8Ao7yKJc": {
+   "title": "GPT-Live-1.1 has new voices and better accents.",
+   "date": "2026-10-18",
+   "tokens": [
+    "accents",
+    "better",
+    "gpt",
+    "live",
+    "voices"
+   ],
+   "source": "youtube",
+   "summary_zh": "GPT-Live-1.1 为 ChatGPT、Codex 和 dot 新增法语、德语、印地语、墨西哥西班牙语、韩语、日语语音，降低等待提示。",
+   "why_zh": "展示 GPT-Live-1.1 多语音、降低等待的工程实践，可学习语音模型迭代、延迟优化及多平台集成方法。"
   }
  },
- "updated": "2026-10-16T16:11:51.390315+00:00"
+ "updated": "2026-10-18T12:24:34.382913+00:00"
 }

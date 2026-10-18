@@ -1,0 +1,740 @@
+{
+ "week": "2026-W42",
+ "start": "2026-10-12",
+ "end": "2026-10-18",
+ "generated": "2026-10-18 20:27",
+ "groups": [
+  {
+   "skill": "prompt_context",
+   "label": "提示 / 上下文工程",
+   "items": [
+    {
+     "source": "blog",
+     "source_label": "LangChain 博客",
+     "title": "Context Engineering with Deep Agents: How To Remember Without Keeping Everything In Context",
+     "link": "https://www.langchain.com/blog/context-engineering-deep-agents-remember",
+     "dt": "2026-10-14T17:39:26+00:00",
+     "summary": "Long-running agents degrade as context piles up. Learn how offloading, summarization, skills, subagents, and memory keep your agent's context window focused.",
+     "extra": {},
+     "skills": [
+      "prompt_context",
+      "agent_architecture"
+     ],
+     "learn_score": 2.926,
+     "score": 2.926,
+     "tokens": [
+      "agents",
+      "context",
+      "deep",
+      "engineering",
+      "everything",
+      "keeping",
+      "remember",
+      "without"
+     ],
+     "flag": "new",
+     "summary_zh": "介绍通过卸载、摘要、技能、子代理和记忆机制让长运行代理保持上下文窗口聚焦。",
+     "why_zh": "展示上下文压缩与模块化设计的实践，可学习构建可扩展代理的方法。"
+    }
+   ]
+  },
+  {
+   "skill": "rag",
+   "label": "RAG 检索增强",
+   "items": [
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.CL",
+     "title": "MeddeX: A Retrieval-Augmented LLaMA-3 System with Gemini Vision for Evidence-Backed Medical Report Analysis",
+     "link": "https://arxiv.org/abs/2610.20632",
+     "dt": "2026-10-16T00:00:00-04:00",
+     "summary": "arXiv:2610.20632v1 Announce Type: new Abstract: Modern healthcare generates increasingly complex medical reports that challenge clinical professionals in terms of time and interpretive burden. Manual review processes are slow, error-prone, and difficult to scale. This paper presents MeddeX, a Medical Report Analyzer that combines a QLoRA fine-tuned LLaMA-3 (8B) model with Retrieval-Augmented Gen eration (RAG) and a multimodal Gemini Vision layer to deliver accurate, concise, and evidence-backed ",
+     "extra": {},
+     "weight_override": 1.3,
+     "skills": [
+      "rag",
+      "eval_observability",
+      "training_serving"
+     ],
+     "learn_score": 4.177,
+     "score": 8.354,
+     "tokens": [
+      "analysis",
+      "augmented",
+      "backed",
+      "evidence",
+      "gemini",
+      "llama",
+      "meddex",
+      "medical",
+      "report",
+      "retrieval",
+      "system",
+      "vision"
+     ],
+     "flag": "new"
+    }
+   ]
+  },
+  {
+   "skill": "tool_mcp",
+   "label": "工具调用 / MCP",
+   "items": [
+    {
+     "source": "paper",
+     "source_label": "HF Daily Papers",
+     "title": "Reading Right, Acting Wrong: Diagnosing Decision Failures of System One Models in Agent Loops",
+     "link": "https://huggingface.co/papers/2610.18579",
+     "dt": "2026-10-12T20:00:00+00:00",
+     "summary": "System One models choose an agent's next action by scoring a supplied set of options in a single pass. This makes them fast and cheap, but when they choose wrongly there is nothing to inspect: did the model misread what the agent has seen, or read it correctly and still act wrongly? We answer behaviorally. On a frozen benchmark of agent decision states from simulated environments, customer-service policies, tool use, web navigation and coding, we pair every next-action question with factual prob",
+     "extra": {
+      "upvotes": 4,
+      "arxiv": "https://arxiv.org/abs/2610.18579"
+     },
+     "skills": [
+      "tool_mcp",
+      "agent_architecture",
+      "eval_observability"
+     ],
+     "learn_score": 3.052,
+     "score": 6.104,
+     "tokens": [
+      "acting",
+      "agent",
+      "decision",
+      "diagnosing",
+      "failures",
+      "loops",
+      "models",
+      "one",
+      "reading",
+      "right",
+      "system",
+      "wrong"
+     ],
+     "flag": "new",
+     "summary_zh": "该研究通过冻结基准评估 System One 模型在智能体循环中的决策失误，区分是感知错误还是执行错误。",
+     "why_zh": "属于智能体决策诊断技能，可学习如何通过行为实验区分感知与执行错误，提升 Agent 可靠性。"
+    },
+    {
+     "source": "blog",
+     "source_label": "LangChain 博客",
+     "title": "Open Models have crossed a threshold",
+     "link": "https://www.langchain.com/blog/open-models-have-crossed-a-threshold",
+     "dt": "2026-10-13T16:11:23+00:00",
+     "summary": "Open models like GLM-5 and MiniMax M2.7 now match closed frontier models on core agent tasks — file operations, tool use, and instruction following — at a fraction of the cost and latency. Here's what our evals show and how to start using them in Deep Agents.",
+     "extra": {},
+     "skills": [
+      "tool_mcp",
+      "eval_observability"
+     ],
+     "learn_score": 2.926,
+     "score": 2.926,
+     "tokens": [
+      "crossed",
+      "models",
+      "open",
+      "threshold"
+     ],
+     "flag": "new",
+     "summary_zh": "开源模型如 GLM-5、MiniMax M2.7 在文件操作、工具使用、指令遵循等核心 Agent 任务上已匹配闭源前沿模型，成本和延迟更低。",
+     "why_zh": "面试价值：说明开源模型已具备产品级 Agent 能力，可在成本敏感场景替换闭源模型，需了解评估与部署方法。"
+    }
+   ]
+  },
+  {
+   "skill": "agent_architecture",
+   "label": "Agent 架构与循环",
+   "items": [
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.AI",
+     "title": "ClawLoop: Self-Improving Agents via Harness-Native Training Loop",
+     "link": "https://arxiv.org/abs/2610.14118",
+     "dt": "2026-10-15T00:00:00-04:00",
+     "summary": "arXiv:2610.14118v1 Announce Type: new Abstract: The rapid advancement of Large Language Models (LLMs) has driven their deployment toward general-purpose harness environments, where LLM-based agents operate in sandbox workspaces and interact directly with file systems and shells. While numerous post-training pipelines exist for tool-use agents, their counterparts for harness-based agents remain scarce and are predominantly one-shot and teacher-dependent: a stronger external model synthesizes task",
+     "extra": {},
+     "weight_override": 1.3,
+     "skills": [
+      "agent_architecture"
+     ],
+     "learn_score": 2.983,
+     "score": 5.966,
+     "tokens": [
+      "agents",
+      "clawloop",
+      "harness",
+      "improving",
+      "loop",
+      "native",
+      "self",
+      "training"
+     ],
+     "flag": "new",
+     "summary_zh": "提出利用原生训练循环的ClawLoop，使基于LLM的Agent在沙箱环境中自举改进工具使用能力。",
+     "why_zh": "展示Agent自我改进的训练循环设计，可学习 harness-native 强化学习技巧，面试中体现对Agent训练 pipeline 的理解。"
+    }
+   ]
+  },
+  {
+   "skill": "multi_agent",
+   "label": "多智能体协作",
+   "items": [
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.CL",
+     "title": "PRISM: PRIvileged Sibling-guided Multi-Agent Topology Design",
+     "link": "https://arxiv.org/abs/2610.20628",
+     "dt": "2026-10-16T00:00:00-04:00",
+     "summary": "arXiv:2610.20628v1 Announce Type: new Abstract: Multi-agent systems (MAS) based on large language models (LLMs) have become a powerful way to address complex problems, and their effectiveness depends critically on the collaboration topology that decides which agents participate and how they communicate. Recent work learns to generate this topology from the task query, fitting the generator to corpora of execution-verified graphs. The post-training method for such generators remains a limitation:",
+     "extra": {},
+     "weight_override": 1.3,
+     "skills": [
+      "multi_agent",
+      "system_design"
+     ],
+     "learn_score": 4.475,
+     "score": 8.95,
+     "tokens": [
+      "agent",
+      "design",
+      "guided",
+      "multi",
+      "prism",
+      "privileged",
+      "sibling",
+      "topology"
+     ],
+     "flag": "new"
+    }
+   ]
+  },
+  {
+   "skill": "eval_observability",
+   "label": "评测与可观测",
+   "items": [
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.AI",
+     "title": "EliteTable: Self-Improving Program Search for Executable Control Policies",
+     "link": "https://arxiv.org/abs/2610.12536",
+     "dt": "2026-10-12T00:00:00-04:00",
+     "summary": "arXiv:2610.12536v1 Announce Type: new Abstract: EliteTable is a self-improving program-search algorithm guided by large language models (LLMs) that uses a fixed-capacity table of high-scoring solutions to guide new proposals, edits of existing solutions, and remixes of several solutions. Performance was evaluated across six Gymnasium control tasks, each with ten generations and fifty candidate slots per generation. Each task was evaluated across ten independently initialized searches. Candidate-",
+     "extra": {},
+     "weight_override": 1.3,
+     "skills": [
+      "eval_observability"
+     ],
+     "learn_score": 3.729,
+     "score": 7.458,
+     "tokens": [
+      "control",
+      "elitetable",
+      "executable",
+      "improving",
+      "policies",
+      "program",
+      "search",
+      "self"
+     ],
+     "flag": "new",
+     "summary_zh": "EliteTable 是基于 LLM 的自改进程序搜索算法，利用固定容量高分方案表生成、编辑和混合新方案，并在六个 Gymnasium 控制任务上评估。",
+     "why_zh": "展示 LLM 引导的自改进程序搜索，可学习利用精英方案表进行策略生成与优化的可复用方法。"
+    },
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.AI",
+     "title": "Equal-Budget Monte Carlo Tree Search versus Randomized-Restart List Scheduling for DAG Workflows: A Controlled Equal-Budget Computational Study",
+     "link": "https://arxiv.org/abs/2610.12542",
+     "dt": "2026-10-12T00:00:00-04:00",
+     "summary": "arXiv:2610.12542v1 Announce Type: new Abstract: Monte Carlo Tree Search (MCTS) is often proposed for scheduling directed-acyclic-graph (DAG) workflows, yet most studies never run the comparison that could refute it - giving a much simpler method the same search effort. We run that comparison under a controlled protocol. All arms receive an identical budget - the same number of candidate schedules built and evaluated: an MCTS scheduling method, preregistered as the main arm; a randomized-restart ",
+     "extra": {},
+     "weight_override": 1.3,
+     "skills": [
+      "eval_observability"
+     ],
+     "learn_score": 3.729,
+     "score": 7.458,
+     "tokens": [
+      "budget",
+      "carlo",
+      "computational",
+      "controlled",
+      "dag",
+      "equal",
+      "list",
+      "monte",
+      "randomized",
+      "restart",
+      "scheduling",
+      "search",
+      "study",
+      "tree",
+      "versus",
+      "workflows"
+     ],
+     "flag": "new",
+     "summary_zh": "在相同候选调度预算下，对比 MCTS 与随机重启列表调度在 DAG 工作流上的性能，检验简单方法是否同样有效。",
+     "why_zh": "说明在资源受限时如何公平比较搜索算法，可学习控制变量实验设计与调度算法评估方法。"
+    },
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.AI",
+     "title": "Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence",
+     "link": "https://arxiv.org/abs/2610.14005",
+     "dt": "2026-10-15T00:00:00-04:00",
+     "summary": "arXiv:2610.14005v1 Announce Type: new Abstract: Under the accelerated pace of AI development, any benchmark whose difficulty is calibrated with humans or current AI systems becomes circular, or saturates soon. How can we then evaluate machines that may become more capable than the current machines and the people who write the tests? One answer to the question hinges on inverse problems, inductive inference questions for which difficulty depends on the complexity of the underlying mechanism, give",
+     "extra": {},
+     "weight_override": 1.3,
+     "skills": [
+      "eval_observability",
+      "training_serving"
+     ],
+     "learn_score": 3.58,
+     "score": 7.16,
+     "tokens": [
+      "artificiality",
+      "exam",
+      "first",
+      "llm",
+      "referenced",
+      "supraintelligence",
+      "test"
+     ],
+     "flag": "new",
+     "summary_zh": "提出基于逆问题的LLM参照C-test，用于评估超越当前AI和人类的超智能系统能力。",
+     "why_zh": "体现评估超智能的新思路，可学习逆问题设计方法，面试中展示对基准设计的前瞻性理解。"
+    },
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.AI",
+     "title": "SpireBench: Evaluating Long-Horizon Strategic Play of Agentic Models with Slay the Spire",
+     "link": "https://arxiv.org/abs/2610.12596",
+     "dt": "2026-10-12T00:00:00-04:00",
+     "summary": "arXiv:2610.12596v1 Announce Type: new Abstract: Agentic large language models now tackle complex tasks, yet strategic reasoning over long horizons is under-studied: most agentic benchmarks are short and episodic, and performance on long tasks is hard to dissect into stored knowledge, reasoning and luck. We introduce SpireBench, in which models play the complete commercial deck-builder Slay the Spire (StS), where early decisions decide long-term success. Across 20 large language models (LLMs) at ",
+     "extra": {},
+     "weight_override": 1.3,
+     "skills": [
+      "eval_observability"
+     ],
+     "learn_score": 2.983,
+     "score": 5.966,
+     "tokens": [
+      "agentic",
+      "evaluating",
+      "horizon",
+      "long",
+      "models",
+      "play",
+      "slay",
+      "spire",
+      "spirebench",
+      "strategic"
+     ],
+     "flag": "new",
+     "summary_zh": "使用完整商业牌组 Slay the Spire 构建长 horizon 战略基准，评估 agentic 模型的长期规划能力。",
+     "why_zh": "提供长 horizon 战略推理评估框架，可学习将复杂游戏作为任务基准来测试模型规划与知识利用。"
+    },
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.AI",
+     "title": "Evaluating Model Capabilities After Benchmark Saturation",
+     "link": "https://arxiv.org/abs/2610.20667",
+     "dt": "2026-10-16T00:00:00-04:00",
+     "summary": "arXiv:2610.20667v1 Announce Type: new Abstract: Rapid advances in AI capabilities are causing benchmarks to saturate. Once several models approach perfect scores, a benchmark loses its power to differentiate between them, and with it its utility for informing AI safety cases and frontier policies. Yet benchmark items produce far more information than the scores we typically extract from them: a full transcript of how each model solved the task. We investigate whether these transcripts can be use",
+     "extra": {},
+     "weight_override": 1.3,
+     "skills": [
+      "eval_observability"
+     ],
+     "learn_score": 2.983,
+     "score": 5.966,
+     "tokens": [
+      "after",
+      "benchmark",
+      "capabilities",
+      "evaluating",
+      "model",
+      "saturation"
+     ],
+     "flag": "new"
+    },
+    {
+     "source": "blog",
+     "source_label": "MarkTechPost",
+     "title": "How to Use Meta’s Rebalancer for Task Placement & Optimization",
+     "link": "https://www.marktechpost.com/2026/10/13/how-to-use-metas-rebalancer-for-task-placement-optimization/",
+     "dt": "2026-10-13T22:14:20+00:00",
+     "summary": "In this comprehensive coding tutorial, we explore Meta's Rebalancer assignment solver using its C++ core and Python bindings. Learn how to build datacenters, manage task placements across racks, handle constraints and goal priorities, and compare local search against the exact HiGHS solver using published benchmarks. The post How to Use Meta’s Rebalancer for Task Placement & Optimization appeared first on MarkTechPost .",
+     "extra": {},
+     "skills": [
+      "eval_observability",
+      "system_design"
+     ],
+     "learn_score": 2.926,
+     "score": 2.926,
+     "tokens": [
+      "meta",
+      "optimization",
+      "placement",
+      "rebalancer",
+      "task",
+      "use"
+     ],
+     "flag": "new",
+     "summary_zh": "使用 Meta 的 Rebalancer（C++核心+Python绑定）进行任务放置与优化，构建数据中心机架任务分配，处理约束与优先级，并与 HiGHS 求解器基准比较。",
+     "why_zh": "学习约束求解与局部搜索在任务调度中的应用，掌握 C++核心+Python绑定的混合开发及基准评估方法。"
+    }
+   ]
+  }
+ ],
+ "items": [
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.CL",
+   "title": "PRISM: PRIvileged Sibling-guided Multi-Agent Topology Design",
+   "link": "https://arxiv.org/abs/2610.20628",
+   "dt": "2026-10-16T00:00:00-04:00",
+   "summary": "arXiv:2610.20628v1 Announce Type: new Abstract: Multi-agent systems (MAS) based on large language models (LLMs) have become a powerful way to address complex problems, and their effectiveness depends critically on the collaboration topology that decides which agents participate and how they communicate. Recent work learns to generate this topology from the task query, fitting the generator to corpora of execution-verified graphs. The post-training method for such generators remains a limitation:",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "multi_agent",
+    "system_design"
+   ],
+   "learn_score": 4.475,
+   "score": 8.95,
+   "tokens": [
+    "agent",
+    "design",
+    "guided",
+    "multi",
+    "prism",
+    "privileged",
+    "sibling",
+    "topology"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.CL",
+   "title": "MeddeX: A Retrieval-Augmented LLaMA-3 System with Gemini Vision for Evidence-Backed Medical Report Analysis",
+   "link": "https://arxiv.org/abs/2610.20632",
+   "dt": "2026-10-16T00:00:00-04:00",
+   "summary": "arXiv:2610.20632v1 Announce Type: new Abstract: Modern healthcare generates increasingly complex medical reports that challenge clinical professionals in terms of time and interpretive burden. Manual review processes are slow, error-prone, and difficult to scale. This paper presents MeddeX, a Medical Report Analyzer that combines a QLoRA fine-tuned LLaMA-3 (8B) model with Retrieval-Augmented Gen eration (RAG) and a multimodal Gemini Vision layer to deliver accurate, concise, and evidence-backed ",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "rag",
+    "eval_observability",
+    "training_serving"
+   ],
+   "learn_score": 4.177,
+   "score": 8.354,
+   "tokens": [
+    "analysis",
+    "augmented",
+    "backed",
+    "evidence",
+    "gemini",
+    "llama",
+    "meddex",
+    "medical",
+    "report",
+    "retrieval",
+    "system",
+    "vision"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "EliteTable: Self-Improving Program Search for Executable Control Policies",
+   "link": "https://arxiv.org/abs/2610.12536",
+   "dt": "2026-10-12T00:00:00-04:00",
+   "summary": "arXiv:2610.12536v1 Announce Type: new Abstract: EliteTable is a self-improving program-search algorithm guided by large language models (LLMs) that uses a fixed-capacity table of high-scoring solutions to guide new proposals, edits of existing solutions, and remixes of several solutions. Performance was evaluated across six Gymnasium control tasks, each with ten generations and fifty candidate slots per generation. Each task was evaluated across ten independently initialized searches. Candidate-",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 3.729,
+   "score": 7.458,
+   "tokens": [
+    "control",
+    "elitetable",
+    "executable",
+    "improving",
+    "policies",
+    "program",
+    "search",
+    "self"
+   ],
+   "flag": "new",
+   "summary_zh": "EliteTable 是基于 LLM 的自改进程序搜索算法，利用固定容量高分方案表生成、编辑和混合新方案，并在六个 Gymnasium 控制任务上评估。",
+   "why_zh": "展示 LLM 引导的自改进程序搜索，可学习利用精英方案表进行策略生成与优化的可复用方法。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Equal-Budget Monte Carlo Tree Search versus Randomized-Restart List Scheduling for DAG Workflows: A Controlled Equal-Budget Computational Study",
+   "link": "https://arxiv.org/abs/2610.12542",
+   "dt": "2026-10-12T00:00:00-04:00",
+   "summary": "arXiv:2610.12542v1 Announce Type: new Abstract: Monte Carlo Tree Search (MCTS) is often proposed for scheduling directed-acyclic-graph (DAG) workflows, yet most studies never run the comparison that could refute it - giving a much simpler method the same search effort. We run that comparison under a controlled protocol. All arms receive an identical budget - the same number of candidate schedules built and evaluated: an MCTS scheduling method, preregistered as the main arm; a randomized-restart ",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 3.729,
+   "score": 7.458,
+   "tokens": [
+    "budget",
+    "carlo",
+    "computational",
+    "controlled",
+    "dag",
+    "equal",
+    "list",
+    "monte",
+    "randomized",
+    "restart",
+    "scheduling",
+    "search",
+    "study",
+    "tree",
+    "versus",
+    "workflows"
+   ],
+   "flag": "new",
+   "summary_zh": "在相同候选调度预算下，对比 MCTS 与随机重启列表调度在 DAG 工作流上的性能，检验简单方法是否同样有效。",
+   "why_zh": "说明在资源受限时如何公平比较搜索算法，可学习控制变量实验设计与调度算法评估方法。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence",
+   "link": "https://arxiv.org/abs/2610.14005",
+   "dt": "2026-10-15T00:00:00-04:00",
+   "summary": "arXiv:2610.14005v1 Announce Type: new Abstract: Under the accelerated pace of AI development, any benchmark whose difficulty is calibrated with humans or current AI systems becomes circular, or saturates soon. How can we then evaluate machines that may become more capable than the current machines and the people who write the tests? One answer to the question hinges on inverse problems, inductive inference questions for which difficulty depends on the complexity of the underlying mechanism, give",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "eval_observability",
+    "training_serving"
+   ],
+   "learn_score": 3.58,
+   "score": 7.16,
+   "tokens": [
+    "artificiality",
+    "exam",
+    "first",
+    "llm",
+    "referenced",
+    "supraintelligence",
+    "test"
+   ],
+   "flag": "new",
+   "summary_zh": "提出基于逆问题的LLM参照C-test，用于评估超越当前AI和人类的超智能系统能力。",
+   "why_zh": "体现评估超智能的新思路，可学习逆问题设计方法，面试中展示对基准设计的前瞻性理解。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Reading Right, Acting Wrong: Diagnosing Decision Failures of System One Models in Agent Loops",
+   "link": "https://huggingface.co/papers/2610.18579",
+   "dt": "2026-10-12T20:00:00+00:00",
+   "summary": "System One models choose an agent's next action by scoring a supplied set of options in a single pass. This makes them fast and cheap, but when they choose wrongly there is nothing to inspect: did the model misread what the agent has seen, or read it correctly and still act wrongly? We answer behaviorally. On a frozen benchmark of agent decision states from simulated environments, customer-service policies, tool use, web navigation and coding, we pair every next-action question with factual prob",
+   "extra": {
+    "upvotes": 4,
+    "arxiv": "https://arxiv.org/abs/2610.18579"
+   },
+   "skills": [
+    "tool_mcp",
+    "agent_architecture",
+    "eval_observability"
+   ],
+   "learn_score": 3.052,
+   "score": 6.104,
+   "tokens": [
+    "acting",
+    "agent",
+    "decision",
+    "diagnosing",
+    "failures",
+    "loops",
+    "models",
+    "one",
+    "reading",
+    "right",
+    "system",
+    "wrong"
+   ],
+   "flag": "new",
+   "summary_zh": "该研究通过冻结基准评估 System One 模型在智能体循环中的决策失误，区分是感知错误还是执行错误。",
+   "why_zh": "属于智能体决策诊断技能，可学习如何通过行为实验区分感知与执行错误，提升 Agent 可靠性。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "SpireBench: Evaluating Long-Horizon Strategic Play of Agentic Models with Slay the Spire",
+   "link": "https://arxiv.org/abs/2610.12596",
+   "dt": "2026-10-12T00:00:00-04:00",
+   "summary": "arXiv:2610.12596v1 Announce Type: new Abstract: Agentic large language models now tackle complex tasks, yet strategic reasoning over long horizons is under-studied: most agentic benchmarks are short and episodic, and performance on long tasks is hard to dissect into stored knowledge, reasoning and luck. We introduce SpireBench, in which models play the complete commercial deck-builder Slay the Spire (StS), where early decisions decide long-term success. Across 20 large language models (LLMs) at ",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 2.983,
+   "score": 5.966,
+   "tokens": [
+    "agentic",
+    "evaluating",
+    "horizon",
+    "long",
+    "models",
+    "play",
+    "slay",
+    "spire",
+    "spirebench",
+    "strategic"
+   ],
+   "flag": "new",
+   "summary_zh": "使用完整商业牌组 Slay the Spire 构建长 horizon 战略基准，评估 agentic 模型的长期规划能力。",
+   "why_zh": "提供长 horizon 战略推理评估框架，可学习将复杂游戏作为任务基准来测试模型规划与知识利用。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "ClawLoop: Self-Improving Agents via Harness-Native Training Loop",
+   "link": "https://arxiv.org/abs/2610.14118",
+   "dt": "2026-10-15T00:00:00-04:00",
+   "summary": "arXiv:2610.14118v1 Announce Type: new Abstract: The rapid advancement of Large Language Models (LLMs) has driven their deployment toward general-purpose harness environments, where LLM-based agents operate in sandbox workspaces and interact directly with file systems and shells. While numerous post-training pipelines exist for tool-use agents, their counterparts for harness-based agents remain scarce and are predominantly one-shot and teacher-dependent: a stronger external model synthesizes task",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 2.983,
+   "score": 5.966,
+   "tokens": [
+    "agents",
+    "clawloop",
+    "harness",
+    "improving",
+    "loop",
+    "native",
+    "self",
+    "training"
+   ],
+   "flag": "new",
+   "summary_zh": "提出利用原生训练循环的ClawLoop，使基于LLM的Agent在沙箱环境中自举改进工具使用能力。",
+   "why_zh": "展示Agent自我改进的训练循环设计，可学习 harness-native 强化学习技巧，面试中体现对Agent训练 pipeline 的理解。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Evaluating Model Capabilities After Benchmark Saturation",
+   "link": "https://arxiv.org/abs/2610.20667",
+   "dt": "2026-10-16T00:00:00-04:00",
+   "summary": "arXiv:2610.20667v1 Announce Type: new Abstract: Rapid advances in AI capabilities are causing benchmarks to saturate. Once several models approach perfect scores, a benchmark loses its power to differentiate between them, and with it its utility for informing AI safety cases and frontier policies. Yet benchmark items produce far more information than the scores we typically extract from them: a full transcript of how each model solved the task. We investigate whether these transcripts can be use",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 2.983,
+   "score": 5.966,
+   "tokens": [
+    "after",
+    "benchmark",
+    "capabilities",
+    "evaluating",
+    "model",
+    "saturation"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "blog",
+   "source_label": "LangChain 博客",
+   "title": "Open Models have crossed a threshold",
+   "link": "https://www.langchain.com/blog/open-models-have-crossed-a-threshold",
+   "dt": "2026-10-13T16:11:23+00:00",
+   "summary": "Open models like GLM-5 and MiniMax M2.7 now match closed frontier models on core agent tasks — file operations, tool use, and instruction following — at a fraction of the cost and latency. Here's what our evals show and how to start using them in Deep Agents.",
+   "extra": {},
+   "skills": [
+    "tool_mcp",
+    "eval_observability"
+   ],
+   "learn_score": 2.926,
+   "score": 2.926,
+   "tokens": [
+    "crossed",
+    "models",
+    "open",
+    "threshold"
+   ],
+   "flag": "new",
+   "summary_zh": "开源模型如 GLM-5、MiniMax M2.7 在文件操作、工具使用、指令遵循等核心 Agent 任务上已匹配闭源前沿模型，成本和延迟更低。",
+   "why_zh": "面试价值：说明开源模型已具备产品级 Agent 能力，可在成本敏感场景替换闭源模型，需了解评估与部署方法。"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "How to Use Meta’s Rebalancer for Task Placement & Optimization",
+   "link": "https://www.marktechpost.com/2026/10/13/how-to-use-metas-rebalancer-for-task-placement-optimization/",
+   "dt": "2026-10-13T22:14:20+00:00",
+   "summary": "In this comprehensive coding tutorial, we explore Meta's Rebalancer assignment solver using its C++ core and Python bindings. Learn how to build datacenters, manage task placements across racks, handle constraints and goal priorities, and compare local search against the exact HiGHS solver using published benchmarks. The post How to Use Meta’s Rebalancer for Task Placement & Optimization appeared first on MarkTechPost .",
+   "extra": {},
+   "skills": [
+    "eval_observability",
+    "system_design"
+   ],
+   "learn_score": 2.926,
+   "score": 2.926,
+   "tokens": [
+    "meta",
+    "optimization",
+    "placement",
+    "rebalancer",
+    "task",
+    "use"
+   ],
+   "flag": "new",
+   "summary_zh": "使用 Meta 的 Rebalancer（C++核心+Python绑定）进行任务放置与优化，构建数据中心机架任务分配，处理约束与优先级，并与 HiGHS 求解器基准比较。",
+   "why_zh": "学习约束求解与局部搜索在任务调度中的应用，掌握 C++核心+Python绑定的混合开发及基准评估方法。"
+  },
+  {
+   "source": "blog",
+   "source_label": "LangChain 博客",
+   "title": "Context Engineering with Deep Agents: How To Remember Without Keeping Everything In Context",
+   "link": "https://www.langchain.com/blog/context-engineering-deep-agents-remember",
+   "dt": "2026-10-14T17:39:26+00:00",
+   "summary": "Long-running agents degrade as context piles up. Learn how offloading, summarization, skills, subagents, and memory keep your agent's context window focused.",
+   "extra": {},
+   "skills": [
+    "prompt_context",
+    "agent_architecture"
+   ],
+   "learn_score": 2.926,
+   "score": 2.926,
+   "tokens": [
+    "agents",
+    "context",
+    "deep",
+    "engineering",
+    "everything",
+    "keeping",
+    "remember",
+    "without"
+   ],
+   "flag": "new",
+   "summary_zh": "介绍通过卸载、摘要、技能、子代理和记忆机制让长运行代理保持上下文窗口聚焦。",
+   "why_zh": "展示上下文压缩与模块化设计的实践，可学习构建可扩展代理的方法。"
+  }
+ ]
+}

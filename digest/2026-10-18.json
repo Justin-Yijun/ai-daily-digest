@@ -1,0 +1,606 @@
+{
+ "date": "2026-10-18",
+ "generated": "2026-10-18 20:24",
+ "source_count": {
+  "github": 75,
+  "youtube": 40,
+  "blog": 87,
+  "paper": 12,
+  "hackernews": 10
+ },
+ "failures": {},
+ "failure_errors": {},
+ "items": [
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+   "link": "https://www.mercor.com/research/labor-index/benchmark-map/",
+   "dt": "2026-10-16T17:08:38+00:00",
+   "summary": "",
+   "extra": {
+    "points": 611,
+    "comments": 554,
+    "hn_link": "https://news.ycombinator.com/item?id=50121179"
+   },
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 2.295,
+   "score": 8.689,
+   "tokens": [
+    "90",
+    "ai",
+    "benchmarks",
+    "covered",
+    "hours",
+    "spent",
+    "tasks",
+    "us",
+    "well",
+    "working"
+   ],
+   "flag": "new",
+   "summary_zh": "美国90%的工作时间涉及AI基准测试未充分覆盖的任务。",
+   "why_zh": "说明评估AI能力需关注真实工作场景，提示工程师关注任务覆盖度与基准设计。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Show HN: Gemini 4 Argon plays StarCraft",
+   "link": "https://starskirmish.com/bench/v0-2/",
+   "dt": "2026-10-16T14:18:44+00:00",
+   "summary": "I've refreshed StarSkirmish Bench, a benchmark where LLMs play StarCraft BW by writing code, with results from the flagship models of OpenAI, Anthropic, Google, and Muse",
+   "extra": {
+    "points": 245,
+    "comments": 110,
+    "hn_link": "https://news.ycombinator.com/item?id=50118688"
+   },
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 2.295,
+   "score": 7.778,
+   "tokens": [
+    "argon",
+    "gemini",
+    "hn",
+    "plays",
+    "show",
+    "starcraft"
+   ],
+   "flag": "new",
+   "summary_zh": "Gemini 4 Argon 通过编写代码让LLM在StarCraft BW中对战，刷新了StarSkirmish基准。",
+   "why_zh": "展示LLM代码生成与实时策略游戏结合，可学习强化学习与环境交互技巧。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "tangency-labs/solidcraft",
+   "link": "https://github.com/tangency-labs/solidcraft",
+   "dt": "2026-10-07T18:57:48+00:00",
+   "summary": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+   "extra": {
+    "stars": 4790,
+    "language": "Rust",
+    "topics": [
+     "3d-modeling",
+     "brep",
+     "cad",
+     "egui",
+     "mcp",
+     "parametric-cad"
+    ],
+    "created": "2026-10-07",
+    "pushed": "2026-10-18"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "tokens": [
+    "labs",
+    "solidcraft",
+    "tangency"
+   ],
+   "flag": "new",
+   "summary_zh": "SolidCraft 是用纯 Rust 构建的开源参数化3D CAD 应用，支持桌面、网页及MCP自动化。",
+   "why_zh": "演示Rust在复杂图形系统中的工程实践，可参考高性能跨平台CAD开发。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Copy-Paste Language Models",
+   "link": "https://huggingface.co/papers/2610.19247",
+   "dt": "2026-10-12T20:00:00+00:00",
+   "summary": "Transformers are intuitively considered to be efficient at copying from their inputs. We actually show that the ability of LLMs to copy in context can be improved through explicit modeling. We propose Copy-Paste Language Models (CPLMs), which add a lightweight Copy-Paste head to the conventional language modeling (LM) head. CPLMs improve training efficiency, downstream performance, and offer new operating points in long-context and retrieval setups. We validate our approach by pretraining models",
+   "extra": {
+    "upvotes": 5,
+    "arxiv": "https://arxiv.org/abs/2610.19247"
+   },
+   "skills": [
+    "rag",
+    "eval_observability",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.747,
+   "score": 5.494,
+   "tokens": [
+    "copy",
+    "language",
+    "models",
+    "paste"
+   ],
+   "flag": "new",
+   "summary_zh": "CPLM 在语言模型头部加入轻量复制粘贴头，显著提升上下文复制能力及训练效率。",
+   "why_zh": "提供显式建模复制行为的方法，可用于提升LLM在代码生成、摘录任务中的忠实度。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "omnirush-ai/omnirush-gui",
+   "link": "https://github.com/omnirush-ai/omnirush-gui",
+   "dt": "2026-09-21T05:26:26+00:00",
+   "summary": "A desktop coding agent with free access to frontier models.",
+   "extra": {
+    "stars": 3582,
+    "language": "TypeScript",
+    "topics": [],
+    "created": "2026-09-21",
+    "pushed": "2026-10-18"
+   },
+   "skills": [],
+   "learn_score": 1.033,
+   "score": 4.132,
+   "tokens": [
+    "ai",
+    "gui",
+    "omnirush"
+   ],
+   "flag": "new",
+   "summary_zh": "桌面编码代理，免费调用前沿模型，提供可视化交互界面。",
+   "why_zh": "展示如何将大模型封装为本地代理工具，可学习工具链构建与交互设计。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "shadcn-ui/chatbot-template",
+   "link": "https://github.com/shadcn-ui/chatbot-template",
+   "dt": "2026-08-11T11:53:02+00:00",
+   "summary": "A minimal chatbot template built with Next.js, AI SDK, shadcn/ui, shadcn/react, shadcn/typeset. It runs on the Vercel AI Gateway.",
+   "extra": {
+    "stars": 1156,
+    "language": "TypeScript",
+    "topics": [],
+    "created": "2026-08-11",
+    "pushed": "2026-10-15"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 0.918,
+   "score": 3.672,
+   "tokens": [
+    "chatbot",
+    "shadcn",
+    "template",
+    "ui"
+   ],
+   "flag": "new",
+   "summary_zh": "基于Next.js、AI SDK、shadcn/ui 的极简聊天机器人模板，运行在Vercel AI Gateway。",
+   "why_zh": "提供快速搭建生产级AI聊天界面的参考实践，适用于前端工程师快速原型。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "deeplethe/solid-glass",
+   "link": "https://github.com/deeplethe/solid-glass",
+   "dt": "2026-10-12T09:19:02+00:00",
+   "summary": "A design system for AI applications. Material, physical, tactile, technical.",
+   "extra": {
+    "stars": 2001,
+    "language": "TypeScript",
+    "topics": [
+     "agent-ui",
+     "ai",
+     "ai-agents",
+     "chat-ui",
+     "design-system",
+     "llm"
+    ],
+    "created": "2026-10-12",
+    "pushed": "2026-10-18"
+   },
+   "skills": [],
+   "learn_score": 0.81,
+   "score": 3.24,
+   "tokens": [
+    "deeplethe",
+    "glass",
+    "solid"
+   ],
+   "flag": "new",
+   "summary_zh": "提供 AI 应用的设计系统，包含 Material、physical、tactile、technical 组件。",
+   "why_zh": "学习如何构建统一的 UI 组件库，提升 AI 产品交互一致性，可复用设计系统方法。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "LEASH: Uncertainty-Aware Weak-to-Strong Escalation and Oversight for Computer-Use Agents",
+   "link": "https://huggingface.co/papers/2610.22280",
+   "dt": "2026-10-14T20:00:00+00:00",
+   "summary": "Computer-use agents increasingly tackle long-horizon tasks, where running a frontier model at every step is expensive and a small open-weight model alone often fails. Weak-to-strong escalation offers a middle ground where a weak agent acts by default and hands control to a strong one only when needed. The core challenge is deciding when to escalate, which requires an uncertainty signal cheap enough to check at every step. However, even after handoff, the strong agent can still get lost, but a bl",
+   "extra": {
+    "upvotes": 7,
+    "arxiv": "https://arxiv.org/abs/2610.22280"
+   },
+   "skills": [
+    "multi_agent"
+   ],
+   "learn_score": 1.534,
+   "score": 3.068,
+   "tokens": [
+    "agents",
+    "aware",
+    "computer",
+    "escalation",
+    "leash",
+    "oversight",
+    "strong",
+    "uncertainty",
+    "use",
+    "weak"
+   ],
+   "flag": "new",
+   "summary_zh": "提出基于不确定性的弱到强模型切换机制，降低计算成本同时保持性能。",
+   "why_zh": "了解不确定性驱动的模型路由技术，可用于资源受限的 Agent 设计。"
+  },
+  {
+   "source": "blog",
+   "source_label": "量子位",
+   "title": "清华开源！智能体操作系统任务成本降83%，AI记忆可查可改",
+   "link": "https://www.qbitai.com/2026/10/503935.html",
+   "dt": "2026-10-17T12:10:35+00:00",
+   "summary": "整套系统原生支持MCP",
+   "extra": {},
+   "skills": [
+    "tool_mcp",
+    "agent_architecture"
+   ],
+   "learn_score": 2.341,
+   "score": 2.341,
+   "tokens": [
+    "ai记忆可查可改",
+    "智能体操作系统任务成本降83",
+    "清华开源"
+   ],
+   "flag": "new",
+   "summary_zh": "清华开源 Agent OS，通过可查可改记忆降低任务成本83%，原生支持 MCP。",
+   "why_zh": "学习如何设计可修改记忆层和系统级优化，提升 Agent 效率，可迁移到其他框架。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "Using GPT to Judge GPT Is a Mistake, Here's Why",
+   "link": "https://www.youtube.com/shorts/KcaANIsO6i4",
+   "dt": "2026-10-16T19:45:02+00:00",
+   "summary": "If your agent runs on GPT and your eval judge also runs on GPT, you may be measuring agreement, not quality. Unify CTO Connor Heggie explains why an LLM judge needs to come from a different model family than the agent it's grading, and why he wants that relationship almost adversarial. Full episode of Max Agency, LangChain's podcast on building production agents. #AIagents #LLMasJudge #Evals #Unify #LangChain #MaxAgency",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": ""
+   },
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 2.066,
+   "score": 2.066,
+   "tokens": [
+    "gpt",
+    "here",
+    "judge",
+    "mistake"
+   ],
+   "flag": "new",
+   "summary_zh": "指出用同家族 GPT 评估自身会测量一致而非质量，需用不同模型族作判断。",
+   "why_zh": "掌握评估偏差的根源，学会构建对抗式、跨模型评估体系，提升 Agent 性能测试可靠性。"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "Google Open-Sources Harness2, a Recursive Agent Harnessing Framework",
+   "link": "https://www.marktechpost.com/2026/10/18/google-harness2-recursive-agent-harnessing-framework/",
+   "dt": "2026-10-18T08:15:04+00:00",
+   "summary": "Google Research released Harness2, an Apache-2.0 framework that rewrites an agent's harness at test time. One refinement step lifted GLM-5 by 11.5 points on WorkBuddy-Bench with no weight updates. The post Google Open-Sources Harness2, a Recursive Agent Harnessing Framework appeared first on MarkTechPost .",
+   "extra": {},
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.951,
+   "score": 1.951,
+   "tokens": [
+    "agent",
+    "framework",
+    "google",
+    "harness2",
+    "harnessing",
+    "open",
+    "recursive",
+    "sources"
+   ],
+   "flag": "new",
+   "summary_zh": "Google 开源 Harness2，可在测试时重写 Agent harness，无需更新权重即提升性能。",
+   "why_zh": "了解递归 harness 技术，学会在运行时动态优化 Agent 行为，可复用于性能提升而不微调。"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "Meet Kyutai REKI: The 2.4B VLA Model Bringing Efficient Memory to Robot Manipulation",
+   "link": "https://www.marktechpost.com/2026/10/17/meet-kyutai-reki-the-2-4b-vla-model-bringing-efficient-memory-to-robot-manipulation/",
+   "dt": "2026-10-17T20:22:11+00:00",
+   "summary": "Kyutai, with Inria and École des Ponts, has released REKI, a 2.4B vision-language-action model (VLA) for robot manipulation. The REKI vision-language-action model is pretrained only on public data. It also carries a cheap memory of its recent past. On three out-of-distribution benchmarks, only models about twice its size beat it. All weights are live on […] The post Meet Kyutai REKI: The 2.4B VLA Model Bringing Efficient Memory to Robot Manipulation appeared first on MarkTechPost .",
+   "extra": {},
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.951,
+   "score": 1.951,
+   "tokens": [
+    "4b",
+    "bringing",
+    "efficient",
+    "kyutai",
+    "manipulation",
+    "meet",
+    "memory",
+    "model",
+    "reki",
+    "robot",
+    "vla"
+   ],
+   "flag": "new",
+   "summary_zh": "Kyutai 发布 2.4B 参数 VLA 模型 REKI，具备廉价近期记忆，机器人操作表现接近两倍大模型。",
+   "why_zh": "学习如何在 VLA 中加入轻量记忆机制，实现高效机器人控制，可迁移到其他视觉语言动作任务。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "Put your dot on call",
+   "link": "https://www.youtube.com/watch?v=GBOZIRK1ujw",
+   "dt": "2026-10-16T21:43:48+00:00",
+   "summary": "Ali, an engineer at OpenAI, used his dot to triage an on-call incident at 3am. His dot investigated the issue and started a Codex thread, so he could steer the work from his phone in the ChatGPT app.",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": "GBOZIRK1ujw"
+   },
+   "skills": [],
+   "learn_score": 1.215,
+   "score": 1.215,
+   "tokens": [
+    "call",
+    "dot",
+    "put"
+   ],
+   "flag": "new",
+   "summary_zh": "Ali 使用 OpenAI 的 dot 在凌晨3时自动排查故障并启动 Codex 线程，可通过手机 ChatGPT 控制。",
+   "why_zh": "展示利用 dot 自动化排障并触发 Codex 线程，体现 AI 工程师在生产环境中结合大模型进行故障响应的可复用做法。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "GPT-Live-1.1 has new voices and better accents.",
+   "link": "https://www.youtube.com/watch?v=GyO8Ao7yKJc",
+   "dt": "2026-10-15T18:24:44+00:00",
+   "summary": "New voices. Better accents. And less \"checking...\" GPT-Live-1.1 brings these updates to Voice in ChatGPT, Codex, and dots, with new voices in French, German, Hindi, Mexican Spanish, Korean, and Japanese. Rolling out today to all users. Coming soon to the API.",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": "GyO8Ao7yKJc"
+   },
+   "skills": [],
+   "learn_score": 1.154,
+   "score": 1.154,
+   "tokens": [
+    "accents",
+    "better",
+    "gpt",
+    "live",
+    "voices"
+   ],
+   "flag": "new",
+   "summary_zh": "GPT-Live-1.1 为 ChatGPT、Codex 和 dot 新增法语、德语、印地语、墨西哥西班牙语、韩语、日语语音，降低等待提示。",
+   "why_zh": "展示 GPT-Live-1.1 多语音、降低等待的工程实践，可学习语音模型迭代、延迟优化及多平台集成方法。"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "lemomo-ai/lemo-opuscar",
+   "link": "https://github.com/lemomo-ai/lemo-opuscar",
+   "dt": "2026-09-26T10:10:41+00:00",
+   "summary": "Claude Code skill for short films with no video model: 51 film styles, each a style prompt plus a demo film made entirely in code by Claude Opus 5.5 (incl. OPUSCAR 98 and the new Evidence Films). By Lemomo. · Opus5.5 x 51 种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南（新增「实证影像」）",
+   "extra": {
+    "stars": 2973,
+    "language": "JavaScript",
+    "topics": [
+     "agent-skills",
+     "ai-agents",
+     "ai-short-film",
+     "ai-video",
+     "animation",
+     "canvas"
+    ],
+    "created": "2026-09-26",
+    "pushed": "2026-10-18"
+   },
+   "skills": [
+    "prompt_context"
+   ],
+   "learn_score": 2.195,
+   "score": 8.78,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-17 推荐过",
+   "summary_zh": "Claude Opus 5.5 生成 43 种电影风格的纯代码短片，附风格提示词和导演指南。",
+   "why_zh": "展示大模型直接输出可运行代码实现多风格视觉内容，为程序化创作提供新范式。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "amitshekhariitbhu/ai-engineering-course",
+   "link": "https://github.com/amitshekhariitbhu/ai-engineering-course",
+   "dt": "2026-09-23T08:04:42+00:00",
+   "summary": "AI Engineering Course - A free and complete AI Engineering Course to learn AI Engineering step by step - from Machine Learning, Neural Networks, and Transformers to LLMs, Fine-Tuning, RAG, AI Agents, LLM Inference, Evaluation, AI Safety, and AI System Design.",
+   "extra": {
+    "stars": 538,
+    "language": "Markdown",
+    "topics": [
+     "ai-course",
+     "ai-engineering",
+     "ai-engineering-course",
+     "ai-engineering-curriculum",
+     "large-language-models"
+    ],
+    "created": "2026-09-23",
+    "pushed": "2026-10-14"
+   },
+   "skills": [
+    "rag",
+    "eval_observability",
+    "training_serving",
+    "llm_fundamentals",
+    "system_design"
+   ],
+   "learn_score": 2.107,
+   "score": 7.861,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-15 推荐过"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "amitshekhariitbhu/ai-system-design",
+   "link": "https://github.com/amitshekhariitbhu/ai-system-design",
+   "dt": "2026-09-25T04:50:06+00:00",
+   "summary": "AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
+   "extra": {
+    "stars": 713,
+    "language": "Markdown",
+    "topics": [
+     "ai",
+     "ai-agents",
+     "ai-engineering",
+     "ai-system",
+     "ai-system-design",
+     "ai-systems"
+    ],
+    "created": "2026-09-25",
+    "pushed": "2026-10-14"
+   },
+   "skills": [
+    "rag",
+    "system_design"
+   ],
+   "learn_score": 1.951,
+   "score": 7.517,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-17 推荐过",
+   "summary_zh": "教程展示如何逐步设计基于LLM、RAG和AI Agent的AI系统。",
+   "why_zh": "为工程师提供系统化的LLM应用架构指导，便于快速落地复杂AI产品。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Fazmin/AILearningGuide",
+   "link": "https://github.com/Fazmin/AILearningGuide",
+   "dt": "2026-10-05T02:29:23+00:00",
+   "summary": "Interactive desktop app with 51 labs covering ML fundamentals, transformers, RAG, agents, fine-tuning and quantization and more.",
+   "extra": {
+    "stars": 199,
+    "language": "TypeScript",
+    "topics": [
+     "ai",
+     "ai-education",
+     "deep-learning",
+     "educational",
+     "educational-resources",
+     "educational-tool"
+    ],
+    "created": "2026-10-05",
+    "pushed": "2026-10-18"
+   },
+   "skills": [
+    "rag",
+    "training_serving",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.276,
+   "score": 7.508,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-17 推荐过",
+   "summary_zh": "提供交互式桌面应用，包含51个实验涵盖机器学习基础、Transformer、RAG、Agent、微调与量化等内容。",
+   "why_zh": "可学习动手实验的组织方式，掌握从基础到高级模型的全流程实践，适合面试中展示系统化学习能力。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "rehan-remade/universal-modder",
+   "link": "https://github.com/rehan-remade/universal-modder",
+   "dt": "2026-09-30T05:00:35+00:00",
+   "summary": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
+   "extra": {
+    "stars": 8294,
+    "language": "Python",
+    "topics": [
+     "age-of-empires",
+     "claude-code",
+     "claude-code-plugin",
+     "fal",
+     "game-assets",
+     "game-modding"
+    ],
+    "created": "2026-09-30",
+    "pushed": "2026-10-18"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-17 推荐过",
+   "summary_zh": "使用 Claude Code 及 fal MCP 进行游戏逆向、资产生成、测试等全流程 MOD 制作。",
+   "why_zh": "表明大模型可直接参与游戏逆向与内容创作，为工程师提供新范式。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "amontlabs/lcu",
+   "link": "https://github.com/amontlabs/lcu",
+   "dt": "2026-09-22T15:08:18+00:00",
+   "summary": "Codex computer use, decoupled from the app, for usage inside any harness.",
+   "extra": {
+    "stars": 1173,
+    "language": "JavaScript",
+    "topics": [
+     "accessibility",
+     "agent-skills",
+     "browser-automation",
+     "claude-code",
+     "codex-cli",
+     "computer-use"
+    ],
+    "created": "2026-09-22",
+    "pushed": "2026-10-14"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-17 推荐过",
+   "summary_zh": "提供与应用解耦的 Codex 计算机使用能力，可在任意 harness 中调用。",
+   "why_zh": "展示如何将大模型能力封装为可插拔服务，可学习解耦设计与代理集成的实践。"
+  }
+ ]
+}
