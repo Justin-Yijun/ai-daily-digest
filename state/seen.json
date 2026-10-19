@@ -23,7 +23,7 @@
   },
   "https://github.com/rehan-remade/universal-modder": {
    "title": "rehan-remade/universal-modder",
-   "date": "2026-10-18",
+   "date": "2026-10-19",
    "tokens": [],
    "source": "github",
    "summary_zh": "使用 Claude Code 及 fal MCP 进行游戏逆向、资产生成、测试等全流程 MOD 制作。",
@@ -190,7 +190,7 @@
   },
   "https://github.com/amitshekhariitbhu/ai-engineering-course": {
    "title": "amitshekhariitbhu/ai-engineering-course",
-   "date": "2026-10-18",
+   "date": "2026-10-19",
    "tokens": [],
    "source": "github",
    "summary_zh": "",
@@ -1223,7 +1223,7 @@
   },
   "https://github.com/lemomo-ai/lemo-opuscar": {
    "title": "lemomo-ai/lemo-opuscar",
-   "date": "2026-10-18",
+   "date": "2026-10-19",
    "tokens": [],
    "source": "github",
    "summary_zh": "Claude Opus 5.5 生成 43 种电影风格的纯代码短片，附风格提示词和导演指南。",
@@ -1722,7 +1722,7 @@
   },
   "https://github.com/amitshekhariitbhu/ai-system-design": {
    "title": "amitshekhariitbhu/ai-system-design",
-   "date": "2026-10-18",
+   "date": "2026-10-19",
    "tokens": [],
    "source": "github",
    "summary_zh": "教程展示如何逐步设计基于LLM、RAG和AI Agent的AI系统。",
@@ -2841,7 +2841,7 @@
   },
   "https://github.com/Fazmin/AILearningGuide": {
    "title": "Fazmin/AILearningGuide",
-   "date": "2026-10-18",
+   "date": "2026-10-19",
    "tokens": [],
    "source": "github",
    "summary_zh": "提供交互式桌面应用，包含51个实验涵盖机器学习基础、Transformer、RAG、Agent、微调与量化等内容。",
@@ -3296,12 +3296,8 @@
   },
   "https://github.com/tangency-labs/solidcraft": {
    "title": "tangency-labs/solidcraft",
-   "date": "2026-10-18",
-   "tokens": [
-    "labs",
-    "solidcraft",
-    "tangency"
-   ],
+   "date": "2026-10-19",
+   "tokens": [],
    "source": "github",
    "summary_zh": "SolidCraft 是用纯 Rust 构建的开源参数化3D CAD 应用，支持桌面、网页及MCP自动化。",
    "why_zh": "演示Rust在复杂图形系统中的工程实践，可参考高性能跨平台CAD开发。"
@@ -3462,7 +3458,243 @@
    "source": "youtube",
    "summary_zh": "GPT-Live-1.1 为 ChatGPT、Codex 和 dot 新增法语、德语、印地语、墨西哥西班牙语、韩语、日语语音，降低等待提示。",
    "why_zh": "展示 GPT-Live-1.1 多语音、降低等待的工程实践，可学习语音模型迭代、延迟优化及多平台集成方法。"
+  },
+  "https://arxiv.org/abs/2610.22373": {
+   "title": "Structured Authority Injection: Persistent Human Control for LLM Agents via Typed MCP Overrides",
+   "date": "2026-10-19",
+   "tokens": [
+    "agents",
+    "authority",
+    "control",
+    "human",
+    "injection",
+    "llm",
+    "mcp",
+    "overrides",
+    "persistent",
+    "structured",
+    "typed"
+   ],
+   "source": "paper",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://arxiv.org/abs/2610.22515": {
+   "title": "alkhder at ImageEval 2026 Shared Tasks: Constrained Selection and Rotation-Averaged Logit Scoring for Multimodal Hallucination Detection",
+   "date": "2026-10-19",
+   "tokens": [
+    "2026",
+    "alkhder",
+    "averaged",
+    "constrained",
+    "detection",
+    "hallucination",
+    "imageeval",
+    "logit",
+    "multimodal",
+    "rotation",
+    "scoring",
+    "selection",
+    "shared",
+    "tasks"
+   ],
+   "source": "paper",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://github.com/trhhubsd/ARTEX": {
+   "title": "trhhubsd/ARTEX",
+   "date": "2026-10-19",
+   "tokens": [
+    "artex",
+    "trhhubsd"
+   ],
+   "source": "github",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://github.com/google-research/harness2": {
+   "title": "google-research/harness2",
+   "date": "2026-10-19",
+   "tokens": [
+    "google",
+    "harness2",
+    "research"
+   ],
+   "source": "github",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://github.com/justxor/deepseek-local-guide-ru": {
+   "title": "justxor/deepseek-local-guide-ru",
+   "date": "2026-10-19",
+   "tokens": [
+    "deepseek",
+    "guide",
+    "justxor",
+    "local",
+    "ru"
+   ],
+   "source": "github",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://sphinx-six-theta.vercel.app/": {
+   "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
+   "date": "2026-10-19",
+   "tokens": [
+    "ai",
+    "before",
+    "code",
+    "hn",
+    "hook",
+    "quizzes",
+    "shipping",
+    "show",
+    "sphinx"
+   ],
+   "source": "hackernews",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://arxiv.org/abs/2610.18861": {
+   "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+   "date": "2026-10-19",
+   "tokens": [
+    "act",
+    "agents",
+    "hybrid",
+    "latent",
+    "llm",
+    "reasoning",
+    "space",
+    "text",
+    "think",
+    "through"
+   ],
+   "source": "hackernews",
+   "summary_zh": "混合推理智能体在潜在空间进行思考，通过文本输出执行动作。",
+   "why_zh": "展示如何将潜在表示与文本动作解耦，可学习混合推理架构设计与工具调用分离的实践。"
+  },
+  "https://github.com/feder-cr/git-ai": {
+   "title": "feder-cr/git-ai",
+   "date": "2026-10-19",
+   "tokens": [
+    "ai",
+    "cr",
+    "feder",
+    "git"
+   ],
+   "source": "github",
+   "summary_zh": "一个专为 AI 智能体设计的 Git 版本控制系统。",
+   "why_zh": "了解如何将版本控制适配到 AI 工作流，学习工具链改造与自动化提交的思路。"
+  },
+  "https://www.marktechpost.com/2026/10/18/tinyfish-free-search-ai-agent-token-cost/": {
+   "title": "TinyFish Makes Search Free: What It Really Costs an AI Agent to Read the Web",
+   "date": "2026-10-19",
+   "tokens": [
+    "agent",
+    "ai",
+    "costs",
+    "free",
+    "makes",
+    "read",
+    "really",
+    "search",
+    "tinyfish",
+    "web"
+   ],
+   "source": "blog",
+   "summary_zh": "TinyFish 揭示 AI 读网页的两类成本：检索费用与模型 token 消耗。",
+   "why_zh": "掌握评估 AI 代理成本的方法，可在系统设计中区分检索开销与推理开销，进行优化。"
+  },
+  "https://www.youtube.com/watch?v=tJ-hlNVS7AI": {
+   "title": "Managed Deep Agents explained in 2 minutes",
+   "date": "2026-10-19",
+   "tokens": [
+    "agents",
+    "deep",
+    "explained",
+    "managed",
+    "minutes"
+   ],
+   "source": "youtube",
+   "summary_zh": "Managed Deep Agents 提供托管的智能体运行平台，开发者只需编写指令、工具和技能。",
+   "why_zh": "学习如何将智能体逻辑与基础设施解耦，掌握托管式 Agent 平台的使用模式与可复用的工具调用模式。"
+  },
+  "https://www.youtube.com/watch?v=OLqP8jxJ0Wc": {
+   "title": "My Jev Pi Durable Agent CURATES News: HYPE, FACT, or SIGNAL",
+   "date": "2026-10-19",
+   "tokens": [
+    "agent",
+    "curates",
+    "durable",
+    "fact",
+    "hype",
+    "jev",
+    "my",
+    "news",
+    "pi",
+    "signal"
+   ],
+   "source": "youtube",
+   "summary_zh": "持久新闻代理主动筛选信息，区分炒作、事实与信号，实现 out‑loop 自主工作。",
+   "why_zh": "掌握主动式、 out‑loop 代理的设计思路，学习如何让 Agent 主动工作并减少人工干预。"
+  },
+  "https://www.langchain.com/blog/how-numan-built-an-eval-first-ai-health-coach-with-langgraph-and-langsmith": {
+   "title": "How Numan Built an Eval-First AI Health Coach with LangGraph and LangSmith",
+   "date": "2026-10-19",
+   "tokens": [
+    "ai",
+    "built",
+    "coach",
+    "eval",
+    "first",
+    "health",
+    "langgraph",
+    "langsmith",
+    "numan"
+   ],
+   "source": "blog",
+   "summary_zh": "Numan 使用 LangGraph 和 LangSmith 构建分类评估、模拟对话及安全门槛的 AI 健康教练。",
+   "why_zh": "学习在 LangGraph 中实现可复用的评估框架与安全防护，掌握健康类 Agent 的开发流程。"
+  },
+  "https://www.marktechpost.com/2026/10/19/minimax-m3-1-flash-release/": {
+   "title": "MiniMax Just Launched M3.1 Flash: 428B MoE Agentic Model at $0.15/M Input",
+   "date": "2026-10-19",
+   "tokens": [
+    "15",
+    "428b",
+    "agentic",
+    "flash",
+    "input",
+    "just",
+    "launched",
+    "m3",
+    "minimax",
+    "model",
+    "moe"
+   ],
+   "source": "blog",
+   "summary_zh": "MiniMax 发布 M3.1 Flash，428B 参数 MoE 模型，激活参数约 23B，支持 1M-token 上下文，API 输入价 0.15 美元/百万 token。",
+   "why_zh": "体现大规模 MoE 在代理任务中的应用，学习如何平衡参数规模、激活成本与上下文长度，可复用于成本敏感的 Agent 部署。"
+  },
+  "https://www.youtube.com/shorts/8mp0jF2At1o": {
+   "title": "Podium's Playbook for Scaling AI Agents Org-Wide",
+   "date": "2026-10-19",
+   "tokens": [
+    "agents",
+    "ai",
+    "org",
+    "playbook",
+    "podium",
+    "scaling",
+    "wide"
+   ],
+   "source": "youtube",
+   "summary_zh": "Podium 通过统一平台在销售、服务与支持全公司规模部署 AI Agent，以 LangSmith 为默认平台实现可观测性和可复用模式。",
+   "why_zh": "说明如何通过统一平台和默认工具链实现组织级 Agent 规模化，可学习可观测性继承与模式复用的做法。"
   }
  },
- "updated": "2026-10-18T12:24:34.382913+00:00"
+ "updated": "2026-10-19T15:13:31.187890+00:00"
 }
