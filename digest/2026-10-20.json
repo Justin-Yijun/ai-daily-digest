@@ -1,0 +1,597 @@
+{
+ "date": "2026-10-20",
+ "generated": "2026-10-20 00:36",
+ "source_count": {
+  "github": 74,
+  "youtube": 41,
+  "blog": 87,
+  "paper": 24,
+  "hackernews": 10
+ },
+ "failures": {},
+ "failure_errors": {},
+ "items": [
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "ECHOES: Seeing Beyond the Current Image via Recursive History Compression and Privileged On-Policy Distillation",
+   "link": "https://arxiv.org/abs/2610.22408",
+   "dt": "2026-10-19T00:00:00-04:00",
+   "summary": "arXiv:2610.22408v1 Announce Type: new Abstract: Long-horizon GUI agents rely on visual history to maintain task states, but retaining historical screenshots increases visual-token usage and inference costs, while textual summaries can discard critical state information, undermining long-horizon reliability. We propose ECHOES, which leverages training-time privileged information to guide textual history compression and strengthen long-horizon reasoning. Specifically, ECHOES adopts a Compression-T",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "rag",
+    "training_serving"
+   ],
+   "learn_score": 3.315,
+   "score": 6.63,
+   "tokens": [
+    "beyond",
+    "compression",
+    "current",
+    "distillation",
+    "echoes",
+    "history",
+    "image",
+    "policy",
+    "privileged",
+    "recursive",
+    "seeing"
+   ],
+   "flag": "new",
+   "summary_zh": "ECHOES 通过递归历史压缩和特权在策略蒸馏，减少 GUI 代理的视觉 token 使用同时保留关键状态信息。",
+   "why_zh": "展示如何利用训练时特权信息进行历史压缩，降低视觉 token 开销，提升长时序任务可靠性，可迁移到多模态代理设计。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Librarian Agents: Training LLMs to Curate Long-Context Workspaces that Anticipate Future Queries",
+   "link": "https://huggingface.co/papers/2610.22273",
+   "dt": "2026-10-14T20:00:00+00:00",
+   "summary": "Reasoning over long document contexts remains a challenge for large language models (LLMs). Standard retrieval methods are inherently reactive, bottlenecking agents with complex, cross-document reasoning at inference time, while precomputed structures like knowledge graphs often fall short because they rely on rigid heuristics. Instead, can we allow agents to perform anticipatory directed curation: learning to proactively reorganize unstructured corpora prior to inference to efficiently serve di",
+   "extra": {
+    "upvotes": 0,
+    "arxiv": "https://arxiv.org/abs/2610.22273"
+   },
+   "skills": [
+    "rag",
+    "agent_architecture",
+    "eval_observability",
+    "training_serving"
+   ],
+   "learn_score": 3.14,
+   "score": 6.28,
+   "tokens": [
+    "agents",
+    "anticipate",
+    "context",
+    "curate",
+    "future",
+    "librarian",
+    "llms",
+    "long",
+    "queries",
+    "training",
+    "workspaces"
+   ],
+   "flag": "new",
+   "summary_zh": "Librarian Agents 训练 LLM 主动策划长上下文工作空间，预测未来查询，减少检索延迟。",
+   "why_zh": "展示如何通过主动上下文策划提升长文档推理，减少实时检索瓶颈，可用于构建预取式 RAG 系统。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Leonxlnx/earshot",
+   "link": "https://github.com/Leonxlnx/earshot",
+   "dt": "2026-10-15T06:52:46+00:00",
+   "summary": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
+   "extra": {
+    "stars": 1349,
+    "language": "Python",
+    "topics": [
+     "ai-agents",
+     "audio",
+     "claude-code",
+     "mcp",
+     "sound-design"
+    ],
+    "created": "2026-10-15",
+    "pushed": "2026-10-18"
+   },
+   "skills": [],
+   "learn_score": 1.094,
+   "score": 4.376,
+   "tokens": [
+    "earshot",
+    "leonxlnx"
+   ],
+   "flag": "new",
+   "summary_zh": "earshot 提供 CPU 只依赖的音频 I/O 库，让编码代理能够听取、审查并生成声音。",
+   "why_zh": "演示如何为 AI 代理添加音频感知与反馈能力，纯 CPU 实现便于轻量化部署，适用于交互式编码助手。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Ousted Savannah police officer gave ICE agent husband access to Flock system",
+   "link": "https://www.wjcl.com/article/savannah-police-officer-ice-agent-flock-access/74135816",
+   "dt": "2026-10-19T10:45:14+00:00",
+   "summary": "",
+   "extra": {
+    "points": 576,
+    "comments": 310,
+    "hn_link": "https://news.ycombinator.com/item?id=50150750"
+   },
+   "skills": [],
+   "learn_score": 1.0,
+   "score": 3.76,
+   "tokens": [
+    "access",
+    "agent",
+    "flock",
+    "gave",
+    "husband",
+    "ice",
+    "officer",
+    "ousted",
+    "police",
+    "savannah",
+    "system"
+   ],
+   "flag": "new",
+   "summary_zh": "前萨凡纳警察因将 ICE 特工丈夫授予 Flock 系统访问权被解雇。",
+   "why_zh": "提醒代理系统权限管理与内部威胁的重要性，可用于面试讨论安全最小权限原则。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "If you don't run your own LLM proxy, how do you know whats going on?",
+   "link": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
+   "dt": "2026-10-18T21:09:12+00:00",
+   "summary": "",
+   "extra": {
+    "points": 271,
+    "comments": 184,
+    "hn_link": "https://news.ycombinator.com/item?id=50145507"
+   },
+   "skills": [],
+   "learn_score": 1.0,
+   "score": 3.433,
+   "tokens": [
+    "do",
+    "don",
+    "going",
+    "if",
+    "know",
+    "llm",
+    "own",
+    "proxy",
+    "run",
+    "whats"
+   ],
+   "flag": "new",
+   "summary_zh": "强调自建 LLM 代理以监控请求、日志和安全，避免第三方不透明风险。",
+   "why_zh": "教授如何通过自建代理实现请求审计、流量控制与数据隐私，是工程化 LLMs 的基础能力。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "nano-muse/nanoMuse",
+   "link": "https://github.com/nano-muse/nanoMuse",
+   "dt": "2026-09-23T06:13:06+00:00",
+   "summary": "nanoMuse: an open-source personal agent for every device you own. One agent with a name and a look of its own that does things, keeps working while the app is closed, remembers you, and asks before anything you cannot undo. On Android, iPhone and iPad, Windows / macOS / Linux and in the browser; your phone's screen and your computer as its hands.",
+   "extra": {
+    "stars": 1516,
+    "language": "Swift",
+    "topics": [
+     "agent-skills",
+     "ai-agent",
+     "android",
+     "computer-use",
+     "cross-device",
+     "desktop-app"
+    ],
+    "created": "2026-09-23",
+    "pushed": "2026-10-18"
+   },
+   "skills": [],
+   "learn_score": 0.765,
+   "score": 3.06,
+   "tokens": [
+    "muse",
+    "nano",
+    "nanomuse"
+   ],
+   "flag": "new",
+   "summary_zh": "nanoMuse 提供跨平台个人 AI 代理，能在后台运行、记住用户并在关键操作前征求确认。",
+   "why_zh": "展示如何构建持久化、跨设备的个人代理，包含状态持久化、后台任务与用户同意机制，可迁移到桌面/移动端 AI 助手。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "jwuthri-cloud/Tracely-ai",
+   "link": "https://github.com/jwuthri-cloud/Tracely-ai",
+   "dt": "2026-10-11T15:38:03+00:00",
+   "summary": "Trace-native CI/CD for AI agents: grade production traces, cluster failures, freeze them into replayable regression tests, and block PRs that regress. Self-hostable.",
+   "extra": {
+    "stars": 1078,
+    "language": "Python",
+    "topics": [
+     "agent-evaluation",
+     "ai-agents",
+     "ai-testing",
+     "ci-cd",
+     "clickhouse",
+     "developer-tools"
+    ],
+    "created": "2026-10-11",
+    "pushed": "2026-10-15"
+   },
+   "skills": [],
+   "learn_score": 0.765,
+   "score": 3.06,
+   "tokens": [
+    "ai",
+    "cloud",
+    "jwuthri",
+    "tracely"
+   ],
+   "flag": "new",
+   "summary_zh": "提供 AI Agent 的 trace 原生 CI/CD，可评分生产 trace、聚类失败、冻结为可回放回归测试并阻止倒退 PR。",
+   "why_zh": "面试价值：展示可复用的 AI 系统可观测性与回归测试实践，适用于 MLOps、Agent 调试与 CI 集成。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "wheresryan22/anatomy",
+   "link": "https://github.com/wheresryan22/anatomy",
+   "dt": "2026-10-08T10:12:49+00:00",
+   "summary": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
+   "extra": {
+    "stars": 16687,
+    "language": "JavaScript",
+    "topics": [
+     "agent-skill",
+     "open-source",
+     "svg",
+     "vizualization"
+    ],
+    "created": "2026-10-08",
+    "pushed": "2026-10-18"
+   },
+   "skills": [],
+   "learn_score": 0.765,
+   "score": 3.06,
+   "tokens": [
+    "anatomy",
+    "wheresryan22"
+   ],
+   "flag": "new",
+   "summary_zh": "提供 Agent 技能，生成真实机器与复杂系统的交互式等距 SVG 插图，支持 WebGL 着色器和 3D 效果。",
+   "why_zh": "面试价值：体现多模态生成与可视化工具链，可学习 SVG、WebGL 交互式渲染及 Agent 调用图形生成的实践。"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "Mistral AI Releases Timestral: A 209M Forecasting Model Family That Outperforms Google’s TimesFM-3",
+   "link": "https://www.marktechpost.com/2026/10/18/mistral-timestral-time-series-foundation-model/",
+   "dt": "2026-10-19T01:18:17+00:00",
+   "summary": "Mistral released Timestral, a time series foundation model family from 5M to 209M parameters. The 209M model leads GIFT-Eval, TIME and fev-bench among zero-shot models and runs on CPU. The post Mistral AI Releases Timestral: A 209M Forecasting Model Family That Outperforms Google’s TimesFM-3 appeared first on MarkTechPost .",
+   "extra": {},
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.951,
+   "score": 1.951,
+   "tokens": [
+    "209m",
+    "ai",
+    "family",
+    "forecasting",
+    "google",
+    "mistral",
+    "model",
+    "outperforms",
+    "releases",
+    "timesfm",
+    "timestral"
+   ],
+   "flag": "new",
+   "summary_zh": "Mistral 发布 Timestral 系列时序基础模型，最大 209M 参数在 CPU 上零射击优于 TimesFM-3。",
+   "why_zh": "面试价值：展示轻量级时序基础模型设计与零射击评估方法，可复用于预测任务的模型压缩与 CPU 部署。"
+  },
+  {
+   "source": "blog",
+   "source_label": "InfoQ 中文 AI",
+   "title": "谷歌开源Harness，支持 OpenCode 和 Codex：国内开发者接入Jev实测“真行”",
+   "link": "https://www.infoq.cn/article/AD1M3mJ2SH1dJrTA1r5q?utm_source=rss&utm_medium=article",
+   "dt": "2026-10-19T18:22:05+00:00",
+   "summary": "点击查看原文>",
+   "extra": {},
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.951,
+   "score": 1.951,
+   "tokens": [
+    "codex",
+    "opencode",
+    "国内开发者接入jev实测",
+    "支持",
+    "真行",
+    "谷歌开源harness"
+   ],
+   "flag": "new",
+   "summary_zh": "谷歌开源 Harness，兼容 OpenCode 与 Codex，国内开发者实测 Jev 接入可用。",
+   "why_zh": "面试价值：展示开源代码助手平台的集成方式与本地化适配经验，可学习多模型代理的统一接入与评测流程。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Two Minute Papers",
+   "title": "Gemini 4 Argon Really Surprised Me",
+   "link": "https://www.youtube.com/watch?v=LWxX6vvHfrc",
+   "dt": "2026-10-19T08:49:21+00:00",
+   "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers 📝 Gemini 4 Argon + report are available here: https://deepmind.google/models/model-cards/gemini-4-argon/ https://storage.googleapis.com/deepmind-media/gemini/gemini_4_safety_report.pdf Sources: https://x.com/thebuggeddev/status/2110241991233790456 https://x.com/vib3coded/status/2110136719827747181 https://x.com/EnvolDev/status/2110116583016419760 https://x.com/kickingkeys/status/2110037855452180633 https://x.com/t…",
+   "extra": {
+    "channel": "Two Minute Papers",
+    "video_id": "LWxX6vvHfrc"
+   },
+   "skills": [
+    "rag"
+   ],
+   "learn_score": 1.53,
+   "score": 1.53,
+   "tokens": [
+    "argon",
+    "gemini",
+    "me",
+    "really",
+    "surprised"
+   ],
+   "flag": "new",
+   "summary_zh": "Gemini 4 Argon 模型及安全报告发布，展示强大多模态能力令人惊喜。",
+   "why_zh": "面试价值：了解最新多模态大模型的评测与安全分析方法，可学习模型卡片、安全报告解读及实际应用评估。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Sam Witteveen",
+   "title": "Meta's New Models & Agent",
+   "link": "https://www.youtube.com/watch?v=aKVfjG7_R4g",
+   "dt": "2026-10-19T14:20:13+00:00",
+   "summary": "Muse Spark Open is Meta's new 816B open-weights model. In the video I go into what Meta actually released versus what they kept closed, and test it side by side with Muse Wonder. Meta's Muse Spark Open blog: https://research.meta.ai/blog/muse-spark-open Reflection's Beam blog: https://reflection.ai/blog/introducing-beam David Senra podcast with Alexandr Wang: https://www.youtube.com/watch?v=S6l3aRsecuE Sam's 2nd Channel: https://www.youtube.com/channel/UCUF7WtR4JpVbQqcQGrLeADw Twitter: https://x…",
+   "extra": {
+    "channel": "Sam Witteveen",
+    "video_id": "aKVfjG7_R4g"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.53,
+   "score": 1.53,
+   "tokens": [
+    "agent",
+    "meta",
+    "models"
+   ],
+   "flag": "new",
+   "summary_zh": "Meta 开源 816B 参数的 Muse Spark Open 模型，对比闭源部分并与 Muse Wonder 进行侧评测。",
+   "why_zh": "面试价值：展示超大规模开放权重模型的发布策略与对比评测方法，可学习大模型资源管理、开源许可及基准测试实践。"
+  },
+  {
+   "source": "blog",
+   "source_label": "Simon Willison",
+   "title": "llm-echo 0.5",
+   "link": "https://simonwillison.net/2026/Oct/18/llm-echo/",
+   "dt": "2026-10-18T23:16:16+00:00",
+   "summary": "Release: llm-echo 0.5 I'm working towards a new LLM release, and testing PRs caused me to revisit the llm-echo debug plugin. This plugin provides a \"model\" which doesn't involve an LLM at all - it just repeats back the prompts that have been fed to it. The new release now updates the simulated token usage counts to take tool calls, system prompts, and reasoning tokens into account. Example usage: uvx --with llm-echo llm -m echo 'hi there' -o thinking 1 --usage Outputs: First I consider the promp…",
+   "extra": {},
+   "skills": [
+    "prompt_context"
+   ],
+   "learn_score": 1.445,
+   "score": 1.445,
+   "tokens": [
+    "echo",
+    "llm"
+   ],
+   "flag": "new",
+   "summary_zh": "llm-echo 0.5 发布，提供仅回显提示的模型，并将模拟 token 计数扩展到工具调用、系统提示和推理 token。",
+   "why_zh": "学会使用 llm-echo 进行无模型调试，掌握 token 计数与工具调用的模拟方法，提升 Prompt 工程和成本控制能力。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "Thomson Reuters on Building Trust in Legal AI | OpenAI",
+   "link": "https://www.youtube.com/shorts/7lC2N9woZy4",
+   "dt": "2026-10-19T15:13:45+00:00",
+   "summary": "Bringing legal expertise and frontier AI together starts with trust. For Thomson Reuters’ Camillo Speroni, that means output lawyers can verify, cite and put their name on. Camillo discusses Thomson Reuters’ work with OpenAI to bring HighQ and Thomson Reuters CoCounsel Legal into ChatGPT Enterprise, connecting the tools lawyers rely on in one place.",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": ""
+   },
+   "skills": [],
+   "learn_score": 0.9,
+   "score": 0.9,
+   "tokens": [
+    "ai",
+    "building",
+    "legal",
+    "openai",
+    "reuters",
+    "thomson",
+    "trust"
+   ],
+   "flag": "new",
+   "summary_zh": "汤森路透与 OpenAI 合作将 HighQ 和 CoCounsel Legal 集成到 ChatGPT Enterprise，让律师可验证、引用并署名 AI 输出。",
+   "why_zh": "了解法律领域 AI 应用的合规与可信度构建，学习如何将垂直领域知识与大模型结合，提升产品可用性和信任度。"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "lemomo-ai/lemo-opuscar",
+   "link": "https://github.com/lemomo-ai/lemo-opuscar",
+   "dt": "2026-09-26T10:10:41+00:00",
+   "summary": "Claude Code skill for short films with no video model: 51 film styles, each a style prompt plus a demo film made entirely in code by Claude Opus 5.5 (incl. OPUSCAR 98 and the new Evidence Films). By Lemomo. · Opus5.5 x 51 种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南（新增「实证影像」）",
+   "extra": {
+    "stars": 3660,
+    "language": "JavaScript",
+    "topics": [
+     "agent-skills",
+     "ai-agents",
+     "ai-short-film",
+     "ai-video",
+     "animation",
+     "canvas"
+    ],
+    "created": "2026-09-26",
+    "pushed": "2026-10-19"
+   },
+   "skills": [
+    "prompt_context"
+   ],
+   "learn_score": 2.195,
+   "score": 8.78,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-19 推荐过",
+   "summary_zh": "Claude Opus 5.5 生成 43 种电影风格的纯代码短片，附风格提示词和导演指南。",
+   "why_zh": "展示大模型直接输出可运行代码实现多风格视觉内容，为程序化创作提供新范式。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Structured Authority Injection: Persistent Human Control for LLM Agents via Typed MCP Overrides",
+   "link": "https://arxiv.org/abs/2610.22373",
+   "dt": "2026-10-19T00:00:00-04:00",
+   "summary": "arXiv:2610.22373v1 Announce Type: new Abstract: LLM-based agents are increasingly used as autonomous orchestrators in distributed and multi-agent systems, yet a control gap remains: no protocol-level mechanism allows human operators to inject binding directives that persist across planning cycles. Free-text overrides suffer from ambiguous interpretation due to lack of schema validation and from authority erosion as operator instructions lose influence within accumulating context. We propose Stru",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "tool_mcp",
+    "agent_architecture",
+    "multi_agent"
+   ],
+   "learn_score": 4.177,
+   "score": 8.354,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-19 推荐过"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.CL",
+   "title": "alkhder at ImageEval 2026 Shared Tasks: Constrained Selection and Rotation-Averaged Logit Scoring for Multimodal Hallucination Detection",
+   "link": "https://arxiv.org/abs/2610.22515",
+   "dt": "2026-10-19T00:00:00-04:00",
+   "summary": "arXiv:2610.22515v1 Announce Type: new Abstract: We describe our submission to Subtask~1b of ImageEval 2026. The task consists of selecting the single visually valid statement from three candidates paired with an image, and is in both English and Modern Standard Arabic (MSA). Our system uses a pre-trained 7B vision--language model in a zero-shot setting, without task-specific training or fine-tuning. We formulate the task as a constrained selection problem and choose the answer using next-token l",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "rag",
+    "eval_observability",
+    "training_serving"
+   ],
+   "learn_score": 4.177,
+   "score": 8.354,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-19 推荐过"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "amitshekhariitbhu/ai-engineering-course",
+   "link": "https://github.com/amitshekhariitbhu/ai-engineering-course",
+   "dt": "2026-09-23T08:04:42+00:00",
+   "summary": "AI Engineering Course - A free and complete AI Engineering Course to learn AI Engineering step by step - from Machine Learning, Neural Networks, and Transformers to LLMs, Fine-Tuning, RAG, AI Agents, LLM Inference, Evaluation, AI Safety, and AI System Design.",
+   "extra": {
+    "stars": 540,
+    "language": "Markdown",
+    "topics": [
+     "ai-course",
+     "ai-engineering",
+     "ai-engineering-course",
+     "ai-engineering-curriculum",
+     "large-language-models"
+    ],
+    "created": "2026-09-23",
+    "pushed": "2026-10-19"
+   },
+   "skills": [
+    "rag",
+    "eval_observability",
+    "training_serving",
+    "llm_fundamentals",
+    "system_design"
+   ],
+   "learn_score": 2.107,
+   "score": 7.864,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-19 推荐过"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Fazmin/AILearningGuide",
+   "link": "https://github.com/Fazmin/AILearningGuide",
+   "dt": "2026-10-05T02:29:23+00:00",
+   "summary": "Interactive desktop app with 51 labs covering ML fundamentals, transformers, RAG, agents, fine-tuning and quantization and more.",
+   "extra": {
+    "stars": 208,
+    "language": "TypeScript",
+    "topics": [
+     "ai",
+     "ai-education",
+     "deep-learning",
+     "educational",
+     "educational-resources",
+     "educational-tool"
+    ],
+    "created": "2026-10-05",
+    "pushed": "2026-10-18"
+   },
+   "skills": [
+    "rag",
+    "training_serving",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.276,
+   "score": 7.552,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-19 推荐过",
+   "summary_zh": "提供交互式桌面应用，包含51个实验涵盖机器学习基础、Transformer、RAG、Agent、微调与量化等内容。",
+   "why_zh": "可学习动手实验的组织方式，掌握从基础到高级模型的全流程实践，适合面试中展示系统化学习能力。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "amitshekhariitbhu/ai-system-design",
+   "link": "https://github.com/amitshekhariitbhu/ai-system-design",
+   "dt": "2026-09-25T04:50:06+00:00",
+   "summary": "AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
+   "extra": {
+    "stars": 724,
+    "language": "Markdown",
+    "topics": [
+     "ai",
+     "ai-agents",
+     "ai-engineering",
+     "ai-system",
+     "ai-system-design",
+     "ai-systems"
+    ],
+    "created": "2026-09-25",
+    "pushed": "2026-10-19"
+   },
+   "skills": [
+    "rag",
+    "system_design"
+   ],
+   "learn_score": 1.951,
+   "score": 7.53,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-19 推荐过",
+   "summary_zh": "教程展示如何逐步设计基于LLM、RAG和AI Agent的AI系统。",
+   "why_zh": "为工程师提供系统化的LLM应用架构指导，便于快速落地复杂AI产品。"
+  }
+ ]
+}
