@@ -1,0 +1,594 @@
+{
+ "date": "2026-10-21",
+ "generated": "2026-10-21 00:27",
+ "source_count": {
+  "github": 75,
+  "youtube": 40,
+  "blog": 88,
+  "paper": 12,
+  "hackernews": 10
+ },
+ "failures": {},
+ "failure_errors": {},
+ "items": [
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "DeepSeek just open-sourced its inference engine",
+   "link": "https://github.com/deepseek-ai/DeepInfer",
+   "dt": "2026-10-20T09:08:54+00:00",
+   "summary": "",
+   "extra": {
+    "points": 1661,
+    "comments": 604,
+    "hn_link": "https://news.ycombinator.com/item?id=50163277"
+   },
+   "skills": [
+    "training_serving"
+   ],
+   "learn_score": 1.7,
+   "score": 6.8,
+   "tokens": [
+    "deepseek",
+    "engine",
+    "inference",
+    "just",
+    "open",
+    "sourced"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ysr666/dsh-vision-router",
+   "link": "https://github.com/ysr666/dsh-vision-router",
+   "dt": "2026-08-13T18:57:47+00:00",
+   "summary": "Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools (Q&A, grounding, crop, pixel diff, colors, OCR, SVG trace, cutout, screenshots). One-command install, no Python, image turns work like ordinary tool-calling turns.",
+   "extra": {
+    "stars": 1159,
+    "language": "JavaScript",
+    "topics": [
+     "deepseek-harness",
+     "dsh",
+     "dsh-plugin",
+     "multimodal",
+     "vision"
+    ],
+    "created": "2026-08-13",
+    "pushed": "2026-10-20"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.239,
+   "score": 4.956,
+   "tokens": [
+    "dsh",
+    "router",
+    "vision",
+    "ysr666"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Progress-Aware Distillation for Mitigating Stagnation in Small Language Model Agents",
+   "link": "https://huggingface.co/papers/2610.19439",
+   "dt": "2026-10-16T20:00:00+00:00",
+   "summary": "While LLM-based agent systems have demonstrated remarkable proficiency in reasoning and solving complex real-world tasks, they also come with substantial token consumption and inference latency, limiting their practical deployment. To enhance the efficiency of agent systems, recent efforts have focused on transferring agentic capabilities from large-scale models to small language models (SLMs) via supervised fine-tuning-based distillation. Nevertheless, as interaction trajectories grow longer, i",
+   "extra": {
+    "upvotes": 5,
+    "arxiv": "https://arxiv.org/abs/2610.19439"
+   },
+   "skills": [
+    "training_serving"
+   ],
+   "learn_score": 2.071,
+   "score": 4.142,
+   "tokens": [
+    "agents",
+    "aware",
+    "distillation",
+    "language",
+    "mitigating",
+    "model",
+    "progress",
+    "small",
+    "stagnation"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "tap222/assay-evals",
+   "link": "https://github.com/tap222/assay-evals",
+   "dt": "2026-09-24T09:50:41+00:00",
+   "summary": "Behavioral regression testing for AI apps and agents: pytest plugin, behavior diff, CI gate, and document extraction metrics",
+   "extra": {
+    "stars": 21,
+    "language": "Python",
+    "topics": [
+     "ai-agents",
+     "document-ai",
+     "evaluation",
+     "github-actions",
+     "llm",
+     "llm-evaluation"
+    ],
+    "created": "2026-09-24",
+    "pushed": "2026-10-19"
+   },
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.756,
+   "score": 4.078,
+   "tokens": [
+    "assay",
+    "evals",
+    "tap222"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Lowaltitudeflight/local-llm-tuning-guide",
+   "link": "https://github.com/Lowaltitudeflight/local-llm-tuning-guide",
+   "dt": "2026-10-16T02:52:27+00:00",
+   "summary": "A decision library for running local LLMs on multi-GPU machines without NVLink: parallelism, communication, quantization, speculative decoding, KV cache. Every conclusion carries its evidence grade and reproducible conditions.",
+   "extra": {
+    "stars": 21,
+    "language": "Python",
+    "topics": [
+     "benchmarking",
+     "decision-guide",
+     "gpu-serving",
+     "inference-optimization",
+     "kv-cache",
+     "llm"
+    ],
+    "created": "2026-10-16",
+    "pushed": "2026-10-19"
+   },
+   "skills": [
+    "training_serving"
+   ],
+   "learn_score": 1.721,
+   "score": 3.997,
+   "tokens": [
+    "guide",
+    "llm",
+    "local",
+    "lowaltitudeflight",
+    "tuning"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "CyberArena: Benchmarking AI Agents in Live Symmetric Attack-and-Defense Combat",
+   "link": "https://huggingface.co/papers/2610.19005",
+   "dt": "2026-10-13T14:05:26+00:00",
+   "summary": "AI agents are demonstrating increasingly strong offensive and defensive cybersecurity capabilities in the real world. Current benchmarks mostly evaluate agents in isolation against static targets. Real cyber operations, however, are dynamic and coupled: security postures constantly change as attackers and defenders adapt to each other in real time. Static benchmarks quickly saturate and miss an agent's ability to attack and defend simultaneously under live pressure. To address this gap, we prese",
+   "extra": {
+    "upvotes": 1,
+    "arxiv": "https://arxiv.org/abs/2610.19005"
+   },
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.962,
+   "score": 3.924,
+   "tokens": [
+    "agents",
+    "ai",
+    "attack",
+    "benchmarking",
+    "combat",
+    "cyberarena",
+    "defense",
+    "live",
+    "symmetric"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+   "link": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+   "dt": "2026-10-19T23:22:18+00:00",
+   "summary": "",
+   "extra": {
+    "points": 664,
+    "comments": 185,
+    "hn_link": "https://news.ycombinator.com/item?id=50159341"
+   },
+   "skills": [],
+   "learn_score": 1.0,
+   "score": 3.822,
+   "tokens": [
+    "dont",
+    "help",
+    "hid",
+    "instructions",
+    "llm",
+    "pages",
+    "recommend",
+    "regulator",
+    "whatsapp"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "alchaincyf/huashu-art-motion",
+   "link": "https://github.com/alchaincyf/huashu-art-motion",
+   "dt": "2026-10-06T04:49:37+00:00",
+   "summary": "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。",
+   "extra": {
+    "stars": 4617,
+    "language": "JavaScript",
+    "topics": [],
+    "created": "2026-10-06",
+    "pushed": "2026-10-16"
+   },
+   "skills": [],
+   "learn_score": 0.765,
+   "score": 3.06,
+   "tokens": [
+    "alchaincyf",
+    "art",
+    "huashu",
+    "motion"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Cole Medin",
+   "title": "Let Your AI Agent Do ITS OWN Harness Engineering (Here's How)",
+   "link": "https://www.youtube.com/watch?v=TVhhmhvCovg",
+   "dt": "2026-10-20T16:06:59+00:00",
+   "summary": "Harness engineering is how we make AI agents better over time: improving the rules, skills and memory around the model every time the agent gets something wrong. Most of us still do that by hand. In this video I show you how to let your agent do its own harness engineering, learning from real conversations and proposing changes to its own harness, while you stay in the driver's seat and approve everything it learns. It's the same playbook that makes coding agents reliable, applied to any agent y…",
+   "extra": {
+    "channel": "Cole Medin",
+    "video_id": "TVhhmhvCovg"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 2.582,
+   "score": 2.582,
+   "tokens": [
+    "agent",
+    "ai",
+    "do",
+    "engineering",
+    "harness",
+    "here",
+    "let",
+    "own"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "Exa 3.0 Search API Tops Perplexity, Brave and Parallel on 8 Benchmarks",
+   "link": "https://www.marktechpost.com/2026/10/20/exa-3-0-search-api-lite/",
+   "dt": "2026-10-20T08:12:21+00:00",
+   "summary": "Exa 3.0 is a search API upgrade from Exa. It adds a larger embedding model, Exa Lite at $4 per 1,000 requests, and Dynamic Highlights, and leads 8 benchmarks Exa ran itself. The post Exa 3.0 Search API Tops Perplexity, Brave and Parallel on 8 Benchmarks appeared first on MarkTechPost .",
+   "extra": {},
+   "skills": [
+    "rag",
+    "eval_observability"
+   ],
+   "learn_score": 2.341,
+   "score": 2.341,
+   "tokens": [
+    "api",
+    "benchmarks",
+    "brave",
+    "exa",
+    "parallel",
+    "perplexity",
+    "search",
+    "tops"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Sam Witteveen",
+   "title": "Do Diffusion LLMs Scale? Testing Mercury 3 + Decide",
+   "link": "https://www.youtube.com/watch?v=bEO_QeJU7U0",
+   "dt": "2026-10-20T13:00:17+00:00",
+   "summary": "Inception's Mercury 3 is a diffusion LLM running at 1,000+ tokens/sec, and Mercury Decide is a decision model that can now read images. Here's how they compare, what the independent evals say, and how fast they really are. Thanks to Inception for sponsoring this video. Links: Try Mercury Decide free on OpenRouter: https://openrouter.ai/inception/mercury-decide:free Mercury 3 playground: https://chat.inceptionlabs.ai/ Inception API platform + docs: http://platform.inceptionlabs.ai/ Mercury 3 laun…",
+   "extra": {
+    "channel": "Sam Witteveen",
+    "video_id": "bEO_QeJU7U0"
+   },
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 2.066,
+   "score": 2.066,
+   "tokens": [
+    "decide",
+    "diffusion",
+    "do",
+    "llms",
+    "mercury",
+    "scale",
+    "testing"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "Inception Releases Mercury 3 Diffusion LLM at 1,068 Tokens per Second",
+   "link": "https://www.marktechpost.com/2026/10/19/inception-mercury-3-diffusion-llm/",
+   "dt": "2026-10-20T03:32:43+00:00",
+   "summary": "Inception released Mercury 3, a diffusion LLM it says runs at 1,068 tokens per second with a 1M-token context. On Inception’s own table it leads GPT-6 Luna and Claude Haiku 5.5 on 8 of 12 benchmarks. The post Inception Releases Mercury 3 Diffusion LLM at 1,068 Tokens per Second appeared first on MarkTechPost .",
+   "extra": {},
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.951,
+   "score": 1.951,
+   "tokens": [
+    "068",
+    "diffusion",
+    "inception",
+    "llm",
+    "mercury",
+    "per",
+    "releases",
+    "second",
+    "tokens"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "blog",
+   "source_label": "新智元",
+   "title": "当Coding Agent开始动态并行，软件开发变得更好了吗？",
+   "link": "https://aiera.com.cn/2026/10/20/other/admin/119614/%e5%bd%93coding-agent%e5%bc%80%e5%a7%8b%e5%8a%a8%e6%80%81%e5%b9%b6%e8%a1%8c%ef%bc%8c%e8%bd%af%e4%bb%b6%e5%bc%80%e5%8f%91%e5%8f%98%e5%be%97%e6%9b%b4%e5%a5%bd%e4%ba%86%e5%90%97%ef%bc%9f/",
+   "dt": "2026-10-20T00:03:36+00:00",
+   "summary": "Coding Agent正在进入新的发展阶段。过去，它们主要修复Bug、解决GitHub Issue或实现相对独立的功能，SWE-bench等Benchmark已为此建立了成熟…",
+   "extra": {},
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.951,
+   "score": 1.951,
+   "tokens": [
+    "agent开始动态并行",
+    "当coding",
+    "软件开发变得更好了吗"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "Cooking with Codex: Ep. 1",
+   "link": "https://www.youtube.com/watch?v=DQHtmW9ZlIs",
+   "dt": "2026-10-19T22:55:26+00:00",
+   "summary": "In this episode of Cooking with Codex, an OpenAI dot helps plan a ramen recipe and organize prep in ChatGPT Space, with GPT-Live guiding the cooking process. Also covered: Codex cloud environments, which keep tasks running after a laptop is closed, and new Codex CLI features including voice input, agent management, and forking conversations into separate worktrees. Matthew and Brian from Forward Future join to build an 8-bit ramen game using Ultrafast and play it on a ModRetro. Plus, a showcase …",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": "DQHtmW9ZlIs"
+   },
+   "skills": [],
+   "learn_score": 1.215,
+   "score": 1.215,
+   "tokens": [
+    "codex",
+    "cooking",
+    "ep"
+   ],
+   "flag": "new"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "lemomo-ai/lemo-opuscar",
+   "link": "https://github.com/lemomo-ai/lemo-opuscar",
+   "dt": "2026-09-26T10:10:41+00:00",
+   "summary": "Claude Code skill for short films with no video model: 51 film styles, each a style prompt plus a demo film made entirely in code by Claude Opus 5.5 (incl. OPUSCAR 98 and the new Evidence Films). By Lemomo. · Opus5.5 x 51 种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南（新增「实证影像」）",
+   "extra": {
+    "stars": 4295,
+    "language": "JavaScript",
+    "topics": [
+     "agent-skills",
+     "ai-agents",
+     "ai-short-film",
+     "ai-video",
+     "animation",
+     "canvas"
+    ],
+    "created": "2026-09-26",
+    "pushed": "2026-10-19"
+   },
+   "skills": [
+    "prompt_context"
+   ],
+   "learn_score": 2.195,
+   "score": 8.78,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-20 推荐过",
+   "summary_zh": "Claude Opus 5.5 生成 43 种电影风格的纯代码短片，附风格提示词和导演指南。",
+   "why_zh": "展示大模型直接输出可运行代码实现多风格视觉内容，为程序化创作提供新范式。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "amitshekhariitbhu/ai-engineering-course",
+   "link": "https://github.com/amitshekhariitbhu/ai-engineering-course",
+   "dt": "2026-09-23T08:04:42+00:00",
+   "summary": "AI Engineering Course - A free and complete AI Engineering Course to learn AI Engineering step by step - from Machine Learning, Neural Networks, and Transformers to LLMs, Fine-Tuning, RAG, AI Agents, LLM Inference, Evaluation, AI Safety, and AI System Design.",
+   "extra": {
+    "stars": 542,
+    "language": "Markdown",
+    "topics": [
+     "ai-course",
+     "ai-engineering",
+     "ai-engineering-course",
+     "ai-engineering-curriculum",
+     "large-language-models"
+    ],
+    "created": "2026-09-23",
+    "pushed": "2026-10-20"
+   },
+   "skills": [
+    "rag",
+    "eval_observability",
+    "training_serving",
+    "llm_fundamentals",
+    "system_design"
+   ],
+   "learn_score": 2.107,
+   "score": 7.868,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-20 推荐过"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Fazmin/AILearningGuide",
+   "link": "https://github.com/Fazmin/AILearningGuide",
+   "dt": "2026-10-05T02:29:23+00:00",
+   "summary": "Interactive desktop app with 51 labs covering ML fundamentals, transformers, RAG, agents, fine-tuning and quantization and more.",
+   "extra": {
+    "stars": 214,
+    "language": "TypeScript",
+    "topics": [
+     "ai",
+     "ai-education",
+     "deep-learning",
+     "educational",
+     "educational-resources",
+     "educational-tool"
+    ],
+    "created": "2026-10-05",
+    "pushed": "2026-10-19"
+   },
+   "skills": [
+    "rag",
+    "training_serving",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.276,
+   "score": 7.58,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-20 推荐过",
+   "summary_zh": "提供交互式桌面应用，包含51个实验涵盖机器学习基础、Transformer、RAG、Agent、微调与量化等内容。",
+   "why_zh": "可学习动手实验的组织方式，掌握从基础到高级模型的全流程实践，适合面试中展示系统化学习能力。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "amitshekhariitbhu/ai-system-design",
+   "link": "https://github.com/amitshekhariitbhu/ai-system-design",
+   "dt": "2026-09-25T04:50:06+00:00",
+   "summary": "AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
+   "extra": {
+    "stars": 730,
+    "language": "Markdown",
+    "topics": [
+     "ai",
+     "ai-agents",
+     "ai-engineering",
+     "ai-system",
+     "ai-system-design",
+     "ai-systems"
+    ],
+    "created": "2026-09-25",
+    "pushed": "2026-10-19"
+   },
+   "skills": [
+    "rag",
+    "system_design"
+   ],
+   "learn_score": 1.951,
+   "score": 7.537,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-20 推荐过",
+   "summary_zh": "教程展示如何逐步设计基于LLM、RAG和AI Agent的AI系统。",
+   "why_zh": "为工程师提供系统化的LLM应用架构指导，便于快速落地复杂AI产品。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "rehan-remade/universal-modder",
+   "link": "https://github.com/rehan-remade/universal-modder",
+   "dt": "2026-09-30T05:00:35+00:00",
+   "summary": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
+   "extra": {
+    "stars": 8511,
+    "language": "Python",
+    "topics": [
+     "age-of-empires",
+     "claude-code",
+     "claude-code-plugin",
+     "fal",
+     "game-assets",
+     "game-modding"
+    ],
+    "created": "2026-09-30",
+    "pushed": "2026-10-20"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-19 推荐过",
+   "summary_zh": "使用 Claude Code 及 fal MCP 进行游戏逆向、资产生成、测试等全流程 MOD 制作。",
+   "why_zh": "表明大模型可直接参与游戏逆向与内容创作，为工程师提供新范式。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "tangency-labs/solidcraft",
+   "link": "https://github.com/tangency-labs/solidcraft",
+   "dt": "2026-10-07T18:57:48+00:00",
+   "summary": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+   "extra": {
+    "stars": 8019,
+    "language": "Rust",
+    "topics": [
+     "3d-modeling",
+     "brep",
+     "cad",
+     "egui",
+     "mcp",
+     "parametric-cad"
+    ],
+    "created": "2026-10-07",
+    "pushed": "2026-10-20"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-19 推荐过",
+   "summary_zh": "SolidCraft 是用纯 Rust 构建的开源参数化3D CAD 应用，支持桌面、网页及MCP自动化。",
+   "why_zh": "演示Rust在复杂图形系统中的工程实践，可参考高性能跨平台CAD开发。"
+  }
+ ]
+}

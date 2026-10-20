@@ -23,7 +23,7 @@
   },
   "https://github.com/rehan-remade/universal-modder": {
    "title": "rehan-remade/universal-modder",
-   "date": "2026-10-19",
+   "date": "2026-10-21",
    "tokens": [],
    "source": "github",
    "summary_zh": "使用 Claude Code 及 fal MCP 进行游戏逆向、资产生成、测试等全流程 MOD 制作。",
@@ -190,7 +190,7 @@
   },
   "https://github.com/amitshekhariitbhu/ai-engineering-course": {
    "title": "amitshekhariitbhu/ai-engineering-course",
-   "date": "2026-10-20",
+   "date": "2026-10-21",
    "tokens": [],
    "source": "github",
    "summary_zh": "",
@@ -1223,7 +1223,7 @@
   },
   "https://github.com/lemomo-ai/lemo-opuscar": {
    "title": "lemomo-ai/lemo-opuscar",
-   "date": "2026-10-20",
+   "date": "2026-10-21",
    "tokens": [],
    "source": "github",
    "summary_zh": "Claude Opus 5.5 生成 43 种电影风格的纯代码短片，附风格提示词和导演指南。",
@@ -1722,7 +1722,7 @@
   },
   "https://github.com/amitshekhariitbhu/ai-system-design": {
    "title": "amitshekhariitbhu/ai-system-design",
-   "date": "2026-10-20",
+   "date": "2026-10-21",
    "tokens": [],
    "source": "github",
    "summary_zh": "教程展示如何逐步设计基于LLM、RAG和AI Agent的AI系统。",
@@ -2841,7 +2841,7 @@
   },
   "https://github.com/Fazmin/AILearningGuide": {
    "title": "Fazmin/AILearningGuide",
-   "date": "2026-10-20",
+   "date": "2026-10-21",
    "tokens": [],
    "source": "github",
    "summary_zh": "提供交互式桌面应用，包含51个实验涵盖机器学习基础、Transformer、RAG、Agent、微调与量化等内容。",
@@ -3296,7 +3296,7 @@
   },
   "https://github.com/tangency-labs/solidcraft": {
    "title": "tangency-labs/solidcraft",
-   "date": "2026-10-19",
+   "date": "2026-10-21",
    "tokens": [],
    "source": "github",
    "summary_zh": "SolidCraft 是用纯 Rust 构建的开源参数化3D CAD 应用，支持桌面、网页及MCP自动化。",
@@ -3881,7 +3881,220 @@
    "source": "youtube",
    "summary_zh": "汤森路透与 OpenAI 合作将 HighQ 和 CoCounsel Legal 集成到 ChatGPT Enterprise，让律师可验证、引用并署名 AI 输出。",
    "why_zh": "了解法律领域 AI 应用的合规与可信度构建，学习如何将垂直领域知识与大模型结合，提升产品可用性和信任度。"
+  },
+  "https://github.com/deepseek-ai/DeepInfer": {
+   "title": "DeepSeek just open-sourced its inference engine",
+   "date": "2026-10-21",
+   "tokens": [
+    "deepseek",
+    "engine",
+    "inference",
+    "just",
+    "open",
+    "sourced"
+   ],
+   "source": "hackernews",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://github.com/ysr666/dsh-vision-router": {
+   "title": "ysr666/dsh-vision-router",
+   "date": "2026-10-21",
+   "tokens": [
+    "dsh",
+    "router",
+    "vision",
+    "ysr666"
+   ],
+   "source": "github",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://huggingface.co/papers/2610.19439": {
+   "title": "Progress-Aware Distillation for Mitigating Stagnation in Small Language Model Agents",
+   "date": "2026-10-21",
+   "tokens": [
+    "agents",
+    "aware",
+    "distillation",
+    "language",
+    "mitigating",
+    "model",
+    "progress",
+    "small",
+    "stagnation"
+   ],
+   "source": "paper",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://github.com/tap222/assay-evals": {
+   "title": "tap222/assay-evals",
+   "date": "2026-10-21",
+   "tokens": [
+    "assay",
+    "evals",
+    "tap222"
+   ],
+   "source": "github",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://github.com/Lowaltitudeflight/local-llm-tuning-guide": {
+   "title": "Lowaltitudeflight/local-llm-tuning-guide",
+   "date": "2026-10-21",
+   "tokens": [
+    "guide",
+    "llm",
+    "local",
+    "lowaltitudeflight",
+    "tuning"
+   ],
+   "source": "github",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://huggingface.co/papers/2610.19005": {
+   "title": "CyberArena: Benchmarking AI Agents in Live Symmetric Attack-and-Defense Combat",
+   "date": "2026-10-21",
+   "tokens": [
+    "agents",
+    "ai",
+    "attack",
+    "benchmarking",
+    "combat",
+    "cyberarena",
+    "defense",
+    "live",
+    "symmetric"
+   ],
+   "source": "paper",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions": {
+   "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+   "date": "2026-10-21",
+   "tokens": [
+    "dont",
+    "help",
+    "hid",
+    "instructions",
+    "llm",
+    "pages",
+    "recommend",
+    "regulator",
+    "whatsapp"
+   ],
+   "source": "hackernews",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://github.com/alchaincyf/huashu-art-motion": {
+   "title": "alchaincyf/huashu-art-motion",
+   "date": "2026-10-21",
+   "tokens": [
+    "alchaincyf",
+    "art",
+    "huashu",
+    "motion"
+   ],
+   "source": "github",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://www.youtube.com/watch?v=TVhhmhvCovg": {
+   "title": "Let Your AI Agent Do ITS OWN Harness Engineering (Here's How)",
+   "date": "2026-10-21",
+   "tokens": [
+    "agent",
+    "ai",
+    "do",
+    "engineering",
+    "harness",
+    "here",
+    "let",
+    "own"
+   ],
+   "source": "youtube",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://www.marktechpost.com/2026/10/20/exa-3-0-search-api-lite/": {
+   "title": "Exa 3.0 Search API Tops Perplexity, Brave and Parallel on 8 Benchmarks",
+   "date": "2026-10-21",
+   "tokens": [
+    "api",
+    "benchmarks",
+    "brave",
+    "exa",
+    "parallel",
+    "perplexity",
+    "search",
+    "tops"
+   ],
+   "source": "blog",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://www.youtube.com/watch?v=bEO_QeJU7U0": {
+   "title": "Do Diffusion LLMs Scale? Testing Mercury 3 + Decide",
+   "date": "2026-10-21",
+   "tokens": [
+    "decide",
+    "diffusion",
+    "do",
+    "llms",
+    "mercury",
+    "scale",
+    "testing"
+   ],
+   "source": "youtube",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://www.marktechpost.com/2026/10/19/inception-mercury-3-diffusion-llm/": {
+   "title": "Inception Releases Mercury 3 Diffusion LLM at 1,068 Tokens per Second",
+   "date": "2026-10-21",
+   "tokens": [
+    "068",
+    "diffusion",
+    "inception",
+    "llm",
+    "mercury",
+    "per",
+    "releases",
+    "second",
+    "tokens"
+   ],
+   "source": "blog",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://aiera.com.cn/2026/10/20/other/admin/119614/%e5%bd%93coding-agent%e5%bc%80%e5%a7%8b%e5%8a%a8%e6%80%81%e5%b9%b6%e8%a1%8c%ef%bc%8c%e8%bd%af%e4%bb%b6%e5%bc%80%e5%8f%91%e5%8f%98%e5%be%97%e6%9b%b4%e5%a5%bd%e4%ba%86%e5%90%97%ef%bc%9f/": {
+   "title": "当Coding Agent开始动态并行，软件开发变得更好了吗？",
+   "date": "2026-10-21",
+   "tokens": [
+    "agent开始动态并行",
+    "当coding",
+    "软件开发变得更好了吗"
+   ],
+   "source": "blog",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://www.youtube.com/watch?v=DQHtmW9ZlIs": {
+   "title": "Cooking with Codex: Ep. 1",
+   "date": "2026-10-21",
+   "tokens": [
+    "codex",
+    "cooking",
+    "ep"
+   ],
+   "source": "youtube",
+   "summary_zh": "",
+   "why_zh": ""
   }
  },
- "updated": "2026-10-19T16:36:00.018128+00:00"
+ "updated": "2026-10-20T16:27:03.100286+00:00"
 }
