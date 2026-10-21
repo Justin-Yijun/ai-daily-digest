@@ -1,0 +1,619 @@
+{
+ "date": "2026-10-22",
+ "generated": "2026-10-22 00:43",
+ "source_count": {
+  "github": 76,
+  "youtube": 40,
+  "blog": 83,
+  "paper": 24,
+  "hackernews": 10
+ },
+ "failures": {},
+ "failure_errors": {},
+ "items": [
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.CL",
+   "title": "AutoTerm-SST: Adaptive Terminology Memory with Zero Session-Time Setup for Streaming Speech Translation",
+   "link": "https://arxiv.org/abs/2610.26865",
+   "dt": "2026-10-21T00:00:00-04:00",
+   "summary": "arXiv:2610.26865v1 Announce Type: new Abstract: Retrieval-augmented speech translation improves rare terminology, but systems such as RASST still assume that users provide a glossary before each session. That assumption is inconvenient for live talks, while merging every domain into one growing glossary eventually places too many irrelevant terms in the same retrieval and prompt competition. We present AutoTerm-SST, an interactive system that removes session-time glossary upload and domain selec",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "prompt_context",
+    "rag",
+    "eval_observability"
+   ],
+   "learn_score": 4.177,
+   "score": 8.354,
+   "tokens": [
+    "adaptive",
+    "autoterm",
+    "memory",
+    "session",
+    "setup",
+    "speech",
+    "sst",
+    "streaming",
+    "terminology",
+    "time",
+    "translation",
+    "zero"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Industrial Agentic AI: LLM-Driven New-Generation Agents for Smart Manufacturing",
+   "link": "https://arxiv.org/abs/2610.26941",
+   "dt": "2026-10-21T00:00:00-04:00",
+   "summary": "arXiv:2610.26941v1 Announce Type: new Abstract: Large language models (LLMs) are enabling agents to move beyond predefined workflows toward autonomous planning and execution, creating new opportunities for smart manufacturing. However, dynamic environments, complex physical constraints, and stringent reliability requirements hinder the direct deployment of general-purpose agents in smart manufacturing. This article presents a systematic overview of LLM-driven industrial agents. First, we analyze",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 3.729,
+   "score": 7.458,
+   "tokens": [
+    "agentic",
+    "agents",
+    "ai",
+    "driven",
+    "generation",
+    "industrial",
+    "llm",
+    "manufacturing",
+    "smart"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training",
+   "link": "https://arxiv.org/abs/2610.26887",
+   "dt": "2026-10-21T00:00:00-04:00",
+   "summary": "arXiv:2610.26887v1 Announce Type: new Abstract: Large language model (LLM) agents are evolving from conversational assistants into Cowork Agents capable of autonomous planning, tool use, and complex task execution. Financial analysis requires these agents to integrate cross-document evidence and perform multistep numerical reasoning, but expert task authoring is costly, while direct LLM synthesis struggles to produce challenging tasks with reliable answers. We introduce Navalia, a framework for ",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "tool_mcp",
+    "agent_architecture"
+   ],
+   "learn_score": 3.58,
+   "score": 7.16,
+   "tokens": [
+    "advancing",
+    "agents",
+    "cowork",
+    "horizon",
+    "long",
+    "navalia",
+    "post",
+    "synthesis",
+    "task",
+    "through",
+    "training",
+    "verifiable"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "pinganbbOvO/ai-companion-kit",
+   "link": "https://github.com/pinganbbOvO/ai-companion-kit",
+   "dt": "2026-10-08T06:41:17+00:00",
+   "summary": "给你的 AI 一副身体，和一点人味 —— 会记事、会看场合的 QQ 陪聊 + 能控制安卓手机的 MCP",
+   "extra": {
+    "stars": 295,
+    "language": "JavaScript",
+    "topics": [
+     "adb",
+     "agent",
+     "ai-companion",
+     "android",
+     "chatbot",
+     "deepseek"
+    ],
+    "created": "2026-10-08",
+    "pushed": "2026-10-21"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 6.093,
+   "tokens": [
+    "ai",
+    "companion",
+    "kit",
+    "pinganbbovo"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "zhu1090093659/dsh-web",
+   "link": "https://github.com/zhu1090093659/dsh-web",
+   "dt": "2026-08-12T05:15:20+00:00",
+   "summary": "DeepSeek Harness (DSH) Web 插件聚合生态 · 万物皆插件，通过创意工坊分发｜｜DeepSeek Harness (DSH) Web Plugin Aggregation Ecosystem · Everything is a plugin, distributed via the Creative Workshop",
+   "extra": {
+    "stars": 9242,
+    "language": "TypeScript",
+    "topics": [
+     "cordis",
+     "deepseek-harness",
+     "dsh",
+     "dsh-plugin",
+     "dsh-web",
+     "dsh-web-ui"
+    ],
+    "created": "2026-08-12",
+    "pushed": "2026-10-21"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.239,
+   "score": 4.956,
+   "tokens": [
+    "dsh",
+    "web",
+    "zhu1090093659"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "wh000wh000/awesome-jev-live",
+   "link": "https://github.com/wh000wh000/awesome-jev-live",
+   "dt": "2026-09-18T13:37:03+00:00",
+   "summary": "Awesome Jev — evidence-graded index of TypeSafe System One: SDKs, MCP tools, agents, apps and open models. 20 languages, rebuilt every 2 hours.",
+   "extra": {
+    "stars": 383,
+    "language": "Python",
+    "topics": [
+     "ai-agents",
+     "artificial-intelligence",
+     "awesome",
+     "awesome-jev",
+     "awesome-list",
+     "calibration"
+    ],
+    "created": "2026-09-18",
+    "pushed": "2026-10-21"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.239,
+   "score": 4.44,
+   "tokens": [
+    "awesome",
+    "jev",
+    "live",
+    "wh000wh000"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "respanai/respan-gateway",
+   "link": "https://github.com/respanai/respan-gateway",
+   "dt": "2026-09-25T03:58:19+00:00",
+   "summary": "One endpoint for every LLM vendor. Any SDK, any model, any tool. One Rust binary.",
+   "extra": {
+    "stars": 113,
+    "language": "Rust",
+    "topics": [
+     "ai-agents",
+     "ai-gateway",
+     "anthropic",
+     "gemini",
+     "hacktoberfest",
+     "llm"
+    ],
+    "created": "2026-09-25",
+    "pushed": "2026-10-21"
+   },
+   "skills": [
+    "training_serving"
+   ],
+   "learn_score": 1.3,
+   "score": 3.969,
+   "tokens": [
+    "gateway",
+    "respan",
+    "respanai"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Publish fake stats, get cited in LLMs",
+   "link": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
+   "dt": "2026-10-20T13:06:22+00:00",
+   "summary": "",
+   "extra": {
+    "points": 353,
+    "comments": 201,
+    "hn_link": "https://news.ycombinator.com/item?id=50165801"
+   },
+   "skills": [],
+   "learn_score": 1.0,
+   "score": 3.548,
+   "tokens": [
+    "cited",
+    "fake",
+    "get",
+    "llms",
+    "publish",
+    "stats"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "blog",
+   "source_label": "HuggingFace 博客",
+   "title": "NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability",
+   "link": "https://huggingface.co/blog/nvidia/kumo-forecast",
+   "dt": "2026-10-21T12:51:24+00:00",
+   "summary": "",
+   "extra": {},
+   "skills": [
+    "rag",
+    "eval_observability"
+   ],
+   "learn_score": 2.341,
+   "score": 2.341,
+   "tokens": [
+    "combines",
+    "forecast",
+    "historical",
+    "interpretability",
+    "kumo",
+    "nvidia",
+    "pattern",
+    "pretrained",
+    "representations",
+    "retrieval",
+    "series",
+    "time"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "blog",
+   "source_label": "Latent Space",
+   "title": "Claude Mods: Flipping the Harness Inside Out",
+   "link": "https://www.latent.space/p/claude-mods",
+   "dt": "2026-10-21T13:04:19+00:00",
+   "summary": "Claude Mods is an early form of the Attention Interface. It flips the agent harness paradigm from the harness facing the machine, to the harness facing the human.",
+   "extra": {},
+   "skills": [
+    "agent_architecture",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.341,
+   "score": 2.341,
+   "tokens": [
+    "claude",
+    "flipping",
+    "harness",
+    "inside",
+    "mods"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Cole Medin",
+   "title": "Prompt Injection Is Just the Start of AI Agent Security (Here's What You Need)",
+   "link": "https://www.youtube.com/shorts/hLoyhm1dHlM",
+   "dt": "2026-10-20T18:00:17+00:00",
+   "summary": "Learn more about agent security here: https://fandf.co/4i1Qs4u My second brain helps me run my entire business, and that means giving it access to a lot of my systems and data, so I check everything it pulls in and keep its access limited. That works for one agent. A company has agents running across cloud platforms and employee devices, and IT has to know which ones exist, who owns them, and what they can reach. Microsoft is expanding Project Perception, building on Agent 365, to secure AI agen…",
+   "extra": {
+    "channel": "Cole Medin",
+    "video_id": ""
+   },
+   "skills": [
+    "prompt_context"
+   ],
+   "learn_score": 1.53,
+   "score": 1.53,
+   "tokens": [
+    "agent",
+    "ai",
+    "here",
+    "injection",
+    "just",
+    "need",
+    "prompt",
+    "security",
+    "start"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "blog",
+   "source_label": "Latent Space",
+   "title": "[AINews] DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback",
+   "link": "https://www.latent.space/p/ainews-deepseek-deepinfer-open-source",
+   "dt": "2026-10-21T06:54:09+00:00",
+   "summary": "An open source “bomb” drops from China",
+   "extra": {},
+   "skills": [
+    "training_serving"
+   ],
+   "learn_score": 1.445,
+   "score": 1.445,
+   "tokens": [
+    "155t",
+    "22m",
+    "80",
+    "81",
+    "ainews",
+    "cluster",
+    "day",
+    "deepinfer",
+    "deepseek",
+    "inference",
+    "making",
+    "margin",
+    "open",
+    "payback",
+    "running",
+    "sota",
+    "source",
+    "toks"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "Build a Better Shopping Experience with OpenAI | Shopping Agent Demo",
+   "link": "https://www.youtube.com/watch?v=8n-SXxRIrm8",
+   "dt": "2026-10-20T22:57:52+00:00",
+   "summary": "See how an AI shopping agent can turn a room photo into a personalized shopping experience—from finding the right products to updating an order. In this demo for fictional home goods retailer Vesper & Alder, a shopper uses voice and images to create a cozy reading nook. The agent recommends products, generates a preview of the room, adjusts selections to fit a $250 budget, and suggests a complementary throw blanket. After checkout, it helps switch the order from store pickup to home delivery—all…",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": "8n-SXxRIrm8"
+   },
+   "skills": [],
+   "learn_score": 0.9,
+   "score": 0.9,
+   "tokens": [
+    "agent",
+    "better",
+    "build",
+    "demo",
+    "experience",
+    "openai",
+    "shopping"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "You need a better headshot.",
+   "link": "https://www.youtube.com/shorts/v45XAMqH7pE",
+   "dt": "2026-10-20T13:00:34+00:00",
+   "summary": "THIS JUST IN: You need a better headshot. Create yours now on ChatGPT Images.",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": ""
+   },
+   "skills": [],
+   "learn_score": 0.9,
+   "score": 0.9,
+   "tokens": [
+    "better",
+    "headshot",
+    "need"
+   ],
+   "flag": "new"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "lemomo-ai/lemo-opuscar",
+   "link": "https://github.com/lemomo-ai/lemo-opuscar",
+   "dt": "2026-09-26T10:10:41+00:00",
+   "summary": "Claude Code skill for short films with no video model: 51 film styles, each a style prompt plus a demo film made entirely in code by Claude Opus 5.5 (incl. OPUSCAR 98 and the new Evidence Films). By Lemomo. · Opus5.5 x 51 种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南（新增「实证影像」）",
+   "extra": {
+    "stars": 4802,
+    "language": "JavaScript",
+    "topics": [
+     "agent-skills",
+     "ai-agents",
+     "ai-short-film",
+     "ai-video",
+     "animation",
+     "canvas"
+    ],
+    "created": "2026-09-26",
+    "pushed": "2026-10-19"
+   },
+   "skills": [
+    "prompt_context"
+   ],
+   "learn_score": 2.195,
+   "score": 8.78,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-21 推荐过",
+   "summary_zh": "Claude Opus 5.5 生成 43 种电影风格的纯代码短片，附风格提示词和导演指南。",
+   "why_zh": "展示大模型直接输出可运行代码实现多风格视觉内容，为程序化创作提供新范式。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "amitshekhariitbhu/ai-engineering-course",
+   "link": "https://github.com/amitshekhariitbhu/ai-engineering-course",
+   "dt": "2026-09-23T08:04:42+00:00",
+   "summary": "AI Engineering Course - A free and complete AI Engineering Course to learn AI Engineering step by step - from Machine Learning, Neural Networks, and Transformers to LLMs, Fine-Tuning, RAG, AI Agents, LLM Inference, Evaluation, AI Safety, and AI System Design.",
+   "extra": {
+    "stars": 546,
+    "language": "Markdown",
+    "topics": [
+     "ai-course",
+     "ai-engineering",
+     "ai-engineering-course",
+     "ai-engineering-curriculum",
+     "large-language-models"
+    ],
+    "created": "2026-09-23",
+    "pushed": "2026-10-21"
+   },
+   "skills": [
+    "rag",
+    "eval_observability",
+    "training_serving",
+    "llm_fundamentals",
+    "system_design"
+   ],
+   "learn_score": 2.107,
+   "score": 7.874,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-21 推荐过"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Fazmin/AILearningGuide",
+   "link": "https://github.com/Fazmin/AILearningGuide",
+   "dt": "2026-10-05T02:29:23+00:00",
+   "summary": "Interactive desktop app with 51 labs covering ML fundamentals, transformers, RAG, agents, fine-tuning and quantization and more.",
+   "extra": {
+    "stars": 220,
+    "language": "TypeScript",
+    "topics": [
+     "ai",
+     "ai-education",
+     "deep-learning",
+     "educational",
+     "educational-resources",
+     "educational-tool"
+    ],
+    "created": "2026-10-05",
+    "pushed": "2026-10-21"
+   },
+   "skills": [
+    "rag",
+    "training_serving",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.276,
+   "score": 7.607,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-21 推荐过",
+   "summary_zh": "提供交互式桌面应用，包含51个实验涵盖机器学习基础、Transformer、RAG、Agent、微调与量化等内容。",
+   "why_zh": "可学习动手实验的组织方式，掌握从基础到高级模型的全流程实践，适合面试中展示系统化学习能力。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "amitshekhariitbhu/ai-system-design",
+   "link": "https://github.com/amitshekhariitbhu/ai-system-design",
+   "dt": "2026-09-25T04:50:06+00:00",
+   "summary": "AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
+   "extra": {
+    "stars": 732,
+    "language": "Markdown",
+    "topics": [
+     "ai",
+     "ai-agents",
+     "ai-engineering",
+     "ai-system",
+     "ai-system-design",
+     "ai-systems"
+    ],
+    "created": "2026-09-25",
+    "pushed": "2026-10-21"
+   },
+   "skills": [
+    "rag",
+    "system_design"
+   ],
+   "learn_score": 1.951,
+   "score": 7.54,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-21 推荐过",
+   "summary_zh": "教程展示如何逐步设计基于LLM、RAG和AI Agent的AI系统。",
+   "why_zh": "为工程师提供系统化的LLM应用架构指导，便于快速落地复杂AI产品。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "tangency-labs/solidcraft",
+   "link": "https://github.com/tangency-labs/solidcraft",
+   "dt": "2026-10-07T18:57:48+00:00",
+   "summary": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+   "extra": {
+    "stars": 8726,
+    "language": "Rust",
+    "topics": [
+     "3d-modeling",
+     "brep",
+     "cad",
+     "egui",
+     "mcp",
+     "parametric-cad"
+    ],
+    "created": "2026-10-07",
+    "pushed": "2026-10-21"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-21 推荐过",
+   "summary_zh": "SolidCraft 是用纯 Rust 构建的开源参数化3D CAD 应用，支持桌面、网页及MCP自动化。",
+   "why_zh": "演示Rust在复杂图形系统中的工程实践，可参考高性能跨平台CAD开发。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "rehan-remade/universal-modder",
+   "link": "https://github.com/rehan-remade/universal-modder",
+   "dt": "2026-09-30T05:00:35+00:00",
+   "summary": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
+   "extra": {
+    "stars": 8611,
+    "language": "Python",
+    "topics": [
+     "age-of-empires",
+     "claude-code",
+     "claude-code-plugin",
+     "fal",
+     "game-assets",
+     "game-modding"
+    ],
+    "created": "2026-09-30",
+    "pushed": "2026-10-21"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-21 推荐过",
+   "summary_zh": "使用 Claude Code 及 fal MCP 进行游戏逆向、资产生成、测试等全流程 MOD 制作。",
+   "why_zh": "表明大模型可直接参与游戏逆向与内容创作，为工程师提供新范式。"
+  }
+ ]
+}

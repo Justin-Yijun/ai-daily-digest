@@ -23,7 +23,7 @@
   },
   "https://github.com/rehan-remade/universal-modder": {
    "title": "rehan-remade/universal-modder",
-   "date": "2026-10-21",
+   "date": "2026-10-22",
    "tokens": [],
    "source": "github",
    "summary_zh": "使用 Claude Code 及 fal MCP 进行游戏逆向、资产生成、测试等全流程 MOD 制作。",
@@ -190,7 +190,7 @@
   },
   "https://github.com/amitshekhariitbhu/ai-engineering-course": {
    "title": "amitshekhariitbhu/ai-engineering-course",
-   "date": "2026-10-21",
+   "date": "2026-10-22",
    "tokens": [],
    "source": "github",
    "summary_zh": "",
@@ -1223,7 +1223,7 @@
   },
   "https://github.com/lemomo-ai/lemo-opuscar": {
    "title": "lemomo-ai/lemo-opuscar",
-   "date": "2026-10-21",
+   "date": "2026-10-22",
    "tokens": [],
    "source": "github",
    "summary_zh": "Claude Opus 5.5 生成 43 种电影风格的纯代码短片，附风格提示词和导演指南。",
@@ -1722,7 +1722,7 @@
   },
   "https://github.com/amitshekhariitbhu/ai-system-design": {
    "title": "amitshekhariitbhu/ai-system-design",
-   "date": "2026-10-21",
+   "date": "2026-10-22",
    "tokens": [],
    "source": "github",
    "summary_zh": "教程展示如何逐步设计基于LLM、RAG和AI Agent的AI系统。",
@@ -2841,7 +2841,7 @@
   },
   "https://github.com/Fazmin/AILearningGuide": {
    "title": "Fazmin/AILearningGuide",
-   "date": "2026-10-21",
+   "date": "2026-10-22",
    "tokens": [],
    "source": "github",
    "summary_zh": "提供交互式桌面应用，包含51个实验涵盖机器学习基础、Transformer、RAG、Agent、微调与量化等内容。",
@@ -3296,7 +3296,7 @@
   },
   "https://github.com/tangency-labs/solidcraft": {
    "title": "tangency-labs/solidcraft",
-   "date": "2026-10-21",
+   "date": "2026-10-22",
    "tokens": [],
    "source": "github",
    "summary_zh": "SolidCraft 是用纯 Rust 构建的开源参数化3D CAD 应用，支持桌面、网页及MCP自动化。",
@@ -4094,7 +4094,240 @@
    "source": "youtube",
    "summary_zh": "",
    "why_zh": ""
+  },
+  "https://arxiv.org/abs/2610.26865": {
+   "title": "AutoTerm-SST: Adaptive Terminology Memory with Zero Session-Time Setup for Streaming Speech Translation",
+   "date": "2026-10-22",
+   "tokens": [
+    "adaptive",
+    "autoterm",
+    "memory",
+    "session",
+    "setup",
+    "speech",
+    "sst",
+    "streaming",
+    "terminology",
+    "time",
+    "translation",
+    "zero"
+   ],
+   "source": "paper",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://arxiv.org/abs/2610.26941": {
+   "title": "Industrial Agentic AI: LLM-Driven New-Generation Agents for Smart Manufacturing",
+   "date": "2026-10-22",
+   "tokens": [
+    "agentic",
+    "agents",
+    "ai",
+    "driven",
+    "generation",
+    "industrial",
+    "llm",
+    "manufacturing",
+    "smart"
+   ],
+   "source": "paper",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://arxiv.org/abs/2610.26887": {
+   "title": "Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training",
+   "date": "2026-10-22",
+   "tokens": [
+    "advancing",
+    "agents",
+    "cowork",
+    "horizon",
+    "long",
+    "navalia",
+    "post",
+    "synthesis",
+    "task",
+    "through",
+    "training",
+    "verifiable"
+   ],
+   "source": "paper",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://github.com/pinganbbOvO/ai-companion-kit": {
+   "title": "pinganbbOvO/ai-companion-kit",
+   "date": "2026-10-22",
+   "tokens": [
+    "ai",
+    "companion",
+    "kit",
+    "pinganbbovo"
+   ],
+   "source": "github",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://github.com/zhu1090093659/dsh-web": {
+   "title": "zhu1090093659/dsh-web",
+   "date": "2026-10-22",
+   "tokens": [
+    "dsh",
+    "web",
+    "zhu1090093659"
+   ],
+   "source": "github",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://github.com/wh000wh000/awesome-jev-live": {
+   "title": "wh000wh000/awesome-jev-live",
+   "date": "2026-10-22",
+   "tokens": [
+    "awesome",
+    "jev",
+    "live",
+    "wh000wh000"
+   ],
+   "source": "github",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://github.com/respanai/respan-gateway": {
+   "title": "respanai/respan-gateway",
+   "date": "2026-10-22",
+   "tokens": [
+    "gateway",
+    "respan",
+    "respanai"
+   ],
+   "source": "github",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web": {
+   "title": "Publish fake stats, get cited in LLMs",
+   "date": "2026-10-22",
+   "tokens": [
+    "cited",
+    "fake",
+    "get",
+    "llms",
+    "publish",
+    "stats"
+   ],
+   "source": "hackernews",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://huggingface.co/blog/nvidia/kumo-forecast": {
+   "title": "NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability",
+   "date": "2026-10-22",
+   "tokens": [
+    "combines",
+    "forecast",
+    "historical",
+    "interpretability",
+    "kumo",
+    "nvidia",
+    "pattern",
+    "pretrained",
+    "representations",
+    "retrieval",
+    "series",
+    "time"
+   ],
+   "source": "blog",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://www.latent.space/p/claude-mods": {
+   "title": "Claude Mods: Flipping the Harness Inside Out",
+   "date": "2026-10-22",
+   "tokens": [
+    "claude",
+    "flipping",
+    "harness",
+    "inside",
+    "mods"
+   ],
+   "source": "blog",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://www.youtube.com/shorts/hLoyhm1dHlM": {
+   "title": "Prompt Injection Is Just the Start of AI Agent Security (Here's What You Need)",
+   "date": "2026-10-22",
+   "tokens": [
+    "agent",
+    "ai",
+    "here",
+    "injection",
+    "just",
+    "need",
+    "prompt",
+    "security",
+    "start"
+   ],
+   "source": "youtube",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://www.latent.space/p/ainews-deepseek-deepinfer-open-source": {
+   "title": "[AINews] DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback",
+   "date": "2026-10-22",
+   "tokens": [
+    "155t",
+    "22m",
+    "80",
+    "81",
+    "ainews",
+    "cluster",
+    "day",
+    "deepinfer",
+    "deepseek",
+    "inference",
+    "making",
+    "margin",
+    "open",
+    "payback",
+    "running",
+    "sota",
+    "source",
+    "toks"
+   ],
+   "source": "blog",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://www.youtube.com/watch?v=8n-SXxRIrm8": {
+   "title": "Build a Better Shopping Experience with OpenAI | Shopping Agent Demo",
+   "date": "2026-10-22",
+   "tokens": [
+    "agent",
+    "better",
+    "build",
+    "demo",
+    "experience",
+    "openai",
+    "shopping"
+   ],
+   "source": "youtube",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://www.youtube.com/shorts/v45XAMqH7pE": {
+   "title": "You need a better headshot.",
+   "date": "2026-10-22",
+   "tokens": [
+    "better",
+    "headshot",
+    "need"
+   ],
+   "source": "youtube",
+   "summary_zh": "",
+   "why_zh": ""
   }
  },
- "updated": "2026-10-20T16:27:03.100286+00:00"
+ "updated": "2026-10-21T16:43:57.488436+00:00"
 }
