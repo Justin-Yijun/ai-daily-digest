@@ -23,7 +23,7 @@
   },
   "https://github.com/rehan-remade/universal-modder": {
    "title": "rehan-remade/universal-modder",
-   "date": "2026-10-22",
+   "date": "2026-10-23",
    "tokens": [],
    "source": "github",
    "summary_zh": "使用 Claude Code 及 fal MCP 进行游戏逆向、资产生成、测试等全流程 MOD 制作。",
@@ -190,7 +190,7 @@
   },
   "https://github.com/amitshekhariitbhu/ai-engineering-course": {
    "title": "amitshekhariitbhu/ai-engineering-course",
-   "date": "2026-10-22",
+   "date": "2026-10-23",
    "tokens": [],
    "source": "github",
    "summary_zh": "",
@@ -1223,7 +1223,7 @@
   },
   "https://github.com/lemomo-ai/lemo-opuscar": {
    "title": "lemomo-ai/lemo-opuscar",
-   "date": "2026-10-22",
+   "date": "2026-10-23",
    "tokens": [],
    "source": "github",
    "summary_zh": "Claude Opus 5.5 生成 43 种电影风格的纯代码短片，附风格提示词和导演指南。",
@@ -1722,7 +1722,7 @@
   },
   "https://github.com/amitshekhariitbhu/ai-system-design": {
    "title": "amitshekhariitbhu/ai-system-design",
-   "date": "2026-10-22",
+   "date": "2026-10-23",
    "tokens": [],
    "source": "github",
    "summary_zh": "教程展示如何逐步设计基于LLM、RAG和AI Agent的AI系统。",
@@ -4118,39 +4118,16 @@
   },
   "https://arxiv.org/abs/2610.26941": {
    "title": "Industrial Agentic AI: LLM-Driven New-Generation Agents for Smart Manufacturing",
-   "date": "2026-10-22",
-   "tokens": [
-    "agentic",
-    "agents",
-    "ai",
-    "driven",
-    "generation",
-    "industrial",
-    "llm",
-    "manufacturing",
-    "smart"
-   ],
+   "date": "2026-10-23",
+   "tokens": [],
    "source": "paper",
    "summary_zh": "",
    "why_zh": ""
   },
   "https://arxiv.org/abs/2610.26887": {
    "title": "Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training",
-   "date": "2026-10-22",
-   "tokens": [
-    "advancing",
-    "agents",
-    "cowork",
-    "horizon",
-    "long",
-    "navalia",
-    "post",
-    "synthesis",
-    "task",
-    "through",
-    "training",
-    "verifiable"
-   ],
+   "date": "2026-10-23",
+   "tokens": [],
    "source": "paper",
    "summary_zh": "",
    "why_zh": ""
@@ -4327,7 +4304,239 @@
    "source": "youtube",
    "summary_zh": "",
    "why_zh": ""
+  },
+  "https://huggingface.co/papers/2610.26659": {
+   "title": "SpatialScout: Can VLM Agents Actively Explore and Map 3D Scenes?",
+   "date": "2026-10-23",
+   "tokens": [
+    "3d",
+    "actively",
+    "agents",
+    "explore",
+    "map",
+    "scenes",
+    "spatialscout",
+    "vlm"
+   ],
+   "source": "paper",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://huggingface.co/papers/2610.29722": {
+   "title": "Retrieval Augmented Generation Compositionality",
+   "date": "2026-10-23",
+   "tokens": [
+    "augmented",
+    "compositionality",
+    "generation",
+    "retrieval"
+   ],
+   "source": "paper",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://github.com/JEen-wang/Adaptive-rag": {
+   "title": "JEen-wang/Adaptive-rag",
+   "date": "2026-10-23",
+   "tokens": [
+    "adaptive",
+    "jeen",
+    "rag",
+    "wang"
+   ],
+   "source": "github",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://github.com/imsai-sh/awesome-deepseek-harness-plugins": {
+   "title": "imsai-sh/awesome-deepseek-harness-plugins",
+   "date": "2026-10-23",
+   "tokens": [
+    "awesome",
+    "deepseek",
+    "harness",
+    "imsai",
+    "plugins",
+    "sh"
+   ],
+   "source": "github",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://github.com/bgts-ai-org/bgts-context-engine": {
+   "title": "bgts-ai-org/bgts-context-engine",
+   "date": "2026-10-23",
+   "tokens": [
+    "ai",
+    "bgts",
+    "context",
+    "engine",
+    "org"
+   ],
+   "source": "github",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://claude.com/product/claude-duet": {
+   "title": "Claude Duet",
+   "date": "2026-10-23",
+   "tokens": [
+    "claude",
+    "duet"
+   ],
+   "source": "hackernews",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://github.com/AFK-surf/Comma": {
+   "title": "AFK-surf/Comma",
+   "date": "2026-10-23",
+   "tokens": [
+    "afk",
+    "comma",
+    "surf"
+   ],
+   "source": "github",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/": {
+   "title": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
+   "date": "2026-10-23",
+   "tokens": [
+    "agents",
+    "coordination",
+    "global",
+    "patch",
+    "planet",
+    "response",
+    "uncover",
+    "vulnerabilities"
+   ],
+   "source": "hackernews",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://www.youtube.com/watch?v=Ud5RsBegyfw": {
+   "title": "How Deep Agents Manages Context: Offloading and Summarization",
+   "date": "2026-10-23",
+   "tokens": [
+    "agents",
+    "context",
+    "deep",
+    "manages",
+    "offloading",
+    "summarization"
+   ],
+   "source": "youtube",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://www.marktechpost.com/2026/10/21/cactus-whistle-vs-whisper-base-speech-to-text-benchmark-cpu-guide/": {
+   "title": "A Coding Guide to Cactus Whistle: Does a 16.9 MB Speech Model Hold Up Against Whisper Base? Word Error Rate, Speed, Streaming, Timestamps, Keywords, and Speech-to-Tool Calls on a CPU",
+   "date": "2026-10-23",
+   "tokens": [
+    "16",
+    "against",
+    "base",
+    "cactus",
+    "calls",
+    "coding",
+    "cpu",
+    "does",
+    "error",
+    "guide",
+    "hold",
+    "keywords",
+    "mb",
+    "model",
+    "rate",
+    "speech",
+    "speed",
+    "streaming",
+    "timestamps",
+    "tool",
+    "up",
+    "whisper",
+    "whistle",
+    "word"
+   ],
+   "source": "blog",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://www.marktechpost.com/2026/10/21/nvidia-nsight-python-tutorial-how-to-profile-gpu-kernels/": {
+   "title": "NVIDIA Nsight Python Tutorial: How to Profile GPU Kernels",
+   "date": "2026-10-23",
+   "tokens": [
+    "gpu",
+    "kernels",
+    "nsight",
+    "nvidia",
+    "profile",
+    "python",
+    "tutorial"
+   ],
+   "source": "blog",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/": {
+   "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
+   "date": "2026-10-23",
+   "tokens": [
+    "cosmos",
+    "deploy",
+    "evaluate",
+    "models",
+    "nvidia",
+    "opens",
+    "tools",
+    "train",
+    "world"
+   ],
+   "source": "blog",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://www.youtube.com/watch?v=zj1TJlP7c9Y": {
+   "title": "AI Makes Us WAY Faster but Fries Our Focus (Here's What I Do About It)",
+   "date": "2026-10-23",
+   "tokens": [
+    "about",
+    "ai",
+    "do",
+    "faster",
+    "focus",
+    "fries",
+    "here",
+    "makes",
+    "our",
+    "us",
+    "way"
+   ],
+   "source": "youtube",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://www.youtube.com/watch?v=20IRGgQwPkc": {
+   "title": "V7 cuts costs 78% while boosting accuracy with GPT‑5.6 Luna",
+   "date": "2026-10-23",
+   "tokens": [
+    "78",
+    "accuracy",
+    "boosting",
+    "costs",
+    "cuts",
+    "gpt",
+    "luna",
+    "v7",
+    "while"
+   ],
+   "source": "youtube",
+   "summary_zh": "",
+   "why_zh": ""
   }
  },
- "updated": "2026-10-21T16:43:57.488436+00:00"
+ "updated": "2026-10-22T16:44:30.205469+00:00"
 }

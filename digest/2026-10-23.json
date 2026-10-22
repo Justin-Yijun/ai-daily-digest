@@ -1,0 +1,592 @@
+{
+ "date": "2026-10-23",
+ "generated": "2026-10-23 00:44",
+ "source_count": {
+  "github": 50,
+  "youtube": 39,
+  "blog": 83,
+  "paper": 24,
+  "hackernews": 10
+ },
+ "failures": {},
+ "failure_errors": {},
+ "items": [
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "SpatialScout: Can VLM Agents Actively Explore and Map 3D Scenes?",
+   "link": "https://huggingface.co/papers/2610.26659",
+   "dt": "2026-10-18T20:00:00+00:00",
+   "summary": "Spatial intelligence requires agents to actively acquire visual evidence and integrate observations into a coherent representation of the three-dimensional world. Yet spatial question answering offers limited evidence of whether models can construct accurate metric maps through autonomous exploration. We introduce SpatialScout, a benchmark for evaluating vision-language model (VLM) agents on active object-level 3D mapping. SpatialScout comprises 80 diverse indoor scenes containing 3,140 target o",
+   "extra": {
+    "upvotes": 128,
+    "arxiv": "https://arxiv.org/abs/2610.26659"
+   },
+   "skills": [
+    "eval_observability",
+    "training_serving"
+   ],
+   "learn_score": 2.485,
+   "score": 7.455,
+   "tokens": [
+    "3d",
+    "actively",
+    "agents",
+    "explore",
+    "map",
+    "scenes",
+    "spatialscout",
+    "vlm"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Retrieval Augmented Generation Compositionality",
+   "link": "https://huggingface.co/papers/2610.29722",
+   "dt": "2026-10-20T20:00:00+00:00",
+   "summary": "Retrieval Augmented Generation (RAG) grounds large language models in external knowledge. Modern pipelines combine embedding, chunking, retrieval, reranking, query augmentation, context compression, and agentic verification, yet these techniques are typically evaluated one at a time. It remains unclear whether their isolated gains survive composition, whether retrieval quality and answer faithfulness favor the same design choices, and whether conclusions from small corpora hold at large scale. W",
+   "extra": {
+    "upvotes": 22,
+    "arxiv": "https://arxiv.org/abs/2610.29722"
+   },
+   "skills": [
+    "rag",
+    "eval_observability"
+   ],
+   "learn_score": 2.616,
+   "score": 6.128,
+   "tokens": [
+    "augmented",
+    "compositionality",
+    "generation",
+    "retrieval"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "JEen-wang/Adaptive-rag",
+   "link": "https://github.com/JEen-wang/Adaptive-rag",
+   "dt": "2026-09-29T08:31:04+00:00",
+   "summary": "按问题复杂度自动分流的电商客服 RAG：简单问题直接回答；复杂问题经过多跳检索并自我纠错；查单、退改通过工具调用完成，且高风险写操作必须先经人工确认。基于 FastAPI 和 LangGraph，混合检索并附带引用，内置离线评测与 Prometheus 指标。涵盖简历写法和项目面试拷打",
+   "extra": {
+    "stars": 136,
+    "language": "Python",
+    "topics": [
+     "adaptive-rag",
+     "llm-agents",
+     "rag",
+     "rag-evaluation",
+     "rag-pipeline",
+     "self-rag"
+    ],
+    "created": "2026-09-29",
+    "pushed": "2026-10-22"
+   },
+   "skills": [
+    "rag",
+    "tool_mcp",
+    "eval_observability"
+   ],
+   "learn_score": 1.821,
+   "score": 5.706,
+   "tokens": [
+    "adaptive",
+    "jeen",
+    "rag",
+    "wang"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "imsai-sh/awesome-deepseek-harness-plugins",
+   "link": "https://github.com/imsai-sh/awesome-deepseek-harness-plugins",
+   "dt": "2026-08-14T05:53:47+00:00",
+   "summary": "DeepSeek Harness plugin store, marketplace and hub — 11,000+ dsh plugins with search, rankings, install commands and a free public API. DeepSeek Harness 插件市场 / 插件商店：自动收集与格式校验，免费搜索 API。deepseek1024.com",
+   "extra": {
+    "stars": 312,
+    "language": "JavaScript",
+    "topics": [
+     "awesome-list",
+     "catalog",
+     "deepseek",
+     "deepseek-harness",
+     "deepseek-harness-plugins",
+     "deepseek1024"
+    ],
+    "created": "2026-08-14",
+    "pushed": "2026-10-22"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.239,
+   "score": 4.329,
+   "tokens": [
+    "awesome",
+    "deepseek",
+    "harness",
+    "imsai",
+    "plugins",
+    "sh"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "bgts-ai-org/bgts-context-engine",
+   "link": "https://github.com/bgts-ai-org/bgts-context-engine",
+   "dt": "2026-09-08T12:39:07+00:00",
+   "summary": "Deterministic code-graph context engine for AI coding agents - PostgreSQL + Apache AGE + pgvector, MCP & REST, no LLM in the loop.",
+   "extra": {
+    "stars": 162,
+    "language": "Python",
+    "topics": [
+     "ai-agents",
+     "apache-age",
+     "ast",
+     "code-graph",
+     "code-search",
+     "codebase-indexing"
+    ],
+    "created": "2026-09-08",
+    "pushed": "2026-10-19"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.239,
+   "score": 3.977,
+   "tokens": [
+    "ai",
+    "bgts",
+    "context",
+    "engine",
+    "org"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Claude Duet",
+   "link": "https://claude.com/product/claude-duet",
+   "dt": "2026-10-21T19:14:01+00:00",
+   "summary": "",
+   "extra": {
+    "points": 509,
+    "comments": 470,
+    "hn_link": "https://news.ycombinator.com/item?id=50186037"
+   },
+   "skills": [],
+   "learn_score": 1.0,
+   "score": 3.707,
+   "tokens": [
+    "claude",
+    "duet"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "AFK-surf/Comma",
+   "link": "https://github.com/AFK-surf/Comma",
+   "dt": "2026-09-30T08:39:30+00:00",
+   "summary": "Best free & open source AI personal assistant. Always-on, proactive, sessionless. Browser, computer use, files, remote control. Compatible with ChatGPT/codex and claude code. Selfhost your open source alternative to Muse, Dots, Instinct and Town. Built with Go/Elixir/Lean.",
+   "extra": {
+    "stars": 329,
+    "language": "Elixir",
+    "topics": [
+     "agent",
+     "elixir-lang",
+     "golang",
+     "personal-ai"
+    ],
+    "created": "2026-09-30",
+    "pushed": "2026-10-20"
+   },
+   "skills": [],
+   "learn_score": 1.033,
+   "score": 3.633,
+   "tokens": [
+    "afk",
+    "comma",
+    "surf"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
+   "link": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+   "dt": "2026-10-21T14:03:43+00:00",
+   "summary": "https://patchtheplanet.org/",
+   "extra": {
+    "points": 260,
+    "comments": 182,
+    "hn_link": "https://news.ycombinator.com/item?id=50181175"
+   },
+   "skills": [],
+   "learn_score": 1.0,
+   "score": 3.415,
+   "tokens": [
+    "agents",
+    "coordination",
+    "global",
+    "patch",
+    "planet",
+    "response",
+    "uncover",
+    "vulnerabilities"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "How Deep Agents Manages Context: Offloading and Summarization",
+   "link": "https://www.youtube.com/watch?v=Ud5RsBegyfw",
+   "dt": "2026-10-21T17:17:18+00:00",
+   "summary": "The longer an agent runs, the more instructions and tool results pile into its context window, and the worse its reasoning tends to get. That's context rot. This video walks through two context engineering techniques the Deep Agents harness ships out of the box: offloading, which keeps large tool results and long messages out of context while saving them to a virtual file system, and summarization, which compacts the conversation once token usage crosses a threshold (85% by default). You'll see …",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": "Ud5RsBegyfw"
+   },
+   "skills": [
+    "prompt_context",
+    "agent_architecture"
+   ],
+   "learn_score": 2.479,
+   "score": 2.479,
+   "tokens": [
+    "agents",
+    "context",
+    "deep",
+    "manages",
+    "offloading",
+    "summarization"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "A Coding Guide to Cactus Whistle: Does a 16.9 MB Speech Model Hold Up Against Whisper Base? Word Error Rate, Speed, Streaming, Timestamps, Keywords, and Speech-to-Tool Calls on a CPU",
+   "link": "https://www.marktechpost.com/2026/10/21/cactus-whistle-vs-whisper-base-speech-to-text-benchmark-cpu-guide/",
+   "dt": "2026-10-22T04:17:37+00:00",
+   "summary": "Explore a comprehensive coding guide benchmarking Cactus Compute's 16.9 MB speech model against Whisper base. Learn about word error rates, CPU speed, streaming latency, and speech-to-tool integration. The post A Coding Guide to Cactus Whistle: Does a 16.9 MB Speech Model Hold Up Against Whisper Base? Word Error Rate, Speed, Streaming, Timestamps, Keywords, and Speech-to-Tool Calls on a CPU appeared first on MarkTechPost .",
+   "extra": {},
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 2.438,
+   "score": 2.438,
+   "tokens": [
+    "16",
+    "against",
+    "base",
+    "cactus",
+    "calls",
+    "coding",
+    "cpu",
+    "does",
+    "error",
+    "guide",
+    "hold",
+    "keywords",
+    "mb",
+    "model",
+    "rate",
+    "speech",
+    "speed",
+    "streaming",
+    "timestamps",
+    "tool",
+    "up",
+    "whisper",
+    "whistle",
+    "word"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "NVIDIA Nsight Python Tutorial: How to Profile GPU Kernels",
+   "link": "https://www.marktechpost.com/2026/10/21/nvidia-nsight-python-tutorial-how-to-profile-gpu-kernels/",
+   "dt": "2026-10-22T03:59:12+00:00",
+   "summary": "Discover NVIDIA Nsight Python, an open-source interface that allows developers to profile GPU kernels, analyze hardware metrics, evaluate cache and clock controls, and measure kernel fusion directly from Python code. The post NVIDIA Nsight Python Tutorial: How to Profile GPU Kernels appeared first on MarkTechPost .",
+   "extra": {},
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 2.438,
+   "score": 2.438,
+   "tokens": [
+    "gpu",
+    "kernels",
+    "nsight",
+    "nvidia",
+    "profile",
+    "python",
+    "tutorial"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "blog",
+   "source_label": "NVIDIA 技术博客",
+   "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
+   "link": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
+   "dt": "2026-10-22T05:00:27+00:00",
+   "summary": "To help developers rapidly build world models, which help physical AI systems understand and simulate the real world, NVIDIA has expanded the Cosmos platform with new training tools, simulation checkpoints and Cosmos Data Factory blueprints. Ranking top five on six different open models leaderboards, the NVIDIA Cosmos platform gives world model builders the frontier open […]",
+   "extra": {},
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.951,
+   "score": 1.951,
+   "tokens": [
+    "cosmos",
+    "deploy",
+    "evaluate",
+    "models",
+    "nvidia",
+    "opens",
+    "tools",
+    "train",
+    "world"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Cole Medin",
+   "title": "AI Makes Us WAY Faster but Fries Our Focus (Here's What I Do About It)",
+   "link": "https://www.youtube.com/watch?v=zj1TJlP7c9Y",
+   "dt": "2026-10-22T00:00:15+00:00",
+   "summary": "Open a Revolut Business account and get a $200 welcome bonus: https://get.revolut.com/Kjth/nn8ax572 AI coding made me faster than I've ever been, and I'd never go back. But I used to sit down and code for four hours straight with music on, and I can't do that anymore. I'm running several agent sessions at once, dictating prompts all day, switching every few minutes, and it gets tiring! So here I get honest about why parallel agents are so draining, why every improvement to my system makes it wor…",
+   "extra": {
+    "channel": "Cole Medin",
+    "video_id": "zj1TJlP7c9Y"
+   },
+   "skills": [
+    "prompt_context"
+   ],
+   "learn_score": 1.53,
+   "score": 1.53,
+   "tokens": [
+    "about",
+    "ai",
+    "do",
+    "faster",
+    "focus",
+    "fries",
+    "here",
+    "makes",
+    "our",
+    "us",
+    "way"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "V7 cuts costs 78% while boosting accuracy with GPT‑5.6 Luna",
+   "link": "https://www.youtube.com/watch?v=20IRGgQwPkc",
+   "dt": "2026-10-21T22:05:10+00:00",
+   "summary": "V7 Go organizes company files into a Context Graph that agents can query to screen investment deals and support insurance underwriting. On V7’s hardest graph-query tests across thousands of documents, GPT-6 Astra reached 89% accuracy. Read the full story: https://openai.com/index/v7/",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": "20IRGgQwPkc"
+   },
+   "skills": [],
+   "learn_score": 0.9,
+   "score": 0.9,
+   "tokens": [
+    "78",
+    "accuracy",
+    "boosting",
+    "costs",
+    "cuts",
+    "gpt",
+    "luna",
+    "v7",
+    "while"
+   ],
+   "flag": "new"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "amitshekhariitbhu/ai-engineering-course",
+   "link": "https://github.com/amitshekhariitbhu/ai-engineering-course",
+   "dt": "2026-09-23T08:04:42+00:00",
+   "summary": "AI Engineering Course - A free and complete AI Engineering Course to learn AI Engineering step by step - from Machine Learning, Neural Networks, and Transformers to LLMs, Fine-Tuning, RAG, AI Agents, LLM Inference, Evaluation, AI Safety, and AI System Design.",
+   "extra": {
+    "stars": 550,
+    "language": "Markdown",
+    "topics": [
+     "ai-course",
+     "ai-engineering",
+     "ai-engineering-course",
+     "ai-engineering-curriculum",
+     "large-language-models"
+    ],
+    "created": "2026-09-23",
+    "pushed": "2026-10-22"
+   },
+   "skills": [
+    "rag",
+    "eval_observability",
+    "training_serving",
+    "llm_fundamentals",
+    "system_design"
+   ],
+   "learn_score": 2.107,
+   "score": 7.881,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-22 推荐过"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "amitshekhariitbhu/ai-system-design",
+   "link": "https://github.com/amitshekhariitbhu/ai-system-design",
+   "dt": "2026-09-25T04:50:06+00:00",
+   "summary": "AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
+   "extra": {
+    "stars": 732,
+    "language": "Markdown",
+    "topics": [
+     "ai",
+     "ai-agents",
+     "ai-engineering",
+     "ai-system",
+     "ai-system-design",
+     "ai-systems"
+    ],
+    "created": "2026-09-25",
+    "pushed": "2026-10-22"
+   },
+   "skills": [
+    "rag",
+    "system_design"
+   ],
+   "learn_score": 1.951,
+   "score": 7.54,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-22 推荐过",
+   "summary_zh": "教程展示如何逐步设计基于LLM、RAG和AI Agent的AI系统。",
+   "why_zh": "为工程师提供系统化的LLM应用架构指导，便于快速落地复杂AI产品。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Industrial Agentic AI: LLM-Driven New-Generation Agents for Smart Manufacturing",
+   "link": "https://arxiv.org/abs/2610.26941",
+   "dt": "2026-10-22T00:00:00-04:00",
+   "summary": "arXiv:2610.26941v1 Announce Type: new Abstract: Large language models (LLMs) are enabling agents to move beyond predefined workflows toward autonomous planning and execution, creating new opportunities for smart manufacturing. However, dynamic environments, complex physical constraints, and stringent reliability requirements hinder the direct deployment of general-purpose agents in smart manufacturing. This article presents a systematic overview of LLM-driven industrial agents. First, we analyze",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 3.729,
+   "score": 7.458,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-22 推荐过"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training",
+   "link": "https://arxiv.org/abs/2610.26887",
+   "dt": "2026-10-22T00:00:00-04:00",
+   "summary": "arXiv:2610.26887v1 Announce Type: new Abstract: Large language model (LLM) agents are evolving from conversational assistants into Cowork Agents capable of autonomous planning, tool use, and complex task execution. Financial analysis requires these agents to integrate cross-document evidence and perform multistep numerical reasoning, but expert task authoring is costly, while direct LLM synthesis struggles to produce challenging tasks with reliable answers. We introduce Navalia, a framework for ",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "tool_mcp",
+    "agent_architecture"
+   ],
+   "learn_score": 3.58,
+   "score": 7.16,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-22 推荐过"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "lemomo-ai/lemo-opuscar",
+   "link": "https://github.com/lemomo-ai/lemo-opuscar",
+   "dt": "2026-09-26T10:10:41+00:00",
+   "summary": "A toolbox of film styles made in code for Claude Code: 59 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：59 种现成风格，也能做出你自己的",
+   "extra": {
+    "stars": 5427,
+    "language": "JavaScript",
+    "topics": [
+     "agent-skills",
+     "ai-agents",
+     "ai-short-film",
+     "ai-video",
+     "animation",
+     "canvas"
+    ],
+    "created": "2026-09-26",
+    "pushed": "2026-10-22"
+   },
+   "skills": [
+    "prompt_context"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-22 推荐过",
+   "summary_zh": "Claude Opus 5.5 生成 43 种电影风格的纯代码短片，附风格提示词和导演指南。",
+   "why_zh": "展示大模型直接输出可运行代码实现多风格视觉内容，为程序化创作提供新范式。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "rehan-remade/universal-modder",
+   "link": "https://github.com/rehan-remade/universal-modder",
+   "dt": "2026-09-30T05:00:35+00:00",
+   "summary": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
+   "extra": {
+    "stars": 8704,
+    "language": "Python",
+    "topics": [
+     "age-of-empires",
+     "claude-code",
+     "claude-code-plugin",
+     "fal",
+     "game-assets",
+     "game-modding"
+    ],
+    "created": "2026-09-30",
+    "pushed": "2026-10-22"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-22 推荐过",
+   "summary_zh": "使用 Claude Code 及 fal MCP 进行游戏逆向、资产生成、测试等全流程 MOD 制作。",
+   "why_zh": "表明大模型可直接参与游戏逆向与内容创作，为工程师提供新范式。"
+  }
+ ]
+}
