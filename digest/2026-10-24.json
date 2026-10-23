@@ -1,0 +1,607 @@
+{
+ "date": "2026-10-24",
+ "generated": "2026-10-24 00:35",
+ "source_count": {
+  "github": 73,
+  "youtube": 39,
+  "blog": 83,
+  "paper": 24,
+  "hackernews": 10
+ },
+ "failures": {},
+ "failure_errors": {},
+ "items": [
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "A Small Model Asks Better: Fine-Tuning Query Clarification for Retrieval-Augmented Generation",
+   "link": "https://arxiv.org/abs/2610.28686",
+   "dt": "2026-10-23T00:00:00-04:00",
+   "summary": "arXiv:2610.28686v1 Announce Type: new Abstract: Query clarification is essential for retrieval-augmented generation (RAG) systems that face ambiguous user queries. We consider multi-turn grounded conversational scenarios where a user query is either ill-formed or ambiguous in the context of the prior dialog or, more interestingly, it may be well-formed but when posed against retrieved documents there are multiple relevant interpretations. The task is to recognize both such cases and then generat",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "rag",
+    "eval_observability",
+    "training_serving"
+   ],
+   "learn_score": 4.177,
+   "score": 8.354,
+   "tokens": [
+    "asks",
+    "augmented",
+    "better",
+    "clarification",
+    "fine",
+    "generation",
+    "model",
+    "query",
+    "retrieval",
+    "small",
+    "tuning"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
+   "link": "https://huggingface.co/papers/2610.30949",
+   "dt": "2026-10-21T20:00:00+00:00",
+   "summary": "We present IQuest-Q1, a sparse Mixture-of-Experts (MoE) agentic foundation model with 320B total parameters (15B activated). IQuest-Q1 is developed through a three-stage process: (1) stable and efficient pre-training, combining Stable SplitNorm, Muon, and muP with a two-stage curriculum whose second stage increases the coding-data mixture, preserving a wide stability margin between safe and optimal learning rates; (2) fine-grained mid-training, expanding the data mixture across domains and forma",
+   "extra": {
+    "upvotes": 53,
+    "arxiv": "https://arxiv.org/abs/2610.30949"
+   },
+   "skills": [
+    "training_serving",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.616,
+   "score": 7.127,
+   "tokens": [
+    "advancing",
+    "agentic",
+    "capabilities",
+    "cli",
+    "foundation",
+    "iquest",
+    "q1",
+    "systems"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Folkbench/folkbench",
+   "link": "https://github.com/Folkbench/folkbench",
+   "dt": "2026-10-02T09:50:45+00:00",
+   "summary": "AI API 中转站评测排行与切换工具：实测可用率、延迟与价格 · Open-source AI API relay benchmark, rankings & switcher for Claude Code / Codex",
+   "extra": {
+    "stars": 2993,
+    "language": "Rust",
+    "topics": [
+     "ai",
+     "api-relay",
+     "api-relay-pricing",
+     "benchmark",
+     "benchmarks",
+     "claude"
+    ],
+    "created": "2026-10-02",
+    "pushed": "2026-10-22"
+   },
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "tokens": [
+    "folkbench"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ollaya-dev/ollaya",
+   "link": "https://github.com/ollaya-dev/ollaya",
+   "dt": "2026-09-23T22:11:15+00:00",
+   "summary": "Jev-compatible API server for open decision models. Ollama for decision models: pull and serve 24 model families (Laya, pplx-decider, Clef, Winnow, Kev...) locally or self-hosted behind /v1/systemone. TypeSafe SDK works by changing one env var. CLI, daemon, desktop app, Docker, MCP server, public bench.",
+   "extra": {
+    "stars": 1386,
+    "language": "Rust",
+    "topics": [
+     "calibration",
+     "decision-model",
+     "decision-models",
+     "inference-server",
+     "jev",
+     "jev-alternative"
+    ],
+    "created": "2026-09-23",
+    "pushed": "2026-10-23"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "tokens": [
+    "dev",
+    "ollaya"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "h9-tec/ai-roadmap-2026",
+   "link": "https://github.com/h9-tec/ai-roadmap-2026",
+   "dt": "2026-10-21T12:23:43+00:00",
+   "summary": "AI Roadmap 2026: a beginner's path through Foundations, LLM Engineering, Agents, Evaluation, and Production, with verified free resources and a mini-project per layer",
+   "extra": {
+    "stars": 133,
+    "language": "",
+    "topics": [
+     "agents",
+     "ai",
+     "ai-engineering",
+     "evaluation",
+     "learning-path",
+     "llm"
+    ],
+    "created": "2026-10-21",
+    "pushed": "2026-10-21"
+   },
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.177,
+   "score": 3.677,
+   "tokens": [
+    "2026",
+    "ai",
+    "h9",
+    "roadmap",
+    "tec"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+   "link": "https://github.com/NVIDIA/OpenShell",
+   "dt": "2026-10-22T17:44:06+00:00",
+   "summary": "",
+   "extra": {
+    "points": 471,
+    "comments": 205,
+    "hn_link": "https://news.ycombinator.com/item?id=50198675"
+   },
+   "skills": [],
+   "learn_score": 1.0,
+   "score": 3.673,
+   "tokens": [
+    "agents",
+    "ai",
+    "autonomous",
+    "fleets",
+    "openshell",
+    "private",
+    "runtime",
+    "safe"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "LLMs are making formal software verification feasible at a much larger scale",
+   "link": "https://www.anthropic.com/research/formal-verification",
+   "dt": "2026-10-22T22:54:43+00:00",
+   "summary": "",
+   "extra": {
+    "points": 408,
+    "comments": 249,
+    "hn_link": "https://news.ycombinator.com/item?id=50202217"
+   },
+   "skills": [],
+   "learn_score": 1.0,
+   "score": 3.611,
+   "tokens": [
+    "feasible",
+    "formal",
+    "larger",
+    "llms",
+    "making",
+    "much",
+    "scale",
+    "software",
+    "verification"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Gathin23/cleanyourtv",
+   "link": "https://github.com/Gathin23/cleanyourtv",
+   "dt": "2026-10-17T08:12:35+00:00",
+   "summary": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+   "extra": {
+    "stars": 27065,
+    "language": "Java",
+    "topics": [
+     "adb",
+     "adblock",
+     "android-tv",
+     "android-tv-launcher",
+     "apple-tv",
+     "bloatware-removal"
+    ],
+    "created": "2026-10-17",
+    "pushed": "2026-10-23"
+   },
+   "skills": [],
+   "learn_score": 0.81,
+   "score": 3.24,
+   "tokens": [
+    "cleanyourtv",
+    "gathin23"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "The Boring Version of Continual Learning",
+   "link": "https://www.youtube.com/watch?v=StDAmjuQOE4",
+   "dt": "2026-10-23T15:46:27+00:00",
+   "summary": "Will Brown of Prime Intellect makes the case that continual learning is about to get boring, in a good way: it is the software development life cycle, applied to models. He traces how agent workflows grow from terminal experiments into production software, why evals should capture the vibe check, and which post-training methods he reaches for, from SFT and on-policy and context distillation to online RL, along with why he is skeptical of jumping straight to OPSD. He closes on build versus buy fo…",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": "StDAmjuQOE4"
+   },
+   "skills": [
+    "eval_observability",
+    "training_serving"
+   ],
+   "learn_score": 3.098,
+   "score": 3.098,
+   "tokens": [
+    "boring",
+    "continual",
+    "learning",
+    "version"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "TinyFish Breaks Down Agentic Search Architecture for Production AI Agents",
+   "link": "https://www.marktechpost.com/2026/10/23/tinyfish-agentic-search-architecture-deep-research/",
+   "dt": "2026-10-23T08:58:47+00:00",
+   "summary": "TinyFish published two engineering research articles on agentic search. One defines a 7-phase production architecture with evidence contracts and bounded retries. The other explains why its deep research system dropped a separate planner and per-query subagents. The post TinyFish Breaks Down Agentic Search Architecture for Production AI Agents appeared first on MarkTechPost .",
+   "extra": {},
+   "skills": [
+    "agent_architecture",
+    "system_design"
+   ],
+   "learn_score": 2.341,
+   "score": 2.341,
+   "tokens": [
+    "agentic",
+    "agents",
+    "ai",
+    "architecture",
+    "breaks",
+    "down",
+    "production",
+    "search",
+    "tinyfish"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "blog",
+   "source_label": "Simon Willison",
+   "title": "Donating Agent Skills to the Agentic AI Foundation",
+   "link": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
+   "dt": "2026-10-22T18:09:56+00:00",
+   "summary": "Donating Agent Skills to the Agentic AI Foundation News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which we co-founded with Block and OpenAI last year, and to which we donated the Model Context Protocol (MCP). I'm pleased to note I called this one last December , when Anthropic first declared skills to be an \"open standard\": I wouldn't…",
+   "extra": {},
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.951,
+   "score": 1.951,
+   "tokens": [
+    "agent",
+    "agentic",
+    "ai",
+    "donating",
+    "foundation",
+    "skills"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "Uber rolls out ChatGPT Work to 30,000+ employees",
+   "link": "https://www.youtube.com/watch?v=l16Gw7oVLNQ",
+   "dt": "2026-10-22T18:00:13+00:00",
+   "summary": "Following a 1,000-person pilot, Uber is bringing ChatGPT Work to more than 30,000 employees worldwide in its first company-wide deployment of an agentic platform for knowledge work. Uber CTO Praveen Neppalli Naga and OpenAI co-founder and President Greg Brockman discuss expanding AI beyond engineering and helping teams rethink entire workflows. Read more about Uber’s rollout of ChatGPT Work: https://openai.com/index/uber-chatgpt-work-rollout/",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": "l16Gw7oVLNQ"
+   },
+   "skills": [],
+   "learn_score": 1.519,
+   "score": 1.519,
+   "tokens": [
+    "000",
+    "30",
+    "chatgpt",
+    "employees",
+    "rolls",
+    "uber",
+    "work"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "blog",
+   "source_label": "OpenAI 官方博客",
+   "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+   "link": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+   "dt": "2026-10-23T17:00:00+00:00",
+   "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+   "extra": {},
+   "skills": [
+    "rag"
+   ],
+   "learn_score": 1.445,
+   "score": 1.445,
+   "tokens": [
+    "billion",
+    "chatgpt",
+    "ii",
+    "online",
+    "over",
+    "part",
+    "rapidly",
+    "scaling",
+    "serve",
+    "storage",
+    "users"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "Messi asks ChatGPT to teach him a chess opening",
+   "link": "https://www.youtube.com/shorts/RLQR5_5fJDA",
+   "dt": "2026-10-22T21:58:00+00:00",
+   "summary": "Messi asked ChatGPT to teach him a chess opening that matched his style. It suggested Goat Horns. 🐐🤘 Try ChatGPT's Intelligent UI yourself: “Based on what you know about me, teach me something new. Show me step by step.\"",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": ""
+   },
+   "skills": [],
+   "learn_score": 1.125,
+   "score": 1.125,
+   "tokens": [
+    "asks",
+    "chatgpt",
+    "chess",
+    "him",
+    "messi",
+    "opening",
+    "teach"
+   ],
+   "flag": "new"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "youngyangyang04/llm-master",
+   "link": "https://github.com/youngyangyang04/llm-master",
+   "dt": "2026-09-12T07:33:31+00:00",
+   "summary": "大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。",
+   "extra": {
+    "stars": 1397,
+    "language": "",
+    "topics": [
+     "agent",
+     "large-language-models",
+     "llm",
+     "llm-learning",
+     "llm-tutorial",
+     "rag"
+    ],
+    "created": "2026-09-12",
+    "pushed": "2026-10-23"
+   },
+   "skills": [
+    "prompt_context",
+    "rag",
+    "tool_mcp",
+    "training_serving",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.479,
+   "score": 9.916,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-12 推荐过",
+   "summary_zh": "提供覆盖 Prompt Engineering 到模型部署等全栈 LLM 学习路线的中文教程。",
+   "why_zh": "对 AI 工程师系统掌握 LLM 技术栈和面试准备极具参考价值。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "amitshekhariitbhu/ai-engineering-course",
+   "link": "https://github.com/amitshekhariitbhu/ai-engineering-course",
+   "dt": "2026-09-23T08:04:42+00:00",
+   "summary": "AI Engineering Course - A free and complete AI Engineering Course to learn AI Engineering step by step - from Machine Learning, Neural Networks, and Transformers to LLMs, Fine-Tuning, RAG, AI Agents, LLM Inference, Evaluation, AI Safety, and AI System Design.",
+   "extra": {
+    "stars": 554,
+    "language": "Markdown",
+    "topics": [
+     "ai-course",
+     "ai-engineering",
+     "ai-engineering-course",
+     "ai-engineering-curriculum",
+     "large-language-models"
+    ],
+    "created": "2026-09-23",
+    "pushed": "2026-10-23"
+   },
+   "skills": [
+    "rag",
+    "eval_observability",
+    "training_serving",
+    "llm_fundamentals",
+    "system_design"
+   ],
+   "learn_score": 2.107,
+   "score": 7.888,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-23 推荐过"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Fazmin/AILearningGuide",
+   "link": "https://github.com/Fazmin/AILearningGuide",
+   "dt": "2026-10-05T02:29:23+00:00",
+   "summary": "Interactive desktop app with 51 labs covering ML fundamentals, transformers, RAG, agents, fine-tuning and quantization and more.",
+   "extra": {
+    "stars": 230,
+    "language": "TypeScript",
+    "topics": [
+     "ai",
+     "ai-education",
+     "deep-learning",
+     "educational",
+     "educational-resources",
+     "educational-tool"
+    ],
+    "created": "2026-10-05",
+    "pushed": "2026-10-23"
+   },
+   "skills": [
+    "rag",
+    "training_serving",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.276,
+   "score": 7.651,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-22 推荐过",
+   "summary_zh": "提供交互式桌面应用，包含51个实验涵盖机器学习基础、Transformer、RAG、Agent、微调与量化等内容。",
+   "why_zh": "可学习动手实验的组织方式，掌握从基础到高级模型的全流程实践，适合面试中展示系统化学习能力。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "amitshekhariitbhu/ai-system-design",
+   "link": "https://github.com/amitshekhariitbhu/ai-system-design",
+   "dt": "2026-09-25T04:50:06+00:00",
+   "summary": "AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
+   "extra": {
+    "stars": 733,
+    "language": "Markdown",
+    "topics": [
+     "ai",
+     "ai-agents",
+     "ai-engineering",
+     "ai-system",
+     "ai-system-design",
+     "ai-systems"
+    ],
+    "created": "2026-09-25",
+    "pushed": "2026-10-23"
+   },
+   "skills": [
+    "rag",
+    "system_design"
+   ],
+   "learn_score": 1.951,
+   "score": 7.541,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-23 推荐过",
+   "summary_zh": "教程展示如何逐步设计基于LLM、RAG和AI Agent的AI系统。",
+   "why_zh": "为工程师提供系统化的LLM应用架构指导，便于快速落地复杂AI产品。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "lemomo-ai/lemo-opuscar",
+   "link": "https://github.com/lemomo-ai/lemo-opuscar",
+   "dt": "2026-09-26T10:10:41+00:00",
+   "summary": "A toolbox of film styles made in code for Claude Code: 59 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：59 种现成风格，也能做出你自己的",
+   "extra": {
+    "stars": 6047,
+    "language": "JavaScript",
+    "topics": [
+     "agent-skills",
+     "ai-agents",
+     "ai-short-film",
+     "ai-video",
+     "animation",
+     "canvas"
+    ],
+    "created": "2026-09-26",
+    "pushed": "2026-10-22"
+   },
+   "skills": [
+    "prompt_context"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-23 推荐过",
+   "summary_zh": "Claude Opus 5.5 生成 43 种电影风格的纯代码短片，附风格提示词和导演指南。",
+   "why_zh": "展示大模型直接输出可运行代码实现多风格视觉内容，为程序化创作提供新范式。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "tangency-labs/solidcraft",
+   "link": "https://github.com/tangency-labs/solidcraft",
+   "dt": "2026-10-07T18:57:48+00:00",
+   "summary": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+   "extra": {
+    "stars": 9605,
+    "language": "Rust",
+    "topics": [
+     "3d-modeling",
+     "brep",
+     "cad",
+     "egui",
+     "mcp",
+     "parametric-cad"
+    ],
+    "created": "2026-10-07",
+    "pushed": "2026-10-23"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-22 推荐过",
+   "summary_zh": "SolidCraft 是用纯 Rust 构建的开源参数化3D CAD 应用，支持桌面、网页及MCP自动化。",
+   "why_zh": "演示Rust在复杂图形系统中的工程实践，可参考高性能跨平台CAD开发。"
+  }
+ ]
+}

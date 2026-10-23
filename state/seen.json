@@ -39,7 +39,7 @@
   },
   "https://github.com/youngyangyang04/llm-master": {
    "title": "youngyangyang04/llm-master",
-   "date": "2026-10-12",
+   "date": "2026-10-24",
    "tokens": [],
    "source": "github",
    "summary_zh": "提供覆盖 Prompt Engineering 到模型部署等全栈 LLM 学习路线的中文教程。",
@@ -190,7 +190,7 @@
   },
   "https://github.com/amitshekhariitbhu/ai-engineering-course": {
    "title": "amitshekhariitbhu/ai-engineering-course",
-   "date": "2026-10-23",
+   "date": "2026-10-24",
    "tokens": [],
    "source": "github",
    "summary_zh": "",
@@ -1223,7 +1223,7 @@
   },
   "https://github.com/lemomo-ai/lemo-opuscar": {
    "title": "lemomo-ai/lemo-opuscar",
-   "date": "2026-10-23",
+   "date": "2026-10-24",
    "tokens": [],
    "source": "github",
    "summary_zh": "Claude Opus 5.5 生成 43 种电影风格的纯代码短片，附风格提示词和导演指南。",
@@ -1722,7 +1722,7 @@
   },
   "https://github.com/amitshekhariitbhu/ai-system-design": {
    "title": "amitshekhariitbhu/ai-system-design",
-   "date": "2026-10-23",
+   "date": "2026-10-24",
    "tokens": [],
    "source": "github",
    "summary_zh": "教程展示如何逐步设计基于LLM、RAG和AI Agent的AI系统。",
@@ -2841,7 +2841,7 @@
   },
   "https://github.com/Fazmin/AILearningGuide": {
    "title": "Fazmin/AILearningGuide",
-   "date": "2026-10-22",
+   "date": "2026-10-24",
    "tokens": [],
    "source": "github",
    "summary_zh": "提供交互式桌面应用，包含51个实验涵盖机器学习基础、Transformer、RAG、Agent、微调与量化等内容。",
@@ -3296,7 +3296,7 @@
   },
   "https://github.com/tangency-labs/solidcraft": {
    "title": "tangency-labs/solidcraft",
-   "date": "2026-10-22",
+   "date": "2026-10-24",
    "tokens": [],
    "source": "github",
    "summary_zh": "SolidCraft 是用纯 Rust 构建的开源参数化3D CAD 应用，支持桌面、网页及MCP自动化。",
@@ -4536,7 +4536,223 @@
    "source": "youtube",
    "summary_zh": "",
    "why_zh": ""
+  },
+  "https://arxiv.org/abs/2610.28686": {
+   "title": "A Small Model Asks Better: Fine-Tuning Query Clarification for Retrieval-Augmented Generation",
+   "date": "2026-10-24",
+   "tokens": [
+    "asks",
+    "augmented",
+    "better",
+    "clarification",
+    "fine",
+    "generation",
+    "model",
+    "query",
+    "retrieval",
+    "small",
+    "tuning"
+   ],
+   "source": "paper",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://huggingface.co/papers/2610.30949": {
+   "title": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
+   "date": "2026-10-24",
+   "tokens": [
+    "advancing",
+    "agentic",
+    "capabilities",
+    "cli",
+    "foundation",
+    "iquest",
+    "q1",
+    "systems"
+   ],
+   "source": "paper",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://github.com/Folkbench/folkbench": {
+   "title": "Folkbench/folkbench",
+   "date": "2026-10-24",
+   "tokens": [
+    "folkbench"
+   ],
+   "source": "github",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://github.com/ollaya-dev/ollaya": {
+   "title": "ollaya-dev/ollaya",
+   "date": "2026-10-24",
+   "tokens": [
+    "dev",
+    "ollaya"
+   ],
+   "source": "github",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://github.com/h9-tec/ai-roadmap-2026": {
+   "title": "h9-tec/ai-roadmap-2026",
+   "date": "2026-10-24",
+   "tokens": [
+    "2026",
+    "ai",
+    "h9",
+    "roadmap",
+    "tec"
+   ],
+   "source": "github",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://github.com/NVIDIA/OpenShell": {
+   "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+   "date": "2026-10-24",
+   "tokens": [
+    "agents",
+    "ai",
+    "autonomous",
+    "fleets",
+    "openshell",
+    "private",
+    "runtime",
+    "safe"
+   ],
+   "source": "hackernews",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://www.anthropic.com/research/formal-verification": {
+   "title": "LLMs are making formal software verification feasible at a much larger scale",
+   "date": "2026-10-24",
+   "tokens": [
+    "feasible",
+    "formal",
+    "larger",
+    "llms",
+    "making",
+    "much",
+    "scale",
+    "software",
+    "verification"
+   ],
+   "source": "hackernews",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://github.com/Gathin23/cleanyourtv": {
+   "title": "Gathin23/cleanyourtv",
+   "date": "2026-10-24",
+   "tokens": [
+    "cleanyourtv",
+    "gathin23"
+   ],
+   "source": "github",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://www.youtube.com/watch?v=StDAmjuQOE4": {
+   "title": "The Boring Version of Continual Learning",
+   "date": "2026-10-24",
+   "tokens": [
+    "boring",
+    "continual",
+    "learning",
+    "version"
+   ],
+   "source": "youtube",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://www.marktechpost.com/2026/10/23/tinyfish-agentic-search-architecture-deep-research/": {
+   "title": "TinyFish Breaks Down Agentic Search Architecture for Production AI Agents",
+   "date": "2026-10-24",
+   "tokens": [
+    "agentic",
+    "agents",
+    "ai",
+    "architecture",
+    "breaks",
+    "down",
+    "production",
+    "search",
+    "tinyfish"
+   ],
+   "source": "blog",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://simonwillison.net/2026/Oct/22/donating-agent-skills/": {
+   "title": "Donating Agent Skills to the Agentic AI Foundation",
+   "date": "2026-10-24",
+   "tokens": [
+    "agent",
+    "agentic",
+    "ai",
+    "donating",
+    "foundation",
+    "skills"
+   ],
+   "source": "blog",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://www.youtube.com/watch?v=l16Gw7oVLNQ": {
+   "title": "Uber rolls out ChatGPT Work to 30,000+ employees",
+   "date": "2026-10-24",
+   "tokens": [
+    "000",
+    "30",
+    "chatgpt",
+    "employees",
+    "rolls",
+    "uber",
+    "work"
+   ],
+   "source": "youtube",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://openai.com/index/scaling-storage-one-billion-users-part-two": {
+   "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+   "date": "2026-10-24",
+   "tokens": [
+    "billion",
+    "chatgpt",
+    "ii",
+    "online",
+    "over",
+    "part",
+    "rapidly",
+    "scaling",
+    "serve",
+    "storage",
+    "users"
+   ],
+   "source": "blog",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://www.youtube.com/shorts/RLQR5_5fJDA": {
+   "title": "Messi asks ChatGPT to teach him a chess opening",
+   "date": "2026-10-24",
+   "tokens": [
+    "asks",
+    "chatgpt",
+    "chess",
+    "him",
+    "messi",
+    "opening",
+    "teach"
+   ],
+   "source": "youtube",
+   "summary_zh": "",
+   "why_zh": ""
   }
  },
- "updated": "2026-10-22T16:44:30.205469+00:00"
+ "updated": "2026-10-23T16:35:23.226035+00:00"
 }
