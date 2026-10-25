@@ -1,0 +1,612 @@
+{
+ "date": "2026-10-25",
+ "generated": "2026-10-25 20:54",
+ "source_count": {
+  "github": 72,
+  "youtube": 40,
+  "blog": 83,
+  "paper": 12,
+  "hackernews": 10
+ },
+ "failures": {},
+ "failure_errors": {},
+ "items": [
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
+   "link": "https://github.com/slee-persis/GVS5H",
+   "dt": "2026-10-25T03:56:01+00:00",
+   "summary": "",
+   "extra": {
+    "points": 168,
+    "comments": 57,
+    "hn_link": "https://news.ycombinator.com/item?id=50228167"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 2.295,
+   "score": 7.402,
+   "tokens": [
+    "27b",
+    "fable",
+    "five",
+    "gvs5h",
+    "harness",
+    "match",
+    "models",
+    "qwen3"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Agent Mosaic: Recognizing Confidentiality Leaks in Agentic LLM Systems",
+   "link": "https://huggingface.co/papers/2610.30418",
+   "dt": "2026-10-20T20:00:00+00:00",
+   "summary": "Modern LLM agents can retrieve information from accessible documents, and then disclose a sensitive conclusion assembled from them. This mosaic effect creates a critical risk for agents operating over confidential data. We quantify its realization with 30 synthetic cybersecurity, medical, and military examples, yielding 10,800 final answers from three LLM agents in controlled simulation and 1,440 answers from live agents in two open-source harnesses. Even under benign queries designed to be answ",
+   "extra": {
+    "upvotes": 22,
+    "arxiv": "https://arxiv.org/abs/2610.30418"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.962,
+   "score": 4.596,
+   "tokens": [
+    "agent",
+    "agentic",
+    "confidentiality",
+    "leaks",
+    "llm",
+    "mosaic",
+    "recognizing",
+    "systems"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "justxor/awesome-ai-devtools-ru",
+   "link": "https://github.com/justxor/awesome-ai-devtools-ru",
+   "dt": "2026-10-18T13:41:23+00:00",
+   "summary": "🤖 Каталог ИИ-инструментов для разработчиков на русском (2026): AI-IDE, Cursor, Copilot, Claude Code, Codex, агенты, MCP, код-ревью, тесты, LLMOps, локальные LLM, российские сервисы",
+   "extra": {
+    "stars": 23,
+    "language": "",
+    "topics": [
+     "ai",
+     "ai-agents",
+     "ai-coding",
+     "ai-tools",
+     "awesome",
+     "awesome-list"
+    ],
+    "created": "2026-10-18",
+    "pushed": "2026-10-19"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.859,
+   "score": 4.39,
+   "tokens": [
+    "ai",
+    "awesome",
+    "devtools",
+    "justxor",
+    "ru"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "BrickWright: Agentic Creation of Physically Feasible Brick Builds",
+   "link": "https://huggingface.co/papers/2610.31651",
+   "dt": "2026-10-21T20:00:00+00:00",
+   "summary": "Frontier coding agents are becoming increasingly adept at 3D modeling. Yet, they still face challenges when building objects meant to be assembled in the physical world, often creating invalid assemblies with floating, colliding, or disconnected parts. We argue that providing agents with tools for assembling builds and verifying their physical feasibility is sufficient for them to produce physically valid assemblies that still adhere to input prompts. Focusing on the domain of LEGO brick builds,",
+   "extra": {
+    "upvotes": 13,
+    "arxiv": "https://arxiv.org/abs/2610.31651"
+   },
+   "skills": [
+    "prompt_context"
+   ],
+   "learn_score": 2.071,
+   "score": 4.378,
+   "tokens": [
+    "agentic",
+    "brick",
+    "brickwright",
+    "builds",
+    "creation",
+    "feasible",
+    "physically"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "Stateful Agentic Engineering Copilots with Letta: Core Memory, Shared State, Semantic Retrieval, Custom Tools, Streaming, and Portable Agent Workflows",
+   "link": "https://www.marktechpost.com/2026/10/24/stateful-engineering-copilots-letta-tutorial/",
+   "dt": "2026-10-24T10:29:31+00:00",
+   "summary": "Discover how to extend agentic memory beyond basic prompts by building a stateful engineering copilot with Letta. This comprehensive guide covers inspectable core memory, archival vector retrieval, multi-agent shared state, custom tools, and portable workflows. The post Stateful Agentic Engineering Copilots with Letta: Core Memory, Shared State, Semantic Retrieval, Custom Tools, Streaming, and Portable Agent Workflows appeared first on MarkTechPost .",
+   "extra": {},
+   "skills": [
+    "prompt_context",
+    "rag",
+    "multi_agent",
+    "eval_observability"
+   ],
+   "learn_score": 3.901,
+   "score": 3.901,
+   "tokens": [
+    "agent",
+    "agentic",
+    "copilots",
+    "core",
+    "custom",
+    "engineering",
+    "letta",
+    "memory",
+    "portable",
+    "retrieval",
+    "semantic",
+    "shared",
+    "state",
+    "stateful",
+    "streaming",
+    "tools",
+    "workflows"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "IF-MAP: Influence-Function-Inspired Agent Prioritization in Multi-Agent Systems",
+   "link": "https://huggingface.co/papers/2610.24383",
+   "dt": "2026-10-16T20:00:00+00:00",
+   "summary": "Improving every agent in an LLM-based multi-agent system can be prohibitively costly, making it important to identify which agent should be prioritized to achieve the greatest system-level gain with limited resources. Failure attribution can inform this decision, but an agent's responsibility for failures does not directly reveal the system-level gains achievable by improving it. We therefore introduce IF-MAP, an influence-function-inspired method for identifying agents with high potential for s",
+   "extra": {
+    "upvotes": 8,
+    "arxiv": "https://arxiv.org/abs/2610.24383"
+   },
+   "skills": [
+    "multi_agent"
+   ],
+   "learn_score": 1.853,
+   "score": 3.706,
+   "tokens": [
+    "agent",
+    "function",
+    "if",
+    "influence",
+    "inspired",
+    "map",
+    "multi",
+    "prioritization",
+    "systems"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "stockedge/manga-generator",
+   "link": "https://github.com/stockedge/manga-generator",
+   "dt": "2026-10-22T02:58:45+00:00",
+   "summary": "原作から脚本・画像生成・組版・PDF出力まで進める、Codex向け漫画制作ツール",
+   "extra": {
+    "stars": 84,
+    "language": "JavaScript",
+    "topics": [
+     "ai-agents",
+     "ai-comic",
+     "ai-comics",
+     "ai-manga",
+     "character-consistency",
+     "claude-code"
+    ],
+    "created": "2026-10-22",
+    "pushed": "2026-10-24"
+   },
+   "skills": [],
+   "learn_score": 1.154,
+   "score": 3.375,
+   "tokens": [
+    "generator",
+    "manga",
+    "stockedge"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "blog",
+   "source_label": "LangChain 博客",
+   "title": "Context Engineering (Agent Memory) for AI Agents Starts with Retrieval",
+   "link": "https://www.langchain.com/blog/context-engineering-starts-with-retrieval",
+   "dt": "2026-10-23T21:32:37+00:00",
+   "summary": "Agents waste time and context on clumsy searches, oversized results and stale data. Learn the retrieval techniques LangChain's Deep Agents harness uses to get the right context in.",
+   "extra": {},
+   "skills": [
+    "prompt_context",
+    "rag",
+    "agent_architecture",
+    "eval_observability"
+   ],
+   "learn_score": 3.121,
+   "score": 3.121,
+   "tokens": [
+    "agent",
+    "agents",
+    "ai",
+    "context",
+    "engineering",
+    "memory",
+    "retrieval",
+    "starts"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "nanaism/yomiyasu",
+   "link": "https://github.com/nanaism/yomiyasu",
+   "dt": "2026-09-30T11:49:32+00:00",
+   "summary": "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
+   "extra": {
+    "stars": 2518,
+    "language": "Python",
+    "topics": [
+     "agent-skills",
+     "ai-writing",
+     "antigravity",
+     "claude-code",
+     "codex",
+     "cursor"
+    ],
+    "created": "2026-09-30",
+    "pushed": "2026-10-25"
+   },
+   "skills": [],
+   "learn_score": 0.765,
+   "score": 3.06,
+   "tokens": [
+    "nanaism",
+    "yomiyasu"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "SoMarkAI/OXR",
+   "link": "https://github.com/SoMarkAI/OXR",
+   "dt": "2026-10-05T04:28:31+00:00",
+   "summary": "An open-source document parsing model with SOTA accuracy and speed, using an RSI loop during post-training.",
+   "extra": {
+    "stars": 645,
+    "language": "Python",
+    "topics": [
+     "agent",
+     "llm-tools",
+     "ocr",
+     "rsi",
+     "vlm",
+     "vlm-ocr"
+    ],
+    "created": "2026-10-05",
+    "pushed": "2026-10-24"
+   },
+   "skills": [],
+   "learn_score": 0.765,
+   "score": 2.914,
+   "tokens": [
+    "oxr",
+    "somarkai"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "Microsoft Open-Sources Agensh: A Multi-Agent Harness for 1,024 Agents",
+   "link": "https://www.marktechpost.com/2026/10/24/microsoft-agensh-multi-agent-harness-1024-agents/",
+   "dt": "2026-10-25T03:32:59+00:00",
+   "summary": "Microsoft Research open-sourced Agensh, a multi-agent harness with no central orchestrator. Self-organizing workers share a Git repo, chat and a findings board, scaling from 1 to 1,024 agents on ProgramBench under a 6-hour budget. The post Microsoft Open-Sources Agensh: A Multi-Agent Harness for 1,024 Agents appeared first on MarkTechPost .",
+   "extra": {},
+   "skills": [
+    "agent_architecture",
+    "multi_agent"
+   ],
+   "learn_score": 2.341,
+   "score": 2.341,
+   "tokens": [
+    "024",
+    "agensh",
+    "agent",
+    "agents",
+    "harness",
+    "microsoft",
+    "multi",
+    "open",
+    "sources"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Matthew Berman",
+   "title": "Kimi K3.1 Invented the Benchmark Scores",
+   "link": "https://www.youtube.com/shorts/bBqP-w6DHFw",
+   "dt": "2026-10-24T23:22:44+00:00",
+   "summary": "Join My Newsletter for Regular AI Updates 👇🏼 https://forwardfuture.com My Links 🔗 👉🏻 X: https://x.com/matthewberman 👉🏻 Forward Future X: https://x.com/forwardfuture 👉🏻 Instagram: https://www.instagram.com/matthewberman_ai 👉🏻 Discord: https://discord.gg/u7wTTGWhuJ 👉🏻 Spotify: https://open.spotify.com/show/6dBxDwxtHl1hpqHhfoXmy8 Media/Sponsorship Inquiries ✅ https://bit.ly/44TC45V",
+   "extra": {
+    "channel": "Matthew Berman",
+    "video_id": ""
+   },
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 2.066,
+   "score": 2.066,
+   "tokens": [
+    "benchmark",
+    "invented",
+    "k3",
+    "kimi",
+    "scores"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · bycloud",
+   "title": "Muon: The Most Underrated Breakthrough in LLMs",
+   "link": "https://www.youtube.com/watch?v=VAQHsKS9fxY",
+   "dt": "2026-10-24T15:33:28+00:00",
+   "summary": "Try out Solid, agents with their own computers, accounts, and budgets: https://solid.tech/bycloud For over a decade, AdamW has dominated how we train AI, but a new optimizer called Muon is challenging everything we thought we knew about LLM training. From potentially cutting training compute nearly in half to making previously overlooked AI architectures viable, here's why Muon might be one of the most underrated LLM breakthroughs in the past 2 years. Your private local AI server needs an upgrad…",
+   "extra": {
+    "channel": "bycloud",
+    "video_id": "VAQHsKS9fxY"
+   },
+   "skills": [
+    "system_design"
+   ],
+   "learn_score": 1.53,
+   "score": 1.53,
+   "tokens": [
+    "breakthrough",
+    "llms",
+    "muon",
+    "underrated"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Wes Roth",
+   "title": "it's WORSE than we thought...",
+   "link": "https://www.youtube.com/watch?v=eK7Sn0_zHQw",
+   "dt": "2026-10-24T06:17:07+00:00",
+   "summary": "Try Crusoe Intelligence Foundry and get $5 in free credits: https://console.crusoecloud.com/request-foundry?utm_source=wesroth&utm_medium=influencer&utm_campaign=mi-su-credits Sign up to Crusoe Intelligence Foundry and get $5 in free credits. Explore Serverless Inference and Serverless Fine-Tuning. No promo code needed. Thanks to Crusoe for sponsoring this video. ______________________________________________ My Links 🔗 ➡️ Twitter: https://x.com/WesRothMoney ➡️ AI Newsletter: https://natural20.b…",
+   "extra": {
+    "channel": "Wes Roth",
+    "video_id": "eK7Sn0_zHQw"
+   },
+   "skills": [
+    "training_serving"
+   ],
+   "learn_score": 1.53,
+   "score": 1.53,
+   "tokens": [
+    "than",
+    "thought",
+    "we",
+    "worse"
+   ],
+   "flag": "new"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "youngyangyang04/llm-master",
+   "link": "https://github.com/youngyangyang04/llm-master",
+   "dt": "2026-09-12T07:33:31+00:00",
+   "summary": "大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。",
+   "extra": {
+    "stars": 1410,
+    "language": "",
+    "topics": [
+     "agent",
+     "large-language-models",
+     "llm",
+     "llm-learning",
+     "llm-tutorial",
+     "rag"
+    ],
+    "created": "2026-09-12",
+    "pushed": "2026-10-24"
+   },
+   "skills": [
+    "prompt_context",
+    "rag",
+    "tool_mcp",
+    "training_serving",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.479,
+   "score": 9.916,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-24 推荐过",
+   "summary_zh": "提供覆盖 Prompt Engineering 到模型部署等全栈 LLM 学习路线的中文教程。",
+   "why_zh": "对 AI 工程师系统掌握 LLM 技术栈和面试准备极具参考价值。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Fazmin/AILearningGuide",
+   "link": "https://github.com/Fazmin/AILearningGuide",
+   "dt": "2026-10-05T02:29:23+00:00",
+   "summary": "Interactive desktop app with 51 labs covering ML fundamentals, transformers, RAG, agents, fine-tuning and quantization and more.",
+   "extra": {
+    "stars": 232,
+    "language": "TypeScript",
+    "topics": [
+     "ai",
+     "ai-education",
+     "deep-learning",
+     "educational",
+     "educational-resources",
+     "educational-tool"
+    ],
+    "created": "2026-10-05",
+    "pushed": "2026-10-23"
+   },
+   "skills": [
+    "rag",
+    "training_serving",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.276,
+   "score": 7.66,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-24 推荐过",
+   "summary_zh": "提供交互式桌面应用，包含51个实验涵盖机器学习基础、Transformer、RAG、Agent、微调与量化等内容。",
+   "why_zh": "可学习动手实验的组织方式，掌握从基础到高级模型的全流程实践，适合面试中展示系统化学习能力。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "amitshekhariitbhu/ai-system-design",
+   "link": "https://github.com/amitshekhariitbhu/ai-system-design",
+   "dt": "2026-09-25T04:50:06+00:00",
+   "summary": "AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
+   "extra": {
+    "stars": 767,
+    "language": "Markdown",
+    "topics": [
+     "ai",
+     "ai-agents",
+     "ai-engineering",
+     "ai-system",
+     "ai-system-design",
+     "ai-systems"
+    ],
+    "created": "2026-09-25",
+    "pushed": "2026-10-24"
+   },
+   "skills": [
+    "rag",
+    "system_design"
+   ],
+   "learn_score": 1.951,
+   "score": 7.579,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-24 推荐过",
+   "summary_zh": "教程展示如何逐步设计基于LLM、RAG和AI Agent的AI系统。",
+   "why_zh": "为工程师提供系统化的LLM应用架构指导，便于快速落地复杂AI产品。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Folkbench/folkbench",
+   "link": "https://github.com/Folkbench/folkbench",
+   "dt": "2026-10-02T09:50:45+00:00",
+   "summary": "AI API 中转站评测排行与切换工具：实测可用率、延迟与价格 · Open-source AI API relay benchmark, rankings & switcher for Claude Code / Codex",
+   "extra": {
+    "stars": 3624,
+    "language": "Rust",
+    "topics": [
+     "ai",
+     "api-relay",
+     "api-relay-pricing",
+     "benchmark",
+     "benchmarks",
+     "claude"
+    ],
+    "created": "2026-10-02",
+    "pushed": "2026-10-25"
+   },
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-24 推荐过"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "lemomo-ai/lemo-opuscar",
+   "link": "https://github.com/lemomo-ai/lemo-opuscar",
+   "dt": "2026-09-26T10:10:41+00:00",
+   "summary": "A toolbox of film styles made in code for Claude Code: 59 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：59 种现成风格，也能做出你自己的",
+   "extra": {
+    "stars": 7007,
+    "language": "JavaScript",
+    "topics": [
+     "agent-skills",
+     "ai-agents",
+     "ai-short-film",
+     "ai-video",
+     "animation",
+     "canvas"
+    ],
+    "created": "2026-09-26",
+    "pushed": "2026-10-24"
+   },
+   "skills": [
+    "prompt_context"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-24 推荐过",
+   "summary_zh": "Claude Opus 5.5 生成 43 种电影风格的纯代码短片，附风格提示词和导演指南。",
+   "why_zh": "展示大模型直接输出可运行代码实现多风格视觉内容，为程序化创作提供新范式。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Ayzzz123/mcd-coupon-strategist",
+   "link": "https://github.com/Ayzzz123/mcd-coupon-strategist",
+   "dt": "2026-10-10T12:59:19+00:00",
+   "summary": "麦麦省钱助手 —— 基于麦当劳 MCP 的点餐成本优化 Skill。算出当前门店最省钱的点餐方案，并主动提示凑单陷阱。",
+   "extra": {
+    "stars": 1008,
+    "language": "Python",
+    "topics": [
+     "agent",
+     "cost-optimization",
+     "coupon",
+     "llm",
+     "mcd-mcp",
+     "mcdonalds"
+    ],
+    "created": "2026-10-10",
+    "pushed": "2026-10-21"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-16 推荐过",
+   "summary_zh": "基于麦当劳 MCP 的点餐成本优化助手，给出最省钱方案并提醒凑单陷阱。",
+   "why_zh": "演示如何利用业务 MCP 进行成本优化决策，可学习结合领域知识与约束求解的实现方法。"
+  }
+ ]
+}

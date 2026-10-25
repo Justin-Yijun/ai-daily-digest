@@ -39,7 +39,7 @@
   },
   "https://github.com/youngyangyang04/llm-master": {
    "title": "youngyangyang04/llm-master",
-   "date": "2026-10-24",
+   "date": "2026-10-25",
    "tokens": [],
    "source": "github",
    "summary_zh": "提供覆盖 Prompt Engineering 到模型部署等全栈 LLM 学习路线的中文教程。",
@@ -1223,7 +1223,7 @@
   },
   "https://github.com/lemomo-ai/lemo-opuscar": {
    "title": "lemomo-ai/lemo-opuscar",
-   "date": "2026-10-24",
+   "date": "2026-10-25",
    "tokens": [],
    "source": "github",
    "summary_zh": "Claude Opus 5.5 生成 43 种电影风格的纯代码短片，附风格提示词和导演指南。",
@@ -1722,7 +1722,7 @@
   },
   "https://github.com/amitshekhariitbhu/ai-system-design": {
    "title": "amitshekhariitbhu/ai-system-design",
-   "date": "2026-10-24",
+   "date": "2026-10-25",
    "tokens": [],
    "source": "github",
    "summary_zh": "教程展示如何逐步设计基于LLM、RAG和AI Agent的AI系统。",
@@ -2280,7 +2280,7 @@
   },
   "https://github.com/Ayzzz123/mcd-coupon-strategist": {
    "title": "Ayzzz123/mcd-coupon-strategist",
-   "date": "2026-10-16",
+   "date": "2026-10-25",
    "tokens": [],
    "source": "github",
    "summary_zh": "基于麦当劳 MCP 的点餐成本优化助手，给出最省钱方案并提醒凑单陷阱。",
@@ -2841,7 +2841,7 @@
   },
   "https://github.com/Fazmin/AILearningGuide": {
    "title": "Fazmin/AILearningGuide",
-   "date": "2026-10-24",
+   "date": "2026-10-25",
    "tokens": [],
    "source": "github",
    "summary_zh": "提供交互式桌面应用，包含51个实验涵盖机器学习基础、Transformer、RAG、Agent、微调与量化等内容。",
@@ -4576,10 +4576,8 @@
   },
   "https://github.com/Folkbench/folkbench": {
    "title": "Folkbench/folkbench",
-   "date": "2026-10-24",
-   "tokens": [
-    "folkbench"
-   ],
+   "date": "2026-10-25",
+   "tokens": [],
    "source": "github",
    "summary_zh": "",
    "why_zh": ""
@@ -4752,7 +4750,224 @@
    "source": "youtube",
    "summary_zh": "",
    "why_zh": ""
+  },
+  "https://github.com/slee-persis/GVS5H": {
+   "title": "Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
+   "date": "2026-10-25",
+   "tokens": [
+    "27b",
+    "fable",
+    "five",
+    "gvs5h",
+    "harness",
+    "match",
+    "models",
+    "qwen3"
+   ],
+   "source": "hackernews",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://huggingface.co/papers/2610.30418": {
+   "title": "Agent Mosaic: Recognizing Confidentiality Leaks in Agentic LLM Systems",
+   "date": "2026-10-25",
+   "tokens": [
+    "agent",
+    "agentic",
+    "confidentiality",
+    "leaks",
+    "llm",
+    "mosaic",
+    "recognizing",
+    "systems"
+   ],
+   "source": "paper",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://github.com/justxor/awesome-ai-devtools-ru": {
+   "title": "justxor/awesome-ai-devtools-ru",
+   "date": "2026-10-25",
+   "tokens": [
+    "ai",
+    "awesome",
+    "devtools",
+    "justxor",
+    "ru"
+   ],
+   "source": "github",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://huggingface.co/papers/2610.31651": {
+   "title": "BrickWright: Agentic Creation of Physically Feasible Brick Builds",
+   "date": "2026-10-25",
+   "tokens": [
+    "agentic",
+    "brick",
+    "brickwright",
+    "builds",
+    "creation",
+    "feasible",
+    "physically"
+   ],
+   "source": "paper",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://www.marktechpost.com/2026/10/24/stateful-engineering-copilots-letta-tutorial/": {
+   "title": "Stateful Agentic Engineering Copilots with Letta: Core Memory, Shared State, Semantic Retrieval, Custom Tools, Streaming, and Portable Agent Workflows",
+   "date": "2026-10-25",
+   "tokens": [
+    "agent",
+    "agentic",
+    "copilots",
+    "core",
+    "custom",
+    "engineering",
+    "letta",
+    "memory",
+    "portable",
+    "retrieval",
+    "semantic",
+    "shared",
+    "state",
+    "stateful",
+    "streaming",
+    "tools",
+    "workflows"
+   ],
+   "source": "blog",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://huggingface.co/papers/2610.24383": {
+   "title": "IF-MAP: Influence-Function-Inspired Agent Prioritization in Multi-Agent Systems",
+   "date": "2026-10-25",
+   "tokens": [
+    "agent",
+    "function",
+    "if",
+    "influence",
+    "inspired",
+    "map",
+    "multi",
+    "prioritization",
+    "systems"
+   ],
+   "source": "paper",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://github.com/stockedge/manga-generator": {
+   "title": "stockedge/manga-generator",
+   "date": "2026-10-25",
+   "tokens": [
+    "generator",
+    "manga",
+    "stockedge"
+   ],
+   "source": "github",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://www.langchain.com/blog/context-engineering-starts-with-retrieval": {
+   "title": "Context Engineering (Agent Memory) for AI Agents Starts with Retrieval",
+   "date": "2026-10-25",
+   "tokens": [
+    "agent",
+    "agents",
+    "ai",
+    "context",
+    "engineering",
+    "memory",
+    "retrieval",
+    "starts"
+   ],
+   "source": "blog",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://github.com/nanaism/yomiyasu": {
+   "title": "nanaism/yomiyasu",
+   "date": "2026-10-25",
+   "tokens": [
+    "nanaism",
+    "yomiyasu"
+   ],
+   "source": "github",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://github.com/SoMarkAI/OXR": {
+   "title": "SoMarkAI/OXR",
+   "date": "2026-10-25",
+   "tokens": [
+    "oxr",
+    "somarkai"
+   ],
+   "source": "github",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://www.marktechpost.com/2026/10/24/microsoft-agensh-multi-agent-harness-1024-agents/": {
+   "title": "Microsoft Open-Sources Agensh: A Multi-Agent Harness for 1,024 Agents",
+   "date": "2026-10-25",
+   "tokens": [
+    "024",
+    "agensh",
+    "agent",
+    "agents",
+    "harness",
+    "microsoft",
+    "multi",
+    "open",
+    "sources"
+   ],
+   "source": "blog",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://www.youtube.com/shorts/bBqP-w6DHFw": {
+   "title": "Kimi K3.1 Invented the Benchmark Scores",
+   "date": "2026-10-25",
+   "tokens": [
+    "benchmark",
+    "invented",
+    "k3",
+    "kimi",
+    "scores"
+   ],
+   "source": "youtube",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://www.youtube.com/watch?v=VAQHsKS9fxY": {
+   "title": "Muon: The Most Underrated Breakthrough in LLMs",
+   "date": "2026-10-25",
+   "tokens": [
+    "breakthrough",
+    "llms",
+    "muon",
+    "underrated"
+   ],
+   "source": "youtube",
+   "summary_zh": "",
+   "why_zh": ""
+  },
+  "https://www.youtube.com/watch?v=eK7Sn0_zHQw": {
+   "title": "it's WORSE than we thought...",
+   "date": "2026-10-25",
+   "tokens": [
+    "than",
+    "thought",
+    "we",
+    "worse"
+   ],
+   "source": "youtube",
+   "summary_zh": "",
+   "why_zh": ""
   }
  },
- "updated": "2026-10-23T16:35:23.226035+00:00"
+ "updated": "2026-10-25T12:54:50.979448+00:00"
 }

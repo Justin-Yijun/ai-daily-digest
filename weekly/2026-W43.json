@@ -1,0 +1,778 @@
+{
+ "week": "2026-W43",
+ "start": "2026-10-19",
+ "end": "2026-10-25",
+ "generated": "2026-10-25 20:55",
+ "groups": [
+  {
+   "skill": "prompt_context",
+   "label": "提示 / 上下文工程",
+   "items": [
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.CL",
+     "title": "AutoTerm-SST: Adaptive Terminology Memory with Zero Session-Time Setup for Streaming Speech Translation",
+     "link": "https://arxiv.org/abs/2610.26865",
+     "dt": "2026-10-21T00:00:00-04:00",
+     "summary": "arXiv:2610.26865v1 Announce Type: new Abstract: Retrieval-augmented speech translation improves rare terminology, but systems such as RASST still assume that users provide a glossary before each session. That assumption is inconvenient for live talks, while merging every domain into one growing glossary eventually places too many irrelevant terms in the same retrieval and prompt competition. We present AutoTerm-SST, an interactive system that removes session-time glossary upload and domain selec",
+     "extra": {},
+     "weight_override": 1.3,
+     "skills": [
+      "prompt_context",
+      "rag",
+      "eval_observability"
+     ],
+     "learn_score": 4.177,
+     "score": 8.354,
+     "tokens": [
+      "adaptive",
+      "autoterm",
+      "memory",
+      "session",
+      "setup",
+      "speech",
+      "sst",
+      "streaming",
+      "terminology",
+      "time",
+      "translation",
+      "zero"
+     ],
+     "flag": "new"
+    },
+    {
+     "source": "blog",
+     "source_label": "MarkTechPost",
+     "title": "Stateful Agentic Engineering Copilots with Letta: Core Memory, Shared State, Semantic Retrieval, Custom Tools, Streaming, and Portable Agent Workflows",
+     "link": "https://www.marktechpost.com/2026/10/24/stateful-engineering-copilots-letta-tutorial/",
+     "dt": "2026-10-24T10:29:31+00:00",
+     "summary": "Discover how to extend agentic memory beyond basic prompts by building a stateful engineering copilot with Letta. This comprehensive guide covers inspectable core memory, archival vector retrieval, multi-agent shared state, custom tools, and portable workflows. The post Stateful Agentic Engineering Copilots with Letta: Core Memory, Shared State, Semantic Retrieval, Custom Tools, Streaming, and Portable Agent Workflows appeared first on MarkTechPost .",
+     "extra": {},
+     "skills": [
+      "prompt_context",
+      "rag",
+      "multi_agent",
+      "eval_observability"
+     ],
+     "learn_score": 3.901,
+     "score": 3.901,
+     "tokens": [
+      "agent",
+      "agentic",
+      "copilots",
+      "core",
+      "custom",
+      "engineering",
+      "letta",
+      "memory",
+      "portable",
+      "retrieval",
+      "semantic",
+      "shared",
+      "state",
+      "stateful",
+      "streaming",
+      "tools",
+      "workflows"
+     ],
+     "flag": "new"
+    },
+    {
+     "source": "blog",
+     "source_label": "LangChain 博客",
+     "title": "Context Engineering (Agent Memory) for AI Agents Starts with Retrieval",
+     "link": "https://www.langchain.com/blog/context-engineering-starts-with-retrieval",
+     "dt": "2026-10-23T21:32:37+00:00",
+     "summary": "Agents waste time and context on clumsy searches, oversized results and stale data. Learn the retrieval techniques LangChain's Deep Agents harness uses to get the right context in.",
+     "extra": {},
+     "skills": [
+      "prompt_context",
+      "rag",
+      "agent_architecture",
+      "eval_observability"
+     ],
+     "learn_score": 3.121,
+     "score": 3.121,
+     "tokens": [
+      "agent",
+      "agents",
+      "ai",
+      "context",
+      "engineering",
+      "memory",
+      "retrieval",
+      "starts"
+     ],
+     "flag": "new"
+    }
+   ]
+  },
+  {
+   "skill": "rag",
+   "label": "RAG 检索增强",
+   "items": [
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.CL",
+     "title": "alkhder at ImageEval 2026 Shared Tasks: Constrained Selection and Rotation-Averaged Logit Scoring for Multimodal Hallucination Detection",
+     "link": "https://arxiv.org/abs/2610.22515",
+     "dt": "2026-10-19T00:00:00-04:00",
+     "summary": "arXiv:2610.22515v1 Announce Type: new Abstract: We describe our submission to Subtask~1b of ImageEval 2026. The task consists of selecting the single visually valid statement from three candidates paired with an image, and is in both English and Modern Standard Arabic (MSA). Our system uses a pre-trained 7B vision--language model in a zero-shot setting, without task-specific training or fine-tuning. We formulate the task as a constrained selection problem and choose the answer using next-token l",
+     "extra": {},
+     "weight_override": 1.3,
+     "skills": [
+      "rag",
+      "eval_observability",
+      "training_serving"
+     ],
+     "learn_score": 4.177,
+     "score": 8.354,
+     "tokens": [
+      "2026",
+      "alkhder",
+      "averaged",
+      "constrained",
+      "detection",
+      "hallucination",
+      "imageeval",
+      "logit",
+      "multimodal",
+      "rotation",
+      "scoring",
+      "selection",
+      "shared",
+      "tasks"
+     ],
+     "flag": "new"
+    },
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.AI",
+     "title": "A Small Model Asks Better: Fine-Tuning Query Clarification for Retrieval-Augmented Generation",
+     "link": "https://arxiv.org/abs/2610.28686",
+     "dt": "2026-10-23T00:00:00-04:00",
+     "summary": "arXiv:2610.28686v1 Announce Type: new Abstract: Query clarification is essential for retrieval-augmented generation (RAG) systems that face ambiguous user queries. We consider multi-turn grounded conversational scenarios where a user query is either ill-formed or ambiguous in the context of the prior dialog or, more interestingly, it may be well-formed but when posed against retrieved documents there are multiple relevant interpretations. The task is to recognize both such cases and then generat",
+     "extra": {},
+     "weight_override": 1.3,
+     "skills": [
+      "rag",
+      "eval_observability",
+      "training_serving"
+     ],
+     "learn_score": 4.177,
+     "score": 8.354,
+     "tokens": [
+      "asks",
+      "augmented",
+      "better",
+      "clarification",
+      "fine",
+      "generation",
+      "model",
+      "query",
+      "retrieval",
+      "small",
+      "tuning"
+     ],
+     "flag": "new"
+    },
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.AI",
+     "title": "ECHOES: Seeing Beyond the Current Image via Recursive History Compression and Privileged On-Policy Distillation",
+     "link": "https://arxiv.org/abs/2610.22408",
+     "dt": "2026-10-19T00:00:00-04:00",
+     "summary": "arXiv:2610.22408v1 Announce Type: new Abstract: Long-horizon GUI agents rely on visual history to maintain task states, but retaining historical screenshots increases visual-token usage and inference costs, while textual summaries can discard critical state information, undermining long-horizon reliability. We propose ECHOES, which leverages training-time privileged information to guide textual history compression and strengthen long-horizon reasoning. Specifically, ECHOES adopts a Compression-T",
+     "extra": {},
+     "weight_override": 1.3,
+     "skills": [
+      "rag",
+      "training_serving"
+     ],
+     "learn_score": 3.315,
+     "score": 6.63,
+     "tokens": [
+      "beyond",
+      "compression",
+      "current",
+      "distillation",
+      "echoes",
+      "history",
+      "image",
+      "policy",
+      "privileged",
+      "recursive",
+      "seeing"
+     ],
+     "flag": "new",
+     "summary_zh": "ECHOES 通过递归历史压缩和特权在策略蒸馏，减少 GUI 代理的视觉 token 使用同时保留关键状态信息。",
+     "why_zh": "展示如何利用训练时特权信息进行历史压缩，降低视觉 token 开销，提升长时序任务可靠性，可迁移到多模态代理设计。"
+    },
+    {
+     "source": "paper",
+     "source_label": "HF Daily Papers",
+     "title": "Librarian Agents: Training LLMs to Curate Long-Context Workspaces that Anticipate Future Queries",
+     "link": "https://huggingface.co/papers/2610.22273",
+     "dt": "2026-10-14T20:00:00+00:00",
+     "summary": "Reasoning over long document contexts remains a challenge for large language models (LLMs). Standard retrieval methods are inherently reactive, bottlenecking agents with complex, cross-document reasoning at inference time, while precomputed structures like knowledge graphs often fall short because they rely on rigid heuristics. Instead, can we allow agents to perform anticipatory directed curation: learning to proactively reorganize unstructured corpora prior to inference to efficiently serve di",
+     "extra": {
+      "upvotes": 0,
+      "arxiv": "https://arxiv.org/abs/2610.22273"
+     },
+     "skills": [
+      "rag",
+      "agent_architecture",
+      "eval_observability",
+      "training_serving"
+     ],
+     "learn_score": 3.14,
+     "score": 6.28,
+     "tokens": [
+      "agents",
+      "anticipate",
+      "context",
+      "curate",
+      "future",
+      "librarian",
+      "llms",
+      "long",
+      "queries",
+      "training",
+      "workspaces"
+     ],
+     "flag": "new",
+     "summary_zh": "Librarian Agents 训练 LLM 主动策划长上下文工作空间，预测未来查询，减少检索延迟。",
+     "why_zh": "展示如何通过主动上下文策划提升长文档推理，减少实时检索瓶颈，可用于构建预取式 RAG 系统。"
+    },
+    {
+     "source": "paper",
+     "source_label": "HF Daily Papers",
+     "title": "Retrieval Augmented Generation Compositionality",
+     "link": "https://huggingface.co/papers/2610.29722",
+     "dt": "2026-10-20T20:00:00+00:00",
+     "summary": "Retrieval Augmented Generation (RAG) grounds large language models in external knowledge. Modern pipelines combine embedding, chunking, retrieval, reranking, query augmentation, context compression, and agentic verification, yet these techniques are typically evaluated one at a time. It remains unclear whether their isolated gains survive composition, whether retrieval quality and answer faithfulness favor the same design choices, and whether conclusions from small corpora hold at large scale. W",
+     "extra": {
+      "upvotes": 22,
+      "arxiv": "https://arxiv.org/abs/2610.29722"
+     },
+     "skills": [
+      "rag",
+      "eval_observability"
+     ],
+     "learn_score": 2.616,
+     "score": 6.128,
+     "tokens": [
+      "augmented",
+      "compositionality",
+      "generation",
+      "retrieval"
+     ],
+     "flag": "new"
+    }
+   ]
+  },
+  {
+   "skill": "tool_mcp",
+   "label": "工具调用 / MCP",
+   "items": [
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.AI",
+     "title": "Structured Authority Injection: Persistent Human Control for LLM Agents via Typed MCP Overrides",
+     "link": "https://arxiv.org/abs/2610.22373",
+     "dt": "2026-10-19T00:00:00-04:00",
+     "summary": "arXiv:2610.22373v1 Announce Type: new Abstract: LLM-based agents are increasingly used as autonomous orchestrators in distributed and multi-agent systems, yet a control gap remains: no protocol-level mechanism allows human operators to inject binding directives that persist across planning cycles. Free-text overrides suffer from ambiguous interpretation due to lack of schema validation and from authority erosion as operator instructions lose influence within accumulating context. We propose Stru",
+     "extra": {},
+     "weight_override": 1.3,
+     "skills": [
+      "tool_mcp",
+      "agent_architecture",
+      "multi_agent"
+     ],
+     "learn_score": 4.177,
+     "score": 8.354,
+     "tokens": [
+      "agents",
+      "authority",
+      "control",
+      "human",
+      "injection",
+      "llm",
+      "mcp",
+      "overrides",
+      "persistent",
+      "structured",
+      "typed"
+     ],
+     "flag": "new"
+    },
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.AI",
+     "title": "Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training",
+     "link": "https://arxiv.org/abs/2610.26887",
+     "dt": "2026-10-21T00:00:00-04:00",
+     "summary": "arXiv:2610.26887v1 Announce Type: new Abstract: Large language model (LLM) agents are evolving from conversational assistants into Cowork Agents capable of autonomous planning, tool use, and complex task execution. Financial analysis requires these agents to integrate cross-document evidence and perform multistep numerical reasoning, but expert task authoring is costly, while direct LLM synthesis struggles to produce challenging tasks with reliable answers. We introduce Navalia, a framework for ",
+     "extra": {},
+     "weight_override": 1.3,
+     "skills": [
+      "tool_mcp",
+      "agent_architecture"
+     ],
+     "learn_score": 3.58,
+     "score": 7.16,
+     "tokens": [
+      "advancing",
+      "agents",
+      "cowork",
+      "horizon",
+      "long",
+      "navalia",
+      "post",
+      "synthesis",
+      "task",
+      "through",
+      "training",
+      "verifiable"
+     ],
+     "flag": "new"
+    }
+   ]
+  },
+  {
+   "skill": "agent_architecture",
+   "label": "Agent 架构与循环",
+   "items": [
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.AI",
+     "title": "Industrial Agentic AI: LLM-Driven New-Generation Agents for Smart Manufacturing",
+     "link": "https://arxiv.org/abs/2610.26941",
+     "dt": "2026-10-21T00:00:00-04:00",
+     "summary": "arXiv:2610.26941v1 Announce Type: new Abstract: Large language models (LLMs) are enabling agents to move beyond predefined workflows toward autonomous planning and execution, creating new opportunities for smart manufacturing. However, dynamic environments, complex physical constraints, and stringent reliability requirements hinder the direct deployment of general-purpose agents in smart manufacturing. This article presents a systematic overview of LLM-driven industrial agents. First, we analyze",
+     "extra": {},
+     "weight_override": 1.3,
+     "skills": [
+      "agent_architecture"
+     ],
+     "learn_score": 3.729,
+     "score": 7.458,
+     "tokens": [
+      "agentic",
+      "agents",
+      "ai",
+      "driven",
+      "generation",
+      "industrial",
+      "llm",
+      "manufacturing",
+      "smart"
+     ],
+     "flag": "new"
+    }
+   ]
+  },
+  {
+   "skill": "eval_observability",
+   "label": "评测与可观测",
+   "items": [
+    {
+     "source": "youtube",
+     "source_label": "YouTube · LangChain",
+     "title": "The Boring Version of Continual Learning",
+     "link": "https://www.youtube.com/watch?v=StDAmjuQOE4",
+     "dt": "2026-10-23T15:46:27+00:00",
+     "summary": "Will Brown of Prime Intellect makes the case that continual learning is about to get boring, in a good way: it is the software development life cycle, applied to models. He traces how agent workflows grow from terminal experiments into production software, why evals should capture the vibe check, and which post-training methods he reaches for, from SFT and on-policy and context distillation to online RL, along with why he is skeptical of jumping straight to OPSD. He closes on build versus buy fo…",
+     "extra": {
+      "channel": "LangChain",
+      "video_id": "StDAmjuQOE4"
+     },
+     "skills": [
+      "eval_observability",
+      "training_serving"
+     ],
+     "learn_score": 3.098,
+     "score": 3.098,
+     "tokens": [
+      "boring",
+      "continual",
+      "learning",
+      "version"
+     ],
+     "flag": "new"
+    }
+   ]
+  }
+ ],
+ "items": [
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Structured Authority Injection: Persistent Human Control for LLM Agents via Typed MCP Overrides",
+   "link": "https://arxiv.org/abs/2610.22373",
+   "dt": "2026-10-19T00:00:00-04:00",
+   "summary": "arXiv:2610.22373v1 Announce Type: new Abstract: LLM-based agents are increasingly used as autonomous orchestrators in distributed and multi-agent systems, yet a control gap remains: no protocol-level mechanism allows human operators to inject binding directives that persist across planning cycles. Free-text overrides suffer from ambiguous interpretation due to lack of schema validation and from authority erosion as operator instructions lose influence within accumulating context. We propose Stru",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "tool_mcp",
+    "agent_architecture",
+    "multi_agent"
+   ],
+   "learn_score": 4.177,
+   "score": 8.354,
+   "tokens": [
+    "agents",
+    "authority",
+    "control",
+    "human",
+    "injection",
+    "llm",
+    "mcp",
+    "overrides",
+    "persistent",
+    "structured",
+    "typed"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.CL",
+   "title": "alkhder at ImageEval 2026 Shared Tasks: Constrained Selection and Rotation-Averaged Logit Scoring for Multimodal Hallucination Detection",
+   "link": "https://arxiv.org/abs/2610.22515",
+   "dt": "2026-10-19T00:00:00-04:00",
+   "summary": "arXiv:2610.22515v1 Announce Type: new Abstract: We describe our submission to Subtask~1b of ImageEval 2026. The task consists of selecting the single visually valid statement from three candidates paired with an image, and is in both English and Modern Standard Arabic (MSA). Our system uses a pre-trained 7B vision--language model in a zero-shot setting, without task-specific training or fine-tuning. We formulate the task as a constrained selection problem and choose the answer using next-token l",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "rag",
+    "eval_observability",
+    "training_serving"
+   ],
+   "learn_score": 4.177,
+   "score": 8.354,
+   "tokens": [
+    "2026",
+    "alkhder",
+    "averaged",
+    "constrained",
+    "detection",
+    "hallucination",
+    "imageeval",
+    "logit",
+    "multimodal",
+    "rotation",
+    "scoring",
+    "selection",
+    "shared",
+    "tasks"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.CL",
+   "title": "AutoTerm-SST: Adaptive Terminology Memory with Zero Session-Time Setup for Streaming Speech Translation",
+   "link": "https://arxiv.org/abs/2610.26865",
+   "dt": "2026-10-21T00:00:00-04:00",
+   "summary": "arXiv:2610.26865v1 Announce Type: new Abstract: Retrieval-augmented speech translation improves rare terminology, but systems such as RASST still assume that users provide a glossary before each session. That assumption is inconvenient for live talks, while merging every domain into one growing glossary eventually places too many irrelevant terms in the same retrieval and prompt competition. We present AutoTerm-SST, an interactive system that removes session-time glossary upload and domain selec",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "prompt_context",
+    "rag",
+    "eval_observability"
+   ],
+   "learn_score": 4.177,
+   "score": 8.354,
+   "tokens": [
+    "adaptive",
+    "autoterm",
+    "memory",
+    "session",
+    "setup",
+    "speech",
+    "sst",
+    "streaming",
+    "terminology",
+    "time",
+    "translation",
+    "zero"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "A Small Model Asks Better: Fine-Tuning Query Clarification for Retrieval-Augmented Generation",
+   "link": "https://arxiv.org/abs/2610.28686",
+   "dt": "2026-10-23T00:00:00-04:00",
+   "summary": "arXiv:2610.28686v1 Announce Type: new Abstract: Query clarification is essential for retrieval-augmented generation (RAG) systems that face ambiguous user queries. We consider multi-turn grounded conversational scenarios where a user query is either ill-formed or ambiguous in the context of the prior dialog or, more interestingly, it may be well-formed but when posed against retrieved documents there are multiple relevant interpretations. The task is to recognize both such cases and then generat",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "rag",
+    "eval_observability",
+    "training_serving"
+   ],
+   "learn_score": 4.177,
+   "score": 8.354,
+   "tokens": [
+    "asks",
+    "augmented",
+    "better",
+    "clarification",
+    "fine",
+    "generation",
+    "model",
+    "query",
+    "retrieval",
+    "small",
+    "tuning"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "Stateful Agentic Engineering Copilots with Letta: Core Memory, Shared State, Semantic Retrieval, Custom Tools, Streaming, and Portable Agent Workflows",
+   "link": "https://www.marktechpost.com/2026/10/24/stateful-engineering-copilots-letta-tutorial/",
+   "dt": "2026-10-24T10:29:31+00:00",
+   "summary": "Discover how to extend agentic memory beyond basic prompts by building a stateful engineering copilot with Letta. This comprehensive guide covers inspectable core memory, archival vector retrieval, multi-agent shared state, custom tools, and portable workflows. The post Stateful Agentic Engineering Copilots with Letta: Core Memory, Shared State, Semantic Retrieval, Custom Tools, Streaming, and Portable Agent Workflows appeared first on MarkTechPost .",
+   "extra": {},
+   "skills": [
+    "prompt_context",
+    "rag",
+    "multi_agent",
+    "eval_observability"
+   ],
+   "learn_score": 3.901,
+   "score": 3.901,
+   "tokens": [
+    "agent",
+    "agentic",
+    "copilots",
+    "core",
+    "custom",
+    "engineering",
+    "letta",
+    "memory",
+    "portable",
+    "retrieval",
+    "semantic",
+    "shared",
+    "state",
+    "stateful",
+    "streaming",
+    "tools",
+    "workflows"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Industrial Agentic AI: LLM-Driven New-Generation Agents for Smart Manufacturing",
+   "link": "https://arxiv.org/abs/2610.26941",
+   "dt": "2026-10-21T00:00:00-04:00",
+   "summary": "arXiv:2610.26941v1 Announce Type: new Abstract: Large language models (LLMs) are enabling agents to move beyond predefined workflows toward autonomous planning and execution, creating new opportunities for smart manufacturing. However, dynamic environments, complex physical constraints, and stringent reliability requirements hinder the direct deployment of general-purpose agents in smart manufacturing. This article presents a systematic overview of LLM-driven industrial agents. First, we analyze",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 3.729,
+   "score": 7.458,
+   "tokens": [
+    "agentic",
+    "agents",
+    "ai",
+    "driven",
+    "generation",
+    "industrial",
+    "llm",
+    "manufacturing",
+    "smart"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training",
+   "link": "https://arxiv.org/abs/2610.26887",
+   "dt": "2026-10-21T00:00:00-04:00",
+   "summary": "arXiv:2610.26887v1 Announce Type: new Abstract: Large language model (LLM) agents are evolving from conversational assistants into Cowork Agents capable of autonomous planning, tool use, and complex task execution. Financial analysis requires these agents to integrate cross-document evidence and perform multistep numerical reasoning, but expert task authoring is costly, while direct LLM synthesis struggles to produce challenging tasks with reliable answers. We introduce Navalia, a framework for ",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "tool_mcp",
+    "agent_architecture"
+   ],
+   "learn_score": 3.58,
+   "score": 7.16,
+   "tokens": [
+    "advancing",
+    "agents",
+    "cowork",
+    "horizon",
+    "long",
+    "navalia",
+    "post",
+    "synthesis",
+    "task",
+    "through",
+    "training",
+    "verifiable"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "ECHOES: Seeing Beyond the Current Image via Recursive History Compression and Privileged On-Policy Distillation",
+   "link": "https://arxiv.org/abs/2610.22408",
+   "dt": "2026-10-19T00:00:00-04:00",
+   "summary": "arXiv:2610.22408v1 Announce Type: new Abstract: Long-horizon GUI agents rely on visual history to maintain task states, but retaining historical screenshots increases visual-token usage and inference costs, while textual summaries can discard critical state information, undermining long-horizon reliability. We propose ECHOES, which leverages training-time privileged information to guide textual history compression and strengthen long-horizon reasoning. Specifically, ECHOES adopts a Compression-T",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "rag",
+    "training_serving"
+   ],
+   "learn_score": 3.315,
+   "score": 6.63,
+   "tokens": [
+    "beyond",
+    "compression",
+    "current",
+    "distillation",
+    "echoes",
+    "history",
+    "image",
+    "policy",
+    "privileged",
+    "recursive",
+    "seeing"
+   ],
+   "flag": "new",
+   "summary_zh": "ECHOES 通过递归历史压缩和特权在策略蒸馏，减少 GUI 代理的视觉 token 使用同时保留关键状态信息。",
+   "why_zh": "展示如何利用训练时特权信息进行历史压缩，降低视觉 token 开销，提升长时序任务可靠性，可迁移到多模态代理设计。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Librarian Agents: Training LLMs to Curate Long-Context Workspaces that Anticipate Future Queries",
+   "link": "https://huggingface.co/papers/2610.22273",
+   "dt": "2026-10-14T20:00:00+00:00",
+   "summary": "Reasoning over long document contexts remains a challenge for large language models (LLMs). Standard retrieval methods are inherently reactive, bottlenecking agents with complex, cross-document reasoning at inference time, while precomputed structures like knowledge graphs often fall short because they rely on rigid heuristics. Instead, can we allow agents to perform anticipatory directed curation: learning to proactively reorganize unstructured corpora prior to inference to efficiently serve di",
+   "extra": {
+    "upvotes": 0,
+    "arxiv": "https://arxiv.org/abs/2610.22273"
+   },
+   "skills": [
+    "rag",
+    "agent_architecture",
+    "eval_observability",
+    "training_serving"
+   ],
+   "learn_score": 3.14,
+   "score": 6.28,
+   "tokens": [
+    "agents",
+    "anticipate",
+    "context",
+    "curate",
+    "future",
+    "librarian",
+    "llms",
+    "long",
+    "queries",
+    "training",
+    "workspaces"
+   ],
+   "flag": "new",
+   "summary_zh": "Librarian Agents 训练 LLM 主动策划长上下文工作空间，预测未来查询，减少检索延迟。",
+   "why_zh": "展示如何通过主动上下文策划提升长文档推理，减少实时检索瓶颈，可用于构建预取式 RAG 系统。"
+  },
+  {
+   "source": "blog",
+   "source_label": "LangChain 博客",
+   "title": "Context Engineering (Agent Memory) for AI Agents Starts with Retrieval",
+   "link": "https://www.langchain.com/blog/context-engineering-starts-with-retrieval",
+   "dt": "2026-10-23T21:32:37+00:00",
+   "summary": "Agents waste time and context on clumsy searches, oversized results and stale data. Learn the retrieval techniques LangChain's Deep Agents harness uses to get the right context in.",
+   "extra": {},
+   "skills": [
+    "prompt_context",
+    "rag",
+    "agent_architecture",
+    "eval_observability"
+   ],
+   "learn_score": 3.121,
+   "score": 3.121,
+   "tokens": [
+    "agent",
+    "agents",
+    "ai",
+    "context",
+    "engineering",
+    "memory",
+    "retrieval",
+    "starts"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "The Boring Version of Continual Learning",
+   "link": "https://www.youtube.com/watch?v=StDAmjuQOE4",
+   "dt": "2026-10-23T15:46:27+00:00",
+   "summary": "Will Brown of Prime Intellect makes the case that continual learning is about to get boring, in a good way: it is the software development life cycle, applied to models. He traces how agent workflows grow from terminal experiments into production software, why evals should capture the vibe check, and which post-training methods he reaches for, from SFT and on-policy and context distillation to online RL, along with why he is skeptical of jumping straight to OPSD. He closes on build versus buy fo…",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": "StDAmjuQOE4"
+   },
+   "skills": [
+    "eval_observability",
+    "training_serving"
+   ],
+   "learn_score": 3.098,
+   "score": 3.098,
+   "tokens": [
+    "boring",
+    "continual",
+    "learning",
+    "version"
+   ],
+   "flag": "new"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Retrieval Augmented Generation Compositionality",
+   "link": "https://huggingface.co/papers/2610.29722",
+   "dt": "2026-10-20T20:00:00+00:00",
+   "summary": "Retrieval Augmented Generation (RAG) grounds large language models in external knowledge. Modern pipelines combine embedding, chunking, retrieval, reranking, query augmentation, context compression, and agentic verification, yet these techniques are typically evaluated one at a time. It remains unclear whether their isolated gains survive composition, whether retrieval quality and answer faithfulness favor the same design choices, and whether conclusions from small corpora hold at large scale. W",
+   "extra": {
+    "upvotes": 22,
+    "arxiv": "https://arxiv.org/abs/2610.29722"
+   },
+   "skills": [
+    "rag",
+    "eval_observability"
+   ],
+   "learn_score": 2.616,
+   "score": 6.128,
+   "tokens": [
+    "augmented",
+    "compositionality",
+    "generation",
+    "retrieval"
+   ],
+   "flag": "new"
+  }
+ ]
+}
