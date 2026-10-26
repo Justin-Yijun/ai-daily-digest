@@ -36,7 +36,9 @@
     "sibling",
     "topology"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "PRISM 提出基于特权兄弟节点引导的多智能体拓扑设计方法，自动生成协作拓扑。",
+   "why_zh": "涉及多智能体系统架构设计，可学习用引导机制自动构建高效通信拓扑，复用于 Agent 编排。"
   },
   {
    "source": "paper",
@@ -68,7 +70,9 @@
     "system",
     "vision"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "MeddeX 结合 QLoRA 微调 LLaMA-3-8B 与 Gemini Vision，实现基于检索增强的医疗报告证据分析。",
+   "why_zh": "落地 RAG+多模态微调管线，展示医疗垂直领域融合视觉语言模型与检索，可复用于领域适配与证据溯源。"
   },
   {
    "source": "paper",
@@ -92,7 +96,9 @@
     "model",
     "saturation"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "研究基准饱和后的模型能力评估，挖掘基准项更多信息而非仅分数。",
+   "why_zh": "涉及评测方法论创新，可学习设计细粒度诊断指标、利用元数据做能力画像，复用于模型选型与安全论证。"
   },
   {
    "source": "github",
@@ -125,7 +131,9 @@
     "freetoken",
     "org"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "FreeToken 让桌面端以数据中心级吞吐运行超大模型，提供本地高效推理服务。",
+   "why_zh": "关注本地部署优化，可学习模型量化、内存管理、推理引擎调度等工程技巧，复用于边缘/私有化部署。"
   },
   {
    "source": "github",
@@ -158,7 +166,9 @@
     "ios",
     "lody"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "Lody iOS 原生客户端上线，支持聊天、会话管理及编码 Agent 协作。",
+   "why_zh": "展示移动端 Agent 交互工程化，可学习 Swift 侧流式渲染、会话持久化、工具调用桥接等实现细节。"
   },
   {
    "source": "github",
@@ -190,7 +200,9 @@
     "iphone",
     "onehumanbeing"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "用 7 美元 ESP32 让 AI 通过 AirPlay 视觉与 USB HID 控制真实 iPhone，无需越狱。",
+   "why_zh": "演示低成本硬件桥接多模态模型操作移动设备，可学习嵌入式视频采集、HID 注入、跨平台 Agent 执行闭环设计。"
   },
   {
    "source": "hackernews",
@@ -610,5 +622,6 @@
    "summary_zh": "提供与应用解耦的 Codex 计算机使用能力，可在任意 harness 中调用。",
    "why_zh": "展示如何将大模型能力封装为可插拔服务，可学习解耦设计与代理集成的实践。"
   }
- ]
+ ],
+ "summary_missing": []
 }

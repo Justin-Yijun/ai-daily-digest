@@ -40,7 +40,9 @@
     "small",
     "tuning"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "提出小模型微调方法解决 RAG 中的查询澄清问题，在多轮对话中优化模糊查询，提升检索精度。",
+   "why_zh": "涉及 RAG 系统优化与 Few-shot 微调策略，学习如何在小模型上实现高效的对话上下文理解与检索增强。"
   },
   {
    "source": "paper",
@@ -69,7 +71,9 @@
     "q1",
     "systems"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "发布 IQuest-Q1，一款 320B 稀疏 MoE 代理基础模型，采用三阶段预训练，增强 CLI 代理能力。",
+   "why_zh": "关注大规模 MoE 架构与代理（Agentic）模型训练细节，可借鉴其稳定性技巧与代码数据混合策略。"
   },
   {
    "source": "github",
@@ -100,7 +104,9 @@
    "tokens": [
     "folkbench"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "开源 Rust 工具 Folkbench，提供 AI API 中转站评测排行与切换功能，实测 Claude Code 等兼容性。",
+   "why_zh": "涉及 LLM 基础设施开发与性能基准测试，学习如何构建多 API 路由代理及监控可用性与延迟。"
   },
   {
    "source": "github",
@@ -132,7 +138,9 @@
     "dev",
     "ollaya"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "Ollaya 是兼容 Jev API 的本地服务器，支持 24 种决策模型家族，提供 CLI、MCP 服务器及 Docker 部署。",
+   "why_zh": "涉及本地模型推理服务架构，学习如何封装不同模型为统一 API，并集成 MCP 协议与类型安全 SDK。"
   },
   {
    "source": "github",
@@ -167,7 +175,9 @@
     "roadmap",
     "tec"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "AI Roadmap 2026，为初学者提供从 LLM 工程到代理及生产的分层学习路径，含免费资源与迷你项目。",
+   "why_zh": "虽非技术库，但提供系统化的 Agent 工程化知识体系，有助于构建从基础到生产的完整技术栈认知。"
   },
   {
    "source": "hackernews",
@@ -194,7 +204,9 @@
     "runtime",
     "safe"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "OpenShell 项目提供安全私密的运行时环境，专为大规模自主 AI 代理集群设计，保障执行安全。",
+   "why_zh": "涉及 Agent 安全沙箱与隔离技术，学习如何为大规模自主代理构建可信执行环境及资源管控机制。"
   },
   {
    "source": "hackernews",
@@ -222,7 +234,9 @@
     "software",
     "verification"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "文章指出 LLMs 正在让更大规模的正式软件验证变得可行，显著提升验证效率。",
+   "why_zh": "掌握形式化验证与 LLM 结合的前沿应用，了解如何用 AI 降低复杂系统验证门槛的技能。"
   },
   {
    "source": "github",
@@ -252,7 +266,9 @@
     "cleanyourtv",
     "gathin23"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "开源项目 Gathin23/cleanyourtv 通过 Wi-Fi 去繁 Android 或 Google TV，实现 Apple TV 风格主页。",
+   "why_zh": "涉及 Android 系统定制与低代码开发实践，适合工程师学习移动端系统优化及 UI 重构的工程技巧。"
   },
   {
    "source": "youtube",
@@ -277,7 +293,9 @@
     "learning",
     "version"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "Prime Intellect 的 Will Brown 主张将持续学习视为模型软件开发周期，涵盖 SFT、蒸馏及评估方法。",
+   "why_zh": "学习 AI 模型运维（MLOps）全生命周期管理，掌握后训练策略选择及评估体系构建的核心工程思维。"
   },
   {
    "source": "blog",
@@ -304,7 +322,9 @@
     "search",
     "tinyfish"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "TinyFish 解析生产级 Agentic 搜索架构，定义 7 阶段流程、证据契约及有界重试，优化深度研究系统。",
+   "why_zh": "深入理解 Agent 工作流设计、错误处理机制及证据驱动架构，提升构建高可靠性 AI 系统的工程能力。"
   },
   {
    "source": "blog",
@@ -327,7 +347,9 @@
     "foundation",
     "skills"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "Anthropic 将 Agent Skills 标准捐赠给 Linux 基金会旗下的 Agentic AI Foundation (AAIF)，确保其开放中立。",
+   "why_zh": "关注 AI 生态标准化进程，理解 MCP 与 Agent Skills 等协议在跨厂商协作中的治理与工程实现逻辑。"
   },
   {
    "source": "youtube",
@@ -352,7 +374,9 @@
     "uber",
     "work"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "Uber 将 ChatGPT Work 部署给超 3 万名员工，成为首个大规模企业级 Agentic 知识工作平台。",
+   "why_zh": "研究大规模企业 AI 落地案例，学习如何将 Agentic 平台集成至非工程部门以重构工作流的知识管理方法。"
   },
   {
    "source": "blog",
@@ -380,7 +404,9 @@
     "storage",
     "users"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "OpenAI 通过多租户、全球缓存和 Azure Cosmos DB 扩展 Habitat，使 ChatGPT 读取速度提升 12 倍",
+   "why_zh": "属于大规模在线存储与多租户架构技能点，可复用全球缓存层设计和 Cosmos DB 分区策略"
   },
   {
    "source": "youtube",
@@ -405,7 +431,9 @@
     "opening",
     "teach"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "梅西让 ChatGPT 推荐符合风格的国际象棋开局，模型给出“羊角”并演示逐步教学",
+   "why_zh": "属于提示工程与个性化交互技能点，展示如何利用用户画像生成定制化分步教学提示"
   }
  ],
  "dups": [
@@ -603,5 +631,6 @@
    "summary_zh": "SolidCraft 是用纯 Rust 构建的开源参数化3D CAD 应用，支持桌面、网页及MCP自动化。",
    "why_zh": "演示Rust在复杂图形系统中的工程实践，可参考高性能跨平台CAD开发。"
   }
- ]
+ ],
+ "summary_missing": []
 }

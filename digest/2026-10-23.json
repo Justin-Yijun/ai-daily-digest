@@ -38,7 +38,9 @@
     "spatialscout",
     "vlm"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "SpatialScout 基准评测 VLM 代理主动探索并构建 3D 场景度量地图能力",
+   "why_zh": "属于具身智能/空间推理技能点，展示如何设计主动探索评测指标与地图构建流程，可复用于 VLM 导航与建图任务"
   },
   {
    "source": "paper",
@@ -63,7 +65,9 @@
     "generation",
     "retrieval"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "研究 RAG 多组件组合时的检索质量与答案忠实度是否保持增益",
+   "why_zh": "属于 RAG 系统工程技能点，揭示组件组合评测方法与指标设计，指导端到端 RAG 优化"
   },
   {
    "source": "github",
@@ -99,7 +103,9 @@
     "rag",
     "wang"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "按问题复杂度自动分流的电商客服 RAG，支持多跳检索、自我纠错、工具调用与人工确认",
+   "why_zh": "属于 RAG 工程与 LangGraph 编排技能点，展示复杂度路由、混合检索、离线评测与可观测性最佳实践"
   },
   {
    "source": "github",
@@ -135,7 +141,9 @@
     "plugins",
     "sh"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "DeepSeek Harness 插件市场，汇聚 1.1 万+ 插件并提供搜索、排名、安装命令与免费 API",
+   "why_zh": "属于插件生态与工具链集成技能点，示范插件自动收集、校验、发布流程与公共 API 设计"
   },
   {
    "source": "github",
@@ -170,7 +178,9 @@
     "engine",
     "org"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "确定性代码图上下文引擎，基于 PostgreSQL+Apache AGE+pgvector，提供 MCP/REST 接口，无 LLM 参与",
+   "why_zh": "属于代码智能上下文检索技能点，展示图数据库+向量检索的混合索引架构与零 LLM 延迟设计"
   },
   {
    "source": "hackernews",
@@ -191,7 +201,9 @@
     "claude",
     "duet"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "Claude Duet：双 Claude 协作框架，实现模型间对话与任务分工",
+   "why_zh": "属于多模型协作编排技能点，展示如何设计双代理交互协议与上下文共享机制"
   },
   {
    "source": "github",
@@ -220,7 +232,9 @@
     "comma",
     "surf"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "开源 AI 个人助手 Comma，常驻、主动、无会话，支持浏览器、文件、远程控制，兼容 ChatGPT/Codex 与 Claude Code，可自托管替代 Muse 等。",
+   "why_zh": "展示如何用 Go/Elixir 构建常驻 Agent 架构、会话管理与工具调用集成，适合学习自托管助手的工程落地。"
   },
   {
    "source": "hackernews",
@@ -247,7 +261,9 @@
     "uncover",
     "vulnerabilities"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "Patch the Planet 平台演示多 Agent 协作发现并协调修补全球漏洞。",
+   "why_zh": "体现多 Agent 协同、漏洞情报聚合与自动化响应流程，适合学习安全领域 Agent 编排。"
   },
   {
    "source": "youtube",
@@ -274,7 +290,9 @@
     "offloading",
     "summarization"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "LangChain 视频讲解 Deep Agents 通过卸载大工具结果到虚拟文件系统和摘要化缓解上下文腐烂。",
+   "why_zh": "学习上下文工程技巧：offloading 与 summarization 的落地实现，提升长运行 Agent 推理稳定性。"
   },
   {
    "source": "blog",
@@ -315,7 +333,9 @@
     "whistle",
     "word"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "对比 Cactus Whistle 16.9MB 语音模型与 Whisper Base 的 WER、CPU 速度、流式延迟、时间戳、关键词及语音转工具调用。",
+   "why_zh": "掌握轻量语音模型评测指标与 CPU 推理优化，指导边缘部署语音交互 Agent。"
   },
   {
    "source": "blog",
@@ -339,7 +359,9 @@
     "python",
     "tutorial"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "NVIDIA Nsight Python 开源接口教程，演示从 Python 分析 GPU 内核、硬件指标、缓存/时钟控制及内核融合。",
+   "why_zh": "学会在 Python 中直接做 GPU 性能剖析，掌握内核级优化工具链，提升训练/推理吞吐。"
   },
   {
    "source": "blog",
@@ -365,7 +387,9 @@
     "train",
     "world"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "NVIDIA Cosmos 发布训练、评估、部署世界模型的新工具、仿真检查点与 Data Factory 蓝图，六榜单前五。",
+   "why_zh": "了解世界模型构建全流程工具链，学习大规模仿真数据生成与模型评估最佳实践。"
   },
   {
    "source": "youtube",
@@ -396,7 +420,9 @@
     "us",
     "way"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "Cole Medin 指出 AI 编程虽提速但破坏深度专注，他通过并行运行多个 agent 会话、全天口述提示及频繁切换来应对疲劳，分享具体工作流优化。",
+   "why_zh": "体现 AI 工程师对「认知负荷」与 Agent 编排能力的关注；学习如何管理多 Agent 会话上下文、避免注意力碎片化的实用工作流技巧。"
   },
   {
    "source": "youtube",
@@ -423,7 +449,9 @@
     "v7",
     "while"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "OpenAI 发布案例：V7 Go 用 GPT-6 Astra 在 Context Graph 上查询数千文档，投资筛选/保险承保任务准确率 89%，成本降 78%。",
+   "why_zh": "展示 RAG 进化方向：用 Context Graph 替代传统向量检索；面试可聊「结构化知识图谱+LLM」混合架构及成本优化策略。"
   }
  ],
  "dups": [
@@ -588,5 +616,6 @@
    "summary_zh": "使用 Claude Code 及 fal MCP 进行游戏逆向、资产生成、测试等全流程 MOD 制作。",
    "why_zh": "表明大模型可直接参与游戏逆向与内容创作，为工程师提供新范式。"
   }
- ]
+ ],
+ "summary_missing": []
 }

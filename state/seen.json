@@ -3058,8 +3058,8 @@
     "topology"
    ],
    "source": "paper",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "PRISM 提出基于特权兄弟节点引导的多智能体拓扑设计方法，自动生成协作拓扑。",
+   "why_zh": "涉及多智能体系统架构设计，可学习用引导机制自动构建高效通信拓扑，复用于 Agent 编排。"
   },
   "https://arxiv.org/abs/2610.20632": {
    "title": "MeddeX: A Retrieval-Augmented LLaMA-3 System with Gemini Vision for Evidence-Backed Medical Report Analysis",
@@ -3079,8 +3079,8 @@
     "vision"
    ],
    "source": "paper",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "MeddeX 结合 QLoRA 微调 LLaMA-3-8B 与 Gemini Vision，实现基于检索增强的医疗报告证据分析。",
+   "why_zh": "落地 RAG+多模态微调管线，展示医疗垂直领域融合视觉语言模型与检索，可复用于领域适配与证据溯源。"
   },
   "https://arxiv.org/abs/2610.20667": {
    "title": "Evaluating Model Capabilities After Benchmark Saturation",
@@ -3094,8 +3094,8 @@
     "saturation"
    ],
    "source": "paper",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "研究基准饱和后的模型能力评估，挖掘基准项更多信息而非仅分数。",
+   "why_zh": "涉及评测方法论创新，可学习设计细粒度诊断指标、利用元数据做能力画像，复用于模型选型与安全论证。"
   },
   "https://github.com/FlashML-org/FreeToken": {
    "title": "FlashML-org/FreeToken",
@@ -3106,8 +3106,8 @@
     "org"
    ],
    "source": "github",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "FreeToken 让桌面端以数据中心级吞吐运行超大模型，提供本地高效推理服务。",
+   "why_zh": "关注本地部署优化，可学习模型量化、内存管理、推理引擎调度等工程技巧，复用于边缘/私有化部署。"
   },
   "https://github.com/Innei/lody-ios": {
    "title": "Innei/lody-ios",
@@ -3118,8 +3118,8 @@
     "lody"
    ],
    "source": "github",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "Lody iOS 原生客户端上线，支持聊天、会话管理及编码 Agent 协作。",
+   "why_zh": "展示移动端 Agent 交互工程化，可学习 Swift 侧流式渲染、会话持久化、工具调用桥接等实现细节。"
   },
   "https://github.com/onehumanbeing/esp32-iphone-agent": {
    "title": "onehumanbeing/esp32-iphone-agent",
@@ -3131,8 +3131,8 @@
     "onehumanbeing"
    ],
    "source": "github",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "用 7 美元 ESP32 让 AI 通过 AirPlay 视觉与 USB HID 控制真实 iPhone，无需越狱。",
+   "why_zh": "演示低成本硬件桥接多模态模型操作移动设备，可学习嵌入式视频采集、HID 注入、跨平台 Agent 执行闭环设计。"
   },
   "https://lwn.net/Articles/1100449/": {
    "title": "Linus Torvalds's first LLM-assisted patch series",
@@ -3464,16 +3464,16 @@
    "date": "2026-10-20",
    "tokens": [],
    "source": "paper",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "提出结构化权限注入机制，通过类型化 MCP 覆盖实现跨规划周期持久化的人类控制，解决 LLM Agent 指令模糊问题。",
+   "why_zh": "涉及 Agent 控制协议设计，可复用 Typed Override 思路解决多 Agent 系统中人类干预的 schema 验证与状态持久化难题。"
   },
   "https://arxiv.org/abs/2610.22515": {
    "title": "alkhder at ImageEval 2026 Shared Tasks: Constrained Selection and Rotation-Averaged Logit Scoring for Multimodal Hallucination Detection",
    "date": "2026-10-20",
    "tokens": [],
    "source": "paper",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "团队利用预训练 7B VLM 零样本处理 ImageEval 2026 任务，通过约束选择和旋转平均 Logit 评分检测多模态幻觉。",
+   "why_zh": "掌握 VLM 零样本微调替代方案，学习 Logit 平均与约束解码技巧，适用于多模态幻觉评估场景。"
   },
   "https://github.com/trhhubsd/ARTEX": {
    "title": "trhhubsd/ARTEX",
@@ -3483,8 +3483,8 @@
     "trhhubsd"
    ],
    "source": "github",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "ARTEX 是 Go 和 Next.js 构建的 AI 自主渗透测试系统，采用多 Agent LLM 架构，获百度 Agent+ 攻防挑战赛冠军。",
+   "why_zh": "案例展示多 Agent 协同在安全领域落地，可借鉴其攻防场景下的任务分解与状态管理架构设计。"
   },
   "https://github.com/google-research/harness2": {
    "title": "google-research/harness2",
@@ -3495,8 +3495,8 @@
     "research"
    ],
    "source": "github",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "Google Research 开源 harness2 项目，具体功能暂无简介，需结合代码库上下文判断其评估或测试用途。",
+   "why_zh": "关注顶级实验室开源工具，通过阅读代码可学习大模型评估框架或测试流水线的标准化工程实践。"
   },
   "https://github.com/justxor/deepseek-local-guide-ru": {
    "title": "justxor/deepseek-local-guide-ru",
@@ -3509,8 +3509,8 @@
     "ru"
    ],
    "source": "github",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "提供俄语详细指南，介绍 DeepSeek 本地部署全流程，涵盖 Ollama、vLLM 等工具及 RAG、Agent 和微调技巧。",
+   "why_zh": "虽为本地部署教程，但涵盖 vLLM 推理优化与 RAG/Agent 集成配置，对工程落地栈选型有参考价值。"
   },
   "https://sphinx-six-theta.vercel.app/": {
    "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
@@ -3527,8 +3527,8 @@
     "sphinx"
    ],
    "source": "hackernews",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "Sphinx 是一个钩子工具，在代码推送前通过问卷测试开发者是否理解 AI 生成的代码，确保交付质量。",
+   "why_zh": "探索 AI 辅助编程的安全边界，可借鉴代码理解度验证机制，解决 AI 生成代码的黑箱信任问题。"
   },
   "https://arxiv.org/abs/2610.18861": {
    "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
@@ -3894,8 +3894,8 @@
     "sourced"
    ],
    "source": "hackernews",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "DeepSeek 开源其推理引擎，提升模型部署效率与透明性",
+   "why_zh": "属推理优化技能点，可学习高性能推理架构设计、内存管理及 kernel 优化实践"
   },
   "https://github.com/ysr666/dsh-vision-router": {
    "title": "ysr666/dsh-vision-router",
@@ -3907,8 +3907,8 @@
     "ysr666"
    ],
    "source": "github",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "dsh-vision-router 为 DeepSeek 文本 agent 提供免 key 视觉工具链，支持像素级视觉操作",
+   "why_zh": "属多模态 Agent 工程技能点，掌握如何将视觉能力封装为标准 tool-calling 接口"
   },
   "https://huggingface.co/papers/2610.19439": {
    "title": "Progress-Aware Distillation for Mitigating Stagnation in Small Language Model Agents",
@@ -3925,8 +3925,8 @@
     "stagnation"
    ],
    "source": "paper",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "提出进展感知蒸馏方法，缓解小模型 agent 训练停滞问题",
+   "why_zh": "属模型压缩与 agent 效率技能点，学习如何利用任务进展信号优化小模型 agentic 能力迁移"
   },
   "https://github.com/tap222/assay-evals": {
    "title": "tap222/assay-evals",
@@ -3937,8 +3937,8 @@
     "tap222"
    ],
    "source": "github",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "assay-evals 提供 AI agent 行为回归测试框架，含 pytest 插件与 CI 门禁",
+   "why_zh": "属 Agent 质量保障技能点，掌握如何构建可复用的 agent 行为 diff 测试与自动化评估流程"
   },
   "https://github.com/Lowaltitudeflight/local-llm-tuning-guide": {
    "title": "Lowaltitudeflight/local-llm-tuning-guide",
@@ -3951,8 +3951,8 @@
     "tuning"
    ],
    "source": "github",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "local-llm-tuning-guide 总结无 NVLink 多卡本地 LLM 调优决策库，含量化与推测解码策略",
+   "why_zh": "属分布式推理与部署技能点，学习在受限硬件上优化并行策略与通信开销的实战经验"
   },
   "https://huggingface.co/papers/2610.19005": {
    "title": "CyberArena: Benchmarking AI Agents in Live Symmetric Attack-and-Defense Combat",
@@ -3969,8 +3969,8 @@
     "symmetric"
    ],
    "source": "paper",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "CyberArena 基准测试 AI agent 在动态对抗场景中的攻防能力，突破静态基准局限",
+   "why_zh": "属 Agent 评估与红队技能点，学习如何设计动态耦合环境以真实评估 agent 安全攻防表现"
   },
   "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions": {
    "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
@@ -3987,8 +3987,8 @@
     "whatsapp"
    ],
    "source": "hackernews",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "WhatsApp 帮助中心页面被曝隐藏了针对 LLM 的指令，内容涉及禁止推荐监管机构，引发关于 LLM 提示词工程与伦理的讨论。",
+   "why_zh": "提示词注入与防御：学习如何在生产环境中识别隐藏在网页元数据或文本中的恶意指令，掌握 Prompt 安全加固的实际案例。"
   },
   "https://github.com/alchaincyf/huashu-art-motion": {
    "title": "alchaincyf/huashu-art-motion",
@@ -4000,8 +4000,8 @@
     "motion"
    ],
    "source": "github",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "开源项目 huashu-art-motion 提供 35 种艺术风格与 9 种解说语法的代码库，通过代码驱动实现静态图像的动态化动画效果。",
+   "why_zh": "代码生成与多媒体结合：探索利用 LLM 生成逻辑代码（如 CSS/JS/Canvas）来驱动视觉动效的技术路径，适合构建自动化创意工具链。"
   },
   "https://www.youtube.com/watch?v=TVhhmhvCovg": {
    "title": "Let Your AI Agent Do ITS OWN Harness Engineering (Here's How)",
@@ -4017,8 +4017,8 @@
     "own"
    ],
    "source": "youtube",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "教程演示如何让 AI Agent 自主进行 Harness Engineering，通过分析对话日志提议并优化自身的规则、技能与记忆模块。",
+   "why_zh": "Agent 自我进化：掌握让 Agent 修改自身 System Prompt 或记忆库的闭环机制，涉及元学习（Meta-learning）与自动化工程优化。"
   },
   "https://www.marktechpost.com/2026/10/20/exa-3-0-search-api-lite/": {
    "title": "Exa 3.0 Search API Tops Perplexity, Brave and Parallel on 8 Benchmarks",
@@ -4034,8 +4034,8 @@
     "tops"
    ],
    "source": "blog",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "Exa 3.0 Search API 发布，集成更大嵌入模型、低价 Exa Lite 及 Dynamic Highlights，在 8 项基准测试中领先 Perplexity 等竞品。",
+   "why_zh": "RAG 检索层优化：理解专用搜索 API 如何超越通用 LLM，学习利用动态摘要和低成本接口提升检索增强生成的效率与成本效益。"
   },
   "https://www.youtube.com/watch?v=bEO_QeJU7U0": {
    "title": "Do Diffusion LLMs Scale? Testing Mercury 3 + Decide",
@@ -4050,8 +4050,8 @@
     "testing"
    ],
    "source": "youtube",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "Inception 的扩散 LLM Mercury 3 实现每秒 1000+ token 速度，其决策模型 Mercury Decide 支持图像读取，视频展示独立评测对比。",
+   "why_zh": "架构性能权衡：分析扩散模型在推理速度上的突破及其在边缘计算或高吞吐场景下的应用潜力，对比自回归模型的性能瓶颈。"
   },
   "https://www.marktechpost.com/2026/10/19/inception-mercury-3-diffusion-llm/": {
    "title": "Inception Releases Mercury 3 Diffusion LLM at 1,068 Tokens per Second",
@@ -4068,8 +4068,8 @@
     "tokens"
    ],
    "source": "blog",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "Inception 发布 Mercury 3 扩散 LLM，宣称达 1,068 tokens/s 及 1M 上下文，在自测表中于 12 项基准中的 8 项领先 GPT-6 等模型。",
+   "why_zh": "长上下文与速度：关注扩散架构在处理百万级上下文时的吞吐能力，学习如何评估非传统 LLM 架构在推理延迟和成本上的实际表现。"
   },
   "https://aiera.com.cn/2026/10/20/other/admin/119614/%e5%bd%93coding-agent%e5%bc%80%e5%a7%8b%e5%8a%a8%e6%80%81%e5%b9%b6%e8%a1%8c%ef%bc%8c%e8%bd%af%e4%bb%b6%e5%bc%80%e5%8f%91%e5%8f%98%e5%be%97%e6%9b%b4%e5%a5%bd%e4%ba%86%e5%90%97%ef%bc%9f/": {
    "title": "当Coding Agent开始动态并行，软件开发变得更好了吗？",
@@ -4080,8 +4080,8 @@
     "软件开发变得更好了吗"
    ],
    "source": "blog",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "探讨 Coding Agent 进入动态并行阶段，突破过去修复 Bug 或独立功能的局限，分析其对软件开发效率及 SWE-bench 基准测试的影响。",
+   "why_zh": "涉及 Agent 架构演进与并行调度机制，帮助工程师理解多任务并发处理逻辑及评估大型语言模型在软件工程领域的实际落地能力。"
   },
   "https://www.youtube.com/watch?v=DQHtmW9ZlIs": {
    "title": "Cooking with Codex: Ep. 1",
@@ -4092,8 +4092,8 @@
     "ep"
    ],
    "source": "youtube",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "OpenAI 发布 Codex 演示视频，展示 GPT-Live 引导烹饪流程，介绍 Codex 云端环境保持任务运行及 CLI 支持语音输入、Agent 管理与多工作树分叉功能。",
+   "why_zh": "涵盖 Agent 环境持久化、人机交互优化及多分支任务管理，有助于掌握长时程 Agent 任务的状态保持与复杂工作流编排技巧。"
   },
   "https://arxiv.org/abs/2610.26865": {
    "title": "AutoTerm-SST: Adaptive Terminology Memory with Zero Session-Time Setup for Streaming Speech Translation",
@@ -4113,24 +4113,24 @@
     "zero"
    ],
    "source": "paper",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "AutoTerm-SST 提出零会话前置的自适应术语记忆，解决流式语音翻译中术语检索需预先提供词表的痛点。",
+   "why_zh": "展示流式语音翻译中动态术语检索与自适应记忆机制的工程落地，属 RAG 与实时系统结合技能点。"
   },
   "https://arxiv.org/abs/2610.26941": {
    "title": "Industrial Agentic AI: LLM-Driven New-Generation Agents for Smart Manufacturing",
    "date": "2026-10-23",
    "tokens": [],
    "source": "paper",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "论文探讨 LLM 驱动的新一代智能体在智能制造中的应用，针对动态环境、物理约束与可靠性要求提出部署框架。",
+   "why_zh": "涵盖 Agent 规划、工具调用与工业物理约束融合的工程实践，属具身智能与工业落地技能点。"
   },
   "https://arxiv.org/abs/2610.26887": {
    "title": "Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training",
    "date": "2026-10-23",
    "tokens": [],
    "source": "paper",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "Navalia 通过可验证任务合成与长程后训练，提升 Cowork Agent 在金融分析中跨文档证据整合与多步数值推理能力。",
+   "why_zh": "演示如何用合成数据与长程 RL 强化 Agent 复杂推理，属 Agent 训练数据构建与评估技能点。"
   },
   "https://github.com/pinganbbOvO/ai-companion-kit": {
    "title": "pinganbbOvO/ai-companion-kit",
@@ -4142,8 +4142,8 @@
     "pinganbbovo"
    ],
    "source": "github",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "ai-companion-kit 实现具备记忆、场景感知的 QQ 陪聊机器人，并通过 MCP 控制安卓手机，赋予 AI “身体”。",
+   "why_zh": "展示 MCP 协议在移动端控制与长期记忆人格化 Agent 的工程集成，属多模态交互与工具链落地技能点。"
   },
   "https://github.com/zhu1090093659/dsh-web": {
    "title": "zhu1090093659/dsh-web",
@@ -4154,8 +4154,8 @@
     "zhu1090093659"
    ],
    "source": "github",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "dsh-web 构建 DeepSeek Harness 插件聚合生态，采用“万物皆插件”架构并通过创意工坊分发，支持 Web 侧功能扩展。",
+   "why_zh": "提供插件化架构设计与生态分发的完整案例，属 LLM 应用工程化与插件系统设计技能点。"
   },
   "https://github.com/wh000wh000/awesome-jev-live": {
    "title": "wh000wh000/awesome-jev-live",
@@ -4167,8 +4167,8 @@
     "wh000wh000"
    ],
    "source": "github",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "awesome-jev-live 持续维护 20 语言的 TypeSafe System One 生态索引，按证据分级收录 SDK、MCP 工具、Agent 与开放模型，每 2 小时重建。",
+   "why_zh": "展示大规模多语言工具链自动化采集、评分与持续集成流程，属开发者工具链工程化与数据治理技能点。"
   },
   "https://github.com/respanai/respan-gateway": {
    "title": "respanai/respan-gateway",
@@ -4179,8 +4179,8 @@
     "respanai"
    ],
    "source": "github",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "respan-gateway 是 Rust 编写的单二进制文件，提供统一端点以兼容任意 LLM 供应商、SDK 及工具链。",
+   "why_zh": "涉及 LLM 基础设施开发，可学习用 Rust 构建高性能 API 网关以统一多厂商接口，降低集成复杂度。"
   },
   "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web": {
    "title": "Publish fake stats, get cited in LLMs",
@@ -4194,8 +4194,8 @@
     "stats"
    ],
    "source": "hackernews",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "文章探讨发布虚假统计数据可能被大模型引用，揭示了 LLM 训练数据污染及幻觉引用的风险机制。",
+   "why_zh": "关注 RAG 与数据源可信度，理解 LLM 如何吸收互联网垃圾信息，增强对 AI 安全与事实核查机制的认知。"
   },
   "https://huggingface.co/blog/nvidia/kumo-forecast": {
    "title": "NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability",
@@ -4215,8 +4215,8 @@
     "time"
    ],
    "source": "blog",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "NVIDIA 发布 Kumo Forecast，结合预训练时序表征、历史模式检索及可解释性，提升时间序列预测能力。",
+   "why_zh": "涉及时序基础模型架构，学习如何将历史检索（Retrieval）引入预测模型以提高可解释性与准确性。"
   },
   "https://www.latent.space/p/claude-mods": {
    "title": "Claude Mods: Flipping the Harness Inside Out",
@@ -4229,8 +4229,8 @@
     "mods"
    ],
    "source": "blog",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "Claude Mods 被视为 Attention Interface 早期形式，将 Agent Harness 范式从面向机器反转为面向人类。",
+   "why_zh": "深入 Agent 交互设计，理解人机协作界面（HMI）在智能体系统中的角色，优化 Agent 的可控性与透明度。"
   },
   "https://www.youtube.com/shorts/hLoyhm1dHlM": {
    "title": "Prompt Injection Is Just the Start of AI Agent Security (Here's What You Need)",
@@ -4247,8 +4247,8 @@
     "start"
    ],
    "source": "youtube",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "Cole Medin 阐述 Agent 安全超越 Prompt Injection 的需求，强调企业级多 Agent 系统的权限控制与监控。",
+   "why_zh": "聚焦 Agent 运维与安全（DevSecOps），学习在分布式环境中管理 Agent 身份、权限边界及审计日志的最佳实践。"
   },
   "https://www.latent.space/p/ainews-deepseek-deepinfer-open-source": {
    "title": "[AINews] DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback",
@@ -4274,8 +4274,8 @@
     "toks"
    ],
    "source": "blog",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "DeepSeek 开源 DeepInfer 推理引擎，宣称集群日处理 155T token，日收益 2200 万美元，成本回收仅 81 天。",
+   "why_zh": "涉及 LLM 推理优化与 MLOps 经济模型，分析高吞吐量推理架构及其对降低 AI 服务边际成本的商业影响。"
   },
   "https://www.youtube.com/watch?v=8n-SXxRIrm8": {
    "title": "Build a Better Shopping Experience with OpenAI | Shopping Agent Demo",
@@ -4290,8 +4290,8 @@
     "shopping"
    ],
    "source": "youtube",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "OpenAI 演示 AI 购物代理：用语音和房间照片生成个性化推荐、房间预览并按 250 美元预算调整选品。",
+   "why_zh": "展示多模态 Agent 编排、工具调用与预算约束下的决策链，适合学习 Agent 规划与多模态交互设计。"
   },
   "https://www.youtube.com/shorts/v45XAMqH7pE": {
    "title": "You need a better headshot.",
@@ -4302,8 +4302,8 @@
     "need"
    ],
    "source": "youtube",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "ChatGPT Images 推出一键生成专业头像功能，用户可直接在聊天界面制作高质量证件照。",
+   "why_zh": "演示大模型内置图像生成与编辑能力的产品化落地，适合学习模型部署、提示工程与用户体验设计。"
   },
   "https://huggingface.co/papers/2610.26659": {
    "title": "SpatialScout: Can VLM Agents Actively Explore and Map 3D Scenes?",
@@ -4319,8 +4319,8 @@
     "vlm"
    ],
    "source": "paper",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "SpatialScout 基准评测 VLM 代理主动探索并构建 3D 场景度量地图能力",
+   "why_zh": "属于具身智能/空间推理技能点，展示如何设计主动探索评测指标与地图构建流程，可复用于 VLM 导航与建图任务"
   },
   "https://huggingface.co/papers/2610.29722": {
    "title": "Retrieval Augmented Generation Compositionality",
@@ -4332,8 +4332,8 @@
     "retrieval"
    ],
    "source": "paper",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "研究 RAG 多组件组合时的检索质量与答案忠实度是否保持增益",
+   "why_zh": "属于 RAG 系统工程技能点，揭示组件组合评测方法与指标设计，指导端到端 RAG 优化"
   },
   "https://github.com/JEen-wang/Adaptive-rag": {
    "title": "JEen-wang/Adaptive-rag",
@@ -4345,8 +4345,8 @@
     "wang"
    ],
    "source": "github",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "按问题复杂度自动分流的电商客服 RAG，支持多跳检索、自我纠错、工具调用与人工确认",
+   "why_zh": "属于 RAG 工程与 LangGraph 编排技能点，展示复杂度路由、混合检索、离线评测与可观测性最佳实践"
   },
   "https://github.com/imsai-sh/awesome-deepseek-harness-plugins": {
    "title": "imsai-sh/awesome-deepseek-harness-plugins",
@@ -4360,8 +4360,8 @@
     "sh"
    ],
    "source": "github",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "DeepSeek Harness 插件市场，汇聚 1.1 万+ 插件并提供搜索、排名、安装命令与免费 API",
+   "why_zh": "属于插件生态与工具链集成技能点，示范插件自动收集、校验、发布流程与公共 API 设计"
   },
   "https://github.com/bgts-ai-org/bgts-context-engine": {
    "title": "bgts-ai-org/bgts-context-engine",
@@ -4374,8 +4374,8 @@
     "org"
    ],
    "source": "github",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "确定性代码图上下文引擎，基于 PostgreSQL+Apache AGE+pgvector，提供 MCP/REST 接口，无 LLM 参与",
+   "why_zh": "属于代码智能上下文检索技能点，展示图数据库+向量检索的混合索引架构与零 LLM 延迟设计"
   },
   "https://claude.com/product/claude-duet": {
    "title": "Claude Duet",
@@ -4385,8 +4385,8 @@
     "duet"
    ],
    "source": "hackernews",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "Claude Duet：双 Claude 协作框架，实现模型间对话与任务分工",
+   "why_zh": "属于多模型协作编排技能点，展示如何设计双代理交互协议与上下文共享机制"
   },
   "https://github.com/AFK-surf/Comma": {
    "title": "AFK-surf/Comma",
@@ -4397,8 +4397,8 @@
     "surf"
    ],
    "source": "github",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "开源 AI 个人助手 Comma，常驻、主动、无会话，支持浏览器、文件、远程控制，兼容 ChatGPT/Codex 与 Claude Code，可自托管替代 Muse 等。",
+   "why_zh": "展示如何用 Go/Elixir 构建常驻 Agent 架构、会话管理与工具调用集成，适合学习自托管助手的工程落地。"
   },
   "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/": {
    "title": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
@@ -4414,8 +4414,8 @@
     "vulnerabilities"
    ],
    "source": "hackernews",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "Patch the Planet 平台演示多 Agent 协作发现并协调修补全球漏洞。",
+   "why_zh": "体现多 Agent 协同、漏洞情报聚合与自动化响应流程，适合学习安全领域 Agent 编排。"
   },
   "https://www.youtube.com/watch?v=Ud5RsBegyfw": {
    "title": "How Deep Agents Manages Context: Offloading and Summarization",
@@ -4429,8 +4429,8 @@
     "summarization"
    ],
    "source": "youtube",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "LangChain 视频讲解 Deep Agents 通过卸载大工具结果到虚拟文件系统和摘要化缓解上下文腐烂。",
+   "why_zh": "学习上下文工程技巧：offloading 与 summarization 的落地实现，提升长运行 Agent 推理稳定性。"
   },
   "https://www.marktechpost.com/2026/10/21/cactus-whistle-vs-whisper-base-speech-to-text-benchmark-cpu-guide/": {
    "title": "A Coding Guide to Cactus Whistle: Does a 16.9 MB Speech Model Hold Up Against Whisper Base? Word Error Rate, Speed, Streaming, Timestamps, Keywords, and Speech-to-Tool Calls on a CPU",
@@ -4462,8 +4462,8 @@
     "word"
    ],
    "source": "blog",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "对比 Cactus Whistle 16.9MB 语音模型与 Whisper Base 的 WER、CPU 速度、流式延迟、时间戳、关键词及语音转工具调用。",
+   "why_zh": "掌握轻量语音模型评测指标与 CPU 推理优化，指导边缘部署语音交互 Agent。"
   },
   "https://www.marktechpost.com/2026/10/21/nvidia-nsight-python-tutorial-how-to-profile-gpu-kernels/": {
    "title": "NVIDIA Nsight Python Tutorial: How to Profile GPU Kernels",
@@ -4478,8 +4478,8 @@
     "tutorial"
    ],
    "source": "blog",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "NVIDIA Nsight Python 开源接口教程，演示从 Python 分析 GPU 内核、硬件指标、缓存/时钟控制及内核融合。",
+   "why_zh": "学会在 Python 中直接做 GPU 性能剖析，掌握内核级优化工具链，提升训练/推理吞吐。"
   },
   "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/": {
    "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
@@ -4496,8 +4496,8 @@
     "world"
    ],
    "source": "blog",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "NVIDIA Cosmos 发布训练、评估、部署世界模型的新工具、仿真检查点与 Data Factory 蓝图，六榜单前五。",
+   "why_zh": "了解世界模型构建全流程工具链，学习大规模仿真数据生成与模型评估最佳实践。"
   },
   "https://www.youtube.com/watch?v=zj1TJlP7c9Y": {
    "title": "AI Makes Us WAY Faster but Fries Our Focus (Here's What I Do About It)",
@@ -4516,8 +4516,8 @@
     "way"
    ],
    "source": "youtube",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "Cole Medin 指出 AI 编程虽提速但破坏深度专注，他通过并行运行多个 agent 会话、全天口述提示及频繁切换来应对疲劳，分享具体工作流优化。",
+   "why_zh": "体现 AI 工程师对「认知负荷」与 Agent 编排能力的关注；学习如何管理多 Agent 会话上下文、避免注意力碎片化的实用工作流技巧。"
   },
   "https://www.youtube.com/watch?v=20IRGgQwPkc": {
    "title": "V7 cuts costs 78% while boosting accuracy with GPT‑5.6 Luna",
@@ -4534,8 +4534,8 @@
     "while"
    ],
    "source": "youtube",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "OpenAI 发布案例：V7 Go 用 GPT-6 Astra 在 Context Graph 上查询数千文档，投资筛选/保险承保任务准确率 89%，成本降 78%。",
+   "why_zh": "展示 RAG 进化方向：用 Context Graph 替代传统向量检索；面试可聊「结构化知识图谱+LLM」混合架构及成本优化策略。"
   },
   "https://arxiv.org/abs/2610.28686": {
    "title": "A Small Model Asks Better: Fine-Tuning Query Clarification for Retrieval-Augmented Generation",
@@ -4554,8 +4554,8 @@
     "tuning"
    ],
    "source": "paper",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "提出小模型微调方法解决 RAG 中的查询澄清问题，在多轮对话中优化模糊查询，提升检索精度。",
+   "why_zh": "涉及 RAG 系统优化与 Few-shot 微调策略，学习如何在小模型上实现高效的对话上下文理解与检索增强。"
   },
   "https://huggingface.co/papers/2610.30949": {
    "title": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
@@ -4571,16 +4571,16 @@
     "systems"
    ],
    "source": "paper",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "发布 IQuest-Q1，一款 320B 稀疏 MoE 代理基础模型，采用三阶段预训练，增强 CLI 代理能力。",
+   "why_zh": "关注大规模 MoE 架构与代理（Agentic）模型训练细节，可借鉴其稳定性技巧与代码数据混合策略。"
   },
   "https://github.com/Folkbench/folkbench": {
    "title": "Folkbench/folkbench",
    "date": "2026-10-25",
    "tokens": [],
    "source": "github",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "开源 Rust 工具 Folkbench，提供 AI API 中转站评测排行与切换功能，实测 Claude Code 等兼容性。",
+   "why_zh": "涉及 LLM 基础设施开发与性能基准测试，学习如何构建多 API 路由代理及监控可用性与延迟。"
   },
   "https://github.com/ollaya-dev/ollaya": {
    "title": "ollaya-dev/ollaya",
@@ -4590,8 +4590,8 @@
     "ollaya"
    ],
    "source": "github",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "Ollaya 是兼容 Jev API 的本地服务器，支持 24 种决策模型家族，提供 CLI、MCP 服务器及 Docker 部署。",
+   "why_zh": "涉及本地模型推理服务架构，学习如何封装不同模型为统一 API，并集成 MCP 协议与类型安全 SDK。"
   },
   "https://github.com/h9-tec/ai-roadmap-2026": {
    "title": "h9-tec/ai-roadmap-2026",
@@ -4604,8 +4604,8 @@
     "tec"
    ],
    "source": "github",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "AI Roadmap 2026，为初学者提供从 LLM 工程到代理及生产的分层学习路径，含免费资源与迷你项目。",
+   "why_zh": "虽非技术库，但提供系统化的 Agent 工程化知识体系，有助于构建从基础到生产的完整技术栈认知。"
   },
   "https://github.com/NVIDIA/OpenShell": {
    "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
@@ -4621,8 +4621,8 @@
     "safe"
    ],
    "source": "hackernews",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "OpenShell 项目提供安全私密的运行时环境，专为大规模自主 AI 代理集群设计，保障执行安全。",
+   "why_zh": "涉及 Agent 安全沙箱与隔离技术，学习如何为大规模自主代理构建可信执行环境及资源管控机制。"
   },
   "https://www.anthropic.com/research/formal-verification": {
    "title": "LLMs are making formal software verification feasible at a much larger scale",
@@ -4639,8 +4639,8 @@
     "verification"
    ],
    "source": "hackernews",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "文章指出 LLMs 正在让更大规模的正式软件验证变得可行，显著提升验证效率。",
+   "why_zh": "掌握形式化验证与 LLM 结合的前沿应用，了解如何用 AI 降低复杂系统验证门槛的技能。"
   },
   "https://github.com/Gathin23/cleanyourtv": {
    "title": "Gathin23/cleanyourtv",
@@ -4650,8 +4650,8 @@
     "gathin23"
    ],
    "source": "github",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "开源项目 Gathin23/cleanyourtv 通过 Wi-Fi 去繁 Android 或 Google TV，实现 Apple TV 风格主页。",
+   "why_zh": "涉及 Android 系统定制与低代码开发实践，适合工程师学习移动端系统优化及 UI 重构的工程技巧。"
   },
   "https://www.youtube.com/watch?v=StDAmjuQOE4": {
    "title": "The Boring Version of Continual Learning",
@@ -4663,8 +4663,8 @@
     "version"
    ],
    "source": "youtube",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "Prime Intellect 的 Will Brown 主张将持续学习视为模型软件开发周期，涵盖 SFT、蒸馏及评估方法。",
+   "why_zh": "学习 AI 模型运维（MLOps）全生命周期管理，掌握后训练策略选择及评估体系构建的核心工程思维。"
   },
   "https://www.marktechpost.com/2026/10/23/tinyfish-agentic-search-architecture-deep-research/": {
    "title": "TinyFish Breaks Down Agentic Search Architecture for Production AI Agents",
@@ -4681,8 +4681,8 @@
     "tinyfish"
    ],
    "source": "blog",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "TinyFish 解析生产级 Agentic 搜索架构，定义 7 阶段流程、证据契约及有界重试，优化深度研究系统。",
+   "why_zh": "深入理解 Agent 工作流设计、错误处理机制及证据驱动架构，提升构建高可靠性 AI 系统的工程能力。"
   },
   "https://simonwillison.net/2026/Oct/22/donating-agent-skills/": {
    "title": "Donating Agent Skills to the Agentic AI Foundation",
@@ -4696,8 +4696,8 @@
     "skills"
    ],
    "source": "blog",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "Anthropic 将 Agent Skills 标准捐赠给 Linux 基金会旗下的 Agentic AI Foundation (AAIF)，确保其开放中立。",
+   "why_zh": "关注 AI 生态标准化进程，理解 MCP 与 Agent Skills 等协议在跨厂商协作中的治理与工程实现逻辑。"
   },
   "https://www.youtube.com/watch?v=l16Gw7oVLNQ": {
    "title": "Uber rolls out ChatGPT Work to 30,000+ employees",
@@ -4712,8 +4712,8 @@
     "work"
    ],
    "source": "youtube",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "Uber 将 ChatGPT Work 部署给超 3 万名员工，成为首个大规模企业级 Agentic 知识工作平台。",
+   "why_zh": "研究大规模企业 AI 落地案例，学习如何将 Agentic 平台集成至非工程部门以重构工作流的知识管理方法。"
   },
   "https://openai.com/index/scaling-storage-one-billion-users-part-two": {
    "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
@@ -4732,8 +4732,8 @@
     "users"
    ],
    "source": "blog",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "OpenAI 通过多租户、全球缓存和 Azure Cosmos DB 扩展 Habitat，使 ChatGPT 读取速度提升 12 倍",
+   "why_zh": "属于大规模在线存储与多租户架构技能点，可复用全球缓存层设计和 Cosmos DB 分区策略"
   },
   "https://www.youtube.com/shorts/RLQR5_5fJDA": {
    "title": "Messi asks ChatGPT to teach him a chess opening",
@@ -4748,8 +4748,8 @@
     "teach"
    ],
    "source": "youtube",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "梅西让 ChatGPT 推荐符合风格的国际象棋开局，模型给出“羊角”并演示逐步教学",
+   "why_zh": "属于提示工程与个性化交互技能点，展示如何利用用户画像生成定制化分步教学提示"
   },
   "https://github.com/slee-persis/GVS5H": {
    "title": "Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
@@ -4765,8 +4765,8 @@
     "qwen3"
    ],
    "source": "hackernews",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "五个 Qwen3.8-27B 模型在 GVS5H 基准上达到 Fable 5 水平",
+   "why_zh": "大模型评测复现技能，学习用统一 harness 对比多模型性能"
   },
   "https://huggingface.co/papers/2610.30418": {
    "title": "Agent Mosaic: Recognizing Confidentiality Leaks in Agentic LLM Systems",
@@ -4782,8 +4782,8 @@
     "systems"
    ],
    "source": "paper",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "提出 Agent Mosaic 量化多智能体拼接敏感信息泄露风险",
+   "why_zh": "AI 安全隐私检测技能，可复用合成场景构建与泄露评估流程"
   },
   "https://github.com/justxor/awesome-ai-devtools-ru": {
    "title": "justxor/awesome-ai-devtools-ru",
@@ -4796,8 +4796,8 @@
     "ru"
    ],
    "source": "github",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "发布俄语 AI 开发工具精选目录，覆盖 IDE、Agent、MCP、LLMOps 等",
+   "why_zh": "工具链调研选型技能，学习按类别整理并维护多语言工具清单"
   },
   "https://huggingface.co/papers/2610.31651": {
    "title": "BrickWright: Agentic Creation of Physically Feasible Brick Builds",
@@ -4812,8 +4812,8 @@
     "physically"
    ],
    "source": "paper",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "BrickWright 让编程智能体生成可物理组装的积木结构，提供组装验证工具",
+   "why_zh": "具身智能代码生成与仿真结合技能，复用“工具+验证”闭环设计模式"
   },
   "https://www.marktechpost.com/2026/10/24/stateful-engineering-copilots-letta-tutorial/": {
    "title": "Stateful Agentic Engineering Copilots with Letta: Core Memory, Shared State, Semantic Retrieval, Custom Tools, Streaming, and Portable Agent Workflows",
@@ -4838,8 +4838,8 @@
     "workflows"
    ],
    "source": "blog",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "教程展示用 Letta 构建有状态工程副驾，含核心记忆、共享状态、语义检索等",
+   "why_zh": "Agent 记忆与多智能体协作工程技能，复用 Letta 可移植工作流与状态管理范式"
   },
   "https://huggingface.co/papers/2610.24383": {
    "title": "IF-MAP: Influence-Function-Inspired Agent Prioritization in Multi-Agent Systems",
@@ -4856,8 +4856,8 @@
     "systems"
    ],
    "source": "paper",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "提出 IF-MAP 基于影响函数的多智能体优先级排序，指导资源分配",
+   "why_zh": "多智能体系统优化资源分配技能，复用影响函数量化单智能体贡献的方法"
   },
   "https://github.com/stockedge/manga-generator": {
    "title": "stockedge/manga-generator",
@@ -4868,8 +4868,8 @@
     "stockedge"
    ],
    "source": "github",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "stockedge/manga-generator：基于 Codex 的全流程漫画制作工具，支持脚本生成、图像生成、排版与 PDF 输出",
+   "why_zh": "属于 AI 代理编排与多模态生成技能点，展示如何将 LLM 与图像模型串联成端到端生产管线，可复用于自动化内容创作"
   },
   "https://www.langchain.com/blog/context-engineering-starts-with-retrieval": {
    "title": "Context Engineering (Agent Memory) for AI Agents Starts with Retrieval",
@@ -4885,8 +4885,8 @@
     "starts"
    ],
    "source": "blog",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "LangChain 发布《Context Engineering (Agent Memory) for AI Agents Starts with Retrieval》，介绍 Deep Agents 使用的检索技术以获取精准上下文",
+   "why_zh": "属于 Agent 记忆与检索工程技能点，演示如何用分层检索、缓存与去重提升上下文质量，可直接迁移到自建 Agent 系统"
   },
   "https://github.com/nanaism/yomiyasu": {
    "title": "nanaism/yomiyasu",
@@ -4896,8 +4896,8 @@
     "yomiyasu"
    ],
    "source": "github",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "nanaism/yomiyasu：将 AI 生成的日语润色为自然日语的 Agent Skill",
+   "why_zh": "属于 后处理 / 语言质量提升技能点，展示如何用提示链与规则引擎把模型输出规范化，适用于多语言本地化管线"
   },
   "https://github.com/SoMarkAI/OXR": {
    "title": "SoMarkAI/OXR",
@@ -4907,8 +4907,8 @@
     "somarkai"
    ],
    "source": "github",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "SoMarkAI/OXR：采用 RSI 循环后训练的开源文档解析模型，达到 SOTA 精度与速度",
+   "why_zh": "属于 文档理解与模型后训练技能点，演示 RSI 循环如何迭代优化解析器，可复用于自建 OCR/布局分析模型"
   },
   "https://www.marktechpost.com/2026/10/24/microsoft-agensh-multi-agent-harness-1024-agents/": {
    "title": "Microsoft Open-Sources Agensh: A Multi-Agent Harness for 1,024 Agents",
@@ -4925,8 +4925,8 @@
     "sources"
    ],
    "source": "blog",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "Microsoft 开源 Agensh：无中心编排的多 Agent 框架，支持 1‑1024 个自组织 Worker 共享 Git 仓库与看板",
+   "why_zh": "属于 大规模多 Agent 协作与去中心化编排技能点，展示如何用共享存储与发现机制实现千级 Agent 并行，可借鉴于分布式 Agent 系统设计"
   },
   "https://www.youtube.com/shorts/bBqP-w6DHFw": {
    "title": "Kimi K3.1 Invented the Benchmark Scores",
@@ -4939,8 +4939,8 @@
     "scores"
    ],
    "source": "youtube",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "Matthew Berman 视频揭露 Kimi K3.1 伪造基准测试分数",
+   "why_zh": "属于 模型评测诚信与基准造假识别技能点，提醒工程师在选型时需核实第三方复现结果，避免被虚假指标误导"
   },
   "https://www.youtube.com/watch?v=VAQHsKS9fxY": {
    "title": "Muon: The Most Underrated Breakthrough in LLMs",
@@ -4952,8 +4952,8 @@
     "underrated"
    ],
    "source": "youtube",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "视频探讨Muon优化器挑战AdamW，提出其可减少LLM训练算力近半，并激活此前被忽视的AI架构，强调其为LLM训练领域的重大突破。",
+   "why_zh": "面试可提及优化器演进，掌握Muon相比AdamW的计算效率优势及适用场景，体现对LLM训练底层组件的深度理解与选型能力。"
   },
   "https://www.youtube.com/watch?v=eK7Sn0_zHQw": {
    "title": "it's WORSE than we thought...",
@@ -4965,8 +4965,8 @@
     "worse"
    ],
    "source": "youtube",
-   "summary_zh": "",
-   "why_zh": ""
+   "summary_zh": "视频标题暗示当前AI领域某问题比预想更严峻，具体内容需结合正片，简介仅含赞助商Crusoe智能工厂的推广信息，无实质技术细节。",
+   "why_zh": "面试需区分营销内容与技术观点，培养信息甄别能力，避免将赞助商信息误判为技术趋势，强化对AI基础设施服务商生态的认知。"
   }
  },
  "updated": "2026-10-25T12:54:50.979448+00:00"

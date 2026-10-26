@@ -2,7 +2,7 @@
  "week": "2026-W42",
  "start": "2026-10-12",
  "end": "2026-10-18",
- "generated": "2026-10-25 23:39",
+ "generated": "2026-10-26 15:48",
  "groups": [
   {
    "skill": "prompt_context",
@@ -72,7 +72,9 @@
       "system",
       "vision"
      ],
-     "flag": "new"
+     "flag": "new",
+     "summary_zh": "MeddeX 结合 QLoRA 微调 LLaMA-3-8B 与 Gemini Vision，实现基于检索增强的医疗报告证据分析。",
+     "why_zh": "落地 RAG+多模态微调管线，展示医疗垂直领域融合视觉语言模型与检索，可复用于领域适配与证据溯源。"
     }
    ]
   },
@@ -205,7 +207,9 @@
       "sibling",
       "topology"
      ],
-     "flag": "new"
+     "flag": "new",
+     "summary_zh": "PRISM 提出基于特权兄弟节点引导的多智能体拓扑设计方法，自动生成协作拓扑。",
+     "why_zh": "涉及多智能体系统架构设计，可学习用引导机制自动构建高效通信拓扑，复用于 Agent 编排。"
     }
    ]
   },
@@ -357,7 +361,9 @@
       "model",
       "saturation"
      ],
-     "flag": "new"
+     "flag": "new",
+     "summary_zh": "研究基准饱和后的模型能力评估，挖掘基准项更多信息而非仅分数。",
+     "why_zh": "涉及评测方法论创新，可学习设计细粒度诊断指标、利用元数据做能力画像，复用于模型选型与安全论证。"
     },
     {
      "source": "blog",
@@ -414,7 +420,9 @@
     "sibling",
     "topology"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "PRISM 提出基于特权兄弟节点引导的多智能体拓扑设计方法，自动生成协作拓扑。",
+   "why_zh": "涉及多智能体系统架构设计，可学习用引导机制自动构建高效通信拓扑，复用于 Agent 编排。"
   },
   {
    "source": "paper",
@@ -446,7 +454,9 @@
     "system",
     "vision"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "MeddeX 结合 QLoRA 微调 LLaMA-3-8B 与 Gemini Vision，实现基于检索增强的医疗报告证据分析。",
+   "why_zh": "落地 RAG+多模态微调管线，展示医疗垂直领域融合视觉语言模型与检索，可复用于领域适配与证据溯源。"
   },
   {
    "source": "paper",
@@ -656,7 +666,9 @@
     "model",
     "saturation"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "研究基准饱和后的模型能力评估，挖掘基准项更多信息而非仅分数。",
+   "why_zh": "涉及评测方法论创新，可学习设计细粒度诊断指标、利用元数据做能力画像，复用于模型选型与安全论证。"
   },
   {
    "source": "blog",

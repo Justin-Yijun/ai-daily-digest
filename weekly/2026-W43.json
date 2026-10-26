@@ -2,7 +2,7 @@
  "week": "2026-W43",
  "start": "2026-10-19",
  "end": "2026-10-25",
- "generated": "2026-10-25 23:39",
+ "generated": "2026-10-26 15:48",
  "groups": [
   {
    "skill": "prompt_context",
@@ -38,7 +38,9 @@
       "translation",
       "zero"
      ],
-     "flag": "new"
+     "flag": "new",
+     "summary_zh": "AutoTerm-SST 提出零会话前置的自适应术语记忆，解决流式语音翻译中术语检索需预先提供词表的痛点。",
+     "why_zh": "展示流式语音翻译中动态术语检索与自适应记忆机制的工程落地，属 RAG 与实时系统结合技能点。"
     },
     {
      "source": "blog",
@@ -75,7 +77,9 @@
       "tools",
       "workflows"
      ],
-     "flag": "new"
+     "flag": "new",
+     "summary_zh": "教程展示用 Letta 构建有状态工程副驾，含核心记忆、共享状态、语义检索等",
+     "why_zh": "Agent 记忆与多智能体协作工程技能，复用 Letta 可移植工作流与状态管理范式"
     },
     {
      "source": "blog",
@@ -103,7 +107,9 @@
       "retrieval",
       "starts"
      ],
-     "flag": "new"
+     "flag": "new",
+     "summary_zh": "LangChain 发布《Context Engineering (Agent Memory) for AI Agents Starts with Retrieval》，介绍 Deep Agents 使用的检索技术以获取精准上下文",
+     "why_zh": "属于 Agent 记忆与检索工程技能点，演示如何用分层检索、缓存与去重提升上下文质量，可直接迁移到自建 Agent 系统"
     }
    ]
   },
@@ -143,7 +149,9 @@
       "shared",
       "tasks"
      ],
-     "flag": "new"
+     "flag": "new",
+     "summary_zh": "团队利用预训练 7B VLM 零样本处理 ImageEval 2026 任务，通过约束选择和旋转平均 Logit 评分检测多模态幻觉。",
+     "why_zh": "掌握 VLM 零样本微调替代方案，学习 Logit 平均与约束解码技巧，适用于多模态幻觉评估场景。"
     },
     {
      "source": "paper",
@@ -174,7 +182,9 @@
       "small",
       "tuning"
      ],
-     "flag": "new"
+     "flag": "new",
+     "summary_zh": "提出小模型微调方法解决 RAG 中的查询澄清问题，在多轮对话中优化模糊查询，提升检索精度。",
+     "why_zh": "涉及 RAG 系统优化与 Few-shot 微调策略，学习如何在小模型上实现高效的对话上下文理解与检索增强。"
     },
     {
      "source": "paper",
@@ -267,7 +277,9 @@
       "generation",
       "retrieval"
      ],
-     "flag": "new"
+     "flag": "new",
+     "summary_zh": "研究 RAG 多组件组合时的检索质量与答案忠实度是否保持增益",
+     "why_zh": "属于 RAG 系统工程技能点，揭示组件组合评测方法与指标设计，指导端到端 RAG 优化"
     }
    ]
   },
@@ -304,7 +316,9 @@
       "structured",
       "typed"
      ],
-     "flag": "new"
+     "flag": "new",
+     "summary_zh": "提出结构化权限注入机制，通过类型化 MCP 覆盖实现跨规划周期持久化的人类控制，解决 LLM Agent 指令模糊问题。",
+     "why_zh": "涉及 Agent 控制协议设计，可复用 Typed Override 思路解决多 Agent 系统中人类干预的 schema 验证与状态持久化难题。"
     },
     {
      "source": "paper",
@@ -335,7 +349,9 @@
       "training",
       "verifiable"
      ],
-     "flag": "new"
+     "flag": "new",
+     "summary_zh": "Navalia 通过可验证任务合成与长程后训练，提升 Cowork Agent 在金融分析中跨文档证据整合与多步数值推理能力。",
+     "why_zh": "演示如何用合成数据与长程 RL 强化 Agent 复杂推理，属 Agent 训练数据构建与评估技能点。"
     }
    ]
   },
@@ -368,7 +384,9 @@
       "manufacturing",
       "smart"
      ],
-     "flag": "new"
+     "flag": "new",
+     "summary_zh": "论文探讨 LLM 驱动的新一代智能体在智能制造中的应用，针对动态环境、物理约束与可靠性要求提出部署框架。",
+     "why_zh": "涵盖 Agent 规划、工具调用与工业物理约束融合的工程实践，属具身智能与工业落地技能点。"
     }
    ]
   },
@@ -399,7 +417,9 @@
       "learning",
       "version"
      ],
-     "flag": "new"
+     "flag": "new",
+     "summary_zh": "Prime Intellect 的 Will Brown 主张将持续学习视为模型软件开发周期，涵盖 SFT、蒸馏及评估方法。",
+     "why_zh": "学习 AI 模型运维（MLOps）全生命周期管理，掌握后训练策略选择及评估体系构建的核心工程思维。"
     }
    ]
   }
@@ -434,7 +454,9 @@
     "structured",
     "typed"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "提出结构化权限注入机制，通过类型化 MCP 覆盖实现跨规划周期持久化的人类控制，解决 LLM Agent 指令模糊问题。",
+   "why_zh": "涉及 Agent 控制协议设计，可复用 Typed Override 思路解决多 Agent 系统中人类干预的 schema 验证与状态持久化难题。"
   },
   {
    "source": "paper",
@@ -468,7 +490,9 @@
     "shared",
     "tasks"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "团队利用预训练 7B VLM 零样本处理 ImageEval 2026 任务，通过约束选择和旋转平均 Logit 评分检测多模态幻觉。",
+   "why_zh": "掌握 VLM 零样本微调替代方案，学习 Logit 平均与约束解码技巧，适用于多模态幻觉评估场景。"
   },
   {
    "source": "paper",
@@ -500,7 +524,9 @@
     "translation",
     "zero"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "AutoTerm-SST 提出零会话前置的自适应术语记忆，解决流式语音翻译中术语检索需预先提供词表的痛点。",
+   "why_zh": "展示流式语音翻译中动态术语检索与自适应记忆机制的工程落地，属 RAG 与实时系统结合技能点。"
   },
   {
    "source": "paper",
@@ -531,7 +557,9 @@
     "small",
     "tuning"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "提出小模型微调方法解决 RAG 中的查询澄清问题，在多轮对话中优化模糊查询，提升检索精度。",
+   "why_zh": "涉及 RAG 系统优化与 Few-shot 微调策略，学习如何在小模型上实现高效的对话上下文理解与检索增强。"
   },
   {
    "source": "blog",
@@ -568,7 +596,9 @@
     "tools",
     "workflows"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "教程展示用 Letta 构建有状态工程副驾，含核心记忆、共享状态、语义检索等",
+   "why_zh": "Agent 记忆与多智能体协作工程技能，复用 Letta 可移植工作流与状态管理范式"
   },
   {
    "source": "paper",
@@ -595,7 +625,9 @@
     "manufacturing",
     "smart"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "论文探讨 LLM 驱动的新一代智能体在智能制造中的应用，针对动态环境、物理约束与可靠性要求提出部署框架。",
+   "why_zh": "涵盖 Agent 规划、工具调用与工业物理约束融合的工程实践，属具身智能与工业落地技能点。"
   },
   {
    "source": "paper",
@@ -626,7 +658,9 @@
     "training",
     "verifiable"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "Navalia 通过可验证任务合成与长程后训练，提升 Cowork Agent 在金融分析中跨文档证据整合与多步数值推理能力。",
+   "why_zh": "演示如何用合成数据与长程 RL 强化 Agent 复杂推理，属 Agent 训练数据构建与评估技能点。"
   },
   {
    "source": "paper",
@@ -722,7 +756,9 @@
     "retrieval",
     "starts"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "LangChain 发布《Context Engineering (Agent Memory) for AI Agents Starts with Retrieval》，介绍 Deep Agents 使用的检索技术以获取精准上下文",
+   "why_zh": "属于 Agent 记忆与检索工程技能点，演示如何用分层检索、缓存与去重提升上下文质量，可直接迁移到自建 Agent 系统"
   },
   {
    "source": "youtube",
@@ -747,7 +783,9 @@
     "learning",
     "version"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "Prime Intellect 的 Will Brown 主张将持续学习视为模型软件开发周期，涵盖 SFT、蒸馏及评估方法。",
+   "why_zh": "学习 AI 模型运维（MLOps）全生命周期管理，掌握后训练策略选择及评估体系构建的核心工程思维。"
   },
   {
    "source": "paper",
@@ -772,7 +810,9 @@
     "generation",
     "retrieval"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "研究 RAG 多组件组合时的检索质量与答案忠实度是否保持增益",
+   "why_zh": "属于 RAG 系统工程技能点，揭示组件组合评测方法与指标设计，指导端到端 RAG 优化"
   }
  ]
 }

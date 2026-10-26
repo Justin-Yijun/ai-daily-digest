@@ -40,7 +40,9 @@
     "structured",
     "typed"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "提出结构化权限注入机制，通过类型化 MCP 覆盖实现跨规划周期持久化的人类控制，解决 LLM Agent 指令模糊问题。",
+   "why_zh": "涉及 Agent 控制协议设计，可复用 Typed Override 思路解决多 Agent 系统中人类干预的 schema 验证与状态持久化难题。"
   },
   {
    "source": "paper",
@@ -74,7 +76,9 @@
     "shared",
     "tasks"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "团队利用预训练 7B VLM 零样本处理 ImageEval 2026 任务，通过约束选择和旋转平均 Logit 评分检测多模态幻觉。",
+   "why_zh": "掌握 VLM 零样本微调替代方案，学习 Logit 平均与约束解码技巧，适用于多模态幻觉评估场景。"
   },
   {
    "source": "github",
@@ -106,7 +110,9 @@
     "artex",
     "trhhubsd"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "ARTEX 是 Go 和 Next.js 构建的 AI 自主渗透测试系统，采用多 Agent LLM 架构，获百度 Agent+ 攻防挑战赛冠军。",
+   "why_zh": "案例展示多 Agent 协同在安全领域落地，可借鉴其攻防场景下的任务分解与状态管理架构设计。"
   },
   {
    "source": "github",
@@ -132,7 +138,9 @@
     "harness2",
     "research"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "Google Research 开源 harness2 项目，具体功能暂无简介，需结合代码库上下文判断其评估或测试用途。",
+   "why_zh": "关注顶级实验室开源工具，通过阅读代码可学习大模型评估框架或测试流水线的标准化工程实践。"
   },
   {
    "source": "github",
@@ -168,7 +176,9 @@
     "local",
     "ru"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "提供俄语详细指南，介绍 DeepSeek 本地部署全流程，涵盖 Ollama、vLLM 等工具及 RAG、Agent 和微调技巧。",
+   "why_zh": "虽为本地部署教程，但涵盖 vLLM 推理优化与 RAG/Agent 集成配置，对工程落地栈选型有参考价值。"
   },
   {
    "source": "hackernews",
@@ -196,7 +206,9 @@
     "show",
     "sphinx"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "Sphinx 是一个钩子工具，在代码推送前通过问卷测试开发者是否理解 AI 生成的代码，确保交付质量。",
+   "why_zh": "探索 AI 辅助编程的安全边界，可借鉴代码理解度验证机制，解决 AI 生成代码的黑箱信任问题。"
   },
   {
    "source": "hackernews",
@@ -633,5 +645,6 @@
    "summary_zh": "SolidCraft 是用纯 Rust 构建的开源参数化3D CAD 应用，支持桌面、网页及MCP自动化。",
    "why_zh": "演示Rust在复杂图形系统中的工程实践，可参考高性能跨平台CAD开发。"
   }
- ]
+ ],
+ "summary_missing": []
 }

@@ -36,7 +36,9 @@
     "open",
     "sourced"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "DeepSeek 开源其推理引擎，提升模型部署效率与透明性",
+   "why_zh": "属推理优化技能点，可学习高性能推理架构设计、内存管理及 kernel 优化实践"
   },
   {
    "source": "github",
@@ -69,7 +71,9 @@
     "vision",
     "ysr666"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "dsh-vision-router 为 DeepSeek 文本 agent 提供免 key 视觉工具链，支持像素级视觉操作",
+   "why_zh": "属多模态 Agent 工程技能点，掌握如何将视觉能力封装为标准 tool-calling 接口"
   },
   {
    "source": "paper",
@@ -98,7 +102,9 @@
     "small",
     "stagnation"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "提出进展感知蒸馏方法，缓解小模型 agent 训练停滞问题",
+   "why_zh": "属模型压缩与 agent 效率技能点，学习如何利用任务进展信号优化小模型 agentic 能力迁移"
   },
   {
    "source": "github",
@@ -131,7 +137,9 @@
     "evals",
     "tap222"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "assay-evals 提供 AI agent 行为回归测试框架，含 pytest 插件与 CI 门禁",
+   "why_zh": "属 Agent 质量保障技能点，掌握如何构建可复用的 agent 行为 diff 测试与自动化评估流程"
   },
   {
    "source": "github",
@@ -166,7 +174,9 @@
     "lowaltitudeflight",
     "tuning"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "local-llm-tuning-guide 总结无 NVLink 多卡本地 LLM 调优决策库，含量化与推测解码策略",
+   "why_zh": "属分布式推理与部署技能点，学习在受限硬件上优化并行策略与通信开销的实战经验"
   },
   {
    "source": "paper",
@@ -195,7 +205,9 @@
     "live",
     "symmetric"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "CyberArena 基准测试 AI agent 在动态对抗场景中的攻防能力，突破静态基准局限",
+   "why_zh": "属 Agent 评估与红队技能点，学习如何设计动态耦合环境以真实评估 agent 安全攻防表现"
   },
   {
    "source": "hackernews",
@@ -223,7 +235,9 @@
     "regulator",
     "whatsapp"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "WhatsApp 帮助中心页面被曝隐藏了针对 LLM 的指令，内容涉及禁止推荐监管机构，引发关于 LLM 提示词工程与伦理的讨论。",
+   "why_zh": "提示词注入与防御：学习如何在生产环境中识别隐藏在网页元数据或文本中的恶意指令，掌握 Prompt 安全加固的实际案例。"
   },
   {
    "source": "github",
@@ -248,7 +262,9 @@
     "huashu",
     "motion"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "开源项目 huashu-art-motion 提供 35 种艺术风格与 9 种解说语法的代码库，通过代码驱动实现静态图像的动态化动画效果。",
+   "why_zh": "代码生成与多媒体结合：探索利用 LLM 生成逻辑代码（如 CSS/JS/Canvas）来驱动视觉动效的技术路径，适合构建自动化创意工具链。"
   },
   {
    "source": "youtube",
@@ -276,7 +292,9 @@
     "let",
     "own"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "教程演示如何让 AI Agent 自主进行 Harness Engineering，通过分析对话日志提议并优化自身的规则、技能与记忆模块。",
+   "why_zh": "Agent 自我进化：掌握让 Agent 修改自身 System Prompt 或记忆库的闭环机制，涉及元学习（Meta-learning）与自动化工程优化。"
   },
   {
    "source": "blog",
@@ -302,7 +320,9 @@
     "search",
     "tops"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "Exa 3.0 Search API 发布，集成更大嵌入模型、低价 Exa Lite 及 Dynamic Highlights，在 8 项基准测试中领先 Perplexity 等竞品。",
+   "why_zh": "RAG 检索层优化：理解专用搜索 API 如何超越通用 LLM，学习利用动态摘要和低成本接口提升检索增强生成的效率与成本效益。"
   },
   {
    "source": "youtube",
@@ -329,7 +349,9 @@
     "scale",
     "testing"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "Inception 的扩散 LLM Mercury 3 实现每秒 1000+ token 速度，其决策模型 Mercury Decide 支持图像读取，视频展示独立评测对比。",
+   "why_zh": "架构性能权衡：分析扩散模型在推理速度上的突破及其在边缘计算或高吞吐场景下的应用潜力，对比自回归模型的性能瓶颈。"
   },
   {
    "source": "blog",
@@ -355,7 +377,9 @@
     "second",
     "tokens"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "Inception 发布 Mercury 3 扩散 LLM，宣称达 1,068 tokens/s 及 1M 上下文，在自测表中于 12 项基准中的 8 项领先 GPT-6 等模型。",
+   "why_zh": "长上下文与速度：关注扩散架构在处理百万级上下文时的吞吐能力，学习如何评估非传统 LLM 架构在推理延迟和成本上的实际表现。"
   },
   {
    "source": "blog",
@@ -375,7 +399,9 @@
     "当coding",
     "软件开发变得更好了吗"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "探讨 Coding Agent 进入动态并行阶段，突破过去修复 Bug 或独立功能的局限，分析其对软件开发效率及 SWE-bench 基准测试的影响。",
+   "why_zh": "涉及 Agent 架构演进与并行调度机制，帮助工程师理解多任务并发处理逻辑及评估大型语言模型在软件工程领域的实际落地能力。"
   },
   {
    "source": "youtube",
@@ -396,7 +422,9 @@
     "cooking",
     "ep"
    ],
-   "flag": "new"
+   "flag": "new",
+   "summary_zh": "OpenAI 发布 Codex 演示视频，展示 GPT-Live 引导烹饪流程，介绍 Codex 云端环境保持任务运行及 CLI 支持语音输入、Agent 管理与多工作树分叉功能。",
+   "why_zh": "涵盖 Agent 环境持久化、人机交互优化及多分支任务管理，有助于掌握长时程 Agent 任务的状态保持与复杂工作流编排技巧。"
   }
  ],
  "dups": [
@@ -590,5 +618,6 @@
    "summary_zh": "SolidCraft 是用纯 Rust 构建的开源参数化3D CAD 应用，支持桌面、网页及MCP自动化。",
    "why_zh": "演示Rust在复杂图形系统中的工程实践，可参考高性能跨平台CAD开发。"
   }
- ]
+ ],
+ "summary_missing": []
 }
