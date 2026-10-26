@@ -4092,8 +4092,8 @@
     "ep"
    ],
    "source": "youtube",
-   "summary_zh": "OpenAI 发布 Codex 演示视频，展示 GPT-Live 引导烹饪流程，介绍 Codex 云端环境保持任务运行及 CLI 支持语音输入、Agent 管理与多工作树分叉功能。",
-   "why_zh": "涵盖 Agent 环境持久化、人机交互优化及多分支任务管理，有助于掌握长时程 Agent 任务的状态保持与复杂工作流编排技巧。"
+   "summary_zh": "OpenAI 演示 Codex 烹饪场景：ChatGPT Space 规划食谱、GPT-Live 实时指导，云环境保持任务运行，CLI 支持语音输入与对话分叉。",
+   "why_zh": "掌握 Codex 云环境持久化与 CLI 语音/分叉工作流，可复用于 Agent 长任务托管与多线程协作开发模式。"
   },
   "https://arxiv.org/abs/2610.26865": {
    "title": "AutoTerm-SST: Adaptive Terminology Memory with Zero Session-Time Setup for Streaming Speech Translation",
@@ -4429,7 +4429,7 @@
     "summarization"
    ],
    "source": "youtube",
-   "summary_zh": "LangChain 视频讲解 Deep Agents 通过卸载大工具结果到虚拟文件系统和摘要化缓解上下文腐烂。",
+   "summary_zh": "Deep Agents 缓解上下文腐烂的两招：把大型工具结果卸载到虚拟文件系统，并对历史消息做动态摘要。",
    "why_zh": "学习上下文工程技巧：offloading 与 summarization 的落地实现，提升长运行 Agent 推理稳定性。"
   },
   "https://www.marktechpost.com/2026/10/21/cactus-whistle-vs-whisper-base-speech-to-text-benchmark-cpu-guide/": {
@@ -4939,7 +4939,7 @@
     "scores"
    ],
    "source": "youtube",
-   "summary_zh": "Matthew Berman 视频揭露 Kimi K3.1 伪造基准测试分数",
+   "summary_zh": "Matthew Berman 揭露 Kimi K3.1 伪造基准测试分数。",
    "why_zh": "属于 模型评测诚信与基准造假识别技能点，提醒工程师在选型时需核实第三方复现结果，避免被虚假指标误导"
   },
   "https://www.youtube.com/watch?v=VAQHsKS9fxY": {

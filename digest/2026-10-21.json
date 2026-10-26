@@ -423,8 +423,8 @@
     "ep"
    ],
    "flag": "new",
-   "summary_zh": "OpenAI 发布 Codex 演示视频，展示 GPT-Live 引导烹饪流程，介绍 Codex 云端环境保持任务运行及 CLI 支持语音输入、Agent 管理与多工作树分叉功能。",
-   "why_zh": "涵盖 Agent 环境持久化、人机交互优化及多分支任务管理，有助于掌握长时程 Agent 任务的状态保持与复杂工作流编排技巧。"
+   "summary_zh": "OpenAI 演示 Codex 烹饪场景：ChatGPT Space 规划食谱、GPT-Live 实时指导，云环境保持任务运行，CLI 支持语音输入与对话分叉。",
+   "why_zh": "掌握 Codex 云环境持久化与 CLI 语音/分叉工作流，可复用于 Agent 长任务托管与多线程协作开发模式。"
   }
  ],
  "dups": [

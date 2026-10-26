@@ -291,7 +291,7 @@
     "summarization"
    ],
    "flag": "new",
-   "summary_zh": "LangChain 视频讲解 Deep Agents 通过卸载大工具结果到虚拟文件系统和摘要化缓解上下文腐烂。",
+   "summary_zh": "Deep Agents 缓解上下文腐烂的两招：把大型工具结果卸载到虚拟文件系统，并对历史消息做动态摘要。",
    "why_zh": "学习上下文工程技巧：offloading 与 summarization 的落地实现，提升长运行 Agent 推理稳定性。"
   },
   {
