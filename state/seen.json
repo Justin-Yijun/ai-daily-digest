@@ -23,7 +23,7 @@
   },
   "https://github.com/rehan-remade/universal-modder": {
    "title": "rehan-remade/universal-modder",
-   "date": "2026-10-23",
+   "date": "2026-10-26",
    "tokens": [],
    "source": "github",
    "summary_zh": "使用 Claude Code 及 fal MCP 进行游戏逆向、资产生成、测试等全流程 MOD 制作。",
@@ -40,10 +40,14 @@
   "https://github.com/youngyangyang04/llm-master": {
    "title": "youngyangyang04/llm-master",
    "date": "2026-10-26",
-   "tokens": [],
+   "tokens": [
+    "llm",
+    "master",
+    "youngyangyang04"
+   ],
    "source": "github",
-   "summary_zh": "提供覆盖 Prompt Engineering 到模型部署等全栈 LLM 学习路线的中文教程。",
-   "why_zh": "对 AI 工程师系统掌握 LLM 技术栈和面试准备极具参考价值。"
+   "summary_zh": "提供大模型全栈学习路线与中文教程，涵盖 Prompt Engineering、RAG、AI Agent、MCP、微调、部署、Transformer 及面试指南",
+   "why_zh": "掌握从 Prompt 到部署的完整工程链路，面试可复用 RAG、Agent、微调等实战模块"
   },
   "https://github.com/Niko1221/Strata": {
    "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
@@ -190,7 +194,7 @@
   },
   "https://github.com/amitshekhariitbhu/ai-engineering-course": {
    "title": "amitshekhariitbhu/ai-engineering-course",
-   "date": "2026-10-24",
+   "date": "2026-10-26",
    "tokens": [],
    "source": "github",
    "summary_zh": "",
@@ -1224,10 +1228,15 @@
   "https://github.com/lemomo-ai/lemo-opuscar": {
    "title": "lemomo-ai/lemo-opuscar",
    "date": "2026-10-26",
-   "tokens": [],
+   "tokens": [
+    "ai",
+    "lemo",
+    "lemomo",
+    "opuscar"
+   ],
    "source": "github",
-   "summary_zh": "Claude Opus 5.5 生成 43 种电影风格的纯代码短片，附风格提示词和导演指南。",
-   "why_zh": "展示大模型直接输出可运行代码实现多风格视觉内容，为程序化创作提供新范式。"
+   "summary_zh": "提供 59 种代码生成的电影风格提示词与演示短片，基于 Claude Opus 5.5 无视频模型",
+   "why_zh": "学习纯代码驱动的风格化视频生成与提示词工程，面试可复用提示词模板设计与批量生成流程"
   },
   "https://github.com/Clearailhc/clearai-dsh": {
    "title": "Clearailhc/clearai-dsh",
@@ -1722,7 +1731,7 @@
   },
   "https://github.com/amitshekhariitbhu/ai-system-design": {
    "title": "amitshekhariitbhu/ai-system-design",
-   "date": "2026-10-25",
+   "date": "2026-10-26",
    "tokens": [],
    "source": "github",
    "summary_zh": "amitshekhariitbhu 开源 ai-system-design 项目，通过分步指南讲解基于 LLM、RAG 和 AI Agents 的 AI 系统架构设计方法论",
@@ -2280,7 +2289,7 @@
   },
   "https://github.com/Ayzzz123/mcd-coupon-strategist": {
    "title": "Ayzzz123/mcd-coupon-strategist",
-   "date": "2026-10-25",
+   "date": "2026-10-26",
    "tokens": [],
    "source": "github",
    "summary_zh": "基于麦当劳 MCP 的点餐成本优化助手，给出最省钱方案并提醒凑单陷阱。",
@@ -2842,10 +2851,13 @@
   "https://github.com/Fazmin/AILearningGuide": {
    "title": "Fazmin/AILearningGuide",
    "date": "2026-10-26",
-   "tokens": [],
+   "tokens": [
+    "ailearningguide",
+    "fazmin"
+   ],
    "source": "github",
-   "summary_zh": "提供交互式桌面应用，包含51个实验涵盖机器学习基础、Transformer、RAG、Agent、微调与量化等内容。",
-   "why_zh": "可学习动手实验的组织方式，掌握从基础到高级模型的全流程实践，适合面试中展示系统化学习能力。"
+   "summary_zh": "交互式桌面应用，内置 51 个实验涵盖 ML 基础、Transformer、RAG、Agent、微调与量化",
+   "why_zh": "通过动手实验快速建立端到端模型训练与推理流程，面试可展示实验设计与复现能力"
   },
   "https://arxiv.org/abs/2610.14005": {
    "title": "Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence",
@@ -4134,13 +4146,8 @@
   },
   "https://github.com/pinganbbOvO/ai-companion-kit": {
    "title": "pinganbbOvO/ai-companion-kit",
-   "date": "2026-10-22",
-   "tokens": [
-    "ai",
-    "companion",
-    "kit",
-    "pinganbbovo"
-   ],
+   "date": "2026-10-26",
+   "tokens": [],
    "source": "github",
    "summary_zh": "ai-companion-kit 实现具备记忆、场景感知的 QQ 陪聊机器人，并通过 MCP 控制安卓手机，赋予 AI “身体”。",
    "why_zh": "展示 MCP 协议在移动端控制与长期记忆人格化 Agent 的工程集成，属多模态交互与工具链落地技能点。"
@@ -4337,13 +4344,8 @@
   },
   "https://github.com/JEen-wang/Adaptive-rag": {
    "title": "JEen-wang/Adaptive-rag",
-   "date": "2026-10-23",
-   "tokens": [
-    "adaptive",
-    "jeen",
-    "rag",
-    "wang"
-   ],
+   "date": "2026-10-26",
+   "tokens": [],
    "source": "github",
    "summary_zh": "按问题复杂度自动分流的电商客服 RAG，支持多跳检索、自我纠错、工具调用与人工确认",
    "why_zh": "属于 RAG 工程与 LangGraph 编排技能点，展示复杂度路由、混合检索、离线评测与可观测性最佳实践"
@@ -4577,10 +4579,12 @@
   "https://github.com/Folkbench/folkbench": {
    "title": "Folkbench/folkbench",
    "date": "2026-10-26",
-   "tokens": [],
+   "tokens": [
+    "folkbench"
+   ],
    "source": "github",
-   "summary_zh": "开源 Rust 工具 Folkbench，提供 AI API 中转站评测排行与切换功能，实测 Claude Code 等兼容性。",
-   "why_zh": "涉及 LLM 基础设施开发与性能基准测试，学习如何构建多 API 路由代理及监控可用性与延迟。"
+   "summary_zh": "开源 AI API 中转站评测与切换工具，实测可用率、延迟与价格，支持 Claude Code 与 Codex",
+   "why_zh": "掌握多供应商 API 基准测试与自动切换策略，面试可复用性能监控与降级方案"
   },
   "https://github.com/ollaya-dev/ollaya": {
    "title": "ollaya-dev/ollaya",
@@ -4754,10 +4758,19 @@
   "https://github.com/slee-persis/GVS5H": {
    "title": "Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
    "date": "2026-10-26",
-   "tokens": [],
+   "tokens": [
+    "27b",
+    "fable",
+    "five",
+    "gvs5h",
+    "harness",
+    "match",
+    "models",
+    "qwen3"
+   ],
    "source": "hackernews",
-   "summary_zh": "五个 Qwen3.8-27B 模型在 GVS5H 基准上达到 Fable 5 水平",
-   "why_zh": "大模型评测复现技能，学习用统一 harness 对比多模型性能"
+   "summary_zh": "五个 Qwen3.8-27B 模型在 GVS5H Harness 上达到 Fable 5 基准",
+   "why_zh": "了解大模型评测套件 GVS5H 与基准对齐方法，面试可复用多模型对比实验设计"
   },
   "https://huggingface.co/papers/2610.30418": {
    "title": "Agent Mosaic: Recognizing Confidentiality Leaks in Agentic LLM Systems",
@@ -4971,8 +4984,8 @@
     "phronix"
    ],
    "source": "paper",
-   "summary_zh": "Phronix 提出以能力为中心的学习范式，让 Agent 自主获取技能与记忆，减少人工编写的依赖",
-   "why_zh": "Agent 自主学习与能力获取；可复用：构建以能力为中心的训练循环，自动生成技能库"
+   "summary_zh": "提出 Phronix 以能力为中心的 Agent 学习范式，解决手工技能与记忆限制自主学习",
+   "why_zh": "学习 Agent 自主能力获取与记忆管理设计，面试可复用能力驱动的训练循环构建"
   },
   "https://arxiv.org/abs/2610.31684": {
    "title": "Knowledge Graphs Quality Assessment in the Era of LLMs: A Conceptual Framework",
@@ -4988,8 +5001,8 @@
     "quality"
    ],
    "source": "paper",
-   "summary_zh": "提出面向 LLM 时代的知识图谱质量评估概念框架，明确完整性、准确性等维度",
-   "why_zh": "KG 质量评估与 LLM 融合；可复用：建立多维指标体系指导数据清洗"
+   "summary_zh": "",
+   "why_zh": ""
   },
   "https://github.com/KaiWU5/Awesome-AI4AI": {
    "title": "KaiWU5/Awesome-AI4AI",
@@ -5019,8 +5032,8 @@
     "year"
    ],
    "source": "hackernews",
-   "summary_zh": "十年前的 CNN 在皮肤癌诊断上超越最新 LLM",
-   "why_zh": "经典 CNN 与大模型对比；可复用：垂直任务中轻量模型仍具优势，指导模型选型"
+   "summary_zh": "",
+   "why_zh": ""
   },
   "https://github.com/Kai-Jungsthoefel/SOMA": {
    "title": "Kai-Jungsthoefel/SOMA",
@@ -5096,8 +5109,8 @@
     "together"
    ],
    "source": "blog",
-   "summary_zh": "Hugging Face 发布开源 DNA 语言模型 Carbon-X，基于 Qwen3-14B，支持原始 DNA 序列读取与自然语言交互。",
-   "why_zh": "多模态大模型微调，学习如何将特定领域数据（如 DNA 序列）适配到基础 LLM 架构及基准测试方法。"
+   "summary_zh": "",
+   "why_zh": ""
   },
   "https://www.langchain.com/blog/components-building-company-harness": {
    "title": "The five components of building a \"company harness\"",
@@ -5110,8 +5123,8 @@
     "harness"
    ],
    "source": "blog",
-   "summary_zh": "LangChain 总结构建企业级 Agent 系统的五大核心组件，涵盖市场、销售及工程团队的内部应用实践。",
-   "why_zh": "Agent 系统工程化，学习将 LLM 能力嵌入企业工作流时的组件划分、权限管理与人机协作设计。"
+   "summary_zh": "",
+   "why_zh": ""
   },
   "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/": {
    "title": "Introducing Kimi K3.1 Pro",
@@ -5135,8 +5148,8 @@
     "hunt"
    ],
    "source": "youtube",
-   "summary_zh": "OpenAI 工程师展示利用 Codex 和 ChatGPT Spaces 收集用户反馈、跟踪并修复 Bug 的全流程工作流。",
-   "why_zh": "Agent 辅助 DevOps，学习如何编排 Agent 自动聚合非结构化反馈并转化为可执行的代码修复任务。"
+   "summary_zh": "OpenAI 工程师演示使用 dot 收集社交媒体反馈、更新 ChatGPT Space 追踪器并结合 Codex 定位修复 Bug",
+   "why_zh": "学习基于对话式工具的研发闭环构建与人机协作调试流程，可复用于 AI 辅助开发的问题追踪与自动化修复"
   },
   "https://www.youtube.com/shorts/7Cs5qyBlYQk": {
    "title": "From notes to AI training with ChatGPT Work | Realpage.",
@@ -5150,8 +5163,8 @@
     "work"
    ],
    "source": "youtube",
-   "summary_zh": "Realpage 使用 ChatGPT Work 将想法、笔记和源材料转化为针对不同团队、角色和技能水平的完整 AI 训练包。",
-   "why_zh": "属于 LLM 应用工程 / 提示工程技能点，可复用将非结构化知识转结构化训练数据的流程，适合构建企业级知识蒸馏管线。"
+   "summary_zh": "Realpage 利用 ChatGPT Work 将笔记转为定制化 AI 训练包。",
+   "why_zh": "掌握企业级知识转化为训练数据的流程，可复用于构建角色专用微调语料。"
   },
   "https://www.youtube.com/shorts/2lNUGkCg_qc": {
    "title": "AI agents for everyday IT fixes | Shield and OpenAI",
@@ -5165,9 +5178,29 @@
     "shield"
    ],
    "source": "youtube",
-   "summary_zh": "Shield 的 AI Agent 通过 Astra 直接在业务软件中处理常规 IT 故障，释放技术人员精力解决复杂问题。",
-   "why_zh": "属于 Agent 编排 / 工具调用技能点，可复用让 Agent 在现有 SaaS 界面原生操作而非 API 封装的模式，降低集成成本并提升可靠性。"
+   "summary_zh": "Shield 部署 Astra 驱动 AI Agent 直接在业务软件处理常规 IT 故障。",
+   "why_zh": "学习 Agent 在现有 SaaS 环境中通过工具调用实现自动化运维的落地模式。"
+  },
+  "https://www.marktechpost.com/2026/10/26/tsinghua-akv-kv-cache-engineering-llm-agents/": {
+   "title": "Tsinghua AI Open-Sources AKV, a Cache Engineering Server for LLM Agents on SGLang",
+   "date": "2026-10-26",
+   "tokens": [
+    "agents",
+    "ai",
+    "akv",
+    "cache",
+    "engineering",
+    "llm",
+    "open",
+    "server",
+    "sglang",
+    "sources",
+    "tsinghua"
+   ],
+   "source": "blog",
+   "summary_zh": "",
+   "why_zh": ""
   }
  },
- "updated": "2026-10-26T08:11:59.039192+00:00"
+ "updated": "2026-10-26T08:23:09.795445+00:00"
 }
