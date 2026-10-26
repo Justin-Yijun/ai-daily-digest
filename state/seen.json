@@ -39,7 +39,7 @@
   },
   "https://github.com/youngyangyang04/llm-master": {
    "title": "youngyangyang04/llm-master",
-   "date": "2026-10-26",
+   "date": "2026-10-27",
    "tokens": [],
    "source": "github",
    "summary_zh": "提供覆盖 Prompt Engineering 到模型部署等全栈 LLM 学习路线的中文教程。",
@@ -1223,7 +1223,7 @@
   },
   "https://github.com/lemomo-ai/lemo-opuscar": {
    "title": "lemomo-ai/lemo-opuscar",
-   "date": "2026-10-26",
+   "date": "2026-10-27",
    "tokens": [],
    "source": "github",
    "summary_zh": "Claude Opus 5.5 生成 43 种电影风格的纯代码短片，附风格提示词和导演指南。",
@@ -2841,7 +2841,7 @@
   },
   "https://github.com/Fazmin/AILearningGuide": {
    "title": "Fazmin/AILearningGuide",
-   "date": "2026-10-26",
+   "date": "2026-10-27",
    "tokens": [],
    "source": "github",
    "summary_zh": "提供交互式桌面应用，包含51个实验涵盖机器学习基础、Transformer、RAG、Agent、微调与量化等内容。",
@@ -4576,7 +4576,7 @@
   },
   "https://github.com/Folkbench/folkbench": {
    "title": "Folkbench/folkbench",
-   "date": "2026-10-26",
+   "date": "2026-10-27",
    "tokens": [],
    "source": "github",
    "summary_zh": "开源 Rust 工具 Folkbench，提供 AI API 中转站评测排行与切换功能，实测 Claude Code 等兼容性。",
@@ -4753,7 +4753,7 @@
   },
   "https://github.com/slee-persis/GVS5H": {
    "title": "Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
-   "date": "2026-10-26",
+   "date": "2026-10-27",
    "tokens": [],
    "source": "hackernews",
    "summary_zh": "五个 Qwen3.8-27B 模型在 GVS5H 基准上达到 Fable 5 水平",
@@ -4961,15 +4961,8 @@
   },
   "https://arxiv.org/abs/2610.31789": {
    "title": "Phronix: The Capability-Centric Learning Paradigm for Agents",
-   "date": "2026-10-26",
-   "tokens": [
-    "agents",
-    "capability",
-    "centric",
-    "learning",
-    "paradigm",
-    "phronix"
-   ],
+   "date": "2026-10-27",
+   "tokens": [],
    "source": "paper",
    "summary_zh": "Phronix 提出以能力为中心的学习范式，让 Agent 自主获取技能与记忆，减少人工编写的依赖",
    "why_zh": "Agent 自主学习与能力获取；可复用：构建以能力为中心的训练循环，自动生成技能库"
@@ -5167,7 +5160,239 @@
    "source": "youtube",
    "summary_zh": "Shield 的 AI Agent 通过 Astra 直接在业务软件中处理常规 IT 故障，释放技术人员精力解决复杂问题。",
    "why_zh": "属于 Agent 编排 / 工具调用技能点，可复用让 Agent 在现有 SaaS 界面原生操作而非 API 封装的模式，降低集成成本并提升可靠性。"
+  },
+  "https://github.com/KrushnaVardhanReddy/PaperPilot": {
+   "title": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
+   "date": "2026-10-27",
+   "tokens": [
+    "cloud",
+    "engine",
+    "mcp",
+    "paperpilot",
+    "pdf",
+    "pure",
+    "rust",
+    "wasm",
+    "zero"
+   ],
+   "source": "hackernews",
+   "summary_zh": "PaperPilot 是一个基于纯 Rust 开发的 PDF 引擎，支持 WASM 和 MCP 协议，旨在提供高性能、零云端的文档处理能力。",
+   "why_zh": "属于高性能计算与 Agent 工具集成领域，可学习如何通过 WASM 实现跨平台轻量级工具部署，以及如何将本地引擎封装为 MCP Server。"
+  },
+  "https://github.com/Syenzzz/mcd-coupon-strategist": {
+   "title": "Syenzzz/mcd-coupon-strategist",
+   "date": "2026-10-27",
+   "tokens": [
+    "coupon",
+    "mcd",
+    "strategist",
+    "syenzzz"
+   ],
+   "source": "github",
+   "summary_zh": "mcd-coupon-strategist 是一个基于麦当劳 MCP 的点餐优化工具，通过算法计算门店最优凑单组合并识别消费陷阱。",
+   "why_zh": "属于 MCP 应用开发领域，可学习如何利用 MCP 协议构建特定领域（Domain-specific）的决策辅助 Agent，实现外部 API 的逻辑封装。"
+  },
+  "https://arxiv.org/abs/2610.31846": {
+   "title": "Don't Forget What You Just Learned: Self-Directed Repair Turns Agent Mistakes Into Lasting Lessons",
+   "date": "2026-10-27",
+   "tokens": [
+    "agent",
+    "directed",
+    "don",
+    "forget",
+    "just",
+    "lasting",
+    "learned",
+    "lessons",
+    "mistakes",
+    "repair",
+    "self",
+    "turns"
+   ],
+   "source": "paper",
+   "summary_zh": "提出 Self-Directed Repair 方法，通过自主纠错机制将 Agent 错误转化为持久化知识，避免了上下文遗忘和昂贵的参数微调。",
+   "why_zh": "属于 Agent 持续学习与记忆管理领域，可学习如何设计轻量级的错误修正反馈回路，提升 Agent 在多轮交互中的长期稳定性。"
+  },
+  "https://arxiv.org/abs/2610.31701": {
+   "title": "Tradeoff-Aware Territory Design: A Multi-Objective Decision System for Enterprise Customer-to-Seller Allocation",
+   "date": "2026-10-27",
+   "tokens": [
+    "allocation",
+    "aware",
+    "customer",
+    "decision",
+    "design",
+    "enterprise",
+    "multi",
+    "objective",
+    "seller",
+    "system",
+    "territory",
+    "tradeoff"
+   ],
+   "source": "paper",
+   "summary_zh": "提出一种多目标决策系统，用于企业 B2B 场景下的客户与销售人员分配，平衡资源覆盖与销售关系稳定性。",
+   "why_zh": "属于复杂决策系统与运筹优化领域，可学习如何将业务约束转化为多目标优化问题，并利用 AI 辅助企业级资源调度决策。"
+  },
+  "https://arxiv.org/abs/2610.31808": {
+   "title": "Patronizing and Condescending Language Detection in English and Mandarin",
+   "date": "2026-10-27",
+   "tokens": [
+    "condescending",
+    "detection",
+    "english",
+    "language",
+    "mandarin",
+    "patronizing"
+   ],
+   "source": "paper",
+   "summary_zh": "构建了针对英语和中文的“居高临下语言”（PCL）检测系统，旨在识别隐蔽的社会偏见与负面刻板印象。",
+   "why_zh": "属于 NLP 伦理与内容安全领域，可学习如何构建细粒度情感分析模型，以及如何处理跨语言语境下的隐性语义识别任务。"
+  },
+  "https://www.marktechpost.com/2026/10/26/tsinghua-akv-kv-cache-engineering-llm-agents/": {
+   "title": "Tsinghua AI Open-Sources AKV, a Cache Engineering Server for LLM Agents on SGLang",
+   "date": "2026-10-27",
+   "tokens": [
+    "agents",
+    "ai",
+    "akv",
+    "cache",
+    "engineering",
+    "llm",
+    "open",
+    "server",
+    "sglang",
+    "sources",
+    "tsinghua"
+   ],
+   "source": "blog",
+   "summary_zh": "清华大学开源 AKV，这是一个基于 SGLang 的 KV Cache 工程化服务系统，通过直接操作缓存提升 LLM Agent 效率。",
+   "why_zh": "属于 LLM 推理优化领域，可学习如何通过 KV Cache 缓存管理替代传统的历史摘要，从而降低 Agent 推理成本并提升响应速度。"
+  },
+  "https://github.com/Yzmblog/DMAD": {
+   "title": "Yzmblog/DMAD",
+   "date": "2026-10-27",
+   "tokens": [
+    "dmad",
+    "yzmblog"
+   ],
+   "source": "github",
+   "summary_zh": "DMAD 提出一种将分布匹配作为对抗性蒸馏的方法，旨在加速视觉生成模型的推理速度。",
+   "why_zh": "属于模型压缩与加速领域，可学习如何通过对抗性训练实现高效的知识蒸馏，优化生成式模型的推理延迟。"
+  },
+  "https://www.youtube.com/watch?v=Wb3hQaG_xf0": {
+   "title": "Inside Managed Deep Agents: mda CLI, Context Hub, and Harbor Evals | Interrupt London",
+   "date": "2026-10-27",
+   "tokens": [
+    "agents",
+    "cli",
+    "context",
+    "deep",
+    "evals",
+    "harbor",
+    "hub",
+    "inside",
+    "interrupt",
+    "london",
+    "managed",
+    "mda"
+   ],
+   "source": "youtube",
+   "summary_zh": "LangChain 推出 Managed Deep Agents，通过集成 LangSmith 基础设施，支持将深度智能体从本地原型迁移至生产环境。",
+   "why_zh": "属于 Agent 工程化领域，可学习如何构建生产级 Agent 架构，利用基础设施实现业务逻辑与智能体编排的解耦。"
+  },
+  "https://github.com/beckettharriman/openfill": {
+   "title": "beckettharriman/openfill",
+   "date": "2026-10-27",
+   "tokens": [
+    "beckettharriman",
+    "openfill"
+   ],
+   "source": "github",
+   "summary_zh": "openfill 是一个基于 ComfyUI 的开源插件，为 PhotoCraft 和 GIMP 3 提供本地化的生成式填充、对象移除及扩图功能。",
+   "why_zh": "属于图像处理工作流集成领域，可学习如何通过 ComfyUI API 将复杂的生成式 AI 能力封装并嵌入到传统桌面软件中。"
+  },
+  "https://github.com/ZJU-REAL/Easel": {
+   "title": "ZJU-REAL/Easel",
+   "date": "2026-10-27",
+   "tokens": [
+    "easel",
+    "real",
+    "zju"
+   ],
+   "source": "github",
+   "summary_zh": "Easel 是一个开源社交媒体 AI 智能体，支持跨平台热点发现、多模态内容创作及发布后的效果数据分析。",
+   "why_zh": "属于 Agent 应用开发领域，可学习如何设计多工具调用的 Agent 工作流，实现从内容生产到反馈闭环的自动化。"
+  },
+  "https://www.youtube.com/watch?v=VhrtlfTyqp4": {
+   "title": "100% Open Image Model Lets You Place Text With JSON",
+   "date": "2026-10-27",
+   "tokens": [
+    "100",
+    "image",
+    "json",
+    "lets",
+    "model",
+    "open",
+    "place",
+    "text"
+   ],
+   "source": "youtube",
+   "summary_zh": "MOSS Image 是一个基于 Apache 2.0 协议的 5B 参数扩散 Transformer 模型，支持通过 JSON 格式精确控制图像布局。",
+   "why_zh": "属于可控图像生成领域，可学习如何利用结构化数据（JSON）作为 Prompt 约束生成模型的空间布局，提升生成结果的可预测性。"
+  },
+  "https://simonwillison.net/2026/Oct/25/seam-cutter/": {
+   "title": "Seam Cutter",
+   "date": "2026-10-27",
+   "tokens": [
+    "cutter",
+    "seam"
+   ],
+   "source": "blog",
+   "summary_zh": "Seam Cutter 是一个图像裁剪工具，允许用户在图像中进行水平或垂直切割，并平移两侧以去除中间部分。",
+   "why_zh": "属于图像处理算法应用领域，可学习如何通过简单的几何变换逻辑解决特定场景下的图像编辑需求，提升工具开发的实用性。"
+  },
+  "https://www.marktechpost.com/2026/10/25/stanford-berkeley-tokengate-learned-token-pruning-llm-prefill/": {
+   "title": "Researchers from Stanford and UC Berkeley Introduce TokenGate: Token-Gated Attention Makes Long-Context Prefill Up to 11.3x Faster",
+   "date": "2026-10-27",
+   "tokens": [
+    "11",
+    "3x",
+    "attention",
+    "berkeley",
+    "context",
+    "faster",
+    "gated",
+    "introduce",
+    "long",
+    "makes",
+    "prefill",
+    "researchers",
+    "stanford",
+    "token",
+    "tokengate",
+    "uc",
+    "up"
+   ],
+   "source": "blog",
+   "summary_zh": "Stanford 和 UC Berkeley 提出 TokenGate 模块，通过学习型 Token 剪枝技术，在不损失精度的情况下，将长上下文 Prefill 阶段的 TTFT 速度提升 1.4 至 11.3 倍，并显著降低峰值内存占用。",
+   "why_zh": "属于 LLM 推理优化领域。可学习如何通过动态剪枝策略减少 Attention 计算冗余，复用该方法优化长文本处理的推理延迟与显存瓶颈。"
+  },
+  "https://www.youtube.com/watch?v=52JX83rGPLc": {
+   "title": "ELITE Agentic Engineers Are LEAVING THE LOOP... Here’s why",
+   "date": "2026-10-27",
+   "tokens": [
+    "agentic",
+    "elite",
+    "engineers",
+    "here",
+    "leaving",
+    "loop"
+   ],
+   "source": "youtube",
+   "summary_zh": "探讨 AI Agent 开发范式从“人在回路”向“全自动自主工作流”的演进，强调通过构建具备主动性与持久性的 Agent 系统，实现复杂编程任务的自动化闭环。",
+   "why_zh": "属于 Agent 工程化领域。可学习如何设计 Proactive Durable Agent 架构，复用其自主决策与异常处理逻辑，提升 Agent 在生产环境中的独立执行能力。"
   }
  },
- "updated": "2026-10-26T08:11:59.039192+00:00"
+ "updated": "2026-10-26T16:16:29.389516+00:00"
 }

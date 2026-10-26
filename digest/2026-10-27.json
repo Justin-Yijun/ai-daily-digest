@@ -1,0 +1,631 @@
+{
+ "date": "2026-10-27",
+ "generated": "2026-10-27 00:16",
+ "source_count": {
+  "github": 72,
+  "youtube": 40,
+  "blog": 83,
+  "paper": 24,
+  "hackernews": 10
+ },
+ "failures": {},
+ "failure_errors": {},
+ "summary_missing": [],
+ "summary_providers": {
+  "gemini": 3
+ },
+ "items": [
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
+   "link": "https://github.com/KrushnaVardhanReddy/PaperPilot",
+   "dt": "2026-10-26T03:29:05+00:00",
+   "summary": "",
+   "extra": {
+    "points": 208,
+    "comments": 74,
+    "hn_link": "https://news.ycombinator.com/item?id=50238739"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 2.295,
+   "score": 7.615,
+   "tokens": [
+    "cloud",
+    "engine",
+    "mcp",
+    "paperpilot",
+    "pdf",
+    "pure",
+    "rust",
+    "wasm",
+    "zero"
+   ],
+   "flag": "new",
+   "summary_zh": "PaperPilot 是一个基于纯 Rust 开发的 PDF 引擎，支持 WASM 和 MCP 协议，旨在提供高性能、零云端的文档处理能力。",
+   "why_zh": "属于高性能计算与 Agent 工具集成领域，可学习如何通过 WASM 实现跨平台轻量级工具部署，以及如何将本地引擎封装为 MCP Server。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Syenzzz/mcd-coupon-strategist",
+   "link": "https://github.com/Syenzzz/mcd-coupon-strategist",
+   "dt": "2026-10-10T12:59:19+00:00",
+   "summary": "麦麦省钱助手 —— 基于麦当劳 MCP 的点餐成本优化 Skill。算出当前门店最省钱的点餐方案，并主动提示凑单陷阱。",
+   "extra": {
+    "stars": 990,
+    "language": "Python",
+    "topics": [
+     "agent",
+     "cost-optimization",
+     "coupon",
+     "llm",
+     "mcd-mcp",
+     "mcdonalds"
+    ],
+    "created": "2026-10-10",
+    "pushed": "2026-10-21"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.016,
+   "tokens": [
+    "coupon",
+    "mcd",
+    "strategist",
+    "syenzzz"
+   ],
+   "flag": "new",
+   "summary_zh": "mcd-coupon-strategist 是一个基于麦当劳 MCP 的点餐优化工具，通过算法计算门店最优凑单组合并识别消费陷阱。",
+   "why_zh": "属于 MCP 应用开发领域，可学习如何利用 MCP 协议构建特定领域（Domain-specific）的决策辅助 Agent，实现外部 API 的逻辑封装。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Don't Forget What You Just Learned: Self-Directed Repair Turns Agent Mistakes Into Lasting Lessons",
+   "link": "https://arxiv.org/abs/2610.31846",
+   "dt": "2026-10-26T00:00:00-04:00",
+   "summary": "arXiv:2610.31846v1 Announce Type: new Abstract: Intelligent agents should learn from their mistakes so that experience leads to continuous improvement. Yet today's agents recover from a mistake only temporarily: in-context reflections are easily forgotten across sessions and compete for limited context, while full-parameter fine-tuning is expensive and can interfere with existing capabilities. We introduce Self-Direction, a mechanism for agents to learn from mistakes that combines the benefits o",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "agent_architecture",
+    "training_serving"
+   ],
+   "learn_score": 2.652,
+   "score": 5.304,
+   "tokens": [
+    "agent",
+    "directed",
+    "don",
+    "forget",
+    "just",
+    "lasting",
+    "learned",
+    "lessons",
+    "mistakes",
+    "repair",
+    "self",
+    "turns"
+   ],
+   "flag": "new",
+   "summary_zh": "提出 Self-Directed Repair 方法，通过自主纠错机制将 Agent 错误转化为持久化知识，避免了上下文遗忘和昂贵的参数微调。",
+   "why_zh": "属于 Agent 持续学习与记忆管理领域，可学习如何设计轻量级的错误修正反馈回路，提升 Agent 在多轮交互中的长期稳定性。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Tradeoff-Aware Territory Design: A Multi-Objective Decision System for Enterprise Customer-to-Seller Allocation",
+   "link": "https://arxiv.org/abs/2610.31701",
+   "dt": "2026-10-26T00:00:00-04:00",
+   "summary": "arXiv:2610.31701v1 Announce Type: new Abstract: Enterprise customer journeys are shaped not only by product experiences and marketing, but also by recurring resource-allocation decisions. In B2B go-to-market (GTM) organizations, territory carving determines which accounts receive seller coverage, which seller-account relationships are preserved, and how limited field capacity is distributed. Yet the process often remains manual, making it difficult to compare opportunities, value continuity, and",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "rag"
+   ],
+   "learn_score": 2.21,
+   "score": 4.42,
+   "tokens": [
+    "allocation",
+    "aware",
+    "customer",
+    "decision",
+    "design",
+    "enterprise",
+    "multi",
+    "objective",
+    "seller",
+    "system",
+    "territory",
+    "tradeoff"
+   ],
+   "flag": "new",
+   "summary_zh": "提出一种多目标决策系统，用于企业 B2B 场景下的客户与销售人员分配，平衡资源覆盖与销售关系稳定性。",
+   "why_zh": "属于复杂决策系统与运筹优化领域，可学习如何将业务约束转化为多目标优化问题，并利用 AI 辅助企业级资源调度决策。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Patronizing and Condescending Language Detection in English and Mandarin",
+   "link": "https://arxiv.org/abs/2610.31808",
+   "dt": "2026-10-26T00:00:00-04:00",
+   "summary": "arXiv:2610.31808v1 Announce Type: new Abstract: Patronizing and condescending language (PCL) is a form of harmful language that belittles and assumes pity for vulnerable groups, reinforcing negative societal stereotypes. However, unlike overt hate speech, it is often difficult to detect, even for human judges. This paper proposes a system for the automated detection of PCL. Our first approach uses static word embeddings and a convolutional neural network for classification, while our second appr",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "rag"
+   ],
+   "learn_score": 2.21,
+   "score": 4.42,
+   "tokens": [
+    "condescending",
+    "detection",
+    "english",
+    "language",
+    "mandarin",
+    "patronizing"
+   ],
+   "flag": "new",
+   "summary_zh": "构建了针对英语和中文的“居高临下语言”（PCL）检测系统，旨在识别隐蔽的社会偏见与负面刻板印象。",
+   "why_zh": "属于 NLP 伦理与内容安全领域，可学习如何构建细粒度情感分析模型，以及如何处理跨语言语境下的隐性语义识别任务。"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "Tsinghua AI Open-Sources AKV, a Cache Engineering Server for LLM Agents on SGLang",
+   "link": "https://www.marktechpost.com/2026/10/26/tsinghua-akv-kv-cache-engineering-llm-agents/",
+   "dt": "2026-10-26T07:56:45+00:00",
+   "summary": "Tsinghua researchers released AKV, an SGLang-based serving system for cache engineering. LLM agents drop and reposition KV cache instead of summarizing history, cutting average cost 27.7% across 4 agent benchmarks. The post Tsinghua AI Open-Sources AKV, a Cache Engineering Server for LLM Agents on SGLang appeared first on MarkTechPost .",
+   "extra": {},
+   "skills": [
+    "rag",
+    "eval_observability",
+    "training_serving"
+   ],
+   "learn_score": 2.731,
+   "score": 2.731,
+   "tokens": [
+    "agents",
+    "ai",
+    "akv",
+    "cache",
+    "engineering",
+    "llm",
+    "open",
+    "server",
+    "sglang",
+    "sources",
+    "tsinghua"
+   ],
+   "flag": "new",
+   "summary_zh": "清华大学开源 AKV，这是一个基于 SGLang 的 KV Cache 工程化服务系统，通过直接操作缓存提升 LLM Agent 效率。",
+   "why_zh": "属于 LLM 推理优化领域，可学习如何通过 KV Cache 缓存管理替代传统的历史摘要，从而降低 Agent 推理成本并提升响应速度。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Yzmblog/DMAD",
+   "link": "https://github.com/Yzmblog/DMAD",
+   "dt": "2026-09-29T04:47:19+00:00",
+   "summary": "DMAD: Distribution Matching as Adversarial Distillation for Fast Visual Generation",
+   "extra": {
+    "stars": 228,
+    "language": "Python",
+    "topics": [
+     "diffusion",
+     "diffusion-model",
+     "diffusion-models",
+     "distillation",
+     "generative-adversarial-network",
+     "generative-ai"
+    ],
+    "created": "2026-09-29",
+    "pushed": "2026-10-21"
+   },
+   "skills": [],
+   "learn_score": 0.765,
+   "score": 2.569,
+   "tokens": [
+    "dmad",
+    "yzmblog"
+   ],
+   "flag": "new",
+   "summary_zh": "DMAD 提出一种将分布匹配作为对抗性蒸馏的方法，旨在加速视觉生成模型的推理速度。",
+   "why_zh": "属于模型压缩与加速领域，可学习如何通过对抗性训练实现高效的知识蒸馏，优化生成式模型的推理延迟。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "Inside Managed Deep Agents: mda CLI, Context Hub, and Harbor Evals | Interrupt London",
+   "link": "https://www.youtube.com/watch?v=Wb3hQaG_xf0",
+   "dt": "2026-10-26T13:16:56+00:00",
+   "summary": "Victor Moreira, Product Manager at LangChain, explains what it takes to move a deep agent from a local prototype into production, and how Managed Deep Agents, now in public beta, couples the Deep Agents harness with LangSmith infrastructure so your team can focus on the business logic. Using LangChain's internal GTM agent as the example, he shows how an agent is scaffolded into one project structure with the mda CLI, run locally in LangSmith Studio, and deployed on LangSmith Deployment, then cov…",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": "Wb3hQaG_xf0"
+   },
+   "skills": [
+    "agent_architecture",
+    "eval_observability"
+   ],
+   "learn_score": 2.479,
+   "score": 2.479,
+   "tokens": [
+    "agents",
+    "cli",
+    "context",
+    "deep",
+    "evals",
+    "harbor",
+    "hub",
+    "inside",
+    "interrupt",
+    "london",
+    "managed",
+    "mda"
+   ],
+   "flag": "new",
+   "summary_zh": "LangChain 推出 Managed Deep Agents，通过集成 LangSmith 基础设施，支持将深度智能体从本地原型迁移至生产环境。",
+   "why_zh": "属于 Agent 工程化领域，可学习如何构建生产级 Agent 架构，利用基础设施实现业务逻辑与智能体编排的解耦。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "beckettharriman/openfill",
+   "link": "https://github.com/beckettharriman/openfill",
+   "dt": "2026-10-14T20:51:20+00:00",
+   "summary": "Generative Fill, Remove object, Generative Expand and Text to Image for PhotoCraft and GIMP 3. Free, local, on your own GPU through ComfyUI.",
+   "extra": {
+    "stars": 108,
+    "language": "Python",
+    "topics": [
+     "comfyui",
+     "flux",
+     "generative-ai",
+     "generative-fill",
+     "gimp",
+     "gimp-3"
+    ],
+    "created": "2026-10-14",
+    "pushed": "2026-10-26"
+   },
+   "skills": [],
+   "learn_score": 0.765,
+   "score": 2.321,
+   "tokens": [
+    "beckettharriman",
+    "openfill"
+   ],
+   "flag": "new",
+   "summary_zh": "openfill 是一个基于 ComfyUI 的开源插件，为 PhotoCraft 和 GIMP 3 提供本地化的生成式填充、对象移除及扩图功能。",
+   "why_zh": "属于图像处理工作流集成领域，可学习如何通过 ComfyUI API 将复杂的生成式 AI 能力封装并嵌入到传统桌面软件中。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ZJU-REAL/Easel",
+   "link": "https://github.com/ZJU-REAL/Easel",
+   "dt": "2026-08-28T02:22:27+00:00",
+   "summary": "An open-source AI agent for social media — discover trends, create content, publish everywhere, and learn what works across Xiaohongshu, Douyin, Zhihu, Bilibili, and more.🎨一个开源的 AI 社交媒体智能体——发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些内容真正有效，覆盖小红书、抖音、知乎、哔哩哔哩等平台。",
+   "extra": {
+    "stars": 4108,
+    "language": "Python",
+    "topics": [
+     "agent",
+     "agent-skill",
+     "content-automation",
+     "content-creation",
+     "content-generation",
+     "mcp"
+    ],
+    "created": "2026-08-28",
+    "pushed": "2026-10-25"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 0.551,
+   "score": 2.204,
+   "tokens": [
+    "easel",
+    "real",
+    "zju"
+   ],
+   "flag": "new",
+   "summary_zh": "Easel 是一个开源社交媒体 AI 智能体，支持跨平台热点发现、多模态内容创作及发布后的效果数据分析。",
+   "why_zh": "属于 Agent 应用开发领域，可学习如何设计多工具调用的 Agent 工作流，实现从内容生产到反馈闭环的自动化。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Sam Witteveen",
+   "title": "100% Open Image Model Lets You Place Text With JSON",
+   "link": "https://www.youtube.com/watch?v=VhrtlfTyqp4",
+   "dt": "2026-10-26T13:30:16+00:00",
+   "summary": "In this video I look at MOSS Image. A 5B diffusion transformer, which has an Apache 2 license, allowing you to create images and do whatever you want with it. It also allows you to use JSON to layout the image Blog: https://openmoss.ai/MOSS-Image/ HF: https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT 2nd Channel: https://www.youtube.com/channel/UCUF7WtR4JpVbQqcQGrLeADw Twitter: https://x.com/Sam_Witteveen 🕵️ Interested in building LLM Agents? Fill out the form below Building LLM Agents Form: h…",
+   "extra": {
+    "channel": "Sam Witteveen",
+    "video_id": "VhrtlfTyqp4"
+   },
+   "skills": [
+    "training_serving",
+    "llm_fundamentals"
+   ],
+   "learn_score": 1.836,
+   "score": 1.836,
+   "tokens": [
+    "100",
+    "image",
+    "json",
+    "lets",
+    "model",
+    "open",
+    "place",
+    "text"
+   ],
+   "flag": "new",
+   "summary_zh": "MOSS Image 是一个基于 Apache 2.0 协议的 5B 参数扩散 Transformer 模型，支持通过 JSON 格式精确控制图像布局。",
+   "why_zh": "属于可控图像生成领域，可学习如何利用结构化数据（JSON）作为 Prompt 约束生成模型的空间布局，提升生成结果的可预测性。"
+  },
+  {
+   "source": "blog",
+   "source_label": "Simon Willison",
+   "title": "Seam Cutter",
+   "link": "https://simonwillison.net/2026/Oct/25/seam-cutter/",
+   "dt": "2026-10-25T15:10:19+00:00",
+   "summary": "Tool: Seam Cutter I built this weird and very specific cropping tool - it lets you create a horizontal or vertical cut across an image, then slide the two sides relative to each other. Effectively it lets you crop out a section in the middle of an image. I wanted this because I often use Tailor on my iPhone to stitch several screenshots together into lot long image, but sometimes I find myself wanting to crop out a section in the middle - to redact an irrelevant prompt from a transcript, for exa…",
+   "extra": {},
+   "skills": [
+    "prompt_context"
+   ],
+   "learn_score": 1.445,
+   "score": 1.445,
+   "tokens": [
+    "cutter",
+    "seam"
+   ],
+   "flag": "new",
+   "summary_zh": "Seam Cutter 是一个图像裁剪工具，允许用户在图像中进行水平或垂直切割，并平移两侧以去除中间部分。",
+   "why_zh": "属于图像处理算法应用领域，可学习如何通过简单的几何变换逻辑解决特定场景下的图像编辑需求，提升工具开发的实用性。"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "Researchers from Stanford and UC Berkeley Introduce TokenGate: Token-Gated Attention Makes Long-Context Prefill Up to 11.3x Faster",
+   "link": "https://www.marktechpost.com/2026/10/25/stanford-berkeley-tokengate-learned-token-pruning-llm-prefill/",
+   "dt": "2026-10-25T12:12:18+00:00",
+   "summary": "Stanford and UC Berkeley researchers released TokenGate, a drop-in learned token pruning module for LLMs. It cuts long-context prefill time-to-first-token by 1.4x to 11.3x and peak memory by 1.5x to 3.4x without accuracy loss. The post Researchers from Stanford and UC Berkeley Introduce TokenGate: Token-Gated Attention Makes Long-Context Prefill Up to 11.3x Faster appeared first on MarkTechPost .",
+   "extra": {},
+   "skills": [
+    "llm_fundamentals"
+   ],
+   "learn_score": 1.445,
+   "score": 1.445,
+   "tokens": [
+    "11",
+    "3x",
+    "attention",
+    "berkeley",
+    "context",
+    "faster",
+    "gated",
+    "introduce",
+    "long",
+    "makes",
+    "prefill",
+    "researchers",
+    "stanford",
+    "token",
+    "tokengate",
+    "uc",
+    "up"
+   ],
+   "flag": "new",
+   "summary_zh": "Stanford 和 UC Berkeley 提出 TokenGate 模块，通过学习型 Token 剪枝技术，在不损失精度的情况下，将长上下文 Prefill 阶段的 TTFT 速度提升 1.4 至 11.3 倍，并显著降低峰值内存占用。",
+   "why_zh": "属于 LLM 推理优化领域。可学习如何通过动态剪枝策略减少 Attention 计算冗余，复用该方法优化长文本处理的推理延迟与显存瓶颈。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · IndyDevDan",
+   "title": "ELITE Agentic Engineers Are LEAVING THE LOOP... Here’s why",
+   "link": "https://www.youtube.com/watch?v=52JX83rGPLc",
+   "dt": "2026-10-26T13:00:05+00:00",
+   "summary": "If your AI agent is already a better programmer inside the loop than you are on your best day, why are you still sitting in it? 🔥 🎥 VIDEO REFERENCES • IA3 Phase 3 Early Sign Up: https://agenticengineer.com/ia3-pre-launch?y=52JX83rGPLc • Proactive Durable News Agent: https://youtu.be/OLqP8jxJ0Wc • Proactive On-Call Durable Agent: https://youtu.be/DNDYYHsypZg Mythos class models are here. Claude Opus 5.5 and GPT 6 Astra are better programmers than you are I. In fact, they're Alien Engineers. So wh…",
+   "extra": {
+    "channel": "IndyDevDan",
+    "video_id": "52JX83rGPLc"
+   },
+   "skills": [],
+   "learn_score": 1.215,
+   "score": 1.215,
+   "tokens": [
+    "agentic",
+    "elite",
+    "engineers",
+    "here",
+    "leaving",
+    "loop"
+   ],
+   "flag": "new",
+   "summary_zh": "探讨 AI Agent 开发范式从“人在回路”向“全自动自主工作流”的演进，强调通过构建具备主动性与持久性的 Agent 系统，实现复杂编程任务的自动化闭环。",
+   "why_zh": "属于 Agent 工程化领域。可学习如何设计 Proactive Durable Agent 架构，复用其自主决策与异常处理逻辑，提升 Agent 在生产环境中的独立执行能力。"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "youngyangyang04/llm-master",
+   "link": "https://github.com/youngyangyang04/llm-master",
+   "dt": "2026-09-12T07:33:31+00:00",
+   "summary": "大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。",
+   "extra": {
+    "stars": 1432,
+    "language": "",
+    "topics": [
+     "agent",
+     "large-language-models",
+     "llm",
+     "llm-learning",
+     "llm-tutorial",
+     "rag"
+    ],
+    "created": "2026-09-12",
+    "pushed": "2026-10-24"
+   },
+   "skills": [
+    "prompt_context",
+    "rag",
+    "tool_mcp",
+    "training_serving",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.479,
+   "score": 9.916,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-26 推荐过",
+   "summary_zh": "提供覆盖 Prompt Engineering 到模型部署等全栈 LLM 学习路线的中文教程。",
+   "why_zh": "对 AI 工程师系统掌握 LLM 技术栈和面试准备极具参考价值。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Fazmin/AILearningGuide",
+   "link": "https://github.com/Fazmin/AILearningGuide",
+   "dt": "2026-10-05T02:29:23+00:00",
+   "summary": "Interactive desktop app with 51 labs covering ML fundamentals, transformers, RAG, agents, fine-tuning and quantization and more.",
+   "extra": {
+    "stars": 233,
+    "language": "TypeScript",
+    "topics": [
+     "ai",
+     "ai-education",
+     "deep-learning",
+     "educational",
+     "educational-resources",
+     "educational-tool"
+    ],
+    "created": "2026-10-05",
+    "pushed": "2026-10-23"
+   },
+   "skills": [
+    "rag",
+    "training_serving",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.276,
+   "score": 7.664,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-26 推荐过",
+   "summary_zh": "提供交互式桌面应用，包含51个实验涵盖机器学习基础、Transformer、RAG、Agent、微调与量化等内容。",
+   "why_zh": "可学习动手实验的组织方式，掌握从基础到高级模型的全流程实践，适合面试中展示系统化学习能力。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
+   "link": "https://github.com/slee-persis/GVS5H",
+   "dt": "2026-10-25T03:56:01+00:00",
+   "summary": "",
+   "extra": {
+    "points": 184,
+    "comments": 74,
+    "hn_link": "https://news.ycombinator.com/item?id=50228167"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 2.295,
+   "score": 7.493,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-26 推荐过",
+   "summary_zh": "五个 Qwen3.8-27B 模型在 GVS5H 基准上达到 Fable 5 水平",
+   "why_zh": "大模型评测复现技能，学习用统一 harness 对比多模型性能"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Phronix: The Capability-Centric Learning Paradigm for Agents",
+   "link": "https://arxiv.org/abs/2610.31789",
+   "dt": "2026-10-26T00:00:00-04:00",
+   "summary": "arXiv:2610.31789v1 Announce Type: new Abstract: Scientific computing increasingly relies on large language model-based agents for performance engineering tasks such as instrumentation, analysis, and workflow porting. However, agent effectiveness depends heavily on the surrounding harness, which typically relies on manually written skills and curated memory. This limits autonomous learning, forcing agents to repeatedly rediscover solutions rather than retain and reuse knowledge from prior executi",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 3.729,
+   "score": 7.458,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-26 推荐过",
+   "summary_zh": "Phronix 提出以能力为中心的学习范式，让 Agent 自主获取技能与记忆，减少人工编写的依赖",
+   "why_zh": "Agent 自主学习与能力获取；可复用：构建以能力为中心的训练循环，自动生成技能库"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Folkbench/folkbench",
+   "link": "https://github.com/Folkbench/folkbench",
+   "dt": "2026-10-02T09:50:45+00:00",
+   "summary": "AI API 中转站评测排行与切换工具：实测可用率、延迟与价格 · Open-source AI API relay benchmark, rankings & switcher for Claude Code / Codex",
+   "extra": {
+    "stars": 3733,
+    "language": "Rust",
+    "topics": [
+     "ai",
+     "api-relay",
+     "api-relay-pricing",
+     "benchmark",
+     "benchmarks",
+     "claude"
+    ],
+    "created": "2026-10-02",
+    "pushed": "2026-10-25"
+   },
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-26 推荐过",
+   "summary_zh": "开源 Rust 工具 Folkbench，提供 AI API 中转站评测排行与切换功能，实测 Claude Code 等兼容性。",
+   "why_zh": "涉及 LLM 基础设施开发与性能基准测试，学习如何构建多 API 路由代理及监控可用性与延迟。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "lemomo-ai/lemo-opuscar",
+   "link": "https://github.com/lemomo-ai/lemo-opuscar",
+   "dt": "2026-09-26T10:10:41+00:00",
+   "summary": "A toolbox of film styles made in code for Claude Code: 59 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：59 种现成风格，也能做出你自己的",
+   "extra": {
+    "stars": 7941,
+    "language": "JavaScript",
+    "topics": [
+     "agent-skills",
+     "ai-agents",
+     "ai-short-film",
+     "ai-video",
+     "animation",
+     "canvas"
+    ],
+    "created": "2026-09-26",
+    "pushed": "2026-10-24"
+   },
+   "skills": [
+    "prompt_context"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-26 推荐过",
+   "summary_zh": "Claude Opus 5.5 生成 43 种电影风格的纯代码短片，附风格提示词和导演指南。",
+   "why_zh": "展示大模型直接输出可运行代码实现多风格视觉内容，为程序化创作提供新范式。"
+  }
+ ]
+}
