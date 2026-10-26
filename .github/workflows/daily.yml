@@ -42,6 +42,8 @@ jobs:
           FORCE: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}
           # 在仓库 Settings → Secrets and variables → Actions 里配置
           NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+          # 摘要降级链：NVIDIA -> Agnes -> DeepSeek，任意一个可用即可
+          AGNES_API_KEY: ${{ secrets.AGNES_API_KEY }}
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           # 默认 GITHUB_TOKEN 已可用，用来提高 GitHub API 配额
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -71,3 +73,21 @@ jobs:
             echo "push 失败，$i 秒后重试…"
             sleep $((i * 5))
           done
+
+      # 摘要静默失败的护栏：2026-10-21 起 NVIDIA 下架了写死的模型，接口 404，
+      # 摘要整整 5 天全空但 workflow 一直绿、页面退回显示俄/日/英原文，没人发现。
+      # 这里把“今天有没有摘要”变成硬校验（失败会让定时任务发邮件），
+      # 放在 commit 之后，保证日报本身照常发布。
+      - name: Verify summaries
+        run: |
+          python - <<'PY'
+          import glob, json, sys
+          path = sorted(glob.glob("digest/*.json"))[-1]
+          data = json.load(open(path, encoding="utf-8"))
+          items = data.get("items", [])
+          missing = [i["title"] for i in items if not (i.get("summary_zh") or "").strip()]
+          print(f"{path}: {len(items) - len(missing)}/{len(items)} 条有中文摘要")
+          for t in missing:
+              print(f"  缺摘要: {t}")
+          sys.exit(1 if missing else 0)
+          PY

@@ -8,12 +8,24 @@ AI 前沿日报采集器
 
 仅使用 Python 标准库，无需 pip install。
 
+中文摘要走「多通道降级」，任意一个通道有 key 就能出摘要（顺序即优先级）：
+  NVIDIA NIM（免费额度） -> Agnes（免费额度） -> DeepSeek（按量付费）
+
 环境变量：
-  DEEPSEEK_API_KEY   必填才会生成中文摘要（缺失则跳过摘要，仍输出链接）
-  DEEPSEEK_BASE_URL  默认 https://api.deepseek.com/v1
-  DEEPSEEK_MODEL     默认 deepseek-chat
+  NVIDIA_API_KEY / NVIDIA_BASE_URL / NVIDIA_MODEL
+      NVIDIA NIM 通道。注意 NVIDIA 会静默下线旧模型：写死的模型名一旦退役，
+      接口返回 404 "Not found for account"，所有批次全失败但流程不报错。
+      换模型时不能只看 /v1/models（已退役的模型仍可能列在里面），必须真的
+      发一次 /v1/chat/completions 看是否 200。
+  AGNES_API_KEY / AGNES_BASE_URL / AGNES_MODEL
+      Agnes 通道，默认 https://apihub.agnes-ai.com/v1 + agnes-3.0-flash。
+  DEEPSEEK_API_KEY / DEEPSEEK_BASE_URL / DEEPSEEK_MODEL
+      DeepSeek 通道，默认 https://api.deepseek.com/v1 + deepseek-chat。
   GITHUB_TOKEN       可选，提高 GitHub API 配额（Actions 里自动有）
   DRY_RUN=1          可选，跳过 LLM 摘要
+
+所有通道都不可用时不会中断流程：条目保留原文简介，摘要缺失的标题会写进
+日报 JSON 的 summary_missing 字段，由 workflow 的校验步骤报警。
 """
 
 import gzip
@@ -754,9 +766,21 @@ def llm_providers():
                     "NVIDIA_BASE_URL", "https://integrate.api.nvidia.com/v1"
                 ).rstrip("/"),
                 "model": os.environ.get(
-                    "NVIDIA_MODEL", "nvidia/nemotron-3-super-120b-a12b"
+                    "NVIDIA_MODEL", "nvidia/nemotron-3-ultra-550b-a55b"
                 ),
                 "key": nv,
+            }
+        )
+    ag = os.environ.get("AGNES_API_KEY")
+    if ag:
+        out.append(
+            {
+                "name": "agnes",
+                "base": os.environ.get(
+                    "AGNES_BASE_URL", "https://apihub.agnes-ai.com/v1"
+                ).rstrip("/"),
+                "model": os.environ.get("AGNES_MODEL", "agnes-3.0-flash"),
+                "key": ag,
             }
         )
     ds = os.environ.get("DEEPSEEK_API_KEY")
@@ -833,13 +857,14 @@ def call_llm(p, user):
 
 
 def summarize(items, now):
+    """给入选条目补中文摘要，返回仍然缺失摘要的标题列表。"""
     providers = llm_providers()
     if not providers:
-        log("[llm] 未设置 NVIDIA_API_KEY / DEEPSEEK_API_KEY，跳过中文摘要")
-        return
+        log("[llm] 未设置 NVIDIA_API_KEY / AGNES_API_KEY / DEEPSEEK_API_KEY，跳过中文摘要")
+        return [it["title"] for it in items if not (it.get("summary_zh") or "").strip()]
     if os.environ.get("DRY_RUN") == "1":
         log("[llm] DRY_RUN=1，跳过摘要")
-        return
+        return [it["title"] for it in items if not (it.get("summary_zh") or "").strip()]
     todo = [it for it in items if not it.get("summary_zh")]
     log(
         "[llm] 通道 "
@@ -848,6 +873,7 @@ def summarize(items, now):
     )
 
     batch_size = 6
+    failed_batches = 0
     for start in range(0, len(todo), batch_size):
         batch = todo[start : start + batch_size]
         user = build_prompt(batch)
@@ -859,6 +885,7 @@ def summarize(items, now):
                 used = p["name"]
                 break
         if by_id is None:
+            failed_batches += 1
             log("  [warn] 本批所有通道均失败，保留原文简介")
             continue
         for i, it in enumerate(batch):
@@ -869,6 +896,17 @@ def summarize(items, now):
         log(f"  [llm] 第 {start // batch_size + 1} 批完成（{used}）")
         if start + batch_size < len(todo):
             time.sleep(1)
+
+    missing = [it["title"] for it in items if not (it.get("summary_zh") or "").strip()]
+    if missing:
+        log(
+            f"[llm][ERROR] {len(missing)}/{len(items)} 条没有中文摘要"
+            f"（失败批次 {failed_batches}/{-(-len(todo) // batch_size)}），"
+            "页面会退回显示原文；检查各通道的 key 与模型名是否仍然有效"
+        )
+    else:
+        log(f"[llm] 全部 {len(items)} 条中文摘要完成")
+    return missing
 
 
 # --------------------------------------------------------------------------
@@ -1201,7 +1239,7 @@ def main():
     items = select_items(fresh, out_cfg)
 
     # 摘要（只对入选的新条目调用 LLM，省 token）
-    summarize(items, now)
+    summary_missing = summarize(items, now)
 
     date_str = now.astimezone(CST).strftime("%Y-%m-%d")
     top_n = int(out_cfg.get("top_picks", 6))
@@ -1226,6 +1264,7 @@ def main():
                 "source_count": SOURCE_COUNT,
                 "failures": FETCH_FAILURES,
                 "failure_errors": FETCH_ERRORS,
+                "summary_missing": summary_missing,
                 "items": [jsonable(i) for i in items],
                 "dups": [jsonable(i) for i in dups],
             },
