@@ -1,0 +1,607 @@
+{
+ "date": "2026-10-26",
+ "generated": "2026-10-26 16:11",
+ "source_count": {
+  "github": 71,
+  "youtube": 39,
+  "blog": 83,
+  "paper": 24,
+  "hackernews": 10
+ },
+ "failures": {},
+ "failure_errors": {},
+ "summary_missing": [],
+ "summary_providers": {
+  "nvidia": 2,
+  "agnes": 1
+ },
+ "items": [
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Phronix: The Capability-Centric Learning Paradigm for Agents",
+   "link": "https://arxiv.org/abs/2610.31789",
+   "dt": "2026-10-26T00:00:00-04:00",
+   "summary": "arXiv:2610.31789v1 Announce Type: new Abstract: Scientific computing increasingly relies on large language model-based agents for performance engineering tasks such as instrumentation, analysis, and workflow porting. However, agent effectiveness depends heavily on the surrounding harness, which typically relies on manually written skills and curated memory. This limits autonomous learning, forcing agents to repeatedly rediscover solutions rather than retain and reuse knowledge from prior executi",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 3.729,
+   "score": 7.458,
+   "tokens": [
+    "agents",
+    "capability",
+    "centric",
+    "learning",
+    "paradigm",
+    "phronix"
+   ],
+   "flag": "new",
+   "summary_zh": "Phronix 提出以能力为中心的学习范式，让 Agent 自主获取技能与记忆，减少人工编写的依赖",
+   "why_zh": "Agent 自主学习与能力获取；可复用：构建以能力为中心的训练循环，自动生成技能库"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.CL",
+   "title": "Knowledge Graphs Quality Assessment in the Era of LLMs: A Conceptual Framework",
+   "link": "https://arxiv.org/abs/2610.31684",
+   "dt": "2026-10-26T00:00:00-04:00",
+   "summary": "arXiv:2610.31684v1 Announce Type: new Abstract: Knowledge Graphs (KGs) have been popularized during the last few decades and are increasingly constructed and consumed by Large Language Models (LLMs). Various applications therefore rely on KGs to provide concise, complete, accurate, faithful, fresh, and traceable answers. However, what is the quality of those KGs? In which cases should a KG be used, and can it be trusted to ground an LLM? How might it be evaluated? We reviewed the literature on q",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 2.983,
+   "score": 5.966,
+   "tokens": [
+    "assessment",
+    "conceptual",
+    "era",
+    "framework",
+    "graphs",
+    "knowledge",
+    "llms",
+    "quality"
+   ],
+   "flag": "new",
+   "summary_zh": "提出面向 LLM 时代的知识图谱质量评估概念框架，明确完整性、准确性等维度",
+   "why_zh": "KG 质量评估与 LLM 融合；可复用：建立多维指标体系指导数据清洗"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "KaiWU5/Awesome-AI4AI",
+   "link": "https://github.com/KaiWU5/Awesome-AI4AI",
+   "dt": "2026-08-14T14:03:43+00:00",
+   "summary": "Updated weekly — until humanity achieves AI4AI. A survey-grounded catalog of 432 papers on long-horizon agents, benchmarks, harness design, and recursive self-improvement.",
+   "extra": {
+    "stars": 174,
+    "language": "Python",
+    "topics": [
+     "agent-benchmarks",
+     "agent-harness",
+     "agi",
+     "ai-agents",
+     "ai-research",
+     "ai4ai"
+    ],
+    "created": "2026-08-14",
+    "pushed": "2026-10-26"
+   },
+   "skills": [
+    "agent_architecture",
+    "eval_observability"
+   ],
+   "learn_score": 1.487,
+   "score": 4.819,
+   "tokens": [
+    "ai4ai",
+    "awesome",
+    "kaiwu5"
+   ],
+   "flag": "new",
+   "summary_zh": "整理 432 篇关于长时程 Agent、基准、Harness 设计与递归自我改进的论文目录",
+   "why_zh": "文献综述与 Agent 基准梳理；可复用：快速定位前沿研究与基准搭建方法"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+   "link": "https://lynchlab.net/llm-skin-cancer",
+   "dt": "2026-10-25T17:15:38+00:00",
+   "summary": "",
+   "extra": {
+    "points": 535,
+    "comments": 234,
+    "hn_link": "https://news.ycombinator.com/item?id=50233779"
+   },
+   "skills": [],
+   "learn_score": 1.0,
+   "score": 3.728,
+   "tokens": [
+    "10",
+    "cancer",
+    "cnn",
+    "diagnosis",
+    "frontier",
+    "llms",
+    "old",
+    "outperforms",
+    "skin",
+    "year"
+   ],
+   "flag": "new",
+   "summary_zh": "十年前的 CNN 在皮肤癌诊断上超越最新 LLM",
+   "why_zh": "经典 CNN 与大模型对比；可复用：垂直任务中轻量模型仍具优势，指导模型选型"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Kai-Jungsthoefel/SOMA",
+   "link": "https://github.com/Kai-Jungsthoefel/SOMA",
+   "dt": "2026-10-10T18:01:10+00:00",
+   "summary": "Desktop app for designing parametric 3D models in CadQuery together with the coding agent of your choice",
+   "extra": {
+    "stars": 372,
+    "language": "TypeScript",
+    "topics": [
+     "3d-printing",
+     "agent",
+     "agentic-ai",
+     "cad",
+     "cadquery",
+     "claude-code"
+    ],
+    "created": "2026-10-10",
+    "pushed": "2026-10-24"
+   },
+   "skills": [],
+   "learn_score": 1.033,
+   "score": 3.688,
+   "tokens": [
+    "jungsthoefel",
+    "kai",
+    "soma"
+   ],
+   "flag": "new",
+   "summary_zh": "桌面应用 SOMA 支持在 CadQuery 中与编程 Agent 协作设计参数化 3D 模型",
+   "why_zh": "代码生成 Agent 与 CAD 集成；可复用：将 Agent 嵌入 CAD 工作流实现自然语言驱动建模"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+   "link": "https://minimaxir.com/2026/10/cheap-llms/",
+   "dt": "2026-10-25T21:11:31+00:00",
+   "summary": "",
+   "extra": {
+    "points": 282,
+    "comments": 284,
+    "hn_link": "https://news.ycombinator.com/item?id=50236102"
+   },
+   "skills": [],
+   "learn_score": 1.0,
+   "score": 3.45,
+   "tokens": [
+    "80",
+    "anthropic",
+    "cut",
+    "few",
+    "llm",
+    "months",
+    "openai",
+    "prices",
+    "their",
+    "up",
+    "within"
+   ],
+   "flag": "new",
+   "summary_zh": "OpenAI 与 Anthropic 在几个月内将 LLM 价格最高降 80%",
+   "why_zh": "LLM 定价策略与成本优化；可复用：分析价格战原因指导部署预算与供应商选择"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "RuoJi6/ARTEX",
+   "link": "https://github.com/RuoJi6/ARTEX",
+   "dt": "2026-10-09T00:56:36+00:00",
+   "summary": "Autumn-27/ARTEX 持续维护开源版本",
+   "extra": {
+    "stars": 673,
+    "language": "Go",
+    "topics": [
+     "agent",
+     "artex"
+    ],
+    "created": "2026-10-09",
+    "pushed": "2026-10-26"
+   },
+   "skills": [],
+   "learn_score": 0.765,
+   "score": 2.928,
+   "tokens": [
+    "artex",
+    "ruoji6"
+   ],
+   "flag": "new",
+   "summary_zh": "RuoJi6 开源项目 ARTEX 持续维护更新，基于 Go 语言开发。",
+   "why_zh": "Go 语言微服务或 Agent 基础设施开发，学习开源项目的长期维护与迭代策略。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "FengZhenfei/carrel",
+   "link": "https://github.com/FengZhenfei/carrel",
+   "dt": "2026-09-28T11:13:02+00:00",
+   "summary": "Ontology-Augmented Generation for AI agents.",
+   "extra": {
+    "stars": 543,
+    "language": "Python",
+    "topics": [
+     "agent-skills",
+     "ai-agents",
+     "dgx-spark",
+     "document-parsing",
+     "icloud-sync",
+     "knowledge-graph"
+    ],
+    "created": "2026-09-28",
+    "pushed": "2026-10-26"
+   },
+   "skills": [],
+   "learn_score": 0.765,
+   "score": 2.857,
+   "tokens": [
+    "carrel",
+    "fengzhenfei"
+   ],
+   "flag": "new",
+   "summary_zh": "carrel 实现本体增强生成，为 AI Agent 提供基于 Ontology 的知识推理能力。",
+   "why_zh": "Agent 架构中的知识图谱集成，学习如何将本体论（Ontology）应用于 LLM 生成以增强逻辑一致性。"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "Hugging Face Releases Carbon-X, a 14B Open DNA Language Model that Brings DNA and Natural Language Together for the First Time",
+   "link": "https://www.marktechpost.com/2026/10/25/hugging-face-carbon-x-14b-dna-language-model/",
+   "dt": "2026-10-25T16:53:40+00:00",
+   "summary": "Hugging Face released Carbon-X, an open 14.8B DNA language model built on Qwen3-14B. It reads raw DNA in chat, answers in English, and averages 66.7% across 5 DNA benchmarks under Apache 2.0. The post Hugging Face Releases Carbon-X, a 14B Open DNA Language Model that Brings DNA and Natural Language Together for the First Time appeared first on MarkTechPost .",
+   "extra": {},
+   "skills": [
+    "rag",
+    "eval_observability"
+   ],
+   "learn_score": 2.341,
+   "score": 2.341,
+   "tokens": [
+    "14b",
+    "brings",
+    "carbon",
+    "dna",
+    "face",
+    "first",
+    "hugging",
+    "language",
+    "model",
+    "natural",
+    "open",
+    "releases",
+    "time",
+    "together"
+   ],
+   "flag": "new",
+   "summary_zh": "Hugging Face 发布开源 DNA 语言模型 Carbon-X，基于 Qwen3-14B，支持原始 DNA 序列读取与自然语言交互。",
+   "why_zh": "多模态大模型微调，学习如何将特定领域数据（如 DNA 序列）适配到基础 LLM 架构及基准测试方法。"
+  },
+  {
+   "source": "blog",
+   "source_label": "LangChain 博客",
+   "title": "The five components of building a \"company harness\"",
+   "link": "https://www.langchain.com/blog/components-building-company-harness",
+   "dt": "2026-10-25T18:06:32+00:00",
+   "summary": "Learn how LangChain built internal agents across marketing, sales, and engineering, and how they have completely changed how those teams work.",
+   "extra": {},
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.951,
+   "score": 1.951,
+   "tokens": [
+    "building",
+    "company",
+    "components",
+    "five",
+    "harness"
+   ],
+   "flag": "new",
+   "summary_zh": "LangChain 总结构建企业级 Agent 系统的五大核心组件，涵盖市场、销售及工程团队的内部应用实践。",
+   "why_zh": "Agent 系统工程化，学习将 LLM 能力嵌入企业工作流时的组件划分、权限管理与人机协作设计。"
+  },
+  {
+   "source": "blog",
+   "source_label": "Simon Willison",
+   "title": "Introducing Kimi K3.1 Pro",
+   "link": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+   "dt": "2026-10-23T19:40:54+00:00",
+   "summary": "Introducing Kimi K3.1 Pro Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise \"Full model weights will be released by Nov 4, 2026\". They're also offering a \"Highspeed\" version that's 2-3x faster, at twice the price (except for input token cache hits, which are priced the same). The US dollar pricing is $2.00/million tokens for input and $10/million for output - the same as GPT-6.1 Sol and half the price of Claude Opus 5.5. Moonshot's own benchmarks show K…",
+   "extra": {},
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.853,
+   "score": 1.853,
+   "tokens": [
+    "introducing",
+    "k3",
+    "kimi",
+    "pro"
+   ],
+   "flag": "new",
+   "summary_zh": "Kimi 发布 K3.1 Pro 模型，提供高速版推理服务，承诺 2026 年 11 月开放完整模型权重。",
+   "why_zh": "LLM API 经济学，分析不同推理速度档位（Highspeed）的定价策略及其对开发者成本优化的影响。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "Hunt bugs with your dot",
+   "link": "https://www.youtube.com/watch?v=6f7ojkd4_Wc",
+   "dt": "2026-10-23T22:05:37+00:00",
+   "summary": "We’re using dots to build better dots. Rennie Song, an engineer at OpenAI, uses her dot to gather feedback from social media and user reports, update a live tracker in ChatGPT Space, and investigate and fix bugs with Codex. Get started with dots today: https://learn.chatgpt.com/docs/dots",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": "6f7ojkd4_Wc"
+   },
+   "skills": [],
+   "learn_score": 1.154,
+   "score": 1.154,
+   "tokens": [
+    "bugs",
+    "dot",
+    "hunt"
+   ],
+   "flag": "new",
+   "summary_zh": "OpenAI 工程师展示利用 Codex 和 ChatGPT Spaces 收集用户反馈、跟踪并修复 Bug 的全流程工作流。",
+   "why_zh": "Agent 辅助 DevOps，学习如何编排 Agent 自动聚合非结构化反馈并转化为可执行的代码修复任务。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "From notes to AI training with ChatGPT Work | Realpage.",
+   "link": "https://www.youtube.com/shorts/7Cs5qyBlYQk",
+   "dt": "2026-10-23T18:42:11+00:00",
+   "summary": "Austin Braham at Realpage. uses ChatGPT Work to turn ideas, notes and source materials into complete AI training packages tailored to different teams, roles and skill levels.",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": ""
+   },
+   "skills": [],
+   "learn_score": 0.855,
+   "score": 0.855,
+   "tokens": [
+    "ai",
+    "chatgpt",
+    "notes",
+    "realpage",
+    "training",
+    "work"
+   ],
+   "flag": "new",
+   "summary_zh": "Realpage 使用 ChatGPT Work 将想法、笔记和源材料转化为针对不同团队、角色和技能水平的完整 AI 训练包。",
+   "why_zh": "属于 LLM 应用工程 / 提示工程技能点，可复用将非结构化知识转结构化训练数据的流程，适合构建企业级知识蒸馏管线。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "AI agents for everyday IT fixes | Shield and OpenAI",
+   "link": "https://www.youtube.com/shorts/2lNUGkCg_qc",
+   "dt": "2026-10-23T18:36:34+00:00",
+   "summary": "Shield’s AI agents use Astra to work directly in business software and handle routine IT fixes, giving technicians more time for harder problems that need their judgment.",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": ""
+   },
+   "skills": [],
+   "learn_score": 0.855,
+   "score": 0.855,
+   "tokens": [
+    "agents",
+    "ai",
+    "everyday",
+    "fixes",
+    "openai",
+    "shield"
+   ],
+   "flag": "new",
+   "summary_zh": "Shield 的 AI Agent 通过 Astra 直接在业务软件中处理常规 IT 故障，释放技术人员精力解决复杂问题。",
+   "why_zh": "属于 Agent 编排 / 工具调用技能点，可复用让 Agent 在现有 SaaS 界面原生操作而非 API 封装的模式，降低集成成本并提升可靠性。"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "youngyangyang04/llm-master",
+   "link": "https://github.com/youngyangyang04/llm-master",
+   "dt": "2026-09-12T07:33:31+00:00",
+   "summary": "大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。",
+   "extra": {
+    "stars": 1425,
+    "language": "",
+    "topics": [
+     "agent",
+     "large-language-models",
+     "llm",
+     "llm-learning",
+     "llm-tutorial",
+     "rag"
+    ],
+    "created": "2026-09-12",
+    "pushed": "2026-10-24"
+   },
+   "skills": [
+    "prompt_context",
+    "rag",
+    "tool_mcp",
+    "training_serving",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.479,
+   "score": 9.916,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-25 推荐过",
+   "summary_zh": "提供覆盖 Prompt Engineering 到模型部署等全栈 LLM 学习路线的中文教程。",
+   "why_zh": "对 AI 工程师系统掌握 LLM 技术栈和面试准备极具参考价值。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Fazmin/AILearningGuide",
+   "link": "https://github.com/Fazmin/AILearningGuide",
+   "dt": "2026-10-05T02:29:23+00:00",
+   "summary": "Interactive desktop app with 51 labs covering ML fundamentals, transformers, RAG, agents, fine-tuning and quantization and more.",
+   "extra": {
+    "stars": 232,
+    "language": "TypeScript",
+    "topics": [
+     "ai",
+     "ai-education",
+     "deep-learning",
+     "educational",
+     "educational-resources",
+     "educational-tool"
+    ],
+    "created": "2026-10-05",
+    "pushed": "2026-10-23"
+   },
+   "skills": [
+    "rag",
+    "training_serving",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.276,
+   "score": 7.66,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-25 推荐过",
+   "summary_zh": "提供交互式桌面应用，包含51个实验涵盖机器学习基础、Transformer、RAG、Agent、微调与量化等内容。",
+   "why_zh": "可学习动手实验的组织方式，掌握从基础到高级模型的全流程实践，适合面试中展示系统化学习能力。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
+   "link": "https://github.com/slee-persis/GVS5H",
+   "dt": "2026-10-25T03:56:01+00:00",
+   "summary": "",
+   "extra": {
+    "points": 184,
+    "comments": 73,
+    "hn_link": "https://news.ycombinator.com/item?id=50228167"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 2.295,
+   "score": 7.493,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-25 推荐过",
+   "summary_zh": "五个 Qwen3.8-27B 模型在 GVS5H 基准上达到 Fable 5 水平",
+   "why_zh": "大模型评测复现技能，学习用统一 harness 对比多模型性能"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Folkbench/folkbench",
+   "link": "https://github.com/Folkbench/folkbench",
+   "dt": "2026-10-02T09:50:45+00:00",
+   "summary": "AI API 中转站评测排行与切换工具：实测可用率、延迟与价格 · Open-source AI API relay benchmark, rankings & switcher for Claude Code / Codex",
+   "extra": {
+    "stars": 3698,
+    "language": "Rust",
+    "topics": [
+     "ai",
+     "api-relay",
+     "api-relay-pricing",
+     "benchmark",
+     "benchmarks",
+     "claude"
+    ],
+    "created": "2026-10-02",
+    "pushed": "2026-10-25"
+   },
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-25 推荐过",
+   "summary_zh": "开源 Rust 工具 Folkbench，提供 AI API 中转站评测排行与切换功能，实测 Claude Code 等兼容性。",
+   "why_zh": "涉及 LLM 基础设施开发与性能基准测试，学习如何构建多 API 路由代理及监控可用性与延迟。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "lemomo-ai/lemo-opuscar",
+   "link": "https://github.com/lemomo-ai/lemo-opuscar",
+   "dt": "2026-09-26T10:10:41+00:00",
+   "summary": "A toolbox of film styles made in code for Claude Code: 59 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：59 种现成风格，也能做出你自己的",
+   "extra": {
+    "stars": 7688,
+    "language": "JavaScript",
+    "topics": [
+     "agent-skills",
+     "ai-agents",
+     "ai-short-film",
+     "ai-video",
+     "animation",
+     "canvas"
+    ],
+    "created": "2026-09-26",
+    "pushed": "2026-10-24"
+   },
+   "skills": [
+    "prompt_context"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-25 推荐过",
+   "summary_zh": "Claude Opus 5.5 生成 43 种电影风格的纯代码短片，附风格提示词和导演指南。",
+   "why_zh": "展示大模型直接输出可运行代码实现多风格视觉内容，为程序化创作提供新范式。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "tangency-labs/solidcraft",
+   "link": "https://github.com/tangency-labs/solidcraft",
+   "dt": "2026-10-07T18:57:48+00:00",
+   "summary": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+   "extra": {
+    "stars": 10577,
+    "language": "Rust",
+    "topics": [
+     "3d-modeling",
+     "brep",
+     "cad",
+     "egui",
+     "mcp",
+     "parametric-cad"
+    ],
+    "created": "2026-10-07",
+    "pushed": "2026-10-26"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-24 推荐过",
+   "summary_zh": "SolidCraft 是用纯 Rust 构建的开源参数化3D CAD 应用，支持桌面、网页及MCP自动化。",
+   "why_zh": "演示Rust在复杂图形系统中的工程实践，可参考高性能跨平台CAD开发。"
+  }
+ ]
+}
