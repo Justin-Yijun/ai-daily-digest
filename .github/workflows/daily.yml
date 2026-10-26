@@ -14,6 +14,10 @@ on:
         description: "强制重跑（忽略当天已有日报）"
         type: boolean
         default: true
+      check:
+        description: "只做 LLM 通道自检（不写日报，用来验证某条通道在 CI 里能不能用）"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -35,6 +39,16 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
+      # 手动触发时可选：只跑通道自检，不碰日报（force=false 时 collect 会自己跳过）
+      - name: Check LLM channels
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.check }}
+        env:
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+          AGNES_API_KEY: ${{ secrets.AGNES_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: python scripts/check_llm.py
 
       - name: Collect and summarize
         env:

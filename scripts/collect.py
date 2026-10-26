@@ -872,8 +872,19 @@ def call_llm(p, user):
         if not content:
             log(f"  [warn] {p['name']} 返回空内容（可能被推理占满 token）")
             return None
-        data = json.loads(content)
+        txt = content.strip()
+        if txt.startswith("```"):  # 有的模型爱套 markdown 代码块
+            txt = re.sub(r"^```[a-zA-Z]*\s*", "", txt)
+            txt = re.sub(r"\s*```$", "", txt)
+        data = json.loads(txt)
         arr = data.get("items") or data.get("data") or []
+        if not arr and isinstance(data, dict) and ("id" in data or "summary" in data):
+            # 单条批次时模型经常只返回裸对象 {"id":0,"summary":...}，
+            # 而不是 {"items":[...]}；当成一条处理，否则会被误判为通道失败
+            arr = [data]
+        if not arr:
+            log(f"  [warn] {p['name']} 返回结构不认识: {txt[:120]}")
+            return None
         return {int(x["id"]): x for x in arr if "id" in x}
     except Exception as e:  # noqa: BLE001
         log(f"  [warn] {p['name']} 摘要解析失败: {e}")
