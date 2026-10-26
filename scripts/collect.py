@@ -9,7 +9,7 @@ AI 前沿日报采集器
 仅使用 Python 标准库，无需 pip install。
 
 中文摘要走「多通道降级」，任意一个通道有 key 就能出摘要（顺序即优先级）：
-  NVIDIA NIM（免费额度） -> Agnes（免费额度） -> Gemini（免费额度） -> DeepSeek（按量付费）
+  Gemini（免费额度） -> Agnes（免费额度） -> NVIDIA NIM（免费额度） -> DeepSeek（按量付费）
 
 环境变量：
   NVIDIA_API_KEY / NVIDIA_BASE_URL / NVIDIA_MODEL
@@ -759,60 +759,59 @@ SUMMARY_SYSTEM = (
 
 
 def llm_providers():
-    """按优先级返回可用的 LLM 通道（都兼容 OpenAI 协议）。"""
-    out = []
-    nv = os.environ.get("NVIDIA_API_KEY")
-    if nv:
-        out.append(
-            {
-                "name": "nvidia",
-                "base": os.environ.get(
-                    "NVIDIA_BASE_URL", "https://integrate.api.nvidia.com/v1"
-                ).rstrip("/"),
-                "model": os.environ.get(
-                    "NVIDIA_MODEL", "nvidia/nemotron-3-ultra-550b-a55b"
-                ),
-                "key": nv,
-            }
-        )
-    ag = os.environ.get("AGNES_API_KEY")
-    if ag:
-        out.append(
-            {
-                "name": "agnes",
-                "base": os.environ.get(
-                    "AGNES_BASE_URL", "https://apihub.agnes-ai.com/v1"
-                ).rstrip("/"),
-                "model": os.environ.get("AGNES_MODEL", "agnes-3.0-flash"),
-                "key": ag,
-            }
-        )
-    gm = os.environ.get("GEMINI_API_KEY")
-    if gm:
-        out.append(
-            {
-                "name": "gemini",
-                "base": os.environ.get(
-                    "GEMINI_BASE_URL",
-                    "https://generativelanguage.googleapis.com/v1beta/openai",
-                ).rstrip("/"),
-                "model": os.environ.get("GEMINI_MODEL", "gemini-3.1-flash-lite"),
-                "key": gm,
-            }
-        )
-    ds = os.environ.get("DEEPSEEK_API_KEY")
-    if ds:
-        out.append(
-            {
-                "name": "deepseek",
-                "base": os.environ.get(
-                    "DEEPSEEK_BASE_URL", "https://api.deepseek.com/v1"
-                ).rstrip("/"),
-                "model": os.environ.get("DEEPSEEK_MODEL", "deepseek-chat"),
-                "key": ds,
-            }
-        )
-    return out
+    """按优先级返回可用的 LLM 通道（都兼容 OpenAI 协议）。
+
+    顺序不是拍的，是 2026-10-26 实测的：
+      gemini  1.7s/批，JSON 稳定，摘要最贴口径
+      agnes   3-5s/批，稳定
+      nvidia  8-32s/批，且反复返回截断 JSON（需靠降级兵兵），放后面
+      deepseek 按量付费，只当最后的兵底
+    """
+    cands = {}
+    if os.environ.get("GEMINI_API_KEY"):
+        cands["gemini"] = {
+            "name": "gemini",
+            "base": os.environ.get(
+                "GEMINI_BASE_URL",
+                "https://generativelanguage.googleapis.com/v1beta/openai",
+            ).rstrip("/"),
+            "model": os.environ.get("GEMINI_MODEL", "gemini-3.1-flash-lite"),
+            "key": os.environ["GEMINI_API_KEY"],
+        }
+    if os.environ.get("AGNES_API_KEY"):
+        cands["agnes"] = {
+            "name": "agnes",
+            "base": os.environ.get(
+                "AGNES_BASE_URL", "https://apihub.agnes-ai.com/v1"
+            ).rstrip("/"),
+            "model": os.environ.get("AGNES_MODEL", "agnes-3.0-flash"),
+            "key": os.environ["AGNES_API_KEY"],
+        }
+    if os.environ.get("NVIDIA_API_KEY"):
+        cands["nvidia"] = {
+            "name": "nvidia",
+            "base": os.environ.get(
+                "NVIDIA_BASE_URL", "https://integrate.api.nvidia.com/v1"
+            ).rstrip("/"),
+            "model": os.environ.get(
+                "NVIDIA_MODEL", "nvidia/nemotron-3-ultra-550b-a55b"
+            ),
+            "key": os.environ["NVIDIA_API_KEY"],
+        }
+    if os.environ.get("DEEPSEEK_API_KEY"):
+        cands["deepseek"] = {
+            "name": "deepseek",
+            "base": os.environ.get(
+                "DEEPSEEK_BASE_URL", "https://api.deepseek.com/v1"
+            ).rstrip("/"),
+            "model": os.environ.get("DEEPSEEK_MODEL", "deepseek-chat"),
+            "key": os.environ["DEEPSEEK_API_KEY"],
+        }
+    # 想临时换顺序不用改代码：LLM_ORDER="nvidia,gemini,agnes"
+    order = [x.strip() for x in os.environ.get("LLM_ORDER", "").split(",") if x.strip()]
+    if not order:
+        order = ["gemini", "agnes", "nvidia", "deepseek"]
+    return [cands[n] for n in order if n in cands]
 
 
 def build_prompt(batch):
