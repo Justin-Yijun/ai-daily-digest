@@ -44,13 +44,13 @@
     "system"
    ],
    "flag": "new",
-   "summary_zh": "教程逐步讲解如何基于LLM、RAG和AI Agent构建AI系统",
-   "why_zh": "掌握LLM+RAG+Agent架构设计，可复用的系统分层思路与实践模板",
    "skills": [
     "rag",
     "system_design"
    ],
-   "learn_score": 1.951
+   "learn_score": 1.951,
+   "summary_zh": "amitshekhariitbhu 开源 ai-system-design 项目，通过分步指南讲解基于 LLM、RAG 和 AI Agents 的 AI 系统架构设计方法论",
+   "why_zh": "AI 架构设计技能点，提供 LLM 与 RAG 结合的系统集成模板，可复用其模块划分与数据流设计思路优化大模型应用架构"
   },
   {
    "source": "paper",
@@ -600,5 +600,6 @@
    "summary_zh": "提供 LLM 全栈学习路线，涵盖 Prompt、RAG、Agent、微调、部署等内容的中文教程。",
    "why_zh": "系统化学习 LLM 工程技能，掌握从提示到部署的全流程，面试常考点。"
   }
- ]
+ ],
+ "summary_missing": []
 }

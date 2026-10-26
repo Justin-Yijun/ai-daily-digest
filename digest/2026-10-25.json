@@ -174,8 +174,8 @@
     "workflows"
    ],
    "flag": "new",
-   "summary_zh": "教程展示用 Letta 构建有状态工程副驾，含核心记忆、共享状态、语义检索等",
-   "why_zh": "Agent 记忆与多智能体协作工程技能，复用 Letta 可移植工作流与状态管理范式"
+   "summary_zh": "Letta 构建有状态工程副驾，提供可检查核心记忆、向量检索、多智能体共享状态、自定义工具与可移植工作流。",
+   "why_zh": "Agent 记忆架构设计，使用核心记忆+向量归档实现长期上下文，配合共享状态实现多 Agent 协作"
   },
   {
    "source": "paper",
@@ -414,8 +414,8 @@
     "underrated"
    ],
    "flag": "new",
-   "summary_zh": "视频探讨Muon优化器挑战AdamW，提出其可减少LLM训练算力近半，并激活此前被忽视的AI架构，强调其为LLM训练领域的重大突破。",
-   "why_zh": "面试可提及优化器演进，掌握Muon相比AdamW的计算效率优势及适用场景，体现对LLM训练底层组件的深度理解与选型能力。"
+   "summary_zh": "Muon 优化器挑战 AdamW，可能将 LLM 训练算力减半并让新架构可行。",
+   "why_zh": "大模型训练优化器选型，在预训练/微调中尝试 Muon 替代 AdamW 以加速收敛并降低显存"
   },
   {
    "source": "youtube",
@@ -423,7 +423,7 @@
    "title": "it's WORSE than we thought...",
    "link": "https://www.youtube.com/watch?v=eK7Sn0_zHQw",
    "dt": "2026-10-24T06:17:07+00:00",
-   "summary": "Try Crusoe Intelligence Foundry and get $5 in free credits: https://console.crusoecloud.com/request-foundry?utm_source=wesroth&utm_medium=influencer&utm_campaign=mi-su-credits Sign up to Crusoe Intelligence Foundry and get $5 in free credits. Explore Serverless Inference and Serverless Fine-Tuning. No promo code needed. Thanks to Crusoe for sponsoring this video. ______________________________________________ My Links 🔗 ➡️ Twitter: https://x.com/WesRothMoney ➡️ AI Newsletter: https://natural20.b…",
+   "summary": "AI 攻防进入实时对抗阶段。微软披露 Storm-0940 用开源模型 3 小时从初始入侵拿到云管理员权限；Cloudflare 吸收 4.2Tbps 史上最大 DDoS；蜜罐 6 小时遭 1.4 万次非人类撞库；美国银行发现第三方 AI 智能体未经授权进入客户账户。Sam Altman 称打补丁已无解，只能用 AI 建「防御盾」；Anthropic 的 Jason Clinton 预警漏洞海啸，但预测 18 个月内做到发布前零漏洞；Bernie Sanders 呼吁暂停 AI。结论：暂停不可行，未来 12-18 个月攻击增速会超过修复能力，个人应禁用重复密码、用硬件 2FA、备现金。",
    "extra": {
     "channel": "Wes Roth",
     "video_id": "eK7Sn0_zHQw"
@@ -440,8 +440,8 @@
     "worse"
    ],
    "flag": "new",
-   "summary_zh": "视频标题暗示当前AI领域某问题比预想更严峻，具体内容需结合正片，简介仅含赞助商Crusoe智能工厂的推广信息，无实质技术细节。",
-   "why_zh": "面试需区分营销内容与技术观点，培养信息甄别能力，避免将赞助商信息误判为技术趋势，强化对AI基础设施服务商生态的认知。"
+   "summary_zh": "微软披露 Storm-0940 3 小时拿云管理员权限；Cloudflare 吸收 4.2Tbps DDoS",
+   "why_zh": "掌握 AI 攻防实时对抗趋势，学会用 AI 自动化防御与硬件 2FA 缓解凭证填充"
   }
  ],
  "dups": [

@@ -10,6 +10,10 @@
   python scripts/backfill_summaries.py                # 补所有缺摘要的日期
   python scripts/backfill_summaries.py 2026-10-21 2026-10-22
   python scripts/backfill_summaries.py --dry-run      # 只报告，不改文件
+  python scripts/backfill_summaries.py --restyle      # 重写口径不一致的条目
+
+--restyle 扫的是“描述媒介本身而非内容”的口径问题（以视频/文章/本文/教程/标题开头，
+或写“视频展示了…”“需结合正片”之类），这些条目用当前 build_prompt 的口径要求重写一遍。
 
 补完还要重建页面：
   python scripts/build_weekly.py && python scripts/build_site.py
@@ -19,12 +23,26 @@ DEEPSEEK_API_KEY，有任意一个即可）。
 """
 
 import json
+import re
 import sys
 from datetime import datetime
 
 sys.path.insert(0, str(__import__("pathlib").Path(__file__).resolve().parent))
 
 import collect  # noqa: E402  （同目录的 collect.py，复用其 LLM 通道与摘要逻辑）
+
+# 口径不一致的标记：描述“视频/文章本身”而不是内容
+RESTYLE_RE = re.compile(
+    r"^(视频|该视频|本视频|文章|本文|该文章|教程|标题|作者)"
+    r"|视频展示|视频探讨|视频标题|需结合正片|无实质技术细节|简介仅含|面试可提及|面试需"
+)
+
+
+def off_style(it):
+    return bool(
+        RESTYLE_RE.search(it.get("summary_zh") or "")
+        or RESTYLE_RE.search(it.get("why_zh") or "")
+    )
 
 
 def digest_paths(dates):
@@ -41,6 +59,7 @@ def load_state():
 
 def main(argv):
     dry = "--dry-run" in argv
+    restyle = "--restyle" in argv
     dates = [a for a in argv if not a.startswith("-")]
 
     if not collect.llm_providers():
@@ -57,15 +76,23 @@ def main(argv):
             continue
         data = json.loads(path.read_text(encoding="utf-8"))
         items = data.get("items", [])
-        missing = [it for it in items if not (it.get("summary_zh") or "").strip()]
-        print(f"\n[backfill] {path.name}: {len(items) - len(missing)}/{len(items)} 条已有摘要")
+        if restyle:
+            missing = [it for it in items if off_style(it)]
+            print(f"\n[restyle] {path.name}: {len(missing)}/{len(items)} 条口径不一致")
+        else:
+            missing = [it for it in items if not (it.get("summary_zh") or "").strip()]
+            print(f"\n[backfill] {path.name}: {len(items) - len(missing)}/{len(items)} 条已有摘要")
         if not missing:
             continue
         if dry:
             for it in missing:
-                print(f"   缺: {it.get('title')}")
+                print(f"   {it.get('title')}\n     旧: {it.get('summary_zh')}")
             continue
 
+        if restyle:
+            for it in missing:
+                it.pop("summary_zh", None)
+                it.pop("why_zh", None)
         left = collect.summarize(items, now)
         data["summary_missing"] = left
         path.write_text(
