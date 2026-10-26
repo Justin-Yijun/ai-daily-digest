@@ -42,8 +42,9 @@ jobs:
           FORCE: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}
           # 在仓库 Settings → Secrets and variables → Actions 里配置
           NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
-          # 摘要降级链：NVIDIA -> Agnes -> DeepSeek，任意一个可用即可
+          # 摘要降级链：NVIDIA -> Agnes -> Gemini -> DeepSeek，任意一个可用即可
           AGNES_API_KEY: ${{ secrets.AGNES_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           # 默认 GITHUB_TOKEN 已可用，用来提高 GitHub API 配额
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -9,7 +9,7 @@ AI 前沿日报采集器
 仅使用 Python 标准库，无需 pip install。
 
 中文摘要走「多通道降级」，任意一个通道有 key 就能出摘要（顺序即优先级）：
-  NVIDIA NIM（免费额度） -> Agnes（免费额度） -> DeepSeek（按量付费）
+  NVIDIA NIM（免费额度） -> Agnes（免费额度） -> Gemini（免费额度） -> DeepSeek（按量付费）
 
 环境变量：
   NVIDIA_API_KEY / NVIDIA_BASE_URL / NVIDIA_MODEL
@@ -19,6 +19,10 @@ AI 前沿日报采集器
       发一次 /v1/chat/completions 看是否 200。
   AGNES_API_KEY / AGNES_BASE_URL / AGNES_MODEL
       Agnes 通道，默认 https://apihub.agnes-ai.com/v1 + agnes-3.0-flash。
+  GEMINI_API_KEY / GEMINI_BASE_URL / GEMINI_MODEL
+      Gemini 通道，走它的 OpenAI 兼容层
+      （/v1beta/openai，认证必须用 Authorization: Bearer，不能用 ?key=），
+      默认 https://generativelanguage.googleapis.com/v1beta/openai + gemini-3.1-flash-lite。
   DEEPSEEK_API_KEY / DEEPSEEK_BASE_URL / DEEPSEEK_MODEL
       DeepSeek 通道，默认 https://api.deepseek.com/v1 + deepseek-chat。
   GITHUB_TOKEN       可选，提高 GitHub API 配额（Actions 里自动有）
@@ -783,6 +787,19 @@ def llm_providers():
                 "key": ag,
             }
         )
+    gm = os.environ.get("GEMINI_API_KEY")
+    if gm:
+        out.append(
+            {
+                "name": "gemini",
+                "base": os.environ.get(
+                    "GEMINI_BASE_URL",
+                    "https://generativelanguage.googleapis.com/v1beta/openai",
+                ).rstrip("/"),
+                "model": os.environ.get("GEMINI_MODEL", "gemini-3.1-flash-lite"),
+                "key": gm,
+            }
+        )
     ds = os.environ.get("DEEPSEEK_API_KEY")
     if ds:
         out.append(
@@ -872,7 +889,7 @@ def summarize(items, now):
     """
     providers = llm_providers()
     if not providers:
-        log("[llm] 未设置 NVIDIA_API_KEY / AGNES_API_KEY / DEEPSEEK_API_KEY，跳过中文摘要")
+        log("[llm] 未设置 NVIDIA_API_KEY / AGNES_API_KEY / GEMINI_API_KEY / DEEPSEEK_API_KEY，跳过中文摘要")
         return {
             "missing": [it["title"] for it in items if not (it.get("summary_zh") or "").strip()],
             "providers": {},
