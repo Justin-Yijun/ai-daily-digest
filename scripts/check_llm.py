@@ -76,9 +76,12 @@ def probe(p, prompt):
     if not content:
         return False, f"{dt:.1f}s content 为空（推理可能吃满 token）"
     try:
-        arr = json.loads(content).get("items") or []
+        parsed = json.loads(content)
     except Exception as e:  # noqa: BLE001
         return False, f"{dt:.1f}s 返回非合法 JSON: {e}"
+    arr = parsed.get("items") or parsed.get("data") or []
+    if not arr and isinstance(parsed, dict) and ("id" in parsed or "summary" in parsed):
+        arr = [parsed]  # 单条时模型常只返回裸对象，与 collect.call_llm 保持一致
     ids = [x.get("id") for x in arr]
     if 0 not in ids:
         return False, f"{dt:.1f}s JSON 合法但缺少 id=0（拿到 {ids}）"

@@ -52,8 +52,10 @@ jobs:
 
       - name: Collect and summarize
         env:
-          # 手动触发时强制重跑；定时触发时幂等跳过已生成的当天日报
-          FORCE: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}
+          # 手动触发时看 force 输入（默认 true 重跑）；定时触发留空，collect.py
+          # 发现当天日报已存在会自己跳过。注意不能用 event_name 判断，那样
+          # 无论勾不勾 force 都会强制重跑。
+          FORCE: ${{ inputs.force && '1' || '' }}
           # 在仓库 Settings → Secrets and variables → Actions 里配置
           NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
           # 摘要降级链：NVIDIA -> Agnes -> Gemini -> DeepSeek，任意一个可用即可

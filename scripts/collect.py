@@ -924,13 +924,25 @@ def summarize(items, now):
     for start in range(0, len(todo), batch_size):
         batch = todo[start : start + batch_size]
         user = build_prompt(batch)
-        by_id = None
-        used = ""
+        # 不能只看“有没有返回”：模型可能只回了一部分 id（比如整批只返回一条
+        # 裸对象），旧逻辑会当成成功，剩下的条目静默丢掉。所以这里校验覆盖率，
+        # 不齐就换下一个通道；实在都不齐就用覆盖最多的那份。
+        best, best_n, best_by = None, 0, ""
+        by_id, used = None, ""
         for p in providers:
-            by_id = call_llm(p, user)
-            if by_id:
-                used = p["name"]
+            cand = call_llm(p, user)
+            if not cand:
+                continue
+            n = sum(1 for i in range(len(batch)) if cand.get(i))
+            if n > best_n:
+                best, best_n, best_by = cand, n, p["name"]
+            if n == len(batch):
+                by_id, used = cand, p["name"]
                 break
+            log(f"  [warn] {p['name']} 只回了 {n}/{len(batch)} 条，换下一个通道")
+        if by_id is None and best_n:
+            by_id, used = best, best_by
+            log(f"  [warn] 各通道都没回全，采用覆盖最多的 {best_by}（{best_n}/{len(batch)}）")
         if by_id is None:
             failed_batches += 1
             log("  [warn] 本批所有通道均失败，保留原文简介")
