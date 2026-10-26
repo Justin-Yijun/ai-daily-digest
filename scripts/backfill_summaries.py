@@ -98,12 +98,13 @@ def main(argv):
                 it.pop("summary_zh", None)
                 it.pop("why_zh", None)
         left = collect.summarize(items, now)
-        data["summary_missing"] = left
+        data["summary_missing"] = left["missing"]
+        data["summary_providers"] = left["providers"]
         path.write_text(
             json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8"
         )
         touched += 1
-        print(f"[backfill] {path.name} 写入完成，仍缺 {len(left)} 条")
+        print(f"[backfill] {path.name} 写入完成，仍缺 {len(left['missing'])} 条")
 
         for it in items:
             rec = state["items"].get(it.get("link"))

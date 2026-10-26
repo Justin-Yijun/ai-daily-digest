@@ -864,14 +864,25 @@ def call_llm(p, user):
 
 
 def summarize(items, now):
-    """给入选条目补中文摘要，返回仍然缺失摘要的标题列表。"""
+    """给入选条目补中文摘要。
+
+    返回 {"missing": [缺摘要的标题], "providers": {通道名: 成功批次数}}。
+    providers 会写进日报 JSON，让“哪个通道真的在 CI 里干活”成为可查证据
+    （GitHub Actions 的日志需要 token 才能读，提交产物不需要）。
+    """
     providers = llm_providers()
     if not providers:
         log("[llm] 未设置 NVIDIA_API_KEY / AGNES_API_KEY / DEEPSEEK_API_KEY，跳过中文摘要")
-        return [it["title"] for it in items if not (it.get("summary_zh") or "").strip()]
+        return {
+            "missing": [it["title"] for it in items if not (it.get("summary_zh") or "").strip()],
+            "providers": {},
+        }
     if os.environ.get("DRY_RUN") == "1":
         log("[llm] DRY_RUN=1，跳过摘要")
-        return [it["title"] for it in items if not (it.get("summary_zh") or "").strip()]
+        return {
+            "missing": [it["title"] for it in items if not (it.get("summary_zh") or "").strip()],
+            "providers": {},
+        }
     todo = [it for it in items if not it.get("summary_zh")]
     log(
         "[llm] 通道 "
@@ -881,6 +892,7 @@ def summarize(items, now):
 
     batch_size = 6
     failed_batches = 0
+    used_count = {}
     for start in range(0, len(todo), batch_size):
         batch = todo[start : start + batch_size]
         user = build_prompt(batch)
@@ -895,6 +907,7 @@ def summarize(items, now):
             failed_batches += 1
             log("  [warn] 本批所有通道均失败，保留原文简介")
             continue
+        used_count[used] = used_count.get(used, 0) + 1
         for i, it in enumerate(batch):
             got = by_id.get(i)
             if got:
@@ -912,8 +925,8 @@ def summarize(items, now):
             "页面会退回显示原文；检查各通道的 key 与模型名是否仍然有效"
         )
     else:
-        log(f"[llm] 全部 {len(items)} 条中文摘要完成")
-    return missing
+        log(f"[llm] 全部 {len(items)} 条中文摘要完成（{used_count}）")
+    return {"missing": missing, "providers": used_count}
 
 
 # --------------------------------------------------------------------------
@@ -1246,7 +1259,8 @@ def main():
     items = select_items(fresh, out_cfg)
 
     # 摘要（只对入选的新条目调用 LLM，省 token）
-    summary_missing = summarize(items, now)
+    summary_health = summarize(items, now)
+    summary_missing = summary_health["missing"]
 
     date_str = now.astimezone(CST).strftime("%Y-%m-%d")
     top_n = int(out_cfg.get("top_picks", 6))
@@ -1272,6 +1286,8 @@ def main():
                 "failures": FETCH_FAILURES,
                 "failure_errors": FETCH_ERRORS,
                 "summary_missing": summary_missing,
+                # 实际干活的通道与批次数，用于在 CI 里自证链路可用
+                "summary_providers": summary_health["providers"],
                 "items": [jsonable(i) for i in items],
                 "dups": [jsonable(i) for i in dups],
             },

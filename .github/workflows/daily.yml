@@ -85,6 +85,7 @@ jobs:
           path = sorted(glob.glob("digest/*.json"))[-1]
           data = json.load(open(path, encoding="utf-8"))
           items = data.get("items", [])
+          print(f"实际通道: {data.get('summary_providers')}")
           missing = [i["title"] for i in items if not (i.get("summary_zh") or "").strip()]
           print(f"{path}: {len(items) - len(missing)}/{len(items)} 条有中文摘要")
           for t in missing:
