@@ -23,7 +23,7 @@
   },
   "https://github.com/rehan-remade/universal-modder": {
    "title": "rehan-remade/universal-modder",
-   "date": "2026-10-23",
+   "date": "2026-10-28",
    "tokens": [],
    "source": "github",
    "summary_zh": "使用 Claude Code 及 fal MCP 进行游戏逆向、资产生成、测试等全流程 MOD 制作。",
@@ -39,7 +39,7 @@
   },
   "https://github.com/youngyangyang04/llm-master": {
    "title": "youngyangyang04/llm-master",
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "tokens": [],
    "source": "github",
    "summary_zh": "提供覆盖 Prompt Engineering 到模型部署等全栈 LLM 学习路线的中文教程。",
@@ -2841,7 +2841,7 @@
   },
   "https://github.com/Fazmin/AILearningGuide": {
    "title": "Fazmin/AILearningGuide",
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "tokens": [],
    "source": "github",
    "summary_zh": "提供交互式桌面应用，包含51个实验涵盖机器学习基础、Transformer、RAG、Agent、微调与量化等内容。",
@@ -3296,7 +3296,7 @@
   },
   "https://github.com/tangency-labs/solidcraft": {
    "title": "tangency-labs/solidcraft",
-   "date": "2026-10-26",
+   "date": "2026-10-28",
    "tokens": [],
    "source": "github",
    "summary_zh": "SolidCraft 是用纯 Rust 构建的开源参数化3D CAD 应用，支持桌面、网页及MCP自动化。",
@@ -4576,7 +4576,7 @@
   },
   "https://github.com/Folkbench/folkbench": {
    "title": "Folkbench/folkbench",
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "tokens": [],
    "source": "github",
    "summary_zh": "开源 Rust 工具 Folkbench，提供 AI API 中转站评测排行与切换功能，实测 Claude Code 等兼容性。",
@@ -5163,18 +5163,8 @@
   },
   "https://github.com/KrushnaVardhanReddy/PaperPilot": {
    "title": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
-   "date": "2026-10-27",
-   "tokens": [
-    "cloud",
-    "engine",
-    "mcp",
-    "paperpilot",
-    "pdf",
-    "pure",
-    "rust",
-    "wasm",
-    "zero"
-   ],
+   "date": "2026-10-28",
+   "tokens": [],
    "source": "hackernews",
    "summary_zh": "PaperPilot 是一个基于纯 Rust 开发的 PDF 引擎，支持 WASM 和 MCP 协议，旨在提供高性能、零云端的文档处理能力。",
    "why_zh": "属于高性能计算与 Agent 工具集成领域，可学习如何通过 WASM 实现跨平台轻量级工具部署，以及如何将本地引擎封装为 MCP Server。"
@@ -5392,7 +5382,211 @@
    "source": "youtube",
    "summary_zh": "探讨 AI Agent 开发范式从“人在回路”向“全自动自主工作流”的演进，强调通过构建具备主动性与持久性的 Agent 系统，实现复杂编程任务的自动化闭环。",
    "why_zh": "属于 Agent 工程化领域。可学习如何设计 Proactive Durable Agent 架构，复用其自主决策与异常处理逻辑，提升 Agent 在生产环境中的独立执行能力。"
+  },
+  "https://arxiv.org/abs/2610.33005": {
+   "title": "OpenESM: Energy-Steered Models Are Scalable Foundation Learners",
+   "date": "2026-10-28",
+   "tokens": [
+    "energy",
+    "foundation",
+    "learners",
+    "models",
+    "openesm",
+    "scalable",
+    "steered"
+   ],
+   "source": "paper",
+   "summary_zh": "OpenESM 将能量引导搜索与 Token 生成集成在单一架构中，通过能量引导机制提升大语言模型在通用场景下的建模能力。",
+   "why_zh": "属于生成式模型架构优化，可学习如何利用能量函数（Energy-based models）作为引导策略，提升模型在复杂推理任务中的搜索效率。"
+  },
+  "https://arxiv.org/abs/2610.33006": {
+   "title": "Linear-Time Context Compression with State-Space Encoding",
+   "date": "2026-10-28",
+   "tokens": [
+    "compression",
+    "context",
+    "encoding",
+    "linear",
+    "space",
+    "state",
+    "time"
+   ],
+   "source": "paper",
+   "summary_zh": "提出一种基于状态空间编码（State-Space Encoding）的线性时间上下文压缩方法，旨在降低 Transformer 模型在长上下文下的计算与内存开销。",
+   "why_zh": "属于长上下文处理优化，可学习如何通过状态空间模型（SSM）替代或辅助 Transformer 实现高效的上下文压缩与信息蒸馏。"
+  },
+  "https://arxiv.org/abs/2610.33097": {
+   "title": "IRON-Meme: A Benchmark for Structured Understanding of Identities and Roles in Online Meme Narratives",
+   "date": "2026-10-28",
+   "tokens": [
+    "benchmark",
+    "identities",
+    "iron",
+    "meme",
+    "narratives",
+    "online",
+    "roles",
+    "structured",
+    "understanding"
+   ],
+   "source": "paper",
+   "summary_zh": "IRON-Meme 基准测试集用于评估模型对在线模因（Meme）中身份与角色的结构化理解能力，填补了政治叙事分析的理论空白。",
+   "why_zh": "属于多模态语义理解与社会计算，可学习如何构建结构化标注数据集，以提升 Agent 对非结构化社交媒体内容中隐含意图的识别能力。"
+  },
+  "https://github.com/HarnessRouter/harnessrouter": {
+   "title": "HarnessRouter/harnessrouter",
+   "date": "2026-10-28",
+   "tokens": [
+    "harnessrouter"
+   ],
+   "source": "github",
+   "summary_zh": "HarnessRouter 提供统一的 Agent 接口协议（UHP），支持自托管运行 Codex、Claude Code 等多种 Agent 框架，实现会话、流式传输及故障处理的标准化。",
+   "why_zh": "属于 Agent 基础设施工程，可学习如何设计统一的 API 抽象层来解耦底层 Agent 实现，提升多 Agent 系统集成的可维护性与可移植性。"
+  },
+  "https://github.com/NVlabs/SoL-Pi": {
+   "title": "NVlabs/SoL-Pi",
+   "date": "2026-10-28",
+   "tokens": [
+    "nvlabs",
+    "pi",
+    "sol"
+   ],
+   "source": "github",
+   "summary_zh": "SoL-Pi 专注于扩展自动化研究循环（Auto-Research Loops），旨在为 Agent 框架提供高效的自动化研究与任务执行能力。",
+   "why_zh": "属于 Agent 自主循环控制，可学习如何构建闭环的自动化研究流程，优化 Agent 在长链路任务中的自我迭代与信息检索效率。"
+  },
+  "https://github.com/shuyu-labs/transwork": {
+   "title": "shuyu-labs/transwork",
+   "date": "2026-10-28",
+   "tokens": [
+    "labs",
+    "shuyu",
+    "transwork"
+   ],
+   "source": "github",
+   "summary_zh": "Transwork 是一个企业级桌面 AI Agent 工作台，旨在实现技能、知识库与任务流程的统一协作与管理。",
+   "why_zh": "属于 Agent 应用层架构，可学习如何设计桌面端 Agent 的人机交互界面（HCI）以及如何整合企业级知识库与工作流引擎。"
+  },
+  "https://openai.com/index/introducing-gpt-6-1-terra/": {
+   "title": "GPT-6.1 Terra",
+   "date": "2026-10-28",
+   "tokens": [
+    "gpt",
+    "terra"
+   ],
+   "source": "hackernews",
+   "summary_zh": "OpenAI 发布 GPT-6.1 Terra 模型，提供针对特定任务优化的 API 接口与性能基准。",
+   "why_zh": "模型架构演进与 API 迭代；学习如何利用新模型特性进行 Prompt 工程优化及推理成本控制。"
+  },
+  "https://www.youtube.com/watch?v=xy_7SzwsIjM": {
+   "title": "How to Build Agents That Improve Over Time: Model, Harness, Context | Interrupt London",
+   "date": "2026-10-28",
+   "tokens": [
+    "agents",
+    "build",
+    "context",
+    "harness",
+    "improve",
+    "interrupt",
+    "london",
+    "model",
+    "over",
+    "time"
+   ],
+   "source": "youtube",
+   "summary_zh": "LangChain CEO 提出将 Agent 拆解为 Model、Harness 和 Context 三部分，并通过 LangSmith 进行持续迭代优化。",
+   "why_zh": "Agent 系统架构设计；掌握通过 SFT 和 RL 闭环优化 Agent 性能的工程化落地路径。"
+  },
+  "https://github.com/patch-gg/anymove": {
+   "title": "patch-gg/anymove",
+   "date": "2026-10-28",
+   "tokens": [
+    "anymove",
+    "gg",
+    "patch"
+   ],
+   "source": "github",
+   "summary_zh": "anymove 利用 DINOv2 视觉模型从单段视频中提取多视角关节数据，实现跨物种动作捕捉并输出 GLB 模型。",
+   "why_zh": "计算机视觉与 3D 建模；学习利用预训练视觉模型进行特征提取与跨模态数据转换的实现方案。"
+  },
+  "https://www.langchain.com/blog/design-agent": {
+   "title": "How We Built Our Design Agent",
+   "date": "2026-10-28",
+   "tokens": [
+    "agent",
+    "built",
+    "design",
+    "our",
+    "we"
+   ],
+   "source": "blog",
+   "summary_zh": "LangChain 分享 Content Studio 设计 Agent 的构建过程，展示了如何通过 Slack 交互实现自动化品牌内容生成。",
+   "why_zh": "多模态 Agent 开发；学习如何构建具备业务逻辑约束与人机交互界面的生产级 Agent 系统。"
+  },
+  "https://simonwillison.net/2026/Oct/26/webframe-evaluation/": {
+   "title": "webframe: evaluated as a scraper and a sandbox",
+   "date": "2026-10-28",
+   "tokens": [
+    "evaluated",
+    "sandbox",
+    "scraper",
+    "webframe"
+   ],
+   "source": "blog",
+   "summary_zh": "webframe 项目通过 Go 语言封装 headless web view，将网页转化为可执行程序并捕获其控制台输出与异常。",
+   "why_zh": "Web 自动化与沙箱技术；学习如何构建轻量级网页执行环境以实现高效的数据抓取与程序化控制。"
+  },
+  "https://www.youtube.com/watch?v=tNKmMhiOw9w": {
+   "title": "Run Your AI Software Factory Like a Real Engineering Org (Here's How)",
+   "date": "2026-10-28",
+   "tokens": [
+    "ai",
+    "engineering",
+    "factory",
+    "here",
+    "like",
+    "org",
+    "real",
+    "run",
+    "software"
+   ],
+   "source": "youtube",
+   "summary_zh": "探讨 AI 软件工厂概念，通过 Agent 驱动的工作流、上下文管理与人工审核机制实现软件开发生命周期的自动化。",
+   "why_zh": "AI 工程化管理；学习如何构建具备可观测性、护栏机制与人机协作的规模化 AI 开发流水线。"
+  },
+  "https://www.youtube.com/watch?v=sFfPkUJd_Jk": {
+   "title": "Genie 4: A new generation of world simulation",
+   "date": "2026-10-28",
+   "tokens": [
+    "generation",
+    "genie",
+    "simulation",
+    "world"
+   ],
+   "source": "youtube",
+   "summary_zh": "Google DeepMind 发布 Genie 4，基于 Gemini 构建的交互式世界模型，支持通过自然语言实时生成并操控动态场景，实现视觉、听觉及角色行为的同步响应。",
+   "why_zh": "属于生成式世界模型领域，可学习如何利用多模态大模型进行复杂环境建模与实时交互控制，适用于构建高保真仿真环境。"
+  },
+  "https://www.marktechpost.com/2026/10/26/vllm-semantic-router-d3-ultra-27b-multimodal-decision-model/": {
+   "title": "vLLM Semantic Router Releases d3-ultra: A 27B Open Multimodal Decision Model",
+   "date": "2026-10-28",
+   "tokens": [
+    "27b",
+    "d3",
+    "decision",
+    "model",
+    "multimodal",
+    "open",
+    "releases",
+    "router",
+    "semantic",
+    "ultra",
+    "vllm"
+   ],
+   "source": "blog",
+   "summary_zh": "vLLM Semantic Router 发布 d3-ultra，一款 27B 参数的开源多模态决策模型，支持文本、图像和视频的单次输入处理，并在 SR-Text 基准测试中表现优异。",
+   "why_zh": "属于多模态决策与推理优化领域，可学习如何通过统一架构处理多种模态输入并输出决策概率，适用于构建高效的端到端智能决策系统。"
   }
  },
- "updated": "2026-10-26T16:16:29.389516+00:00"
+ "updated": "2026-10-27T17:35:00.889606+00:00"
 }
