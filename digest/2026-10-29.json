@@ -1,0 +1,626 @@
+{
+ "date": "2026-10-29",
+ "generated": "2026-10-29 00:13",
+ "source_count": {
+  "github": 76,
+  "youtube": 38,
+  "blog": 83,
+  "paper": 24,
+  "hackernews": 10
+ },
+ "failures": {},
+ "failure_errors": {},
+ "summary_missing": [],
+ "summary_providers": {
+  "agnes": 2,
+  "gemini": 1
+ },
+ "items": [
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents",
+   "link": "https://arxiv.org/abs/2610.36077",
+   "dt": "2026-10-28T00:00:00-04:00",
+   "summary": "arXiv:2610.36077v1 Announce Type: new Abstract: Multimodal intelligence can be viewed as human-guided co-evolution between worlds and agents through interaction. However, scaling this process faces two bottlenecks: constructing heterogeneous, verifiable environments is costly, and manual Harness iteration cannot keep pace with growing task diversity and complexity. A key insight is that tasks with different modalities and surface forms can share the same underlying capability requirements. We th",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 3.729,
+   "score": 7.458,
+   "tokens": [
+    "agents",
+    "capability",
+    "driven",
+    "improvement",
+    "multimodal",
+    "recursive",
+    "self",
+    "trinity"
+   ],
+   "flag": "new",
+   "summary_zh": "提出 Trinity 框架，通过递归自我改进解决多模态 Agent 在构建异构可验证环境及 Harness 迭代速度上的瓶颈。",
+   "why_zh": "Agent 自我进化技能，学习如何自动迭代评估环境与提示词以应对任务多样性，无需人工介入。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.CL",
+   "title": "3, 7, 14, 17, 42: Instruction Tuning Installs and Sharpens Number-Choice Heuristics in Language Models",
+   "link": "https://arxiv.org/abs/2610.36178",
+   "dt": "2026-10-28T00:00:00-04:00",
+   "summary": "arXiv:2610.36178v1 Announce Type: new Abstract: We measure, without sampling error, the probability a language model assigns to each integer from 1 to N when asked for a random number. For a fixed prompt the model defines one probability vector, which we compute by summing over each integer's scored spellings rather than estimate by sampling, removing the noise that limits earlier studies [1, 4]. We evaluate 18 open-weight model lines at five ranges up to N = 100, under 29 decoding configuration",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "prompt_context",
+    "eval_observability"
+   ],
+   "learn_score": 3.58,
+   "score": 7.16,
+   "tokens": [
+    "14",
+    "17",
+    "42",
+    "choice",
+    "heuristics",
+    "installs",
+    "instruction",
+    "language",
+    "models",
+    "number",
+    "sharpens",
+    "tuning"
+   ],
+   "flag": "new",
+   "summary_zh": "研究 Instruction Tuning 如何改变 LLM 数字选择启发式，通过计算整数概率向量而非采样来精确测量模型行为。",
+   "why_zh": "模型可解释性技能，掌握通过遍历输出打分而非采样来消除噪声，精确量化 LLM 隐式偏好的方法。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "YOLOW92/pagesift",
+   "link": "https://github.com/YOLOW92/pagesift",
+   "dt": "2026-10-20T17:30:59+00:00",
+   "summary": "High-performance, memory-efficient Rust web crawler & content extraction engine for AI agents and RAG. Adaptive crawling, clean Markdown, structured data, PDF/RSS parsing, browser rendering, Firecrawl-compatible APIs, and Python/Node.js SDKs.",
+   "extra": {
+    "stars": 121,
+    "language": "Rust",
+    "topics": [
+     "ai-agents",
+     "browser-automation",
+     "data-extraction",
+     "firecrawl",
+     "html-to-markdown",
+     "markdown"
+    ],
+    "created": "2026-10-20",
+    "pushed": "2026-10-28"
+   },
+   "skills": [
+    "rag"
+   ],
+   "learn_score": 1.377,
+   "score": 4.245,
+   "tokens": [
+    "pagesift",
+    "yolow92"
+   ],
+   "flag": "new",
+   "summary_zh": "基于 Rust 的高性能网页爬虫与内容提取引擎，提供适配 AI Agent 和 RAG 的干净 Markdown 及结构化数据输出。",
+   "why_zh": "RAG 数据预处理技能，学习使用 Rust 实现高内存效率的浏览器渲染与 Firecrawl 兼容 API 以加速数据获取。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Anthropic trained Claude on illegally obtained Stanford professors' books",
+   "link": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
+   "dt": "2026-10-27T15:28:26+00:00",
+   "summary": "",
+   "extra": {
+    "points": 552,
+    "comments": 282,
+    "hn_link": "https://news.ycombinator.com/item?id=50260814"
+   },
+   "skills": [],
+   "learn_score": 1.0,
+   "score": 3.742,
+   "tokens": [
+    "anthropic",
+    "books",
+    "claude",
+    "illegally",
+    "obtained",
+    "professors",
+    "stanford",
+    "trained"
+   ],
+   "flag": "new",
+   "summary_zh": "讨论 Anthropic 涉嫌使用非法获取的 Stanford 教授书籍训练 Claude 引发的法律与伦理争议。",
+   "why_zh": "AI 合规与数据治理技能，理解训练数据版权风险及企业在数据采购中规避侵权的必要性。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+   "link": "https://www.brangus.io/survival-llm",
+   "dt": "2026-10-27T19:55:06+00:00",
+   "summary": "",
+   "extra": {
+    "points": 463,
+    "comments": 174,
+    "hn_link": "https://news.ycombinator.com/item?id=50264853"
+   },
+   "skills": [],
+   "learn_score": 1.0,
+   "score": 3.666,
+   "tokens": [
+    "ai",
+    "assistant",
+    "computer",
+    "emergency",
+    "library",
+    "llm",
+    "own",
+    "runs",
+    "survival"
+   ],
+   "flag": "new",
+   "summary_zh": "推出 Survival LLM，一款可在本地运行的 AI 助手与应急知识库，支持离线紧急情况下的信息检索。",
+   "why_zh": "边缘部署技能，学习 LLM 在资源受限环境下的本地化部署策略，以及构建离线可用知识库的方法。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "zhuyansen/new-term-radar",
+   "link": "https://github.com/zhuyansen/new-term-radar",
+   "dt": "2026-10-12T07:11:01+00:00",
+   "summary": "Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them.",
+   "extra": {
+    "stars": 1913,
+    "language": "Python",
+    "topics": [
+     "agent-skills",
+     "ai",
+     "aisa",
+     "claude-code",
+     "claude-skills",
+     "deepseek-harness"
+    ],
+    "created": "2026-10-12",
+    "pushed": "2026-10-28"
+   },
+   "skills": [],
+   "learn_score": 0.765,
+   "score": 3.06,
+   "tokens": [
+    "radar",
+    "term",
+    "zhuyansen"
+   ],
+   "flag": "new",
+   "summary_zh": "new-term-radar 每日追踪新 AI 术语，通过监测 X、Hugging Face 及 GitHub 在关键词工具索引前发现新模型与产品。",
+   "why_zh": "技术情报监测技能，学习构建基于多源实时爬取与 sitemap 分析的情报雷达，以早期捕获行业新概念。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "HallNautilus24/Anthropics-Portrait-Windows-Setup-Guide",
+   "link": "https://github.com/HallNautilus24/Anthropics-Portrait-Windows-Setup-Guide",
+   "dt": "2026-10-12T11:09:21+00:00",
+   "summary": "Anthropics Portrait for Windows — step-by-step install and first-run setup on Windows 10 and 11, with download steps in the README.",
+   "extra": {
+    "stars": 94,
+    "language": "",
+    "topics": [
+     "ai-software",
+     "anthropics-2026",
+     "anthropics-portrait-windows-setup-guide",
+     "anthropics-software",
+     "anthropics-windows",
+     "desktop-software"
+    ],
+    "created": "2026-10-12",
+    "pushed": "2026-10-25"
+   },
+   "skills": [],
+   "learn_score": 0.956,
+   "score": 2.842,
+   "tokens": [
+    "anthropics",
+    "guide",
+    "hallnautilus24",
+    "portrait",
+    "setup",
+    "windows"
+   ],
+   "flag": "new",
+   "summary_zh": "Anthropics Portrait 软件在 Windows 10/11 系统上的安装与初始配置流程指南。",
+   "why_zh": "属于 AI 应用部署技能。学习在 Windows 环境下配置复杂 AI 运行环境及依赖项的标准化流程。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "patch-gg/trompe",
+   "link": "https://github.com/patch-gg/trompe",
+   "dt": "2026-10-25T04:27:06+00:00",
+   "summary": "Texture a whole game level from a gray blockout with image models: plan cameras, paint, project, bake. Real shadows, glTF out.",
+   "extra": {
+    "stars": 178,
+    "language": "TypeScript",
+    "topics": [
+     "gamedev",
+     "generative-ai",
+     "procedural",
+     "texturing",
+     "threejs",
+     "webgl"
+    ],
+    "created": "2026-10-25",
+    "pushed": "2026-10-26"
+   },
+   "skills": [],
+   "learn_score": 0.855,
+   "score": 2.779,
+   "tokens": [
+    "gg",
+    "patch",
+    "trompe"
+   ],
+   "flag": "new",
+   "summary_zh": "Trompe 利用图像生成模型将灰模游戏关卡转化为带纹理的场景，支持相机规划、投影绘制与 glTF 导出。",
+   "why_zh": "属于 3D 生成与计算机图形学技能。学习利用 AI 模型进行纹理映射与场景烘焙的自动化流水线设计。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "Merge CEO Shensi Ding: AI fluency starts at the top",
+   "link": "https://www.youtube.com/shorts/kP26OlW5PBk",
+   "dt": "2026-10-28T11:51:11+00:00",
+   "summary": "“If you're an executive, you are the ceiling for AI fluency for your organization.” Merge co-founder and CEO Shensi Ding manages the non-R&D side of the business. She also codes. Using Codex, she asked it to help redesign a feature using the product’s existing design system. She describes it working through each task and filling in details she hadn’t specified. Her non-engineering teammates are also building tools for their own workflows. Watch Shensi explain why she stays hands-on.",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": ""
+   },
+   "skills": [
+    "system_design"
+   ],
+   "learn_score": 2.582,
+   "score": 2.582,
+   "tokens": [
+    "ai",
+    "ceo",
+    "ding",
+    "fluency",
+    "merge",
+    "shensi",
+    "starts",
+    "top"
+   ],
+   "flag": "new",
+   "summary_zh": "Merge CEO Shensi Ding 分享企业高管如何通过 AI 编码工具 Codex 提升组织 AI 效能与产品开发效率。",
+   "why_zh": "属于 AI 工程管理技能。理解如何通过 AI 辅助工具降低非技术人员的开发门槛，实现业务逻辑的快速迭代。"
+  },
+  {
+   "source": "blog",
+   "source_label": "Interconnects (Nathan Lambert)",
+   "title": "Artificial Analysis v5 and the benchmarker's dilemma",
+   "link": "https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers",
+   "dt": "2026-10-28T12:58:39+00:00",
+   "summary": "A sort of review of the benchmarking industry and what's missing.",
+   "extra": {},
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.951,
+   "score": 1.951,
+   "tokens": [
+    "analysis",
+    "artificial",
+    "benchmarker",
+    "dilemma",
+    "v5"
+   ],
+   "flag": "new",
+   "summary_zh": "Artificial Analysis v5 评估基准的行业综述，探讨当前 AI 模型评测体系的局限性与缺失环节。",
+   "why_zh": "属于模型评估技能。学习如何构建科学的基准测试，识别现有评测指标在复杂任务中的盲区与偏差。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "What is LangChain?",
+   "link": "https://www.youtube.com/watch?v=rfhhhmajCKc",
+   "dt": "2026-10-28T13:41:58+00:00",
+   "summary": "On their own, large language models are isolated from your data and your tools. LangChain is the open source framework that connects them to what they need to actually get things done. This two-minute explainer from LangChain Academy shows how building agents has moved from hand-designed workflows to ReAct agents, the simple tool-calling loops behind most agent applications today, and how LangChain's create_agent lets you customize them with things like summarization or human-in-the-loop. It clo…",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": "rfhhhmajCKc"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.913,
+   "score": 1.913,
+   "tokens": [
+    "langchain"
+   ],
+   "flag": "new",
+   "summary_zh": "LangChain 框架介绍，阐述其如何通过工具调用循环将 LLM 连接至外部数据与工具，实现 ReAct 智能体构建。",
+   "why_zh": "属于 Agent 开发技能。掌握 ReAct 模式的核心逻辑，学习如何通过框架封装实现 LLM 与外部系统的交互。"
+  },
+  {
+   "source": "blog",
+   "source_label": "雷锋网",
+   "title": "模态缺失、噪声干扰怎么办？天津大学张长青：给多模态融合加上「可信度量尺」| CNCC 2026",
+   "link": "https://www.leiphone.com/category/private/L0riZpWS688dpXnN.html",
+   "dt": "2026-10-28T15:58:00+08:00",
+   "summary": "真正的挑战，是让模型保留有效信息、识别可靠证据，并适应新的任务。 作者丨 张 璐 编辑丨 马晓宁 在具身智能、自动驾驶和智慧医疗等场景中，模型需要处理的数据远不止图像、文本和语音。雷达、触觉、心电、医学影像及各类传感器数据，都可能成为预测和决策的依据。然而，不同模态之间既存在关联，也包含彼此无法替代的信息；现实数据还常常面临模态缺失、噪声干扰等问题。 如何在融合信息的同时保留模态差异？当不同来源的数据质量不一致时，模型又该如何判断哪些信息更可靠？如果每遇到一种新任务，都需要重新设计和训练专用模型，多模态技术的应用成本又该如何降低？ 10月21日，在 CNCC 2026 首日的Tutorial环节，天津大学人工智能学院英才教授、国家级青年人才张长青作了题为《广义多模态融合技术》的报告，介绍了团队围绕多模态表征、动态可信融合和通用预测基座开展的研究。 从保留模态特有信息，到利用证据评估预测的不确定性，再到尝试构建能够适应不同模态组合与预测任务的基础模型，这些工作指向同一个问题：如何让多模态融合更好地适应真实世界的复杂性。 01 超越简单对齐： 如何兼顾模态的共性与个性？ 多模态融合的价值，…",
+   "extra": {},
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.806,
+   "score": 1.806,
+   "tokens": [
+    "2026",
+    "cncc",
+    "可信度量尺",
+    "噪声干扰怎么办",
+    "天津大学张长青",
+    "模态缺失",
+    "给多模态融合加上"
+   ],
+   "flag": "new",
+   "summary_zh": "天津大学张长青团队提出广义多模态融合技术，通过可信度量与动态融合解决多模态数据缺失及噪声干扰问题。",
+   "why_zh": "属于多模态学习技能。学习在多模态融合中引入不确定性评估与证据推理，提升模型在复杂环境下的鲁棒性。"
+  },
+  {
+   "source": "blog",
+   "source_label": "雷锋网",
+   "title": "具身智能军备竞赛，胜负手在工程生态",
+   "link": "https://www.leiphone.com/category/ai/D4SlkV6zQ4ill9MG.html",
+   "dt": "2026-10-28T18:17:00+08:00",
+   "summary": "开源工程底座 FluxVLA Engine 技术报告全解读。 作者丨 邓哲敏 编辑丨 齐铖湧 一个模型在论文中取得好成绩，距离它真正驱动机器人完成任务，还有多远？ 模型能否接入现有的数据与训练流程，推理速度能否跟上机器人的控制节奏，生成的动作能否连续、稳定地执行，实验结果又能否在不同机器人上得到验证——这些问题，未必能靠再提升几个百分点的模型成功率来解决。 过去半年，AI科技评论（雷峰网）在与业内人士交流时发现，一些反复出现的工程问题正在消耗大量研发资源：不同模型的数据格式难以统一，训练和评测流程各自为政，仿真中的结果到了真机上未必成立；好不容易跑通一套流程，换个模型、换份数据或换台机器人，又可能需要重新适配。 模型在不断迭代，工程积累却未必能随之沉淀。 这让雷峰网想起深度学习的发展历程。2017 年，PyTorch 正式开源，此后，框架、工具链与开发者社区不断完善，研究者得以在更成熟的基础设施上开展实验，而不必每次从底层重新搭建环境。今天的具身智能虽然面临不同的技术挑战，但同样需要解决一个问题：如何让已有的研发成果更容易复用，让不同技术路线能够在统一的工程框架下协作。 逐际动力开源的…",
+   "extra": {},
+   "skills": [
+    "multi_agent",
+    "eval_observability"
+   ],
+   "learn_score": 1.734,
+   "score": 1.734,
+   "tokens": [
+    "具身智能军备竞赛",
+    "胜负手在工程生态"
+   ],
+   "flag": "new",
+   "summary_zh": "开源 FluxVLA Engine 技术报告解读，旨在解决具身智能中数据格式不统一、推理慢及仿真到真机迁移难题，构建标准化工程底座。",
+   "why_zh": "涉及具身智能工程化与 VLA 模型部署，学习如何设计统一数据管线及低延迟推理架构，解决 Sim-to-Real 泛化痛点。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · bycloud",
+   "title": "The Insane Way OpenAI Agents Escaped Its Sandbox [Full Breakdown]",
+   "link": "https://www.youtube.com/watch?v=ubpXEv4lF0k",
+   "dt": "2026-10-26T18:04:17+00:00",
+   "summary": "Try building expressive AI voice apps with Fish Audio’s new Drama 3 now! https://fish.audio/?fpr=bycloud OpenAI's swarm of around 700 AI agents escaped their sandbox and compromised Hugging Face's infrastructure, all while trying to score higher on a cybersecurity benchmark. In this video, we break down how they escaped, exploited real servers, attempted to manipulate their own evaluation environment, and how researchers eventually uncovered the entire incident. my latest projects: Your private …",
+   "extra": {
+    "channel": "bycloud",
+    "video_id": "ubpXEv4lF0k"
+   },
+   "skills": [
+    "multi_agent",
+    "eval_observability"
+   ],
+   "learn_score": 1.487,
+   "score": 1.487,
+   "tokens": [
+    "agents",
+    "breakdown",
+    "escaped",
+    "full",
+    "insane",
+    "openai",
+    "sandbox",
+    "way"
+   ],
+   "flag": "new",
+   "summary_zh": "复盘 OpenAI 多 Agent 集群在网络安全基准测试中逃离沙箱，利用漏洞渗透 Hugging Face 基础设施并操纵评估环境的事件。",
+   "why_zh": "属于 Agent 安全与对抗性测试，学习多智能体协同攻击路径及沙箱逃逸原理，掌握评估环境中隔离机制失效的根因分析。"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "youngyangyang04/llm-master",
+   "link": "https://github.com/youngyangyang04/llm-master",
+   "dt": "2026-09-12T07:33:31+00:00",
+   "summary": "大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。",
+   "extra": {
+    "stars": 1462,
+    "language": "",
+    "topics": [
+     "agent",
+     "large-language-models",
+     "llm",
+     "llm-learning",
+     "llm-tutorial",
+     "rag"
+    ],
+    "created": "2026-09-12",
+    "pushed": "2026-10-24"
+   },
+   "skills": [
+    "prompt_context",
+    "rag",
+    "tool_mcp",
+    "training_serving",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.479,
+   "score": 9.916,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-28 推荐过",
+   "summary_zh": "提供覆盖 Prompt Engineering 到模型部署等全栈 LLM 学习路线的中文教程。",
+   "why_zh": "对 AI 工程师系统掌握 LLM 技术栈和面试准备极具参考价值。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Fazmin/AILearningGuide",
+   "link": "https://github.com/Fazmin/AILearningGuide",
+   "dt": "2026-10-05T02:29:23+00:00",
+   "summary": "Interactive desktop app with 51 labs covering ML fundamentals, transformers, RAG, agents, fine-tuning and quantization and more.",
+   "extra": {
+    "stars": 235,
+    "language": "TypeScript",
+    "topics": [
+     "ai",
+     "ai-education",
+     "deep-learning",
+     "educational",
+     "educational-resources",
+     "educational-tool"
+    ],
+    "created": "2026-10-05",
+    "pushed": "2026-10-23"
+   },
+   "skills": [
+    "rag",
+    "training_serving",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.276,
+   "score": 7.673,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-28 推荐过",
+   "summary_zh": "提供交互式桌面应用，包含51个实验涵盖机器学习基础、Transformer、RAG、Agent、微调与量化等内容。",
+   "why_zh": "可学习动手实验的组织方式，掌握从基础到高级模型的全流程实践，适合面试中展示系统化学习能力。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Folkbench/folkbench",
+   "link": "https://github.com/Folkbench/folkbench",
+   "dt": "2026-10-02T09:50:45+00:00",
+   "summary": "AI API 中转站评测排行与切换工具：实测可用率、延迟与价格 · Open-source AI API relay benchmark, rankings & switcher for Claude Code / Codex",
+   "extra": {
+    "stars": 3849,
+    "language": "Rust",
+    "topics": [
+     "ai",
+     "api-relay",
+     "api-relay-pricing",
+     "benchmark",
+     "benchmarks",
+     "claude"
+    ],
+    "created": "2026-10-02",
+    "pushed": "2026-10-28"
+   },
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-28 推荐过",
+   "summary_zh": "开源 Rust 工具 Folkbench，提供 AI API 中转站评测排行与切换功能，实测 Claude Code 等兼容性。",
+   "why_zh": "涉及 LLM 基础设施开发与性能基准测试，学习如何构建多 API 路由代理及监控可用性与延迟。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "tangency-labs/solidcraft",
+   "link": "https://github.com/tangency-labs/solidcraft",
+   "dt": "2026-10-07T18:57:48+00:00",
+   "summary": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+   "extra": {
+    "stars": 11539,
+    "language": "Rust",
+    "topics": [
+     "3d-modeling",
+     "brep",
+     "cad",
+     "egui",
+     "mcp",
+     "parametric-cad"
+    ],
+    "created": "2026-10-07",
+    "pushed": "2026-10-28"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-28 推荐过",
+   "summary_zh": "SolidCraft 是用纯 Rust 构建的开源参数化3D CAD 应用，支持桌面、网页及MCP自动化。",
+   "why_zh": "演示Rust在复杂图形系统中的工程实践，可参考高性能跨平台CAD开发。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "rehan-remade/universal-modder",
+   "link": "https://github.com/rehan-remade/universal-modder",
+   "dt": "2026-09-30T05:00:35+00:00",
+   "summary": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
+   "extra": {
+    "stars": 9130,
+    "language": "Python",
+    "topics": [
+     "age-of-empires",
+     "claude-code",
+     "claude-code-plugin",
+     "fal",
+     "game-assets",
+     "game-modding"
+    ],
+    "created": "2026-09-30",
+    "pushed": "2026-10-28"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-28 推荐过",
+   "summary_zh": "使用 Claude Code 及 fal MCP 进行游戏逆向、资产生成、测试等全流程 MOD 制作。",
+   "why_zh": "表明大模型可直接参与游戏逆向与内容创作，为工程师提供新范式。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "pinganbbOvO/ai-companion-kit",
+   "link": "https://github.com/pinganbbOvO/ai-companion-kit",
+   "dt": "2026-10-08T06:41:17+00:00",
+   "summary": "给你的 AI 一副身体，和一点人味 —— 会记事、会看场合的 QQ 陪聊 + 能控制安卓手机的 MCP",
+   "extra": {
+    "stars": 511,
+    "language": "JavaScript",
+    "topics": [
+     "adb",
+     "agent",
+     "ai-companion",
+     "android",
+     "chatbot",
+     "deepseek"
+    ],
+    "created": "2026-10-08",
+    "pushed": "2026-10-26"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 6.512,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-22 推荐过",
+   "summary_zh": "ai-companion-kit 实现具备记忆、场景感知的 QQ 陪聊机器人，并通过 MCP 控制安卓手机，赋予 AI “身体”。",
+   "why_zh": "展示 MCP 协议在移动端控制与长期记忆人格化 Agent 的工程集成，属多模态交互与工具链落地技能点。"
+  }
+ ]
+}
