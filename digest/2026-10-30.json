@@ -1,0 +1,625 @@
+{
+ "date": "2026-10-30",
+ "generated": "2026-10-30 00:22",
+ "source_count": {
+  "github": 77,
+  "youtube": 37,
+  "blog": 81,
+  "paper": 12,
+  "hackernews": 10
+ },
+ "failures": {},
+ "failure_errors": {},
+ "summary_missing": [],
+ "summary_providers": {
+  "gemini": 3
+ },
+ "items": [
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
+   "link": "https://surgehq.ai/blog/dayjob-tax",
+   "dt": "2026-10-28T15:46:30+00:00",
+   "summary": "",
+   "extra": {
+    "points": 248,
+    "comments": 163,
+    "hn_link": "https://news.ycombinator.com/item?id=50275626"
+   },
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 2.295,
+   "score": 7.79,
+   "tokens": [
+    "50",
+    "agents",
+    "ai",
+    "assignments",
+    "dayjob",
+    "evaluating",
+    "professional",
+    "tax"
+   ],
+   "flag": "new",
+   "summary_zh": "Dayjob: Tax 评估了 AI Agent 在 50 项专业税务任务中的表现，通过真实场景测试 Agent 在复杂合规与计算任务中的准确性。",
+   "why_zh": "属于 Agent 评测领域。可学习如何构建垂直领域基准测试集（Benchmark），以及如何设计针对专业知识推理的 Agent 评估指标。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Efficient Streaming Audio-Visual Target Speaker Extraction for Real-World Acoustic Scenes",
+   "link": "https://huggingface.co/papers/2610.32749",
+   "dt": "2026-10-22T20:00:00+00:00",
+   "summary": "Streaming audio-visual target speaker extraction (AVTSE) is essential for latency-sensitive applications. However, current causal systems face two coupled gaps. First, standard benchmarks fix the number of speakers at two and ignore the near-/far-field interference, reverberation, and sudden noise of real scenes. Second, high-performance causal architectures are too heavy for edge deployment. Lightweight alternatives try to reclaim capacity by repeatedly invoking a small separator, which offsets",
+   "extra": {
+    "upvotes": 146,
+    "arxiv": "https://arxiv.org/abs/2610.32749"
+   },
+   "skills": [
+    "eval_observability",
+    "system_design"
+   ],
+   "learn_score": 2.355,
+   "score": 7.065,
+   "tokens": [
+    "acoustic",
+    "audio",
+    "efficient",
+    "extraction",
+    "real",
+    "scenes",
+    "speaker",
+    "streaming",
+    "target",
+    "visual",
+    "world"
+   ],
+   "flag": "new",
+   "summary_zh": "提出一种高效流式音视频目标说话人提取（AVTSE）架构，解决了现实场景中多干扰、混响及边缘设备部署的算力限制问题。",
+   "why_zh": "属于多模态信号处理与边缘计算领域。可学习因果模型（Causal Model）在实时流式处理中的轻量化设计与性能优化方法。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Sam-Hui-dot/mcd-budget-meal",
+   "link": "https://github.com/Sam-Hui-dot/mcd-budget-meal",
+   "dt": "2026-10-11T08:25:55+00:00",
+   "summary": "麦麦预算餐：基于麦当劳 MCP 的真实核价、预算比较与餐品替换 Skill",
+   "extra": {
+    "stars": 1624,
+    "language": "HTML",
+    "topics": [
+     "mcdonalds",
+     "mcp",
+     "python",
+     "skill",
+     "workbuddy"
+    ],
+    "created": "2026-10-11",
+    "pushed": "2026-10-24"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "tokens": [
+    "budget",
+    "dot",
+    "hui",
+    "mcd",
+    "meal",
+    "sam"
+   ],
+   "flag": "new",
+   "summary_zh": "基于 MCP（Model Context Protocol）实现的麦当劳预算餐核价与替换工具，通过 MCP 协议连接本地数据进行自动化决策。",
+   "why_zh": "属于 MCP 协议应用实践。可学习如何利用 MCP 标准将外部 API 或本地数据源封装为 Agent 可调用的标准化工具。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "amosblomqvist/learnharness",
+   "link": "https://github.com/amosblomqvist/learnharness",
+   "dt": "2026-10-16T19:35:33+00:00",
+   "summary": "Agent harness for learning difficult things.",
+   "extra": {
+    "stars": 3867,
+    "language": "TypeScript",
+    "topics": [],
+    "created": "2026-10-16",
+    "pushed": "2026-10-29"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "tokens": [
+    "amosblomqvist",
+    "learnharness"
+   ],
+   "flag": "new",
+   "summary_zh": "LearnHarness 是一个专为学习复杂技能设计的 Agent 框架，通过结构化的交互流程辅助 Agent 掌握新知识或任务。",
+   "why_zh": "属于 Agent 学习与任务规划领域。可学习如何构建 Agent 的长程任务分解与反馈循环，提升 Agent 在复杂任务中的自适应能力。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Claude Code regularly sends each background agent’s transcript to its model",
+   "link": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+   "dt": "2026-10-29T03:33:42+00:00",
+   "summary": "",
+   "extra": {
+    "points": 523,
+    "comments": 211,
+    "hn_link": "https://news.ycombinator.com/item?id=50284255"
+   },
+   "skills": [],
+   "learn_score": 1.35,
+   "score": 5.02,
+   "tokens": [
+    "agent",
+    "background",
+    "claude",
+    "code",
+    "each",
+    "model",
+    "regularly",
+    "sends",
+    "transcript"
+   ],
+   "flag": "new",
+   "summary_zh": "Claude Code 机制揭示了其后台 Agent 会定期将对话记录发送至模型，以维持上下文连贯性并优化任务执行策略。",
+   "why_zh": "属于 Agent 系统架构设计。可学习如何通过上下文管理（Context Management）和状态同步机制，解决长任务中 Agent 的记忆与一致性问题。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success",
+   "link": "https://huggingface.co/papers/2610.31670",
+   "dt": "2026-10-22T20:00:00+00:00",
+   "summary": "Robot foundation models are typically evaluated through costly closed-loop rollouts, motivating low-cost offline proxies for model capability. The Platonic Representation Hypothesis (PRH) suggests that as representations improve, modalities such as vision and language converge toward a shared statistical model of reality. We ask whether motion trajectories form another such modality: as embodied models become more capable, should their sensory representations converge toward the structure of phy",
+   "extra": {
+    "upvotes": 33,
+    "arxiv": "https://arxiv.org/abs/2610.31670"
+   },
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.962,
+   "score": 4.941,
+   "tokens": [
+    "alignment",
+    "embodied",
+    "platonic",
+    "policy",
+    "proxy",
+    "sensorimotor",
+    "success"
+   ],
+   "flag": "new",
+   "summary_zh": "提出传感器运动对齐（Sensorimotor Alignment）作为具身智能策略成功的离线代理指标，利用运动轨迹验证表征学习质量。",
+   "why_zh": "属于具身智能与表征学习领域。可学习如何通过多模态对齐（视觉、语言与运动）构建低成本的离线评估指标，替代昂贵的闭环仿真测试。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "langchain-ai/design-agent",
+   "link": "https://github.com/langchain-ai/design-agent",
+   "dt": "2026-10-18T04:44:58+00:00",
+   "summary": "Open-source design agent: on-brand stills, decks, diagrams, charts and motion graphics from a chat thread, built on Deep Agents.",
+   "extra": {
+    "stars": 448,
+    "language": "JavaScript",
+    "topics": [
+     "agent",
+     "agents",
+     "ai-agent",
+     "deepagents",
+     "design",
+     "hyperframes"
+    ],
+    "created": "2026-10-18",
+    "pushed": "2026-10-27"
+   },
+   "skills": [
+    "system_design"
+   ],
+   "learn_score": 1.3,
+   "score": 4.747,
+   "tokens": [
+    "agent",
+    "ai",
+    "design",
+    "langchain"
+   ],
+   "flag": "new",
+   "summary_zh": "基于 Deep Agents 构建的开源设计 Agent，支持通过对话生成品牌化静态图、演示文稿、图表及动态图形。",
+   "why_zh": "Agent 应用开发技能。可学习如何通过多模态模型集成实现特定领域（设计）的自动化工作流编排。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "01men/ybkkasi",
+   "link": "https://github.com/01men/ybkkasi",
+   "dt": "2026-10-13T08:24:21+00:00",
+   "summary": "One control plane for every AI asset — MCP servers, skills, agents, AI apps. Self-hosted ledger with lifecycle state machine, 85 permission points, department × agent × skill cost attribution, and audit trail. MIT, zero runtime deps (Node 22 + node:sqlite). 企业 AI 资产治理。",
+   "extra": {
+    "stars": 22,
+    "language": "JavaScript",
+    "topics": [
+     "agent",
+     "ai-asset-management",
+     "ai-gateway",
+     "ai-governance",
+     "audit",
+     "cost-management"
+    ],
+    "created": "2026-10-13",
+    "pushed": "2026-10-29"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 4.113,
+   "tokens": [
+    "01men",
+    "ybkkasi"
+   ],
+   "flag": "new",
+   "summary_zh": "企业级 AI 资产治理控制平面，提供 MCP 服务器、技能、Agent 及应用的统一生命周期管理、权限控制与成本审计。",
+   "why_zh": "AI 基础设施架构。可借鉴其基于状态机和审计追踪实现企业级 AI 资产治理的工程化设计思路。"
+  },
+  {
+   "source": "blog",
+   "source_label": "LangChain 博客",
+   "title": "The Art of Loop Engineering",
+   "link": "https://www.langchain.com/blog/the-art-of-loop-engineering",
+   "dt": "2026-10-28T21:01:46+00:00",
+   "summary": "Agents automate real-world work, but reliable performance requires more than a good model, it requires a carefully designed harness built for specific tasks. This post explores the core agent loop, how stacking and extending loops builds more effective agents, and how to instrument each level with LangChain primitives.",
+   "extra": {},
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 2.438,
+   "score": 2.438,
+   "tokens": [
+    "art",
+    "engineering",
+    "loop"
+   ],
+   "flag": "new",
+   "summary_zh": "探讨 Agent 循环工程（Loop Engineering），通过堆叠和扩展循环结构，利用 LangChain 原语提升 Agent 任务执行的可靠性。",
+   "why_zh": "Agent 架构设计。掌握如何通过精细化设计 Agent 循环逻辑与监控埋点，解决复杂任务执行中的鲁棒性问题。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Cole Medin",
+   "title": "The 4 Components of Every Successful AI Second Brain (Build These Now)",
+   "link": "https://www.youtube.com/watch?v=qIWB1yMsqRo",
+   "dt": "2026-10-29T00:00:35+00:00",
+   "summary": "Your AI second brain should be dead simple. Mine is a few tools and a folder of markdown files, and it saves me 25 to 30 hours every week. In this video I cover the four fundamentals that make it work (Context, Connections, Capabilities and Cadence), so you can build them into a new second brain or use them to audit the one you already have, no matter what you built it with! ~~~~~~~~~~~~~~~~~~~~~~~~~~ Arcade, the MCP runtime for AI agents (free to start, no credit card): https://arcade.dev.plug.…",
+   "extra": {
+    "channel": "Cole Medin",
+    "video_id": "qIWB1yMsqRo"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 2.066,
+   "score": 2.066,
+   "tokens": [
+    "ai",
+    "brain",
+    "build",
+    "components",
+    "every",
+    "now",
+    "second",
+    "successful",
+    "these"
+   ],
+   "flag": "new",
+   "summary_zh": "构建 AI 第二大脑的四大核心要素：Context（上下文）、Connections（连接）、Capabilities（能力）与 Cadence（节奏）。",
+   "why_zh": "知识管理与 RAG 系统设计。学习如何通过结构化数据组织与流程设计，提升 AI 辅助决策的效率与准确性。"
+  },
+  {
+   "source": "blog",
+   "source_label": "LangChain 博客",
+   "title": "Browser Use in Managed Deep Agents",
+   "link": "https://www.langchain.com/blog/browser-use-in-managed-deep-agents",
+   "dt": "2026-10-29T16:22:04+00:00",
+   "summary": "Managed Deep Agents now runs a browser for your agent, with tools tuned for context-efficient browser use and a handoff so you can sign in yourself.",
+   "extra": {},
+   "skills": [
+    "multi_agent"
+   ],
+   "learn_score": 1.951,
+   "score": 1.951,
+   "tokens": [
+    "agents",
+    "browser",
+    "deep",
+    "managed",
+    "use"
+   ],
+   "flag": "new",
+   "summary_zh": "Managed Deep Agents 集成浏览器工具，优化上下文效率并支持用户手动登录，实现更高效的 Web 自动化操作。",
+   "why_zh": "Agent 工具调用与交互设计。学习如何优化浏览器自动化工具的上下文窗口，解决 Agent 在复杂 Web 交互中的登录与状态保持问题。"
+  },
+  {
+   "source": "blog",
+   "source_label": "Simon Willison",
+   "title": "Quoting Ben Hylak",
+   "link": "https://simonwillison.net/2026/Oct/29/ben-hylak/",
+   "dt": "2026-10-29T14:06:27+00:00",
+   "summary": "every product i use should just be a headless mcp, that feeds into an agent, where i never have to think about anything underneath. except for our product, of course. in our product, customers love the ui and love us very much. we're special that way. — Ben Hylak Tags: model-context-protocol , ai",
+   "extra": {},
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.951,
+   "score": 1.951,
+   "tokens": [
+    "ben",
+    "hylak",
+    "quoting"
+   ],
+   "flag": "new",
+   "summary_zh": "探讨将产品功能抽象为 Headless MCP 服务并接入 Agent，实现用户无需感知底层逻辑的自动化交互模式。",
+   "why_zh": "系统架构设计。理解 MCP 协议在解耦 AI 服务与业务逻辑中的作用，学习如何通过标准化接口构建可组合的 Agent 生态。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "Why Merge CEO Shensi Ding stays hands-on with Codex",
+   "link": "https://www.youtube.com/watch?v=6ep8Vvm4Bdw",
+   "dt": "2026-10-28T11:50:26+00:00",
+   "summary": "“If you're an executive, you are the ceiling for AI fluency for your organization.” Merge co-founder and CEO Shensi Ding manages the non-R&D side of the business. She also codes. With Codex, she asked for help redesigning a feature without prescribing the solution. It drew on Merge’s existing design system, proposed different approaches and helped her work through difficult UX decisions. That kind of experimentation has changed how she runs the business. When Shensi and her co-founder built Merg…",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": "6ep8Vvm4Bdw"
+   },
+   "skills": [],
+   "learn_score": 1.215,
+   "score": 1.215,
+   "tokens": [
+    "ceo",
+    "codex",
+    "ding",
+    "hands",
+    "merge",
+    "shensi",
+    "stays"
+   ],
+   "flag": "new",
+   "summary_zh": "Merge CEO Shensi Ding 利用 Codex 辅助重构产品功能，通过自然语言描述需求而非直接编写代码，利用现有设计系统生成 UX 方案并辅助决策。",
+   "why_zh": "属于 AI 辅助编程与人机协作范畴。可复用做法是利用 LLM 作为架构设计与 UX 决策的“副驾驶”，通过上下文约束引导模型输出符合既有设计规范的方案。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "From legal bottleneck to business partner | Legora’s Emma Kadri Bergström",
+   "link": "https://www.youtube.com/watch?v=M2Oa42hF67E",
+   "dt": "2026-10-28T09:45:24+00:00",
+   "summary": "NDA reviews once took up around 20% of Legora’s legal team’s capacity. Today, that figure is under 1%. General Counsel Emma Kadri Bergström shares how AI is helping her team reclaim time, support a rapidly growing business and take on more complex work, while keeping lawyers responsible for the decisions. Part of Intelligence at Work. Read the full story: https://openai.com/index/legora-agentic-operating-system-for-legal-work/",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": "M2Oa42hF67E"
+   },
+   "skills": [],
+   "learn_score": 1.215,
+   "score": 1.215,
+   "tokens": [
+    "bergstr",
+    "bottleneck",
+    "business",
+    "emma",
+    "kadri",
+    "legal",
+    "legora",
+    "partner"
+   ],
+   "flag": "new",
+   "summary_zh": "Legora 通过部署 AI 自动化处理 NDA 审查流程，将法律团队处理合同的时间占比从 20% 降至 1% 以下，实现法律合规工作的降本增效。",
+   "why_zh": "属于 AI Agent 在垂直业务场景的落地实践。可复用做法是识别高频低复杂度的文档处理流程，构建人机协同的 Agent 工作流，将 AI 定位为辅助决策工具而非替代者。"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "youngyangyang04/llm-master",
+   "link": "https://github.com/youngyangyang04/llm-master",
+   "dt": "2026-09-12T07:33:31+00:00",
+   "summary": "大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。",
+   "extra": {
+    "stars": 1482,
+    "language": "",
+    "topics": [
+     "agent",
+     "large-language-models",
+     "llm",
+     "llm-learning",
+     "llm-tutorial",
+     "rag"
+    ],
+    "created": "2026-09-12",
+    "pushed": "2026-10-24"
+   },
+   "skills": [
+    "prompt_context",
+    "rag",
+    "tool_mcp",
+    "training_serving",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.479,
+   "score": 9.916,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-29 推荐过",
+   "summary_zh": "提供覆盖 Prompt Engineering 到模型部署等全栈 LLM 学习路线的中文教程。",
+   "why_zh": "对 AI 工程师系统掌握 LLM 技术栈和面试准备极具参考价值。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Fazmin/AILearningGuide",
+   "link": "https://github.com/Fazmin/AILearningGuide",
+   "dt": "2026-10-05T02:29:23+00:00",
+   "summary": "Interactive desktop app with 51 labs covering ML fundamentals, transformers, RAG, agents, fine-tuning and quantization and more.",
+   "extra": {
+    "stars": 235,
+    "language": "TypeScript",
+    "topics": [
+     "ai",
+     "ai-education",
+     "deep-learning",
+     "educational",
+     "educational-resources",
+     "educational-tool"
+    ],
+    "created": "2026-10-05",
+    "pushed": "2026-10-28"
+   },
+   "skills": [
+    "rag",
+    "training_serving",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.276,
+   "score": 7.673,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-29 推荐过",
+   "summary_zh": "提供交互式桌面应用，包含51个实验涵盖机器学习基础、Transformer、RAG、Agent、微调与量化等内容。",
+   "why_zh": "可学习动手实验的组织方式，掌握从基础到高级模型的全流程实践，适合面试中展示系统化学习能力。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Folkbench/folkbench",
+   "link": "https://github.com/Folkbench/folkbench",
+   "dt": "2026-10-02T09:50:45+00:00",
+   "summary": "AI API 中转站评测排行与切换工具：实测可用率、延迟与价格 · Open-source AI API relay benchmark, rankings & switcher for Claude Code / Codex",
+   "extra": {
+    "stars": 3915,
+    "language": "Rust",
+    "topics": [
+     "ai",
+     "api-relay",
+     "api-relay-pricing",
+     "benchmark",
+     "benchmarks",
+     "claude"
+    ],
+    "created": "2026-10-02",
+    "pushed": "2026-10-29"
+   },
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-29 推荐过",
+   "summary_zh": "开源 Rust 工具 Folkbench，提供 AI API 中转站评测排行与切换功能，实测 Claude Code 等兼容性。",
+   "why_zh": "涉及 LLM 基础设施开发与性能基准测试，学习如何构建多 API 路由代理及监控可用性与延迟。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "tangency-labs/solidcraft",
+   "link": "https://github.com/tangency-labs/solidcraft",
+   "dt": "2026-10-07T18:57:48+00:00",
+   "summary": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+   "extra": {
+    "stars": 11893,
+    "language": "Rust",
+    "topics": [
+     "3d-modeling",
+     "brep",
+     "cad",
+     "egui",
+     "mcp",
+     "parametric-cad"
+    ],
+    "created": "2026-10-07",
+    "pushed": "2026-10-29"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-29 推荐过",
+   "summary_zh": "SolidCraft 是用纯 Rust 构建的开源参数化3D CAD 应用，支持桌面、网页及MCP自动化。",
+   "why_zh": "演示Rust在复杂图形系统中的工程实践，可参考高性能跨平台CAD开发。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "rehan-remade/universal-modder",
+   "link": "https://github.com/rehan-remade/universal-modder",
+   "dt": "2026-09-30T05:00:35+00:00",
+   "summary": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
+   "extra": {
+    "stars": 9185,
+    "language": "Python",
+    "topics": [
+     "age-of-empires",
+     "claude-code",
+     "claude-code-plugin",
+     "fal",
+     "game-assets",
+     "game-modding"
+    ],
+    "created": "2026-09-30",
+    "pushed": "2026-10-29"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-29 推荐过",
+   "summary_zh": "使用 Claude Code 及 fal MCP 进行游戏逆向、资产生成、测试等全流程 MOD 制作。",
+   "why_zh": "表明大模型可直接参与游戏逆向与内容创作，为工程师提供新范式。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "pinganbbOvO/ai-companion-kit",
+   "link": "https://github.com/pinganbbOvO/ai-companion-kit",
+   "dt": "2026-10-08T06:41:17+00:00",
+   "summary": "给你的 AI 一副身体，和一点人味 —— 会记事、会看场合的 QQ 陪聊 + 能控制安卓手机的 MCP",
+   "extra": {
+    "stars": 524,
+    "language": "JavaScript",
+    "topics": [
+     "adb",
+     "agent",
+     "ai-companion",
+     "android",
+     "chatbot",
+     "deepseek"
+    ],
+    "created": "2026-10-08",
+    "pushed": "2026-10-26"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 6.531,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-29 推荐过",
+   "summary_zh": "ai-companion-kit 实现具备记忆、场景感知的 QQ 陪聊机器人，并通过 MCP 控制安卓手机，赋予 AI “身体”。",
+   "why_zh": "展示 MCP 协议在移动端控制与长期记忆人格化 Agent 的工程集成，属多模态交互与工具链落地技能点。"
+  }
+ ]
+}
