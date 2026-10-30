@@ -23,7 +23,7 @@
   },
   "https://github.com/rehan-remade/universal-modder": {
    "title": "rehan-remade/universal-modder",
-   "date": "2026-10-30",
+   "date": "2026-10-31",
    "tokens": [],
    "source": "github",
    "summary_zh": "使用 Claude Code 及 fal MCP 进行游戏逆向、资产生成、测试等全流程 MOD 制作。",
@@ -39,7 +39,7 @@
   },
   "https://github.com/youngyangyang04/llm-master": {
    "title": "youngyangyang04/llm-master",
-   "date": "2026-10-30",
+   "date": "2026-10-31",
    "tokens": [],
    "source": "github",
    "summary_zh": "提供覆盖 Prompt Engineering 到模型部署等全栈 LLM 学习路线的中文教程。",
@@ -2841,7 +2841,7 @@
   },
   "https://github.com/Fazmin/AILearningGuide": {
    "title": "Fazmin/AILearningGuide",
-   "date": "2026-10-30",
+   "date": "2026-10-31",
    "tokens": [],
    "source": "github",
    "summary_zh": "提供交互式桌面应用，包含51个实验涵盖机器学习基础、Transformer、RAG、Agent、微调与量化等内容。",
@@ -3296,7 +3296,7 @@
   },
   "https://github.com/tangency-labs/solidcraft": {
    "title": "tangency-labs/solidcraft",
-   "date": "2026-10-30",
+   "date": "2026-10-31",
    "tokens": [],
    "source": "github",
    "summary_zh": "SolidCraft 是用纯 Rust 构建的开源参数化3D CAD 应用，支持桌面、网页及MCP自动化。",
@@ -4571,7 +4571,7 @@
   },
   "https://github.com/Folkbench/folkbench": {
    "title": "Folkbench/folkbench",
-   "date": "2026-10-30",
+   "date": "2026-10-31",
    "tokens": [],
    "source": "github",
    "summary_zh": "开源 Rust 工具 Folkbench，提供 AI API 中转站评测排行与切换功能，实测 Claude Code 等兼容性。",
@@ -5829,15 +5829,8 @@
   },
   "https://github.com/Sam-Hui-dot/mcd-budget-meal": {
    "title": "Sam-Hui-dot/mcd-budget-meal",
-   "date": "2026-10-30",
-   "tokens": [
-    "budget",
-    "dot",
-    "hui",
-    "mcd",
-    "meal",
-    "sam"
-   ],
+   "date": "2026-10-31",
+   "tokens": [],
    "source": "github",
    "summary_zh": "基于 MCP（Model Context Protocol）实现的麦当劳预算餐核价与替换工具，通过 MCP 协议连接本地数据进行自动化决策。",
    "why_zh": "属于 MCP 协议应用实践。可学习如何利用 MCP 标准将外部 API 或本地数据源封装为 Agent 可调用的标准化工具。"
@@ -5999,7 +5992,224 @@
    "source": "youtube",
    "summary_zh": "Legora 通过部署 AI 自动化处理 NDA 审查流程，将法律团队处理合同的时间占比从 20% 降至 1% 以下，实现法律合规工作的降本增效。",
    "why_zh": "属于 AI Agent 在垂直业务场景的落地实践。可复用做法是识别高频低复杂度的文档处理流程，构建人机协同的 Agent 工作流，将 AI 定位为辅助决策工具而非替代者。"
+  },
+  "https://labs.ycombinator.com/projects/games/index.html": {
+   "title": "We ran AI agent swarms in Minecraft and Mindustry",
+   "date": "2026-10-31",
+   "tokens": [
+    "agent",
+    "ai",
+    "mindustry",
+    "minecraft",
+    "ran",
+    "swarms",
+    "we"
+   ],
+   "source": "hackernews",
+   "summary_zh": "在 Minecraft 和 Mindustry 环境中部署 AI Agent 蜂群，通过多智能体协作实现复杂游戏任务的自动化执行。",
+   "why_zh": "多智能体系统 (MAS) 架构设计，可学习如何通过环境反馈机制实现 Agent 间的任务分配与协作策略。"
+  },
+  "https://github.com/DEEP-JLU/Awesome-Graph-Engineering": {
+   "title": "DEEP-JLU/Awesome-Graph-Engineering",
+   "date": "2026-10-31",
+   "tokens": [
+    "awesome",
+    "deep",
+    "engineering",
+    "graph",
+    "jlu"
+   ],
+   "source": "github",
+   "summary_zh": "整理了包含 Ontology、Graph、Loop、Harness、Context 及 Prompt Engineering 在内的系统性工程化知识库。",
+   "why_zh": "AI 工程化方法论，可复用其构建复杂 Agent 系统时的模块化设计思路与工程实践框架。"
+  },
+  "https://cyberplace.social/@GossiTheDog/117528831681803563": {
+   "title": "Backdoors in official Claude Code extensions",
+   "date": "2026-10-31",
+   "tokens": [
+    "backdoors",
+    "claude",
+    "code",
+    "extensions",
+    "official"
+   ],
+   "source": "hackernews",
+   "summary_zh": "披露官方 Claude Code 扩展中存在的后门风险，指出第三方插件在代码执行环境中的安全隐患。",
+   "why_zh": "Agent 安全与供应链防御，可学习如何对 Agent 运行环境进行沙箱隔离及权限最小化控制。"
+  },
+  "https://huggingface.co/papers/2609.05881": {
+   "title": "Broken on Arrival: Non-Functional Quantized LLM Artifacts in Public Model Registries and How to Catch Them",
+   "date": "2026-10-31",
+   "tokens": [
+    "arrival",
+    "artifacts",
+    "broken",
+    "catch",
+    "functional",
+    "llm",
+    "model",
+    "non",
+    "public",
+    "quantized",
+    "registries",
+    "them"
+   ],
+   "source": "paper",
+   "summary_zh": "揭示公共模型库中量化模型（GGUF 格式）存在大量功能缺失，并提出针对性的自动化功能测试方案。",
+   "why_zh": "模型工程与质量保障，可学习如何构建自动化测试流水线以验证量化模型在推理任务中的功能完整性。"
+  },
+  "https://huggingface.co/papers/2610.38174": {
+   "title": "Scaling Lean Theorem Proving for Real-World Code Verification",
+   "date": "2026-10-31",
+   "tokens": [
+    "code",
+    "lean",
+    "proving",
+    "real",
+    "scaling",
+    "theorem",
+    "verification",
+    "world"
+   ],
+   "source": "paper",
+   "summary_zh": "发布 EasyProver 系统，利用递归 Agent、异步搜索与弹性细化服务，实现 Lean 形式化证明的高效自动化。",
+   "why_zh": "复杂推理与形式化验证，可学习如何通过递归 Agent 架构与异步搜索策略提升模型在长逻辑链任务中的表现。"
+  },
+  "https://github.com/GroundedCoreAI/nexusdesk": {
+   "title": "GroundedCoreAI/nexusdesk",
+   "date": "2026-10-31",
+   "tokens": [
+    "groundedcoreai",
+    "nexusdesk"
+   ],
+   "source": "github",
+   "summary_zh": "开源自托管 Agent 平台 nexusdesk，基于 ReAct 模式与 Harness 工程构建，支持 AI 客服等业务场景。",
+   "why_zh": "Agent 平台架构设计，可学习如何将 ReAct 循环与 Harness 工程化组件集成，实现可扩展的业务 Agent。"
+  },
+  "https://github.com/AienTech/dossier": {
+   "title": "AienTech/dossier",
+   "date": "2026-10-31",
+   "tokens": [
+    "aientech",
+    "dossier"
+   ],
+   "source": "github",
+   "summary_zh": "Dossier 是一个自托管求职应用，利用 LLM 根据用户个人资料自动生成定制化的简历和求职信。",
+   "why_zh": "属于 RAG 与 Prompt Engineering 应用场景，可学习如何构建基于特定上下文的自动化文档生成工作流。"
+  },
+  "https://github.com/HelixDB/helix-foundry": {
+   "title": "HelixDB/helix-foundry",
+   "date": "2026-10-31",
+   "tokens": [
+    "foundry",
+    "helix",
+    "helixdb"
+   ],
+   "source": "github",
+   "summary_zh": "Helix Foundry 允许连接企业数据，利用 Agent 自动构建本体论（Ontology）并将其转化为可查询的图数据库。",
+   "why_zh": "属于知识图谱与 Agent 自动化建模，可复用 Agent 自动提取结构化数据并构建知识库的工程实践。"
+  },
+  "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/": {
+   "title": "Building a multiplayer game world with autonomous Fable-class models",
+   "date": "2026-10-31",
+   "tokens": [
+    "autonomous",
+    "building",
+    "class",
+    "fable",
+    "game",
+    "models",
+    "multiplayer",
+    "world"
+   ],
+   "source": "blog",
+   "summary_zh": "Spawn 平台在多人游戏环境中引入自主 Agent，玩家通过自然语言提示词即可实时修改游戏世界。",
+   "why_zh": "属于 Agentic Engineering 与动态环境交互，可学习如何将 LLM 的推理能力集成到实时交互的复杂系统中。"
+  },
+  "https://www.youtube.com/watch?v=XOUSuxY074U": {
+   "title": "Why Own Your Intelligence? Harrison Chase Keynote | Interrupt London",
+   "date": "2026-10-31",
+   "tokens": [
+    "chase",
+    "harrison",
+    "intelligence",
+    "interrupt",
+    "keynote",
+    "london",
+    "own"
+   ],
+   "source": "youtube",
+   "summary_zh": "LangChain CEO 探讨企业如何通过构建模型外围的 Harness 和 Context 来实现模型能力的差异化与资产化。",
+   "why_zh": "属于 AI 工程架构设计，核心在于理解如何通过工程化手段（如 LangSmith）实现 Agent 系统的可控性与治理。"
+  },
+  "https://www.youtube.com/shorts/oY1htTx_h9U": {
+   "title": "The Hardest Part of Testing Agents: Write Access",
+   "date": "2026-10-31",
+   "tokens": [
+    "access",
+    "agents",
+    "hardest",
+    "part",
+    "testing",
+    "write"
+   ],
+   "source": "youtube",
+   "summary_zh": "针对 Agent 测试难题，指出具备写权限（Write Access）的 Agent 在生产环境下的评估与回测是当前技术瓶颈。",
+   "why_zh": "属于 Agent 评估与测试工程，可学习如何设计沙盒环境或影子模式来处理具有副作用的 Agent 动作评估。"
+  },
+  "https://www.langchain.com/blog/managed-deep-agents-browser-use-and-asynchronous-subagents": {
+   "title": "Managed Deep Agents v0.10: Browser Use and Async Subagents",
+   "date": "2026-10-31",
+   "tokens": [
+    "10",
+    "agents",
+    "async",
+    "browser",
+    "deep",
+    "managed",
+    "subagents",
+    "use",
+    "v0"
+   ],
+   "source": "blog",
+   "summary_zh": "Managed Deep Agents v0.10 集成浏览器自动化功能，支持在无 API 网站操作及异步子 Agent 任务处理。",
+   "why_zh": "属于 Agent 任务规划与工具调用，可复用浏览器自动化（Browser Use）与异步任务编排来扩展 Agent 的操作边界。"
+  },
+  "https://latent.space/p/elorian/": {
+   "title": "Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning",
+   "date": "2026-10-31",
+   "tokens": [
+    "decoy",
+    "elorian",
+    "frontier",
+    "models",
+    "past",
+    "reasoning",
+    "see",
+    "tests",
+    "visual"
+   ],
+   "source": "blog",
+   "summary_zh": "Elorian 推出 Glimpse 基准测试，通过引入诱饵计数任务揭示了当前 Frontier Models 在视觉推理与图像理解之间的鸿沟，并探索了以图像为核心的思维链推理方法。",
+   "why_zh": "属于多模态大模型推理能力评估范畴，可学习如何设计具有干扰项的视觉推理基准，以评估模型在复杂场景下的逻辑一致性与抗干扰能力。"
+  },
+  "https://www.youtube.com/shorts/7TtGMileCus": {
+   "title": "How Gen uses ChatGPT Work to turn data Into decisions | OpenAI",
+   "date": "2026-10-31",
+   "tokens": [
+    "chatgpt",
+    "data",
+    "decisions",
+    "gen",
+    "openai",
+    "turn",
+    "uses",
+    "work"
+   ],
+   "source": "youtube",
+   "summary_zh": "OpenAI 展示 ChatGPT Work 在企业数据分析中的应用，通过集成业务数据流，将跨部门的数据处理与决策反馈周期从数天缩短至数小时。",
+   "why_zh": "属于 AI Agent 在企业级数据分析与工作流自动化中的应用，可学习如何构建基于 LLM 的数据分析流水线，实现非结构化数据到业务决策的快速闭环。"
   }
  },
- "updated": "2026-10-29T16:22:16.368472+00:00"
+ "updated": "2026-10-30T16:10:19.906269+00:00"
 }

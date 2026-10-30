@@ -1,0 +1,639 @@
+{
+ "date": "2026-10-31",
+ "generated": "2026-10-31 00:10",
+ "source_count": {
+  "github": 77,
+  "youtube": 37,
+  "blog": 81,
+  "paper": 12,
+  "hackernews": 10
+ },
+ "failures": {},
+ "failure_errors": {},
+ "summary_missing": [],
+ "summary_providers": {
+  "gemini": 3
+ },
+ "items": [
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "We ran AI agent swarms in Minecraft and Mindustry",
+   "link": "https://labs.ycombinator.com/projects/games/index.html",
+   "dt": "2026-10-29T21:40:28+00:00",
+   "summary": "",
+   "extra": {
+    "points": 365,
+    "comments": 148,
+    "hn_link": "https://news.ycombinator.com/item?id=50296486"
+   },
+   "skills": [
+    "multi_agent"
+   ],
+   "learn_score": 1.7,
+   "score": 6.056,
+   "tokens": [
+    "agent",
+    "ai",
+    "mindustry",
+    "minecraft",
+    "ran",
+    "swarms",
+    "we"
+   ],
+   "flag": "new",
+   "summary_zh": "在 Minecraft 和 Mindustry 环境中部署 AI Agent 蜂群，通过多智能体协作实现复杂游戏任务的自动化执行。",
+   "why_zh": "多智能体系统 (MAS) 架构设计，可学习如何通过环境反馈机制实现 Agent 间的任务分配与协作策略。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "DEEP-JLU/Awesome-Graph-Engineering",
+   "link": "https://github.com/DEEP-JLU/Awesome-Graph-Engineering",
+   "dt": "2026-08-20T09:51:28+00:00",
+   "summary": "A Survey on Ontology Engineering, Graph Engineering, Loop Engineering, Harness Engineering, Context Engineering and Prompt Engineering",
+   "extra": {
+    "stars": 390,
+    "language": "",
+    "topics": [
+     "graph-engineering",
+     "harness-engineering",
+     "loop-engineering",
+     "ontology-engineering",
+     "system-intelligence"
+    ],
+    "created": "2026-08-20",
+    "pushed": "2026-10-30"
+   },
+   "skills": [
+    "prompt_context",
+    "agent_architecture"
+   ],
+   "learn_score": 1.487,
+   "score": 5.34,
+   "tokens": [
+    "awesome",
+    "deep",
+    "engineering",
+    "graph",
+    "jlu"
+   ],
+   "flag": "new",
+   "summary_zh": "整理了包含 Ontology、Graph、Loop、Harness、Context 及 Prompt Engineering 在内的系统性工程化知识库。",
+   "why_zh": "AI 工程化方法论，可复用其构建复杂 Agent 系统时的模块化设计思路与工程实践框架。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Backdoors in official Claude Code extensions",
+   "link": "https://cyberplace.social/@GossiTheDog/117528831681803563",
+   "dt": "2026-10-30T11:05:53+00:00",
+   "summary": "",
+   "extra": {
+    "points": 642,
+    "comments": 17,
+    "hn_link": "https://news.ycombinator.com/item?id=50302334"
+   },
+   "skills": [],
+   "learn_score": 1.35,
+   "score": 5.14,
+   "tokens": [
+    "backdoors",
+    "claude",
+    "code",
+    "extensions",
+    "official"
+   ],
+   "flag": "new",
+   "summary_zh": "披露官方 Claude Code 扩展中存在的后门风险，指出第三方插件在代码执行环境中的安全隐患。",
+   "why_zh": "Agent 安全与供应链防御，可学习如何对 Agent 运行环境进行沙箱隔离及权限最小化控制。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Broken on Arrival: Non-Functional Quantized LLM Artifacts in Public Model Registries and How to Catch Them",
+   "link": "https://huggingface.co/papers/2609.05881",
+   "dt": "2026-10-24T20:00:00+00:00",
+   "summary": "Developers download quantized large language models (LLMs) from public registries to run them locally. None of the registries we examined documented functional testing of their files. We tested all 305 eligible code-capable GGUF tags (the llama.cpp format) across 15 model lines in the official Ollama library, plus 22 popular Hugging Face community files. A 15-task code screen identified suspects, which we retested on all 164 HumanEval+ tasks. Seven official tags (2.3%) solved at most six of them",
+   "extra": {
+    "upvotes": 1,
+    "arxiv": "https://arxiv.org/abs/2609.05881"
+   },
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 2.453,
+   "score": 4.906,
+   "tokens": [
+    "arrival",
+    "artifacts",
+    "broken",
+    "catch",
+    "functional",
+    "llm",
+    "model",
+    "non",
+    "public",
+    "quantized",
+    "registries",
+    "them"
+   ],
+   "flag": "new",
+   "summary_zh": "揭示公共模型库中量化模型（GGUF 格式）存在大量功能缺失，并提出针对性的自动化功能测试方案。",
+   "why_zh": "模型工程与质量保障，可学习如何构建自动化测试流水线以验证量化模型在推理任务中的功能完整性。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Scaling Lean Theorem Proving for Real-World Code Verification",
+   "link": "https://huggingface.co/papers/2610.38174",
+   "dt": "2026-10-27T20:00:00+00:00",
+   "summary": "We present EasyProver, a Lean proving system built from recursive agents with isolated contexts, asynchronous search, parallel tactic probing, and an elastic elaboration service. Using an off-the-shelf frontier model with no additional training, it proves 669/672 PutnamBench problems and all six IMO 2026 formalizations and resolves 597/600 NTP4VC verification conditions and all 189 VERINA tasks by proof or refutation. Because these benchmarks are close to saturation, we also introduce Aegis, whi",
+   "extra": {
+    "upvotes": 1,
+    "arxiv": "https://arxiv.org/abs/2610.38174"
+   },
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 2.071,
+   "score": 4.142,
+   "tokens": [
+    "code",
+    "lean",
+    "proving",
+    "real",
+    "scaling",
+    "theorem",
+    "verification",
+    "world"
+   ],
+   "flag": "new",
+   "summary_zh": "发布 EasyProver 系统，利用递归 Agent、异步搜索与弹性细化服务，实现 Lean 形式化证明的高效自动化。",
+   "why_zh": "复杂推理与形式化验证，可学习如何通过递归 Agent 架构与异步搜索策略提升模型在长逻辑链任务中的表现。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "GroundedCoreAI/nexusdesk",
+   "link": "https://github.com/GroundedCoreAI/nexusdesk",
+   "dt": "2026-09-23T02:11:34+00:00",
+   "summary": "Open-source, self-hosted, extensible Agent platform built around ReAct and Harness engineering, with AI customer support as its first complete reference application.",
+   "extra": {
+    "stars": 134,
+    "language": "Python",
+    "topics": [
+     "ai-agent",
+     "customer-service",
+     "customer-support",
+     "fastapi",
+     "helpdesk",
+     "knowledge-base"
+    ],
+    "created": "2026-09-23",
+    "pushed": "2026-10-30"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.239,
+   "score": 3.874,
+   "tokens": [
+    "groundedcoreai",
+    "nexusdesk"
+   ],
+   "flag": "new",
+   "summary_zh": "开源自托管 Agent 平台 nexusdesk，基于 ReAct 模式与 Harness 工程构建，支持 AI 客服等业务场景。",
+   "why_zh": "Agent 平台架构设计，可学习如何将 ReAct 循环与 Harness 工程化组件集成，实现可扩展的业务 Agent。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "AienTech/dossier",
+   "link": "https://github.com/AienTech/dossier",
+   "dt": "2026-10-03T21:26:15+00:00",
+   "summary": "A self-hosted job search app that writes tailored resumes and cover letters from your profile.",
+   "extra": {
+    "stars": 3337,
+    "language": "TypeScript",
+    "topics": [
+     "caprover",
+     "cover-letter",
+     "docker",
+     "job-application-tracker",
+     "job-search",
+     "llm"
+    ],
+    "created": "2026-10-03",
+    "pushed": "2026-10-29"
+   },
+   "skills": [],
+   "learn_score": 0.765,
+   "score": 3.06,
+   "tokens": [
+    "aientech",
+    "dossier"
+   ],
+   "flag": "new",
+   "summary_zh": "Dossier 是一个自托管求职应用，利用 LLM 根据用户个人资料自动生成定制化的简历和求职信。",
+   "why_zh": "属于 RAG 与 Prompt Engineering 应用场景，可学习如何构建基于特定上下文的自动化文档生成工作流。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "HelixDB/helix-foundry",
+   "link": "https://github.com/HelixDB/helix-foundry",
+   "dt": "2026-10-07T05:10:45+00:00",
+   "summary": "Connect your company's data, let an agent draft an ontology over it, and load it into HelixDB as one graph you can explore and ask questions of. Hosted at foundry.helix-db.com, or run it on your own machine.",
+   "extra": {
+    "stars": 1852,
+    "language": "Go",
+    "topics": [
+     "ai-agents",
+     "data-integration",
+     "golang",
+     "graph-database",
+     "helixdb",
+     "knowledge-graph"
+    ],
+    "created": "2026-10-07",
+    "pushed": "2026-10-30"
+   },
+   "skills": [],
+   "learn_score": 0.765,
+   "score": 3.06,
+   "tokens": [
+    "foundry",
+    "helix",
+    "helixdb"
+   ],
+   "flag": "new",
+   "summary_zh": "Helix Foundry 允许连接企业数据，利用 Agent 自动构建本体论（Ontology）并将其转化为可查询的图数据库。",
+   "why_zh": "属于知识图谱与 Agent 自动化建模，可复用 Agent 自动提取结构化数据并构建知识库的工程实践。"
+  },
+  {
+   "source": "blog",
+   "source_label": "Simon Willison",
+   "title": "Building a multiplayer game world with autonomous Fable-class models",
+   "link": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
+   "dt": "2026-10-29T17:00:26+00:00",
+   "summary": "How I Built the Most AI-Pilled Company in the World Don't be put off by the clickbait headline, this piece by Jacob Sansbury describing how they are building Spawn is a fascinating exploration of the bleeding edge of what's possible with agentic engineering against frontier models. Spawn is a massively multiplayer gaming environment where players can use prompts (to the in-game agent, Savi) to modify the game world. I fired it up on my phone for a few minutes and was able to prompt a castle into…",
+   "extra": {},
+   "skills": [
+    "prompt_context",
+    "training_serving"
+   ],
+   "learn_score": 2.341,
+   "score": 2.341,
+   "tokens": [
+    "autonomous",
+    "building",
+    "class",
+    "fable",
+    "game",
+    "models",
+    "multiplayer",
+    "world"
+   ],
+   "flag": "new",
+   "summary_zh": "Spawn 平台在多人游戏环境中引入自主 Agent，玩家通过自然语言提示词即可实时修改游戏世界。",
+   "why_zh": "属于 Agentic Engineering 与动态环境交互，可学习如何将 LLM 的推理能力集成到实时交互的复杂系统中。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "Why Own Your Intelligence? Harrison Chase Keynote | Interrupt London",
+   "link": "https://www.youtube.com/watch?v=XOUSuxY074U",
+   "dt": "2026-10-30T14:12:42+00:00",
+   "summary": "Harrison Chase, Co-Founder and CEO of LangChain, explains what it means to own your intelligence, the specialization a team builds into the model, the harness, and the context, why he thinks agents need to be open, compounding, and governed to get there, and points to monday.com, Harvey, and Orange as examples of companies building the system around the model. He then walks through the LangSmith stack: Managed Deep Agents, which combines the Deep Agents harness and managed infrastructure into on…",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": "XOUSuxY074U"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 2.066,
+   "score": 2.066,
+   "tokens": [
+    "chase",
+    "harrison",
+    "intelligence",
+    "interrupt",
+    "keynote",
+    "london",
+    "own"
+   ],
+   "flag": "new",
+   "summary_zh": "LangChain CEO 探讨企业如何通过构建模型外围的 Harness 和 Context 来实现模型能力的差异化与资产化。",
+   "why_zh": "属于 AI 工程架构设计，核心在于理解如何通过工程化手段（如 LangSmith）实现 Agent 系统的可控性与治理。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "The Hardest Part of Testing Agents: Write Access",
+   "link": "https://www.youtube.com/shorts/oY1htTx_h9U",
+   "dt": "2026-10-29T19:00:29+00:00",
+   "summary": "LangChain PM Ben Tannyhill breaks down why read-only agents like Chat LangChain are easy to branch and test, while write access agents that touch production data are still an unsolved eval problem for most teams. Full conversation on the Max Agency podcast. #productengineering #aiagents",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": ""
+   },
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 2.066,
+   "score": 2.066,
+   "tokens": [
+    "access",
+    "agents",
+    "hardest",
+    "part",
+    "testing",
+    "write"
+   ],
+   "flag": "new",
+   "summary_zh": "针对 Agent 测试难题，指出具备写权限（Write Access）的 Agent 在生产环境下的评估与回测是当前技术瓶颈。",
+   "why_zh": "属于 Agent 评估与测试工程，可学习如何设计沙盒环境或影子模式来处理具有副作用的 Agent 动作评估。"
+  },
+  {
+   "source": "blog",
+   "source_label": "LangChain 博客",
+   "title": "Managed Deep Agents v0.10: Browser Use and Async Subagents",
+   "link": "https://www.langchain.com/blog/managed-deep-agents-browser-use-and-asynchronous-subagents",
+   "dt": "2026-10-29T17:03:39+00:00",
+   "summary": "Managed Deep Agents v0.10 adds browser use, so agents can work on sites with no API and hand you the window to sign in, and async subagents for background work.",
+   "extra": {},
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.951,
+   "score": 1.951,
+   "tokens": [
+    "10",
+    "agents",
+    "async",
+    "browser",
+    "deep",
+    "managed",
+    "subagents",
+    "use",
+    "v0"
+   ],
+   "flag": "new",
+   "summary_zh": "Managed Deep Agents v0.10 集成浏览器自动化功能，支持在无 API 网站操作及异步子 Agent 任务处理。",
+   "why_zh": "属于 Agent 任务规划与工具调用，可复用浏览器自动化（Browser Use）与异步任务编排来扩展 Agent 的操作边界。"
+  },
+  {
+   "source": "blog",
+   "source_label": "Latent Space",
+   "title": "Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning",
+   "link": "https://latent.space/p/elorian/",
+   "dt": "2026-10-29T16:00:00+00:00",
+   "summary": "A new decoy counting benchmark exposes a gap between seeing and reasoning. Elorian’s Glimpse tries to bridge it by thinking with images.",
+   "extra": {},
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.951,
+   "score": 1.951,
+   "tokens": [
+    "decoy",
+    "elorian",
+    "frontier",
+    "models",
+    "past",
+    "reasoning",
+    "see",
+    "tests",
+    "visual"
+   ],
+   "flag": "new",
+   "summary_zh": "Elorian 推出 Glimpse 基准测试，通过引入诱饵计数任务揭示了当前 Frontier Models 在视觉推理与图像理解之间的鸿沟，并探索了以图像为核心的思维链推理方法。",
+   "why_zh": "属于多模态大模型推理能力评估范畴，可学习如何设计具有干扰项的视觉推理基准，以评估模型在复杂场景下的逻辑一致性与抗干扰能力。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "How Gen uses ChatGPT Work to turn data Into decisions | OpenAI",
+   "link": "https://www.youtube.com/shorts/7TtGMileCus",
+   "dt": "2026-10-30T15:24:48+00:00",
+   "summary": "“Before ChatGPT Work, we were walking. Now with ChatGPT Work, we are running.” For Gen's Howie Xu, that means understanding how a new product’s onboarding experience is working within two or three hours of release. Finding answers used to mean repeated handoffs across teams, functions, and time zones. ChatGPT Work is shortening that feedback loop. Watch how Howie turns business data into decisions while the work is still happening.",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": ""
+   },
+   "skills": [
+    "multi_agent"
+   ],
+   "learn_score": 1.53,
+   "score": 1.53,
+   "tokens": [
+    "chatgpt",
+    "data",
+    "decisions",
+    "gen",
+    "openai",
+    "turn",
+    "uses",
+    "work"
+   ],
+   "flag": "new",
+   "summary_zh": "OpenAI 展示 ChatGPT Work 在企业数据分析中的应用，通过集成业务数据流，将跨部门的数据处理与决策反馈周期从数天缩短至数小时。",
+   "why_zh": "属于 AI Agent 在企业级数据分析与工作流自动化中的应用，可学习如何构建基于 LLM 的数据分析流水线，实现非结构化数据到业务决策的快速闭环。"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "youngyangyang04/llm-master",
+   "link": "https://github.com/youngyangyang04/llm-master",
+   "dt": "2026-09-12T07:33:31+00:00",
+   "summary": "大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。",
+   "extra": {
+    "stars": 1520,
+    "language": "",
+    "topics": [
+     "agent",
+     "large-language-models",
+     "llm",
+     "llm-learning",
+     "llm-tutorial",
+     "rag"
+    ],
+    "created": "2026-09-12",
+    "pushed": "2026-10-24"
+   },
+   "skills": [
+    "prompt_context",
+    "rag",
+    "tool_mcp",
+    "training_serving",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.479,
+   "score": 9.916,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-30 推荐过",
+   "summary_zh": "提供覆盖 Prompt Engineering 到模型部署等全栈 LLM 学习路线的中文教程。",
+   "why_zh": "对 AI 工程师系统掌握 LLM 技术栈和面试准备极具参考价值。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Fazmin/AILearningGuide",
+   "link": "https://github.com/Fazmin/AILearningGuide",
+   "dt": "2026-10-05T02:29:23+00:00",
+   "summary": "Interactive desktop app with 51 labs covering ML fundamentals, transformers, RAG, agents, fine-tuning and quantization and more.",
+   "extra": {
+    "stars": 240,
+    "language": "TypeScript",
+    "topics": [
+     "ai",
+     "ai-education",
+     "deep-learning",
+     "educational",
+     "educational-resources",
+     "educational-tool"
+    ],
+    "created": "2026-10-05",
+    "pushed": "2026-10-29"
+   },
+   "skills": [
+    "rag",
+    "training_serving",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.276,
+   "score": 7.693,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-30 推荐过",
+   "summary_zh": "提供交互式桌面应用，包含51个实验涵盖机器学习基础、Transformer、RAG、Agent、微调与量化等内容。",
+   "why_zh": "可学习动手实验的组织方式，掌握从基础到高级模型的全流程实践，适合面试中展示系统化学习能力。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Folkbench/folkbench",
+   "link": "https://github.com/Folkbench/folkbench",
+   "dt": "2026-10-02T09:50:45+00:00",
+   "summary": "AI API 中转站评测排行与切换工具：实测可用率、延迟与价格 · Open-source AI API relay benchmark, rankings & switcher for Claude Code / Codex",
+   "extra": {
+    "stars": 3983,
+    "language": "Rust",
+    "topics": [
+     "ai",
+     "api-relay",
+     "api-relay-pricing",
+     "benchmark",
+     "benchmarks",
+     "claude"
+    ],
+    "created": "2026-10-02",
+    "pushed": "2026-10-29"
+   },
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-30 推荐过",
+   "summary_zh": "开源 Rust 工具 Folkbench，提供 AI API 中转站评测排行与切换功能，实测 Claude Code 等兼容性。",
+   "why_zh": "涉及 LLM 基础设施开发与性能基准测试，学习如何构建多 API 路由代理及监控可用性与延迟。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "tangency-labs/solidcraft",
+   "link": "https://github.com/tangency-labs/solidcraft",
+   "dt": "2026-10-07T18:57:48+00:00",
+   "summary": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+   "extra": {
+    "stars": 12281,
+    "language": "Rust",
+    "topics": [
+     "3d-modeling",
+     "brep",
+     "cad",
+     "egui",
+     "mcp",
+     "parametric-cad"
+    ],
+    "created": "2026-10-07",
+    "pushed": "2026-10-30"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-30 推荐过",
+   "summary_zh": "SolidCraft 是用纯 Rust 构建的开源参数化3D CAD 应用，支持桌面、网页及MCP自动化。",
+   "why_zh": "演示Rust在复杂图形系统中的工程实践，可参考高性能跨平台CAD开发。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "rehan-remade/universal-modder",
+   "link": "https://github.com/rehan-remade/universal-modder",
+   "dt": "2026-09-30T05:00:35+00:00",
+   "summary": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
+   "extra": {
+    "stars": 9228,
+    "language": "Python",
+    "topics": [
+     "age-of-empires",
+     "claude-code",
+     "claude-code-plugin",
+     "fal",
+     "game-assets",
+     "game-modding"
+    ],
+    "created": "2026-09-30",
+    "pushed": "2026-10-30"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-30 推荐过",
+   "summary_zh": "使用 Claude Code 及 fal MCP 进行游戏逆向、资产生成、测试等全流程 MOD 制作。",
+   "why_zh": "表明大模型可直接参与游戏逆向与内容创作，为工程师提供新范式。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Sam-Hui-dot/mcd-budget-meal",
+   "link": "https://github.com/Sam-Hui-dot/mcd-budget-meal",
+   "dt": "2026-10-11T08:25:55+00:00",
+   "summary": "麦麦预算餐：基于麦当劳 MCP 的真实核价、预算比较与餐品替换 Skill",
+   "extra": {
+    "stars": 1622,
+    "language": "HTML",
+    "topics": [
+     "mcdonalds",
+     "mcp",
+     "python",
+     "skill",
+     "workbuddy"
+    ],
+    "created": "2026-10-11",
+    "pushed": "2026-10-24"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-30 推荐过",
+   "summary_zh": "基于 MCP（Model Context Protocol）实现的麦当劳预算餐核价与替换工具，通过 MCP 协议连接本地数据进行自动化决策。",
+   "why_zh": "属于 MCP 协议应用实践。可学习如何利用 MCP 标准将外部 API 或本地数据源封装为 Agent 可调用的标准化工具。"
+  }
+ ]
+}
