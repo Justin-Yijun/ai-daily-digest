@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>本周精选 2026-W44 · AI 前沿日报</title>
+<meta name="description" content="2026-10-26 ~ 2026-11-01 AI / LLM / Agent 本周精选">
+<link rel="stylesheet" href="../style.css">
+<link rel="alternate" type="application/rss+xml" title="AI 前沿日报" href="https://aivulcan.de5.net/feed.xml">
+</head>
+<body>
+<div class="wrap">
+<header class="site">
+<div class="brand">
+<span class="logo" aria-hidden="true"></span>
+<div class="titles">
+<p class="en">AI Frontier Digest</p>
+<h1><a href="../">AI 前沿日报</a></h1>
+</div>
+</div>
+<p class="desc">每天自动采集 GitHub / YouTube / 博客 / 论文 / Hacker News 上关于 AI、LLM、Agent、Harness 的前沿动态，生成中文摘要。</p>
+<div class="stats"><span>本期 <b>12</b> 条</span><span>累计 <b>4</b> 期</span></div><nav><a href="../">最新</a><a href="../archive">归档</a><a href="../feed.xml">RSS</a><a href="../about">关于</a></nav>
+</header>
+<h1>本周精选 · 2026-W44</h1>
+<p class="meta">覆盖 2026-10-26 ~ 2026-11-01　｜　共 12 条　｜　生成 2026-11-01 00:56 (CST)</p>
+<blockquote><p>按 Agent / AI 面试技能树归类，优先收录可复习、能讲出来的实践内容。</p></blockquote>
+<h2>🧠 提示 / 上下文工程（3）</h2>
+<article class="item" data-src="paper">
+<h3><a href="https://arxiv.org/abs/2610.36178" target="_blank" rel="noopener">3, 7, 14, 17, 42: Instruction Tuning Installs and Sharpens Number-Choice Heuristics in Language Models</a></h3>
+<p class="meta"><span class="tag src">arXiv cs.CL</span><span class="tag">论文</span><span class="date">10-28</span></p>
+<p class="sum">研究 Instruction Tuning 如何改变 LLM 数字选择启发式，通过计算整数概率向量而非采样来精确测量模型行为。</p>
+<p class="why">为什么值得看：模型可解释性技能，掌握通过遍历输出打分而非采样来消除噪声，精确量化 LLM 隐式偏好的方法。</p>
+</article>
+<article class="item" data-src="paper">
+<h3><a href="https://arxiv.org/abs/2610.33006" target="_blank" rel="noopener">Linear-Time Context Compression with State-Space Encoding</a></h3>
+<p class="meta"><span class="tag src">arXiv cs.CL</span><span class="tag">论文</span><span class="date">10-27</span></p>
+<p class="sum">提出一种基于状态空间编码（State-Space Encoding）的线性时间上下文压缩方法，旨在降低 Transformer 模型在长上下文下的计算与内存开销。</p>
+<p class="why">为什么值得看：属于长上下文处理优化，可学习如何通过状态空间模型（SSM）替代或辅助 Transformer 实现高效的上下文压缩与信息蒸馏。</p>
+</article>
+<article class="item" data-src="blog">
+<h3><a href="https://latent.space/p/arca/" target="_blank" rel="noopener">Agents Prompt People: Using Agents for Long-Horizon Financial Work</a></h3>
+<p class="meta"><span class="tag src">Latent Space</span><span class="tag">文章</span><span class="date">11-01</span></p>
+<p class="sum">探讨在金融领域应用 Agent 处理长周期任务，重点在于持久化记忆管理及定制化 Agent 框架的架构设计。</p>
+<p class="why">为什么值得看：Agent 架构设计与长时记忆管理技能点。可学习如何通过定制化 Harness 解决复杂金融业务的长期任务规划。</p>
+</article>
+<h2>🧠 RAG 检索增强（3）</h2>
+<article class="item" data-src="paper">
+<h3><a href="https://arxiv.org/abs/2610.33005" target="_blank" rel="noopener">OpenESM: Energy-Steered Models Are Scalable Foundation Learners</a></h3>
+<p class="meta"><span class="tag src">arXiv cs.CL</span><span class="tag">论文</span><span class="date">10-27</span></p>
+<p class="sum">OpenESM 将能量引导搜索与 Token 生成集成在单一架构中，通过能量引导机制提升大语言模型在通用场景下的建模能力。</p>
+<p class="why">为什么值得看：属于生成式模型架构优化，可学习如何利用能量函数（Energy-based models）作为引导策略，提升模型在复杂推理任务中的搜索效率。</p>
+</article>
+<article class="item" data-src="github">
+<h3><a href="https://github.com/wanghao-SunSky/cs329z-chinese" target="_blank" rel="noopener">wanghao-SunSky/cs329z-chinese</a></h3>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 182</span><span class="tag">HTML</span><span class="tag">新建 2026-10-28</span><span class="date">10-29</span></p>
+<p class="sum">斯坦福 CS329Z 课程中文版，系统梳理了 LLM、RAG、工具调用、记忆机制、多智能体架构及评测安全等智能体开发核心知识体系。</p>
+<p class="why">为什么值得看：属于 AI Agent 工程化技能点，可复用其课程设计的模块化架构，学习如何构建从基础到多智能体协作的完整开发工作流。</p>
+</article>
+<article class="item" data-src="blog">
+<h3><a href="https://www.marktechpost.com/2026/10/26/tsinghua-akv-kv-cache-engineering-llm-agents/" target="_blank" rel="noopener">Tsinghua AI Open-Sources AKV, a Cache Engineering Server for LLM Agents on SGLang</a></h3>
+<p class="meta"><span class="tag src">MarkTechPost</span><span class="tag">文章</span><span class="date">10-26</span></p>
+<p class="sum">清华大学开源 AKV，这是一个基于 SGLang 的 KV Cache 工程化服务系统，通过直接操作缓存提升 LLM Agent 效率。</p>
+<p class="why">为什么值得看：属于 LLM 推理优化领域，可学习如何通过 KV Cache 缓存管理替代传统的历史摘要，从而降低 Agent 推理成本并提升响应速度。</p>
+</article>
+<h2>🧠 Agent 架构与循环（3）</h2>
+<article class="item" data-src="paper">
+<h3><a href="https://arxiv.org/abs/2610.31789" target="_blank" rel="noopener">Phronix: The Capability-Centric Learning Paradigm for Agents</a></h3>
+<p class="meta"><span class="tag src">arXiv cs.AI</span><span class="tag">论文</span><span class="date">10-26</span></p>
+<p class="sum">Phronix 提出以能力为中心的学习范式，让 Agent 自主获取技能与记忆，减少人工编写的依赖</p>
+<p class="why">为什么值得看：Agent 自主学习与能力获取；可复用：构建以能力为中心的训练循环，自动生成技能库</p>
+</article>
+<article class="item" data-src="paper">
+<h3><a href="https://arxiv.org/abs/2610.36077" target="_blank" rel="noopener">The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents</a></h3>
+<p class="meta"><span class="tag src">arXiv cs.AI</span><span class="tag">论文</span><span class="date">10-28</span></p>
+<p class="sum">提出 Trinity 框架，通过递归自我改进解决多模态 Agent 在构建异构可验证环境及 Harness 迭代速度上的瓶颈。</p>
+<p class="why">为什么值得看：Agent 自我进化技能，学习如何自动迭代评估环境与提示词以应对任务多样性，无需人工介入。</p>
+</article>
+<article class="item" data-src="youtube">
+<h3><a href="https://www.youtube.com/watch?v=xy_7SzwsIjM" target="_blank" rel="noopener">How to Build Agents That Improve Over Time: Model, Harness, Context | Interrupt London</a></h3>
+<p class="meta"><span class="tag src">YouTube · LangChain</span><span class="tag">视频</span><span class="date">10-28</span></p>
+<p class="sum">LangChain CEO 提出将 Agent 拆解为 Model、Harness 和 Context 三部分，并通过 LangSmith 进行持续迭代优化。</p>
+<p class="why">为什么值得看：Agent 系统架构设计；掌握通过 SFT 和 RL 闭环优化 Agent 性能的工程化落地路径。</p>
+</article>
+<h2>🧠 评测与可观测（3）</h2>
+<article class="item" data-src="paper">
+<h3><a href="https://arxiv.org/abs/2610.31684" target="_blank" rel="noopener">Knowledge Graphs Quality Assessment in the Era of LLMs: A Conceptual Framework</a></h3>
+<p class="meta"><span class="tag src">arXiv cs.CL</span><span class="tag">论文</span><span class="date">10-26</span></p>
+<p class="sum">提出面向 LLM 时代的知识图谱质量评估概念框架，明确完整性、准确性等维度</p>
+<p class="why">为什么值得看：KG 质量评估与 LLM 融合；可复用：建立多维指标体系指导数据清洗</p>
+</article>
+<article class="item" data-src="paper">
+<h3><a href="https://arxiv.org/abs/2610.33097" target="_blank" rel="noopener">IRON-Meme: A Benchmark for Structured Understanding of Identities and Roles in Online Meme Narratives</a></h3>
+<p class="meta"><span class="tag src">arXiv cs.AI</span><span class="tag">论文</span><span class="date">10-27</span></p>
+<p class="sum">IRON-Meme 基准测试集用于评估模型对在线模因（Meme）中身份与角色的结构化理解能力，填补了政治叙事分析的理论空白。</p>
+<p class="why">为什么值得看：属于多模态语义理解与社会计算，可学习如何构建结构化标注数据集，以提升 Agent 对非结构化社交媒体内容中隐含意图的识别能力。</p>
+</article>
+<article class="item" data-src="paper">
+<h3><a href="https://arxiv.org/abs/2610.37739" target="_blank" rel="noopener">OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery</a></h3>
+<p class="meta"><span class="tag src">arXiv cs.AI</span><span class="tag">论文</span><span class="date">10-31</span></p>
+<p class="sum">OpenFrontiers 提出跨学科开放研究问题集及基准测试，旨在评估 LLM 在科研级复杂问题求解中的表现。</p>
+<p class="why">为什么值得看：属于 LLM 评测与推理能力评估技能点，可复用其构建领域特定基准测试的方法，提升模型在长链条逻辑推理任务中的评估精度。</p>
+</article>
+<footer>
+<p>AI 前沿日报 · 由 GitHub Actions 每天 16:00 (CST) 自动生成 · 内容版权归原作者所有，链接均为原始出处</p>
+</footer>
+</div>
+</body>
+</html>

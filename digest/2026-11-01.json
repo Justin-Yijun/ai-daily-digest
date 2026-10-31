@@ -1,0 +1,609 @@
+{
+ "date": "2026-11-01",
+ "generated": "2026-11-01 00:54",
+ "source_count": {
+  "github": 77,
+  "youtube": 37,
+  "blog": 82,
+  "paper": 18,
+  "hackernews": 10
+ },
+ "failures": {},
+ "failure_errors": {},
+ "summary_missing": [],
+ "summary_providers": {
+  "gemini": 3
+ },
+ "items": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "wanghao-SunSky/cs329z-chinese",
+   "link": "https://github.com/wanghao-SunSky/cs329z-chinese",
+   "dt": "2026-10-28T18:18:24+00:00",
+   "summary": "斯坦福 Stanford CS329Z Engineering AI Agents 中文教程：面向 Python 开发者的 AI 智能体课程，19 讲与 4 项实践，涵盖 LLM、RAG、工具调用、记忆、多智能体、评测与安全。完整 Markdown、在线与离线 HTML。Chinese course notes.",
+   "extra": {
+    "stars": 182,
+    "language": "HTML",
+    "topics": [
+     "agent-memory",
+     "agentic-ai",
+     "ai-agents",
+     "chinese",
+     "chinese-tutorial",
+     "course-notes"
+    ],
+    "created": "2026-10-28",
+    "pushed": "2026-10-31"
+   },
+   "skills": [
+    "rag",
+    "tool_mcp",
+    "agent_architecture",
+    "multi_agent",
+    "eval_observability"
+   ],
+   "learn_score": 2.907,
+   "score": 9.477,
+   "tokens": [
+    "chinese",
+    "cs329z",
+    "sunsky",
+    "wanghao"
+   ],
+   "flag": "new",
+   "summary_zh": "斯坦福 CS329Z 课程中文版，系统梳理了 LLM、RAG、工具调用、记忆机制、多智能体架构及评测安全等智能体开发核心知识体系。",
+   "why_zh": "属于 AI Agent 工程化技能点，可复用其课程设计的模块化架构，学习如何构建从基础到多智能体协作的完整开发工作流。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ccch1mneyyy/dsh-Go",
+   "link": "https://github.com/ccch1mneyyy/dsh-Go",
+   "dt": "2026-10-25T08:09:52+00:00",
+   "summary": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+   "extra": {
+    "stars": 3444,
+    "language": "Dart",
+    "topics": [
+     "ai-agent",
+     "android",
+     "android-app",
+     "coding-agent",
+     "deepseek",
+     "deepseek-harness"
+    ],
+    "created": "2026-10-25",
+    "pushed": "2026-10-31"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.859,
+   "score": 7.436,
+   "tokens": [
+    "ccch1mneyyy",
+    "dsh",
+    "go"
+   ],
+   "flag": "new",
+   "summary_zh": "dsh-Go 实现 DeepSeek 模型在移动端本地运行，并支持远程控制桌面端执行任务，提供轻量级端侧推理解决方案。",
+   "why_zh": "属于端侧 AI 部署技能点，可复用其跨设备通信与本地推理引擎集成方案，解决资源受限环境下的智能体调度问题。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
+   "link": "https://arxiv.org/abs/2610.37739",
+   "dt": "2026-10-31T00:00:00-04:00",
+   "summary": "arXiv:2610.37739v1 Announce Type: new Abstract: Large language models (LLMs) have shown increasing promise in research-level problem solving, yet a comprehensive collection of such problems is still missing, and evaluating them on research-level problems remains challenging. We introduce OpenFrontiers, a cross-disciplinary resource that combines a structured corpus of open research problems with a retrospective benchmark of recently resolved problems in mathematics. The corpus records problem st",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 2.983,
+   "score": 5.966,
+   "tokens": [
+    "benchmark",
+    "collection",
+    "open",
+    "openfrontiers",
+    "problems",
+    "rediscovery",
+    "research",
+    "scientific"
+   ],
+   "flag": "new",
+   "summary_zh": "OpenFrontiers 提出跨学科开放研究问题集及基准测试，旨在评估 LLM 在科研级复杂问题求解中的表现。",
+   "why_zh": "属于 LLM 评测与推理能力评估技能点，可复用其构建领域特定基准测试的方法，提升模型在长链条逻辑推理任务中的评估精度。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+   "link": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+   "dt": "2026-10-30T07:09:12+00:00",
+   "summary": "https://cursor.com/blog/claude-code-extension-security-notic...",
+   "extra": {
+    "points": 948,
+    "comments": 541,
+    "hn_link": "https://news.ycombinator.com/item?id=50300683"
+   },
+   "skills": [],
+   "learn_score": 1.35,
+   "score": 5.369,
+   "tokens": [
+    "backdoor",
+    "claude",
+    "code",
+    "cursor",
+    "extension",
+    "marketplace",
+    "vs"
+   ],
+   "flag": "new",
+   "summary_zh": "Cursor Marketplace 上的 Claude Code 扩展程序被发现存在后门漏洞，引发对 AI 开发工具链供应链安全性的关注。",
+   "why_zh": "属于 AI 安全与工程运维技能点，可复用其安全审计与沙箱隔离策略，强化 AI 辅助编程工具在插件生态中的权限管控。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Proving and Improving the Platonic Representation Hypothesis with JEPAs",
+   "link": "https://huggingface.co/papers/2610.39302",
+   "dt": "2026-10-28T20:00:00+00:00",
+   "summary": "Whether models trained on different modalities converge to the same representation of the world is central to AI. The Platonic Representation Hypothesis (PRH) conjectures that they do as they scale, but without a proof it offers neither a guarantee nor a recipe. We turn the hypothesis into a theorem. First, we prove a Platonic Representation Theorem: Joint-Embedding Predictive Architectures (JEPAs) trained separately on any number of modalities learn the same representation up to one rotation wh",
+   "extra": {
+    "upvotes": 56,
+    "arxiv": "https://arxiv.org/abs/2610.39302"
+   },
+   "skills": [
+    "rag",
+    "system_design"
+   ],
+   "learn_score": 1.841,
+   "score": 5.059,
+   "tokens": [
+    "hypothesis",
+    "improving",
+    "jepas",
+    "platonic",
+    "proving",
+    "representation"
+   ],
+   "flag": "new",
+   "summary_zh": "研究证明了柏拉图表征假设（PRH），并利用 JEPA 架构验证了不同模态模型在扩展过程中会收敛于统一的世界表征。",
+   "why_zh": "属于多模态大模型架构设计技能点，可复用 JEPA 的联合嵌入预测机制，优化多模态模型在特征对齐与跨模态表征学习上的表现。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "nightly-labs/openbot",
+   "link": "https://github.com/nightly-labs/openbot",
+   "dt": "2026-08-12T21:32:03+00:00",
+   "summary": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+   "extra": {
+    "stars": 4352,
+    "language": "TypeScript",
+    "topics": [
+     "ai-agents",
+     "bun",
+     "codex",
+     "electron",
+     "local-first",
+     "macos"
+    ],
+    "created": "2026-08-12",
+    "pushed": "2026-10-31"
+   },
+   "skills": [
+    "multi_agent"
+   ],
+   "learn_score": 1.239,
+   "score": 4.956,
+   "tokens": [
+    "labs",
+    "nightly",
+    "openbot"
+   ],
+   "flag": "new",
+   "summary_zh": "OpenBot 提供本地优先的桌面工作空间，支持 Codex、Claude 等模型协作、任务队列管理及浏览器自动化控制。",
+   "why_zh": "属于 Agent 编排与工作流自动化技能点，可复用其任务队列与多智能体协作协议，构建具备持久化记忆与工具使用能力的桌面级智能体。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "robosimstudio/robosimstudio",
+   "link": "https://github.com/robosimstudio/robosimstudio",
+   "dt": "2026-10-12T06:22:39+00:00",
+   "summary": "An open interactive toolkit that accelerates human and agentic physics-based Real2Sim of Robot Manipulation Tasks",
+   "extra": {
+    "stars": 279,
+    "language": "Python",
+    "topics": [
+     "agent",
+     "inverse-physics",
+     "real2sim",
+     "real2sim2real",
+     "robotics",
+     "simulation"
+    ],
+    "created": "2026-10-12",
+    "pushed": "2026-10-29"
+   },
+   "skills": [],
+   "learn_score": 1.033,
+   "score": 3.559,
+   "tokens": [
+    "robosimstudio"
+   ],
+   "flag": "new",
+   "summary_zh": "RoboSimStudio 提供一套交互式工具包，旨在加速机器人操作任务中基于物理引擎的 Real2Sim 仿真流程。",
+   "why_zh": "机器人仿真与 Sim2Real 领域技能点。可学习如何构建高效的物理仿真环境以缩短机器人 Agent 的训练周期。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Show HN: A working Nintendo in ~1GB of Qwen weights",
+   "link": "https://github.com/dbreunig/nesformer",
+   "dt": "2026-10-30T16:40:22+00:00",
+   "summary": "",
+   "extra": {
+    "points": 276,
+    "comments": 136,
+    "hn_link": "https://news.ycombinator.com/item?id=50306442"
+   },
+   "skills": [],
+   "learn_score": 1.0,
+   "score": 3.441,
+   "tokens": [
+    "1gb",
+    "hn",
+    "nintendo",
+    "qwen",
+    "show",
+    "weights",
+    "working"
+   ],
+   "flag": "new",
+   "summary_zh": "通过将任天堂游戏机逻辑压缩至约 1GB 的 Qwen 模型权重中，实现模型对复杂系统状态的模拟与运行。",
+   "why_zh": "模型压缩与推理优化技能点。可学习如何利用 LLM 权重存储非文本逻辑及实现轻量化推理的创新思路。"
+  },
+  {
+   "source": "blog",
+   "source_label": "Latent Space",
+   "title": "Agents Prompt People: Using Agents for Long-Horizon Financial Work",
+   "link": "https://latent.space/p/arca/",
+   "dt": "2026-10-31T16:05:00+00:00",
+   "summary": "Arca's head of AI discusses persistent memory, the benefits of a custom harness, and agentic workflows that span days.",
+   "extra": {},
+   "skills": [
+    "prompt_context",
+    "agent_architecture"
+   ],
+   "learn_score": 2.926,
+   "score": 2.926,
+   "tokens": [
+    "agents",
+    "financial",
+    "horizon",
+    "long",
+    "people",
+    "prompt",
+    "work"
+   ],
+   "flag": "new",
+   "summary_zh": "探讨在金融领域应用 Agent 处理长周期任务，重点在于持久化记忆管理及定制化 Agent 框架的架构设计。",
+   "why_zh": "Agent 架构设计与长时记忆管理技能点。可学习如何通过定制化 Harness 解决复杂金融业务的长期任务规划。"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "Meet Factory Droid 1.0: A Model-Independent Coding Agent Harness Built on Script Mode",
+   "link": "https://www.marktechpost.com/2026/10/31/factory-droid-1-0-frontier-harness/",
+   "dt": "2026-10-31T10:38:14+00:00",
+   "summary": "Factory released Droid 1.0, a model-independent coding agent harness that makes programmatic tool calling the default. On Factory’s own Terminal-Bench 4 runs, Droid scores 65.2% with Claude Opus 5.5 at $4.73 per passed task. The post Meet Factory Droid 1.0: A Model-Independent Coding Agent Harness Built on Script Mode appeared first on MarkTechPost .",
+   "extra": {},
+   "skills": [
+    "tool_mcp",
+    "agent_architecture"
+   ],
+   "learn_score": 2.341,
+   "score": 2.341,
+   "tokens": [
+    "agent",
+    "built",
+    "coding",
+    "droid",
+    "factory",
+    "harness",
+    "independent",
+    "meet",
+    "mode",
+    "model",
+    "script"
+   ],
+   "flag": "new",
+   "summary_zh": "Factory 发布 Droid 1.0，这是一个模型无关的编码 Agent 框架，通过脚本模式实现程序化工具调用的标准化。",
+   "why_zh": "Agent 工具调用与框架设计技能点。可学习如何通过标准化接口实现模型无关的编码 Agent 架构以提升任务成功率。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "Building Semiconductor Agents at Skyworks with LangGraph + LangSmith",
+   "link": "https://www.youtube.com/watch?v=O3jCAZbrRHM",
+   "dt": "2026-10-29T17:44:10+00:00",
+   "summary": "Mumtaz Vauhkonen, Global Head of AI/ML and Data at Skyworks Solutions, and AI engineer Kordag Mehmet Kilic walk through how the semiconductor company is putting agents to work on end-to-end test automation, root cause analysis, and design assistance. Each use case has its own KPIs. For root cause analysis, a manual process that takes about 20 days is down to 10 on a first pass. Kordag explains what changed when the team moved from homegrown tooling to LangSmith: deployment, streaming, and thread…",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": "O3jCAZbrRHM"
+   },
+   "skills": [
+    "system_design"
+   ],
+   "learn_score": 1.53,
+   "score": 1.53,
+   "tokens": [
+    "agents",
+    "building",
+    "langgraph",
+    "langsmith",
+    "semiconductor",
+    "skyworks"
+   ],
+   "flag": "new",
+   "summary_zh": "Skyworks 利用 LangGraph 和 LangSmith 构建半导体测试自动化与根因分析 Agent，显著缩短了故障排查周期。",
+   "why_zh": "工业级 Agent 落地与监控技能点。可学习如何结合 LangGraph 编排复杂工作流并利用 LangSmith 进行生产环境监控。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Two Minute Papers",
+   "title": "OpenAI Claims It Just Did The Impossible",
+   "link": "https://www.youtube.com/watch?v=CWdTBLsbaQs",
+   "dt": "2026-10-30T15:57:16+00:00",
+   "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers 📝 OpenAI's paper is available here: https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf Our paper with the cherry splash ray tracing simulation at 0:17 https://users.cg.tuwien.ac.at/zsolnai/gfx/adaptive_metropolis/ 🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible: Adam Bridges, B Shang, Carlos Galarza, Chr…",
+   "extra": {
+    "channel": "Two Minute Papers",
+    "video_id": "CWdTBLsbaQs"
+   },
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.53,
+   "score": 1.53,
+   "tokens": [
+    "claims",
+    "did",
+    "impossible",
+    "just",
+    "openai"
+   ],
+   "flag": "new",
+   "summary_zh": "OpenAI 发布关于指数时间假设（ETH）的研究，探讨计算复杂度理论在 AI 模型推理与算法优化中的潜在突破。",
+   "why_zh": "算法复杂度与 AI 理论基础技能点。可学习如何从计算理论视角评估模型推理能力的边界与优化潜力。"
+  },
+  {
+   "source": "blog",
+   "source_label": "Simon Willison",
+   "title": "dbreunig/nesformer",
+   "link": "https://simonwillison.net/2026/Oct/30/nesformer/",
+   "dt": "2026-10-30T21:59:22+00:00",
+   "summary": "dbreunig/nesformer Inspired by qwenputer by Divyansh Agrawal, Drew Breunig baked a working emulator for a Nintendo Entertainment System 6502 CPU into the weights of Qwen3.5-4B. You can now play NES ROMs such as Super Mario Bros (very slowly) running inside Qwen! In a comment on Hacker News Drew reveals the Opus 5.5 prompts he used to build this system: Read this article and any relevant source code: https://divagr.com/blog/qwenputer. Then explore if you could emulate the chip and ram in a Ninten…",
+   "extra": {},
+   "skills": [
+    "prompt_context"
+   ],
+   "learn_score": 1.445,
+   "score": 1.445,
+   "tokens": [
+    "dbreunig",
+    "nesformer"
+   ],
+   "flag": "new",
+   "summary_zh": "开发者通过微调将 NES 6502 CPU 模拟器植入 Qwen3.5-4B 模型权重中，使大模型能够直接运行 NES 游戏 ROM。",
+   "why_zh": "属于模型权重注入与指令微调范畴，展示了如何通过特定数据分布将逻辑计算能力嵌入 Transformer 权重，可用于探索模型推理能力的边界。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · David Ondrej",
+   "title": "My Agentic Engineering Workflow (after 15,700 sessions)",
+   "link": "https://www.youtube.com/watch?v=F8rc-ULd4_4",
+   "dt": "2026-10-30T19:52:56+00:00",
+   "summary": "🟢 Download Cloudroom for free: https://www.cloudroom.dev/ My Skills: https://github.com/davidondrej/skills DeepAPI: https://deepapi.co/ Follow me on Instagram - https://www.instagram.com/davidondrej1/ Follow me on Twitter - https://x.com/DavidOndrej1 I'm hiring! Email me why I should hire you at this email address: hiring AT cloudroom DOT dev Subscribe if you're serious about AI. David Ondrej reveals his latest Agentic Engineering workflow, which is 100% full-auto AI coding powered by Opus 5.5 r…",
+   "extra": {
+    "channel": "David Ondrej",
+    "video_id": "F8rc-ULd4_4"
+   },
+   "skills": [],
+   "learn_score": 0.911,
+   "score": 0.911,
+   "tokens": [
+    "15",
+    "700",
+    "after",
+    "agentic",
+    "engineering",
+    "my",
+    "sessions",
+    "workflow"
+   ],
+   "flag": "new",
+   "summary_zh": "分享了基于 15,700 次会话总结的 Agent 工程化工作流，涵盖了从任务拆解到工具调用及错误处理的实战经验。",
+   "why_zh": "属于 Agent 开发范式范畴，可学习如何构建鲁棒的工具调用链及错误恢复机制，提升复杂任务场景下的 Agent 成功率。"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Fazmin/AILearningGuide",
+   "link": "https://github.com/Fazmin/AILearningGuide",
+   "dt": "2026-10-05T02:29:23+00:00",
+   "summary": "Interactive desktop app with 51 labs covering ML fundamentals, transformers, RAG, agents, fine-tuning and quantization and more.",
+   "extra": {
+    "stars": 242,
+    "language": "TypeScript",
+    "topics": [
+     "ai",
+     "ai-education",
+     "deep-learning",
+     "educational",
+     "educational-resources",
+     "educational-tool"
+    ],
+    "created": "2026-10-05",
+    "pushed": "2026-10-31"
+   },
+   "skills": [
+    "rag",
+    "training_serving",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.276,
+   "score": 7.702,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-31 推荐过",
+   "summary_zh": "提供交互式桌面应用，包含51个实验涵盖机器学习基础、Transformer、RAG、Agent、微调与量化等内容。",
+   "why_zh": "可学习动手实验的组织方式，掌握从基础到高级模型的全流程实践，适合面试中展示系统化学习能力。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Folkbench/folkbench",
+   "link": "https://github.com/Folkbench/folkbench",
+   "dt": "2026-10-02T09:50:45+00:00",
+   "summary": "AI API 中转站评测排行与切换工具：实测可用率、延迟与价格 · Open-source AI API relay benchmark, rankings & switcher for Claude Code / Codex",
+   "extra": {
+    "stars": 4059,
+    "language": "Rust",
+    "topics": [
+     "ai",
+     "api-relay",
+     "api-relay-pricing",
+     "benchmark",
+     "benchmarks",
+     "claude"
+    ],
+    "created": "2026-10-02",
+    "pushed": "2026-10-29"
+   },
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-31 推荐过",
+   "summary_zh": "开源 Rust 工具 Folkbench，提供 AI API 中转站评测排行与切换功能，实测 Claude Code 等兼容性。",
+   "why_zh": "涉及 LLM 基础设施开发与性能基准测试，学习如何构建多 API 路由代理及监控可用性与延迟。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "tangency-labs/solidcraft",
+   "link": "https://github.com/tangency-labs/solidcraft",
+   "dt": "2026-10-07T18:57:48+00:00",
+   "summary": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+   "extra": {
+    "stars": 12548,
+    "language": "Rust",
+    "topics": [
+     "3d-modeling",
+     "brep",
+     "cad",
+     "egui",
+     "mcp",
+     "parametric-cad"
+    ],
+    "created": "2026-10-07",
+    "pushed": "2026-10-31"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-31 推荐过",
+   "summary_zh": "SolidCraft 是用纯 Rust 构建的开源参数化3D CAD 应用，支持桌面、网页及MCP自动化。",
+   "why_zh": "演示Rust在复杂图形系统中的工程实践，可参考高性能跨平台CAD开发。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "amosblomqvist/learnharness",
+   "link": "https://github.com/amosblomqvist/learnharness",
+   "dt": "2026-10-16T19:35:33+00:00",
+   "summary": "Agent harness for learning difficult things.",
+   "extra": {
+    "stars": 4443,
+    "language": "TypeScript",
+    "topics": [],
+    "created": "2026-10-16",
+    "pushed": "2026-10-31"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-30 推荐过",
+   "summary_zh": "LearnHarness 是一个专为学习复杂技能设计的 Agent 框架，通过结构化的交互流程辅助 Agent 掌握新知识或任务。",
+   "why_zh": "属于 Agent 学习与任务规划领域。可学习如何构建 Agent 的长程任务分解与反馈循环，提升 Agent 在复杂任务中的自适应能力。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "pinganbbOvO/ai-companion-kit",
+   "link": "https://github.com/pinganbbOvO/ai-companion-kit",
+   "dt": "2026-10-08T06:41:17+00:00",
+   "summary": "给你的 AI 一副身体，和一点人味 —— 会记事、会看场合的 QQ 陪聊 + 能控制安卓手机的 MCP",
+   "extra": {
+    "stars": 532,
+    "language": "JavaScript",
+    "topics": [
+     "adb",
+     "agent",
+     "ai-companion",
+     "android",
+     "chatbot",
+     "deepseek"
+    ],
+    "created": "2026-10-08",
+    "pushed": "2026-10-26"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 6.543,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-30 推荐过",
+   "summary_zh": "ai-companion-kit 实现具备记忆、场景感知的 QQ 陪聊机器人，并通过 MCP 控制安卓手机，赋予 AI “身体”。",
+   "why_zh": "展示 MCP 协议在移动端控制与长期记忆人格化 Agent 的工程集成，属多模态交互与工具链落地技能点。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "We ran AI agent swarms in Minecraft and Mindustry",
+   "link": "https://labs.ycombinator.com/projects/games/index.html",
+   "dt": "2026-10-29T21:40:28+00:00",
+   "summary": "",
+   "extra": {
+    "points": 408,
+    "comments": 167,
+    "hn_link": "https://news.ycombinator.com/item?id=50296486"
+   },
+   "skills": [
+    "multi_agent"
+   ],
+   "learn_score": 1.7,
+   "score": 6.138,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-31 推荐过",
+   "summary_zh": "在 Minecraft 和 Mindustry 环境中部署 AI Agent 蜂群，通过多智能体协作实现复杂游戏任务的自动化执行。",
+   "why_zh": "多智能体系统 (MAS) 架构设计，可学习如何通过环境反馈机制实现 Agent 间的任务分配与协作策略。"
+  }
+ ]
+}

@@ -2841,7 +2841,7 @@
   },
   "https://github.com/Fazmin/AILearningGuide": {
    "title": "Fazmin/AILearningGuide",
-   "date": "2026-10-31",
+   "date": "2026-11-01",
    "tokens": [],
    "source": "github",
    "summary_zh": "提供交互式桌面应用，包含51个实验涵盖机器学习基础、Transformer、RAG、Agent、微调与量化等内容。",
@@ -3296,7 +3296,7 @@
   },
   "https://github.com/tangency-labs/solidcraft": {
    "title": "tangency-labs/solidcraft",
-   "date": "2026-10-31",
+   "date": "2026-11-01",
    "tokens": [],
    "source": "github",
    "summary_zh": "SolidCraft 是用纯 Rust 构建的开源参数化3D CAD 应用，支持桌面、网页及MCP自动化。",
@@ -4134,7 +4134,7 @@
   },
   "https://github.com/pinganbbOvO/ai-companion-kit": {
    "title": "pinganbbOvO/ai-companion-kit",
-   "date": "2026-10-30",
+   "date": "2026-11-01",
    "tokens": [],
    "source": "github",
    "summary_zh": "ai-companion-kit 实现具备记忆、场景感知的 QQ 陪聊机器人，并通过 MCP 控制安卓手机，赋予 AI “身体”。",
@@ -4571,7 +4571,7 @@
   },
   "https://github.com/Folkbench/folkbench": {
    "title": "Folkbench/folkbench",
-   "date": "2026-10-31",
+   "date": "2026-11-01",
    "tokens": [],
    "source": "github",
    "summary_zh": "开源 Rust 工具 Folkbench，提供 AI API 中转站评测排行与切换功能，实测 Claude Code 等兼容性。",
@@ -5837,11 +5837,8 @@
   },
   "https://github.com/amosblomqvist/learnharness": {
    "title": "amosblomqvist/learnharness",
-   "date": "2026-10-30",
-   "tokens": [
-    "amosblomqvist",
-    "learnharness"
-   ],
+   "date": "2026-11-01",
+   "tokens": [],
    "source": "github",
    "summary_zh": "LearnHarness 是一个专为学习复杂技能设计的 Agent 框架，通过结构化的交互流程辅助 Agent 掌握新知识或任务。",
    "why_zh": "属于 Agent 学习与任务规划领域。可学习如何构建 Agent 的长程任务分解与反馈循环，提升 Agent 在复杂任务中的自适应能力。"
@@ -5995,16 +5992,8 @@
   },
   "https://labs.ycombinator.com/projects/games/index.html": {
    "title": "We ran AI agent swarms in Minecraft and Mindustry",
-   "date": "2026-10-31",
-   "tokens": [
-    "agent",
-    "ai",
-    "mindustry",
-    "minecraft",
-    "ran",
-    "swarms",
-    "we"
-   ],
+   "date": "2026-11-01",
+   "tokens": [],
    "source": "hackernews",
    "summary_zh": "在 Minecraft 和 Mindustry 环境中部署 AI Agent 蜂群，通过多智能体协作实现复杂游戏任务的自动化执行。",
    "why_zh": "多智能体系统 (MAS) 架构设计，可学习如何通过环境反馈机制实现 Agent 间的任务分配与协作策略。"
@@ -6209,7 +6198,211 @@
    "source": "youtube",
    "summary_zh": "OpenAI 展示 ChatGPT Work 在企业数据分析中的应用，通过集成业务数据流，将跨部门的数据处理与决策反馈周期从数天缩短至数小时。",
    "why_zh": "属于 AI Agent 在企业级数据分析与工作流自动化中的应用，可学习如何构建基于 LLM 的数据分析流水线，实现非结构化数据到业务决策的快速闭环。"
+  },
+  "https://github.com/wanghao-SunSky/cs329z-chinese": {
+   "title": "wanghao-SunSky/cs329z-chinese",
+   "date": "2026-11-01",
+   "tokens": [
+    "chinese",
+    "cs329z",
+    "sunsky",
+    "wanghao"
+   ],
+   "source": "github",
+   "summary_zh": "斯坦福 CS329Z 课程中文版，系统梳理了 LLM、RAG、工具调用、记忆机制、多智能体架构及评测安全等智能体开发核心知识体系。",
+   "why_zh": "属于 AI Agent 工程化技能点，可复用其课程设计的模块化架构，学习如何构建从基础到多智能体协作的完整开发工作流。"
+  },
+  "https://github.com/ccch1mneyyy/dsh-Go": {
+   "title": "ccch1mneyyy/dsh-Go",
+   "date": "2026-11-01",
+   "tokens": [
+    "ccch1mneyyy",
+    "dsh",
+    "go"
+   ],
+   "source": "github",
+   "summary_zh": "dsh-Go 实现 DeepSeek 模型在移动端本地运行，并支持远程控制桌面端执行任务，提供轻量级端侧推理解决方案。",
+   "why_zh": "属于端侧 AI 部署技能点，可复用其跨设备通信与本地推理引擎集成方案，解决资源受限环境下的智能体调度问题。"
+  },
+  "https://arxiv.org/abs/2610.37739": {
+   "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
+   "date": "2026-11-01",
+   "tokens": [
+    "benchmark",
+    "collection",
+    "open",
+    "openfrontiers",
+    "problems",
+    "rediscovery",
+    "research",
+    "scientific"
+   ],
+   "source": "paper",
+   "summary_zh": "OpenFrontiers 提出跨学科开放研究问题集及基准测试，旨在评估 LLM 在科研级复杂问题求解中的表现。",
+   "why_zh": "属于 LLM 评测与推理能力评估技能点，可复用其构建领域特定基准测试的方法，提升模型在长链条逻辑推理任务中的评估精度。"
+  },
+  "https://phorion.io/blog/offical-claude-code-vsx-compromise/": {
+   "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+   "date": "2026-11-01",
+   "tokens": [
+    "backdoor",
+    "claude",
+    "code",
+    "cursor",
+    "extension",
+    "marketplace",
+    "vs"
+   ],
+   "source": "hackernews",
+   "summary_zh": "Cursor Marketplace 上的 Claude Code 扩展程序被发现存在后门漏洞，引发对 AI 开发工具链供应链安全性的关注。",
+   "why_zh": "属于 AI 安全与工程运维技能点，可复用其安全审计与沙箱隔离策略，强化 AI 辅助编程工具在插件生态中的权限管控。"
+  },
+  "https://huggingface.co/papers/2610.39302": {
+   "title": "Proving and Improving the Platonic Representation Hypothesis with JEPAs",
+   "date": "2026-11-01",
+   "tokens": [
+    "hypothesis",
+    "improving",
+    "jepas",
+    "platonic",
+    "proving",
+    "representation"
+   ],
+   "source": "paper",
+   "summary_zh": "研究证明了柏拉图表征假设（PRH），并利用 JEPA 架构验证了不同模态模型在扩展过程中会收敛于统一的世界表征。",
+   "why_zh": "属于多模态大模型架构设计技能点，可复用 JEPA 的联合嵌入预测机制，优化多模态模型在特征对齐与跨模态表征学习上的表现。"
+  },
+  "https://github.com/nightly-labs/openbot": {
+   "title": "nightly-labs/openbot",
+   "date": "2026-11-01",
+   "tokens": [
+    "labs",
+    "nightly",
+    "openbot"
+   ],
+   "source": "github",
+   "summary_zh": "OpenBot 提供本地优先的桌面工作空间，支持 Codex、Claude 等模型协作、任务队列管理及浏览器自动化控制。",
+   "why_zh": "属于 Agent 编排与工作流自动化技能点，可复用其任务队列与多智能体协作协议，构建具备持久化记忆与工具使用能力的桌面级智能体。"
+  },
+  "https://github.com/robosimstudio/robosimstudio": {
+   "title": "robosimstudio/robosimstudio",
+   "date": "2026-11-01",
+   "tokens": [
+    "robosimstudio"
+   ],
+   "source": "github",
+   "summary_zh": "RoboSimStudio 提供一套交互式工具包，旨在加速机器人操作任务中基于物理引擎的 Real2Sim 仿真流程。",
+   "why_zh": "机器人仿真与 Sim2Real 领域技能点。可学习如何构建高效的物理仿真环境以缩短机器人 Agent 的训练周期。"
+  },
+  "https://github.com/dbreunig/nesformer": {
+   "title": "Show HN: A working Nintendo in ~1GB of Qwen weights",
+   "date": "2026-11-01",
+   "tokens": [
+    "1gb",
+    "hn",
+    "nintendo",
+    "qwen",
+    "show",
+    "weights",
+    "working"
+   ],
+   "source": "hackernews",
+   "summary_zh": "通过将任天堂游戏机逻辑压缩至约 1GB 的 Qwen 模型权重中，实现模型对复杂系统状态的模拟与运行。",
+   "why_zh": "模型压缩与推理优化技能点。可学习如何利用 LLM 权重存储非文本逻辑及实现轻量化推理的创新思路。"
+  },
+  "https://latent.space/p/arca/": {
+   "title": "Agents Prompt People: Using Agents for Long-Horizon Financial Work",
+   "date": "2026-11-01",
+   "tokens": [
+    "agents",
+    "financial",
+    "horizon",
+    "long",
+    "people",
+    "prompt",
+    "work"
+   ],
+   "source": "blog",
+   "summary_zh": "探讨在金融领域应用 Agent 处理长周期任务，重点在于持久化记忆管理及定制化 Agent 框架的架构设计。",
+   "why_zh": "Agent 架构设计与长时记忆管理技能点。可学习如何通过定制化 Harness 解决复杂金融业务的长期任务规划。"
+  },
+  "https://www.marktechpost.com/2026/10/31/factory-droid-1-0-frontier-harness/": {
+   "title": "Meet Factory Droid 1.0: A Model-Independent Coding Agent Harness Built on Script Mode",
+   "date": "2026-11-01",
+   "tokens": [
+    "agent",
+    "built",
+    "coding",
+    "droid",
+    "factory",
+    "harness",
+    "independent",
+    "meet",
+    "mode",
+    "model",
+    "script"
+   ],
+   "source": "blog",
+   "summary_zh": "Factory 发布 Droid 1.0，这是一个模型无关的编码 Agent 框架，通过脚本模式实现程序化工具调用的标准化。",
+   "why_zh": "Agent 工具调用与框架设计技能点。可学习如何通过标准化接口实现模型无关的编码 Agent 架构以提升任务成功率。"
+  },
+  "https://www.youtube.com/watch?v=O3jCAZbrRHM": {
+   "title": "Building Semiconductor Agents at Skyworks with LangGraph + LangSmith",
+   "date": "2026-11-01",
+   "tokens": [
+    "agents",
+    "building",
+    "langgraph",
+    "langsmith",
+    "semiconductor",
+    "skyworks"
+   ],
+   "source": "youtube",
+   "summary_zh": "Skyworks 利用 LangGraph 和 LangSmith 构建半导体测试自动化与根因分析 Agent，显著缩短了故障排查周期。",
+   "why_zh": "工业级 Agent 落地与监控技能点。可学习如何结合 LangGraph 编排复杂工作流并利用 LangSmith 进行生产环境监控。"
+  },
+  "https://www.youtube.com/watch?v=CWdTBLsbaQs": {
+   "title": "OpenAI Claims It Just Did The Impossible",
+   "date": "2026-11-01",
+   "tokens": [
+    "claims",
+    "did",
+    "impossible",
+    "just",
+    "openai"
+   ],
+   "source": "youtube",
+   "summary_zh": "OpenAI 发布关于指数时间假设（ETH）的研究，探讨计算复杂度理论在 AI 模型推理与算法优化中的潜在突破。",
+   "why_zh": "算法复杂度与 AI 理论基础技能点。可学习如何从计算理论视角评估模型推理能力的边界与优化潜力。"
+  },
+  "https://simonwillison.net/2026/Oct/30/nesformer/": {
+   "title": "dbreunig/nesformer",
+   "date": "2026-11-01",
+   "tokens": [
+    "dbreunig",
+    "nesformer"
+   ],
+   "source": "blog",
+   "summary_zh": "开发者通过微调将 NES 6502 CPU 模拟器植入 Qwen3.5-4B 模型权重中，使大模型能够直接运行 NES 游戏 ROM。",
+   "why_zh": "属于模型权重注入与指令微调范畴，展示了如何通过特定数据分布将逻辑计算能力嵌入 Transformer 权重，可用于探索模型推理能力的边界。"
+  },
+  "https://www.youtube.com/watch?v=F8rc-ULd4_4": {
+   "title": "My Agentic Engineering Workflow (after 15,700 sessions)",
+   "date": "2026-11-01",
+   "tokens": [
+    "15",
+    "700",
+    "after",
+    "agentic",
+    "engineering",
+    "my",
+    "sessions",
+    "workflow"
+   ],
+   "source": "youtube",
+   "summary_zh": "分享了基于 15,700 次会话总结的 Agent 工程化工作流，涵盖了从任务拆解到工具调用及错误处理的实战经验。",
+   "why_zh": "属于 Agent 开发范式范畴，可学习如何构建鲁棒的工具调用链及错误恢复机制，提升复杂任务场景下的 Agent 成功率。"
   }
  },
- "updated": "2026-10-30T16:10:19.906269+00:00"
+ "updated": "2026-10-31T16:54:29.362405+00:00"
 }
