@@ -1,0 +1,609 @@
+{
+ "date": "2026-11-02",
+ "generated": "2026-11-02 00:15",
+ "source_count": {
+  "github": 78,
+  "youtube": 37,
+  "blog": 80,
+  "paper": 12,
+  "hackernews": 10
+ },
+ "failures": {},
+ "failure_errors": {},
+ "summary_missing": [],
+ "summary_providers": {
+  "gemini": 3
+ },
+ "items": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "deepseek-ai/dsh-superagent-prototype",
+   "link": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+   "dt": "2026-10-31T09:32:46+00:00",
+   "summary": "Towards a More Autonomous Agent System",
+   "extra": {
+    "stars": 6312,
+    "language": "TypeScript",
+    "topics": [],
+    "created": "2026-10-31",
+    "pushed": "2026-10-31"
+   },
+   "skills": [
+    "rag"
+   ],
+   "learn_score": 1.53,
+   "score": 6.12,
+   "tokens": [
+    "ai",
+    "deepseek",
+    "dsh",
+    "prototype",
+    "superagent"
+   ],
+   "flag": "new",
+   "summary_zh": "DeepSeek 发布 dsh-superagent-prototype，旨在构建更具自主性的 Agent 系统，探索复杂任务下的长程规划与执行能力。",
+   "why_zh": "Agent 架构设计技能点；可学习其在多步推理与自主决策流程中的状态管理与任务拆解逻辑。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "ChatGPT and Codex usage limits merging",
+   "link": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+   "dt": "2026-10-31T21:49:07+00:00",
+   "summary": "",
+   "extra": {
+    "points": 200,
+    "comments": 137,
+    "hn_link": "https://news.ycombinator.com/item?id=50320588"
+   },
+   "skills": [],
+   "learn_score": 1.35,
+   "score": 4.456,
+   "tokens": [
+    "chatgpt",
+    "codex",
+    "limits",
+    "merging",
+    "usage"
+   ],
+   "flag": "new",
+   "summary_zh": "OpenAI 将 ChatGPT 与 Codex 的使用限额合并，统一资源分配策略以优化 API 调用与模型推理的负载均衡。",
+   "why_zh": "系统工程与资源调度技能点；理解大规模推理服务中配额管理对模型吞吐量与成本控制的实际影响。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "EPSBench: Benchmarking LLM Agents for Earnings Forecasting",
+   "link": "https://huggingface.co/papers/2610.38293",
+   "dt": "2026-10-28T01:24:11+00:00",
+   "summary": "Quarterly earnings forecasting requires an agent to connect financial evidence to the income-statement line items that produce a company's reported earnings. We introduce EPSBench, a benchmark for studying this ability across 149 firm-quarters from 86 US companies. Agents read a fixed collection of filings, earnings-call transcripts, and news, then estimate company-specific income-statement drivers with cited evidence. A shared accounting calculator converts these estimates into GAAP diluted ear",
+   "extra": {
+    "upvotes": 2,
+    "arxiv": "https://arxiv.org/abs/2610.38293"
+   },
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.962,
+   "score": 3.924,
+   "tokens": [
+    "agents",
+    "benchmarking",
+    "earnings",
+    "epsbench",
+    "forecasting",
+    "llm"
+   ],
+   "flag": "new",
+   "summary_zh": "EPSBench 引入财务预测基准测试，评估 LLM Agent 对财报、电话会议记录及新闻的综合分析与财务指标推断能力。",
+   "why_zh": "垂直领域 Agent 评估技能点；掌握如何通过多模态数据源构建特定任务的 RAG 评估集与推理逻辑验证方法。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Matched Capabilities, Different Behaviors: A Controlled Study of MCP and CLI Interfaces for Language Agents",
+   "link": "https://huggingface.co/papers/2610.34298",
+   "dt": "2026-10-24T20:00:00+00:00",
+   "summary": "Language agents increasingly act through external tools and interactive environments, making the interface between the model and its executable capabilities part of the decision process. Model Context Protocol (MCP) and command-line interfaces (CLI) can expose the same semantic operations through markedly different model-facing representations. We study whether these representational differences change agent behavior when executable capabilities are matched. We introduce Matched Interface Compar",
+   "extra": {
+    "upvotes": 4,
+    "arxiv": "https://arxiv.org/abs/2610.34298"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.962,
+   "score": 3.924,
+   "tokens": [
+    "agents",
+    "behaviors",
+    "capabilities",
+    "cli",
+    "controlled",
+    "different",
+    "interfaces",
+    "language",
+    "matched",
+    "mcp",
+    "study"
+   ],
+   "flag": "new",
+   "summary_zh": "研究对比了 Model Context Protocol (MCP) 与 CLI 接口对 Agent 决策的影响，分析不同交互表示对模型执行效率的差异。",
+   "why_zh": "Agent 工具调用协议设计技能点；学习如何通过优化接口语义表示（Representation）来提升模型对外部工具的调用准确率。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Malware uses LLMs to rank victims by how much they're worth",
+   "link": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+   "dt": "2026-10-31T14:29:03+00:00",
+   "summary": "",
+   "extra": {
+    "points": 251,
+    "comments": 133,
+    "hn_link": "https://news.ycombinator.com/item?id=50316531"
+   },
+   "skills": [],
+   "learn_score": 1.0,
+   "score": 3.4,
+   "tokens": [
+    "llms",
+    "malware",
+    "much",
+    "rank",
+    "re",
+    "they",
+    "uses",
+    "victims",
+    "worth"
+   ],
+   "flag": "new",
+   "summary_zh": "恶意软件利用 LLM 对受害者进行价值排序，通过自动化分析提升攻击效率，凸显了 AI 在网络安全威胁中的应用风险。",
+   "why_zh": "AI 安全与防御技能点；理解 LLM 在自动化信息提取与决策任务中的潜在滥用模式，有助于构建更强的防御性 Agent。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "qybaihe/bla",
+   "link": "https://github.com/qybaihe/bla",
+   "dt": "2026-10-25T05:25:45+00:00",
+   "summary": "🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI reverse-engineering agents like REA. Poison -> Exhaust -> Hallucinate.",
+   "extra": {
+    "stars": 1796,
+    "language": "JavaScript",
+    "topics": [
+     "adversarial-ai",
+     "claude-code",
+     "cursor",
+     "electron-security",
+     "llm-security",
+     "mcp"
+    ],
+    "created": "2026-10-25",
+    "pushed": "2026-11-01"
+   },
+   "skills": [],
+   "learn_score": 0.81,
+   "score": 3.24,
+   "tokens": [
+    "bla",
+    "qybaihe"
+   ],
+   "flag": "new",
+   "summary_zh": "BLA (Blind LLM Agents) 提供针对 AI 逆向工程的防御机制，通过投毒、资源耗尽与幻觉诱导保护二进制与代码资产。",
+   "why_zh": "AI 安全防御技能点；掌握对抗性样本生成与防御策略，学习如何通过干扰 Agent 的推理过程保护系统资产。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "marclou/mailcheap",
+   "link": "https://github.com/marclou/mailcheap",
+   "dt": "2026-10-10T12:55:36+00:00",
+   "summary": "Newsletters where you pay for the emails you send, not for dormant subscribers, at a fraction of the price of beehiiv and the like. Open source: self-host it, or use mailcheap.ai.",
+   "extra": {
+    "stars": 1591,
+    "language": "JavaScript",
+    "topics": [
+     "ai-agents",
+     "amazon-ses",
+     "beehiiv-alternative",
+     "email",
+     "email-marketing",
+     "mailchimp-alternative"
+    ],
+    "created": "2026-10-10",
+    "pushed": "2026-11-01"
+   },
+   "skills": [],
+   "learn_score": 0.765,
+   "score": 3.06,
+   "tokens": [
+    "mailcheap",
+    "marclou"
+   ],
+   "flag": "new",
+   "summary_zh": "Mailcheap 是一款开源邮件通讯平台，采用按量付费模式，支持自托管部署或使用云端服务。",
+   "why_zh": "后端架构设计。学习如何构建高并发、低成本的邮件投递系统，以及 SaaS 产品的计费逻辑与多租户隔离实现。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "longsurf-ai/openchart",
+   "link": "https://github.com/longsurf-ai/openchart",
+   "dt": "2026-10-05T16:16:41+00:00",
+   "summary": "OSS trading workspace with your favorite agents",
+   "extra": {
+    "stars": 289,
+    "language": "TypeScript",
+    "topics": [
+     "agent",
+     "agentic-trader",
+     "ai",
+     "charting",
+     "charts",
+     "charts-js"
+    ],
+    "created": "2026-10-05",
+    "pushed": "2026-10-30"
+   },
+   "skills": [],
+   "learn_score": 0.765,
+   "score": 2.648,
+   "tokens": [
+    "ai",
+    "longsurf",
+    "openchart"
+   ],
+   "flag": "new",
+   "summary_zh": "Openchart 是一个开源交易工作区，支持集成多种 AI Agent 进行辅助决策与自动化交易。",
+   "why_zh": "Agent 应用开发。掌握如何将 LLM 接入金融数据流，并构建具备工具调用能力的多 Agent 协作交易系统。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Sam Witteveen",
+   "title": "Open Models Have Dropped to 12 Points Behind #artificialanalysis #localai",
+   "link": "https://www.youtube.com/shorts/AQyyi-Pcirc",
+   "dt": "2026-11-01T13:00:06+00:00",
+   "summary": "This week, Artificial Analysis released their new 5.0 Intelligence Index benchmark. Suddenly, open models have dropped much lower.",
+   "extra": {
+    "channel": "Sam Witteveen",
+    "video_id": ""
+   },
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 2.066,
+   "score": 2.066,
+   "tokens": [
+    "12",
+    "artificialanalysis",
+    "behind",
+    "dropped",
+    "localai",
+    "models",
+    "open",
+    "points"
+   ],
+   "flag": "new",
+   "summary_zh": "Artificial Analysis 发布 5.0 Intelligence Index，显示开源模型在基准测试中与闭源模型的差距有所扩大。",
+   "why_zh": "模型评估与选型。了解主流基准测试的局限性，学习如何通过多维度指标评估模型在实际生产环境中的性能表现。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Cole Medin",
+   "title": "Anthropic's New Study: You're Not Controlling AI as Much as You Think You Are",
+   "link": "https://www.youtube.com/watch?v=BlbxhsItZPg",
+   "dt": "2026-10-31T16:51:47+00:00",
+   "summary": "Open a Revolut Business account and get a $200 welcome bonus: https://get.revolut.com/Kjth/nn8ax572 How much control do you really have when AI helps you make decisions? Anthropic's new study shows how strongly an agent's recommendations can shape expert judgment, and it made me question a habit in my own planning sessions: accepting the recommended answer and feeling like I was the one steering. I walk through the study, show how this comes up in Claude Code, and share three practical ways to s…",
+   "extra": {
+    "channel": "Cole Medin",
+    "video_id": "BlbxhsItZPg"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 2.066,
+   "score": 2.066,
+   "tokens": [
+    "ai",
+    "anthropic",
+    "controlling",
+    "much",
+    "re",
+    "study",
+    "think"
+   ],
+   "flag": "new",
+   "summary_zh": "Anthropic 研究表明 AI Agent 的推荐会显著影响人类专家的决策判断，导致人类产生虚假的控制感。",
+   "why_zh": "人机交互（HCI）设计。在设计 Agent 系统时，需考虑如何通过 UI/UX 引导用户保持批判性思维，避免过度依赖 AI 建议。"
+  },
+  {
+   "source": "blog",
+   "source_label": "Simon Willison",
+   "title": "How We Took Over ChatGPT Accounts",
+   "link": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+   "dt": "2026-10-31T23:15:22+00:00",
+   "summary": "How We Took Over ChatGPT Accounts Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called HTML previews ), where interactive custom HTML apps are displayed in a sandboxed iframe. It's important that HTML in these stays tightly sandboxed to avoid untrusted code interacting with OpenAI APIs and accessing private data. Parameter found quite a complex attack chain. OpenA…",
+   "extra": {},
+   "skills": [
+    "system_design"
+   ],
+   "learn_score": 1.951,
+   "score": 1.951,
+   "tokens": [
+    "accounts",
+    "chatgpt",
+    "over",
+    "took",
+    "we"
+   ],
+   "flag": "new",
+   "summary_zh": "Parameter Labs 发现 ChatGPT Artifacts 功能中存在漏洞，可通过沙箱 iframe 绕过限制执行恶意代码。",
+   "why_zh": "AI 安全与防御。学习沙箱隔离机制的实现原理，掌握针对 LLM 生成内容（如 HTML/JS）进行安全过滤与防御的工程实践。"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "DeepSeek Open-Sources dsh-superagent, a Router-Worker Coding Agent",
+   "link": "https://www.marktechpost.com/2026/11/01/deepseek-dsh-superagent-router-worker-coding-agent/",
+   "dt": "2026-11-01T07:47:17+00:00",
+   "summary": "DeepSeek released dsh-superagent, an MIT-licensed research prototype that turns GitHub and Feishu requests into parallel worker sessions. In DeepSeek’s own simulation, p95 task completion fell to 15.7 minutes from 29.5 minutes. The post DeepSeek Open-Sources dsh-superagent, a Router-Worker Coding Agent appeared first on MarkTechPost .",
+   "extra": {},
+   "skills": [
+    "rag"
+   ],
+   "learn_score": 1.951,
+   "score": 1.951,
+   "tokens": [
+    "agent",
+    "coding",
+    "deepseek",
+    "dsh",
+    "open",
+    "router",
+    "sources",
+    "superagent",
+    "worker"
+   ],
+   "flag": "new",
+   "summary_zh": "DeepSeek 开源 dsh-superagent，利用 Router-Worker 架构实现 GitHub 与飞书任务的并行处理，大幅缩短任务完成时间。",
+   "why_zh": "分布式 Agent 架构。学习如何设计 Router-Worker 模式以实现复杂任务的拆解与并行执行，提升多智能体系统的吞吐量。"
+  },
+  {
+   "source": "blog",
+   "source_label": "量子位",
+   "title": "Claude紧急叫停！暗改Harness禁止逆向游戏",
+   "link": "https://www.qbitai.com/2026/11/507038.html",
+   "dt": "2026-11-01T13:09:55+00:00",
+   "summary": "",
+   "extra": {},
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.951,
+   "score": 1.951,
+   "tokens": [
+    "claude紧急叫停",
+    "暗改harness禁止逆向游戏"
+   ],
+   "flag": "new",
+   "summary_zh": "Anthropic 在 Claude 的 Harness 库中增加限制，通过代码手段禁止用户对模型进行逆向工程或破解行为。",
+   "why_zh": "涉及 AI 安全与合规性，考察对模型部署环境加固、API 使用条款限制以及防止 Prompt 注入或模型窃取的工程防御手段。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "ChatGPT Enterprise at Zendesk: Putting Company Data to Work",
+   "link": "https://www.youtube.com/shorts/GNYHDltnwZQ",
+   "dt": "2026-10-29T22:48:11+00:00",
+   "summary": "“We have about 600 applications that have been built by different people in the company.” At Zendesk, teams across sales, marketing, and operations are building applications for their own work. ChatGPT Enterprise is available to every employee, and business users are asking questions about their data directly. In sales, an AI agent connects product usage and tickets per agent to surface expansion opportunities—and helps salespeople explain how the customer could benefit. About 1,000 people use t…",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": ""
+   },
+   "skills": [],
+   "learn_score": 0.855,
+   "score": 0.855,
+   "tokens": [
+    "chatgpt",
+    "company",
+    "data",
+    "enterprise",
+    "putting",
+    "work",
+    "zendesk"
+   ],
+   "flag": "new",
+   "summary_zh": "Zendesk 通过 ChatGPT Enterprise 将企业内部数据与 AI Agent 集成，实现跨部门业务数据查询与自动化工作流构建。",
+   "why_zh": "涉及 RAG 与 Agent 应用落地，考察如何构建企业级知识库索引、处理多源数据权限隔离以及利用 LLM 驱动业务流程自动化。"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "wanghao-SunSky/cs329z-chinese",
+   "link": "https://github.com/wanghao-SunSky/cs329z-chinese",
+   "dt": "2026-10-28T18:18:24+00:00",
+   "summary": "斯坦福 Stanford CS329Z Engineering AI Agents 中文教程：面向 Python 开发者的 AI 智能体课程，19 讲与 4 项实践，涵盖 LLM、RAG、工具调用、记忆、多智能体、评测与安全。完整 Markdown、在线与离线 HTML。Chinese course notes.",
+   "extra": {
+    "stars": 361,
+    "language": "HTML",
+    "topics": [
+     "agent-memory",
+     "agentic-ai",
+     "ai-agents",
+     "chinese",
+     "chinese-tutorial",
+     "course-notes"
+    ],
+    "created": "2026-10-28",
+    "pushed": "2026-10-31"
+   },
+   "skills": [
+    "rag",
+    "tool_mcp",
+    "agent_architecture",
+    "multi_agent",
+    "eval_observability"
+   ],
+   "learn_score": 2.907,
+   "score": 10.342,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-01 推荐过",
+   "summary_zh": "斯坦福 CS329Z 课程中文版，系统梳理了 LLM、RAG、工具调用、记忆机制、多智能体架构及评测安全等智能体开发核心知识体系。",
+   "why_zh": "属于 AI Agent 工程化技能点，可复用其课程设计的模块化架构，学习如何构建从基础到多智能体协作的完整开发工作流。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Fazmin/AILearningGuide",
+   "link": "https://github.com/Fazmin/AILearningGuide",
+   "dt": "2026-10-05T02:29:23+00:00",
+   "summary": "Interactive desktop app with 51 labs covering ML fundamentals, transformers, RAG, agents, fine-tuning and quantization and more.",
+   "extra": {
+    "stars": 242,
+    "language": "TypeScript",
+    "topics": [
+     "ai",
+     "ai-education",
+     "deep-learning",
+     "educational",
+     "educational-resources",
+     "educational-tool"
+    ],
+    "created": "2026-10-05",
+    "pushed": "2026-10-31"
+   },
+   "skills": [
+    "rag",
+    "training_serving",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.276,
+   "score": 7.702,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-01 推荐过",
+   "summary_zh": "提供交互式桌面应用，包含51个实验涵盖机器学习基础、Transformer、RAG、Agent、微调与量化等内容。",
+   "why_zh": "可学习动手实验的组织方式，掌握从基础到高级模型的全流程实践，适合面试中展示系统化学习能力。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ccch1mneyyy/dsh-Go",
+   "link": "https://github.com/ccch1mneyyy/dsh-Go",
+   "dt": "2026-10-25T08:09:52+00:00",
+   "summary": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+   "extra": {
+    "stars": 4439,
+    "language": "Dart",
+    "topics": [
+     "ai-agent",
+     "android",
+     "android-app",
+     "coding-agent",
+     "deepseek",
+     "deepseek-harness"
+    ],
+    "created": "2026-10-25",
+    "pushed": "2026-11-01"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.859,
+   "score": 7.436,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-01 推荐过",
+   "summary_zh": "dsh-Go 实现 DeepSeek 模型在移动端本地运行，并支持远程控制桌面端执行任务，提供轻量级端侧推理解决方案。",
+   "why_zh": "属于端侧 AI 部署技能点，可复用其跨设备通信与本地推理引擎集成方案，解决资源受限环境下的智能体调度问题。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Folkbench/folkbench",
+   "link": "https://github.com/Folkbench/folkbench",
+   "dt": "2026-10-02T09:50:45+00:00",
+   "summary": "AI API 中转站评测排行与切换工具：实测可用率、延迟与价格 · Open-source AI API relay benchmark, rankings & switcher for Claude Code / Codex",
+   "extra": {
+    "stars": 4148,
+    "language": "Rust",
+    "topics": [
+     "ai",
+     "api-relay",
+     "api-relay-pricing",
+     "benchmark",
+     "benchmarks",
+     "claude"
+    ],
+    "created": "2026-10-02",
+    "pushed": "2026-11-01"
+   },
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-01 推荐过",
+   "summary_zh": "开源 Rust 工具 Folkbench，提供 AI API 中转站评测排行与切换功能，实测 Claude Code 等兼容性。",
+   "why_zh": "涉及 LLM 基础设施开发与性能基准测试，学习如何构建多 API 路由代理及监控可用性与延迟。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "tangency-labs/solidcraft",
+   "link": "https://github.com/tangency-labs/solidcraft",
+   "dt": "2026-10-07T18:57:48+00:00",
+   "summary": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+   "extra": {
+    "stars": 12791,
+    "language": "Rust",
+    "topics": [
+     "3d-modeling",
+     "brep",
+     "cad",
+     "egui",
+     "mcp",
+     "parametric-cad"
+    ],
+    "created": "2026-10-07",
+    "pushed": "2026-11-01"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-01 推荐过",
+   "summary_zh": "SolidCraft 是用纯 Rust 构建的开源参数化3D CAD 应用，支持桌面、网页及MCP自动化。",
+   "why_zh": "演示Rust在复杂图形系统中的工程实践，可参考高性能跨平台CAD开发。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "amosblomqvist/learnharness",
+   "link": "https://github.com/amosblomqvist/learnharness",
+   "dt": "2026-10-16T19:35:33+00:00",
+   "summary": "Agent harness for learning difficult things.",
+   "extra": {
+    "stars": 4655,
+    "language": "TypeScript",
+    "topics": [],
+    "created": "2026-10-16",
+    "pushed": "2026-10-31"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-01 推荐过",
+   "summary_zh": "LearnHarness 是一个专为学习复杂技能设计的 Agent 框架，通过结构化的交互流程辅助 Agent 掌握新知识或任务。",
+   "why_zh": "属于 Agent 学习与任务规划领域。可学习如何构建 Agent 的长程任务分解与反馈循环，提升 Agent 在复杂任务中的自适应能力。"
+  }
+ ]
+}
