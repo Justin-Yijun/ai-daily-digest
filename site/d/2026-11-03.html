@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>2026-11-03 · AI 前沿日报</title>
+<meta name="description" content="2026-11-03 AI / LLM / Agent 前沿日报">
+<link rel="stylesheet" href="../style.css">
+<link rel="alternate" type="application/rss+xml" title="AI 前沿日报" href="https://aivulcan.de5.net/feed.xml">
+</head>
+<body>
+<div class="wrap">
+<header class="site">
+<div class="brand">
+<span class="logo" aria-hidden="true"></span>
+<div class="titles">
+<p class="en">AI Frontier Digest</p>
+<h1><a href="../">AI 前沿日报</a></h1>
+</div>
+</div>
+<p class="desc">每天自动采集 GitHub / YouTube / 博客 / 论文 / Hacker News 上关于 AI、LLM、Agent、Harness 的前沿动态，生成中文摘要。</p>
+<div class="stats"><span>今日 <b>20</b> 条</span><span>源 <b>5</b> 个</span><span>累计 <b>30</b> 期</span></div><nav><a href="../">最新</a><a href="../archive">归档</a><a href="../feed.xml">RSS</a><a href="../about">关于</a></nav>
+</header>
+<h1>2026-11-03 日报</h1>
+<p class="meta">生成时间 2026-11-03 01:43 (CST) ｜ 共 20 条（新增 14 · 重复/相似 6）</p>
+<p class="meta">源命中数：GitHub 78 · YouTube 38 · 博客 81 · 论文 18 · Hacker News 10</p>
+<h2>📌 今日精选 Top 6</h2>
+<article class="pick" data-src="paper">
+<h3><span class="num">01</span> <a href="https://arxiv.org/abs/2610.40747" target="_blank" rel="noopener">Mage-VL-Cowork: A Full Training Recipe to Learn Hybrid Computer Use From Evolved Harnesses</a></h3>
+<p class="meta"><span class="tag src">arXiv cs.CL</span><span class="tag">论文</span><span class="date">11-02</span></p>
+<p class="sum">Mage-VL-Cowork 提出一种 4B 参数的混合型计算机使用智能体训练方案，通过五阶段课程学习实现 GUI 交互与代码终端执行的统一策略。</p>
+<p class="why">为什么值得看：属于 Agent 训练范式领域，可学习如何通过多阶段课程学习（Curriculum Learning）将视觉感知与工具调用能力整合进单一模型。</p>
+</article>
+<article class="pick" data-src="paper">
+<h3><span class="num">02</span> <a href="https://arxiv.org/abs/2610.40847" target="_blank" rel="noopener">The Generative Gap Between Speculative Drafter and Continuous Diffusion Language Model</a></h3>
+<p class="meta"><span class="tag src">arXiv cs.CL</span><span class="tag">论文</span><span class="date">11-02</span></p>
+<p class="sum">对比分析连续扩散语言模型 CDLM 与投机采样草稿模型在生成架构上的差异，探讨两者在无需验证机制下的生成性能与局限。</p>
+<p class="why">为什么值得看：属于推理加速与生成模型架构领域，可学习评估不同生成范式（迭代细化 vs 投机采样）在特定任务下的效率与质量权衡。</p>
+</article>
+<article class="pick" data-src="github">
+<h3><span class="num">03</span> <a href="https://github.com/ai-gateways/awesome-ai-gateways" target="_blank" rel="noopener">ai-gateways/awesome-ai-gateways</a></h3>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 21</span><span class="tag">新建 2026-10-30</span><span class="date">10-30</span></p>
+<p class="sum">整理开源与商业 LLM 网关、MCP 网关、Agent 间通信网关及模型路由器的技术资源库。</p>
+<p class="why">为什么值得看：属于 AI 基础设施领域，可学习如何构建高可用、可观测的 LLM 中间件，掌握 Agent 架构中网关层面的流量调度与协议适配。</p>
+</article>
+<article class="pick" data-src="hackernews">
+<h3><span class="num">04</span> <a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy" target="_blank" rel="noopener">AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy</a></h3>
+<p class="meta"><span class="tag src">Hacker News</span><span class="tag">🔥 175 分</span><span class="tag">💬 88</span><span class="date">11-01</span></p>
+<p class="sum">分析 Minecraft 环境中 AI Agent 群体在协作构建文明时因官僚主义与协调失效导致任务失败的现象。</p>
+<p class="why">为什么值得看：属于多智能体系统（MAS）领域，可学习如何设计更高效的协作协议与通信机制，避免复杂任务中的群体决策死锁。</p>
+</article>
+<article class="pick" data-src="github">
+<h3><span class="num">05</span> <a href="https://github.com/microsoft/TokenEconomizer" target="_blank" rel="noopener">microsoft/TokenEconomizer</a></h3>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 4415</span><span class="tag">Python</span><span class="tag">新建 2026-10-13</span><span class="date">10-13</span></p>
+<p class="sum">TokenEconomizer 提供一种基于经验驱动的黑盒成本控制方案，专门用于优化编码 Agent 的 Token 使用效率。</p>
+<p class="why">为什么值得看：属于 Agent 成本优化领域，可学习如何通过黑盒反馈机制动态调整 Prompt 或上下文窗口，实现 LLM 应用的经济性控制。</p>
+</article>
+<article class="pick" data-src="hackernews">
+<h3><span class="num">06</span> <a href="https://hackerbooks.org" target="_blank" rel="noopener">Show HN: HackerBooks – HackerTube, but for books mentioned on HN</a></h3>
+<p class="meta"><span class="tag src">Hacker News</span><span class="tag">🔥 1771 分</span><span class="tag">💬 289</span><span class="date">11-01</span></p>
+<p class="sum">利用 Claude 自动化构建 HackerBooks 数据管道与网站，实现对 Hacker News 提及书籍的聚合与关联检索。</p>
+<p class="why">为什么值得看：属于 AI 辅助开发（AI-native Dev）领域，可学习如何利用 LLM 驱动端到端的数据工程与全栈开发流程，提升原型构建效率。</p>
+</article>
+<h2>🐙 GitHub（2）</h2>
+<article class="item" data-src="github">
+<h3><a href="https://github.com/UncensoredLabs/uncensored-ai-api" target="_blank" rel="noopener">UncensoredLabs/uncensored-ai-api</a></h3>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 92</span><span class="tag">JavaScript</span><span class="tag">新建 2026-11-01</span><span class="date">11-02</span></p>
+<p class="sum">UncensoredLabs 提供 DeepSeek 和 GLM 等模型的无审查 API 接口，支持流式传输并提供 Python 与 TypeScript 的集成示例。</p>
+<p class="why">为什么值得看：属于 LLM 服务化部署技能点，可学习如何通过 API 封装实现多模型统一接入与流式响应处理。</p>
+</article>
+<article class="item" data-src="github">
+<h3><a href="https://github.com/wangzan101/Mika" target="_blank" rel="noopener">wangzan101/Mika</a></h3>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 5164</span><span class="tag">Kotlin</span><span class="tag">新建 2026-10-29</span><span class="date">10-29</span></p>
+<p class="sum">Mika 是一个运行在 Android 设备上的 AI Agent，通过操作原生 App 和 Web 界面实现自动化任务执行。</p>
+<p class="why">为什么值得看：属于端侧 Agent 开发技能点，可学习 Android 自动化控制框架及端侧模型推理的工程化落地实践。</p>
+</article>
+<h2>📺 YouTube（3）</h2>
+<article class="item" data-src="youtube">
+<h3><a href="https://www.youtube.com/watch?v=1v7ldJiyH-Y" target="_blank" rel="noopener">Tiny Software Factories: Agentic Engineering DONE WRONG</a></h3>
+<p class="meta"><span class="tag src">YouTube · IndyDevDan</span><span class="tag">视频</span><span class="date">11-02</span></p>
+<p class="sum">Tiny Software Factories 探讨 Agentic Engineering 中的常见误区，强调在构建持续运行的软件工厂时应避免的架构设计陷阱。</p>
+<p class="why">为什么值得看：属于 Agent 系统工程技能点，可学习如何通过模块化设计与错误处理机制构建鲁棒的自动化软件开发流水线。</p>
+</article>
+<article class="item" data-src="youtube">
+<h3><a href="https://www.youtube.com/watch?v=vSCYL8ySh9g" target="_blank" rel="noopener">Dory - NVIDIA&#x27;s Looped Transformer</a></h3>
+<p class="meta"><span class="tag src">YouTube · Sam Witteveen</span><span class="tag">视频</span><span class="date">11-02</span></p>
+<p class="sum">Dory 是 NVIDIA 推出的 4B 参数循环 Transformer 模型，通过循环机制在有限参数下提升推理能力。</p>
+<p class="why">为什么值得看：属于模型架构优化技能点，可学习循环神经网络结构在提升小参数模型推理深度与效率方面的应用原理。</p>
+</article>
+<article class="item" data-src="youtube">
+<h3><a href="https://www.youtube.com/watch?v=Amm9ySSET4c" target="_blank" rel="noopener">Coinbase on OpenAI Private Intelligence</a></h3>
+<p class="meta"><span class="tag src">YouTube · OpenAI</span><span class="tag">视频</span><span class="date">11-03</span></p>
+<p class="sum">Coinbase 采用 OpenAI Private Intelligence，在确保数据隐私、安全防护及零数据留存的前提下，为全员提供前沿模型访问权限。</p>
+<p class="why">为什么值得看：企业级 AI 安全架构。掌握在生产环境中实施数据脱敏、访问控制及零留存策略，以满足高合规性业务需求。</p>
+</article>
+<h2>📝 博客（3）</h2>
+<article class="item" data-src="blog">
+<h3><a href="https://www.langchain.com/blog/context-engineering-challenges-late-2026" target="_blank" rel="noopener">New context engineering challenges in late 2026</a></h3>
+<p class="meta"><span class="tag src">LangChain 博客</span><span class="tag">文章</span><span class="date">11-03</span></p>
+<p class="sum">LangChain CEO 探讨 2026 年末主动式 Agent 带来的上下文工程挑战，重点关注 Agent 持续交互中的状态管理与上下文优化。</p>
+<p class="why">为什么值得看：属于 Agent 架构设计技能点，可学习如何应对长周期、主动式任务中上下文窗口的动态管理与噪声过滤。</p>
+</article>
+<article class="item" data-src="blog">
+<h3><a href="https://www.marktechpost.com/2026/11/01/nvidia-auto-ontology-open-source-semantic-layer-ai-agents/" target="_blank" rel="noopener">NVIDIA Releases Auto Ontology: An Open Semantic Layer That Grounds AI Agent SQL</a></h3>
+<p class="meta"><span class="tag src">MarkTechPost</span><span class="tag">文章</span><span class="date">11-02</span></p>
+<p class="sum">NVIDIA 发布 Auto Ontology 开源库，通过企业元数据生成语义层，利用 MCP 协议为 Agent 的 SQL 查询提供标准化定义。</p>
+<p class="why">为什么值得看：属于 RAG 与 Agent 数据治理技能点，可学习如何通过语义层实现 Agent 对企业级数据库的精准查询与对齐。</p>
+</article>
+<article class="item" data-src="blog">
+<h3><a href="https://aiera.com.cn/2026/11/02/other/admin/121894/%e7%88%b1%e8%af%97%e7%a7%91%e6%8a%80pixverse-%e4%b8%8e-openai-%e5%85%b1%e5%90%8c%e6%8e%a8%e5%87%ba%e4%ba%a7%e5%93%81%e9%9b%86%e6%88%90%e5%92%8c%e5%88%9b%e4%bd%9c%e8%80%85%e6%95%99%e8%82%b2%e8%ae%a1/" target="_blank" rel="noopener">爱诗科技PixVerse 与 OpenAI 共同推出产品集成和创作者教育计划，高效打通 AI 创意全流程</a></h3>
+<p class="meta"><span class="tag src">新智元</span><span class="tag">文章</span><span class="date">11-02</span></p>
+<p class="sum">爱诗科技 PixVerse 与 OpenAI 达成深度合作，通过产品集成打通从 Prompt 到视频生成的全链路创作流程。</p>
+<p class="why">为什么值得看：多模态工作流编排。学习如何通过 API 集成不同 AI 模型，构建端到端的自动化内容生产流水线。</p>
+</article>
+<h2>🔁 重复 / 相似提醒（6）</h2>
+<blockquote><p>以下条目此前推荐过，或与历史条目高度相似，仅列出供参考。</p></blockquote>
+<article class="item" data-src="github">
+<h3><a href="https://github.com/wanghao-SunSky/cs329z-chinese" target="_blank" rel="noopener">wanghao-SunSky/cs329z-chinese</a></h3>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 443</span><span class="tag">HTML</span><span class="tag">新建 2026-10-28</span><span class="date">10-29</span></p>
+<p class="sum">斯坦福 CS329Z 课程中文版，系统梳理了 LLM、RAG、工具调用、记忆机制、多智能体架构及评测安全等智能体开发核心知识体系。</p>
+<p class="why">为什么值得看：属于 AI Agent 工程化技能点，可复用其课程设计的模块化架构，学习如何构建从基础到多智能体协作的完整开发工作流。</p>
+<p class="dup">🔁 已于 2026-11-02 推荐过</p>
+</article>
+<article class="item" data-src="github">
+<h3><a href="https://github.com/Fazmin/AILearningGuide" target="_blank" rel="noopener">Fazmin/AILearningGuide</a></h3>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 242</span><span class="tag">TypeScript</span><span class="tag">新建 2026-10-05</span><span class="date">10-05</span></p>
+<p class="sum">提供交互式桌面应用，包含51个实验涵盖机器学习基础、Transformer、RAG、Agent、微调与量化等内容。</p>
+<p class="why">为什么值得看：可学习动手实验的组织方式，掌握从基础到高级模型的全流程实践，适合面试中展示系统化学习能力。</p>
+<p class="dup">🔁 已于 2026-11-02 推荐过</p>
+</article>
+<article class="item" data-src="github">
+<h3><a href="https://github.com/ccch1mneyyy/dsh-Go" target="_blank" rel="noopener">ccch1mneyyy/dsh-Go</a></h3>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 5740</span><span class="tag">Dart</span><span class="tag">新建 2026-10-25</span><span class="date">10-25</span></p>
+<p class="sum">dsh-Go 实现 DeepSeek 模型在移动端本地运行，并支持远程控制桌面端执行任务，提供轻量级端侧推理解决方案。</p>
+<p class="why">为什么值得看：属于端侧 AI 部署技能点，可复用其跨设备通信与本地推理引擎集成方案，解决资源受限环境下的智能体调度问题。</p>
+<p class="dup">🔁 已于 2026-11-02 推荐过</p>
+</article>
+<article class="item" data-src="github">
+<h3><a href="https://github.com/tangency-labs/solidcraft" target="_blank" rel="noopener">tangency-labs/solidcraft</a></h3>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 13112</span><span class="tag">Rust</span><span class="tag">新建 2026-10-07</span><span class="date">10-08</span></p>
+<p class="sum">SolidCraft 是用纯 Rust 构建的开源参数化3D CAD 应用，支持桌面、网页及MCP自动化。</p>
+<p class="why">为什么值得看：演示Rust在复杂图形系统中的工程实践，可参考高性能跨平台CAD开发。</p>
+<p class="dup">🔁 已于 2026-11-02 推荐过</p>
+</article>
+<article class="item" data-src="github">
+<h3><a href="https://github.com/google-research/harness2" target="_blank" rel="noopener">google-research/harness2</a></h3>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 22068</span><span class="tag">Python</span><span class="tag">新建 2026-10-06</span><span class="date">10-07</span></p>
+<p class="sum">Google Research 开源 harness2 项目，具体功能暂无简介，需结合代码库上下文判断其评估或测试用途。</p>
+<p class="why">为什么值得看：关注顶级实验室开源工具，通过阅读代码可学习大模型评估框架或测试流水线的标准化工程实践。</p>
+<p class="dup">🔁 已于 2026-10-19 推荐过</p>
+</article>
+<article class="item" data-src="github">
+<h3><a href="https://github.com/amosblomqvist/learnharness" target="_blank" rel="noopener">amosblomqvist/learnharness</a></h3>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 4884</span><span class="tag">TypeScript</span><span class="tag">新建 2026-10-16</span><span class="date">10-17</span></p>
+<p class="sum">LearnHarness 是一个专为学习复杂技能设计的 Agent 框架，通过结构化的交互流程辅助 Agent 掌握新知识或任务。</p>
+<p class="why">为什么值得看：属于 Agent 学习与任务规划领域。可学习如何构建 Agent 的长程任务分解与反馈循环，提升 Agent 在复杂任务中的自适应能力。</p>
+<p class="dup">🔁 已于 2026-11-02 推荐过</p>
+</article>
+<p class="meta" style="margin-top:26px">永久链接：<a href="https://aivulcan.de5.net/d/2026-11-03">https://aivulcan.de5.net/d/2026-11-03</a></p>
+<footer>
+<p>AI 前沿日报 · 由 GitHub Actions 每天 16:00 (CST) 自动生成 · 内容版权归原作者所有，链接均为原始出处</p>
+</footer>
+</div>
+</body>
+</html>

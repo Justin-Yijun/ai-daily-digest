@@ -1,0 +1,614 @@
+{
+ "date": "2026-11-03",
+ "generated": "2026-11-03 01:43",
+ "source_count": {
+  "github": 78,
+  "youtube": 38,
+  "blog": 81,
+  "paper": 18,
+  "hackernews": 10
+ },
+ "failures": {},
+ "failure_errors": {},
+ "summary_missing": [],
+ "summary_providers": {
+  "gemini": 3
+ },
+ "items": [
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.CL",
+   "title": "Mage-VL-Cowork: A Full Training Recipe to Learn Hybrid Computer Use From Evolved Harnesses",
+   "link": "https://arxiv.org/abs/2610.40747",
+   "dt": "2026-11-02T00:00:00-05:00",
+   "summary": "arXiv:2610.40747v1 Announce Type: new Abstract: Effective computer-use agents (CUAs) should seamlessly combine visual GUI interaction with code and terminal execution within a single policy. We present Mage-VL-Cowork, a 4B hybrid CUA trained from a general multimodally aligned checkpoint through an end-to-end, progressive five-stage curriculum across midtraining, SFT, and RL. To power this curriculum at scale, Mage-CUA-Forge replaces per-task agent construction with reusable, skill-conditioned g",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "agent_architecture",
+    "training_serving"
+   ],
+   "learn_score": 3.58,
+   "score": 7.16,
+   "tokens": [
+    "computer",
+    "cowork",
+    "evolved",
+    "full",
+    "harnesses",
+    "hybrid",
+    "learn",
+    "mage",
+    "recipe",
+    "training",
+    "use",
+    "vl"
+   ],
+   "flag": "new",
+   "summary_zh": "Mage-VL-Cowork 提出一种 4B 参数的混合型计算机使用智能体训练方案，通过五阶段课程学习实现 GUI 交互与代码终端执行的统一策略。",
+   "why_zh": "属于 Agent 训练范式领域，可学习如何通过多阶段课程学习（Curriculum Learning）将视觉感知与工具调用能力整合进单一模型。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.CL",
+   "title": "The Generative Gap Between Speculative Drafter and Continuous Diffusion Language Model",
+   "link": "https://arxiv.org/abs/2610.40847",
+   "dt": "2026-11-02T00:00:00-05:00",
+   "summary": "arXiv:2610.40847v1 Announce Type: new Abstract: Continuous diffusion language models (CDLMs) and speculative drafters offer efficient language generation but are typically evaluated differently: CDLMs generate independently through iterative refinement, whereas drafters propose text for target-model verification and correction. We compare their architectures without verification, using LangFlow for CDLMs and adapting DSpark's Markov and recurrent-head architectures for standalone generation. All",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "eval_observability",
+    "system_design"
+   ],
+   "learn_score": 3.58,
+   "score": 7.16,
+   "tokens": [
+    "between",
+    "continuous",
+    "diffusion",
+    "drafter",
+    "gap",
+    "generative",
+    "language",
+    "model",
+    "speculative"
+   ],
+   "flag": "new",
+   "summary_zh": "对比分析连续扩散语言模型 CDLM 与投机采样草稿模型在生成架构上的差异，探讨两者在无需验证机制下的生成性能与局限。",
+   "why_zh": "属于推理加速与生成模型架构领域，可学习评估不同生成范式（迭代细化 vs 投机采样）在特定任务下的效率与质量权衡。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ai-gateways/awesome-ai-gateways",
+   "link": "https://github.com/ai-gateways/awesome-ai-gateways",
+   "dt": "2026-10-30T10:30:50+00:00",
+   "summary": "Awesome AI gateways: open source and commercial LLM gateways, MCP gateways, agent (A2A) gateways, model routers, specs, and guides.",
+   "extra": {
+    "stars": 21,
+    "language": "",
+    "topics": [
+     "a2a",
+     "a2a-protocol",
+     "agent-gateway",
+     "ai-agents",
+     "ai-gateway",
+     "ai-governance"
+    ],
+    "created": "2026-10-30",
+    "pushed": "2026-11-02"
+   },
+   "skills": [
+    "tool_mcp",
+    "multi_agent"
+   ],
+   "learn_score": 2.943,
+   "score": 6.834,
+   "tokens": [
+    "ai",
+    "awesome",
+    "gateways"
+   ],
+   "flag": "new",
+   "summary_zh": "整理开源与商业 LLM 网关、MCP 网关、Agent 间通信网关及模型路由器的技术资源库。",
+   "why_zh": "属于 AI 基础设施领域，可学习如何构建高可用、可观测的 LLM 中间件，掌握 Agent 架构中网关层面的流量调度与协议适配。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy",
+   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+   "dt": "2026-11-01T13:47:24+00:00",
+   "summary": "",
+   "extra": {
+    "points": 175,
+    "comments": 88,
+    "hn_link": "https://news.ycombinator.com/item?id=50325662"
+   },
+   "skills": [
+    "multi_agent"
+   ],
+   "learn_score": 1.7,
+   "score": 5.513,
+   "tokens": [
+    "agent",
+    "ai",
+    "build",
+    "bureaucracy",
+    "civilization",
+    "drown",
+    "fail",
+    "minecraft",
+    "swarms"
+   ],
+   "flag": "new",
+   "summary_zh": "分析 Minecraft 环境中 AI Agent 群体在协作构建文明时因官僚主义与协调失效导致任务失败的现象。",
+   "why_zh": "属于多智能体系统（MAS）领域，可学习如何设计更高效的协作协议与通信机制，避免复杂任务中的群体决策死锁。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "microsoft/TokenEconomizer",
+   "link": "https://github.com/microsoft/TokenEconomizer",
+   "dt": "2026-10-13T04:16:50+00:00",
+   "summary": "Experience-Driven Black-Box Cost Control for Coding Agents",
+   "extra": {
+    "stars": 4415,
+    "language": "Python",
+    "topics": [
+     "agentic-ai",
+     "agentic-coding",
+     "ai-coding",
+     "ai-coding-assistant",
+     "anthropic",
+     "artificial-intelligence"
+    ],
+    "created": "2026-10-13",
+    "pushed": "2026-11-01"
+   },
+   "skills": [],
+   "learn_score": 1.033,
+   "score": 4.132,
+   "tokens": [
+    "microsoft",
+    "tokeneconomizer"
+   ],
+   "flag": "new",
+   "summary_zh": "TokenEconomizer 提供一种基于经验驱动的黑盒成本控制方案，专门用于优化编码 Agent 的 Token 使用效率。",
+   "why_zh": "属于 Agent 成本优化领域，可学习如何通过黑盒反馈机制动态调整 Prompt 或上下文窗口，实现 LLM 应用的经济性控制。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
+   "link": "https://hackerbooks.org",
+   "dt": "2026-11-01T15:58:28+00:00",
+   "summary": "Saw Karpathy's HackerTube and wanted the same thing for books. So I had Claude build one (Opus 5.5). It's ~16.5k books that at least two different HN commenters brought up, from 2007 till now. Each book links back to the comments that mentioned it. Data is downloadable from the about page. To be clear: Claude wrote almost all of it, including the data pipeline and the site. I mostly steered and ma",
+   "extra": {
+    "points": 1771,
+    "comments": 289,
+    "hn_link": "https://news.ycombinator.com/item?id=50326821"
+   },
+   "skills": [],
+   "learn_score": 1.0,
+   "score": 4.0,
+   "tokens": [
+    "books",
+    "hackerbooks",
+    "hackertube",
+    "hn",
+    "mentioned",
+    "show"
+   ],
+   "flag": "new",
+   "summary_zh": "利用 Claude 自动化构建 HackerBooks 数据管道与网站，实现对 Hacker News 提及书籍的聚合与关联检索。",
+   "why_zh": "属于 AI 辅助开发（AI-native Dev）领域，可学习如何利用 LLM 驱动端到端的数据工程与全栈开发流程，提升原型构建效率。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "UncensoredLabs/uncensored-ai-api",
+   "link": "https://github.com/UncensoredLabs/uncensored-ai-api",
+   "dt": "2026-11-01T20:53:34+00:00",
+   "summary": "Uncensored AI API and browser chat: DeepSeek and GLM models, streaming, Python and TypeScript examples, pricing and setup guides.",
+   "extra": {
+    "stars": 92,
+    "language": "JavaScript",
+    "topics": [
+     "abliterated-models",
+     "ai-chat",
+     "ai-models",
+     "chat-api",
+     "chatbot",
+     "deepseek"
+    ],
+    "created": "2026-11-01",
+    "pushed": "2026-11-01"
+   },
+   "skills": [],
+   "learn_score": 1.125,
+   "score": 3.334,
+   "tokens": [
+    "ai",
+    "api",
+    "uncensored",
+    "uncensoredlabs"
+   ],
+   "flag": "new",
+   "summary_zh": "UncensoredLabs 提供 DeepSeek 和 GLM 等模型的无审查 API 接口，支持流式传输并提供 Python 与 TypeScript 的集成示例。",
+   "why_zh": "属于 LLM 服务化部署技能点，可学习如何通过 API 封装实现多模型统一接入与流式响应处理。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "wangzan101/Mika",
+   "link": "https://github.com/wangzan101/Mika",
+   "dt": "2026-10-29T14:34:07+00:00",
+   "summary": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
+   "extra": {
+    "stars": 5164,
+    "language": "Kotlin",
+    "topics": [
+     "accessibility",
+     "ai-agent",
+     "android",
+     "automation",
+     "jetpack-compose",
+     "kotlin"
+    ],
+    "created": "2026-10-29",
+    "pushed": "2026-11-02"
+   },
+   "skills": [],
+   "learn_score": 0.81,
+   "score": 3.24,
+   "tokens": [
+    "mika",
+    "wangzan101"
+   ],
+   "flag": "new",
+   "summary_zh": "Mika 是一个运行在 Android 设备上的 AI Agent，通过操作原生 App 和 Web 界面实现自动化任务执行。",
+   "why_zh": "属于端侧 Agent 开发技能点，可学习 Android 自动化控制框架及端侧模型推理的工程化落地实践。"
+  },
+  {
+   "source": "blog",
+   "source_label": "LangChain 博客",
+   "title": "New context engineering challenges in late 2026",
+   "link": "https://www.langchain.com/blog/context-engineering-challenges-late-2026",
+   "dt": "2026-11-02T17:12:41+00:00",
+   "summary": "LangChain CEO Harrison Chase shares insights into the biggest harness engineering challenges with the emergence of proactive agents.",
+   "extra": {},
+   "skills": [
+    "prompt_context",
+    "agent_architecture"
+   ],
+   "learn_score": 2.341,
+   "score": 2.341,
+   "tokens": [
+    "2026",
+    "challenges",
+    "context",
+    "engineering",
+    "late"
+   ],
+   "flag": "new",
+   "summary_zh": "LangChain CEO 探讨 2026 年末主动式 Agent 带来的上下文工程挑战，重点关注 Agent 持续交互中的状态管理与上下文优化。",
+   "why_zh": "属于 Agent 架构设计技能点，可学习如何应对长周期、主动式任务中上下文窗口的动态管理与噪声过滤。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · IndyDevDan",
+   "title": "Tiny Software Factories: Agentic Engineering DONE WRONG",
+   "link": "https://www.youtube.com/watch?v=1v7ldJiyH-Y",
+   "dt": "2026-11-02T14:00:24+00:00",
+   "summary": "What's up Engineers, here's a SNEAK PEEK of the upcoming Phase 3 Agentic Engineering Course: Tiny Software Factories Phase 3 PRESALE IS LIVE (What if your agents never stopped?) https://agenticengineer.com/infinite-agentic-engineering?y=1v7ldJiyH-Y Today you'll learn agentic engineering DONE WRONG. On purpose. 🤨 You know this... You and I are the bottleneck. Every time you sit in the terminal prompting one agent back and forth, YOU are the system. Eighty percent or more of the work we're doing r…",
+   "extra": {
+    "channel": "IndyDevDan",
+    "video_id": "1v7ldJiyH-Y"
+   },
+   "skills": [
+    "prompt_context"
+   ],
+   "learn_score": 2.066,
+   "score": 2.066,
+   "tokens": [
+    "agentic",
+    "done",
+    "engineering",
+    "factories",
+    "software",
+    "tiny",
+    "wrong"
+   ],
+   "flag": "new",
+   "summary_zh": "Tiny Software Factories 探讨 Agentic Engineering 中的常见误区，强调在构建持续运行的软件工厂时应避免的架构设计陷阱。",
+   "why_zh": "属于 Agent 系统工程技能点，可学习如何通过模块化设计与错误处理机制构建鲁棒的自动化软件开发流水线。"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "NVIDIA Releases Auto Ontology: An Open Semantic Layer That Grounds AI Agent SQL",
+   "link": "https://www.marktechpost.com/2026/11/01/nvidia-auto-ontology-open-source-semantic-layer-ai-agents/",
+   "dt": "2026-11-02T07:47:12+00:00",
+   "summary": "NVIDIA released Auto Ontology, an Apache 2.0 library that generates a semantic layer from enterprise metadata. It grounds agent SQL in certified definitions and serves context through MCP, CLI and API. The post NVIDIA Releases Auto Ontology: An Open Semantic Layer That Grounds AI Agent SQL appeared first on MarkTechPost .",
+   "extra": {},
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.951,
+   "score": 1.951,
+   "tokens": [
+    "agent",
+    "ai",
+    "auto",
+    "grounds",
+    "layer",
+    "nvidia",
+    "ontology",
+    "open",
+    "releases",
+    "semantic",
+    "sql"
+   ],
+   "flag": "new",
+   "summary_zh": "NVIDIA 发布 Auto Ontology 开源库，通过企业元数据生成语义层，利用 MCP 协议为 Agent 的 SQL 查询提供标准化定义。",
+   "why_zh": "属于 RAG 与 Agent 数据治理技能点，可学习如何通过语义层实现 Agent 对企业级数据库的精准查询与对齐。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Sam Witteveen",
+   "title": "Dory - NVIDIA's Looped Transformer",
+   "link": "https://www.youtube.com/watch?v=vSCYL8ySh9g",
+   "dt": "2026-11-02T13:00:00+00:00",
+   "summary": "In this video, I look at a research release from NVIDIA called Dory, which is a 4B looped transformer. HF: https://huggingface.co/collections/nvidia/nemotron-labs-dory 2nd Channel: https://www.youtube.com/channel/UCUF7WtR4JpVbQqcQGrLeADw Twitter: https://x.com/Sam_Witteveen 🕵️ Interested in building LLM Agents? Fill out the form below Building LLM Agents Form: https://drp.li/dIMes 👨‍💻Github: https://github.com/samwit/llm-tutorials ⏱️Time Stamps: 00:00 Intro 01:38 What is NVIDIA's Dory? 02:25 Spe…",
+   "extra": {
+    "channel": "Sam Witteveen",
+    "video_id": "vSCYL8ySh9g"
+   },
+   "skills": [
+    "llm_fundamentals"
+   ],
+   "learn_score": 1.913,
+   "score": 1.913,
+   "tokens": [
+    "dory",
+    "looped",
+    "nvidia",
+    "transformer"
+   ],
+   "flag": "new",
+   "summary_zh": "Dory 是 NVIDIA 推出的 4B 参数循环 Transformer 模型，通过循环机制在有限参数下提升推理能力。",
+   "why_zh": "属于模型架构优化技能点，可学习循环神经网络结构在提升小参数模型推理深度与效率方面的应用原理。"
+  },
+  {
+   "source": "blog",
+   "source_label": "新智元",
+   "title": "爱诗科技PixVerse 与 OpenAI 共同推出产品集成和创作者教育计划，高效打通 AI 创意全流程",
+   "link": "https://aiera.com.cn/2026/11/02/other/admin/121894/%e7%88%b1%e8%af%97%e7%a7%91%e6%8a%80pixverse-%e4%b8%8e-openai-%e5%85%b1%e5%90%8c%e6%8e%a8%e5%87%ba%e4%ba%a7%e5%93%81%e9%9b%86%e6%88%90%e5%92%8c%e5%88%9b%e4%bd%9c%e8%80%85%e6%95%99%e8%82%b2%e8%ae%a1/",
+   "dt": "2026-11-02T10:53:24+00:00",
+   "summary": "近日，爱诗科技（AIsphere）旗下模型和开放平台PixVerse 与 OpenAI 宣布开启深度合作，双方完成了一系列产品集成并首次共同推出“从提示词到成片”（Prompt…",
+   "extra": {},
+   "skills": [
+    "prompt_context"
+   ],
+   "learn_score": 1.445,
+   "score": 1.445,
+   "tokens": [
+    "ai",
+    "openai",
+    "共同推出产品集成和创作者教育计划",
+    "创意全流程",
+    "爱诗科技pixverse",
+    "高效打通"
+   ],
+   "flag": "new",
+   "summary_zh": "爱诗科技 PixVerse 与 OpenAI 达成深度合作，通过产品集成打通从 Prompt 到视频生成的全链路创作流程。",
+   "why_zh": "多模态工作流编排。学习如何通过 API 集成不同 AI 模型，构建端到端的自动化内容生产流水线。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "Coinbase on OpenAI Private Intelligence",
+   "link": "https://www.youtube.com/watch?v=Amm9ySSET4c",
+   "dt": "2026-11-02T16:59:21+00:00",
+   "summary": "For Coinbase, putting frontier AI to work starts with control over its data. Every employee has access to the latest OpenAI models. In this video, Rob Witoff explains why security, guardrails, and zero data retention are central to that trust. As he puts it: “It’s still our data.” OpenAI Private Intelligence gives businesses stronger controls over their data while using our most capable models. We’re building these protections with some of our largest customers to help businesses apply frontier …",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": "Amm9ySSET4c"
+   },
+   "skills": [],
+   "learn_score": 0.9,
+   "score": 0.9,
+   "tokens": [
+    "coinbase",
+    "intelligence",
+    "openai",
+    "private"
+   ],
+   "flag": "new",
+   "summary_zh": "Coinbase 采用 OpenAI Private Intelligence，在确保数据隐私、安全防护及零数据留存的前提下，为全员提供前沿模型访问权限。",
+   "why_zh": "企业级 AI 安全架构。掌握在生产环境中实施数据脱敏、访问控制及零留存策略，以满足高合规性业务需求。"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "wanghao-SunSky/cs329z-chinese",
+   "link": "https://github.com/wanghao-SunSky/cs329z-chinese",
+   "dt": "2026-10-28T18:18:24+00:00",
+   "summary": "斯坦福 Stanford CS329Z Engineering AI Agents 中文教程：面向 Python 开发者的 AI 智能体课程，19 讲与 4 项实践，涵盖 LLM、RAG、工具调用、记忆、多智能体、评测与安全。完整 Markdown、在线与离线 HTML。Chinese course notes.",
+   "extra": {
+    "stars": 443,
+    "language": "HTML",
+    "topics": [
+     "agent-memory",
+     "agentic-ai",
+     "ai-agents",
+     "chinese",
+     "chinese-tutorial",
+     "course-notes"
+    ],
+    "created": "2026-10-28",
+    "pushed": "2026-10-31"
+   },
+   "skills": [
+    "rag",
+    "tool_mcp",
+    "agent_architecture",
+    "multi_agent",
+    "eval_observability"
+   ],
+   "learn_score": 2.754,
+   "score": 10.042,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-02 推荐过",
+   "summary_zh": "斯坦福 CS329Z 课程中文版，系统梳理了 LLM、RAG、工具调用、记忆机制、多智能体架构及评测安全等智能体开发核心知识体系。",
+   "why_zh": "属于 AI Agent 工程化技能点，可复用其课程设计的模块化架构，学习如何构建从基础到多智能体协作的完整开发工作流。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Fazmin/AILearningGuide",
+   "link": "https://github.com/Fazmin/AILearningGuide",
+   "dt": "2026-10-05T02:29:23+00:00",
+   "summary": "Interactive desktop app with 51 labs covering ML fundamentals, transformers, RAG, agents, fine-tuning and quantization and more.",
+   "extra": {
+    "stars": 242,
+    "language": "TypeScript",
+    "topics": [
+     "ai",
+     "ai-education",
+     "deep-learning",
+     "educational",
+     "educational-resources",
+     "educational-tool"
+    ],
+    "created": "2026-10-05",
+    "pushed": "2026-10-31"
+   },
+   "skills": [
+    "rag",
+    "training_serving",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.276,
+   "score": 7.702,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-02 推荐过",
+   "summary_zh": "提供交互式桌面应用，包含51个实验涵盖机器学习基础、Transformer、RAG、Agent、微调与量化等内容。",
+   "why_zh": "可学习动手实验的组织方式，掌握从基础到高级模型的全流程实践，适合面试中展示系统化学习能力。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ccch1mneyyy/dsh-Go",
+   "link": "https://github.com/ccch1mneyyy/dsh-Go",
+   "dt": "2026-10-25T08:09:52+00:00",
+   "summary": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+   "extra": {
+    "stars": 5740,
+    "language": "Dart",
+    "topics": [
+     "ai-agent",
+     "android",
+     "android-app",
+     "coding-agent",
+     "deepseek",
+     "deepseek-harness"
+    ],
+    "created": "2026-10-25",
+    "pushed": "2026-11-02"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-02 推荐过",
+   "summary_zh": "dsh-Go 实现 DeepSeek 模型在移动端本地运行，并支持远程控制桌面端执行任务，提供轻量级端侧推理解决方案。",
+   "why_zh": "属于端侧 AI 部署技能点，可复用其跨设备通信与本地推理引擎集成方案，解决资源受限环境下的智能体调度问题。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "tangency-labs/solidcraft",
+   "link": "https://github.com/tangency-labs/solidcraft",
+   "dt": "2026-10-07T18:57:48+00:00",
+   "summary": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+   "extra": {
+    "stars": 13112,
+    "language": "Rust",
+    "topics": [
+     "3d-modeling",
+     "brep",
+     "cad",
+     "egui",
+     "mcp",
+     "parametric-cad"
+    ],
+    "created": "2026-10-07",
+    "pushed": "2026-11-02"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-02 推荐过",
+   "summary_zh": "SolidCraft 是用纯 Rust 构建的开源参数化3D CAD 应用，支持桌面、网页及MCP自动化。",
+   "why_zh": "演示Rust在复杂图形系统中的工程实践，可参考高性能跨平台CAD开发。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "google-research/harness2",
+   "link": "https://github.com/google-research/harness2",
+   "dt": "2026-10-06T21:48:11+00:00",
+   "summary": "",
+   "extra": {
+    "stars": 22068,
+    "language": "Python",
+    "topics": [],
+    "created": "2026-10-06",
+    "pushed": "2026-11-02"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-19 推荐过",
+   "summary_zh": "Google Research 开源 harness2 项目，具体功能暂无简介，需结合代码库上下文判断其评估或测试用途。",
+   "why_zh": "关注顶级实验室开源工具，通过阅读代码可学习大模型评估框架或测试流水线的标准化工程实践。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "amosblomqvist/learnharness",
+   "link": "https://github.com/amosblomqvist/learnharness",
+   "dt": "2026-10-16T19:35:33+00:00",
+   "summary": "Agent harness for learning difficult things.",
+   "extra": {
+    "stars": 4884,
+    "language": "TypeScript",
+    "topics": [],
+    "created": "2026-10-16",
+    "pushed": "2026-10-31"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-02 推荐过",
+   "summary_zh": "LearnHarness 是一个专为学习复杂技能设计的 Agent 框架，通过结构化的交互流程辅助 Agent 掌握新知识或任务。",
+   "why_zh": "属于 Agent 学习与任务规划领域。可学习如何构建 Agent 的长程任务分解与反馈循环，提升 Agent 在复杂任务中的自适应能力。"
+  }
+ ]
+}
