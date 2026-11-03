@@ -1,0 +1,626 @@
+{
+ "date": "2026-11-04",
+ "generated": "2026-11-04 01:14",
+ "source_count": {
+  "github": 77,
+  "youtube": 37,
+  "blog": 82,
+  "paper": 18,
+  "hackernews": 10
+ },
+ "failures": {},
+ "failure_errors": {},
+ "summary_missing": [],
+ "summary_providers": {
+  "gemini": 3
+ },
+ "items": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "aa1143/NamiAgent",
+   "link": "https://github.com/aa1143/NamiAgent",
+   "dt": "2026-10-30T11:03:30+00:00",
+   "summary": "零基础入门 AI Agent 的基础教程。不只是教程，也是一个能在本地跑起来的 Agent：读写文件、执行命令、MCP、长期记忆，自带网页端看清每一步。从 100 行最小循环开始，一课加一个能力，最后拆解 Claude Code、Codex 等主流 Agent",
+   "extra": {
+    "stars": 283,
+    "language": "Python",
+    "topics": [
+     "agent",
+     "ai-agent",
+     "chinese",
+     "claude-code",
+     "deepseek",
+     "from-scratch"
+    ],
+    "created": "2026-10-30",
+    "pushed": "2026-10-30"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 2.324,
+   "score": 8.022,
+   "tokens": [
+    "aa1143",
+    "namiagent"
+   ],
+   "flag": "new",
+   "summary_zh": "NamiAgent 提供从 100 行代码起步的 Agent 开发教程，涵盖文件读写、命令执行、MCP 协议及长期记忆实现，并支持本地运行与可视化调试。",
+   "why_zh": "Agent 架构设计技能。可复用其模块化构建 Agent 循环的思路，通过分步实现核心组件（如记忆、工具调用）来掌握复杂 Agent 的工程化落地。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Does Recursive Knowledge Construction Help Agents Verify Consensus Claims in Science?",
+   "link": "https://arxiv.org/abs/2610.40906",
+   "dt": "2026-11-02T00:00:00-05:00",
+   "summary": "arXiv:2610.40906v1 Announce Type: new Abstract: Recent scientific agents build knowledge recursively by retrieving evidence, constructing an intermediate state, and judging whether that state contains sufficient information. These agents are evaluated end-to-end, usually without ground truth, so the effect of each design choice is unknown. Here, we examined two design axes: (1) what the recursion builds (the state of evidence) and (2) what controls it (the judge that decides when to stop). To me",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "eval_observability",
+    "system_design"
+   ],
+   "learn_score": 3.58,
+   "score": 7.16,
+   "tokens": [
+    "agents",
+    "claims",
+    "consensus",
+    "construction",
+    "does",
+    "help",
+    "knowledge",
+    "recursive",
+    "science",
+    "verify"
+   ],
+   "flag": "new",
+   "summary_zh": "研究递归知识构建对科学 Agent 验证共识声明的影响，通过拆解检索、中间状态构建与判断机制，量化评估不同设计决策对 Agent 性能的作用。",
+   "why_zh": "Agent 推理与验证机制。可学习如何通过控制变量法评估 Agent 递归推理路径，提升复杂任务中 Agent 决策的准确性与可解释性。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "SWE-Trail: History-Guided Trajectory Collection for Coding Agent Training",
+   "link": "https://huggingface.co/papers/2611.02074",
+   "dt": "2026-10-31T20:00:00+00:00",
+   "summary": "Coding agents solve repository issues through long sequences of exploration, editing, and validation. These trajectories are increasingly used as post-training data, so how they are collected shapes what the trained model learns. A common approach is to sample multiple trajectories independently for each issue and then select or curate them. However, as more trajectories are sampled independently, later trajectories become increasingly redundant, even though earlier trajectories could guide wher",
+   "extra": {
+    "upvotes": 32,
+    "arxiv": "https://arxiv.org/abs/2611.02074"
+   },
+   "skills": [
+    "training_serving"
+   ],
+   "learn_score": 2.589,
+   "score": 6.486,
+   "tokens": [
+    "agent",
+    "coding",
+    "collection",
+    "guided",
+    "history",
+    "swe",
+    "trail",
+    "training",
+    "trajectory"
+   ],
+   "flag": "new",
+   "summary_zh": "SWE-Trail 提出一种基于历史引导的轨迹收集方法，通过优化 Coding Agent 训练数据的采样策略，提升模型在代码库问题解决任务中的表现。",
+   "why_zh": "模型训练数据工程。可学习如何通过轨迹筛选与历史引导优化强化学习或微调数据集，解决 Agent 在长序列代码任务中的探索效率问题。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Astra can read and write weights to improve Qwen",
+   "link": "https://rikiyat.github.io/blog/weight-space-programming/",
+   "dt": "2026-11-02T18:21:28+00:00",
+   "summary": "",
+   "extra": {
+    "points": 2897,
+    "comments": 874,
+    "hn_link": "https://news.ycombinator.com/item?id=50341174"
+   },
+   "skills": [],
+   "learn_score": 1.0,
+   "score": 4.0,
+   "tokens": [
+    "astra",
+    "improve",
+    "qwen",
+    "read",
+    "weights",
+    "write"
+   ],
+   "flag": "new",
+   "summary_zh": "Astra 框架支持直接读写模型权重，通过这种底层参数操作方式实现对 Qwen 等开源模型的性能优化与能力增强。",
+   "why_zh": "模型权重操作与微调。掌握直接操作模型权重的方法，可用于实现轻量级模型适配或在不重新训练的情况下注入特定领域知识。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
+   "link": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+   "dt": "2026-11-02T16:40:29+00:00",
+   "summary": "",
+   "extra": {
+    "points": 342,
+    "comments": 265,
+    "hn_link": "https://news.ycombinator.com/item?id=50339494"
+   },
+   "skills": [],
+   "learn_score": 1.0,
+   "score": 3.534,
+   "tokens": [
+    "ai",
+    "anthropic",
+    "employee",
+    "exceeds",
+    "internal",
+    "now",
+    "pay",
+    "prices",
+    "retail",
+    "use"
+   ],
+   "flag": "new",
+   "summary_zh": "Anthropic 内部 AI 使用成本已超过员工薪资总额，反映了 AI 原生企业在研发与运营中对大规模推理计算的极高依赖。",
+   "why_zh": "AI 工程成本优化。理解高频调用大模型的经济模型，可学习如何通过缓存、蒸馏或推理优化手段降低 Agent 系统的运营成本。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "storytold/craft-anything",
+   "link": "https://github.com/storytold/craft-anything",
+   "dt": "2026-10-31T14:50:00+00:00",
+   "summary": "Craft Anything: understand how any software works, and craft your own.",
+   "extra": {
+    "stars": 7320,
+    "language": "Rust",
+    "topics": [],
+    "created": "2026-10-31",
+    "pushed": "2026-11-03"
+   },
+   "skills": [],
+   "learn_score": 0.855,
+   "score": 3.42,
+   "tokens": [
+    "anything",
+    "craft",
+    "storytold"
+   ],
+   "flag": "new",
+   "summary_zh": "Craft Anything 提供一套软件逆向与理解工具，帮助开发者分析任意软件逻辑并基于此构建自定义的自动化代理或功能模块。",
+   "why_zh": "软件自动化与逆向工程。学习如何通过分析现有软件的交互逻辑来构建 Agent 的操作空间，实现对闭源或复杂系统的自动化控制。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "morluto/awesome-reverse-engineering",
+   "link": "https://github.com/morluto/awesome-reverse-engineering",
+   "dt": "2026-10-09T14:58:20+00:00",
+   "summary": "Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
+   "extra": {
+    "stars": 1680,
+    "language": "Python",
+    "topics": [
+     "agent-skills",
+     "ai-agents",
+     "awesome",
+     "awesome-list",
+     "binary-analysis",
+     "ctf"
+    ],
+    "created": "2026-10-09",
+    "pushed": "2026-10-30"
+   },
+   "skills": [],
+   "learn_score": 0.765,
+   "score": 3.06,
+   "tokens": [
+    "awesome",
+    "engineering",
+    "morluto",
+    "reverse"
+   ],
+   "flag": "new",
+   "summary_zh": "整理了涵盖二进制、应用、固件及协议分析的逆向工程工具与学习资源集合。",
+   "why_zh": "属于安全工程与模型审计领域，可复用做法包括利用逆向工具分析闭源模型权重结构或推理协议。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "sahenjp/RustXNG",
+   "link": "https://github.com/sahenjp/RustXNG",
+   "dt": "2026-10-18T03:06:52+00:00",
+   "summary": "Self-hosted metasearch and grounding engine for AI agents, based on SearXNG. Rust, JSON API, optional page text.",
+   "extra": {
+    "stars": 775,
+    "language": "Rust",
+    "topics": [
+     "agpl",
+     "ai-agents",
+     "grounding",
+     "llm",
+     "mcp",
+     "metasearch"
+    ],
+    "created": "2026-10-18",
+    "pushed": "2026-11-03"
+   },
+   "skills": [],
+   "learn_score": 0.765,
+   "score": 2.975,
+   "tokens": [
+    "rustxng",
+    "sahenjp"
+   ],
+   "flag": "new",
+   "summary_zh": "基于 Rust 开发的自托管元搜索与 grounding 引擎，为 AI Agent 提供 JSON API 接口及网页文本提取功能。",
+   "why_zh": "属于 Agent 检索增强生成（RAG）架构，可复用做法是构建轻量级高性能的搜索中间件以降低对外部 API 的依赖。"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "Zyphra AI Introduces Zyphra Hierarchical Attention (ZHA): A Path to True Subquadratic Attention",
+   "link": "https://www.marktechpost.com/2026/11/02/zyphra-hierarchical-attention-zha-sparse-attention/",
+   "dt": "2026-11-03T01:09:49+00:00",
+   "summary": "Zyphra Hierarchical Attention (ZHA) is a tree-indexed sparse attention method that retrofits frozen LLMs with 4B tokens of distillation, matching dense attention on reasoning and 256K retrieval benchmarks. The post Zyphra AI Introduces Zyphra Hierarchical Attention (ZHA): A Path to True Subquadratic Attention appeared first on MarkTechPost .",
+   "extra": {},
+   "skills": [
+    "rag",
+    "eval_observability",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.731,
+   "score": 2.731,
+   "tokens": [
+    "ai",
+    "attention",
+    "hierarchical",
+    "introduces",
+    "path",
+    "subquadratic",
+    "true",
+    "zha",
+    "zyphra"
+   ],
+   "flag": "new",
+   "summary_zh": "Zyphra 提出 ZHA 树索引稀疏注意力机制，通过蒸馏使冻结 LLM 在 256K 上下文下实现亚二次复杂度推理。",
+   "why_zh": "属于模型架构优化领域，可复用做法是利用树状索引与蒸馏技术在不微调全参数前提下扩展模型上下文窗口。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · bycloud",
+   "title": "DeepSeek's New LLM Engine Just Made GPUs 3x More Valuable",
+   "link": "https://www.youtube.com/watch?v=2K_Rm8cho1I",
+   "dt": "2026-11-03T16:07:50+00:00",
+   "summary": "Benchmark and optimize your AI coding agents now with Warp Factories http://warp.dev/bycloud DeepSeek just open-sourced DeepInfer, its highly optimized inference engine capable of delivering over 26,000 output tokens per second per GPU. In this video, I'll be breaking down and explore how DeepSeek is changing the economics of AI inference. my latest projects: Your private local AI server needs an upgrade or maintenance support? Book a free audit now at https://nimbuskernel.com/ Intuitive AI Acad…",
+   "extra": {
+    "channel": "bycloud",
+    "video_id": "2K_Rm8cho1I"
+   },
+   "skills": [
+    "eval_observability",
+    "training_serving"
+   ],
+   "learn_score": 2.479,
+   "score": 2.479,
+   "tokens": [
+    "3x",
+    "deepseek",
+    "engine",
+    "gpus",
+    "just",
+    "llm",
+    "made",
+    "valuable"
+   ],
+   "flag": "new",
+   "summary_zh": "DeepSeek 开源 DeepInfer 推理引擎，通过极致优化实现单 GPU 每秒输出超 26,000 token 的吞吐量。",
+   "why_zh": "属于高性能推理工程，可复用做法是关注算子融合与内存管理优化，以提升大规模 Agent 系统的并发推理效率。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Sam Witteveen",
+   "title": "NEW DeepSeek Harness - Super Agent!",
+   "link": "https://www.youtube.com/watch?v=OrcsMi2-IcM",
+   "dt": "2026-11-03T14:30:33+00:00",
+   "summary": "In this video, I look at the new announcement about the DeepSeek harness and the introduction of their super agent add-on for their harness. GH: https://github.com/deepseek-ai/dsh-superagent-prototype X post: https://x.com/DeepSeekHarness/status/2116857257245987236 2nd Channel: https://www.youtube.com/channel/UCUF7WtR4JpVbQqcQGrLeADw Twitter: https://x.com/Sam_Witteveen 🕵️ Interested in building LLM Agents? Fill out the form below Building LLM Agents Form: https://drp.li/dIMes 👨‍💻Github: https:/…",
+   "extra": {
+    "channel": "Sam Witteveen",
+    "video_id": "OrcsMi2-IcM"
+   },
+   "skills": [
+    "rag",
+    "agent_architecture"
+   ],
+   "learn_score": 2.479,
+   "score": 2.479,
+   "tokens": [
+    "agent",
+    "deepseek",
+    "harness",
+    "super"
+   ],
+   "flag": "new",
+   "summary_zh": "DeepSeek 发布 DeepSeek Harness 超级 Agent 原型，旨在构建具备复杂任务处理能力的 Agent 系统。",
+   "why_zh": "属于 Agent 框架设计，可复用做法是参考其任务编排与工具调用逻辑，优化复杂 Agent 的执行流与状态管理。"
+  },
+  {
+   "source": "blog",
+   "source_label": "LangChain 博客",
+   "title": "Managed Deep Agents: the fastest way to ship a production deep agent",
+   "link": "https://www.langchain.com/blog/introducing-managed-deep-agents",
+   "dt": "2026-11-02T22:28:13+00:00",
+   "summary": "Run deep agents in production with durable execution, sandboxes, tool access, and LangSmith observability, without building the runtime yourself. Now in private beta",
+   "extra": {},
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.951,
+   "score": 1.951,
+   "tokens": [
+    "agent",
+    "agents",
+    "deep",
+    "fastest",
+    "managed",
+    "production",
+    "ship",
+    "way"
+   ],
+   "flag": "new",
+   "summary_zh": "LangChain 推出 Managed Deep Agents，提供包含持久化执行、沙箱环境及 LangSmith 可观测性的生产级 Agent 托管服务。",
+   "why_zh": "属于 Agent 工程化落地，可复用做法是利用持久化执行引擎处理长任务，并结合全链路监控实现生产环境的稳定性保障。"
+  },
+  {
+   "source": "blog",
+   "source_label": "Latent Space",
+   "title": "[AINews] LLMs can read & write neural network weights: \"Weight Space Programming\" cuts Autoresearch out of the RSI loop",
+   "link": "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/",
+   "dt": "2026-11-03T05:35:00+00:00",
+   "summary": "Editing Qwen’s weights to reduce reasoning loops, DeepSeek’s super-agent prototype, and the GDPx benchmark.",
+   "extra": {},
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.951,
+   "score": 1.951,
+   "tokens": [
+    "ainews",
+    "autoresearch",
+    "cuts",
+    "llms",
+    "loop",
+    "network",
+    "neural",
+    "programming",
+    "read",
+    "rsi",
+    "space",
+    "weight",
+    "weights",
+    "write"
+   ],
+   "flag": "new",
+   "summary_zh": "Weight Space Programming 允许 LLM 直接读写神经网络权重，通过修改 Qwen 权重减少推理循环，并提出 DeepSeek 超级智能体原型及 GDPx 基准测试。",
+   "why_zh": "属于模型微调与权重操作领域，可学习通过直接干预参数空间优化模型推理路径，而非仅依赖提示词工程。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "Glean on privacy and OpenAI Private Intelligence",
+   "link": "https://www.youtube.com/shorts/JR7xBi2kJjY",
+   "dt": "2026-11-03T16:51:36+00:00",
+   "summary": "Glean co-founder and CTO T.R. Vishwanath discusses customer control of data and Glean’s work with OpenAI on the Private Safety Processing preview. Learn more about OpenAI Private Intelligence: https://openai.com/business/private-intelligence/",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": ""
+   },
+   "skills": [],
+   "learn_score": 0.9,
+   "score": 0.9,
+   "tokens": [
+    "glean",
+    "intelligence",
+    "openai",
+    "privacy",
+    "private"
+   ],
+   "flag": "new",
+   "summary_zh": "OpenAI 推出 Private Intelligence，结合 Glean 的企业数据治理能力，实现企业在保障数据隐私的前提下进行私有化模型推理与安全处理。",
+   "why_zh": "属于企业级 RAG 与数据隐私工程，可学习在多租户环境下构建隔离的数据处理流水线，满足企业对模型合规与安全的需求。"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "wanghao-SunSky/cs329z-chinese",
+   "link": "https://github.com/wanghao-SunSky/cs329z-chinese",
+   "dt": "2026-10-28T18:18:24+00:00",
+   "summary": "斯坦福 Stanford CS329Z Engineering AI Agents 中文教程：面向 Python 开发者的 AI 智能体课程，19 讲与 4 项实践，涵盖 LLM、RAG、工具调用、记忆、多智能体、评测与安全。完整 Markdown、在线与离线 HTML。Chinese course notes.",
+   "extra": {
+    "stars": 479,
+    "language": "HTML",
+    "topics": [
+     "agent-memory",
+     "agentic-ai",
+     "ai-agents",
+     "chinese",
+     "chinese-tutorial",
+     "course-notes"
+    ],
+    "created": "2026-10-28",
+    "pushed": "2026-10-31"
+   },
+   "skills": [
+    "rag",
+    "tool_mcp",
+    "agent_architecture",
+    "multi_agent",
+    "eval_observability"
+   ],
+   "learn_score": 2.754,
+   "score": 10.136,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-03 推荐过",
+   "summary_zh": "斯坦福 CS329Z 课程中文版，系统梳理了 LLM、RAG、工具调用、记忆机制、多智能体架构及评测安全等智能体开发核心知识体系。",
+   "why_zh": "属于 AI Agent 工程化技能点，可复用其课程设计的模块化架构，学习如何构建从基础到多智能体协作的完整开发工作流。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Fazmin/AILearningGuide",
+   "link": "https://github.com/Fazmin/AILearningGuide",
+   "dt": "2026-10-05T02:29:23+00:00",
+   "summary": "Interactive desktop app with 58 labs covering ML fundamentals, transformers, RAG, agents, fine-tuning and quantization and more.",
+   "extra": {
+    "stars": 243,
+    "language": "TypeScript",
+    "topics": [
+     "ai",
+     "ai-education",
+     "deep-learning",
+     "educational",
+     "educational-resources",
+     "educational-tool"
+    ],
+    "created": "2026-10-05",
+    "pushed": "2026-10-31"
+   },
+   "skills": [
+    "rag",
+    "training_serving",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.276,
+   "score": 7.706,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-03 推荐过",
+   "summary_zh": "提供交互式桌面应用，包含51个实验涵盖机器学习基础、Transformer、RAG、Agent、微调与量化等内容。",
+   "why_zh": "可学习动手实验的组织方式，掌握从基础到高级模型的全流程实践，适合面试中展示系统化学习能力。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ccch1mneyyy/dsh-Go",
+   "link": "https://github.com/ccch1mneyyy/dsh-Go",
+   "dt": "2026-10-25T08:09:52+00:00",
+   "summary": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+   "extra": {
+    "stars": 7222,
+    "language": "Dart",
+    "topics": [
+     "ai-agent",
+     "android",
+     "android-app",
+     "coding-agent",
+     "deepseek",
+     "deepseek-harness"
+    ],
+    "created": "2026-10-25",
+    "pushed": "2026-11-03"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-03 推荐过",
+   "summary_zh": "dsh-Go 实现 DeepSeek 模型在移动端本地运行，并支持远程控制桌面端执行任务，提供轻量级端侧推理解决方案。",
+   "why_zh": "属于端侧 AI 部署技能点，可复用其跨设备通信与本地推理引擎集成方案，解决资源受限环境下的智能体调度问题。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "tangency-labs/solidcraft",
+   "link": "https://github.com/tangency-labs/solidcraft",
+   "dt": "2026-10-07T18:57:48+00:00",
+   "summary": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+   "extra": {
+    "stars": 13340,
+    "language": "Rust",
+    "topics": [
+     "3d-modeling",
+     "brep",
+     "cad",
+     "egui",
+     "mcp",
+     "parametric-cad"
+    ],
+    "created": "2026-10-07",
+    "pushed": "2026-11-03"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-03 推荐过",
+   "summary_zh": "SolidCraft 是用纯 Rust 构建的开源参数化3D CAD 应用，支持桌面、网页及MCP自动化。",
+   "why_zh": "演示Rust在复杂图形系统中的工程实践，可参考高性能跨平台CAD开发。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "google-research/harness2",
+   "link": "https://github.com/google-research/harness2",
+   "dt": "2026-10-06T21:48:11+00:00",
+   "summary": "",
+   "extra": {
+    "stars": 22349,
+    "language": "Python",
+    "topics": [],
+    "created": "2026-10-06",
+    "pushed": "2026-11-02"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-03 推荐过",
+   "summary_zh": "Google Research 开源 harness2 项目，具体功能暂无简介，需结合代码库上下文判断其评估或测试用途。",
+   "why_zh": "关注顶级实验室开源工具，通过阅读代码可学习大模型评估框架或测试流水线的标准化工程实践。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ai-gateways/awesome-ai-gateways",
+   "link": "https://github.com/ai-gateways/awesome-ai-gateways",
+   "dt": "2026-10-30T10:30:50+00:00",
+   "summary": "Awesome AI gateways: open source and commercial LLM gateways, MCP gateways, agent (A2A) gateways, model routers, specs, and guides.",
+   "extra": {
+    "stars": 25,
+    "language": "",
+    "topics": [
+     "a2a",
+     "a2a-protocol",
+     "agent-gateway",
+     "ai-agents",
+     "ai-gateway",
+     "ai-governance"
+    ],
+    "created": "2026-10-30",
+    "pushed": "2026-11-03"
+   },
+   "skills": [
+    "tool_mcp",
+    "multi_agent"
+   ],
+   "learn_score": 2.788,
+   "score": 6.685,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-03 推荐过",
+   "summary_zh": "整理开源与商业 LLM 网关、MCP 网关、Agent 间通信网关及模型路由器的技术资源库。",
+   "why_zh": "属于 AI 基础设施领域，可学习如何构建高可用、可观测的 LLM 中间件，掌握 Agent 架构中网关层面的流量调度与协议适配。"
+  }
+ ]
+}
