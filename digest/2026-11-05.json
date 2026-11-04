@@ -1,0 +1,617 @@
+{
+ "date": "2026-11-05",
+ "generated": "2026-11-05 01:26",
+ "source_count": {
+  "github": 79,
+  "youtube": 37,
+  "blog": 82,
+  "paper": 18,
+  "hackernews": 10
+ },
+ "failures": {},
+ "failure_errors": {},
+ "summary_missing": [],
+ "summary_providers": {
+  "gemini": 3
+ },
+ "items": [
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "OpenAI seems to be silently re-enabling model training on Codex chats",
+   "link": "https://news.ycombinator.com/item?id=50352757",
+   "dt": "2026-11-03T14:53:41+00:00",
+   "summary": "My company is pretty paranoid about leaking IP to the frontier labs through prompts, so we've all been diligent about disabling data sharing in Codex/Claude Code/etc. But yesterday my coworkers and I noticed that the setting had been silently reenabled in Codex. None of us knowingly opted back in. You can check your settings here: https://chatgpt.com/settings/data-controls. Look for \"Improve the m",
+   "extra": {
+    "points": 509,
+    "comments": 151,
+    "hn_link": "https://news.ycombinator.com/item?id=50352757"
+   },
+   "skills": [
+    "prompt_context"
+   ],
+   "learn_score": 2.295,
+   "score": 8.507,
+   "tokens": [
+    "chats",
+    "codex",
+    "enabling",
+    "model",
+    "openai",
+    "re",
+    "seems",
+    "silently",
+    "training"
+   ],
+   "flag": "new",
+   "summary_zh": "OpenAI 在未明确通知用户的情况下，重新启用了 Codex 聊天数据的模型训练权限，用户需在设置中手动关闭数据共享。",
+   "why_zh": "涉及 AI 工程中的数据隐私合规与安全边界，面试中可探讨企业级应用如何通过 API 协议或 VPC 部署规避数据泄露风险。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Factorized MLLM Embeddings for Composed Image Retrieval",
+   "link": "https://huggingface.co/papers/2611.05193",
+   "dt": "2026-11-02T19:00:00+00:00",
+   "summary": "Composed Image Retrieval (CIR) aims to retrieve a target image given a reference image and a modification text. Although recent approaches leveraging Multimodal Large Language Models (MLLMs) have shown significant progress, we argue that the MLLM's compositional understanding remains underutilized. This stems from directly mapping composed queries into a retrieval embedding via contrastive supervision alone, without explicitly resolving the intended visual modifications. In this work, we introdu",
+   "extra": {
+    "upvotes": 41,
+    "arxiv": "https://arxiv.org/abs/2611.05193"
+   },
+   "skills": [
+    "rag",
+    "eval_observability"
+   ],
+   "learn_score": 2.616,
+   "score": 6.835,
+   "tokens": [
+    "composed",
+    "embeddings",
+    "factorized",
+    "image",
+    "mllm",
+    "retrieval"
+   ],
+   "flag": "new",
+   "summary_zh": "提出一种针对组合图像检索（CIR）的因子分解 MLLM 嵌入方法，通过解耦模态特征提升模型对复杂修改指令的理解能力。",
+   "why_zh": "属于多模态检索优化技能点，可复用其将复杂查询分解为独立特征空间的架构思路，用于提升多模态 Agent 的检索精度。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.CL",
+   "title": "From Fragmentation to Fusion: A Survey and Roadmap for Omnimodal Embeddings",
+   "link": "https://arxiv.org/abs/2611.00172",
+   "dt": "2026-11-04T00:00:00-05:00",
+   "summary": "arXiv:2611.00172v1 Announce Type: new Abstract: Embedding models underpin virtually every modern AI system, from search engines to recommendation systems. Despite shared mathematical foundations, research on embedding models remains fragmented by modality: the communities develop largely in isolation, seldom exchanging insights. We argue that this fragmentation obscures a deeper convergence. Driven by contrastive learning, Transformer architectures, and a granularity shift, embedding research ac",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "rag",
+    "llm_fundamentals",
+    "system_design"
+   ],
+   "learn_score": 3.094,
+   "score": 6.188,
+   "tokens": [
+    "embeddings",
+    "fragmentation",
+    "fusion",
+    "omnimodal",
+    "roadmap",
+    "survey"
+   ],
+   "flag": "new",
+   "summary_zh": "系统梳理了全模态嵌入模型（Omnimodal Embeddings）的研究现状，分析了跨模态统一表征的数学基础与融合路径。",
+   "why_zh": "属于向量检索与表征学习领域，可学习如何构建统一的嵌入空间，解决多模态数据在 Agent 记忆系统中的对齐与检索难题。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
+   "link": "https://news.ycombinator.com/item?id=50363461",
+   "dt": "2026-11-04T10:10:27+00:00",
+   "summary": "If you have a personal Google AI subscription, all your saved chat history in Gemini can be used for training and there is no way to opt out unless you turn off chat history or use temporary chat sessions. These chat transcripts may even be read by human reviewers. Although Google claims to disconnect them from your account when human-reviewed, they explicitly warn not to enter confidential inform",
+   "extra": {
+    "points": 439,
+    "comments": 120,
+    "hn_link": "https://news.ycombinator.com/item?id=50363461"
+   },
+   "skills": [],
+   "learn_score": 1.0,
+   "score": 3.642,
+   "tokens": [
+    "accounts",
+    "chat",
+    "even",
+    "gemini",
+    "history",
+    "hn",
+    "personal",
+    "subscribers",
+    "tell",
+    "trains"
+   ],
+   "flag": "new",
+   "summary_zh": "Google Gemini 个人订阅用户的聊天记录默认用于模型训练且无法直接关闭，除非禁用历史记录或使用临时会话。",
+   "why_zh": "涉及 AI 产品隐私策略与数据治理，面试中可讨论在开发 Agent 应用时如何设计数据脱敏机制以保护用户敏感信息。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "KKKKhazix/agent-autoloop",
+   "link": "https://github.com/KKKKhazix/agent-autoloop",
+   "dt": "2026-11-03T08:02:11+00:00",
+   "summary": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
+   "extra": {
+    "stars": 2332,
+    "language": "TypeScript",
+    "topics": [
+     "ai-agents",
+     "automation",
+     "claude-code",
+     "cli",
+     "codex",
+     "event-driven"
+    ],
+    "created": "2026-11-03",
+    "pushed": "2026-11-04"
+   },
+   "skills": [],
+   "learn_score": 0.9,
+   "score": 3.6,
+   "tokens": [
+    "agent",
+    "autoloop",
+    "kkkkhazix"
+   ],
+   "flag": "new",
+   "summary_zh": "一个支持命令行 Agent 后台自动执行任务的框架，具备主动跟进机制，仅在必要时触发人工介入。",
+   "why_zh": "属于 Agent 自动化工作流设计，可学习如何通过状态机或循环机制实现长流程任务的自主执行与人机交互接口设计。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "anhao/ai-pose-gallery-zh",
+   "link": "https://github.com/anhao/ai-pose-gallery-zh",
+   "dt": "2026-10-27T12:24:37+00:00",
+   "summary": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
+   "extra": {
+    "stars": 5930,
+    "language": "TypeScript",
+    "topics": [
+     "ai-art",
+     "chinese",
+     "cloudflare-pages",
+     "gallery",
+     "i18n",
+     "pose"
+    ],
+    "created": "2026-10-27",
+    "pushed": "2026-11-04"
+   },
+   "skills": [],
+   "learn_score": 0.765,
+   "score": 3.06,
+   "tokens": [
+    "ai",
+    "anhao",
+    "gallery",
+    "pose",
+    "zh"
+   ],
+   "flag": "new",
+   "summary_zh": "一个包含 1439 组 AI 姿势参考图的静态画廊项目，提供完整的中文标注与零依赖部署方案。",
+   "why_zh": "属于 AI 图像生成工程化辅助工具，可学习如何通过静态资源管理与前端工程化提升 AI 辅助创作工具的易用性与交付效率。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "zgsfsec/Full-Chain-Sentinel-System",
+   "link": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
+   "dt": "2026-10-16T04:05:37+00:00",
+   "summary": "全链哨兵，是集Web 渗透、安卓 App 安全测试、iOS APP安全厕所、攻防批量打点、自动化应急响应、开源漏洞监测为一体的网络安全 Agent，用于安全服务交付自动化辅助，禁止用于非法用途。",
+   "extra": {
+    "stars": 670,
+    "language": "TypeScript",
+    "topics": [
+     "agent",
+     "blue-team",
+     "cybersecurity",
+     "cybersecurity-tools",
+     "pentest-tool",
+     "pentest-tools"
+    ],
+    "created": "2026-10-16",
+    "pushed": "2026-11-04"
+   },
+   "skills": [],
+   "learn_score": 0.765,
+   "score": 2.927,
+   "tokens": [
+    "chain",
+    "full",
+    "sentinel",
+    "system",
+    "zgsfsec"
+   ],
+   "flag": "new",
+   "summary_zh": "Full-Chain-Sentinel-System 是一个集成 Web、Android、iOS 安全测试及自动化应急响应的 Agent 系统，旨在实现安全服务交付的自动化。",
+   "why_zh": "属于安全自动化 Agent 开发领域，可学习如何通过 Agent 编排多源漏洞扫描工具与应急响应流程，实现复杂安全任务的自动化闭环。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "looplj/reveric",
+   "link": "https://github.com/looplj/reveric",
+   "dt": "2026-10-22T16:20:15+00:00",
+   "summary": "Agent Native 一站式 AI 小说，短剧桌面创作工作台",
+   "extra": {
+    "stars": 621,
+    "language": "Dart",
+    "topics": [
+     "agent",
+     "infinite-canvas",
+     "minimax-h3",
+     "novel",
+     "novel-writing",
+     "seedance"
+    ],
+    "created": "2026-10-22",
+    "pushed": "2026-11-04"
+   },
+   "skills": [],
+   "learn_score": 0.765,
+   "score": 2.902,
+   "tokens": [
+    "looplj",
+    "reveric"
+   ],
+   "flag": "new",
+   "summary_zh": "reveric 是一个 Agent Native 桌面工作台，专注于 AI 驱动的小说与短剧创作流程。",
+   "why_zh": "属于垂直领域 Agent 应用开发，可借鉴其将 LLM 能力与特定创作工作流（如长文本生成、分镜管理）深度集成的架构设计。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "What does LangChain even do these days?",
+   "link": "https://www.youtube.com/watch?v=SPOGTliV48s",
+   "dt": "2026-11-03T19:18:17+00:00",
+   "summary": "LangChain started in October 2022 as an open-source project for chaining prompts and PDFs, and is now a platform for the whole agent development lifecycle. This video walks through that ecosystem in three minutes. It starts with the frameworks you build with (LangGraph, LangChain, and Deep Agents), then follows an agent into production with LangSmith: experiments and evals for testing, LangSmith Deployment, Managed Deep Agents, and LangSmith Sandboxes for running it, and traces for monitoring. I…",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": "SPOGTliV48s"
+   },
+   "skills": [
+    "prompt_context",
+    "eval_observability"
+   ],
+   "learn_score": 2.479,
+   "score": 2.479,
+   "tokens": [
+    "days",
+    "do",
+    "does",
+    "even",
+    "langchain",
+    "these"
+   ],
+   "flag": "new",
+   "summary_zh": "LangChain 演进为涵盖 LangGraph、Deep Agents 及 LangSmith 的全生命周期 Agent 开发平台，支持从构建到生产部署的完整链路。",
+   "why_zh": "属于 Agent 工程化领域，学习如何通过 LangGraph 构建状态机 Agent，并利用 LangSmith 进行生产环境的追踪与评估。"
+  },
+  {
+   "source": "blog",
+   "source_label": "LangChain 博客",
+   "title": "LangSmith BYOC is now available on AWS, Azure, and Google Cloud",
+   "link": "https://www.langchain.com/blog/langsmith-byoc-aws-gc-azure",
+   "dt": "2026-11-04T02:56:29+00:00",
+   "summary": "LangSmith BYOC now runs on AWS (GA), Azure and Google Cloud (Beta). Your traces, evals, and agent deployments stay in your cloud account while LangChain runs it.",
+   "extra": {},
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.951,
+   "score": 1.951,
+   "tokens": [
+    "available",
+    "aws",
+    "azure",
+    "byoc",
+    "cloud",
+    "google",
+    "langsmith",
+    "now"
+   ],
+   "flag": "new",
+   "summary_zh": "LangSmith BYOC 现已支持 AWS、Azure 及 Google Cloud，允许用户在自有云账户中存储追踪数据并部署 Agent。",
+   "why_zh": "属于 AI 基础设施与数据隐私领域，学习如何在企业级应用中通过 BYOC 架构解决敏感数据合规性与生产环境监控问题。"
+  },
+  {
+   "source": "blog",
+   "source_label": "LangChain 博客",
+   "title": "How We Optimized Browser Use for Deep Agents",
+   "link": "https://www.langchain.com/blog/how-we-optimized-browser-use-for-deep-agents",
+   "dt": "2026-11-03T22:30:50+00:00",
+   "summary": "We compared seven browser toolsets for Deep Agents, picked Stagehand from Browserbase, and tuned it with LangSmith traces and evals. Here's what we learned.",
+   "extra": {},
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.951,
+   "score": 1.951,
+   "tokens": [
+    "agents",
+    "browser",
+    "deep",
+    "optimized",
+    "use",
+    "we"
+   ],
+   "flag": "new",
+   "summary_zh": "通过对比七种浏览器工具集，选用 Stagehand 并结合 LangSmith 追踪与评估，优化了 Deep Agents 的网页交互能力。",
+   "why_zh": "属于 Agent 工具调用优化领域，学习如何通过对比实验和自动化评估（Evals）来提升 Agent 在复杂网页环境下的操作准确率。"
+  },
+  {
+   "source": "blog",
+   "source_label": "Latent Space",
+   "title": "Building AI for Lawyers - Jacob Lauritzen, CTO of Legora",
+   "link": "https://latent.space/p/building-ai-for-lawyers-jacob-lauritzen-cto-of-legora/",
+   "dt": "2026-11-02T23:01:02+00:00",
+   "summary": "Evals without traces, million-cell tabular reviews, and cracks in the billable hour as a business model",
+   "extra": {},
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.951,
+   "score": 1.951,
+   "tokens": [
+    "ai",
+    "building",
+    "cto",
+    "jacob",
+    "lauritzen",
+    "lawyers",
+    "legora"
+   ],
+   "flag": "new",
+   "summary_zh": "Legora CTO 探讨了法律 AI 开发中的挑战，强调了缺乏追踪的评估缺陷及处理大规模表格数据的技术难点。",
+   "why_zh": "属于垂直领域 AI 落地领域，学习在法律等高精度场景下，如何通过构建完善的 Trace 机制和针对性 Evals 提升模型输出的可靠性。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "Qodo brings company context into Codex code review",
+   "link": "https://www.youtube.com/watch?v=yC72iQx6rM0",
+   "dt": "2026-11-03T18:11:23+00:00",
+   "summary": "Qodo’s Codex plugin brings company context, codebase standards, and independent review into the development workflow. It helps developers catch bugs across repositories, where a change can look right in one codebase and break a service in another. In Behind the Build, co-founder Itamar Friedman and AI DevRel lead Nnenna Ndukwe discuss how they’re building with GPT-6 Astra and their vision for a workflow where one agent writes code and another challenges it. Read the full story: https://openai.co…",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": "yC72iQx6rM0"
+   },
+   "skills": [],
+   "learn_score": 1.519,
+   "score": 1.519,
+   "tokens": [
+    "brings",
+    "code",
+    "codex",
+    "company",
+    "context",
+    "qodo",
+    "review"
+   ],
+   "flag": "new",
+   "summary_zh": "Qodo 的 Codex 插件通过引入企业级代码库上下文与标准，实现跨仓库的代码审查，从而在开发工作流中自动识别潜在的跨服务依赖冲突。",
+   "why_zh": "属于 AI 辅助开发 (AI-assisted coding) 领域。学习如何通过 RAG 技术注入私有代码库上下文，解决大模型在跨模块依赖分析中的幻觉问题。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Sam Witteveen",
+   "title": "What is the Future of IDEs",
+   "link": "https://www.youtube.com/watch?v=I5VxMzaBD6s",
+   "dt": "2026-11-04T14:00:23+00:00",
+   "summary": "Do we still need IDEs? Recently JetBrains reached out to me to get my take on where I thought IDEs were going and what their role was in software development and agentic coding. They themselves have released an interesting blog post (which I refer to in the video) and are engaging with developers to get your take as well. Check out JetBrains IDEs: https://jb.gg/Why-IDEs-JetBrains And here's the blog post I mention in the video: https://jb.gg/why-we-still-need-an-ide Twitter: https://x.com/Sam_Wi…",
+   "extra": {
+    "channel": "Sam Witteveen",
+    "video_id": "I5VxMzaBD6s"
+   },
+   "skills": [],
+   "learn_score": 1.215,
+   "score": 1.215,
+   "tokens": [
+    "future",
+    "ides"
+   ],
+   "flag": "new",
+   "summary_zh": "探讨 IDE 在 Agentic Coding 时代的演进方向，分析传统集成开发环境如何从代码编辑器转型为 AI Agent 的执行与交互平台。",
+   "why_zh": "属于 AI Agent 工程化领域。理解 IDE 作为 Agent 运行环境的架构演变，学习如何设计支持多 Agent 协作的开发工具链接口。"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "wanghao-SunSky/cs329z-chinese",
+   "link": "https://github.com/wanghao-SunSky/cs329z-chinese",
+   "dt": "2026-10-28T18:18:24+00:00",
+   "summary": "斯坦福 Stanford CS329Z Engineering AI Agents 中文教程：面向 Python 开发者的 AI 智能体课程，19 讲与 4 项实践，涵盖 LLM、RAG、工具调用、记忆、多智能体、评测与安全。完整 Markdown、在线与离线 HTML。Chinese course notes.",
+   "extra": {
+    "stars": 493,
+    "language": "HTML",
+    "topics": [
+     "agent-memory",
+     "agentic-ai",
+     "ai-agents",
+     "chinese",
+     "chinese-tutorial",
+     "course-notes"
+    ],
+    "created": "2026-10-28",
+    "pushed": "2026-10-31"
+   },
+   "skills": [
+    "rag",
+    "tool_mcp",
+    "agent_architecture",
+    "multi_agent",
+    "eval_observability"
+   ],
+   "learn_score": 2.754,
+   "score": 10.17,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-04 推荐过",
+   "summary_zh": "斯坦福 CS329Z 课程中文版，系统梳理了 LLM、RAG、工具调用、记忆机制、多智能体架构及评测安全等智能体开发核心知识体系。",
+   "why_zh": "属于 AI Agent 工程化技能点，可复用其课程设计的模块化架构，学习如何构建从基础到多智能体协作的完整开发工作流。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "aa1143/NamiAgent",
+   "link": "https://github.com/aa1143/NamiAgent",
+   "dt": "2026-10-30T11:03:30+00:00",
+   "summary": "零基础入门 AI Agent 的基础教程。不只是教程，也是一个能在本地跑起来的 Agent：读写文件、执行命令、MCP、长期记忆，自带网页端看清每一步。从 100 行最小循环开始，一课加一个能力，最后拆解 Claude Code、Codex 等主流 Agent",
+   "extra": {
+    "stars": 332,
+    "language": "Python",
+    "topics": [
+     "agent",
+     "ai-agent",
+     "chinese",
+     "claude-code",
+     "deepseek",
+     "from-scratch"
+    ],
+    "created": "2026-10-30",
+    "pushed": "2026-10-30"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 2.324,
+   "score": 8.183,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-04 推荐过",
+   "summary_zh": "NamiAgent 提供从 100 行代码起步的 Agent 开发教程，涵盖文件读写、命令执行、MCP 协议及长期记忆实现，并支持本地运行与可视化调试。",
+   "why_zh": "Agent 架构设计技能。可复用其模块化构建 Agent 循环的思路，通过分步实现核心组件（如记忆、工具调用）来掌握复杂 Agent 的工程化落地。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Fazmin/AILearningGuide",
+   "link": "https://github.com/Fazmin/AILearningGuide",
+   "dt": "2026-10-05T02:29:23+00:00",
+   "summary": "Interactive desktop app with 58 labs covering ML fundamentals, transformers, RAG, agents, fine-tuning and quantization and more.",
+   "extra": {
+    "stars": 246,
+    "language": "TypeScript",
+    "topics": [
+     "ai",
+     "ai-education",
+     "deep-learning",
+     "educational",
+     "educational-resources",
+     "educational-tool"
+    ],
+    "created": "2026-10-05",
+    "pushed": "2026-10-31"
+   },
+   "skills": [
+    "rag",
+    "training_serving",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.276,
+   "score": 7.718,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-04 推荐过",
+   "summary_zh": "提供交互式桌面应用，包含51个实验涵盖机器学习基础、Transformer、RAG、Agent、微调与量化等内容。",
+   "why_zh": "可学习动手实验的组织方式，掌握从基础到高级模型的全流程实践，适合面试中展示系统化学习能力。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ccch1mneyyy/dsh-Go",
+   "link": "https://github.com/ccch1mneyyy/dsh-Go",
+   "dt": "2026-10-25T08:09:52+00:00",
+   "summary": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+   "extra": {
+    "stars": 9259,
+    "language": "Dart",
+    "topics": [
+     "ai-agent",
+     "android",
+     "android-app",
+     "coding-agent",
+     "deepseek",
+     "deepseek-harness"
+    ],
+    "created": "2026-10-25",
+    "pushed": "2026-11-04"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-04 推荐过",
+   "summary_zh": "dsh-Go 实现 DeepSeek 模型在移动端本地运行，并支持远程控制桌面端执行任务，提供轻量级端侧推理解决方案。",
+   "why_zh": "属于端侧 AI 部署技能点，可复用其跨设备通信与本地推理引擎集成方案，解决资源受限环境下的智能体调度问题。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "tangency-labs/solidcraft",
+   "link": "https://github.com/tangency-labs/solidcraft",
+   "dt": "2026-10-07T18:57:48+00:00",
+   "summary": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+   "extra": {
+    "stars": 13579,
+    "language": "Rust",
+    "topics": [
+     "3d-modeling",
+     "brep",
+     "cad",
+     "egui",
+     "mcp",
+     "parametric-cad"
+    ],
+    "created": "2026-10-07",
+    "pushed": "2026-11-04"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-04 推荐过",
+   "summary_zh": "SolidCraft 是用纯 Rust 构建的开源参数化3D CAD 应用，支持桌面、网页及MCP自动化。",
+   "why_zh": "演示Rust在复杂图形系统中的工程实践，可参考高性能跨平台CAD开发。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "google-research/harness2",
+   "link": "https://github.com/google-research/harness2",
+   "dt": "2026-10-06T21:48:11+00:00",
+   "summary": "",
+   "extra": {
+    "stars": 22628,
+    "language": "Python",
+    "topics": [],
+    "created": "2026-10-06",
+    "pushed": "2026-11-02"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-04 推荐过",
+   "summary_zh": "Google Research 开源 harness2 项目，具体功能暂无简介，需结合代码库上下文判断其评估或测试用途。",
+   "why_zh": "关注顶级实验室开源工具，通过阅读代码可学习大模型评估框架或测试流水线的标准化工程实践。"
+  }
+ ]
+}
