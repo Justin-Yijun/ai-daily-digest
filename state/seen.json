@@ -3296,7 +3296,7 @@
   },
   "https://github.com/tangency-labs/solidcraft": {
    "title": "tangency-labs/solidcraft",
-   "date": "2026-11-05",
+   "date": "2026-11-06",
    "tokens": [],
    "source": "github",
    "summary_zh": "SolidCraft 是用纯 Rust 构建的开源参数化3D CAD 应用，支持桌面、网页及MCP自动化。",
@@ -3488,7 +3488,7 @@
   },
   "https://github.com/google-research/harness2": {
    "title": "google-research/harness2",
-   "date": "2026-11-05",
+   "date": "2026-11-06",
    "tokens": [],
    "source": "github",
    "summary_zh": "Google Research 开源 harness2 项目，具体功能暂无简介，需结合代码库上下文判断其评估或测试用途。",
@@ -5618,11 +5618,8 @@
   },
   "https://github.com/YOLOW92/pagesift": {
    "title": "YOLOW92/pagesift",
-   "date": "2026-10-29",
-   "tokens": [
-    "pagesift",
-    "yolow92"
-   ],
+   "date": "2026-11-06",
+   "tokens": [],
    "source": "github",
    "summary_zh": "基于 Rust 的高性能网页爬虫与内容提取引擎，提供适配 AI Agent 和 RAG 的干净 Markdown 及结构化数据输出。",
    "why_zh": "RAG 数据预处理技能，学习使用 Rust 实现高内存效率的浏览器渲染与 Firecrawl 兼容 API 以加速数据获取。"
@@ -6197,7 +6194,7 @@
   },
   "https://github.com/wanghao-SunSky/cs329z-chinese": {
    "title": "wanghao-SunSky/cs329z-chinese",
-   "date": "2026-11-05",
+   "date": "2026-11-06",
    "tokens": [],
    "source": "github",
    "summary_zh": "斯坦福 CS329Z 课程中文版，系统梳理了 LLM、RAG、工具调用、记忆机制、多智能体架构及评测安全等智能体开发核心知识体系。",
@@ -6205,7 +6202,7 @@
   },
   "https://github.com/ccch1mneyyy/dsh-Go": {
    "title": "ccch1mneyyy/dsh-Go",
-   "date": "2026-11-05",
+   "date": "2026-11-06",
    "tokens": [],
    "source": "github",
    "summary_zh": "dsh-Go 实现 DeepSeek 模型在移动端本地运行，并支持远程控制桌面端执行任务，提供轻量级端侧推理解决方案。",
@@ -6805,7 +6802,7 @@
   },
   "https://github.com/aa1143/NamiAgent": {
    "title": "aa1143/NamiAgent",
-   "date": "2026-11-05",
+   "date": "2026-11-06",
    "tokens": [],
    "source": "github",
    "summary_zh": "NamiAgent 提供从 100 行代码起步的 Agent 开发教程，涵盖文件读写、命令执行、MCP 协议及长期记忆实现，并支持本地运行与可视化调试。",
@@ -7227,7 +7224,221 @@
    "source": "youtube",
    "summary_zh": "探讨 IDE 在 Agentic Coding 时代的演进方向，分析传统集成开发环境如何从代码编辑器转型为 AI Agent 的执行与交互平台。",
    "why_zh": "属于 AI Agent 工程化领域。理解 IDE 作为 Agent 运行环境的架构演变，学习如何设计支持多 Agent 协作的开发工具链接口。"
+  },
+  "https://arxiv.org/abs/2611.05392": {
+   "title": "Uncertainty-Aware Resource Orchestration for Agentic AI Systems",
+   "date": "2026-11-06",
+   "tokens": [
+    "agentic",
+    "ai",
+    "aware",
+    "orchestration",
+    "resource",
+    "systems",
+    "uncertainty"
+   ],
+   "source": "paper",
+   "summary_zh": "提出一种基于不确定性感知的 Agent 资源编排框架，通过动态监控 LLM 执行过程中的资源消耗与任务状态，优化多步推理任务的计算与带宽分配。",
+   "why_zh": "属于 Agent 系统工程与性能优化领域，学习如何通过量化模型推理的不确定性来动态调度计算资源，提升复杂任务的执行效率与成本控制能力。"
+  },
+  "https://arxiv.org/abs/2611.05393": {
+   "title": "Challenge-Aware Knowledge Recruitment with Meta-Agent Supervision for Medical Multi-Agent Reasoning",
+   "date": "2026-11-06",
+   "tokens": [
+    "agent",
+    "aware",
+    "challenge",
+    "knowledge",
+    "medical",
+    "meta",
+    "multi",
+    "reasoning",
+    "recruitment",
+    "supervision"
+   ],
+   "source": "paper",
+   "summary_zh": "提出一种挑战感知知识招募机制，通过 Meta-Agent 监督医疗多智能体推理过程，根据推理中产生的知识缺口而非仅凭初始问题检索专家知识。",
+   "why_zh": "属于多智能体协作与 RAG 优化领域，学习如何通过 Meta-Agent 动态调整推理路径，解决多智能体在复杂推理任务中信息检索不精准的问题。"
+  },
+  "https://news.ycombinator.com/item?id=50366117": {
+   "title": "Ask HN: What's your current AI agentic setup?",
+   "date": "2026-11-06",
+   "tokens": [
+    "agentic",
+    "ai",
+    "ask",
+    "current",
+    "hn",
+    "setup"
+   ],
+   "source": "hackernews",
+   "summary_zh": "汇总了开发者在日常工作流中构建 AI Agent 的主流技术栈与工具偏好，涵盖了模型订阅、IDE 集成及自动化工作流配置。",
+   "why_zh": "属于 AI 工程实践与工具链选型领域，通过调研行业主流 Agent 开发环境，掌握构建高效个人或团队 AI 辅助开发系统的最佳实践。"
+  },
+  "https://www.ricursive.com/ripple": {
+   "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
+   "date": "2026-11-06",
+   "tokens": [
+    "65b",
+    "agentic",
+    "coding",
+    "open",
+    "preview",
+    "ripple",
+    "sota",
+    "weight"
+   ],
+   "source": "hackernews",
+   "summary_zh": "发布 Ripple-65B 模型，专注于 Agentic Coding 任务，旨在提供美国境内开源模型在代码生成与智能体开发领域的最优性能。",
+   "why_zh": "属于大模型评估与垂直领域微调领域，关注开源模型在代码 Agent 场景下的能力边界，学习如何评估特定任务下的模型性能与适用性。"
+  },
+  "https://github.com/silverdugongenhance/PromptReel": {
+   "title": "silverdugongenhance/PromptReel",
+   "date": "2026-11-06",
+   "tokens": [
+    "promptreel",
+    "silverdugongenhance"
+   ],
+   "source": "github",
+   "summary_zh": "开源桌面应用 PromptReel，支持在本地运行 Wan 2.2 模型，将文本提示词直接转化为短视频，无需订阅或排队。",
+   "why_zh": "属于端侧 AI 部署与多模态应用开发领域，学习如何封装本地推理引擎，实现低延迟、零成本的端侧多模态生成工作流。"
+  },
+  "https://www.leiphone.com/category/yanxishe/iIUJoulGndesZear.html": {
+   "title": "挖走 Claude Code 产品负责人 Cat Wu，OpenAI 直击 Anthropic 上市命门",
+   "date": "2026-11-06",
+   "tokens": [
+    "anthropic",
+    "cat",
+    "claude",
+    "code",
+    "openai",
+    "wu",
+    "上市命门",
+    "产品负责人",
+    "挖走",
+    "直击"
+   ],
+   "source": "blog",
+   "summary_zh": "OpenAI 引入 Claude Code 产品负责人 Cat Wu，旨在通过吸纳核心人才强化其在 Agent 产品化与代码自动化领域的竞争优势。",
+   "why_zh": "属于 AI 行业动态与产品战略领域，分析 Agent 产品化的核心方法论与人才竞争逻辑，理解代码 Agent 领域的产品设计与商业化路径。"
+  },
+  "https://github.com/peterpoal134/memory-brain": {
+   "title": "peterpoal134/memory-brain",
+   "date": "2026-11-06",
+   "tokens": [
+    "brain",
+    "memory",
+    "peterpoal134"
+   ],
+   "source": "github",
+   "summary_zh": "memory-brain 为 AstrBot 提供五类记忆管理方案，包含混合检索、遗忘机制及情绪边界控制，实现 AI 智能体的长效记忆与自主生活循环。",
+   "why_zh": "属于 Agent 记忆系统设计。可复用其分层记忆架构与遗忘治理策略，解决长周期交互中上下文溢出与记忆冗余问题。"
+  },
+  "https://github.com/WenyiWU0111/RSIGame": {
+   "title": "WenyiWU0111/RSIGame",
+   "date": "2026-11-06",
+   "tokens": [
+    "rsigame",
+    "wenyiwu0111"
+   ],
+   "source": "github",
+   "summary_zh": "RSIGame 利用递归自我改进（Recursive Self-Improvement）机制，实现游戏开发过程中的自主智能体迭代与逻辑优化。",
+   "why_zh": "属于 Agent 自进化框架。可学习其通过递归反馈循环提升代码生成质量的工程实践，适用于自动化软件开发流水线。"
+  },
+  "https://github.com/erhanmeydan/kilnframe": {
+   "title": "erhanmeydan/kilnframe",
+   "date": "2026-11-06",
+   "tokens": [
+    "erhanmeydan",
+    "kilnframe"
+   ],
+   "source": "github",
+   "summary_zh": "kilnframe 是一个 Premiere Pro 和 DaVinci Resolve 插件，支持本地渲染，可将语音指令实时转化为动画素材与背景音乐。",
+   "why_zh": "属于多模态工作流集成。可借鉴其本地化推理与非线性剪辑软件的 API 交互设计，优化多媒体自动化生产效率。"
+  },
+  "https://www.youtube.com/watch?v=9ZxCOHkfn_8": {
+   "title": "GPT-Image-2.6: Faster image generation with Flare and Sunburst",
+   "date": "2026-11-06",
+   "tokens": [
+    "faster",
+    "flare",
+    "generation",
+    "gpt",
+    "image",
+    "sunburst"
+   ],
+   "source": "youtube",
+   "summary_zh": "OpenAI 发布 GPT-Image-2.6，通过 Flare 和 Sunburst 模型实现图像生成速度提升 50%，并针对快速草图与高一致性编辑提供不同优化路径。",
+   "why_zh": "属于生成式模型工程化应用。可复用其针对不同任务场景（速度优先 vs 一致性优先）的模型选型与推理策略。"
+  },
+  "https://www.youtube.com/watch?v=RYIV5E2Xq60": {
+   "title": "I REALLY Want Open Models to Win, But They Just Don't Cut It (Yet)",
+   "date": "2026-11-06",
+   "tokens": [
+    "cut",
+    "don",
+    "just",
+    "models",
+    "open",
+    "really",
+    "they",
+    "want",
+    "win",
+    "yet"
+   ],
+   "source": "youtube",
+   "summary_zh": "分析指出开源模型在复杂长周期 Agent 任务中指令遵循能力仍弱于闭源模型，通过 AI 软件工厂测试揭示了长任务下的性能衰减瓶颈。",
+   "why_zh": "属于 Agent 稳定性评估。可学习其通过复杂任务基准测试（如构建完整游戏）来评估模型指令遵循与长上下文逻辑一致性的方法。"
+  },
+  "https://www.leiphone.com/category/industrynews/XOv7MDFAP99kUMEW.html": {
+   "title": "百度开源文心5.5 Flash Base，多基准测试刷新同尺寸模型 SOTA",
+   "date": "2026-11-06",
+   "tokens": [
+    "base",
+    "flash",
+    "sota",
+    "多基准测试刷新同尺寸模型",
+    "百度开源文心5"
+   ],
+   "source": "blog",
+   "summary_zh": "百度开源 ERNIE 5.5 Flash Base 模型，采用 MoE 架构，总参数 2800 亿，支持 128K 预训练上下文及 100 万 Token 推理窗口。",
+   "why_zh": "属于 MoE 大模型架构优化。可关注其在长上下文处理与推理效率平衡上的技术实现，为大规模长文本任务提供基座选型参考。"
+  },
+  "https://huggingface.co/blog/phonon-tts": {
+   "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+   "date": "2026-11-06",
+   "tokens": [
+    "benchmarks",
+    "closer",
+    "device",
+    "high",
+    "launching",
+    "look",
+    "phonon",
+    "quality",
+    "speech",
+    "tops",
+    "tts"
+   ],
+   "source": "blog",
+   "summary_zh": "HuggingFace 发布 Phonon TTS，这是一款高性能端侧语音合成模型，在多项基准测试中表现优异，适用于低延迟、离线环境的语音交互应用。",
+   "why_zh": "端侧模型部署与推理优化。学习如何平衡模型参数量与音频生成质量，掌握轻量化 TTS 模型在移动端或边缘设备上的落地工程实践。"
+  },
+  "https://www.youtube.com/watch?v=pXRZyOxbDL4": {
+   "title": "How Mozilla strengthens Firefox security with GPT-6 Cyber",
+   "date": "2026-11-06",
+   "tokens": [
+    "cyber",
+    "firefox",
+    "gpt",
+    "mozilla",
+    "security",
+    "strengthens"
+   ],
+   "source": "youtube",
+   "summary_zh": "Mozilla 利用 GPT-6 Cyber 自动化扫描 Firefox 源码，成功发现并修复了多个高危漏洞，验证了 AI 在软件安全审计与自动化防御中的应用潜力。",
+   "why_zh": "AI 安全与自动化代码审计。掌握利用大模型进行静态分析与漏洞挖掘的流程，理解如何将 AI 融入 DevSecOps 流水线以提升软件安全性。"
   }
  },
- "updated": "2026-11-04T17:26:16.670413+00:00"
+ "updated": "2026-11-05T17:34:59.921796+00:00"
 }

@@ -1,0 +1,621 @@
+{
+ "date": "2026-11-06",
+ "generated": "2026-11-06 01:34",
+ "source_count": {
+  "github": 79,
+  "youtube": 37,
+  "blog": 83,
+  "paper": 24,
+  "hackernews": 10
+ },
+ "failures": {},
+ "failure_errors": {},
+ "summary_missing": [],
+ "summary_providers": {
+  "gemini": 3
+ },
+ "items": [
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Uncertainty-Aware Resource Orchestration for Agentic AI Systems",
+   "link": "https://arxiv.org/abs/2611.05392",
+   "dt": "2026-11-05T00:00:00-05:00",
+   "summary": "arXiv:2611.05392v1 Announce Type: new Abstract: Agentic artificial intelligence (AI) systems powered by large language models (LLMs) execute as autonomous multi-step pipelines that dynamically invoke tools, integrate observations into memory, and iterate until a task is resolved or a resource budget is exhausted. Unlike classical workflows with fixed graphs, the aggregate compute, bandwidth, and end-to-end latency demands of such pipelines are unknown at dispatch time: they emerge at runtime fro",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "multi_agent"
+   ],
+   "learn_score": 3.729,
+   "score": 7.458,
+   "tokens": [
+    "agentic",
+    "ai",
+    "aware",
+    "orchestration",
+    "resource",
+    "systems",
+    "uncertainty"
+   ],
+   "flag": "new",
+   "summary_zh": "提出一种基于不确定性感知的 Agent 资源编排框架，通过动态监控 LLM 执行过程中的资源消耗与任务状态，优化多步推理任务的计算与带宽分配。",
+   "why_zh": "属于 Agent 系统工程与性能优化领域，学习如何通过量化模型推理的不确定性来动态调度计算资源，提升复杂任务的执行效率与成本控制能力。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Challenge-Aware Knowledge Recruitment with Meta-Agent Supervision for Medical Multi-Agent Reasoning",
+   "link": "https://arxiv.org/abs/2611.05393",
+   "dt": "2026-11-05T00:00:00-05:00",
+   "summary": "arXiv:2611.05393v1 Announce Type: new Abstract: Large language models perform strongly on standard medical QA but degrade on harder reasoning tasks, where multi-agent debate often fails to beat strong single-model prompting. We argue that a key limitation is that existing systems select experts and retrieve knowledge from the question alone, rather than from gaps that emerge during reasoning. We propose challenge-aware adaptive recruitment: an external CHALLENGER inspects the evolving reasoning ",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "prompt_context",
+    "multi_agent"
+   ],
+   "learn_score": 3.58,
+   "score": 7.16,
+   "tokens": [
+    "agent",
+    "aware",
+    "challenge",
+    "knowledge",
+    "medical",
+    "meta",
+    "multi",
+    "reasoning",
+    "recruitment",
+    "supervision"
+   ],
+   "flag": "new",
+   "summary_zh": "提出一种挑战感知知识招募机制，通过 Meta-Agent 监督医疗多智能体推理过程，根据推理中产生的知识缺口而非仅凭初始问题检索专家知识。",
+   "why_zh": "属于多智能体协作与 RAG 优化领域，学习如何通过 Meta-Agent 动态调整推理路径，解决多智能体在复杂推理任务中信息检索不精准的问题。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Ask HN: What's your current AI agentic setup?",
+   "link": "https://news.ycombinator.com/item?id=50366117",
+   "dt": "2026-11-04T14:37:22+00:00",
+   "summary": "I'm curious how people on HN are using AI day to day, and came up with a list of questions I thought could be interesting to know. No need to answer every question of course, just wanted to get a gut feel how people are using AI. 1) What AI subscriptions are you personally paying for? (Claude, ChatGPT/Codex, Cursor, etc) - Which tiers? - Have you purchased multiple subscriptions from the same prov",
+   "extra": {
+    "points": 481,
+    "comments": 584,
+    "hn_link": "https://news.ycombinator.com/item?id=50366117"
+   },
+   "skills": [],
+   "learn_score": 1.35,
+   "score": 4.971,
+   "tokens": [
+    "agentic",
+    "ai",
+    "ask",
+    "current",
+    "hn",
+    "setup"
+   ],
+   "flag": "new",
+   "summary_zh": "汇总了开发者在日常工作流中构建 AI Agent 的主流技术栈与工具偏好，涵盖了模型订阅、IDE 集成及自动化工作流配置。",
+   "why_zh": "属于 AI 工程实践与工具链选型领域，通过调研行业主流 Agent 开发环境，掌握构建高效个人或团队 AI 辅助开发系统的最佳实践。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
+   "link": "https://www.ricursive.com/ripple",
+   "dt": "2026-11-04T18:53:29+00:00",
+   "summary": "",
+   "extra": {
+    "points": 328,
+    "comments": 118,
+    "hn_link": "https://news.ycombinator.com/item?id=50369925"
+   },
+   "skills": [],
+   "learn_score": 1.35,
+   "score": 4.746,
+   "tokens": [
+    "65b",
+    "agentic",
+    "coding",
+    "open",
+    "preview",
+    "ripple",
+    "sota",
+    "weight"
+   ],
+   "flag": "new",
+   "summary_zh": "发布 Ripple-65B 模型，专注于 Agentic Coding 任务，旨在提供美国境内开源模型在代码生成与智能体开发领域的最优性能。",
+   "why_zh": "属于大模型评估与垂直领域微调领域，关注开源模型在代码 Agent 场景下的能力边界，学习如何评估特定任务下的模型性能与适用性。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "silverdugongenhance/PromptReel",
+   "link": "https://github.com/silverdugongenhance/PromptReel",
+   "dt": "2026-11-04T15:29:54+00:00",
+   "summary": "Free desktop app that turns a text prompt into a short video clip on your own PC. Local AI text-to-video with Wan 2.2: type a scene, pick wide, vertical or square, get an MP4. No credits, no subscription, no queue. Windows 10/11.",
+   "extra": {
+    "stars": 108,
+    "language": "",
+    "topics": [
+     "ai-tools",
+     "ai-video",
+     "ai-video-clip",
+     "ai-video-generator-crack",
+     "free",
+     "generative-ai"
+    ],
+    "created": "2026-11-04",
+    "pushed": "2026-11-04"
+   },
+   "skills": [
+    "prompt_context"
+   ],
+   "learn_score": 1.53,
+   "score": 4.641,
+   "tokens": [
+    "promptreel",
+    "silverdugongenhance"
+   ],
+   "flag": "new",
+   "summary_zh": "开源桌面应用 PromptReel，支持在本地运行 Wan 2.2 模型，将文本提示词直接转化为短视频，无需订阅或排队。",
+   "why_zh": "属于端侧 AI 部署与多模态应用开发领域，学习如何封装本地推理引擎，实现低延迟、零成本的端侧多模态生成工作流。"
+  },
+  {
+   "source": "blog",
+   "source_label": "雷锋网",
+   "title": "挖走 Claude Code 产品负责人 Cat Wu，OpenAI 直击 Anthropic 上市命门",
+   "link": "https://www.leiphone.com/category/yanxishe/iIUJoulGndesZear.html",
+   "dt": "2026-11-05T15:01:00+08:00",
+   "summary": "人、基建落位，OpenAI 押注团队 Agent。 作者丨 高允毅 编辑丨岑 峰 Anthropic 刚递交招股书一周，自家最赚钱的产品，产品负责人已经坐到了对面。 今早， 前 Claude Code 产品负责人 Cat Wu 在 X 上宣布加入 OpenAI，出任核心产品组的产品负责人。 一天前，她刚告别了 Anthropic ，堪称“无缝衔接”。OpenAI 总裁 Greg Brockman 立刻转帖欢迎。 这已经是十天内，Claude Code团队离开的第三位核心成员。前段时间，离开的分别是Claude Code的桌面版之父Anthony Morris 和 Agent 核心工程师 Thariq Shihipar。而这个时间点，Anthropic 正好站在了上市的紧要关口。 Cat Wu 的离职之所以震动硅谷，不只是因为她换了阵营，更因为她带走了这条最赚钱产品线的完整方法论 01 Cat Wu是谁？ Cat Wu，真名是Catherine Wu，她是硅谷 AI 圈炙手可热的华裔明星产品经理。 作为 Anthropic 旗下王牌 AI 编程工具 Claude Code 和办公智能体 …",
+   "extra": {},
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 2.438,
+   "score": 2.438,
+   "tokens": [
+    "anthropic",
+    "cat",
+    "claude",
+    "code",
+    "openai",
+    "wu",
+    "上市命门",
+    "产品负责人",
+    "挖走",
+    "直击"
+   ],
+   "flag": "new",
+   "summary_zh": "OpenAI 引入 Claude Code 产品负责人 Cat Wu，旨在通过吸纳核心人才强化其在 Agent 产品化与代码自动化领域的竞争优势。",
+   "why_zh": "属于 AI 行业动态与产品战略领域，分析 Agent 产品化的核心方法论与人才竞争逻辑，理解代码 Agent 领域的产品设计与商业化路径。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "peterpoal134/memory-brain",
+   "link": "https://github.com/peterpoal134/memory-brain",
+   "dt": "2026-10-28T16:08:47+00:00",
+   "summary": "给 AstrBot 的可落地 AI 记忆与生活层：五类记忆、混合检索、遗忘治理、情绪边界、自主生活循环。不覆盖人格。",
+   "extra": {
+    "stars": 137,
+    "language": "JavaScript",
+    "topics": [
+     "agpl",
+     "ai-companion",
+     "astrbot",
+     "astrbot-plugin",
+     "llm",
+     "local-first"
+    ],
+    "created": "2026-10-28",
+    "pushed": "2026-11-05"
+   },
+   "skills": [],
+   "learn_score": 0.765,
+   "score": 2.4,
+   "tokens": [
+    "brain",
+    "memory",
+    "peterpoal134"
+   ],
+   "flag": "new",
+   "summary_zh": "memory-brain 为 AstrBot 提供五类记忆管理方案，包含混合检索、遗忘机制及情绪边界控制，实现 AI 智能体的长效记忆与自主生活循环。",
+   "why_zh": "属于 Agent 记忆系统设计。可复用其分层记忆架构与遗忘治理策略，解决长周期交互中上下文溢出与记忆冗余问题。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "WenyiWU0111/RSIGame",
+   "link": "https://github.com/WenyiWU0111/RSIGame",
+   "dt": "2026-09-28T23:54:09+00:00",
+   "summary": "RSIGame: Autonomous agentic game development with recursive self-improvement",
+   "extra": {
+    "stars": 168,
+    "language": "Python",
+    "topics": [
+     "ai-agent",
+     "coding-agent",
+     "game-development",
+     "gamedev",
+     "generative-ai",
+     "godot"
+    ],
+    "created": "2026-09-28",
+    "pushed": "2026-10-30"
+   },
+   "skills": [],
+   "learn_score": 0.729,
+   "score": 2.351,
+   "tokens": [
+    "rsigame",
+    "wenyiwu0111"
+   ],
+   "flag": "new",
+   "summary_zh": "RSIGame 利用递归自我改进（Recursive Self-Improvement）机制，实现游戏开发过程中的自主智能体迭代与逻辑优化。",
+   "why_zh": "属于 Agent 自进化框架。可学习其通过递归反馈循环提升代码生成质量的工程实践，适用于自动化软件开发流水线。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "erhanmeydan/kilnframe",
+   "link": "https://github.com/erhanmeydan/kilnframe",
+   "dt": "2026-10-11T02:19:12+00:00",
+   "summary": "Free, open source plugin for Premiere Pro and DaVinci Resolve: turns what you say into animated inserts and music, rendered on your own computer",
+   "extra": {
+    "stars": 97,
+    "language": "TypeScript",
+    "topics": [
+     "ai-animation",
+     "ai-video",
+     "animation",
+     "davinci-resolve",
+     "explainer-video",
+     "generative-ai"
+    ],
+    "created": "2026-10-11",
+    "pushed": "2026-11-03"
+   },
+   "skills": [],
+   "learn_score": 0.765,
+   "score": 2.285,
+   "tokens": [
+    "erhanmeydan",
+    "kilnframe"
+   ],
+   "flag": "new",
+   "summary_zh": "kilnframe 是一个 Premiere Pro 和 DaVinci Resolve 插件，支持本地渲染，可将语音指令实时转化为动画素材与背景音乐。",
+   "why_zh": "属于多模态工作流集成。可借鉴其本地化推理与非线性剪辑软件的 API 交互设计，优化多媒体自动化生产效率。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "GPT-Image-2.6: Faster image generation with Flare and Sunburst",
+   "link": "https://www.youtube.com/watch?v=9ZxCOHkfn_8",
+   "dt": "2026-11-04T23:42:40+00:00",
+   "summary": "We’re bringing GPT-Image-2.6 to Codex and the API. In the API, the 2.6 versions of Flare and Sunburst generate images 50% faster than before. Use Flare for a quick first pass on a poster or product shot. At low image quality, it can generate an image in as little as six seconds. When you need details to stay consistent across edits, use Sunburst at medium or high quality. Try changing a product’s backdrop while keeping its shape and texture, or bring a mascot to life as a looping GIF. http://ope…",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": "9ZxCOHkfn_8"
+   },
+   "skills": [
+    "prompt_context"
+   ],
+   "learn_score": 2.066,
+   "score": 2.066,
+   "tokens": [
+    "faster",
+    "flare",
+    "generation",
+    "gpt",
+    "image",
+    "sunburst"
+   ],
+   "flag": "new",
+   "summary_zh": "OpenAI 发布 GPT-Image-2.6，通过 Flare 和 Sunburst 模型实现图像生成速度提升 50%，并针对快速草图与高一致性编辑提供不同优化路径。",
+   "why_zh": "属于生成式模型工程化应用。可复用其针对不同任务场景（速度优先 vs 一致性优先）的模型选型与推理策略。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Cole Medin",
+   "title": "I REALLY Want Open Models to Win, But They Just Don't Cut It (Yet)",
+   "link": "https://www.youtube.com/watch?v=RYIV5E2Xq60",
+   "dt": "2026-11-05T01:00:05+00:00",
+   "summary": "I really want open-weight models like Kimi K3.1 to be a real option for agentic engineering. They match Opus 5.5 and GPT-6 Astra on the benchmarks and work great for smaller tasks, but on long running agentic work they stop following instructions and fall apart. In this video I break down why, show how I tested it by having all three build the same game in my AI software factory, and cover the mix of frontier and open models I'm using right now. ~~~~~~~~~~~~~~~~~~~~~~~~~~ Ad: This video is spons…",
+   "extra": {
+    "channel": "Cole Medin",
+    "video_id": "RYIV5E2Xq60"
+   },
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 2.066,
+   "score": 2.066,
+   "tokens": [
+    "cut",
+    "don",
+    "just",
+    "models",
+    "open",
+    "really",
+    "they",
+    "want",
+    "win",
+    "yet"
+   ],
+   "flag": "new",
+   "summary_zh": "分析指出开源模型在复杂长周期 Agent 任务中指令遵循能力仍弱于闭源模型，通过 AI 软件工厂测试揭示了长任务下的性能衰减瓶颈。",
+   "why_zh": "属于 Agent 稳定性评估。可学习其通过复杂任务基准测试（如构建完整游戏）来评估模型指令遵循与长上下文逻辑一致性的方法。"
+  },
+  {
+   "source": "blog",
+   "source_label": "雷锋网",
+   "title": "百度开源文心5.5 Flash Base，多基准测试刷新同尺寸模型 SOTA",
+   "link": "https://www.leiphone.com/category/industrynews/XOv7MDFAP99kUMEW.html",
+   "dt": "2026-11-05T14:53:00+08:00",
+   "summary": "11月5日，百度正式开源最新基座模型文心5.5 Flash Base（ERNIE 5.5 Flash Base）。模型采用MoE架构，总参数量2800亿，每个 Token 激活140亿参数，使用33.5万亿个 Token 完成预训练，预训练上下文长度最高达128K，微调与推理阶段支持最长100万 Token上下文。在知识、推理、数学、代码、多语言和长上下文等多个基准测试中取得同尺寸模型 SOTA 表现，超过 DeepSeek-V4-Flash-Base、Hy3-preview-Base、MiMo-V2.5-Base 等模型。 开源地址：https://huggingface.co/baidu/ERNIE-5.5-Flash-Base ﻿ 随着大模型应用从文本问答向长文档分析、多轮交互和智能体任务延伸，模型需要处理的信息量持续增加，计算和显存开销也随之上升。在保证模型能力的同时提高资源利用效率，已成为大模型研发的重要课题。 ﻿ 文心 5.5 Flash Base围绕“效率”这一设计主线，在注意力机制、专家路由及训练机制等关键环节进行系统性优化，并实现了多项算法创新。 ﻿ 在注意力机制上，…",
+   "extra": {},
+   "skills": [
+    "agent_architecture",
+    "training_serving",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.023,
+   "score": 2.023,
+   "tokens": [
+    "base",
+    "flash",
+    "sota",
+    "多基准测试刷新同尺寸模型",
+    "百度开源文心5"
+   ],
+   "flag": "new",
+   "summary_zh": "百度开源 ERNIE 5.5 Flash Base 模型，采用 MoE 架构，总参数 2800 亿，支持 128K 预训练上下文及 100 万 Token 推理窗口。",
+   "why_zh": "属于 MoE 大模型架构优化。可关注其在长上下文处理与推理效率平衡上的技术实现，为大规模长文本任务提供基座选型参考。"
+  },
+  {
+   "source": "blog",
+   "source_label": "HuggingFace 博客",
+   "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+   "link": "https://huggingface.co/blog/phonon-tts",
+   "dt": "2026-11-05T00:00:00+00:00",
+   "summary": "",
+   "extra": {},
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.951,
+   "score": 1.951,
+   "tokens": [
+    "benchmarks",
+    "closer",
+    "device",
+    "high",
+    "launching",
+    "look",
+    "phonon",
+    "quality",
+    "speech",
+    "tops",
+    "tts"
+   ],
+   "flag": "new",
+   "summary_zh": "HuggingFace 发布 Phonon TTS，这是一款高性能端侧语音合成模型，在多项基准测试中表现优异，适用于低延迟、离线环境的语音交互应用。",
+   "why_zh": "端侧模型部署与推理优化。学习如何平衡模型参数量与音频生成质量，掌握轻量化 TTS 模型在移动端或边缘设备上的落地工程实践。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "How Mozilla strengthens Firefox security with GPT-6 Cyber",
+   "link": "https://www.youtube.com/watch?v=pXRZyOxbDL4",
+   "dt": "2026-11-05T17:14:11+00:00",
+   "summary": "Mozilla used GPT-6 Cyber to uncover previously unknown high-severity vulnerabilities in Firefox and identify architectural improvements. Its team shipped fixes to millions of users, turning findings into protections for the people who depend on the software. Hear Brian Grinstead, Distinguished Engineer for Firefox, share Mozilla’s experience and what stronger AI can mean for software defense. https://openai.com/index/introducing-gpt-6-cyber/",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": "pXRZyOxbDL4"
+   },
+   "skills": [],
+   "learn_score": 0.9,
+   "score": 0.9,
+   "tokens": [
+    "cyber",
+    "firefox",
+    "gpt",
+    "mozilla",
+    "security",
+    "strengthens"
+   ],
+   "flag": "new",
+   "summary_zh": "Mozilla 利用 GPT-6 Cyber 自动化扫描 Firefox 源码，成功发现并修复了多个高危漏洞，验证了 AI 在软件安全审计与自动化防御中的应用潜力。",
+   "why_zh": "AI 安全与自动化代码审计。掌握利用大模型进行静态分析与漏洞挖掘的流程，理解如何将 AI 融入 DevSecOps 流水线以提升软件安全性。"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "wanghao-SunSky/cs329z-chinese",
+   "link": "https://github.com/wanghao-SunSky/cs329z-chinese",
+   "dt": "2026-10-28T18:18:24+00:00",
+   "summary": "斯坦福 Stanford CS329Z Engineering AI Agents 中文教程：面向 Python 开发者的 AI 智能体课程，19 讲与 4 项实践，涵盖 LLM、RAG、工具调用、记忆、多智能体、评测与安全。完整 Markdown、在线与离线 HTML。Chinese course notes.",
+   "extra": {
+    "stars": 500,
+    "language": "HTML",
+    "topics": [
+     "agent-memory",
+     "agentic-ai",
+     "ai-agents",
+     "chinese",
+     "chinese-tutorial",
+     "course-notes"
+    ],
+    "created": "2026-10-28",
+    "pushed": "2026-10-31"
+   },
+   "skills": [
+    "rag",
+    "tool_mcp",
+    "agent_architecture",
+    "multi_agent",
+    "eval_observability"
+   ],
+   "learn_score": 2.754,
+   "score": 10.187,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-05 推荐过",
+   "summary_zh": "斯坦福 CS329Z 课程中文版，系统梳理了 LLM、RAG、工具调用、记忆机制、多智能体架构及评测安全等智能体开发核心知识体系。",
+   "why_zh": "属于 AI Agent 工程化技能点，可复用其课程设计的模块化架构，学习如何构建从基础到多智能体协作的完整开发工作流。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "aa1143/NamiAgent",
+   "link": "https://github.com/aa1143/NamiAgent",
+   "dt": "2026-10-30T11:03:30+00:00",
+   "summary": "零基础入门 AI Agent 的基础教程。不只是教程，也是一个能在本地跑起来的 Agent：读写文件、执行命令、MCP、长期记忆，自带网页端看清每一步。从 100 行最小循环开始，一课加一个能力，最后拆解 Claude Code、Codex 等主流 Agent",
+   "extra": {
+    "stars": 372,
+    "language": "Python",
+    "topics": [
+     "agent",
+     "ai-agent",
+     "chinese",
+     "claude-code",
+     "deepseek",
+     "from-scratch"
+    ],
+    "created": "2026-10-30",
+    "pushed": "2026-10-30"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 2.324,
+   "score": 8.298,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-05 推荐过",
+   "summary_zh": "NamiAgent 提供从 100 行代码起步的 Agent 开发教程，涵盖文件读写、命令执行、MCP 协议及长期记忆实现，并支持本地运行与可视化调试。",
+   "why_zh": "Agent 架构设计技能。可复用其模块化构建 Agent 循环的思路，通过分步实现核心组件（如记忆、工具调用）来掌握复杂 Agent 的工程化落地。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "YOLOW92/pagesift",
+   "link": "https://github.com/YOLOW92/pagesift",
+   "dt": "2026-10-20T17:30:59+00:00",
+   "summary": "Self-hosted web scraper, crawler and document parser for AI agents: URLs, PDFs with OCR and Office files to clean Markdown/JSON. Firecrawl- and Jina-compatible API, MCP server, agent endpoint, Python/Node SDKs. Single Rust binary.",
+   "extra": {
+    "stars": 234,
+    "language": "Rust",
+    "topics": [
+     "ai-agents",
+     "browser-automation",
+     "crawl4ai-alternative",
+     "data-extraction",
+     "document-parsing",
+     "firecrawl"
+    ],
+    "created": "2026-10-20",
+    "pushed": "2026-11-04"
+   },
+   "skills": [
+    "tool_mcp",
+    "training_serving"
+   ],
+   "learn_score": 2.107,
+   "score": 7.099,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-29 推荐过",
+   "summary_zh": "基于 Rust 的高性能网页爬虫与内容提取引擎，提供适配 AI Agent 和 RAG 的干净 Markdown 及结构化数据输出。",
+   "why_zh": "RAG 数据预处理技能，学习使用 Rust 实现高内存效率的浏览器渲染与 Firecrawl 兼容 API 以加速数据获取。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ccch1mneyyy/dsh-Go",
+   "link": "https://github.com/ccch1mneyyy/dsh-Go",
+   "dt": "2026-10-25T08:09:52+00:00",
+   "summary": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+   "extra": {
+    "stars": 11262,
+    "language": "Dart",
+    "topics": [
+     "ai-agent",
+     "android",
+     "android-app",
+     "coding-agent",
+     "deepseek",
+     "deepseek-harness"
+    ],
+    "created": "2026-10-25",
+    "pushed": "2026-11-05"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-05 推荐过",
+   "summary_zh": "dsh-Go 实现 DeepSeek 模型在移动端本地运行，并支持远程控制桌面端执行任务，提供轻量级端侧推理解决方案。",
+   "why_zh": "属于端侧 AI 部署技能点，可复用其跨设备通信与本地推理引擎集成方案，解决资源受限环境下的智能体调度问题。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "tangency-labs/solidcraft",
+   "link": "https://github.com/tangency-labs/solidcraft",
+   "dt": "2026-10-07T18:57:48+00:00",
+   "summary": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+   "extra": {
+    "stars": 14070,
+    "language": "Rust",
+    "topics": [
+     "3d-modeling",
+     "brep",
+     "cad",
+     "egui",
+     "mcp",
+     "parametric-cad"
+    ],
+    "created": "2026-10-07",
+    "pushed": "2026-11-05"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-05 推荐过",
+   "summary_zh": "SolidCraft 是用纯 Rust 构建的开源参数化3D CAD 应用，支持桌面、网页及MCP自动化。",
+   "why_zh": "演示Rust在复杂图形系统中的工程实践，可参考高性能跨平台CAD开发。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "google-research/harness2",
+   "link": "https://github.com/google-research/harness2",
+   "dt": "2026-10-06T21:48:11+00:00",
+   "summary": "",
+   "extra": {
+    "stars": 22798,
+    "language": "Python",
+    "topics": [],
+    "created": "2026-10-06",
+    "pushed": "2026-11-02"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-05 推荐过",
+   "summary_zh": "Google Research 开源 harness2 项目，具体功能暂无简介，需结合代码库上下文判断其评估或测试用途。",
+   "why_zh": "关注顶级实验室开源工具，通过阅读代码可学习大模型评估框架或测试流水线的标准化工程实践。"
+  }
+ ]
+}
