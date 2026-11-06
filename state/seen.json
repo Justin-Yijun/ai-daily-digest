@@ -3296,7 +3296,7 @@
   },
   "https://github.com/tangency-labs/solidcraft": {
    "title": "tangency-labs/solidcraft",
-   "date": "2026-11-06",
+   "date": "2026-11-07",
    "tokens": [],
    "source": "github",
    "summary_zh": "SolidCraft 是用纯 Rust 构建的开源参数化3D CAD 应用，支持桌面、网页及MCP自动化。",
@@ -3488,7 +3488,7 @@
   },
   "https://github.com/google-research/harness2": {
    "title": "google-research/harness2",
-   "date": "2026-11-06",
+   "date": "2026-11-07",
    "tokens": [],
    "source": "github",
    "summary_zh": "Google Research 开源 harness2 项目，具体功能暂无简介，需结合代码库上下文判断其评估或测试用途。",
@@ -5618,7 +5618,7 @@
   },
   "https://github.com/YOLOW92/pagesift": {
    "title": "YOLOW92/pagesift",
-   "date": "2026-11-06",
+   "date": "2026-11-07",
    "tokens": [],
    "source": "github",
    "summary_zh": "基于 Rust 的高性能网页爬虫与内容提取引擎，提供适配 AI Agent 和 RAG 的干净 Markdown 及结构化数据输出。",
@@ -6194,7 +6194,7 @@
   },
   "https://github.com/wanghao-SunSky/cs329z-chinese": {
    "title": "wanghao-SunSky/cs329z-chinese",
-   "date": "2026-11-06",
+   "date": "2026-11-07",
    "tokens": [],
    "source": "github",
    "summary_zh": "斯坦福 CS329Z 课程中文版，系统梳理了 LLM、RAG、工具调用、记忆机制、多智能体架构及评测安全等智能体开发核心知识体系。",
@@ -6202,7 +6202,7 @@
   },
   "https://github.com/ccch1mneyyy/dsh-Go": {
    "title": "ccch1mneyyy/dsh-Go",
-   "date": "2026-11-06",
+   "date": "2026-11-07",
    "tokens": [],
    "source": "github",
    "summary_zh": "dsh-Go 实现 DeepSeek 模型在移动端本地运行，并支持远程控制桌面端执行任务，提供轻量级端侧推理解决方案。",
@@ -6635,7 +6635,7 @@
   },
   "https://github.com/ai-gateways/awesome-ai-gateways": {
    "title": "ai-gateways/awesome-ai-gateways",
-   "date": "2026-11-04",
+   "date": "2026-11-07",
    "tokens": [],
    "source": "github",
    "summary_zh": "整理开源与商业 LLM 网关、MCP 网关、Agent 间通信网关及模型路由器的技术资源库。",
@@ -7438,7 +7438,211 @@
    "source": "youtube",
    "summary_zh": "Mozilla 利用 GPT-6 Cyber 自动化扫描 Firefox 源码，成功发现并修复了多个高危漏洞，验证了 AI 在软件安全审计与自动化防御中的应用潜力。",
    "why_zh": "AI 安全与自动化代码审计。掌握利用大模型进行静态分析与漏洞挖掘的流程，理解如何将 AI 融入 DevSecOps 流水线以提升软件安全性。"
+  },
+  "https://arxiv.org/abs/2611.06976": {
+   "title": "On the Opportunities and Challenges of Prefill-to-Autoregressive Cross-Model Transfer",
+   "date": "2026-11-07",
+   "tokens": [
+    "autoregressive",
+    "challenges",
+    "cross",
+    "model",
+    "opportunities",
+    "prefill",
+    "transfer"
+   ],
+   "source": "paper",
+   "summary_zh": "提出 PACT 框架，通过将大模型的 Prefill 阶段表征传递给小模型进行 Autoregressive 生成，实现推理成本与模型能力的平衡。",
+   "why_zh": "属于模型推理优化领域，可学习如何通过跨模型特征蒸馏或协同推理降低端侧或小规模部署的算力开销。"
+  },
+  "https://mcp-explained.com/": {
+   "title": "MCP Explained",
+   "date": "2026-11-07",
+   "tokens": [
+    "explained",
+    "mcp"
+   ],
+   "source": "hackernews",
+   "summary_zh": "Model Context Protocol (MCP) 标准详解，定义了 AI 模型与数据源、工具集之间的通用连接协议。",
+   "why_zh": "属于 Agent 系统架构设计，掌握 MCP 协议有助于构建解耦的工具调用层，实现跨平台 Agent 工具的标准化复用。"
+  },
+  "https://arxiv.org/abs/2611.06989": {
+   "title": "The Two-Ledger Model: Transaction-Grain Cost Accounting for Multi-Agent AI Systems Across Clouds, Models, and Systems of Record",
+   "date": "2026-11-07",
+   "tokens": [
+    "accounting",
+    "across",
+    "agent",
+    "ai",
+    "clouds",
+    "cost",
+    "grain",
+    "ledger",
+    "model",
+    "models",
+    "multi",
+    "record",
+    "systems",
+    "transaction",
+    "two"
+   ],
+   "source": "paper",
+   "summary_zh": "提出 Two-Ledger Model，通过事务粒度的成本核算方法，解决多 Agent 系统在跨云、跨模型场景下的财务追踪难题。",
+   "why_zh": "属于 AI 工程化运维（LLMOps）领域，学习如何构建精细化的成本监控体系，以量化复杂 Agent 工作流的 ROI。"
+  },
+  "https://github.com/Fei2411/DS-Bot": {
+   "title": "Fei2411/DS-Bot",
+   "date": "2026-11-07",
+   "tokens": [
+    "bot",
+    "ds",
+    "fei2411"
+   ],
+   "source": "github",
+   "summary_zh": "开源 DeepSeek Harness 机器人集群，支持多 Bot 协作、Bot 间通信及群聊功能。",
+   "why_zh": "属于多智能体协作（Multi-Agent）开发，可参考其 Bot 间通信协议设计，用于构建复杂的分布式 Agent 任务调度系统。"
+  },
+  "https://github.com/anthropics/claude-code/issues/107757": {
+   "title": "Claude Code sends your email address to websites",
+   "date": "2026-11-07",
+   "tokens": [
+    "address",
+    "claude",
+    "code",
+    "email",
+    "sends",
+    "websites"
+   ],
+   "source": "hackernews",
+   "summary_zh": "指出 Claude Code 在执行过程中会将用户邮箱地址发送至第三方网站，引发隐私合规与数据安全讨论。",
+   "why_zh": "属于 AI 安全与隐私工程，提醒工程师在集成 CLI 工具或 Agent 时，需重点审计数据流向及敏感信息泄露风险。"
+  },
+  "https://github.com/didilili/mianstack": {
+   "title": "didilili/mianstack",
+   "date": "2026-11-07",
+   "tokens": [
+    "didilili",
+    "mianstack"
+   ],
+   "source": "github",
+   "summary_zh": "开源面试题库 MianStack，涵盖 Java、算法及 AI Agent、RAG 等大模型技术栈的面试考点与项目拆解。",
+   "why_zh": "属于 AI 工程师职业发展，通过其整理的 RAG 与 Agent 高频面试题，可系统化梳理技术栈知识盲区。"
+  },
+  "https://github.com/Generated-Computers/Locals": {
+   "title": "Generated-Computers/Locals",
+   "date": "2026-11-07",
+   "tokens": [
+    "computers",
+    "generated",
+    "locals"
+   ],
+   "source": "github",
+   "summary_zh": "Locals 是一个专为 Mac 优化的 AI Agent 运行环境，通过底层性能优化实现多 Agent 并发执行，速度提升至 3 倍。",
+   "why_zh": "属于 Agent 部署与性能优化技能点。可学习在本地资源受限环境下，通过进程调度与硬件加速提升多 Agent 并发吞吐量的工程实践。"
+  },
+  "https://www.youtube.com/watch?v=ty8i2zl9q2c": {
+   "title": "LangChain vs. LangGraph vs. Deep Agents: When to Use Each One",
+   "date": "2026-11-07",
+   "tokens": [
+    "agents",
+    "deep",
+    "each",
+    "langchain",
+    "langgraph",
+    "one",
+    "use",
+    "vs"
+   ],
+   "source": "youtube",
+   "summary_zh": "LangChain 官方梳理了 LangChain、LangGraph 与 Deep Agents 的定位：LangGraph 用于构建可控的图结构工作流，LangChain 提供基础工具调用，Deep Agents 负责深层逻辑。",
+   "why_zh": "属于 Agent 架构设计技能点。可学习如何根据业务复杂度和控制需求，在框架栈的不同层级选择合适的 Agent 编排模式。"
+  },
+  "https://www.youtube.com/watch?v=C9HS3zMrGo0": {
+   "title": "AREX-2 - The Harness in the Model",
+   "date": "2026-11-07",
+   "tokens": [
+    "arex",
+    "harness",
+    "model"
+   ],
+   "source": "youtube",
+   "summary_zh": "BAAI 发布 AREX-2 模型，基于 Qwen3.8-27B 微调，具备内置的 try-check-retry 循环能力，无需外部 Harness 即可自主完成任务迭代。",
+   "why_zh": "属于 Agent 自主推理与模型微调技能点。可学习将任务执行逻辑内化到模型权重中，减少外部控制逻辑依赖的 Agent 设计思路。"
+  },
+  "https://github.com/Jumbomuffin777/Frontier-UI": {
+   "title": "Jumbomuffin777/Frontier-UI",
+   "date": "2026-11-07",
+   "tokens": [
+    "frontier",
+    "jumbomuffin777",
+    "ui"
+   ],
+   "source": "github",
+   "summary_zh": "Frontier-UI 为 Open WebUI 提供 ChatGPT 风格的生成式 UI 组件，支持地图、图表、文档导出等交互功能，无需额外 API Key。",
+   "why_zh": "属于 Agent 前端交互与工具集成技能点。可学习如何通过前端组件化渲染增强 Agent 的多模态输出能力，提升用户交互体验。"
+  },
+  "https://www.youtube.com/shorts/EMIRXv2iE_Q": {
+   "title": "Your Coding Agent Knows Your Code, But Not Your Actual App (Here's the Fix)",
+   "date": "2026-11-07",
+   "tokens": [
+    "actual",
+    "agent",
+    "app",
+    "code",
+    "coding",
+    "fix",
+    "here",
+    "knows"
+   ],
+   "source": "youtube",
+   "summary_zh": "OutSystems MCP 方案通过连接应用运行平台，使编码 Agent 能够获取代码库之外的部署、依赖关系及运行时数据，解决上下文缺失问题。",
+   "why_zh": "属于 Agent 上下文增强与 MCP 协议应用技能点。可学习如何利用 MCP 扩展 Agent 的数据获取边界，实现从代码级到系统级的全链路感知。"
+  },
+  "https://www.infoq.cn/article/B7tsA5tjD08k2gd0OtXd?utm_source=rss&utm_medium=article": {
+   "title": "智能体 Harness 的演进：从链、图到代码化",
+   "date": "2026-11-07",
+   "tokens": [
+    "harness",
+    "从链",
+    "图到代码化",
+    "智能体",
+    "的演进"
+   ],
+   "source": "blog",
+   "summary_zh": "智能体 Harness 演进路径探讨，分析了从简单的链式调用到复杂的图结构编排，再到代码化控制的架构变迁。",
+   "why_zh": "属于 Agent 编排架构演进技能点。可学习评估不同编排范式在复杂任务处理中的鲁棒性与可维护性差异，优化 Agent 系统的工程架构。"
+  },
+  "https://www.langchain.com/blog/agents-are-going-async": {
+   "title": "Agents Are Going Async",
+   "date": "2026-11-07",
+   "tokens": [
+    "agents",
+    "async",
+    "going"
+   ],
+   "source": "blog",
+   "summary_zh": "LangChain 引入异步子代理架构，通过 orchestrator 管理后台任务，实现主代理在处理长耗时任务时的持续响应与状态同步。",
+   "why_zh": "考察 Agent 架构设计能力，掌握异步任务调度与状态管理模式，解决复杂 Agent 系统中的阻塞与响应延迟问题。"
+  },
+  "https://www.marktechpost.com/2026/11/05/together-ai-together-compiler-continual-compilation-ai-inference/": {
+   "title": "Together AI Releases Together Compiler: Agents Make Inference Up to 2.6x Faster",
+   "date": "2026-11-07",
+   "tokens": [
+    "6x",
+    "agents",
+    "ai",
+    "compiler",
+    "faster",
+    "inference",
+    "make",
+    "releases",
+    "together",
+    "up"
+   ],
+   "source": "blog",
+   "summary_zh": "Together AI 发布 Together Compiler，利用 Agent 驱动的循环机制，根据流量特征动态优化推理前向传播，实现高达 2.6 倍的吞吐量提升。",
+   "why_zh": "考察模型推理优化与系统工程能力，学习利用 Agent 自动化调优推理算子与计算图，提升生产环境下的模型服务性能。"
   }
  },
- "updated": "2026-11-05T17:34:59.921796+00:00"
+ "updated": "2026-11-06T16:53:13.163757+00:00"
 }
