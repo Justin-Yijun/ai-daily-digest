@@ -1,0 +1,631 @@
+{
+ "date": "2026-11-08",
+ "generated": "2026-11-08 01:29",
+ "source_count": {
+  "github": 77,
+  "youtube": 39,
+  "blog": 82,
+  "paper": 12,
+  "hackernews": 10
+ },
+ "failures": {},
+ "failure_errors": {},
+ "summary_missing": [],
+ "summary_providers": {
+  "gemini": 3
+ },
+ "items": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "zaxiu88888/issue-rag",
+   "link": "https://github.com/zaxiu88888/issue-rag",
+   "dt": "2026-11-01T11:32:25+00:00",
+   "summary": "RAG over GitHub issues, with a hand-reviewed eval set and an audit of the judge itself. Reports the interval, not just the best number.",
+   "extra": {
+    "stars": 129,
+    "language": "Python",
+    "topics": [
+     "evaluation",
+     "github-issues",
+     "llm",
+     "llm-as-judge",
+     "python",
+     "rag"
+    ],
+    "created": "2026-11-01",
+    "pushed": "2026-11-04"
+   },
+   "skills": [
+    "rag",
+    "eval_observability"
+   ],
+   "learn_score": 2.231,
+   "score": 6.94,
+   "tokens": [
+    "issue",
+    "rag",
+    "zaxiu88888"
+   ],
+   "flag": "new",
+   "summary_zh": "基于 GitHub Issues 构建的 RAG 系统，提供人工评估集及对 LLM 评测器本身的审计机制，通过置信区间而非单一指标评估检索质量。",
+   "why_zh": "RAG 评估与评测。学习如何构建高质量黄金数据集以及通过置信区间量化评估结果的稳定性，避免单一指标带来的偏差。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "GitHub's new Git storage architecture",
+   "link": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+   "dt": "2026-11-06T19:24:21+00:00",
+   "summary": "",
+   "extra": {
+    "points": 203,
+    "comments": 57,
+    "hn_link": "https://news.ycombinator.com/item?id=50397099"
+   },
+   "skills": [
+    "rag",
+    "system_design"
+   ],
+   "learn_score": 2.04,
+   "score": 6.747,
+   "tokens": [
+    "architecture",
+    "git",
+    "github",
+    "storage"
+   ],
+   "flag": "new",
+   "summary_zh": "GitHub 升级 Git 存储架构，通过优化底层数据结构与存储策略，提升大规模代码仓库的读写性能与扩展性。",
+   "why_zh": "系统架构与工程优化。了解大规模分布式版本控制系统的存储演进，学习如何处理海量小文件存储与高并发读写瓶颈。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Reducing Representational Interference in Retrieval Embeddings with Trainable Prefix Tokens",
+   "link": "https://huggingface.co/papers/2611.07298",
+   "dt": "2026-11-04T20:30:28+00:00",
+   "summary": "Embedding models compress variable-length text into fixed-size vector representations, but this compression can entangle semantic content with residual token-level information, such as artifacts arising from attention sink behavior. We propose a simple method that prepends trainable [DUMP] tokens to the input during embedding model training. The method keeps the model architecture, pooling strategy, and training loss unchanged, while optimizing the added tokens through the standard contrastive r",
+   "extra": {
+    "upvotes": 5,
+    "arxiv": "https://arxiv.org/abs/2611.07298"
+   },
+   "skills": [
+    "rag",
+    "eval_observability",
+    "llm_fundamentals",
+    "system_design"
+   ],
+   "learn_score": 3.314,
+   "score": 6.628,
+   "tokens": [
+    "embeddings",
+    "interference",
+    "prefix",
+    "reducing",
+    "representational",
+    "retrieval",
+    "tokens",
+    "trainable"
+   ],
+   "flag": "new",
+   "summary_zh": "在 Embedding 模型训练中引入可训练的 [DUMP] 前缀 Token，通过解耦语义内容与残余 Token 信息，减少表征干扰。",
+   "why_zh": "Embedding 模型优化。掌握通过前缀微调（Prefix Tuning）改善向量表征质量的技术，学习如何通过控制输入序列提升模型语义对齐能力。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Towards Real-Time Full-Waveform LiDAR Transformers via Intensity-Guided Token Reduction and Physics-Aware Augmentation",
+   "link": "https://huggingface.co/papers/2611.07613",
+   "dt": "2026-11-05T02:56:01+00:00",
+   "summary": "LiDAR is a critical sensor for autonomous driving and robotics, yet it remains vulnerable to adverse conditions such as fog, rain, transparent objects, and low-reflectance surfaces. Full-waveform LiDAR (FWL) addresses these limitations by capturing the complete return waveform as a histogram, preserving rich reflection characteristics including multi-path echoes and weak signals. While recent Transformer-based approaches have demonstrated promise on FWL data, two fundamental bottlenecks remain: ",
+   "extra": {
+    "upvotes": 5,
+    "arxiv": "https://arxiv.org/abs/2611.07613"
+   },
+   "skills": [
+    "agent_architecture",
+    "training_serving",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.685,
+   "score": 5.37,
+   "tokens": [
+    "augmentation",
+    "aware",
+    "full",
+    "guided",
+    "intensity",
+    "lidar",
+    "physics",
+    "real",
+    "reduction",
+    "time",
+    "token",
+    "towards",
+    "transformers",
+    "waveform"
+   ],
+   "flag": "new",
+   "summary_zh": "针对全波形 LiDAR 数据，提出强度引导的 Token 缩减与物理感知增强方法，实现自动驾驶场景下的实时高精度感知。",
+   "why_zh": "多模态感知与实时推理。学习如何通过 Token 剪枝与物理先验约束优化 Transformer 推理效率，解决复杂环境下的传感器数据处理难题。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "quyetcao/ai-manus",
+   "link": "https://github.com/quyetcao/ai-manus",
+   "dt": "2026-11-06T18:16:53+00:00",
+   "summary": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+   "extra": {
+    "stars": 93,
+    "language": "Python",
+    "topics": [
+     "ai",
+     "ai-agents",
+     "ai-sdk",
+     "anthropic",
+     "chatbot",
+     "function-calling"
+    ],
+    "created": "2026-11-06",
+    "pushed": "2026-11-07"
+   },
+   "skills": [],
+   "learn_score": 1.215,
+   "score": 3.607,
+   "tokens": [
+    "ai",
+    "manus",
+    "quyetcao"
+   ],
+   "flag": "new",
+   "summary_zh": "AI Manus 是一个支持在沙箱环境中执行多种工具与操作的通用 AI Agent 系统。",
+   "why_zh": "Agent 系统架构。学习 Agent 框架中沙箱环境（Sandbox）的隔离设计与工具调用（Tool Use）的调度逻辑，掌握 Agent 安全执行机制。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Hungary: Communist-era files released, up to 60k former agents revealed",
+   "link": "https://www.euronews.com/2026/11/04/hungary-communist-era-files-opened-up-to-60000-former-agents-revealed",
+   "dt": "2026-11-05T19:16:34+00:00",
+   "summary": "",
+   "extra": {
+    "points": 238,
+    "comments": 69,
+    "hn_link": "https://news.ycombinator.com/item?id=50383163"
+   },
+   "skills": [],
+   "learn_score": 1.0,
+   "score": 3.377,
+   "tokens": [
+    "60k",
+    "agents",
+    "communist",
+    "era",
+    "files",
+    "former",
+    "hungary",
+    "released",
+    "revealed",
+    "up"
+   ],
+   "flag": "new",
+   "summary_zh": "匈牙利解密共产主义时期档案，披露约 6 万名曾任特工人员的身份信息。",
+   "why_zh": "数据隐私与伦理。探讨大规模敏感数据解密对社会的影响，理解数据生命周期管理与隐私合规在历史数据处理中的边界。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "reacher-z/Awesome-REA",
+   "link": "https://github.com/reacher-z/Awesome-REA",
+   "dt": "2026-10-16T00:42:04+00:00",
+   "summary": "Curated tools, case studies and papers for reverse engineering websites, games, apps, binaries, firmware and protocols. Source-reviewed, English and Chinese.",
+   "extra": {
+    "stars": 1402,
+    "language": "Python",
+    "topics": [
+     "agent-skills",
+     "ai-agents",
+     "android-reverse-engineering",
+     "awesome",
+     "awesome-list",
+     "awesome-resources"
+    ],
+    "created": "2026-10-16",
+    "pushed": "2026-11-07"
+   },
+   "skills": [],
+   "learn_score": 0.765,
+   "score": 3.06,
+   "tokens": [
+    "awesome",
+    "rea",
+    "reacher"
+   ],
+   "flag": "new",
+   "summary_zh": "Awesome-REA 汇集了逆向工程网站、游戏、应用、二进制文件及固件的工具、案例研究与论文，涵盖中英文资源。",
+   "why_zh": "属于安全工程与逆向分析技能点。可学习通过逆向手段分析闭源模型 API 或协议接口，提升对 AI 系统安全边界的理解。"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "Buoyant Releases Kinference: An Open Source Inference Control Plane for Kubernetes and vLLM",
+   "link": "https://www.marktechpost.com/2026/11/07/buoyant-kinference-open-source-inference-control-plane-kubernetes-vllm/",
+   "dt": "2026-11-07T08:16:33+00:00",
+   "summary": "Buoyant has released Kinference, an Apache 2.0 inference control plane for vLLM on Kubernetes. It adds declarative routing policies, KV-cache-aware load balancing and per-tenant metrics, and cut median TTFT 95% in Buoyant’s own benchmark. The post Buoyant Releases Kinference: An Open Source Inference Control Plane for Kubernetes and vLLM appeared first on MarkTechPost .",
+   "extra": {},
+   "skills": [
+    "eval_observability",
+    "training_serving"
+   ],
+   "learn_score": 2.341,
+   "score": 2.341,
+   "tokens": [
+    "buoyant",
+    "control",
+    "inference",
+    "kinference",
+    "kubernetes",
+    "open",
+    "plane",
+    "releases",
+    "source",
+    "vllm"
+   ],
+   "flag": "new",
+   "summary_zh": "Kinference 是一个 Kubernetes 上的 vLLM 推理控制平面，支持声明式路由、KV-cache 感知负载均衡及租户级指标监控。",
+   "why_zh": "属于 LLM 推理架构与基础设施优化技能点。可复用其 KV-cache 感知调度策略，解决大规模推理场景下的 TTFT 延迟优化问题。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "vAPI-Network/vapi-network",
+   "link": "https://github.com/vAPI-Network/vapi-network",
+   "dt": "2026-10-02T13:05:19+00:00",
+   "summary": "Buyer-controlled client for x402 API payments in USDC on Base.",
+   "extra": {
+    "stars": 2718,
+    "language": "TypeScript",
+    "topics": [
+     "agent-payments",
+     "ai-agents",
+     "base",
+     "mcp",
+     "usdc",
+     "x402"
+    ],
+    "created": "2026-10-02",
+    "pushed": "2026-11-07"
+   },
+   "skills": [],
+   "learn_score": 0.54,
+   "score": 2.16,
+   "tokens": [
+    "network",
+    "vapi"
+   ],
+   "flag": "new",
+   "summary_zh": "vapi-network 提供了一个基于 Base 链的 USDC 支付客户端，支持 x402 API 支付协议。",
+   "why_zh": "属于 AI Agent 经济模型与支付集成技能点。可学习如何通过 x402 协议实现 Agent 服务的自动化付费调用与资源结算。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "LifeVal: Measuring AI progress on the tasks that matter in everyday life.",
+   "link": "https://www.youtube.com/watch?v=hJOwOkLHRN0",
+   "dt": "2026-11-06T21:11:34+00:00",
+   "summary": "For AGI to benefit all of humanity, it should help people with the everyday tasks that matter most to them. So we built LifeVal, a new benchmark shaped by feedback from thousands of ChatGPT users on where they most want help from a personal assistant—from finding childcare to accessing government services and managing personal finances. Over the past year, we’ve used LifeVal to measure and improve how well our models handle these everyday tasks. https://openai.com/index/lifeval/",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": "hJOwOkLHRN0"
+   },
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 2.066,
+   "score": 2.066,
+   "tokens": [
+    "ai",
+    "everyday",
+    "life",
+    "lifeval",
+    "matter",
+    "measuring",
+    "progress",
+    "tasks"
+   ],
+   "flag": "new",
+   "summary_zh": "LifeVal 是一个基于 ChatGPT 用户真实反馈构建的基准测试，旨在衡量 AI 在处理日常任务（如育儿、政务、财务）中的实际效能。",
+   "why_zh": "属于 Agent 评估体系与对齐技能点。可学习如何从真实用户需求出发，设计面向特定领域任务的 Agent 性能评估指标。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Wes Roth",
+   "title": "Anthropic just built it...",
+   "link": "https://www.youtube.com/watch?v=2lt4P_xGFL8",
+   "dt": "2026-11-06T14:35:24+00:00",
+   "summary": "what's Anthropic building in there? they just REDACTED most of their internal audit one of their models just broke ALL benchmarks ______________________________________________ My Links 🔗 ➡️ Twitter: https://x.com/WesRothMoney ➡️ AI Newsletter: https://natural20.beehiiv.com/subscribe Want to work with me? Brand, sponsorship & business inquiries: wesroth@smoothmedia.co ______________________________________________ SOURCES: METR Anthropic AI R&D Acceleration Assessment: https://metr.org/blog/2026…",
+   "extra": {
+    "channel": "Wes Roth",
+    "video_id": "2lt4P_xGFL8"
+   },
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 2.066,
+   "score": 2.066,
+   "tokens": [
+    "anthropic",
+    "built",
+    "just"
+   ],
+   "flag": "new",
+   "summary_zh": "Anthropic 正在进行内部模型审计，相关模型在基准测试中表现出显著的性能提升。",
+   "why_zh": "属于大模型评估与性能基准技能点。可关注模型在复杂逻辑推理与长上下文处理上的评估方法，以及如何通过内部审计发现模型能力边界。"
+  },
+  {
+   "source": "blog",
+   "source_label": "OpenAI 官方博客",
+   "title": "Measuring how AI agents handle everyday wet-lab science",
+   "link": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+   "dt": "2026-11-06T00:00:00+00:00",
+   "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+   "extra": {},
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.951,
+   "score": 1.951,
+   "tokens": [
+    "agents",
+    "ai",
+    "everyday",
+    "handle",
+    "lab",
+    "measuring",
+    "science",
+    "wet"
+   ],
+   "flag": "new",
+   "summary_zh": "BioBasicsBench 包含 100 项任务，用于衡量 AI Agent 在解读原始实验数据与处理湿实验室科学任务方面的能力。",
+   "why_zh": "属于垂直领域 Agent 评估技能点。可学习如何构建多模态数据处理基准，以及如何将 Agent 的推理能力与专业科学实验流程对齐。"
+  },
+  {
+   "source": "blog",
+   "source_label": "新智元",
+   "title": "DeepSeek砸出「真OS」！140万日活狂烧92万亿Token",
+   "link": "https://aiera.com.cn/2026/11/07/other/admin/122710/deepseek%e7%a0%b8%e5%87%ba%e3%80%8c%e7%9c%9fos%e3%80%8d%ef%bc%81140%e4%b8%87%e6%97%a5%e6%b4%bb%e7%8b%82%e7%83%a792%e4%b8%87%e4%ba%bftoken/",
+   "dt": "2026-11-07T00:11:37+00:00",
+   "summary": "仅仅一个月余，DeepSeek Harness 交出了一份恐怖的成绩单： 日均活跃用户已过140万，月活跃人数 548万。",
+   "extra": {},
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.951,
+   "score": 1.951,
+   "tokens": [
+    "140万日活狂烧92万亿token",
+    "deepseek砸出",
+    "真os"
+   ],
+   "flag": "new",
+   "summary_zh": "DeepSeek Harness 在一个月内实现 140 万日活与 548 万月活，累计处理 92 万亿 Token，展示了高并发推理架构的承载能力。",
+   "why_zh": "属于大规模分布式推理系统设计。可学习如何通过优化推理引擎调度与基础设施扩展，支撑千万级用户规模下的高吞吐量服务。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Two Minute Papers",
+   "title": "OpenAI's Astra Just Opened The Black Box Of AI",
+   "link": "https://www.youtube.com/watch?v=GJ6PMUm5oTA",
+   "dt": "2026-11-07T16:24:47+00:00",
+   "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.com/papers 📝 The Weight Space Programming work is available here: https://rikiyat.github.io/blog/weight-space-programming/ 🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible: Adam Bridges, B Shang, Carlos Galarza, Christian Ahlin, Eric Tyson, Juan Benet, Lukas Biewald, Michael Tedder, Owen Skarpness, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzh…",
+   "extra": {
+    "channel": "Two Minute Papers",
+    "video_id": "GJ6PMUm5oTA"
+   },
+   "skills": [],
+   "learn_score": 0.9,
+   "score": 0.9,
+   "tokens": [
+    "ai",
+    "astra",
+    "black",
+    "box",
+    "just",
+    "openai",
+    "opened"
+   ],
+   "flag": "new",
+   "summary_zh": "Weight Space Programming 通过直接操作神经网络权重空间而非激活值，实现对模型行为的直接编程与逻辑控制。",
+   "why_zh": "属于模型可解释性与参数化控制。可学习如何通过修改权重矩阵实现模型功能的动态调整，是探索 AI Agent 自主进化与逻辑干预的前沿方向。"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "wanghao-SunSky/cs329z-chinese",
+   "link": "https://github.com/wanghao-SunSky/cs329z-chinese",
+   "dt": "2026-10-28T18:18:24+00:00",
+   "summary": "斯坦福 Stanford CS329Z Engineering AI Agents 中文教程：面向 Python 开发者的 AI 智能体课程，19 讲与 4 项实践，涵盖 LLM、RAG、工具调用、记忆、多智能体、评测与安全。完整 Markdown、在线与离线 HTML。Chinese course notes.",
+   "extra": {
+    "stars": 506,
+    "language": "HTML",
+    "topics": [
+     "agent-memory",
+     "agentic-ai",
+     "ai-agents",
+     "chinese",
+     "chinese-tutorial",
+     "course-notes"
+    ],
+    "created": "2026-10-28",
+    "pushed": "2026-11-06"
+   },
+   "skills": [
+    "rag",
+    "tool_mcp",
+    "agent_architecture",
+    "multi_agent",
+    "eval_observability"
+   ],
+   "learn_score": 2.601,
+   "score": 9.634,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-07 推荐过",
+   "summary_zh": "斯坦福 CS329Z 课程中文版，系统梳理了 LLM、RAG、工具调用、记忆机制、多智能体架构及评测安全等智能体开发核心知识体系。",
+   "why_zh": "属于 AI Agent 工程化技能点，可复用其课程设计的模块化架构，学习如何构建从基础到多智能体协作的完整开发工作流。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "YOLOW92/pagesift",
+   "link": "https://github.com/YOLOW92/pagesift",
+   "dt": "2026-10-20T17:30:59+00:00",
+   "summary": "Self-hosted web scraper, crawler and document parser for AI agents: URLs, PDFs with OCR and Office files to clean Markdown/JSON. Firecrawl- and Jina-compatible API, MCP server, agent endpoint, Python/Node SDKs. Single Rust binary.",
+   "extra": {
+    "stars": 251,
+    "language": "Rust",
+    "topics": [
+     "ai-agents",
+     "browser-automation",
+     "crawl4ai-alternative",
+     "data-extraction",
+     "document-parsing",
+     "firecrawl"
+    ],
+    "created": "2026-10-20",
+    "pushed": "2026-11-07"
+   },
+   "skills": [
+    "tool_mcp",
+    "training_serving"
+   ],
+   "learn_score": 2.107,
+   "score": 7.163,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-07 推荐过",
+   "summary_zh": "基于 Rust 的高性能网页爬虫与内容提取引擎，提供适配 AI Agent 和 RAG 的干净 Markdown 及结构化数据输出。",
+   "why_zh": "RAG 数据预处理技能，学习使用 Rust 实现高内存效率的浏览器渲染与 Firecrawl 兼容 API 以加速数据获取。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ccch1mneyyy/dsh-Go",
+   "link": "https://github.com/ccch1mneyyy/dsh-Go",
+   "dt": "2026-10-25T08:09:52+00:00",
+   "summary": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+   "extra": {
+    "stars": 14109,
+    "language": "Dart",
+    "topics": [
+     "ai-agent",
+     "android",
+     "android-app",
+     "coding-agent",
+     "deepseek",
+     "deepseek-harness"
+    ],
+    "created": "2026-10-25",
+    "pushed": "2026-11-07"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-07 推荐过",
+   "summary_zh": "dsh-Go 实现 DeepSeek 模型在移动端本地运行，并支持远程控制桌面端执行任务，提供轻量级端侧推理解决方案。",
+   "why_zh": "属于端侧 AI 部署技能点，可复用其跨设备通信与本地推理引擎集成方案，解决资源受限环境下的智能体调度问题。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "tangency-labs/solidcraft",
+   "link": "https://github.com/tangency-labs/solidcraft",
+   "dt": "2026-10-07T18:57:48+00:00",
+   "summary": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+   "extra": {
+    "stars": 14723,
+    "language": "Rust",
+    "topics": [
+     "3d-modeling",
+     "brep",
+     "cad",
+     "egui",
+     "mcp",
+     "parametric-cad"
+    ],
+    "created": "2026-10-07",
+    "pushed": "2026-11-07"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-07 推荐过",
+   "summary_zh": "SolidCraft 是用纯 Rust 构建的开源参数化3D CAD 应用，支持桌面、网页及MCP自动化。",
+   "why_zh": "演示Rust在复杂图形系统中的工程实践，可参考高性能跨平台CAD开发。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "amosblomqvist/learnharness",
+   "link": "https://github.com/amosblomqvist/learnharness",
+   "dt": "2026-10-16T19:35:33+00:00",
+   "summary": "Agent harness for learning difficult things.",
+   "extra": {
+    "stars": 6093,
+    "language": "TypeScript",
+    "topics": [],
+    "created": "2026-10-16",
+    "pushed": "2026-11-07"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-03 推荐过",
+   "summary_zh": "LearnHarness 是一个专为学习复杂技能设计的 Agent 框架，通过结构化的交互流程辅助 Agent 掌握新知识或任务。",
+   "why_zh": "属于 Agent 学习与任务规划领域。可学习如何构建 Agent 的长程任务分解与反馈循环，提升 Agent 在复杂任务中的自适应能力。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ai-gateways/awesome-ai-gateways",
+   "link": "https://github.com/ai-gateways/awesome-ai-gateways",
+   "dt": "2026-10-30T10:30:50+00:00",
+   "summary": "Awesome AI gateways: open source and commercial LLM gateways, MCP gateways, agent (A2A) gateways, model routers, specs, and guides.",
+   "extra": {
+    "stars": 39,
+    "language": "",
+    "topics": [
+     "a2a",
+     "a2a-protocol",
+     "agent-gateway",
+     "ai-agents",
+     "ai-gateway",
+     "ai-governance"
+    ],
+    "created": "2026-10-30",
+    "pushed": "2026-11-06"
+   },
+   "skills": [
+    "tool_mcp",
+    "multi_agent"
+   ],
+   "learn_score": 2.634,
+   "score": 6.825,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-07 推荐过",
+   "summary_zh": "整理开源与商业 LLM 网关、MCP 网关、Agent 间通信网关及模型路由器的技术资源库。",
+   "why_zh": "属于 AI 基础设施领域，可学习如何构建高可用、可观测的 LLM 中间件，掌握 Agent 架构中网关层面的流量调度与协议适配。"
+  }
+ ]
+}

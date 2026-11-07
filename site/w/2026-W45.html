@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>本周精选 2026-W45 · AI 前沿日报</title>
+<meta name="description" content="2026-11-02 ~ 2026-11-08 AI / LLM / Agent 本周精选">
+<link rel="stylesheet" href="../style.css">
+<link rel="alternate" type="application/rss+xml" title="AI 前沿日报" href="https://aivulcan.de5.net/feed.xml">
+</head>
+<body>
+<div class="wrap">
+<header class="site">
+<div class="brand">
+<span class="logo" aria-hidden="true"></span>
+<div class="titles">
+<p class="en">AI Frontier Digest</p>
+<h1><a href="../">AI 前沿日报</a></h1>
+</div>
+</div>
+<p class="desc">每天自动采集 GitHub / YouTube / 博客 / 论文 / Hacker News 上关于 AI、LLM、Agent、Harness 的前沿动态，生成中文摘要。</p>
+<div class="stats"><span>本期 <b>12</b> 条</span><span>累计 <b>5</b> 期</span></div><nav><a href="../">最新</a><a href="../archive">归档</a><a href="../feed.xml">RSS</a><a href="../about">关于</a></nav>
+</header>
+<h1>本周精选 · 2026-W45</h1>
+<p class="meta">覆盖 2026-11-02 ~ 2026-11-08　｜　共 12 条　｜　生成 2026-11-08 01:30 (CST)</p>
+<blockquote><p>按 Agent / AI 面试技能树归类，优先收录可复习、能讲出来的实践内容。</p></blockquote>
+<h2>🧠 提示 / 上下文工程（2）</h2>
+<article class="item" data-src="paper">
+<h3><a href="https://arxiv.org/abs/2611.06976" target="_blank" rel="noopener">On the Opportunities and Challenges of Prefill-to-Autoregressive Cross-Model Transfer</a></h3>
+<p class="meta"><span class="tag src">arXiv cs.CL</span><span class="tag">论文</span><span class="date">11-06</span></p>
+<p class="sum">提出 PACT 框架，通过将大模型的 Prefill 阶段表征传递给小模型进行 Autoregressive 生成，实现推理成本与模型能力的平衡。</p>
+<p class="why">为什么值得看：属于模型推理优化领域，可学习如何通过跨模型特征蒸馏或协同推理降低端侧或小规模部署的算力开销。</p>
+</article>
+<article class="item" data-src="paper">
+<h3><a href="https://arxiv.org/abs/2611.05393" target="_blank" rel="noopener">Challenge-Aware Knowledge Recruitment with Meta-Agent Supervision for Medical Multi-Agent Reasoning</a></h3>
+<p class="meta"><span class="tag src">arXiv cs.AI</span><span class="tag">论文</span><span class="date">11-05</span></p>
+<p class="sum">提出一种挑战感知知识招募机制，通过 Meta-Agent 监督医疗多智能体推理过程，根据推理中产生的知识缺口而非仅凭初始问题检索专家知识。</p>
+<p class="why">为什么值得看：属于多智能体协作与 RAG 优化领域，学习如何通过 Meta-Agent 动态调整推理路径，解决多智能体在复杂推理任务中信息检索不精准的问题。</p>
+</article>
+<h2>🧠 RAG 检索增强（3）</h2>
+<article class="item" data-src="paper">
+<h3><a href="https://huggingface.co/papers/2611.07298" target="_blank" rel="noopener">Reducing Representational Interference in Retrieval Embeddings with Trainable Prefix Tokens</a></h3>
+<p class="meta"><span class="tag src">HF Daily Papers</span><span class="tag">👍 5</span><span class="date">11-05</span></p>
+<p class="sum">在 Embedding 模型训练中引入可训练的 [DUMP] 前缀 Token，通过解耦语义内容与残余 Token 信息，减少表征干扰。</p>
+<p class="why">为什么值得看：Embedding 模型优化。掌握通过前缀微调（Prefix Tuning）改善向量表征质量的技术，学习如何通过控制输入序列提升模型语义对齐能力。</p>
+</article>
+<article class="item" data-src="paper">
+<h3><a href="https://arxiv.org/abs/2611.00172" target="_blank" rel="noopener">From Fragmentation to Fusion: A Survey and Roadmap for Omnimodal Embeddings</a></h3>
+<p class="meta"><span class="tag src">arXiv cs.CL</span><span class="tag">论文</span><span class="date">11-04</span></p>
+<p class="sum">系统梳理了全模态嵌入模型（Omnimodal Embeddings）的研究现状，分析了跨模态统一表征的数学基础与融合路径。</p>
+<p class="why">为什么值得看：属于向量检索与表征学习领域，可学习如何构建统一的嵌入空间，解决多模态数据在 Agent 记忆系统中的对齐与检索难题。</p>
+</article>
+<article class="item" data-src="blog">
+<h3><a href="https://www.marktechpost.com/2026/11/02/zyphra-hierarchical-attention-zha-sparse-attention/" target="_blank" rel="noopener">Zyphra AI Introduces Zyphra Hierarchical Attention (ZHA): A Path to True Subquadratic Attention</a></h3>
+<p class="meta"><span class="tag src">MarkTechPost</span><span class="tag">文章</span><span class="date">11-03</span></p>
+<p class="sum">Zyphra 提出 ZHA 树索引稀疏注意力机制，通过蒸馏使冻结 LLM 在 256K 上下文下实现亚二次复杂度推理。</p>
+<p class="why">为什么值得看：属于模型架构优化领域，可复用做法是利用树状索引与蒸馏技术在不微调全参数前提下扩展模型上下文窗口。</p>
+</article>
+<h2>🧠 工具调用 / MCP（1）</h2>
+<article class="item" data-src="github">
+<h3><a href="https://github.com/ai-gateways/awesome-ai-gateways" target="_blank" rel="noopener">ai-gateways/awesome-ai-gateways</a></h3>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 21</span><span class="tag">新建 2026-10-30</span><span class="date">10-30</span></p>
+<p class="sum">整理开源与商业 LLM 网关、MCP 网关、Agent 间通信网关及模型路由器的技术资源库。</p>
+<p class="why">为什么值得看：属于 AI 基础设施领域，可学习如何构建高可用、可观测的 LLM 中间件，掌握 Agent 架构中网关层面的流量调度与协议适配。</p>
+</article>
+<h2>🧠 Agent 架构与循环（3）</h2>
+<article class="item" data-src="paper">
+<h3><a href="https://arxiv.org/abs/2610.40747" target="_blank" rel="noopener">Mage-VL-Cowork: A Full Training Recipe to Learn Hybrid Computer Use From Evolved Harnesses</a></h3>
+<p class="meta"><span class="tag src">arXiv cs.CL</span><span class="tag">论文</span><span class="date">11-02</span></p>
+<p class="sum">Mage-VL-Cowork 提出一种 4B 参数的混合型计算机使用智能体训练方案，通过五阶段课程学习实现 GUI 交互与代码终端执行的统一策略。</p>
+<p class="why">为什么值得看：属于 Agent 训练范式领域，可学习如何通过多阶段课程学习（Curriculum Learning）将视觉感知与工具调用能力整合进单一模型。</p>
+</article>
+<article class="item" data-src="paper">
+<h3><a href="https://arxiv.org/abs/2611.06989" target="_blank" rel="noopener">The Two-Ledger Model: Transaction-Grain Cost Accounting for Multi-Agent AI Systems Across Clouds, Models, and Systems of Record</a></h3>
+<p class="meta"><span class="tag src">arXiv cs.AI</span><span class="tag">论文</span><span class="date">11-06</span></p>
+<p class="sum">提出 Two-Ledger Model，通过事务粒度的成本核算方法，解决多 Agent 系统在跨云、跨模型场景下的财务追踪难题。</p>
+<p class="why">为什么值得看：属于 AI 工程化运维（LLMOps）领域，学习如何构建精细化的成本监控体系，以量化复杂 Agent 工作流的 ROI。</p>
+</article>
+<article class="item" data-src="paper">
+<h3><a href="https://huggingface.co/papers/2611.07613" target="_blank" rel="noopener">Towards Real-Time Full-Waveform LiDAR Transformers via Intensity-Guided Token Reduction and Physics-Aware Augmentation</a></h3>
+<p class="meta"><span class="tag src">HF Daily Papers</span><span class="tag">👍 5</span><span class="date">11-05</span></p>
+<p class="sum">针对全波形 LiDAR 数据，提出强度引导的 Token 缩减与物理感知增强方法，实现自动驾驶场景下的实时高精度感知。</p>
+<p class="why">为什么值得看：多模态感知与实时推理。学习如何通过 Token 剪枝与物理先验约束优化 Transformer 推理效率，解决复杂环境下的传感器数据处理难题。</p>
+</article>
+<h2>🧠 多智能体协作（1）</h2>
+<article class="item" data-src="paper">
+<h3><a href="https://arxiv.org/abs/2611.05392" target="_blank" rel="noopener">Uncertainty-Aware Resource Orchestration for Agentic AI Systems</a></h3>
+<p class="meta"><span class="tag src">arXiv cs.AI</span><span class="tag">论文</span><span class="date">11-05</span></p>
+<p class="sum">提出一种基于不确定性感知的 Agent 资源编排框架，通过动态监控 LLM 执行过程中的资源消耗与任务状态，优化多步推理任务的计算与带宽分配。</p>
+<p class="why">为什么值得看：属于 Agent 系统工程与性能优化领域，学习如何通过量化模型推理的不确定性来动态调度计算资源，提升复杂任务的执行效率与成本控制能力。</p>
+</article>
+<h2>🧠 评测与可观测（2）</h2>
+<article class="item" data-src="paper">
+<h3><a href="https://arxiv.org/abs/2610.40847" target="_blank" rel="noopener">The Generative Gap Between Speculative Drafter and Continuous Diffusion Language Model</a></h3>
+<p class="meta"><span class="tag src">arXiv cs.CL</span><span class="tag">论文</span><span class="date">11-02</span></p>
+<p class="sum">对比分析连续扩散语言模型 CDLM 与投机采样草稿模型在生成架构上的差异，探讨两者在无需验证机制下的生成性能与局限。</p>
+<p class="why">为什么值得看：属于推理加速与生成模型架构领域，可学习评估不同生成范式（迭代细化 vs 投机采样）在特定任务下的效率与质量权衡。</p>
+</article>
+<article class="item" data-src="paper">
+<h3><a href="https://arxiv.org/abs/2610.40906" target="_blank" rel="noopener">Does Recursive Knowledge Construction Help Agents Verify Consensus Claims in Science?</a></h3>
+<p class="meta"><span class="tag src">arXiv cs.AI</span><span class="tag">论文</span><span class="date">11-02</span></p>
+<p class="sum">研究递归知识构建对科学 Agent 验证共识声明的影响，通过拆解检索、中间状态构建与判断机制，量化评估不同设计决策对 Agent 性能的作用。</p>
+<p class="why">为什么值得看：Agent 推理与验证机制。可学习如何通过控制变量法评估 Agent 递归推理路径，提升复杂任务中 Agent 决策的准确性与可解释性。</p>
+</article>
+<footer>
+<p>AI 前沿日报 · 由 GitHub Actions 每天 16:00 (CST) 自动生成 · 内容版权归原作者所有，链接均为原始出处</p>
+</footer>
+</div>
+</body>
+</html>

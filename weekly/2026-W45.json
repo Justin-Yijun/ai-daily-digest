@@ -1,0 +1,810 @@
+{
+ "week": "2026-W45",
+ "start": "2026-11-02",
+ "end": "2026-11-08",
+ "generated": "2026-11-08 01:30",
+ "groups": [
+  {
+   "skill": "prompt_context",
+   "label": "提示 / 上下文工程",
+   "items": [
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.CL",
+     "title": "On the Opportunities and Challenges of Prefill-to-Autoregressive Cross-Model Transfer",
+     "link": "https://arxiv.org/abs/2611.06976",
+     "dt": "2026-11-06T00:00:00-05:00",
+     "summary": "arXiv:2611.06976v1 Announce Type: new Abstract: Prefill-to-Autoregressive Cross-model Transfer (PACT), a form of latent communication between language models, combines a larger model's prompt representations with a smaller model's efficient generation, offering a promising way to balance capability and inference cost. However, existing systems provide limited support for independently evaluating large-small model collaboration, and improved task performance alone does not establish whether the r",
+     "extra": {},
+     "weight_override": 1.3,
+     "skills": [
+      "prompt_context",
+      "eval_observability",
+      "training_serving"
+     ],
+     "learn_score": 4.177,
+     "score": 8.354,
+     "tokens": [
+      "autoregressive",
+      "challenges",
+      "cross",
+      "model",
+      "opportunities",
+      "prefill",
+      "transfer"
+     ],
+     "flag": "new",
+     "summary_zh": "提出 PACT 框架，通过将大模型的 Prefill 阶段表征传递给小模型进行 Autoregressive 生成，实现推理成本与模型能力的平衡。",
+     "why_zh": "属于模型推理优化领域，可学习如何通过跨模型特征蒸馏或协同推理降低端侧或小规模部署的算力开销。"
+    },
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.AI",
+     "title": "Challenge-Aware Knowledge Recruitment with Meta-Agent Supervision for Medical Multi-Agent Reasoning",
+     "link": "https://arxiv.org/abs/2611.05393",
+     "dt": "2026-11-05T00:00:00-05:00",
+     "summary": "arXiv:2611.05393v1 Announce Type: new Abstract: Large language models perform strongly on standard medical QA but degrade on harder reasoning tasks, where multi-agent debate often fails to beat strong single-model prompting. We argue that a key limitation is that existing systems select experts and retrieve knowledge from the question alone, rather than from gaps that emerge during reasoning. We propose challenge-aware adaptive recruitment: an external CHALLENGER inspects the evolving reasoning ",
+     "extra": {},
+     "weight_override": 1.3,
+     "skills": [
+      "prompt_context",
+      "multi_agent"
+     ],
+     "learn_score": 3.58,
+     "score": 7.16,
+     "tokens": [
+      "agent",
+      "aware",
+      "challenge",
+      "knowledge",
+      "medical",
+      "meta",
+      "multi",
+      "reasoning",
+      "recruitment",
+      "supervision"
+     ],
+     "flag": "new",
+     "summary_zh": "提出一种挑战感知知识招募机制，通过 Meta-Agent 监督医疗多智能体推理过程，根据推理中产生的知识缺口而非仅凭初始问题检索专家知识。",
+     "why_zh": "属于多智能体协作与 RAG 优化领域，学习如何通过 Meta-Agent 动态调整推理路径，解决多智能体在复杂推理任务中信息检索不精准的问题。"
+    }
+   ]
+  },
+  {
+   "skill": "rag",
+   "label": "RAG 检索增强",
+   "items": [
+    {
+     "source": "paper",
+     "source_label": "HF Daily Papers",
+     "title": "Reducing Representational Interference in Retrieval Embeddings with Trainable Prefix Tokens",
+     "link": "https://huggingface.co/papers/2611.07298",
+     "dt": "2026-11-04T20:30:28+00:00",
+     "summary": "Embedding models compress variable-length text into fixed-size vector representations, but this compression can entangle semantic content with residual token-level information, such as artifacts arising from attention sink behavior. We propose a simple method that prepends trainable [DUMP] tokens to the input during embedding model training. The method keeps the model architecture, pooling strategy, and training loss unchanged, while optimizing the added tokens through the standard contrastive r",
+     "extra": {
+      "upvotes": 5,
+      "arxiv": "https://arxiv.org/abs/2611.07298"
+     },
+     "skills": [
+      "rag",
+      "eval_observability",
+      "llm_fundamentals",
+      "system_design"
+     ],
+     "learn_score": 3.314,
+     "score": 6.628,
+     "tokens": [
+      "embeddings",
+      "interference",
+      "prefix",
+      "reducing",
+      "representational",
+      "retrieval",
+      "tokens",
+      "trainable"
+     ],
+     "flag": "new",
+     "summary_zh": "在 Embedding 模型训练中引入可训练的 [DUMP] 前缀 Token，通过解耦语义内容与残余 Token 信息，减少表征干扰。",
+     "why_zh": "Embedding 模型优化。掌握通过前缀微调（Prefix Tuning）改善向量表征质量的技术，学习如何通过控制输入序列提升模型语义对齐能力。"
+    },
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.CL",
+     "title": "From Fragmentation to Fusion: A Survey and Roadmap for Omnimodal Embeddings",
+     "link": "https://arxiv.org/abs/2611.00172",
+     "dt": "2026-11-04T00:00:00-05:00",
+     "summary": "arXiv:2611.00172v1 Announce Type: new Abstract: Embedding models underpin virtually every modern AI system, from search engines to recommendation systems. Despite shared mathematical foundations, research on embedding models remains fragmented by modality: the communities develop largely in isolation, seldom exchanging insights. We argue that this fragmentation obscures a deeper convergence. Driven by contrastive learning, Transformer architectures, and a granularity shift, embedding research ac",
+     "extra": {},
+     "weight_override": 1.3,
+     "skills": [
+      "rag",
+      "llm_fundamentals",
+      "system_design"
+     ],
+     "learn_score": 3.094,
+     "score": 6.188,
+     "tokens": [
+      "embeddings",
+      "fragmentation",
+      "fusion",
+      "omnimodal",
+      "roadmap",
+      "survey"
+     ],
+     "flag": "new",
+     "summary_zh": "系统梳理了全模态嵌入模型（Omnimodal Embeddings）的研究现状，分析了跨模态统一表征的数学基础与融合路径。",
+     "why_zh": "属于向量检索与表征学习领域，可学习如何构建统一的嵌入空间，解决多模态数据在 Agent 记忆系统中的对齐与检索难题。"
+    },
+    {
+     "source": "blog",
+     "source_label": "MarkTechPost",
+     "title": "Zyphra AI Introduces Zyphra Hierarchical Attention (ZHA): A Path to True Subquadratic Attention",
+     "link": "https://www.marktechpost.com/2026/11/02/zyphra-hierarchical-attention-zha-sparse-attention/",
+     "dt": "2026-11-03T01:09:49+00:00",
+     "summary": "Zyphra Hierarchical Attention (ZHA) is a tree-indexed sparse attention method that retrofits frozen LLMs with 4B tokens of distillation, matching dense attention on reasoning and 256K retrieval benchmarks. The post Zyphra AI Introduces Zyphra Hierarchical Attention (ZHA): A Path to True Subquadratic Attention appeared first on MarkTechPost .",
+     "extra": {},
+     "skills": [
+      "rag",
+      "eval_observability",
+      "llm_fundamentals"
+     ],
+     "learn_score": 2.731,
+     "score": 2.731,
+     "tokens": [
+      "ai",
+      "attention",
+      "hierarchical",
+      "introduces",
+      "path",
+      "subquadratic",
+      "true",
+      "zha",
+      "zyphra"
+     ],
+     "flag": "new",
+     "summary_zh": "Zyphra 提出 ZHA 树索引稀疏注意力机制，通过蒸馏使冻结 LLM 在 256K 上下文下实现亚二次复杂度推理。",
+     "why_zh": "属于模型架构优化领域，可复用做法是利用树状索引与蒸馏技术在不微调全参数前提下扩展模型上下文窗口。"
+    }
+   ]
+  },
+  {
+   "skill": "tool_mcp",
+   "label": "工具调用 / MCP",
+   "items": [
+    {
+     "source": "github",
+     "source_label": "GitHub",
+     "title": "ai-gateways/awesome-ai-gateways",
+     "link": "https://github.com/ai-gateways/awesome-ai-gateways",
+     "dt": "2026-10-30T10:30:50+00:00",
+     "summary": "Awesome AI gateways: open source and commercial LLM gateways, MCP gateways, agent (A2A) gateways, model routers, specs, and guides.",
+     "extra": {
+      "stars": 21,
+      "language": "",
+      "topics": [
+       "a2a",
+       "a2a-protocol",
+       "agent-gateway",
+       "ai-agents",
+       "ai-gateway",
+       "ai-governance"
+      ],
+      "created": "2026-10-30",
+      "pushed": "2026-11-02"
+     },
+     "skills": [
+      "tool_mcp",
+      "multi_agent"
+     ],
+     "learn_score": 2.943,
+     "score": 6.834,
+     "tokens": [
+      "ai",
+      "awesome",
+      "gateways"
+     ],
+     "flag": "new",
+     "summary_zh": "整理开源与商业 LLM 网关、MCP 网关、Agent 间通信网关及模型路由器的技术资源库。",
+     "why_zh": "属于 AI 基础设施领域，可学习如何构建高可用、可观测的 LLM 中间件，掌握 Agent 架构中网关层面的流量调度与协议适配。"
+    }
+   ]
+  },
+  {
+   "skill": "agent_architecture",
+   "label": "Agent 架构与循环",
+   "items": [
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.CL",
+     "title": "Mage-VL-Cowork: A Full Training Recipe to Learn Hybrid Computer Use From Evolved Harnesses",
+     "link": "https://arxiv.org/abs/2610.40747",
+     "dt": "2026-11-02T00:00:00-05:00",
+     "summary": "arXiv:2610.40747v1 Announce Type: new Abstract: Effective computer-use agents (CUAs) should seamlessly combine visual GUI interaction with code and terminal execution within a single policy. We present Mage-VL-Cowork, a 4B hybrid CUA trained from a general multimodally aligned checkpoint through an end-to-end, progressive five-stage curriculum across midtraining, SFT, and RL. To power this curriculum at scale, Mage-CUA-Forge replaces per-task agent construction with reusable, skill-conditioned g",
+     "extra": {},
+     "weight_override": 1.3,
+     "skills": [
+      "agent_architecture",
+      "training_serving"
+     ],
+     "learn_score": 3.58,
+     "score": 7.16,
+     "tokens": [
+      "computer",
+      "cowork",
+      "evolved",
+      "full",
+      "harnesses",
+      "hybrid",
+      "learn",
+      "mage",
+      "recipe",
+      "training",
+      "use",
+      "vl"
+     ],
+     "flag": "new",
+     "summary_zh": "Mage-VL-Cowork 提出一种 4B 参数的混合型计算机使用智能体训练方案，通过五阶段课程学习实现 GUI 交互与代码终端执行的统一策略。",
+     "why_zh": "属于 Agent 训练范式领域，可学习如何通过多阶段课程学习（Curriculum Learning）将视觉感知与工具调用能力整合进单一模型。"
+    },
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.AI",
+     "title": "The Two-Ledger Model: Transaction-Grain Cost Accounting for Multi-Agent AI Systems Across Clouds, Models, and Systems of Record",
+     "link": "https://arxiv.org/abs/2611.06989",
+     "dt": "2026-11-06T00:00:00-05:00",
+     "summary": "arXiv:2611.06989v1 Announce Type: new Abstract: Enterprises run business transactions through multi-agent AI systems spanning clouds, large language models (LLMs), orchestration harnesses, and systems of record. Finance receives AI cost only at settlement grain, aggregated by SKU and charge period. The business question (what did this order, claim, or case cost in AI?) cannot be answered from billing data, because providers never see enterprise transaction boundaries. The FinOps Open Cost and Us",
+     "extra": {},
+     "weight_override": 1.3,
+     "skills": [
+      "agent_architecture",
+      "multi_agent"
+     ],
+     "learn_score": 3.58,
+     "score": 7.16,
+     "tokens": [
+      "accounting",
+      "across",
+      "agent",
+      "ai",
+      "clouds",
+      "cost",
+      "grain",
+      "ledger",
+      "model",
+      "models",
+      "multi",
+      "record",
+      "systems",
+      "transaction",
+      "two"
+     ],
+     "flag": "new",
+     "summary_zh": "提出 Two-Ledger Model，通过事务粒度的成本核算方法，解决多 Agent 系统在跨云、跨模型场景下的财务追踪难题。",
+     "why_zh": "属于 AI 工程化运维（LLMOps）领域，学习如何构建精细化的成本监控体系，以量化复杂 Agent 工作流的 ROI。"
+    },
+    {
+     "source": "paper",
+     "source_label": "HF Daily Papers",
+     "title": "Towards Real-Time Full-Waveform LiDAR Transformers via Intensity-Guided Token Reduction and Physics-Aware Augmentation",
+     "link": "https://huggingface.co/papers/2611.07613",
+     "dt": "2026-11-05T02:56:01+00:00",
+     "summary": "LiDAR is a critical sensor for autonomous driving and robotics, yet it remains vulnerable to adverse conditions such as fog, rain, transparent objects, and low-reflectance surfaces. Full-waveform LiDAR (FWL) addresses these limitations by capturing the complete return waveform as a histogram, preserving rich reflection characteristics including multi-path echoes and weak signals. While recent Transformer-based approaches have demonstrated promise on FWL data, two fundamental bottlenecks remain: ",
+     "extra": {
+      "upvotes": 5,
+      "arxiv": "https://arxiv.org/abs/2611.07613"
+     },
+     "skills": [
+      "agent_architecture",
+      "training_serving",
+      "llm_fundamentals"
+     ],
+     "learn_score": 2.685,
+     "score": 5.37,
+     "tokens": [
+      "augmentation",
+      "aware",
+      "full",
+      "guided",
+      "intensity",
+      "lidar",
+      "physics",
+      "real",
+      "reduction",
+      "time",
+      "token",
+      "towards",
+      "transformers",
+      "waveform"
+     ],
+     "flag": "new",
+     "summary_zh": "针对全波形 LiDAR 数据，提出强度引导的 Token 缩减与物理感知增强方法，实现自动驾驶场景下的实时高精度感知。",
+     "why_zh": "多模态感知与实时推理。学习如何通过 Token 剪枝与物理先验约束优化 Transformer 推理效率，解决复杂环境下的传感器数据处理难题。"
+    }
+   ]
+  },
+  {
+   "skill": "multi_agent",
+   "label": "多智能体协作",
+   "items": [
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.AI",
+     "title": "Uncertainty-Aware Resource Orchestration for Agentic AI Systems",
+     "link": "https://arxiv.org/abs/2611.05392",
+     "dt": "2026-11-05T00:00:00-05:00",
+     "summary": "arXiv:2611.05392v1 Announce Type: new Abstract: Agentic artificial intelligence (AI) systems powered by large language models (LLMs) execute as autonomous multi-step pipelines that dynamically invoke tools, integrate observations into memory, and iterate until a task is resolved or a resource budget is exhausted. Unlike classical workflows with fixed graphs, the aggregate compute, bandwidth, and end-to-end latency demands of such pipelines are unknown at dispatch time: they emerge at runtime fro",
+     "extra": {},
+     "weight_override": 1.3,
+     "skills": [
+      "multi_agent"
+     ],
+     "learn_score": 3.729,
+     "score": 7.458,
+     "tokens": [
+      "agentic",
+      "ai",
+      "aware",
+      "orchestration",
+      "resource",
+      "systems",
+      "uncertainty"
+     ],
+     "flag": "new",
+     "summary_zh": "提出一种基于不确定性感知的 Agent 资源编排框架，通过动态监控 LLM 执行过程中的资源消耗与任务状态，优化多步推理任务的计算与带宽分配。",
+     "why_zh": "属于 Agent 系统工程与性能优化领域，学习如何通过量化模型推理的不确定性来动态调度计算资源，提升复杂任务的执行效率与成本控制能力。"
+    }
+   ]
+  },
+  {
+   "skill": "eval_observability",
+   "label": "评测与可观测",
+   "items": [
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.CL",
+     "title": "The Generative Gap Between Speculative Drafter and Continuous Diffusion Language Model",
+     "link": "https://arxiv.org/abs/2610.40847",
+     "dt": "2026-11-02T00:00:00-05:00",
+     "summary": "arXiv:2610.40847v1 Announce Type: new Abstract: Continuous diffusion language models (CDLMs) and speculative drafters offer efficient language generation but are typically evaluated differently: CDLMs generate independently through iterative refinement, whereas drafters propose text for target-model verification and correction. We compare their architectures without verification, using LangFlow for CDLMs and adapting DSpark's Markov and recurrent-head architectures for standalone generation. All",
+     "extra": {},
+     "weight_override": 1.3,
+     "skills": [
+      "eval_observability",
+      "system_design"
+     ],
+     "learn_score": 3.58,
+     "score": 7.16,
+     "tokens": [
+      "between",
+      "continuous",
+      "diffusion",
+      "drafter",
+      "gap",
+      "generative",
+      "language",
+      "model",
+      "speculative"
+     ],
+     "flag": "new",
+     "summary_zh": "对比分析连续扩散语言模型 CDLM 与投机采样草稿模型在生成架构上的差异，探讨两者在无需验证机制下的生成性能与局限。",
+     "why_zh": "属于推理加速与生成模型架构领域，可学习评估不同生成范式（迭代细化 vs 投机采样）在特定任务下的效率与质量权衡。"
+    },
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.AI",
+     "title": "Does Recursive Knowledge Construction Help Agents Verify Consensus Claims in Science?",
+     "link": "https://arxiv.org/abs/2610.40906",
+     "dt": "2026-11-02T00:00:00-05:00",
+     "summary": "arXiv:2610.40906v1 Announce Type: new Abstract: Recent scientific agents build knowledge recursively by retrieving evidence, constructing an intermediate state, and judging whether that state contains sufficient information. These agents are evaluated end-to-end, usually without ground truth, so the effect of each design choice is unknown. Here, we examined two design axes: (1) what the recursion builds (the state of evidence) and (2) what controls it (the judge that decides when to stop). To me",
+     "extra": {},
+     "weight_override": 1.3,
+     "skills": [
+      "eval_observability",
+      "system_design"
+     ],
+     "learn_score": 3.58,
+     "score": 7.16,
+     "tokens": [
+      "agents",
+      "claims",
+      "consensus",
+      "construction",
+      "does",
+      "help",
+      "knowledge",
+      "recursive",
+      "science",
+      "verify"
+     ],
+     "flag": "new",
+     "summary_zh": "研究递归知识构建对科学 Agent 验证共识声明的影响，通过拆解检索、中间状态构建与判断机制，量化评估不同设计决策对 Agent 性能的作用。",
+     "why_zh": "Agent 推理与验证机制。可学习如何通过控制变量法评估 Agent 递归推理路径，提升复杂任务中 Agent 决策的准确性与可解释性。"
+    }
+   ]
+  }
+ ],
+ "items": [
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.CL",
+   "title": "On the Opportunities and Challenges of Prefill-to-Autoregressive Cross-Model Transfer",
+   "link": "https://arxiv.org/abs/2611.06976",
+   "dt": "2026-11-06T00:00:00-05:00",
+   "summary": "arXiv:2611.06976v1 Announce Type: new Abstract: Prefill-to-Autoregressive Cross-model Transfer (PACT), a form of latent communication between language models, combines a larger model's prompt representations with a smaller model's efficient generation, offering a promising way to balance capability and inference cost. However, existing systems provide limited support for independently evaluating large-small model collaboration, and improved task performance alone does not establish whether the r",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "prompt_context",
+    "eval_observability",
+    "training_serving"
+   ],
+   "learn_score": 4.177,
+   "score": 8.354,
+   "tokens": [
+    "autoregressive",
+    "challenges",
+    "cross",
+    "model",
+    "opportunities",
+    "prefill",
+    "transfer"
+   ],
+   "flag": "new",
+   "summary_zh": "提出 PACT 框架，通过将大模型的 Prefill 阶段表征传递给小模型进行 Autoregressive 生成，实现推理成本与模型能力的平衡。",
+   "why_zh": "属于模型推理优化领域，可学习如何通过跨模型特征蒸馏或协同推理降低端侧或小规模部署的算力开销。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Uncertainty-Aware Resource Orchestration for Agentic AI Systems",
+   "link": "https://arxiv.org/abs/2611.05392",
+   "dt": "2026-11-05T00:00:00-05:00",
+   "summary": "arXiv:2611.05392v1 Announce Type: new Abstract: Agentic artificial intelligence (AI) systems powered by large language models (LLMs) execute as autonomous multi-step pipelines that dynamically invoke tools, integrate observations into memory, and iterate until a task is resolved or a resource budget is exhausted. Unlike classical workflows with fixed graphs, the aggregate compute, bandwidth, and end-to-end latency demands of such pipelines are unknown at dispatch time: they emerge at runtime fro",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "multi_agent"
+   ],
+   "learn_score": 3.729,
+   "score": 7.458,
+   "tokens": [
+    "agentic",
+    "ai",
+    "aware",
+    "orchestration",
+    "resource",
+    "systems",
+    "uncertainty"
+   ],
+   "flag": "new",
+   "summary_zh": "提出一种基于不确定性感知的 Agent 资源编排框架，通过动态监控 LLM 执行过程中的资源消耗与任务状态，优化多步推理任务的计算与带宽分配。",
+   "why_zh": "属于 Agent 系统工程与性能优化领域，学习如何通过量化模型推理的不确定性来动态调度计算资源，提升复杂任务的执行效率与成本控制能力。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.CL",
+   "title": "Mage-VL-Cowork: A Full Training Recipe to Learn Hybrid Computer Use From Evolved Harnesses",
+   "link": "https://arxiv.org/abs/2610.40747",
+   "dt": "2026-11-02T00:00:00-05:00",
+   "summary": "arXiv:2610.40747v1 Announce Type: new Abstract: Effective computer-use agents (CUAs) should seamlessly combine visual GUI interaction with code and terminal execution within a single policy. We present Mage-VL-Cowork, a 4B hybrid CUA trained from a general multimodally aligned checkpoint through an end-to-end, progressive five-stage curriculum across midtraining, SFT, and RL. To power this curriculum at scale, Mage-CUA-Forge replaces per-task agent construction with reusable, skill-conditioned g",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "agent_architecture",
+    "training_serving"
+   ],
+   "learn_score": 3.58,
+   "score": 7.16,
+   "tokens": [
+    "computer",
+    "cowork",
+    "evolved",
+    "full",
+    "harnesses",
+    "hybrid",
+    "learn",
+    "mage",
+    "recipe",
+    "training",
+    "use",
+    "vl"
+   ],
+   "flag": "new",
+   "summary_zh": "Mage-VL-Cowork 提出一种 4B 参数的混合型计算机使用智能体训练方案，通过五阶段课程学习实现 GUI 交互与代码终端执行的统一策略。",
+   "why_zh": "属于 Agent 训练范式领域，可学习如何通过多阶段课程学习（Curriculum Learning）将视觉感知与工具调用能力整合进单一模型。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.CL",
+   "title": "The Generative Gap Between Speculative Drafter and Continuous Diffusion Language Model",
+   "link": "https://arxiv.org/abs/2610.40847",
+   "dt": "2026-11-02T00:00:00-05:00",
+   "summary": "arXiv:2610.40847v1 Announce Type: new Abstract: Continuous diffusion language models (CDLMs) and speculative drafters offer efficient language generation but are typically evaluated differently: CDLMs generate independently through iterative refinement, whereas drafters propose text for target-model verification and correction. We compare their architectures without verification, using LangFlow for CDLMs and adapting DSpark's Markov and recurrent-head architectures for standalone generation. All",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "eval_observability",
+    "system_design"
+   ],
+   "learn_score": 3.58,
+   "score": 7.16,
+   "tokens": [
+    "between",
+    "continuous",
+    "diffusion",
+    "drafter",
+    "gap",
+    "generative",
+    "language",
+    "model",
+    "speculative"
+   ],
+   "flag": "new",
+   "summary_zh": "对比分析连续扩散语言模型 CDLM 与投机采样草稿模型在生成架构上的差异，探讨两者在无需验证机制下的生成性能与局限。",
+   "why_zh": "属于推理加速与生成模型架构领域，可学习评估不同生成范式（迭代细化 vs 投机采样）在特定任务下的效率与质量权衡。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Does Recursive Knowledge Construction Help Agents Verify Consensus Claims in Science?",
+   "link": "https://arxiv.org/abs/2610.40906",
+   "dt": "2026-11-02T00:00:00-05:00",
+   "summary": "arXiv:2610.40906v1 Announce Type: new Abstract: Recent scientific agents build knowledge recursively by retrieving evidence, constructing an intermediate state, and judging whether that state contains sufficient information. These agents are evaluated end-to-end, usually without ground truth, so the effect of each design choice is unknown. Here, we examined two design axes: (1) what the recursion builds (the state of evidence) and (2) what controls it (the judge that decides when to stop). To me",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "eval_observability",
+    "system_design"
+   ],
+   "learn_score": 3.58,
+   "score": 7.16,
+   "tokens": [
+    "agents",
+    "claims",
+    "consensus",
+    "construction",
+    "does",
+    "help",
+    "knowledge",
+    "recursive",
+    "science",
+    "verify"
+   ],
+   "flag": "new",
+   "summary_zh": "研究递归知识构建对科学 Agent 验证共识声明的影响，通过拆解检索、中间状态构建与判断机制，量化评估不同设计决策对 Agent 性能的作用。",
+   "why_zh": "Agent 推理与验证机制。可学习如何通过控制变量法评估 Agent 递归推理路径，提升复杂任务中 Agent 决策的准确性与可解释性。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Challenge-Aware Knowledge Recruitment with Meta-Agent Supervision for Medical Multi-Agent Reasoning",
+   "link": "https://arxiv.org/abs/2611.05393",
+   "dt": "2026-11-05T00:00:00-05:00",
+   "summary": "arXiv:2611.05393v1 Announce Type: new Abstract: Large language models perform strongly on standard medical QA but degrade on harder reasoning tasks, where multi-agent debate often fails to beat strong single-model prompting. We argue that a key limitation is that existing systems select experts and retrieve knowledge from the question alone, rather than from gaps that emerge during reasoning. We propose challenge-aware adaptive recruitment: an external CHALLENGER inspects the evolving reasoning ",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "prompt_context",
+    "multi_agent"
+   ],
+   "learn_score": 3.58,
+   "score": 7.16,
+   "tokens": [
+    "agent",
+    "aware",
+    "challenge",
+    "knowledge",
+    "medical",
+    "meta",
+    "multi",
+    "reasoning",
+    "recruitment",
+    "supervision"
+   ],
+   "flag": "new",
+   "summary_zh": "提出一种挑战感知知识招募机制，通过 Meta-Agent 监督医疗多智能体推理过程，根据推理中产生的知识缺口而非仅凭初始问题检索专家知识。",
+   "why_zh": "属于多智能体协作与 RAG 优化领域，学习如何通过 Meta-Agent 动态调整推理路径，解决多智能体在复杂推理任务中信息检索不精准的问题。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "The Two-Ledger Model: Transaction-Grain Cost Accounting for Multi-Agent AI Systems Across Clouds, Models, and Systems of Record",
+   "link": "https://arxiv.org/abs/2611.06989",
+   "dt": "2026-11-06T00:00:00-05:00",
+   "summary": "arXiv:2611.06989v1 Announce Type: new Abstract: Enterprises run business transactions through multi-agent AI systems spanning clouds, large language models (LLMs), orchestration harnesses, and systems of record. Finance receives AI cost only at settlement grain, aggregated by SKU and charge period. The business question (what did this order, claim, or case cost in AI?) cannot be answered from billing data, because providers never see enterprise transaction boundaries. The FinOps Open Cost and Us",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "agent_architecture",
+    "multi_agent"
+   ],
+   "learn_score": 3.58,
+   "score": 7.16,
+   "tokens": [
+    "accounting",
+    "across",
+    "agent",
+    "ai",
+    "clouds",
+    "cost",
+    "grain",
+    "ledger",
+    "model",
+    "models",
+    "multi",
+    "record",
+    "systems",
+    "transaction",
+    "two"
+   ],
+   "flag": "new",
+   "summary_zh": "提出 Two-Ledger Model，通过事务粒度的成本核算方法，解决多 Agent 系统在跨云、跨模型场景下的财务追踪难题。",
+   "why_zh": "属于 AI 工程化运维（LLMOps）领域，学习如何构建精细化的成本监控体系，以量化复杂 Agent 工作流的 ROI。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Reducing Representational Interference in Retrieval Embeddings with Trainable Prefix Tokens",
+   "link": "https://huggingface.co/papers/2611.07298",
+   "dt": "2026-11-04T20:30:28+00:00",
+   "summary": "Embedding models compress variable-length text into fixed-size vector representations, but this compression can entangle semantic content with residual token-level information, such as artifacts arising from attention sink behavior. We propose a simple method that prepends trainable [DUMP] tokens to the input during embedding model training. The method keeps the model architecture, pooling strategy, and training loss unchanged, while optimizing the added tokens through the standard contrastive r",
+   "extra": {
+    "upvotes": 5,
+    "arxiv": "https://arxiv.org/abs/2611.07298"
+   },
+   "skills": [
+    "rag",
+    "eval_observability",
+    "llm_fundamentals",
+    "system_design"
+   ],
+   "learn_score": 3.314,
+   "score": 6.628,
+   "tokens": [
+    "embeddings",
+    "interference",
+    "prefix",
+    "reducing",
+    "representational",
+    "retrieval",
+    "tokens",
+    "trainable"
+   ],
+   "flag": "new",
+   "summary_zh": "在 Embedding 模型训练中引入可训练的 [DUMP] 前缀 Token，通过解耦语义内容与残余 Token 信息，减少表征干扰。",
+   "why_zh": "Embedding 模型优化。掌握通过前缀微调（Prefix Tuning）改善向量表征质量的技术，学习如何通过控制输入序列提升模型语义对齐能力。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.CL",
+   "title": "From Fragmentation to Fusion: A Survey and Roadmap for Omnimodal Embeddings",
+   "link": "https://arxiv.org/abs/2611.00172",
+   "dt": "2026-11-04T00:00:00-05:00",
+   "summary": "arXiv:2611.00172v1 Announce Type: new Abstract: Embedding models underpin virtually every modern AI system, from search engines to recommendation systems. Despite shared mathematical foundations, research on embedding models remains fragmented by modality: the communities develop largely in isolation, seldom exchanging insights. We argue that this fragmentation obscures a deeper convergence. Driven by contrastive learning, Transformer architectures, and a granularity shift, embedding research ac",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "rag",
+    "llm_fundamentals",
+    "system_design"
+   ],
+   "learn_score": 3.094,
+   "score": 6.188,
+   "tokens": [
+    "embeddings",
+    "fragmentation",
+    "fusion",
+    "omnimodal",
+    "roadmap",
+    "survey"
+   ],
+   "flag": "new",
+   "summary_zh": "系统梳理了全模态嵌入模型（Omnimodal Embeddings）的研究现状，分析了跨模态统一表征的数学基础与融合路径。",
+   "why_zh": "属于向量检索与表征学习领域，可学习如何构建统一的嵌入空间，解决多模态数据在 Agent 记忆系统中的对齐与检索难题。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ai-gateways/awesome-ai-gateways",
+   "link": "https://github.com/ai-gateways/awesome-ai-gateways",
+   "dt": "2026-10-30T10:30:50+00:00",
+   "summary": "Awesome AI gateways: open source and commercial LLM gateways, MCP gateways, agent (A2A) gateways, model routers, specs, and guides.",
+   "extra": {
+    "stars": 21,
+    "language": "",
+    "topics": [
+     "a2a",
+     "a2a-protocol",
+     "agent-gateway",
+     "ai-agents",
+     "ai-gateway",
+     "ai-governance"
+    ],
+    "created": "2026-10-30",
+    "pushed": "2026-11-02"
+   },
+   "skills": [
+    "tool_mcp",
+    "multi_agent"
+   ],
+   "learn_score": 2.943,
+   "score": 6.834,
+   "tokens": [
+    "ai",
+    "awesome",
+    "gateways"
+   ],
+   "flag": "new",
+   "summary_zh": "整理开源与商业 LLM 网关、MCP 网关、Agent 间通信网关及模型路由器的技术资源库。",
+   "why_zh": "属于 AI 基础设施领域，可学习如何构建高可用、可观测的 LLM 中间件，掌握 Agent 架构中网关层面的流量调度与协议适配。"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "Zyphra AI Introduces Zyphra Hierarchical Attention (ZHA): A Path to True Subquadratic Attention",
+   "link": "https://www.marktechpost.com/2026/11/02/zyphra-hierarchical-attention-zha-sparse-attention/",
+   "dt": "2026-11-03T01:09:49+00:00",
+   "summary": "Zyphra Hierarchical Attention (ZHA) is a tree-indexed sparse attention method that retrofits frozen LLMs with 4B tokens of distillation, matching dense attention on reasoning and 256K retrieval benchmarks. The post Zyphra AI Introduces Zyphra Hierarchical Attention (ZHA): A Path to True Subquadratic Attention appeared first on MarkTechPost .",
+   "extra": {},
+   "skills": [
+    "rag",
+    "eval_observability",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.731,
+   "score": 2.731,
+   "tokens": [
+    "ai",
+    "attention",
+    "hierarchical",
+    "introduces",
+    "path",
+    "subquadratic",
+    "true",
+    "zha",
+    "zyphra"
+   ],
+   "flag": "new",
+   "summary_zh": "Zyphra 提出 ZHA 树索引稀疏注意力机制，通过蒸馏使冻结 LLM 在 256K 上下文下实现亚二次复杂度推理。",
+   "why_zh": "属于模型架构优化领域，可复用做法是利用树状索引与蒸馏技术在不微调全参数前提下扩展模型上下文窗口。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Towards Real-Time Full-Waveform LiDAR Transformers via Intensity-Guided Token Reduction and Physics-Aware Augmentation",
+   "link": "https://huggingface.co/papers/2611.07613",
+   "dt": "2026-11-05T02:56:01+00:00",
+   "summary": "LiDAR is a critical sensor for autonomous driving and robotics, yet it remains vulnerable to adverse conditions such as fog, rain, transparent objects, and low-reflectance surfaces. Full-waveform LiDAR (FWL) addresses these limitations by capturing the complete return waveform as a histogram, preserving rich reflection characteristics including multi-path echoes and weak signals. While recent Transformer-based approaches have demonstrated promise on FWL data, two fundamental bottlenecks remain: ",
+   "extra": {
+    "upvotes": 5,
+    "arxiv": "https://arxiv.org/abs/2611.07613"
+   },
+   "skills": [
+    "agent_architecture",
+    "training_serving",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.685,
+   "score": 5.37,
+   "tokens": [
+    "augmentation",
+    "aware",
+    "full",
+    "guided",
+    "intensity",
+    "lidar",
+    "physics",
+    "real",
+    "reduction",
+    "time",
+    "token",
+    "towards",
+    "transformers",
+    "waveform"
+   ],
+   "flag": "new",
+   "summary_zh": "针对全波形 LiDAR 数据，提出强度引导的 Token 缩减与物理感知增强方法，实现自动驾驶场景下的实时高精度感知。",
+   "why_zh": "多模态感知与实时推理。学习如何通过 Token 剪枝与物理先验约束优化 Transformer 推理效率，解决复杂环境下的传感器数据处理难题。"
+  }
+ ]
+}
