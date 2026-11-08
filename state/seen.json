@@ -5618,7 +5618,7 @@
   },
   "https://github.com/YOLOW92/pagesift": {
    "title": "YOLOW92/pagesift",
-   "date": "2026-11-08",
+   "date": "2026-11-09",
    "tokens": [],
    "source": "github",
    "summary_zh": "基于 Rust 的高性能网页爬虫与内容提取引擎，提供适配 AI Agent 和 RAG 的干净 Markdown 及结构化数据输出。",
@@ -5830,7 +5830,7 @@
   },
   "https://github.com/amosblomqvist/learnharness": {
    "title": "amosblomqvist/learnharness",
-   "date": "2026-11-08",
+   "date": "2026-11-09",
    "tokens": [],
    "source": "github",
    "summary_zh": "LearnHarness 是一个专为学习复杂技能设计的 Agent 框架，通过结构化的交互流程辅助 Agent 掌握新知识或任务。",
@@ -6194,7 +6194,7 @@
   },
   "https://github.com/wanghao-SunSky/cs329z-chinese": {
    "title": "wanghao-SunSky/cs329z-chinese",
-   "date": "2026-11-08",
+   "date": "2026-11-09",
    "tokens": [],
    "source": "github",
    "summary_zh": "斯坦福 CS329Z 课程中文版，系统梳理了 LLM、RAG、工具调用、记忆机制、多智能体架构及评测安全等智能体开发核心知识体系。",
@@ -6202,7 +6202,7 @@
   },
   "https://github.com/ccch1mneyyy/dsh-Go": {
    "title": "ccch1mneyyy/dsh-Go",
-   "date": "2026-11-08",
+   "date": "2026-11-09",
    "tokens": [],
    "source": "github",
    "summary_zh": "dsh-Go 实现 DeepSeek 模型在移动端本地运行，并支持远程控制桌面端执行任务，提供轻量级端侧推理解决方案。",
@@ -7645,25 +7645,16 @@
   },
   "https://github.com/zaxiu88888/issue-rag": {
    "title": "zaxiu88888/issue-rag",
-   "date": "2026-11-08",
-   "tokens": [
-    "issue",
-    "rag",
-    "zaxiu88888"
-   ],
+   "date": "2026-11-09",
+   "tokens": [],
    "source": "github",
    "summary_zh": "基于 GitHub Issues 构建的 RAG 系统，提供人工评估集及对 LLM 评测器本身的审计机制，通过置信区间而非单一指标评估检索质量。",
    "why_zh": "RAG 评估与评测。学习如何构建高质量黄金数据集以及通过置信区间量化评估结果的稳定性，避免单一指标带来的偏差。"
   },
   "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/": {
    "title": "GitHub's new Git storage architecture",
-   "date": "2026-11-08",
-   "tokens": [
-    "architecture",
-    "git",
-    "github",
-    "storage"
-   ],
+   "date": "2026-11-09",
+   "tokens": [],
    "source": "hackernews",
    "summary_zh": "GitHub 升级 Git 存储架构，通过优化底层数据结构与存储策略，提升大规模代码仓库的读写性能与扩展性。",
    "why_zh": "系统架构与工程优化。了解大规模分布式版本控制系统的存储演进，学习如何处理海量小文件存储与高并发读写瓶颈。"
@@ -7854,7 +7845,221 @@
    "source": "youtube",
    "summary_zh": "Weight Space Programming 通过直接操作神经网络权重空间而非激活值，实现对模型行为的直接编程与逻辑控制。",
    "why_zh": "属于模型可解释性与参数化控制。可学习如何通过修改权重矩阵实现模型功能的动态调整，是探索 AI Agent 自主进化与逻辑干预的前沿方向。"
+  },
+  "https://www.anthropic.com/research/components-of-agent-memory": {
+   "title": "The Components of Agent Memory",
+   "date": "2026-11-09",
+   "tokens": [
+    "agent",
+    "components",
+    "memory"
+   ],
+   "source": "hackernews",
+   "summary_zh": "分析 Agent 记忆系统的核心组件，探讨短期记忆、长期记忆及检索机制在复杂任务中的架构设计与实现逻辑。",
+   "why_zh": "Agent 架构设计技能点。可复用做法：通过分层存储策略优化上下文窗口利用率，并结合向量数据库实现高效的记忆检索与更新。"
+  },
+  "https://github.com/yanstd888/9routerx": {
+   "title": "yanstd888/9routerx",
+   "date": "2026-11-09",
+   "tokens": [
+    "9routerx",
+    "yanstd888"
+   ],
+   "source": "github",
+   "summary_zh": "9RouterX 是一个 Go 语言编写的单二进制文件 LLM 网关，支持 155 个提供商、248 个模型，并具备 20-40% 的 Token 节省能力。",
+   "why_zh": "LLM 工程化部署技能点。可复用做法：学习如何构建高性能路由层以实现多模型负载均衡、Token 压缩及统一的 API 接口封装。"
+  },
+  "https://huggingface.co/papers/2611.08237": {
+   "title": "Terminal-style Mathematical Modeling Bench: The First Agentic and Verifiable Benchmark for Mathematical Modeling",
+   "date": "2026-11-09",
+   "tokens": [
+    "agentic",
+    "bench",
+    "benchmark",
+    "first",
+    "mathematical",
+    "modeling",
+    "style",
+    "terminal",
+    "verifiable"
+   ],
+   "source": "paper",
+   "summary_zh": "TB-MathModel 是首个针对数学建模任务的 Agentic 可验证基准测试，通过终端环境评估模型从假设到方案的完整建模能力。",
+   "why_zh": "Agent 评估与测试技能点。可复用做法：利用沙箱化终端环境进行代码执行验证，替代传统的 LLM 自动评分，提高评估的客观性。"
+  },
+  "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again": {
+   "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+   "date": "2026-11-09",
+   "tokens": [
+    "122",
+    "again",
+    "ask",
+    "claude",
+    "code",
+    "don",
+    "exposes",
+    "files",
+    "github",
+    "passwords",
+    "public"
+   ],
+   "source": "hackernews",
+   "summary_zh": "Claude Code 的 Don't Ask Again 功能因配置不当，导致 1,122 个公开 GitHub 仓库中的敏感密码被意外泄露。",
+   "why_zh": "AI 安全与工程实践技能点。可复用做法：在开发 Agent 工具时，必须实施严格的凭证管理与环境变量过滤，防止自动化操作引发安全漏洞。"
+  },
+  "https://huggingface.co/papers/2611.06498": {
+   "title": "Signed but Steerable: Measuring and Closing the Text-Vector Integrity Gap in Offline Retrieval-Augmented Generation",
+   "date": "2026-11-09",
+   "tokens": [
+    "augmented",
+    "closing",
+    "gap",
+    "generation",
+    "integrity",
+    "measuring",
+    "offline",
+    "retrieval",
+    "signed",
+    "steerable",
+    "text",
+    "vector"
+   ],
+   "source": "paper",
+   "summary_zh": "研究离线 RAG 系统中文本与向量的完整性差距，提出验证机制以确保边缘设备上签名知识包的向量编码与文本内容一致。",
+   "why_zh": "RAG 系统架构与安全技能点。可复用做法：在离线检索场景中引入向量重计算与余弦相似度校验，防止恶意篡改导致的检索偏差。"
+  },
+  "https://www.marktechpost.com/2026/11/07/nous-research-arete-27b-qwen3-8-27b-propaganda-fine-tune/": {
+   "title": "Nous Research Releases Arete-27B that Cuts Qwen3.8-27B Propaganda From 22% to 0.9%",
+   "date": "2026-11-09",
+   "tokens": [
+    "22",
+    "27b",
+    "arete",
+    "cuts",
+    "nous",
+    "propaganda",
+    "qwen3",
+    "releases",
+    "research"
+   ],
+   "source": "blog",
+   "summary_zh": "Nous Research 发布 Arete-27B 模型，基于 Qwen2.5-27B 微调，将宣传性回答比例从 22% 显著降低至 0.9%。",
+   "why_zh": "模型对齐与微调技能点。可复用做法：通过针对性的数据集清洗与指令微调，有效抑制大模型在特定领域内的偏见与过度引导倾向。"
+  },
+  "https://github.com/Dongbumlee/ontosmith": {
+   "title": "Dongbumlee/ontosmith",
+   "date": "2026-11-09",
+   "tokens": [
+    "dongbumlee",
+    "ontosmith"
+   ],
+   "source": "github",
+   "summary_zh": "ontosmith 是一个基于决策模型的知识图谱构建工具，通过溯源机制确保从文档中提取的每一个事实都有据可查。",
+   "why_zh": "知识图谱构建与 RAG 增强。学习如何通过证据链溯源提升 LLM 提取事实的准确性和可信度，适用于构建高可信度企业级知识库。"
+  },
+  "https://github.com/Human-Agent-Society/reef": {
+   "title": "Human-Agent-Society/reef",
+   "date": "2026-11-09",
+   "tokens": [
+    "agent",
+    "human",
+    "reef",
+    "society"
+   ],
+   "source": "github",
+   "summary_zh": "reef 是一个旨在支持 Agent 持续自我改进的基础设施，通过闭环反馈机制优化 Agent 的行为与决策逻辑。",
+   "why_zh": "Agent 架构设计。掌握 Agent 自我进化与持续学习的工程实现，理解如何构建反馈循环以提升 Agent 在长周期任务中的表现。"
+  },
+  "https://github.com/Prism-Shadow/awesome-rsi": {
+   "title": "Prism-Shadow/awesome-rsi",
+   "date": "2026-11-09",
+   "tokens": [
+    "awesome",
+    "prism",
+    "rsi",
+    "shadow"
+   ],
+   "source": "github",
+   "summary_zh": "awesome-rsi 汇集了关于 RSI (Reasoning-Search-Integration) 的学术论文索引，涵盖了当前推理与搜索结合的前沿研究。",
+   "why_zh": "推理与搜索结合 (RSI)。通过阅读经典论文，掌握将搜索算法与大模型推理能力融合的理论基础，是优化复杂任务规划的核心技能。"
+  },
+  "https://www.qbitai.com/2026/11/508264.html": {
+   "title": "抢跑DeepSeek！硅谷华人把下一代Agent Harness造出来了！？",
+   "date": "2026-11-09",
+   "tokens": [
+    "harness造出来了",
+    "抢跑deepseek",
+    "硅谷华人把下一代agent"
+   ],
+   "source": "blog",
+   "summary_zh": "Agent Harness 旨在解决 Agent 单次会话限制，通过多会话协同与状态持久化提升 Agent 处理复杂任务的连贯性。",
+   "why_zh": "Agent 状态管理。学习如何设计跨 Session 的上下文记忆与状态同步机制，解决长程任务中 Agent 记忆丢失与逻辑中断问题。"
+  },
+  "https://www.marktechpost.com/2026/11/07/moe-routing-strategies-explained/": {
+   "title": "MoE Routing Strategies Explained: Top-K, Expert-Choice, Sigmoid Gating and Dynamic Routing (2026 Guide)",
+   "date": "2026-11-09",
+   "tokens": [
+    "2026",
+    "choice",
+    "dynamic",
+    "expert",
+    "explained",
+    "gating",
+    "guide",
+    "moe",
+    "routing",
+    "sigmoid",
+    "strategies",
+    "top"
+   ],
+   "source": "blog",
+   "summary_zh": "该指南详细解析了 MoE 架构中的 7 种路由策略，包括 Top-K、Expert-Choice、Sigmoid Gating 及 DeepSeek-V4 使用的哈希路由。",
+   "why_zh": "模型架构优化。深入理解 MoE 路由机制对计算效率与模型性能的影响，掌握如何根据业务需求选择或设计高效的专家分配策略。"
+  },
+  "https://www.youtube.com/watch?v=lVbQqjAJpkE": {
+   "title": "12 months to the singularity",
+   "date": "2026-11-09",
+   "tokens": [
+    "12",
+    "months",
+    "singularity"
+   ],
+   "source": "youtube",
+   "summary_zh": "探讨 AI 发展趋势与奇点临近的预测，分析当前技术演进速度对未来一年 AI 产业格局的潜在影响。",
+   "why_zh": "技术趋势洞察。培养对 AI 行业宏观演进的判断力，理解算力、算法与 Agent 协同演进的逻辑，有助于在架构选型时预判技术生命周期。"
+  },
+  "https://www.youtube.com/watch?v=bJldMYfRvMQ": {
+   "title": "Introducing ChatGPT Images 2.6",
+   "date": "2026-11-09",
+   "tokens": [
+    "chatgpt",
+    "images",
+    "introducing"
+   ],
+   "source": "youtube",
+   "summary_zh": "OpenAI 发布 ChatGPT Images 2.6，支持生成 GIF 动图与参考图输入，并更新 API 模型以提升 50% 的图像生成速度。",
+   "why_zh": "多模态生成任务优化。学习如何通过参考图引导生成及利用 API 性能调优提升生产环境的推理吞吐量。"
+  },
+  "https://www.youtube.com/watch?v=2dD4HXg-YJ4": {
+   "title": "Ripple 65B: A Chip Design Lab Just Beat Every US Open Model",
+   "date": "2026-11-09",
+   "tokens": [
+    "65b",
+    "beat",
+    "chip",
+    "design",
+    "every",
+    "just",
+    "lab",
+    "model",
+    "open",
+    "ripple",
+    "us"
+   ],
+   "source": "youtube",
+   "summary_zh": "Ricursive AI 发布 Ripple 65B 模型，该模型专为芯片设计领域优化，在特定专业任务中超越了主流开源模型。",
+   "why_zh": "垂直领域大模型微调。掌握针对特定工程领域（如 EDA 或代码生成）进行数据集构建与模型适配的领域增强策略。"
   }
  },
- "updated": "2026-11-07T17:29:46.288286+00:00"
+ "updated": "2026-11-08T16:13:39.092238+00:00"
 }

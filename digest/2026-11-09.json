@@ -1,0 +1,617 @@
+{
+ "date": "2026-11-09",
+ "generated": "2026-11-09 00:13",
+ "source_count": {
+  "github": 77,
+  "youtube": 38,
+  "blog": 81,
+  "paper": 12,
+  "hackernews": 10
+ },
+ "failures": {},
+ "failure_errors": {},
+ "summary_missing": [],
+ "summary_providers": {
+  "gemini": 3
+ },
+ "items": [
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "The Components of Agent Memory",
+   "link": "https://www.anthropic.com/research/components-of-agent-memory",
+   "dt": "2026-11-07T06:39:04+00:00",
+   "summary": "",
+   "extra": {
+    "points": 161,
+    "comments": 99,
+    "hn_link": "https://news.ycombinator.com/item?id=50402212"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.7,
+   "score": 5.452,
+   "tokens": [
+    "agent",
+    "components",
+    "memory"
+   ],
+   "flag": "new",
+   "summary_zh": "分析 Agent 记忆系统的核心组件，探讨短期记忆、长期记忆及检索机制在复杂任务中的架构设计与实现逻辑。",
+   "why_zh": "Agent 架构设计技能点。可复用做法：通过分层存储策略优化上下文窗口利用率，并结合向量数据库实现高效的记忆检索与更新。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "yanstd888/9routerx",
+   "link": "https://github.com/yanstd888/9routerx",
+   "dt": "2026-11-07T11:54:33+00:00",
+   "summary": "9RouterX (9R Next Go Generation): Single-binary Go AI router, LLM gateway & 20-40% token saver. Route Claude Code, Cursor & Codex across 155 providers, 28 OAuth & 248 free models (24 keyless) — OpenAI, Claude, Gemini, DeepSeek, Groq, Ollama & MCP.",
+   "extra": {
+    "stars": 36,
+    "language": "Go",
+    "topics": [
+     "9routerx",
+     "ai-gateway",
+     "ai-proxy",
+     "ai-routing",
+     "api-gateway",
+     "claude-code"
+    ],
+    "created": "2026-11-07",
+    "pushed": "2026-11-08"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 2.066,
+   "score": 5.281,
+   "tokens": [
+    "9routerx",
+    "yanstd888"
+   ],
+   "flag": "new",
+   "summary_zh": "9RouterX 是一个 Go 语言编写的单二进制文件 LLM 网关，支持 155 个提供商、248 个模型，并具备 20-40% 的 Token 节省能力。",
+   "why_zh": "LLM 工程化部署技能点。可复用做法：学习如何构建高性能路由层以实现多模型负载均衡、Token 压缩及统一的 API 接口封装。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Terminal-style Mathematical Modeling Bench: The First Agentic and Verifiable Benchmark for Mathematical Modeling",
+   "link": "https://huggingface.co/papers/2611.08237",
+   "dt": "2026-11-05T11:18:35+00:00",
+   "summary": "Mathematical modeling turns an open-ended real-world problem into assumptions, a model, a solution, and a defended recommendation, and its answers matter only if they are both close to a credible reference and physically feasible; existing benchmarks either score solver fragments or grade reports with an LLM judge, leaving those numbers unchecked. We introduce TB-MathModel (the Terminal-style Mathematical Modeling Bench), the first benchmark to make complete contest-style modeling problems agent",
+   "extra": {
+    "upvotes": 11,
+    "arxiv": "https://arxiv.org/abs/2611.08237"
+   },
+   "skills": [
+    "rag",
+    "eval_observability"
+   ],
+   "learn_score": 2.485,
+   "score": 5.073,
+   "tokens": [
+    "agentic",
+    "bench",
+    "benchmark",
+    "first",
+    "mathematical",
+    "modeling",
+    "style",
+    "terminal",
+    "verifiable"
+   ],
+   "flag": "new",
+   "summary_zh": "TB-MathModel 是首个针对数学建模任务的 Agentic 可验证基准测试，通过终端环境评估模型从假设到方案的完整建模能力。",
+   "why_zh": "Agent 评估与测试技能点。可复用做法：利用沙箱化终端环境进行代码执行验证，替代传统的 LLM 自动评分，提高评估的客观性。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+   "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+   "dt": "2026-11-07T20:45:32+00:00",
+   "summary": "",
+   "extra": {
+    "points": 493,
+    "comments": 352,
+    "hn_link": "https://news.ycombinator.com/item?id=50407882"
+   },
+   "skills": [],
+   "learn_score": 1.35,
+   "score": 4.985,
+   "tokens": [
+    "122",
+    "again",
+    "ask",
+    "claude",
+    "code",
+    "don",
+    "exposes",
+    "files",
+    "github",
+    "passwords",
+    "public"
+   ],
+   "flag": "new",
+   "summary_zh": "Claude Code 的 Don't Ask Again 功能因配置不当，导致 1,122 个公开 GitHub 仓库中的敏感密码被意外泄露。",
+   "why_zh": "AI 安全与工程实践技能点。可复用做法：在开发 Agent 工具时，必须实施严格的凭证管理与环境变量过滤，防止自动化操作引发安全漏洞。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Signed but Steerable: Measuring and Closing the Text-Vector Integrity Gap in Offline Retrieval-Augmented Generation",
+   "link": "https://huggingface.co/papers/2611.06498",
+   "dt": "2026-11-04T08:32:04+00:00",
+   "summary": "Offline retrieval-augmented generation (RAG) on edge devices is updated through signed knowledge packs that carry text and precomputed embedding vectors. A signature proves who published a pack, not that its vectors encode its text. We study this text-vector integrity gap. A verifier that recomputes vectors and accepts them within a cosine tolerance concedes a predictable share of queries to an attacker who controls the vectors: the hijack rate equals the distribution of angular retrieval margin",
+   "extra": {
+    "upvotes": 4,
+    "arxiv": "https://arxiv.org/abs/2611.06498"
+   },
+   "skills": [
+    "rag",
+    "eval_observability"
+   ],
+   "learn_score": 2.355,
+   "score": 4.71,
+   "tokens": [
+    "augmented",
+    "closing",
+    "gap",
+    "generation",
+    "integrity",
+    "measuring",
+    "offline",
+    "retrieval",
+    "signed",
+    "steerable",
+    "text",
+    "vector"
+   ],
+   "flag": "new",
+   "summary_zh": "研究离线 RAG 系统中文本与向量的完整性差距，提出验证机制以确保边缘设备上签名知识包的向量编码与文本内容一致。",
+   "why_zh": "RAG 系统架构与安全技能点。可复用做法：在离线检索场景中引入向量重计算与余弦相似度校验，防止恶意篡改导致的检索偏差。"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "Nous Research Releases Arete-27B that Cuts Qwen3.8-27B Propaganda From 22% to 0.9%",
+   "link": "https://www.marktechpost.com/2026/11/07/nous-research-arete-27b-qwen3-8-27b-propaganda-fine-tune/",
+   "dt": "2026-11-08T04:45:59+00:00",
+   "summary": "Nous Research released Arete-27B, an Apache 2.0 fine-tune of Qwen3.8-27B. On Nous’s 803-prompt eval, propaganda answers fell from 22% to 0.9% while Hermes Bench stayed flat at 65.60%. The post Nous Research Releases Arete-27B that Cuts Qwen3.8-27B Propaganda From 22% to 0.9% appeared first on MarkTechPost .",
+   "extra": {},
+   "skills": [
+    "prompt_context",
+    "eval_observability",
+    "training_serving"
+   ],
+   "learn_score": 2.731,
+   "score": 2.731,
+   "tokens": [
+    "22",
+    "27b",
+    "arete",
+    "cuts",
+    "nous",
+    "propaganda",
+    "qwen3",
+    "releases",
+    "research"
+   ],
+   "flag": "new",
+   "summary_zh": "Nous Research 发布 Arete-27B 模型，基于 Qwen2.5-27B 微调，将宣传性回答比例从 22% 显著降低至 0.9%。",
+   "why_zh": "模型对齐与微调技能点。可复用做法：通过针对性的数据集清洗与指令微调，有效抑制大模型在特定领域内的偏见与过度引导倾向。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Dongbumlee/ontosmith",
+   "link": "https://github.com/Dongbumlee/ontosmith",
+   "dt": "2026-10-22T08:24:50+00:00",
+   "summary": "A decision-model-based ontology & knowledge-graph builder — builds governed knowledge graphs from your documents, every fact gated and traceable to its evidence.",
+   "extra": {
+    "stars": 193,
+    "language": "Python",
+    "topics": [
+     "graphrag",
+     "information-extraction",
+     "knowledge-graph",
+     "llm",
+     "neo4j",
+     "ontology"
+    ],
+    "created": "2026-10-22",
+    "pushed": "2026-11-08"
+   },
+   "skills": [],
+   "learn_score": 0.765,
+   "score": 2.513,
+   "tokens": [
+    "dongbumlee",
+    "ontosmith"
+   ],
+   "flag": "new",
+   "summary_zh": "ontosmith 是一个基于决策模型的知识图谱构建工具，通过溯源机制确保从文档中提取的每一个事实都有据可查。",
+   "why_zh": "知识图谱构建与 RAG 增强。学习如何通过证据链溯源提升 LLM 提取事实的准确性和可信度，适用于构建高可信度企业级知识库。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Human-Agent-Society/reef",
+   "link": "https://github.com/Human-Agent-Society/reef",
+   "dt": "2026-08-31T01:39:18+00:00",
+   "summary": "Infrastructure for continually self‑improving agents",
+   "extra": {
+    "stars": 7785,
+    "language": "Python",
+    "topics": [
+     "agent-infrastructure",
+     "ai-agents",
+     "continual-learning",
+     "inference",
+     "llm",
+     "llm-training"
+    ],
+    "created": "2026-08-31",
+    "pushed": "2026-11-08"
+   },
+   "skills": [],
+   "learn_score": 0.54,
+   "score": 2.16,
+   "tokens": [
+    "agent",
+    "human",
+    "reef",
+    "society"
+   ],
+   "flag": "new",
+   "summary_zh": "reef 是一个旨在支持 Agent 持续自我改进的基础设施，通过闭环反馈机制优化 Agent 的行为与决策逻辑。",
+   "why_zh": "Agent 架构设计。掌握 Agent 自我进化与持续学习的工程实现，理解如何构建反馈循环以提升 Agent 在长周期任务中的表现。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Prism-Shadow/awesome-rsi",
+   "link": "https://github.com/Prism-Shadow/awesome-rsi",
+   "dt": "2026-08-13T09:30:55+00:00",
+   "summary": "An Open Index of RSI Papers",
+   "extra": {
+    "stars": 592,
+    "language": "JavaScript",
+    "topics": [
+     "ai",
+     "autoresearch",
+     "claude-code",
+     "codex",
+     "deepseek-harness",
+     "gpt"
+    ],
+    "created": "2026-08-13",
+    "pushed": "2026-11-08"
+   },
+   "skills": [],
+   "learn_score": 0.54,
+   "score": 2.037,
+   "tokens": [
+    "awesome",
+    "prism",
+    "rsi",
+    "shadow"
+   ],
+   "flag": "new",
+   "summary_zh": "awesome-rsi 汇集了关于 RSI (Reasoning-Search-Integration) 的学术论文索引，涵盖了当前推理与搜索结合的前沿研究。",
+   "why_zh": "推理与搜索结合 (RSI)。通过阅读经典论文，掌握将搜索算法与大模型推理能力融合的理论基础，是优化复杂任务规划的核心技能。"
+  },
+  {
+   "source": "blog",
+   "source_label": "量子位",
+   "title": "抢跑DeepSeek！硅谷华人把下一代Agent Harness造出来了！？",
+   "link": "https://www.qbitai.com/2026/11/508264.html",
+   "dt": "2026-11-07T05:01:17+00:00",
+   "summary": "苦单Session久矣，两大Agent玩家不谋而合。",
+   "extra": {},
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.951,
+   "score": 1.951,
+   "tokens": [
+    "harness造出来了",
+    "抢跑deepseek",
+    "硅谷华人把下一代agent"
+   ],
+   "flag": "new",
+   "summary_zh": "Agent Harness 旨在解决 Agent 单次会话限制，通过多会话协同与状态持久化提升 Agent 处理复杂任务的连贯性。",
+   "why_zh": "Agent 状态管理。学习如何设计跨 Session 的上下文记忆与状态同步机制，解决长程任务中 Agent 记忆丢失与逻辑中断问题。"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "MoE Routing Strategies Explained: Top-K, Expert-Choice, Sigmoid Gating and Dynamic Routing (2026 Guide)",
+   "link": "https://www.marktechpost.com/2026/11/07/moe-routing-strategies-explained/",
+   "dt": "2026-11-08T06:18:33+00:00",
+   "summary": "MoE routing strategies decide which experts process each token. This guide explains 7 methods, from Mixtral's top-2 softmax to DeepSeek-V4's hash routing, with the models that use each one. The post MoE Routing Strategies Explained: Top-K, Expert-Choice, Sigmoid Gating and Dynamic Routing (2026 Guide) appeared first on MarkTechPost .",
+   "extra": {},
+   "skills": [
+    "llm_fundamentals"
+   ],
+   "learn_score": 1.806,
+   "score": 1.806,
+   "tokens": [
+    "2026",
+    "choice",
+    "dynamic",
+    "expert",
+    "explained",
+    "gating",
+    "guide",
+    "moe",
+    "routing",
+    "sigmoid",
+    "strategies",
+    "top"
+   ],
+   "flag": "new",
+   "summary_zh": "该指南详细解析了 MoE 架构中的 7 种路由策略，包括 Top-K、Expert-Choice、Sigmoid Gating 及 DeepSeek-V4 使用的哈希路由。",
+   "why_zh": "模型架构优化。深入理解 MoE 路由机制对计算效率与模型性能的影响，掌握如何根据业务需求选择或设计高效的专家分配策略。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Matthew Berman",
+   "title": "12 months to the singularity",
+   "link": "https://www.youtube.com/watch?v=lVbQqjAJpkE",
+   "dt": "2026-11-07T17:28:06+00:00",
+   "summary": "Check out IntelliJ IDEA: https://jb.gg/air_ij_2026 Join My Newsletter for Regular AI Updates 👇🏼 https://forwardfuture.com My Links 🔗 👉🏻 X: https://x.com/matthewberman 👉🏻 Forward Future X: https://x.com/forwardfuture 👉🏻 Instagram: https://www.instagram.com/matthewberman_ai 👉🏻 Discord: https://discord.gg/u7wTTGWhuJ 👉🏻 Spotify: https://open.spotify.com/show/6dBxDwxtHl1hpqHhfoXmy8 Media/Sponsorship Inquiries ✅ https://bit.ly/44TC45V Links: https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleratio…",
+   "extra": {
+    "channel": "Matthew Berman",
+    "video_id": "lVbQqjAJpkE"
+   },
+   "skills": [],
+   "learn_score": 0.9,
+   "score": 0.9,
+   "tokens": [
+    "12",
+    "months",
+    "singularity"
+   ],
+   "flag": "new",
+   "summary_zh": "探讨 AI 发展趋势与奇点临近的预测，分析当前技术演进速度对未来一年 AI 产业格局的潜在影响。",
+   "why_zh": "技术趋势洞察。培养对 AI 行业宏观演进的判断力，理解算力、算法与 Agent 协同演进的逻辑，有助于在架构选型时预判技术生命周期。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "Introducing ChatGPT Images 2.6",
+   "link": "https://www.youtube.com/watch?v=bJldMYfRvMQ",
+   "dt": "2026-11-05T02:32:21+00:00",
+   "summary": "Images, upgraded—introducing ChatGPT Images 2.6. Now with GIFs and reference images. Plus, two new models are coming to the API with 50% faster image generation. Images, upgraded—introducing ChatGPT Images 2.6. Now with GIFs and reference images. Plus, two new models are coming to the API with 50% faster image generation. https://openai.com/index/introducing-images-2-6/",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": "bJldMYfRvMQ"
+   },
+   "skills": [],
+   "learn_score": 0.855,
+   "score": 0.855,
+   "tokens": [
+    "chatgpt",
+    "images",
+    "introducing"
+   ],
+   "flag": "new",
+   "summary_zh": "OpenAI 发布 ChatGPT Images 2.6，支持生成 GIF 动图与参考图输入，并更新 API 模型以提升 50% 的图像生成速度。",
+   "why_zh": "多模态生成任务优化。学习如何通过参考图引导生成及利用 API 性能调优提升生产环境的推理吞吐量。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Sam Witteveen",
+   "title": "Ripple 65B: A Chip Design Lab Just Beat Every US Open Model",
+   "link": "https://www.youtube.com/watch?v=2dD4HXg-YJ4",
+   "dt": "2026-11-05T16:01:13+00:00",
+   "summary": "In this video, I go through a new model that has come out from an interesting company that wasn't focused on making LLM models but is focused on creating models that can be used for chip design. Blog: https://www.ricursive.com/ripple HF: https://huggingface.co/ricursiveAI 2nd Channel: https://www.youtube.com/channel/UCUF7WtR4JpVbQqcQGrLeADw Twitter: https://x.com/Sam_Witteveen 🕵️ Interested in building LLM Agents? Fill out the form below Building LLM Agents Form: https://drp.li/dIMes 👨‍💻Github: …",
+   "extra": {
+    "channel": "Sam Witteveen",
+    "video_id": "2dD4HXg-YJ4"
+   },
+   "skills": [],
+   "learn_score": 0.855,
+   "score": 0.855,
+   "tokens": [
+    "65b",
+    "beat",
+    "chip",
+    "design",
+    "every",
+    "just",
+    "lab",
+    "model",
+    "open",
+    "ripple",
+    "us"
+   ],
+   "flag": "new",
+   "summary_zh": "Ricursive AI 发布 Ripple 65B 模型，该模型专为芯片设计领域优化，在特定专业任务中超越了主流开源模型。",
+   "why_zh": "垂直领域大模型微调。掌握针对特定工程领域（如 EDA 或代码生成）进行数据集构建与模型适配的领域增强策略。"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "wanghao-SunSky/cs329z-chinese",
+   "link": "https://github.com/wanghao-SunSky/cs329z-chinese",
+   "dt": "2026-10-28T18:18:24+00:00",
+   "summary": "斯坦福 Stanford CS329Z Engineering AI Agents 中文教程：面向 Python 开发者的 AI 智能体课程，19 讲与 4 项实践，涵盖 LLM、RAG、工具调用、记忆、多智能体、评测与安全。完整 Markdown、在线与离线 HTML。Chinese course notes.",
+   "extra": {
+    "stars": 509,
+    "language": "HTML",
+    "topics": [
+     "agent-memory",
+     "agentic-ai",
+     "ai-agents",
+     "chinese",
+     "chinese-tutorial",
+     "course-notes"
+    ],
+    "created": "2026-10-28",
+    "pushed": "2026-11-06"
+   },
+   "skills": [
+    "rag",
+    "tool_mcp",
+    "agent_architecture",
+    "multi_agent",
+    "eval_observability"
+   ],
+   "learn_score": 2.601,
+   "score": 9.641,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-08 推荐过",
+   "summary_zh": "斯坦福 CS329Z 课程中文版，系统梳理了 LLM、RAG、工具调用、记忆机制、多智能体架构及评测安全等智能体开发核心知识体系。",
+   "why_zh": "属于 AI Agent 工程化技能点，可复用其课程设计的模块化架构，学习如何构建从基础到多智能体协作的完整开发工作流。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "YOLOW92/pagesift",
+   "link": "https://github.com/YOLOW92/pagesift",
+   "dt": "2026-10-20T17:30:59+00:00",
+   "summary": "Self-hosted web scraper, crawler and document parser for AI agents: URLs, PDFs with OCR and Office files to clean Markdown/JSON. Firecrawl- and Jina-compatible API, MCP server, agent endpoint, Python/Node SDKs. Single Rust binary.",
+   "extra": {
+    "stars": 255,
+    "language": "Rust",
+    "topics": [
+     "ai-agents",
+     "browser-automation",
+     "crawl4ai-alternative",
+     "data-extraction",
+     "document-parsing",
+     "firecrawl"
+    ],
+    "created": "2026-10-20",
+    "pushed": "2026-11-08"
+   },
+   "skills": [
+    "tool_mcp",
+    "training_serving"
+   ],
+   "learn_score": 2.107,
+   "score": 7.178,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-08 推荐过",
+   "summary_zh": "基于 Rust 的高性能网页爬虫与内容提取引擎，提供适配 AI Agent 和 RAG 的干净 Markdown 及结构化数据输出。",
+   "why_zh": "RAG 数据预处理技能，学习使用 Rust 实现高内存效率的浏览器渲染与 Firecrawl 兼容 API 以加速数据获取。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "zaxiu88888/issue-rag",
+   "link": "https://github.com/zaxiu88888/issue-rag",
+   "dt": "2026-11-01T11:32:25+00:00",
+   "summary": "RAG over GitHub issues, with a hand-reviewed eval set and an audit of the judge itself. Reports the interval, not just the best number.",
+   "extra": {
+    "stars": 142,
+    "language": "Python",
+    "topics": [
+     "evaluation",
+     "github-issues",
+     "llm",
+     "llm-as-judge",
+     "python",
+     "rag"
+    ],
+    "created": "2026-11-01",
+    "pushed": "2026-11-04"
+   },
+   "skills": [
+    "rag",
+    "eval_observability"
+   ],
+   "learn_score": 2.231,
+   "score": 7.033,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-08 推荐过",
+   "summary_zh": "基于 GitHub Issues 构建的 RAG 系统，提供人工评估集及对 LLM 评测器本身的审计机制，通过置信区间而非单一指标评估检索质量。",
+   "why_zh": "RAG 评估与评测。学习如何构建高质量黄金数据集以及通过置信区间量化评估结果的稳定性，避免单一指标带来的偏差。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ccch1mneyyy/dsh-Go",
+   "link": "https://github.com/ccch1mneyyy/dsh-Go",
+   "dt": "2026-10-25T08:09:52+00:00",
+   "summary": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+   "extra": {
+    "stars": 15806,
+    "language": "Dart",
+    "topics": [
+     "ai-agent",
+     "android",
+     "android-app",
+     "coding-agent",
+     "deepseek",
+     "deepseek-harness"
+    ],
+    "created": "2026-10-25",
+    "pushed": "2026-11-08"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-08 推荐过",
+   "summary_zh": "dsh-Go 实现 DeepSeek 模型在移动端本地运行，并支持远程控制桌面端执行任务，提供轻量级端侧推理解决方案。",
+   "why_zh": "属于端侧 AI 部署技能点，可复用其跨设备通信与本地推理引擎集成方案，解决资源受限环境下的智能体调度问题。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "amosblomqvist/learnharness",
+   "link": "https://github.com/amosblomqvist/learnharness",
+   "dt": "2026-10-16T19:35:33+00:00",
+   "summary": "Agent harness for learning difficult things.",
+   "extra": {
+    "stars": 6351,
+    "language": "TypeScript",
+    "topics": [],
+    "created": "2026-10-16",
+    "pushed": "2026-11-07"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-08 推荐过",
+   "summary_zh": "LearnHarness 是一个专为学习复杂技能设计的 Agent 框架，通过结构化的交互流程辅助 Agent 掌握新知识或任务。",
+   "why_zh": "属于 Agent 学习与任务规划领域。可学习如何构建 Agent 的长程任务分解与反馈循环，提升 Agent 在复杂任务中的自适应能力。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "GitHub's new Git storage architecture",
+   "link": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+   "dt": "2026-11-06T19:24:21+00:00",
+   "summary": "",
+   "extra": {
+    "points": 230,
+    "comments": 67,
+    "hn_link": "https://news.ycombinator.com/item?id=50397099"
+   },
+   "skills": [
+    "rag",
+    "system_design"
+   ],
+   "learn_score": 2.04,
+   "score": 6.858,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-08 推荐过",
+   "summary_zh": "GitHub 升级 Git 存储架构，通过优化底层数据结构与存储策略，提升大规模代码仓库的读写性能与扩展性。",
+   "why_zh": "系统架构与工程优化。了解大规模分布式版本控制系统的存储演进，学习如何处理海量小文件存储与高并发读写瓶颈。"
+  }
+ ]
+}

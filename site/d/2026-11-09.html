@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>2026-11-09 · AI 前沿日报</title>
+<meta name="description" content="2026-11-09 AI / LLM / Agent 前沿日报">
+<link rel="stylesheet" href="../style.css">
+<link rel="alternate" type="application/rss+xml" title="AI 前沿日报" href="https://aivulcan.de5.net/feed.xml">
+</head>
+<body>
+<div class="wrap">
+<header class="site">
+<div class="brand">
+<span class="logo" aria-hidden="true"></span>
+<div class="titles">
+<p class="en">AI Frontier Digest</p>
+<h1><a href="../">AI 前沿日报</a></h1>
+</div>
+</div>
+<p class="desc">每天自动采集 GitHub / YouTube / 博客 / 论文 / Hacker News 上关于 AI、LLM、Agent、Harness 的前沿动态，生成中文摘要。</p>
+<div class="stats"><span>今日 <b>20</b> 条</span><span>源 <b>5</b> 个</span><span>累计 <b>36</b> 期</span></div><nav><a href="../">最新</a><a href="../archive">归档</a><a href="../feed.xml">RSS</a><a href="../about">关于</a></nav>
+</header>
+<h1>2026-11-09 日报</h1>
+<p class="meta">生成时间 2026-11-09 00:13 (CST) ｜ 共 20 条（新增 14 · 重复/相似 6）</p>
+<p class="meta">源命中数：GitHub 77 · YouTube 38 · 博客 81 · 论文 12 · Hacker News 10</p>
+<h2>📌 今日精选 Top 6</h2>
+<article class="pick" data-src="hackernews">
+<h3><span class="num">01</span> <a href="https://www.anthropic.com/research/components-of-agent-memory" target="_blank" rel="noopener">The Components of Agent Memory</a></h3>
+<p class="meta"><span class="tag src">Hacker News</span><span class="tag">🔥 161 分</span><span class="tag">💬 99</span><span class="date">11-07</span></p>
+<p class="sum">分析 Agent 记忆系统的核心组件，探讨短期记忆、长期记忆及检索机制在复杂任务中的架构设计与实现逻辑。</p>
+<p class="why">为什么值得看：Agent 架构设计技能点。可复用做法：通过分层存储策略优化上下文窗口利用率，并结合向量数据库实现高效的记忆检索与更新。</p>
+</article>
+<article class="pick" data-src="github">
+<h3><span class="num">02</span> <a href="https://github.com/yanstd888/9routerx" target="_blank" rel="noopener">yanstd888/9routerx</a></h3>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 36</span><span class="tag">Go</span><span class="tag">新建 2026-11-07</span><span class="date">11-07</span></p>
+<p class="sum">9RouterX 是一个 Go 语言编写的单二进制文件 LLM 网关，支持 155 个提供商、248 个模型，并具备 20-40% 的 Token 节省能力。</p>
+<p class="why">为什么值得看：LLM 工程化部署技能点。可复用做法：学习如何构建高性能路由层以实现多模型负载均衡、Token 压缩及统一的 API 接口封装。</p>
+</article>
+<article class="pick" data-src="paper">
+<h3><span class="num">03</span> <a href="https://huggingface.co/papers/2611.08237" target="_blank" rel="noopener">Terminal-style Mathematical Modeling Bench: The First Agentic and Verifiable Benchmark for Mathematical Modeling</a></h3>
+<p class="meta"><span class="tag src">HF Daily Papers</span><span class="tag">👍 11</span><span class="date">11-05</span></p>
+<p class="sum">TB-MathModel 是首个针对数学建模任务的 Agentic 可验证基准测试，通过终端环境评估模型从假设到方案的完整建模能力。</p>
+<p class="why">为什么值得看：Agent 评估与测试技能点。可复用做法：利用沙箱化终端环境进行代码执行验证，替代传统的 LLM 自动评分，提高评估的客观性。</p>
+</article>
+<article class="pick" data-src="hackernews">
+<h3><span class="num">04</span> <a href="https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again" target="_blank" rel="noopener">Claude Code&#x27;s &quot;Don&#x27;t Ask Again&quot; exposes passwords in 1,122 public GitHub files</a></h3>
+<p class="meta"><span class="tag src">Hacker News</span><span class="tag">🔥 493 分</span><span class="tag">💬 352</span><span class="date">11-08</span></p>
+<p class="sum">Claude Code 的 Don&#x27;t Ask Again 功能因配置不当，导致 1,122 个公开 GitHub 仓库中的敏感密码被意外泄露。</p>
+<p class="why">为什么值得看：AI 安全与工程实践技能点。可复用做法：在开发 Agent 工具时，必须实施严格的凭证管理与环境变量过滤，防止自动化操作引发安全漏洞。</p>
+</article>
+<article class="pick" data-src="paper">
+<h3><span class="num">05</span> <a href="https://huggingface.co/papers/2611.06498" target="_blank" rel="noopener">Signed but Steerable: Measuring and Closing the Text-Vector Integrity Gap in Offline Retrieval-Augmented Generation</a></h3>
+<p class="meta"><span class="tag src">HF Daily Papers</span><span class="tag">👍 4</span><span class="date">11-04</span></p>
+<p class="sum">研究离线 RAG 系统中文本与向量的完整性差距，提出验证机制以确保边缘设备上签名知识包的向量编码与文本内容一致。</p>
+<p class="why">为什么值得看：RAG 系统架构与安全技能点。可复用做法：在离线检索场景中引入向量重计算与余弦相似度校验，防止恶意篡改导致的检索偏差。</p>
+</article>
+<article class="pick" data-src="blog">
+<h3><span class="num">06</span> <a href="https://www.marktechpost.com/2026/11/07/nous-research-arete-27b-qwen3-8-27b-propaganda-fine-tune/" target="_blank" rel="noopener">Nous Research Releases Arete-27B that Cuts Qwen3.8-27B Propaganda From 22% to 0.9%</a></h3>
+<p class="meta"><span class="tag src">MarkTechPost</span><span class="tag">文章</span><span class="date">11-08</span></p>
+<p class="sum">Nous Research 发布 Arete-27B 模型，基于 Qwen2.5-27B 微调，将宣传性回答比例从 22% 显著降低至 0.9%。</p>
+<p class="why">为什么值得看：模型对齐与微调技能点。可复用做法：通过针对性的数据集清洗与指令微调，有效抑制大模型在特定领域内的偏见与过度引导倾向。</p>
+</article>
+<h2>🐙 GitHub（3）</h2>
+<article class="item" data-src="github">
+<h3><a href="https://github.com/Dongbumlee/ontosmith" target="_blank" rel="noopener">Dongbumlee/ontosmith</a></h3>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 193</span><span class="tag">Python</span><span class="tag">新建 2026-10-22</span><span class="date">10-22</span></p>
+<p class="sum">ontosmith 是一个基于决策模型的知识图谱构建工具，通过溯源机制确保从文档中提取的每一个事实都有据可查。</p>
+<p class="why">为什么值得看：知识图谱构建与 RAG 增强。学习如何通过证据链溯源提升 LLM 提取事实的准确性和可信度，适用于构建高可信度企业级知识库。</p>
+</article>
+<article class="item" data-src="github">
+<h3><a href="https://github.com/Human-Agent-Society/reef" target="_blank" rel="noopener">Human-Agent-Society/reef</a></h3>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 7785</span><span class="tag">Python</span><span class="tag">新建 2026-08-31</span><span class="date">08-31</span></p>
+<p class="sum">reef 是一个旨在支持 Agent 持续自我改进的基础设施，通过闭环反馈机制优化 Agent 的行为与决策逻辑。</p>
+<p class="why">为什么值得看：Agent 架构设计。掌握 Agent 自我进化与持续学习的工程实现，理解如何构建反馈循环以提升 Agent 在长周期任务中的表现。</p>
+</article>
+<article class="item" data-src="github">
+<h3><a href="https://github.com/Prism-Shadow/awesome-rsi" target="_blank" rel="noopener">Prism-Shadow/awesome-rsi</a></h3>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 592</span><span class="tag">JavaScript</span><span class="tag">新建 2026-08-13</span><span class="date">08-13</span></p>
+<p class="sum">awesome-rsi 汇集了关于 RSI (Reasoning-Search-Integration) 的学术论文索引，涵盖了当前推理与搜索结合的前沿研究。</p>
+<p class="why">为什么值得看：推理与搜索结合 (RSI)。通过阅读经典论文，掌握将搜索算法与大模型推理能力融合的理论基础，是优化复杂任务规划的核心技能。</p>
+</article>
+<h2>📺 YouTube（3）</h2>
+<article class="item" data-src="youtube">
+<h3><a href="https://www.youtube.com/watch?v=lVbQqjAJpkE" target="_blank" rel="noopener">12 months to the singularity</a></h3>
+<p class="meta"><span class="tag src">YouTube · Matthew Berman</span><span class="tag">视频</span><span class="date">11-08</span></p>
+<p class="sum">探讨 AI 发展趋势与奇点临近的预测，分析当前技术演进速度对未来一年 AI 产业格局的潜在影响。</p>
+<p class="why">为什么值得看：技术趋势洞察。培养对 AI 行业宏观演进的判断力，理解算力、算法与 Agent 协同演进的逻辑，有助于在架构选型时预判技术生命周期。</p>
+</article>
+<article class="item" data-src="youtube">
+<h3><a href="https://www.youtube.com/watch?v=bJldMYfRvMQ" target="_blank" rel="noopener">Introducing ChatGPT Images 2.6</a></h3>
+<p class="meta"><span class="tag src">YouTube · OpenAI</span><span class="tag">视频</span><span class="date">11-05</span></p>
+<p class="sum">OpenAI 发布 ChatGPT Images 2.6，支持生成 GIF 动图与参考图输入，并更新 API 模型以提升 50% 的图像生成速度。</p>
+<p class="why">为什么值得看：多模态生成任务优化。学习如何通过参考图引导生成及利用 API 性能调优提升生产环境的推理吞吐量。</p>
+</article>
+<article class="item" data-src="youtube">
+<h3><a href="https://www.youtube.com/watch?v=2dD4HXg-YJ4" target="_blank" rel="noopener">Ripple 65B: A Chip Design Lab Just Beat Every US Open Model</a></h3>
+<p class="meta"><span class="tag src">YouTube · Sam Witteveen</span><span class="tag">视频</span><span class="date">11-06</span></p>
+<p class="sum">Ricursive AI 发布 Ripple 65B 模型，该模型专为芯片设计领域优化，在特定专业任务中超越了主流开源模型。</p>
+<p class="why">为什么值得看：垂直领域大模型微调。掌握针对特定工程领域（如 EDA 或代码生成）进行数据集构建与模型适配的领域增强策略。</p>
+</article>
+<h2>📝 博客（2）</h2>
+<article class="item" data-src="blog">
+<h3><a href="https://www.qbitai.com/2026/11/508264.html" target="_blank" rel="noopener">抢跑DeepSeek！硅谷华人把下一代Agent Harness造出来了！？</a></h3>
+<p class="meta"><span class="tag src">量子位</span><span class="tag">文章</span><span class="date">11-07</span></p>
+<p class="sum">Agent Harness 旨在解决 Agent 单次会话限制，通过多会话协同与状态持久化提升 Agent 处理复杂任务的连贯性。</p>
+<p class="why">为什么值得看：Agent 状态管理。学习如何设计跨 Session 的上下文记忆与状态同步机制，解决长程任务中 Agent 记忆丢失与逻辑中断问题。</p>
+</article>
+<article class="item" data-src="blog">
+<h3><a href="https://www.marktechpost.com/2026/11/07/moe-routing-strategies-explained/" target="_blank" rel="noopener">MoE Routing Strategies Explained: Top-K, Expert-Choice, Sigmoid Gating and Dynamic Routing (2026 Guide)</a></h3>
+<p class="meta"><span class="tag src">MarkTechPost</span><span class="tag">文章</span><span class="date">11-08</span></p>
+<p class="sum">该指南详细解析了 MoE 架构中的 7 种路由策略，包括 Top-K、Expert-Choice、Sigmoid Gating 及 DeepSeek-V4 使用的哈希路由。</p>
+<p class="why">为什么值得看：模型架构优化。深入理解 MoE 路由机制对计算效率与模型性能的影响，掌握如何根据业务需求选择或设计高效的专家分配策略。</p>
+</article>
+<h2>🔁 重复 / 相似提醒（6）</h2>
+<blockquote><p>以下条目此前推荐过，或与历史条目高度相似，仅列出供参考。</p></blockquote>
+<article class="item" data-src="github">
+<h3><a href="https://github.com/wanghao-SunSky/cs329z-chinese" target="_blank" rel="noopener">wanghao-SunSky/cs329z-chinese</a></h3>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 509</span><span class="tag">HTML</span><span class="tag">新建 2026-10-28</span><span class="date">10-29</span></p>
+<p class="sum">斯坦福 CS329Z 课程中文版，系统梳理了 LLM、RAG、工具调用、记忆机制、多智能体架构及评测安全等智能体开发核心知识体系。</p>
+<p class="why">为什么值得看：属于 AI Agent 工程化技能点，可复用其课程设计的模块化架构，学习如何构建从基础到多智能体协作的完整开发工作流。</p>
+<p class="dup">🔁 已于 2026-11-08 推荐过</p>
+</article>
+<article class="item" data-src="github">
+<h3><a href="https://github.com/YOLOW92/pagesift" target="_blank" rel="noopener">YOLOW92/pagesift</a></h3>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 255</span><span class="tag">Rust</span><span class="tag">新建 2026-10-20</span><span class="date">10-21</span></p>
+<p class="sum">基于 Rust 的高性能网页爬虫与内容提取引擎，提供适配 AI Agent 和 RAG 的干净 Markdown 及结构化数据输出。</p>
+<p class="why">为什么值得看：RAG 数据预处理技能，学习使用 Rust 实现高内存效率的浏览器渲染与 Firecrawl 兼容 API 以加速数据获取。</p>
+<p class="dup">🔁 已于 2026-11-08 推荐过</p>
+</article>
+<article class="item" data-src="github">
+<h3><a href="https://github.com/zaxiu88888/issue-rag" target="_blank" rel="noopener">zaxiu88888/issue-rag</a></h3>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 142</span><span class="tag">Python</span><span class="tag">新建 2026-11-01</span><span class="date">11-01</span></p>
+<p class="sum">基于 GitHub Issues 构建的 RAG 系统，提供人工评估集及对 LLM 评测器本身的审计机制，通过置信区间而非单一指标评估检索质量。</p>
+<p class="why">为什么值得看：RAG 评估与评测。学习如何构建高质量黄金数据集以及通过置信区间量化评估结果的稳定性，避免单一指标带来的偏差。</p>
+<p class="dup">🔁 已于 2026-11-08 推荐过</p>
+</article>
+<article class="item" data-src="github">
+<h3><a href="https://github.com/ccch1mneyyy/dsh-Go" target="_blank" rel="noopener">ccch1mneyyy/dsh-Go</a></h3>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 15806</span><span class="tag">Dart</span><span class="tag">新建 2026-10-25</span><span class="date">10-25</span></p>
+<p class="sum">dsh-Go 实现 DeepSeek 模型在移动端本地运行，并支持远程控制桌面端执行任务，提供轻量级端侧推理解决方案。</p>
+<p class="why">为什么值得看：属于端侧 AI 部署技能点，可复用其跨设备通信与本地推理引擎集成方案，解决资源受限环境下的智能体调度问题。</p>
+<p class="dup">🔁 已于 2026-11-08 推荐过</p>
+</article>
+<article class="item" data-src="github">
+<h3><a href="https://github.com/amosblomqvist/learnharness" target="_blank" rel="noopener">amosblomqvist/learnharness</a></h3>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 6351</span><span class="tag">TypeScript</span><span class="tag">新建 2026-10-16</span><span class="date">10-17</span></p>
+<p class="sum">LearnHarness 是一个专为学习复杂技能设计的 Agent 框架，通过结构化的交互流程辅助 Agent 掌握新知识或任务。</p>
+<p class="why">为什么值得看：属于 Agent 学习与任务规划领域。可学习如何构建 Agent 的长程任务分解与反馈循环，提升 Agent 在复杂任务中的自适应能力。</p>
+<p class="dup">🔁 已于 2026-11-08 推荐过</p>
+</article>
+<article class="item" data-src="hackernews">
+<h3><a href="https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/" target="_blank" rel="noopener">GitHub&#x27;s new Git storage architecture</a></h3>
+<p class="meta"><span class="tag src">Hacker News</span><span class="tag">🔥 230 分</span><span class="tag">💬 67</span><span class="date">11-07</span></p>
+<p class="sum">GitHub 升级 Git 存储架构，通过优化底层数据结构与存储策略，提升大规模代码仓库的读写性能与扩展性。</p>
+<p class="why">为什么值得看：系统架构与工程优化。了解大规模分布式版本控制系统的存储演进，学习如何处理海量小文件存储与高并发读写瓶颈。</p>
+<p class="dup">🔁 已于 2026-11-08 推荐过</p>
+</article>
+<p class="meta" style="margin-top:26px">永久链接：<a href="https://aivulcan.de5.net/d/2026-11-09">https://aivulcan.de5.net/d/2026-11-09</a></p>
+<footer>
+<p>AI 前沿日报 · 由 GitHub Actions 每天 16:00 (CST) 自动生成 · 内容版权归原作者所有，链接均为原始出处</p>
+</footer>
+</div>
+</body>
+</html>
