@@ -1,0 +1,635 @@
+{
+ "date": "2026-11-10",
+ "generated": "2026-11-10 02:11",
+ "source_count": {
+  "github": 76,
+  "youtube": 39,
+  "blog": 80,
+  "paper": 18,
+  "hackernews": 10
+ },
+ "failures": {},
+ "failure_errors": {},
+ "summary_missing": [],
+ "summary_providers": {
+  "gemini": 3
+ },
+ "items": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "liangjianshu/multimodal-image-retrieval",
+   "link": "https://github.com/liangjianshu/multimodal-image-retrieval",
+   "dt": "2026-11-02T14:22:10+00:00",
+   "summary": "多模态检索实战：意图识别、Prompt 工程、Qwen LoRA、EmbeddingGemma 2 与 InfoNCE 对比学习。含真实演示、自有数据接入、训练评测及 RAG 检索组件学习指南。",
+   "extra": {
+    "stars": 129,
+    "language": "Python",
+    "topics": [
+     "agent-tools",
+     "clip",
+     "contrastive-learning",
+     "ecommerce",
+     "embeddinggemma",
+     "image-retrieval"
+    ],
+    "created": "2026-11-02",
+    "pushed": "2026-11-05"
+   },
+   "skills": [
+    "prompt_context",
+    "rag",
+    "eval_observability",
+    "training_serving"
+   ],
+   "learn_score": 3.718,
+   "score": 11.565,
+   "tokens": [
+    "image",
+    "liangjianshu",
+    "multimodal",
+    "retrieval"
+   ],
+   "flag": "new",
+   "summary_zh": "multimodal-image-retrieval 项目整合了意图识别、Qwen LoRA 微调、EmbeddingGemma 2 与 InfoNCE 对比学习，提供了一套完整的多模态检索与 RAG 落地实践方案。",
+   "why_zh": "属于 RAG 与多模态检索领域，可学习如何通过对比学习优化 Embedding 模型，以及如何将 LoRA 微调与检索组件结合提升意图识别准确率。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.CL",
+   "title": "Compression of Emotion in Language Model Representations",
+   "link": "https://arxiv.org/abs/2611.08683",
+   "dt": "2026-11-09T00:00:00-05:00",
+   "summary": "arXiv:2611.08683v1 Announce Type: new Abstract: Large language models (LLMs) have been evaluated on their ability to identify emotions expressed in text and produce fluent emotional language. However, output predictions alone do not reveal how fine-grained emotion distinctions are organized internally. We study seven LLMs on GoEmotions, an English Reddit dataset annotated with 27 fine-grained emotion categories plus neutral. We compare model predictions and emotion-prompted final-token represent",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "prompt_context",
+    "eval_observability"
+   ],
+   "learn_score": 3.58,
+   "score": 7.16,
+   "tokens": [
+    "compression",
+    "emotion",
+    "language",
+    "model",
+    "representations"
+   ],
+   "flag": "new",
+   "summary_zh": "该研究分析了七种 LLM 在 GoEmotions 数据集上的表现，揭示了模型内部表征中细粒度情感信息的组织方式及其压缩特性。",
+   "why_zh": "属于模型可解释性与表征学习领域，可学习如何通过探针技术分析 LLM 内部隐藏层状态，理解模型如何编码复杂语义特征。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.CL",
+   "title": "FinEvolveKG: Controlled and Attributable Prompt Evolution for Financial Knowledge Graph Construction",
+   "link": "https://arxiv.org/abs/2611.08643",
+   "dt": "2026-11-09T00:00:00-05:00",
+   "summary": "arXiv:2611.08643v1 Announce Type: new Abstract: Financial institutions construct knowledge graphs (KGs) from shared SEC 10-Ks to serve risk analysis, portfolio management, and investment research, whose analytical needs differ. Extraction must adapt without fragmenting shared grounding, typing, and temporal rules. Hand-authored persona prompts and fine-tuning add cost. Weight-free prompt optimization offers an alternative, but unconstrained evolution of a monolithic prompt can rewrite shared rul",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "prompt_context",
+    "rag",
+    "training_serving"
+   ],
+   "learn_score": 3.094,
+   "score": 6.188,
+   "tokens": [
+    "attributable",
+    "construction",
+    "controlled",
+    "evolution",
+    "financial",
+    "finevolvekg",
+    "graph",
+    "knowledge",
+    "prompt"
+   ],
+   "flag": "new",
+   "summary_zh": "FinEvolveKG 提出了一种针对金融知识图谱构建的受控且可归因的 Prompt 演化框架，通过权重无关的优化方法适应不同分析需求。",
+   "why_zh": "属于知识图谱构建与 Prompt 工程领域，可学习如何通过受控演化机制在不进行全量微调的前提下，实现特定领域任务的 Prompt 自适应。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Agent memory needs its OpenTelemetry moment",
+   "link": "https://www.lorekit.io/blog/open-agent-memory-format",
+   "dt": "2026-11-08T08:40:23+00:00",
+   "summary": "",
+   "extra": {
+    "points": 187,
+    "comments": 108,
+    "hn_link": "https://news.ycombinator.com/item?id=50411467"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.7,
+   "score": 5.562,
+   "tokens": [
+    "agent",
+    "memory",
+    "moment",
+    "needs",
+    "opentelemetry"
+   ],
+   "flag": "new",
+   "summary_zh": "Agent 内存系统缺乏统一的可观测性标准，亟需建立类似 OpenTelemetry 的协议来记录、追踪和分析 Agent 的记忆存取过程。",
+   "why_zh": "属于 Agent 系统架构领域，可学习如何设计 Agent 内存的可观测性方案，通过标准化日志追踪提升复杂 Agent 系统的调试与故障排查能力。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+   "link": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+   "dt": "2026-11-08T18:16:07+00:00",
+   "summary": "",
+   "extra": {
+    "points": 865,
+    "comments": 468,
+    "hn_link": "https://news.ycombinator.com/item?id=50415628"
+   },
+   "skills": [],
+   "learn_score": 1.35,
+   "score": 5.315,
+   "tokens": [
+    "bankers",
+    "claude",
+    "code",
+    "goldman",
+    "pulling",
+    "sachs",
+    "traders"
+   ],
+   "flag": "new",
+   "summary_zh": "高盛集团因安全与合规考量限制员工使用 Claude Code，反映了企业级环境在集成 AI 编码助手时面临的权限管控与数据泄露风险。",
+   "why_zh": "属于 AI 工程化落地与安全领域，可学习企业级 AI 部署中关于代码审计、数据隐私边界及工具链合规性管理的考量因素。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "jiwoochris/artex-global",
+   "link": "https://github.com/jiwoochris/artex-global",
+   "dt": "2026-10-03T14:49:48+00:00",
+   "summary": "Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switchable to Korean/Chinese/Spanish/Japanese. For authorized, defensive and detection use only. (upstream: Autumn-27/ARTEX, AGPL-3.0)",
+   "extra": {
+    "stars": 2966,
+    "language": "Go",
+    "topics": [
+     "ai-agent",
+     "autonomous-agents",
+     "blue-team",
+     "cybersecurity",
+     "detection-engineering",
+     "i18n"
+    ],
+    "created": "2026-10-03",
+    "pushed": "2026-11-09"
+   },
+   "skills": [
+    "multi_agent"
+   ],
+   "learn_score": 1.239,
+   "score": 4.956,
+   "tokens": [
+    "artex",
+    "global",
+    "jiwoochris"
+   ],
+   "flag": "new",
+   "summary_zh": "artex-global 是一个多语言 LLM 自主渗透测试框架，支持自动化漏洞探测与攻击模拟，具备多语言切换能力。",
+   "why_zh": "属于 AI Agent 安全与自动化测试领域，可学习如何构建多 Agent 协作框架以执行复杂任务，以及如何将 LLM 应用于安全攻防场景。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "How Airbnb builds Trust for Guests and Hosts using AI Agents with LangGraph",
+   "link": "https://www.youtube.com/watch?v=NUgaWmws0XQ",
+   "dt": "2026-11-09T13:53:26+00:00",
+   "summary": "Pedro Rodriguez, Director of Engineering, ML at Airbnb, shares what his team learned building AI agents for trust, where a wrong decision affects a real guest or host and someone may later ask why it was made. He walks through the patterns they use: structured outputs with an abstain option that sends uncertain cases to a human, small subagents behind a plain rules layer, LangGraph interrupts for cases that wait days while case data lives in a separate database, MCP as the only path from agents …",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": "NUgaWmws0XQ"
+   },
+   "skills": [
+    "tool_mcp",
+    "agent_architecture"
+   ],
+   "learn_score": 2.479,
+   "score": 2.479,
+   "tokens": [
+    "agents",
+    "ai",
+    "airbnb",
+    "builds",
+    "guests",
+    "hosts",
+    "langgraph",
+    "trust"
+   ],
+   "flag": "new",
+   "summary_zh": "Airbnb 通过 LangGraph 构建 AI Agent，采用结构化输出与“拒绝回答”机制处理不确定性，并利用小规模子 Agent 配合规则层实现可追溯的决策流程。",
+   "why_zh": "Agent 架构设计与鲁棒性。学习在生产环境中通过 Human-in-the-loop 和分层决策模式，解决高风险场景下 Agent 决策不可控的问题。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · IndyDevDan",
+   "title": "ZERO to RUNNING Software Factory In 16 Minutes (LIQUID Software)",
+   "link": "https://www.youtube.com/watch?v=GRlcm3wmOqs",
+   "dt": "2026-11-09T14:00:16+00:00",
+   "summary": "Stop waiting for the next model. It will not save you. Neither will the next tool or harness. YOU are the bottleneck. 🔥 Every minute you spend prompting back and forth is a minute your agents sit idle waiting on you. The engineers pulling ahead right now are not chasing primitives. They are moving from in the loop to near the loop, where proactive AI agents work around the clock and only stop at decisions that actually need you. 😲 Get Your Tiny Software Factory https://agenticengineer.com/infini…",
+   "extra": {
+    "channel": "IndyDevDan",
+    "video_id": "GRlcm3wmOqs"
+   },
+   "skills": [
+    "prompt_context",
+    "agent_architecture"
+   ],
+   "learn_score": 2.479,
+   "score": 2.479,
+   "tokens": [
+    "16",
+    "factory",
+    "liquid",
+    "minutes",
+    "running",
+    "software",
+    "zero"
+   ],
+   "flag": "new",
+   "summary_zh": "Liquid Software 强调从“人机交互循环”转向“近循环”模式，通过主动式 AI Agent 实现全天候自动化工作流，减少人工提示词交互的瓶颈。",
+   "why_zh": "Agent 工程化实践。掌握如何通过自动化流程设计，将 Agent 从被动响应式转变为主动执行式，提升系统整体吞吐量与工程效率。"
+  },
+  {
+   "source": "blog",
+   "source_label": "LangChain 博客",
+   "title": "What Is Eval-Driven Development? How to Improve AI Agents",
+   "link": "https://www.langchain.com/blog/what-is-eval-driven-development",
+   "dt": "2026-11-09T16:23:28+00:00",
+   "summary": "Eval-driven development helps you build AI agents against a consistent set of metrics. Define good behavior, write the eval first, then compare experiments.",
+   "extra": {},
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 2.438,
+   "score": 2.438,
+   "tokens": [
+    "agents",
+    "ai",
+    "development",
+    "driven",
+    "eval",
+    "improve"
+   ],
+   "flag": "new",
+   "summary_zh": "Eval-driven development 提倡在开发 AI Agent 前先定义评估指标与测试集，通过量化指标驱动迭代，确保 Agent 行为的一致性与可预测性。",
+   "why_zh": "Agent 评估体系。掌握“测试先行”的开发范式，学习如何构建评估基准（Benchmark）以量化 Agent 的性能改进，避免盲目调优。"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "0sec Labs Open-Sources 0, an AI Security Harness With Web UI, CLI and MCP",
+   "link": "https://www.marktechpost.com/2026/11/08/0sec-labs-open-sources-0-ai-security-harness/",
+   "dt": "2026-11-09T07:55:18+00:00",
+   "summary": "0sec Labs has open-sourced 0, an AI security harness for code review, pentesting, reverse engineering and fixes. It runs locally through a browser console, a headless CLI and an MCP server, with your own model provider. The post 0sec Labs Open-Sources 0, an AI Security Harness With Web UI, CLI and MCP appeared first on MarkTechPost .",
+   "extra": {},
+   "skills": [
+    "tool_mcp",
+    "agent_architecture"
+   ],
+   "learn_score": 2.341,
+   "score": 2.341,
+   "tokens": [
+    "0sec",
+    "ai",
+    "cli",
+    "harness",
+    "labs",
+    "mcp",
+    "open",
+    "security",
+    "sources",
+    "ui",
+    "web"
+   ],
+   "flag": "new",
+   "summary_zh": "0sec Labs 开源 AI 安全工具 0，支持代码审查、渗透测试与逆向工程，提供 Web UI、CLI 及 MCP 接口，支持本地模型部署。",
+   "why_zh": "AI 安全与工具集成。学习如何利用 MCP 协议将 AI Agent 接入安全工具链，实现本地化、自动化的安全审计与漏洞修复流程。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "thePloggy/CreatorOS-Studio",
+   "link": "https://github.com/thePloggy/CreatorOS-Studio",
+   "dt": "2026-10-16T08:18:26+00:00",
+   "summary": "Open-source Higgsfield on your own GPU: train a recurring character, turn a one-line brief into an edited reel, move the camera, re-shoot an angle, block shots in 3D, sketch to video, restore old footage. Runs on local ComfyUI, open-weights models only.",
+   "extra": {
+    "stars": 68,
+    "language": "TypeScript",
+    "topics": [
+     "ai-influencer",
+     "ai-video",
+     "character-consistency",
+     "comfyui",
+     "flux",
+     "generative-ai"
+    ],
+    "created": "2026-10-16",
+    "pushed": "2026-11-08"
+   },
+   "skills": [],
+   "learn_score": 0.765,
+   "score": 2.167,
+   "tokens": [
+    "creatoros",
+    "studio",
+    "theploggy"
+   ],
+   "flag": "new",
+   "summary_zh": "CreatorOS-Studio 基于 ComfyUI 实现本地化视频创作工作流，支持角色训练、镜头控制、3D 场景布局及视频修复，完全依赖开源模型。",
+   "why_zh": "多模态 Agent 工作流。学习如何通过 ComfyUI 编排复杂的视频生成任务，掌握本地化部署开源模型以实现可控视频创作的技术栈。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "CopilotKit/OpenBot",
+   "link": "https://github.com/CopilotKit/OpenBot",
+   "dt": "2026-08-17T00:44:59+00:00",
+   "summary": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+   "extra": {
+    "stars": 10558,
+    "language": "TypeScript",
+    "topics": [
+     "ag-ui",
+     "agent-governance",
+     "ai-agents",
+     "browser-automation",
+     "copilotkit",
+     "generative-ui"
+    ],
+    "created": "2026-08-17",
+    "pushed": "2026-11-09"
+   },
+   "skills": [],
+   "learn_score": 0.54,
+   "score": 2.16,
+   "tokens": [
+    "copilotkit",
+    "openbot"
+   ],
+   "flag": "new",
+   "summary_zh": "OpenBot 提供开源 AI 同事框架，为每个 Agent 分配独立运行环境（浏览器、文件系统与工具），并实现动作预决策与执行记录。",
+   "why_zh": "Agent 运行环境隔离。学习如何为 Agent 构建沙箱化执行环境，并实现基于动作日志的审计机制，提升复杂任务执行的安全性与可观测性。"
+  },
+  {
+   "source": "blog",
+   "source_label": "Latent Space",
+   "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+   "link": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
+   "dt": "2026-11-08T21:23:29+00:00",
+   "summary": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have to learn an unfamiliar repo, propose a change, and ...",
+   "extra": {},
+   "skills": [
+    "prompt_context"
+   ],
+   "learn_score": 1.951,
+   "score": 1.951,
+   "tokens": [
+    "ai",
+    "engineer",
+    "engineering",
+    "eric",
+    "mihail",
+    "million",
+    "monaco",
+    "native",
+    "one",
+    "special",
+    "stanford",
+    "teaches"
+   ],
+   "flag": "new",
+   "summary_zh": "Stanford CS146S 课程通过引入开源项目维护者，要求学生在 AI 辅助下理解复杂代码库并提交 PR，以此培养 AI Native 工程实践能力。",
+   "why_zh": "考察 AI 辅助编程的工程落地能力，可复用做法包括利用 LLM 进行代码库上下文检索、自动化重构及测试驱动开发流程。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "Should Agents Say \"I Don't Know\"? | AirBnB at Interrupt 26",
+   "link": "https://www.youtube.com/shorts/kmPF75rTgh8",
+   "dt": "2026-11-09T15:12:17+00:00",
+   "summary": "Pedro Rodriguez, Director of Engineering, ML at Airbnb, explains why his team lets agents answer abstain when they aren't sure and sends those cases to a human, since in high-stakes cases a confident wrong answer is one of the worst possible outcomes. He asks viewers to imagine an agent that approves loans or pays insurance claims, where an answer that looks right isn't enough and you need to explain why the agent reached it. Captured at Interrupt New York City, the agent conference by LangChain…",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": ""
+   },
+   "skills": [],
+   "learn_score": 0.9,
+   "score": 0.9,
+   "tokens": [
+    "26",
+    "agents",
+    "airbnb",
+    "don",
+    "interrupt",
+    "know",
+    "say",
+    "should"
+   ],
+   "flag": "new",
+   "summary_zh": "Airbnb 工程团队在 Agent 设计中引入「拒绝回答」机制，在置信度不足时将任务转交人类，以规避高风险场景下的幻觉风险。",
+   "why_zh": "涉及 Agent 可靠性与鲁棒性设计，可复用做法包括设置置信度阈值、构建 Human-in-the-loop 兜底机制及评估错误代价。"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "wanghao-SunSky/cs329z-chinese",
+   "link": "https://github.com/wanghao-SunSky/cs329z-chinese",
+   "dt": "2026-10-28T18:18:24+00:00",
+   "summary": "斯坦福 Stanford CS329Z Engineering AI Agents 中文教程：面向 Python 开发者的 AI 智能体课程，19 讲与 4 项实践，涵盖 LLM、RAG、工具调用、记忆、多智能体、评测与安全。完整 Markdown、在线与离线 HTML。Chinese course notes.",
+   "extra": {
+    "stars": 529,
+    "language": "HTML",
+    "topics": [
+     "agent-memory",
+     "agentic-ai",
+     "ai-agents",
+     "chinese",
+     "chinese-tutorial",
+     "course-notes"
+    ],
+    "created": "2026-10-28",
+    "pushed": "2026-11-06"
+   },
+   "skills": [
+    "rag",
+    "tool_mcp",
+    "agent_architecture",
+    "multi_agent",
+    "eval_observability"
+   ],
+   "learn_score": 2.601,
+   "score": 9.685,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-09 推荐过",
+   "summary_zh": "斯坦福 CS329Z 课程中文版，系统梳理了 LLM、RAG、工具调用、记忆机制、多智能体架构及评测安全等智能体开发核心知识体系。",
+   "why_zh": "属于 AI Agent 工程化技能点，可复用其课程设计的模块化架构，学习如何构建从基础到多智能体协作的完整开发工作流。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "YOLOW92/pagesift",
+   "link": "https://github.com/YOLOW92/pagesift",
+   "dt": "2026-10-20T17:30:59+00:00",
+   "summary": "Self-hosted web scraper, crawler and document parser for AI agents: URLs, PDFs with OCR and Office files to clean Markdown/JSON. Firecrawl- and Jina-compatible API, MCP server, agent endpoint, Python/Node SDKs. Single Rust binary.",
+   "extra": {
+    "stars": 256,
+    "language": "Rust",
+    "topics": [
+     "ai-agents",
+     "browser-automation",
+     "crawl4ai-alternative",
+     "data-extraction",
+     "document-parsing",
+     "firecrawl"
+    ],
+    "created": "2026-10-20",
+    "pushed": "2026-11-09"
+   },
+   "skills": [
+    "tool_mcp",
+    "training_serving"
+   ],
+   "learn_score": 2.107,
+   "score": 7.181,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-09 推荐过",
+   "summary_zh": "基于 Rust 的高性能网页爬虫与内容提取引擎，提供适配 AI Agent 和 RAG 的干净 Markdown 及结构化数据输出。",
+   "why_zh": "RAG 数据预处理技能，学习使用 Rust 实现高内存效率的浏览器渲染与 Firecrawl 兼容 API 以加速数据获取。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ccch1mneyyy/dsh-Go",
+   "link": "https://github.com/ccch1mneyyy/dsh-Go",
+   "dt": "2026-10-25T08:09:52+00:00",
+   "summary": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+   "extra": {
+    "stars": 17477,
+    "language": "Dart",
+    "topics": [
+     "ai-agent",
+     "android",
+     "android-app",
+     "coding-agent",
+     "deepseek",
+     "deepseek-harness"
+    ],
+    "created": "2026-10-25",
+    "pushed": "2026-11-09"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-09 推荐过",
+   "summary_zh": "dsh-Go 实现 DeepSeek 模型在移动端本地运行，并支持远程控制桌面端执行任务，提供轻量级端侧推理解决方案。",
+   "why_zh": "属于端侧 AI 部署技能点，可复用其跨设备通信与本地推理引擎集成方案，解决资源受限环境下的智能体调度问题。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "amosblomqvist/learnharness",
+   "link": "https://github.com/amosblomqvist/learnharness",
+   "dt": "2026-10-16T19:35:33+00:00",
+   "summary": "Agent harness for learning difficult things.",
+   "extra": {
+    "stars": 7453,
+    "language": "TypeScript",
+    "topics": [],
+    "created": "2026-10-16",
+    "pushed": "2026-11-08"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-09 推荐过",
+   "summary_zh": "LearnHarness 是一个专为学习复杂技能设计的 Agent 框架，通过结构化的交互流程辅助 Agent 掌握新知识或任务。",
+   "why_zh": "属于 Agent 学习与任务规划领域。可学习如何构建 Agent 的长程任务分解与反馈循环，提升 Agent 在复杂任务中的自适应能力。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "zaxiu88888/issue-rag",
+   "link": "https://github.com/zaxiu88888/issue-rag",
+   "dt": "2026-11-01T11:32:25+00:00",
+   "summary": "RAG over GitHub issues, with a hand-reviewed eval set and an audit of the judge itself. Reports the interval, not just the best number.",
+   "extra": {
+    "stars": 185,
+    "language": "Python",
+    "topics": [
+     "evaluation",
+     "github-issues",
+     "llm",
+     "llm-as-judge",
+     "python",
+     "rag"
+    ],
+    "created": "2026-11-01",
+    "pushed": "2026-11-04"
+   },
+   "skills": [
+    "rag",
+    "eval_observability"
+   ],
+   "learn_score": 2.107,
+   "score": 6.884,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-09 推荐过",
+   "summary_zh": "基于 GitHub Issues 构建的 RAG 系统，提供人工评估集及对 LLM 评测器本身的审计机制，通过置信区间而非单一指标评估检索质量。",
+   "why_zh": "RAG 评估与评测。学习如何构建高质量黄金数据集以及通过置信区间量化评估结果的稳定性，避免单一指标带来的偏差。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ai-gateways/awesome-ai-gateways",
+   "link": "https://github.com/ai-gateways/awesome-ai-gateways",
+   "dt": "2026-10-30T10:30:50+00:00",
+   "summary": "Awesome AI gateways: open source and commercial LLM gateways, MCP gateways, agent (A2A) gateways, model routers, specs, and guides.",
+   "extra": {
+    "stars": 40,
+    "language": "",
+    "topics": [
+     "a2a",
+     "a2a-protocol",
+     "agent-gateway",
+     "ai-agents",
+     "ai-gateway",
+     "ai-governance"
+    ],
+    "created": "2026-10-30",
+    "pushed": "2026-11-09"
+   },
+   "skills": [
+    "tool_mcp",
+    "multi_agent"
+   ],
+   "learn_score": 2.634,
+   "score": 6.854,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-08 推荐过",
+   "summary_zh": "整理开源与商业 LLM 网关、MCP 网关、Agent 间通信网关及模型路由器的技术资源库。",
+   "why_zh": "属于 AI 基础设施领域，可学习如何构建高可用、可观测的 LLM 中间件，掌握 Agent 架构中网关层面的流量调度与协议适配。"
+  }
+ ]
+}
