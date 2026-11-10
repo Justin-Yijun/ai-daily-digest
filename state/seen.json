@@ -5618,7 +5618,7 @@
   },
   "https://github.com/YOLOW92/pagesift": {
    "title": "YOLOW92/pagesift",
-   "date": "2026-11-10",
+   "date": "2026-11-11",
    "tokens": [],
    "source": "github",
    "summary_zh": "基于 Rust 的高性能网页爬虫与内容提取引擎，提供适配 AI Agent 和 RAG 的干净 Markdown 及结构化数据输出。",
@@ -6194,7 +6194,7 @@
   },
   "https://github.com/wanghao-SunSky/cs329z-chinese": {
    "title": "wanghao-SunSky/cs329z-chinese",
-   "date": "2026-11-10",
+   "date": "2026-11-11",
    "tokens": [],
    "source": "github",
    "summary_zh": "斯坦福 CS329Z 课程中文版，系统梳理了 LLM、RAG、工具调用、记忆机制、多智能体架构及评测安全等智能体开发核心知识体系。",
@@ -6202,7 +6202,7 @@
   },
   "https://github.com/ccch1mneyyy/dsh-Go": {
    "title": "ccch1mneyyy/dsh-Go",
-   "date": "2026-11-10",
+   "date": "2026-11-11",
    "tokens": [],
    "source": "github",
    "summary_zh": "dsh-Go 实现 DeepSeek 模型在移动端本地运行，并支持远程控制桌面端执行任务，提供轻量级端侧推理解决方案。",
@@ -7645,7 +7645,7 @@
   },
   "https://github.com/zaxiu88888/issue-rag": {
    "title": "zaxiu88888/issue-rag",
-   "date": "2026-11-10",
+   "date": "2026-11-11",
    "tokens": [],
    "source": "github",
    "summary_zh": "基于 GitHub Issues 构建的 RAG 系统，提供人工评估集及对 LLM 评测器本身的审计机制，通过置信区间而非单一指标评估检索质量。",
@@ -8062,27 +8062,16 @@
   },
   "https://github.com/liangjianshu/multimodal-image-retrieval": {
    "title": "liangjianshu/multimodal-image-retrieval",
-   "date": "2026-11-10",
-   "tokens": [
-    "image",
-    "liangjianshu",
-    "multimodal",
-    "retrieval"
-   ],
+   "date": "2026-11-11",
+   "tokens": [],
    "source": "github",
    "summary_zh": "multimodal-image-retrieval 项目整合了意图识别、Qwen LoRA 微调、EmbeddingGemma 2 与 InfoNCE 对比学习，提供了一套完整的多模态检索与 RAG 落地实践方案。",
    "why_zh": "属于 RAG 与多模态检索领域，可学习如何通过对比学习优化 Embedding 模型，以及如何将 LoRA 微调与检索组件结合提升意图识别准确率。"
   },
   "https://arxiv.org/abs/2611.08683": {
    "title": "Compression of Emotion in Language Model Representations",
-   "date": "2026-11-10",
-   "tokens": [
-    "compression",
-    "emotion",
-    "language",
-    "model",
-    "representations"
-   ],
+   "date": "2026-11-11",
+   "tokens": [],
    "source": "paper",
    "summary_zh": "该研究分析了七种 LLM 在 GoEmotions 数据集上的表现，揭示了模型内部表征中细粒度情感信息的组织方式及其压缩特性。",
    "why_zh": "属于模型可解释性与表征学习领域，可学习如何通过探针技术分析 LLM 内部隐藏层状态，理解模型如何编码复杂语义特征。"
@@ -8275,7 +8264,198 @@
    "source": "youtube",
    "summary_zh": "Airbnb 工程团队在 Agent 设计中引入「拒绝回答」机制，在置信度不足时将任务转交人类，以规避高风险场景下的幻觉风险。",
    "why_zh": "涉及 Agent 可靠性与鲁棒性设计，可复用做法包括设置置信度阈值、构建 Human-in-the-loop 兜底机制及评估错误代价。"
+  },
+  "https://arxiv.org/abs/2611.08639": {
+   "title": "Forcing a Letter Suppresses Refusal: Mechanistic Evidence from WMDP",
+   "date": "2026-11-11",
+   "tokens": [
+    "evidence",
+    "forcing",
+    "letter",
+    "mechanistic",
+    "refusal",
+    "suppresses",
+    "wmdp"
+   ],
+   "source": "paper",
+   "summary_zh": "研究发现 LLM 在 MCQ 格式下拒绝率降低的机制，通过 WMDP 数据集揭示了强制输出特定字符可抑制模型的安全拒绝行为。",
+   "why_zh": "模型对齐与鲁棒性方向，可学习如何通过 Mechanistic Interpretability 分析提示词格式对模型安全边界的影响。"
+  },
+  "https://huggingface.co/papers/2611.10304": {
+   "title": "Longtail-SWE: High-Quality SWE Tasks for Underrepresented Languages",
+   "date": "2026-11-11",
+   "tokens": [
+    "high",
+    "languages",
+    "longtail",
+    "quality",
+    "swe",
+    "tasks",
+    "underrepresented"
+   ],
+   "source": "paper",
+   "summary_zh": "发布 Longtail-SWE 基准测试，包含 13 种低资源编程语言的 202 个仓库级软件工程任务，填补了多语言代码生成评估的空白。",
+   "why_zh": "代码生成与评估方向，可学习如何构建高质量、多语言覆盖的软件工程评测集以提升模型在长尾语言上的泛化能力。"
+  },
+  "https://github.com/shinyobjectz/raea": {
+   "title": "shinyobjectz/raea",
+   "date": "2026-11-11",
+   "tokens": [
+    "raea",
+    "shinyobjectz"
+   ],
+   "source": "github",
+   "summary_zh": "基于 Rust 和 Bevy 引擎的渲染引擎，支持将 AI 生成的指令转化为视频、动效、3D 模型及游戏场景，并支持本地 GPU 渲染。",
+   "why_zh": "多模态 Agent 与图形渲染方向，可学习如何利用 Rust 高性能特性构建 AI 驱动的实时渲染工作流。"
+  },
+  "https://github.com/kgoedecke/doop": {
+   "title": "kgoedecke/doop",
+   "date": "2026-11-11",
+   "tokens": [
+    "doop",
+    "kgoedecke"
+   ],
+   "source": "github",
+   "summary_zh": "开源多人协作设计画布，内置 MCP 协议支持，允许人类与 AI Agent 在同一界面实时交互进行设计创作。",
+   "why_zh": "Agent 交互与工具调用方向，可学习如何通过 MCP 协议实现 Agent 与外部设计工具的标准化通信与协同。"
+  },
+  "https://news.ycombinator.com/item?id=50422628": {
+   "title": "ChatGPT Desktop forwards your SSH agent to remote machines",
+   "date": "2026-11-11",
+   "tokens": [
+    "agent",
+    "chatgpt",
+    "desktop",
+    "forwards",
+    "machines",
+    "remote",
+    "ssh"
+   ],
+   "source": "hackernews",
+   "summary_zh": "指出 ChatGPT 桌面端存在 SSH Agent 转发漏洞，导致远程机器可利用本地 SSH 凭据进行身份验证，存在安全风险。",
+   "why_zh": "AI 工程安全方向，可学习 Agent 部署中的权限隔离与 SSH 凭据管理规范，避免敏感权限在远程环境中被滥用。"
+  },
+  "https://github.com/patch-gg/pixelfx": {
+   "title": "patch-gg/pixelfx",
+   "date": "2026-11-11",
+   "tokens": [
+    "gg",
+    "patch",
+    "pixelfx"
+   ],
+   "source": "github",
+   "summary_zh": "提供 244 种像素艺术特效代码库，并集成 Claude Code 技能，支持用户通过自然语言生成自定义像素艺术效果。",
+   "why_zh": "AI 辅助编程与生成式艺术方向，可学习如何通过特定领域代码库结合 Agent 技能实现垂直领域的自动化内容生成。"
+  },
+  "https://www.anthropic.com/claude-fable-and-mythos-5-2": {
+   "title": "Claude Fable 5.2 and Mythos 5.2",
+   "date": "2026-11-11",
+   "tokens": [
+    "claude",
+    "fable",
+    "mythos"
+   ],
+   "source": "hackernews",
+   "summary_zh": "Anthropic 发布 Claude Fable 5.2 和 Mythos 5.2 模型，在长周期编码、机器人技术及理论物理等领域表现出极高能力。",
+   "why_zh": "属于大模型性能评估与选型技能。可学习如何通过 Artificial Analysis 等基准测试评估模型在复杂任务中的推理上限。"
+  },
+  "https://github.com/munitkala/selfsemester": {
+   "title": "munitkala/selfsemester",
+   "date": "2026-11-11",
+   "tokens": [
+    "munitkala",
+    "selfsemester"
+   ],
+   "source": "github",
+   "summary_zh": "selfsemester 是一个 Windows 应用，利用 Claude Code 将任意学科转化为包含日程安排、评分系统的完整课程体系。",
+   "why_zh": "属于 Agent 工作流自动化技能。可借鉴如何通过 Claude Code 封装 Agent 逻辑，实现从内容生成到任务评估的闭环。"
+  },
+  "https://simonwillison.net/2026/Nov/9/llm-anthropic/": {
+   "title": "llm-anthropic 0.31",
+   "date": "2026-11-11",
+   "tokens": [
+    "31",
+    "anthropic",
+    "llm"
+   ],
+   "source": "blog",
+   "summary_zh": "llm-anthropic 0.31 版本更新，正式支持调用 Fable 5.2 和 Mythos 5.2 模型。",
+   "why_zh": "属于 LLM 工程化集成技能。掌握通过 CLI 工具快速接入新模型并进行 Prompt 调试的工程实践方法。"
+  },
+  "https://www.youtube.com/watch?v=h76wUNmRqxc": {
+   "title": "NOTHING will be smarter than Fable 5.2...",
+   "date": "2026-11-11",
+   "tokens": [
+    "fable",
+    "nothing",
+    "smarter",
+    "than"
+   ],
+   "source": "youtube",
+   "summary_zh": "Claude Fable 5.2 在训练阶段被刻意限制了在加速器内核优化和 LLM 架构设计方面的能力。",
+   "why_zh": "属于模型训练与对齐策略技能。理解模型训练中的能力抑制（Capability Limiting）机制，分析模型安全与技术护栏的实现逻辑。"
+  },
+  "https://simonwillison.net/2026/Nov/10/muse-ember/": {
+   "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+   "date": "2026-11-11",
+   "tokens": [
+    "efficient",
+    "ember",
+    "introducing",
+    "model",
+    "muse",
+    "our",
+    "smallest"
+   ],
+   "source": "blog",
+   "summary_zh": "Meta AI 发布 Muse Ember 模型，专为复杂推理、工具调用、代码子任务及长文档解析等高频 Agent 任务设计。",
+   "why_zh": "属于轻量级模型部署技能。学习如何针对 Agent 场景（如路由、提取、工具调用）选择高效率的小参数模型以平衡成本与性能。"
+  },
+  "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/": {
+   "title": "Quoting Prompting Claude Fable 5.2",
+   "date": "2026-11-11",
+   "tokens": [
+    "claude",
+    "fable",
+    "prompting",
+    "quoting"
+   ],
+   "source": "blog",
+   "summary_zh": "Claude Fable 5.2 的代码生成行为受 Prompt 中关于代码所有权描述的影响，明确所有权声明可引导模型优化代码结构。",
+   "why_zh": "属于 Prompt Engineering 技能。掌握通过上下文设定（Context Setting）引导模型在代码重构任务中表现出更强的架构优化意识。"
+  },
+  "https://www.youtube.com/watch?v=ZTxzWJeGFAA": {
+   "title": "How CodeRabbit uses OpenAI to review AI-generated code",
+   "date": "2026-11-11",
+   "tokens": [
+    "ai",
+    "code",
+    "coderabbit",
+    "generated",
+    "openai",
+    "review",
+    "uses"
+   ],
+   "source": "youtube",
+   "summary_zh": "CodeRabbit 利用 OpenAI 模型构建自动化代码审查系统，通过 AI 辅助理解、评估并保障 AI 生成代码的安全性，实现研发效能 20 倍提升。",
+   "why_zh": "属于 AI Agent 落地场景。可学习如何将 LLM 集成至 CI/CD 流水线，实现代码质量门禁的自动化与工程化落地。"
+  },
+  "https://www.youtube.com/watch?v=FNTz0CdqL6g": {
+   "title": "Kuken Industries searches 70 years of drawings in minutes",
+   "date": "2026-11-11",
+   "tokens": [
+    "70",
+    "drawings",
+    "industries",
+    "kuken",
+    "minutes",
+    "searches",
+    "years"
+   ],
+   "source": "youtube",
+   "summary_zh": "Kuken Industries 结合 OpenAI API 与 RAG 技术，构建了针对 70 年历史工程图纸的语义检索系统，大幅缩短技术文档查询时间。",
+   "why_zh": "属于企业级 RAG 应用。可学习如何处理非结构化工程文档，通过向量化检索实现大规模历史数据的知识资产化。"
   }
  },
- "updated": "2026-11-09T18:11:10.465474+00:00"
+ "updated": "2026-11-10T16:00:29.731827+00:00"
 }

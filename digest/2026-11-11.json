@@ -1,0 +1,599 @@
+{
+ "date": "2026-11-11",
+ "generated": "2026-11-11 00:00",
+ "source_count": {
+  "github": 77,
+  "youtube": 38,
+  "blog": 82,
+  "paper": 18,
+  "hackernews": 10
+ },
+ "failures": {},
+ "failure_errors": {},
+ "summary_missing": [],
+ "summary_providers": {
+  "gemini": 3
+ },
+ "items": [
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.CL",
+   "title": "Forcing a Letter Suppresses Refusal: Mechanistic Evidence from WMDP",
+   "link": "https://arxiv.org/abs/2611.08639",
+   "dt": "2026-11-10T00:00:00-05:00",
+   "summary": "arXiv:2611.08639v1 Announce Type: new Abstract: Safety benchmarks for large language models (LLMs) commonly use multiple-choice question (MCQ) format. However, prior studies documented that MCQ format reduces refusal rates, which may significantly affect the safety behavior of the model. We provide a first mechanistic explanation of this effect on the Weapons of Mass Destruction Proxy (WMDP) dataset across two models - Llama-3.1-8B and Qwen3-8B. First, we use the tuned lens technique to show tha",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 2.983,
+   "score": 5.966,
+   "tokens": [
+    "evidence",
+    "forcing",
+    "letter",
+    "mechanistic",
+    "refusal",
+    "suppresses",
+    "wmdp"
+   ],
+   "flag": "new",
+   "summary_zh": "研究发现 LLM 在 MCQ 格式下拒绝率降低的机制，通过 WMDP 数据集揭示了强制输出特定字符可抑制模型的安全拒绝行为。",
+   "why_zh": "模型对齐与鲁棒性方向，可学习如何通过 Mechanistic Interpretability 分析提示词格式对模型安全边界的影响。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Longtail-SWE: High-Quality SWE Tasks for Underrepresented Languages",
+   "link": "https://huggingface.co/papers/2611.10304",
+   "dt": "2026-11-06T18:04:32+00:00",
+   "summary": "Challenging repository-level benchmarks remain limited for many programming language ecosystems, where filtering scarce candidates with ambiguous descriptions or defective tests can discard valuable engineering problems. We introduce Longtail-SWE, a benchmark of 202 issue-resolution tasks across 13 languages with limited coverage in existing repository-level benchmarks: Clojure, Dart, Elixir, Erlang, F#, Haskell, Julia, Kotlin, Lua, OCaml, R, Scala, and Swift. Its construction uses a solver--jud",
+   "extra": {
+    "upvotes": 14,
+    "arxiv": "https://arxiv.org/abs/2611.10304"
+   },
+   "skills": [
+    "rag",
+    "eval_observability"
+   ],
+   "learn_score": 2.485,
+   "score": 5.333,
+   "tokens": [
+    "high",
+    "languages",
+    "longtail",
+    "quality",
+    "swe",
+    "tasks",
+    "underrepresented"
+   ],
+   "flag": "new",
+   "summary_zh": "发布 Longtail-SWE 基准测试，包含 13 种低资源编程语言的 202 个仓库级软件工程任务，填补了多语言代码生成评估的空白。",
+   "why_zh": "代码生成与评估方向，可学习如何构建高质量、多语言覆盖的软件工程评测集以提升模型在长尾语言上的泛化能力。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "shinyobjectz/raea",
+   "link": "https://github.com/shinyobjectz/raea",
+   "dt": "2026-10-18T18:08:48+00:00",
+   "summary": "Render Anything Engine: tell your AI what to make. Videos, motion graphics, 3D and games as React and TypeScript, rendered on your own GPU. Rust + Bevy, macOS, Linux and Windows.",
+   "extra": {
+    "stars": 1895,
+    "language": "Rust",
+    "topics": [
+     "3d",
+     "agent-skills",
+     "ai-agents",
+     "ai-video",
+     "bevy",
+     "claude-code"
+    ],
+    "created": "2026-10-18",
+    "pushed": "2026-11-10"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.3,
+   "score": 5.2,
+   "tokens": [
+    "raea",
+    "shinyobjectz"
+   ],
+   "flag": "new",
+   "summary_zh": "基于 Rust 和 Bevy 引擎的渲染引擎，支持将 AI 生成的指令转化为视频、动效、3D 模型及游戏场景，并支持本地 GPU 渲染。",
+   "why_zh": "多模态 Agent 与图形渲染方向，可学习如何利用 Rust 高性能特性构建 AI 驱动的实时渲染工作流。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "kgoedecke/doop",
+   "link": "https://github.com/kgoedecke/doop",
+   "dt": "2026-08-22T15:40:51+00:00",
+   "summary": "The open-source alternative to Paper.design. A multiplayer design canvas where humans and AI agents design together, live. MCP built in.",
+   "extra": {
+    "stars": 1943,
+    "language": "TypeScript",
+    "topics": [
+     "ai-agents",
+     "canvas",
+     "claude",
+     "claude-code",
+     "claude-design",
+     "codex"
+    ],
+    "created": "2026-08-22",
+    "pushed": "2026-11-10"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.239,
+   "score": 4.956,
+   "tokens": [
+    "doop",
+    "kgoedecke"
+   ],
+   "flag": "new",
+   "summary_zh": "开源多人协作设计画布，内置 MCP 协议支持，允许人类与 AI Agent 在同一界面实时交互进行设计创作。",
+   "why_zh": "Agent 交互与工具调用方向，可学习如何通过 MCP 协议实现 Agent 与外部设计工具的标准化通信与协同。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "ChatGPT Desktop forwards your SSH agent to remote machines",
+   "link": "https://news.ycombinator.com/item?id=50422628",
+   "dt": "2026-11-09T08:17:49+00:00",
+   "summary": "The agent running on a remote machine can authenticate using your local SSH credentials. That means it can push to your private repos on GitHub, for example. Proof: https://github.com/openai/codex/pull/28131#discussion_r3410013180",
+   "extra": {
+    "points": 212,
+    "comments": 75,
+    "hn_link": "https://news.ycombinator.com/item?id=50422628"
+   },
+   "skills": [],
+   "learn_score": 1.35,
+   "score": 4.491,
+   "tokens": [
+    "agent",
+    "chatgpt",
+    "desktop",
+    "forwards",
+    "machines",
+    "remote",
+    "ssh"
+   ],
+   "flag": "new",
+   "summary_zh": "指出 ChatGPT 桌面端存在 SSH Agent 转发漏洞，导致远程机器可利用本地 SSH 凭据进行身份验证，存在安全风险。",
+   "why_zh": "AI 工程安全方向，可学习 Agent 部署中的权限隔离与 SSH 凭据管理规范，避免敏感权限在远程环境中被滥用。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "patch-gg/pixelfx",
+   "link": "https://github.com/patch-gg/pixelfx",
+   "dt": "2026-10-30T06:43:25+00:00",
+   "summary": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
+   "extra": {
+    "stars": 6597,
+    "language": "JavaScript",
+    "topics": [
+     "agent-skills",
+     "animation",
+     "canvas",
+     "claude-code-plugin",
+     "gamedev",
+     "pixel-art"
+    ],
+    "created": "2026-10-30",
+    "pushed": "2026-11-09"
+   },
+   "skills": [],
+   "learn_score": 1.033,
+   "score": 4.132,
+   "tokens": [
+    "gg",
+    "patch",
+    "pixelfx"
+   ],
+   "flag": "new",
+   "summary_zh": "提供 244 种像素艺术特效代码库，并集成 Claude Code 技能，支持用户通过自然语言生成自定义像素艺术效果。",
+   "why_zh": "AI 辅助编程与生成式艺术方向，可学习如何通过特定领域代码库结合 Agent 技能实现垂直领域的自动化内容生成。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Claude Fable 5.2 and Mythos 5.2",
+   "link": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "dt": "2026-11-09T18:56:29+00:00",
+   "summary": "",
+   "extra": {
+    "points": 980,
+    "comments": 6,
+    "hn_link": "https://news.ycombinator.com/item?id=50429906"
+   },
+   "skills": [],
+   "learn_score": 1.0,
+   "score": 3.991,
+   "tokens": [
+    "claude",
+    "fable",
+    "mythos"
+   ],
+   "flag": "new",
+   "summary_zh": "Anthropic 发布 Claude Fable 5.2 和 Mythos 5.2 模型，在长周期编码、机器人技术及理论物理等领域表现出极高能力。",
+   "why_zh": "属于大模型性能评估与选型技能。可学习如何通过 Artificial Analysis 等基准测试评估模型在复杂任务中的推理上限。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "munitkala/selfsemester",
+   "link": "https://github.com/munitkala/selfsemester",
+   "dt": "2026-11-04T20:50:56+00:00",
+   "summary": "Windows app that turns any subject into a full, scheduled, graded course, built and marked by your own Claude Code",
+   "extra": {
+    "stars": 76,
+    "language": "Rust",
+    "topics": [
+     "ai-education",
+     "ai-tutor",
+     "anthropic",
+     "claude",
+     "claude-code",
+     "curriculum"
+    ],
+    "created": "2026-11-04",
+    "pushed": "2026-11-09"
+   },
+   "skills": [],
+   "learn_score": 1.094,
+   "score": 3.152,
+   "tokens": [
+    "munitkala",
+    "selfsemester"
+   ],
+   "flag": "new",
+   "summary_zh": "selfsemester 是一个 Windows 应用，利用 Claude Code 将任意学科转化为包含日程安排、评分系统的完整课程体系。",
+   "why_zh": "属于 Agent 工作流自动化技能。可借鉴如何通过 Claude Code 封装 Agent 逻辑，实现从内容生成到任务评估的闭环。"
+  },
+  {
+   "source": "blog",
+   "source_label": "Simon Willison",
+   "title": "llm-anthropic 0.31",
+   "link": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
+   "dt": "2026-11-09T23:58:46+00:00",
+   "summary": "Release: llm-anthropic 0.31 Anthropic released Fable 5.2 and Mythos 5.2 today. Fable 5.2 is currently ranked first on Artificial Analysis . Anthropic say it \"solved two open problems in the physics of black holes\", so clearly their internal benchmarks have become more ambitious! I've added the new models to llm-anthropic , so you can now run prompts through Fable 5.2 like this: uv tool install llm llm install llm-anthropic llm keys set anthropic # paste key here llm -m claude-fable-5.2 \"Generate…",
+   "extra": {},
+   "skills": [
+    "prompt_context",
+    "eval_observability"
+   ],
+   "learn_score": 2.341,
+   "score": 2.341,
+   "tokens": [
+    "31",
+    "anthropic",
+    "llm"
+   ],
+   "flag": "new",
+   "summary_zh": "llm-anthropic 0.31 版本更新，正式支持调用 Fable 5.2 和 Mythos 5.2 模型。",
+   "why_zh": "属于 LLM 工程化集成技能。掌握通过 CLI 工具快速接入新模型并进行 Prompt 调试的工程实践方法。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Wes Roth",
+   "title": "NOTHING will be smarter than Fable 5.2...",
+   "link": "https://www.youtube.com/watch?v=h76wUNmRqxc",
+   "dt": "2026-11-10T00:02:58+00:00",
+   "summary": "Anthropic just released Claude Fable 5.2 and Claude Mythos 5.2, and while it is easily the most capable public model in the world across long-horizon coding, robotics, hardware design, and theoretical physics, the biggest story is buried in the fine print. For the first time, Anthropic admits it deliberately limited Fable 5.2 during training on accelerator kernel optimization and LLM architecture research so those specific skills stay capped at Opus 5.5 levels. We break down how today's release …",
+   "extra": {
+    "channel": "Wes Roth",
+    "video_id": "h76wUNmRqxc"
+   },
+   "skills": [
+    "system_design"
+   ],
+   "learn_score": 1.913,
+   "score": 1.913,
+   "tokens": [
+    "fable",
+    "nothing",
+    "smarter",
+    "than"
+   ],
+   "flag": "new",
+   "summary_zh": "Claude Fable 5.2 在训练阶段被刻意限制了在加速器内核优化和 LLM 架构设计方面的能力。",
+   "why_zh": "属于模型训练与对齐策略技能。理解模型训练中的能力抑制（Capability Limiting）机制，分析模型安全与技术护栏的实现逻辑。"
+  },
+  {
+   "source": "blog",
+   "source_label": "Simon Willison",
+   "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+   "link": "https://simonwillison.net/2026/Nov/10/muse-ember/",
+   "dt": "2026-11-10T07:28:21+00:00",
+   "summary": "Introducing Our Smallest, Most Efficient Model: Muse Ember Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Ember, which they describe as: [...] our smallest and most efficient model designed for complex reasoning execution and the work agents repeat all day: tool calls, coding subtasks, routing, extraction, and long document parsing. For shorter prompts it's priced the same as GPT-6 Luna and Claude Haiku 5.5 - both are $0.10/million input tokens and $0.50/million ou…",
+   "extra": {},
+   "skills": [
+    "prompt_context"
+   ],
+   "learn_score": 1.445,
+   "score": 1.445,
+   "tokens": [
+    "efficient",
+    "ember",
+    "introducing",
+    "model",
+    "muse",
+    "our",
+    "smallest"
+   ],
+   "flag": "new",
+   "summary_zh": "Meta AI 发布 Muse Ember 模型，专为复杂推理、工具调用、代码子任务及长文档解析等高频 Agent 任务设计。",
+   "why_zh": "属于轻量级模型部署技能。学习如何针对 Agent 场景（如路由、提取、工具调用）选择高效率的小参数模型以平衡成本与性能。"
+  },
+  {
+   "source": "blog",
+   "source_label": "Simon Willison",
+   "title": "Quoting Prompting Claude Fable 5.2",
+   "link": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
+   "dt": "2026-11-10T05:34:14+00:00",
+   "summary": "Claude Fable 5.2 responds closely to what the prompt says about who owns the code it works on. In Anthropic’s testing on small coding tasks, when a prompt said nothing about ownership or presented the code base as someone else’s, the model tended to add to the existing structure, even when that repeated existing code. [...] If you want the model to improve the structure as it works, say that the code is its own: This codebase is yours: what it's for and how it's built are your call, and you'll k…",
+   "extra": {},
+   "skills": [
+    "prompt_context"
+   ],
+   "learn_score": 1.445,
+   "score": 1.445,
+   "tokens": [
+    "claude",
+    "fable",
+    "prompting",
+    "quoting"
+   ],
+   "flag": "new",
+   "summary_zh": "Claude Fable 5.2 的代码生成行为受 Prompt 中关于代码所有权描述的影响，明确所有权声明可引导模型优化代码结构。",
+   "why_zh": "属于 Prompt Engineering 技能。掌握通过上下文设定（Context Setting）引导模型在代码重构任务中表现出更强的架构优化意识。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "How CodeRabbit uses OpenAI to review AI-generated code",
+   "link": "https://www.youtube.com/watch?v=ZTxzWJeGFAA",
+   "dt": "2026-11-10T15:05:40+00:00",
+   "summary": "CodeRabbit co-founder and CEO Harjot Gill explains how the team uses OpenAI models to help teams understand, review, and secure code produced by AI agents and decide what’s ready to ship. He also shares how CodeRabbit used Codex to ship 20x more software over 6 months with the same engineering team. Read the story: https://openai.com/index/coderabbit-codex-daybreak/",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": "ZTxzWJeGFAA"
+   },
+   "skills": [],
+   "learn_score": 1.215,
+   "score": 1.215,
+   "tokens": [
+    "ai",
+    "code",
+    "coderabbit",
+    "generated",
+    "openai",
+    "review",
+    "uses"
+   ],
+   "flag": "new",
+   "summary_zh": "CodeRabbit 利用 OpenAI 模型构建自动化代码审查系统，通过 AI 辅助理解、评估并保障 AI 生成代码的安全性，实现研发效能 20 倍提升。",
+   "why_zh": "属于 AI Agent 落地场景。可学习如何将 LLM 集成至 CI/CD 流水线，实现代码质量门禁的自动化与工程化落地。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "Kuken Industries searches 70 years of drawings in minutes",
+   "link": "https://www.youtube.com/watch?v=FNTz0CdqL6g",
+   "dt": "2026-11-10T02:41:23+00:00",
+   "summary": "Kuken Industries is using the OpenAI API to help engineers search 70 years of drawings in minutes. Built with Recursive, a Japanese AI startup and an official OpenAI partner, the system gives teams more time to mentor younger engineers and take on more demanding work. ➡️ Read how Kuken Industries is putting decades of engineering knowledge to work: https://openai.com/index/kuken/?utm_medium=social&utm_source=youtube&utm_campaign=CNT-yt_jp&utm_content=case_kuken_article",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": "FNTz0CdqL6g"
+   },
+   "skills": [],
+   "learn_score": 0.9,
+   "score": 0.9,
+   "tokens": [
+    "70",
+    "drawings",
+    "industries",
+    "kuken",
+    "minutes",
+    "searches",
+    "years"
+   ],
+   "flag": "new",
+   "summary_zh": "Kuken Industries 结合 OpenAI API 与 RAG 技术，构建了针对 70 年历史工程图纸的语义检索系统，大幅缩短技术文档查询时间。",
+   "why_zh": "属于企业级 RAG 应用。可学习如何处理非结构化工程文档，通过向量化检索实现大规模历史数据的知识资产化。"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "liangjianshu/multimodal-image-retrieval",
+   "link": "https://github.com/liangjianshu/multimodal-image-retrieval",
+   "dt": "2026-11-02T14:22:10+00:00",
+   "summary": "多模态检索实战：意图识别、Prompt 工程、Qwen LoRA、EmbeddingGemma 2 与 InfoNCE 对比学习。含真实演示、自有数据接入、训练评测及 RAG 检索组件学习指南。",
+   "extra": {
+    "stars": 129,
+    "language": "Python",
+    "topics": [
+     "agent-tools",
+     "clip",
+     "contrastive-learning",
+     "ecommerce",
+     "embeddinggemma",
+     "image-retrieval"
+    ],
+    "created": "2026-11-02",
+    "pushed": "2026-11-05"
+   },
+   "skills": [
+    "prompt_context",
+    "rag",
+    "eval_observability",
+    "training_serving"
+   ],
+   "learn_score": 3.511,
+   "score": 10.921,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-10 推荐过",
+   "summary_zh": "multimodal-image-retrieval 项目整合了意图识别、Qwen LoRA 微调、EmbeddingGemma 2 与 InfoNCE 对比学习，提供了一套完整的多模态检索与 RAG 落地实践方案。",
+   "why_zh": "属于 RAG 与多模态检索领域，可学习如何通过对比学习优化 Embedding 模型，以及如何将 LoRA 微调与检索组件结合提升意图识别准确率。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "wanghao-SunSky/cs329z-chinese",
+   "link": "https://github.com/wanghao-SunSky/cs329z-chinese",
+   "dt": "2026-10-28T18:18:24+00:00",
+   "summary": "斯坦福 Stanford CS329Z Engineering AI Agents 中文教程：面向 Python 开发者的 AI 智能体课程，19 讲与 4 项实践，涵盖 LLM、RAG、工具调用、记忆、多智能体、评测与安全。完整 Markdown、在线与离线 HTML。Chinese course notes.",
+   "extra": {
+    "stars": 562,
+    "language": "HTML",
+    "topics": [
+     "agent-memory",
+     "agentic-ai",
+     "ai-agents",
+     "chinese",
+     "chinese-tutorial",
+     "course-notes"
+    ],
+    "created": "2026-10-28",
+    "pushed": "2026-11-06"
+   },
+   "skills": [
+    "rag",
+    "tool_mcp",
+    "agent_architecture",
+    "multi_agent",
+    "eval_observability"
+   ],
+   "learn_score": 2.601,
+   "score": 9.753,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-10 推荐过",
+   "summary_zh": "斯坦福 CS329Z 课程中文版，系统梳理了 LLM、RAG、工具调用、记忆机制、多智能体架构及评测安全等智能体开发核心知识体系。",
+   "why_zh": "属于 AI Agent 工程化技能点，可复用其课程设计的模块化架构，学习如何构建从基础到多智能体协作的完整开发工作流。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "YOLOW92/pagesift",
+   "link": "https://github.com/YOLOW92/pagesift",
+   "dt": "2026-10-20T17:30:59+00:00",
+   "summary": "Self-hosted web scraper, crawler and document parser for AI agents: URLs, PDFs with OCR and Office files to clean Markdown/JSON. Firecrawl- and Jina-compatible API, MCP server, agent endpoint, Python/Node SDKs. Single Rust binary.",
+   "extra": {
+    "stars": 262,
+    "language": "Rust",
+    "topics": [
+     "ai-agents",
+     "browser-automation",
+     "crawl4ai-alternative",
+     "data-extraction",
+     "document-parsing",
+     "firecrawl"
+    ],
+    "created": "2026-10-20",
+    "pushed": "2026-11-09"
+   },
+   "skills": [
+    "tool_mcp",
+    "training_serving"
+   ],
+   "learn_score": 2.107,
+   "score": 7.202,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-10 推荐过",
+   "summary_zh": "基于 Rust 的高性能网页爬虫与内容提取引擎，提供适配 AI Agent 和 RAG 的干净 Markdown 及结构化数据输出。",
+   "why_zh": "RAG 数据预处理技能，学习使用 Rust 实现高内存效率的浏览器渲染与 Firecrawl 兼容 API 以加速数据获取。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.CL",
+   "title": "Compression of Emotion in Language Model Representations",
+   "link": "https://arxiv.org/abs/2611.08683",
+   "dt": "2026-11-10T00:00:00-05:00",
+   "summary": "arXiv:2611.08683v1 Announce Type: new Abstract: Large language models (LLMs) have been evaluated on their ability to identify emotions expressed in text and produce fluent emotional language. However, output predictions alone do not reveal how fine-grained emotion distinctions are organized internally. We study seven LLMs on GoEmotions, an English Reddit dataset annotated with 27 fine-grained emotion categories plus neutral. We compare model predictions and emotion-prompted final-token represent",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "prompt_context",
+    "eval_observability"
+   ],
+   "learn_score": 3.58,
+   "score": 7.16,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-10 推荐过",
+   "summary_zh": "该研究分析了七种 LLM 在 GoEmotions 数据集上的表现，揭示了模型内部表征中细粒度情感信息的组织方式及其压缩特性。",
+   "why_zh": "属于模型可解释性与表征学习领域，可学习如何通过探针技术分析 LLM 内部隐藏层状态，理解模型如何编码复杂语义特征。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "zaxiu88888/issue-rag",
+   "link": "https://github.com/zaxiu88888/issue-rag",
+   "dt": "2026-11-01T11:32:25+00:00",
+   "summary": "RAG over GitHub issues, with a hand-reviewed eval set and an audit of the judge itself. Reports the interval, not just the best number.",
+   "extra": {
+    "stars": 219,
+    "language": "Python",
+    "topics": [
+     "evaluation",
+     "github-issues",
+     "llm",
+     "llm-as-judge",
+     "python",
+     "rag"
+    ],
+    "created": "2026-11-01",
+    "pushed": "2026-11-04"
+   },
+   "skills": [
+    "rag",
+    "eval_observability"
+   ],
+   "learn_score": 2.107,
+   "score": 7.038,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-10 推荐过",
+   "summary_zh": "基于 GitHub Issues 构建的 RAG 系统，提供人工评估集及对 LLM 评测器本身的审计机制，通过置信区间而非单一指标评估检索质量。",
+   "why_zh": "RAG 评估与评测。学习如何构建高质量黄金数据集以及通过置信区间量化评估结果的稳定性，避免单一指标带来的偏差。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ccch1mneyyy/dsh-Go",
+   "link": "https://github.com/ccch1mneyyy/dsh-Go",
+   "dt": "2026-10-25T08:09:52+00:00",
+   "summary": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+   "extra": {
+    "stars": 18523,
+    "language": "Dart",
+    "topics": [
+     "ai-agent",
+     "android",
+     "android-app",
+     "coding-agent",
+     "deepseek",
+     "deepseek-harness"
+    ],
+    "created": "2026-10-25",
+    "pushed": "2026-11-10"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-10 推荐过",
+   "summary_zh": "dsh-Go 实现 DeepSeek 模型在移动端本地运行，并支持远程控制桌面端执行任务，提供轻量级端侧推理解决方案。",
+   "why_zh": "属于端侧 AI 部署技能点，可复用其跨设备通信与本地推理引擎集成方案，解决资源受限环境下的智能体调度问题。"
+  }
+ ]
+}

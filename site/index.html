@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>2026-11-10 · AI 前沿日报</title>
-<meta name="description" content="2026-11-10 AI / LLM / Agent 前沿日报">
+<title>2026-11-11 · AI 前沿日报</title>
+<meta name="description" content="2026-11-11 AI / LLM / Agent 前沿日报">
 <link rel="stylesheet" href="style.css">
 <link rel="alternate" type="application/rss+xml" title="AI 前沿日报" href="https://aivulcan.de5.net/feed.xml">
 </head>
@@ -19,142 +19,143 @@
 </div>
 </div>
 <p class="desc">每天自动采集 GitHub / YouTube / 博客 / 论文 / Hacker News 上关于 AI、LLM、Agent、Harness 的前沿动态，生成中文摘要。</p>
-<div class="stats"><span>今日 <b>20</b> 条</span><span>源 <b>5</b> 个</span><span>累计 <b>37</b> 期</span></div><nav><a href="">最新</a><a href="archive">归档</a><a href="feed.xml">RSS</a><a href="about">关于</a></nav>
+<div class="stats"><span>今日 <b>20</b> 条</span><span>源 <b>5</b> 个</span><span>累计 <b>38</b> 期</span></div><nav><a href="">最新</a><a href="archive">归档</a><a href="feed.xml">RSS</a><a href="about">关于</a></nav>
 </header>
-<h1>2026-11-10 日报</h1>
-<p class="meta">生成时间 2026-11-10 02:11 (CST) ｜ 共 20 条（新增 14 · 重复/相似 6）</p>
-<p class="meta">源命中数：GitHub 76 · YouTube 39 · 博客 80 · 论文 18 · Hacker News 10</p>
+<h1>2026-11-11 日报</h1>
+<p class="meta">生成时间 2026-11-11 00:00 (CST) ｜ 共 20 条（新增 14 · 重复/相似 6）</p>
+<p class="meta">源命中数：GitHub 77 · YouTube 38 · 博客 82 · 论文 18 · Hacker News 10</p>
 <h2>📌 今日精选 Top 6</h2>
-<article class="pick" data-src="github">
-<h3><span class="num">01</span> <a href="https://github.com/liangjianshu/multimodal-image-retrieval" target="_blank" rel="noopener">liangjianshu/multimodal-image-retrieval</a></h3>
-<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 129</span><span class="tag">Python</span><span class="tag">新建 2026-11-02</span><span class="date">11-02</span></p>
-<p class="sum">multimodal-image-retrieval 项目整合了意图识别、Qwen LoRA 微调、EmbeddingGemma 2 与 InfoNCE 对比学习，提供了一套完整的多模态检索与 RAG 落地实践方案。</p>
-<p class="why">为什么值得看：属于 RAG 与多模态检索领域，可学习如何通过对比学习优化 Embedding 模型，以及如何将 LoRA 微调与检索组件结合提升意图识别准确率。</p>
+<article class="pick" data-src="paper">
+<h3><span class="num">01</span> <a href="https://arxiv.org/abs/2611.08639" target="_blank" rel="noopener">Forcing a Letter Suppresses Refusal: Mechanistic Evidence from WMDP</a></h3>
+<p class="meta"><span class="tag src">arXiv cs.CL</span><span class="tag">论文</span><span class="date">11-10</span></p>
+<p class="sum">研究发现 LLM 在 MCQ 格式下拒绝率降低的机制，通过 WMDP 数据集揭示了强制输出特定字符可抑制模型的安全拒绝行为。</p>
+<p class="why">为什么值得看：模型对齐与鲁棒性方向，可学习如何通过 Mechanistic Interpretability 分析提示词格式对模型安全边界的影响。</p>
 </article>
 <article class="pick" data-src="paper">
-<h3><span class="num">02</span> <a href="https://arxiv.org/abs/2611.08683" target="_blank" rel="noopener">Compression of Emotion in Language Model Representations</a></h3>
-<p class="meta"><span class="tag src">arXiv cs.CL</span><span class="tag">论文</span><span class="date">11-09</span></p>
-<p class="sum">该研究分析了七种 LLM 在 GoEmotions 数据集上的表现，揭示了模型内部表征中细粒度情感信息的组织方式及其压缩特性。</p>
-<p class="why">为什么值得看：属于模型可解释性与表征学习领域，可学习如何通过探针技术分析 LLM 内部隐藏层状态，理解模型如何编码复杂语义特征。</p>
-</article>
-<article class="pick" data-src="paper">
-<h3><span class="num">03</span> <a href="https://arxiv.org/abs/2611.08643" target="_blank" rel="noopener">FinEvolveKG: Controlled and Attributable Prompt Evolution for Financial Knowledge Graph Construction</a></h3>
-<p class="meta"><span class="tag src">arXiv cs.CL</span><span class="tag">论文</span><span class="date">11-09</span></p>
-<p class="sum">FinEvolveKG 提出了一种针对金融知识图谱构建的受控且可归因的 Prompt 演化框架，通过权重无关的优化方法适应不同分析需求。</p>
-<p class="why">为什么值得看：属于知识图谱构建与 Prompt 工程领域，可学习如何通过受控演化机制在不进行全量微调的前提下，实现特定领域任务的 Prompt 自适应。</p>
-</article>
-<article class="pick" data-src="hackernews">
-<h3><span class="num">04</span> <a href="https://www.lorekit.io/blog/open-agent-memory-format" target="_blank" rel="noopener">Agent memory needs its OpenTelemetry moment</a></h3>
-<p class="meta"><span class="tag src">Hacker News</span><span class="tag">🔥 187 分</span><span class="tag">💬 108</span><span class="date">11-08</span></p>
-<p class="sum">Agent 内存系统缺乏统一的可观测性标准，亟需建立类似 OpenTelemetry 的协议来记录、追踪和分析 Agent 的记忆存取过程。</p>
-<p class="why">为什么值得看：属于 Agent 系统架构领域，可学习如何设计 Agent 内存的可观测性方案，通过标准化日志追踪提升复杂 Agent 系统的调试与故障排查能力。</p>
-</article>
-<article class="pick" data-src="hackernews">
-<h3><span class="num">05</span> <a href="https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers" target="_blank" rel="noopener">Goldman Sachs is pulling Claude Code from its bankers and traders</a></h3>
-<p class="meta"><span class="tag src">Hacker News</span><span class="tag">🔥 865 分</span><span class="tag">💬 468</span><span class="date">11-09</span></p>
-<p class="sum">高盛集团因安全与合规考量限制员工使用 Claude Code，反映了企业级环境在集成 AI 编码助手时面临的权限管控与数据泄露风险。</p>
-<p class="why">为什么值得看：属于 AI 工程化落地与安全领域，可学习企业级 AI 部署中关于代码审计、数据隐私边界及工具链合规性管理的考量因素。</p>
+<h3><span class="num">02</span> <a href="https://huggingface.co/papers/2611.10304" target="_blank" rel="noopener">Longtail-SWE: High-Quality SWE Tasks for Underrepresented Languages</a></h3>
+<p class="meta"><span class="tag src">HF Daily Papers</span><span class="tag">👍 14</span><span class="date">11-07</span></p>
+<p class="sum">发布 Longtail-SWE 基准测试，包含 13 种低资源编程语言的 202 个仓库级软件工程任务，填补了多语言代码生成评估的空白。</p>
+<p class="why">为什么值得看：代码生成与评估方向，可学习如何构建高质量、多语言覆盖的软件工程评测集以提升模型在长尾语言上的泛化能力。</p>
 </article>
 <article class="pick" data-src="github">
-<h3><span class="num">06</span> <a href="https://github.com/jiwoochris/artex-global" target="_blank" rel="noopener">jiwoochris/artex-global</a></h3>
-<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 2966</span><span class="tag">Go</span><span class="tag">新建 2026-10-03</span><span class="date">10-03</span></p>
-<p class="sum">artex-global 是一个多语言 LLM 自主渗透测试框架，支持自动化漏洞探测与攻击模拟，具备多语言切换能力。</p>
-<p class="why">为什么值得看：属于 AI Agent 安全与自动化测试领域，可学习如何构建多 Agent 协作框架以执行复杂任务，以及如何将 LLM 应用于安全攻防场景。</p>
+<h3><span class="num">03</span> <a href="https://github.com/shinyobjectz/raea" target="_blank" rel="noopener">shinyobjectz/raea</a></h3>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 1895</span><span class="tag">Rust</span><span class="tag">新建 2026-10-18</span><span class="date">10-19</span></p>
+<p class="sum">基于 Rust 和 Bevy 引擎的渲染引擎，支持将 AI 生成的指令转化为视频、动效、3D 模型及游戏场景，并支持本地 GPU 渲染。</p>
+<p class="why">为什么值得看：多模态 Agent 与图形渲染方向，可学习如何利用 Rust 高性能特性构建 AI 驱动的实时渲染工作流。</p>
 </article>
-<h2>🐙 GitHub（2）</h2>
-<article class="item" data-src="github">
-<h3><a href="https://github.com/thePloggy/CreatorOS-Studio" target="_blank" rel="noopener">thePloggy/CreatorOS-Studio</a></h3>
-<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 68</span><span class="tag">TypeScript</span><span class="tag">新建 2026-10-16</span><span class="date">10-16</span></p>
-<p class="sum">CreatorOS-Studio 基于 ComfyUI 实现本地化视频创作工作流，支持角色训练、镜头控制、3D 场景布局及视频修复，完全依赖开源模型。</p>
-<p class="why">为什么值得看：多模态 Agent 工作流。学习如何通过 ComfyUI 编排复杂的视频生成任务，掌握本地化部署开源模型以实现可控视频创作的技术栈。</p>
+<article class="pick" data-src="github">
+<h3><span class="num">04</span> <a href="https://github.com/kgoedecke/doop" target="_blank" rel="noopener">kgoedecke/doop</a></h3>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 1943</span><span class="tag">TypeScript</span><span class="tag">新建 2026-08-22</span><span class="date">08-22</span></p>
+<p class="sum">开源多人协作设计画布，内置 MCP 协议支持，允许人类与 AI Agent 在同一界面实时交互进行设计创作。</p>
+<p class="why">为什么值得看：Agent 交互与工具调用方向，可学习如何通过 MCP 协议实现 Agent 与外部设计工具的标准化通信与协同。</p>
 </article>
+<article class="pick" data-src="hackernews">
+<h3><span class="num">05</span> <a href="https://news.ycombinator.com/item?id=50422628" target="_blank" rel="noopener">ChatGPT Desktop forwards your SSH agent to remote machines</a></h3>
+<p class="meta"><span class="tag src">Hacker News</span><span class="tag">🔥 212 分</span><span class="tag">💬 75</span><span class="date">11-09</span></p>
+<p class="sum">指出 ChatGPT 桌面端存在 SSH Agent 转发漏洞，导致远程机器可利用本地 SSH 凭据进行身份验证，存在安全风险。</p>
+<p class="why">为什么值得看：AI 工程安全方向，可学习 Agent 部署中的权限隔离与 SSH 凭据管理规范，避免敏感权限在远程环境中被滥用。</p>
+</article>
+<article class="pick" data-src="github">
+<h3><span class="num">06</span> <a href="https://github.com/patch-gg/pixelfx" target="_blank" rel="noopener">patch-gg/pixelfx</a></h3>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 6597</span><span class="tag">JavaScript</span><span class="tag">新建 2026-10-30</span><span class="date">10-30</span></p>
+<p class="sum">提供 244 种像素艺术特效代码库，并集成 Claude Code 技能，支持用户通过自然语言生成自定义像素艺术效果。</p>
+<p class="why">为什么值得看：AI 辅助编程与生成式艺术方向，可学习如何通过特定领域代码库结合 Agent 技能实现垂直领域的自动化内容生成。</p>
+</article>
+<h2>🐙 GitHub（1）</h2>
 <article class="item" data-src="github">
-<h3><a href="https://github.com/CopilotKit/OpenBot" target="_blank" rel="noopener">CopilotKit/OpenBot</a></h3>
-<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 10558</span><span class="tag">TypeScript</span><span class="tag">新建 2026-08-17</span><span class="date">08-17</span></p>
-<p class="sum">OpenBot 提供开源 AI 同事框架，为每个 Agent 分配独立运行环境（浏览器、文件系统与工具），并实现动作预决策与执行记录。</p>
-<p class="why">为什么值得看：Agent 运行环境隔离。学习如何为 Agent 构建沙箱化执行环境，并实现基于动作日志的审计机制，提升复杂任务执行的安全性与可观测性。</p>
+<h3><a href="https://github.com/munitkala/selfsemester" target="_blank" rel="noopener">munitkala/selfsemester</a></h3>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 76</span><span class="tag">Rust</span><span class="tag">新建 2026-11-04</span><span class="date">11-05</span></p>
+<p class="sum">selfsemester 是一个 Windows 应用，利用 Claude Code 将任意学科转化为包含日程安排、评分系统的完整课程体系。</p>
+<p class="why">为什么值得看：属于 Agent 工作流自动化技能。可借鉴如何通过 Claude Code 封装 Agent 逻辑，实现从内容生成到任务评估的闭环。</p>
 </article>
 <h2>📺 YouTube（3）</h2>
 <article class="item" data-src="youtube">
-<h3><a href="https://www.youtube.com/watch?v=NUgaWmws0XQ" target="_blank" rel="noopener">How Airbnb builds Trust for Guests and Hosts using AI Agents with LangGraph</a></h3>
-<p class="meta"><span class="tag src">YouTube · LangChain</span><span class="tag">视频</span><span class="date">11-09</span></p>
-<p class="sum">Airbnb 通过 LangGraph 构建 AI Agent，采用结构化输出与“拒绝回答”机制处理不确定性，并利用小规模子 Agent 配合规则层实现可追溯的决策流程。</p>
-<p class="why">为什么值得看：Agent 架构设计与鲁棒性。学习在生产环境中通过 Human-in-the-loop 和分层决策模式，解决高风险场景下 Agent 决策不可控的问题。</p>
+<h3><a href="https://www.youtube.com/watch?v=h76wUNmRqxc" target="_blank" rel="noopener">NOTHING will be smarter than Fable 5.2...</a></h3>
+<p class="meta"><span class="tag src">YouTube · Wes Roth</span><span class="tag">视频</span><span class="date">11-10</span></p>
+<p class="sum">Claude Fable 5.2 在训练阶段被刻意限制了在加速器内核优化和 LLM 架构设计方面的能力。</p>
+<p class="why">为什么值得看：属于模型训练与对齐策略技能。理解模型训练中的能力抑制（Capability Limiting）机制，分析模型安全与技术护栏的实现逻辑。</p>
 </article>
 <article class="item" data-src="youtube">
-<h3><a href="https://www.youtube.com/watch?v=GRlcm3wmOqs" target="_blank" rel="noopener">ZERO to RUNNING Software Factory In 16 Minutes (LIQUID Software)</a></h3>
-<p class="meta"><span class="tag src">YouTube · IndyDevDan</span><span class="tag">视频</span><span class="date">11-09</span></p>
-<p class="sum">Liquid Software 强调从“人机交互循环”转向“近循环”模式，通过主动式 AI Agent 实现全天候自动化工作流，减少人工提示词交互的瓶颈。</p>
-<p class="why">为什么值得看：Agent 工程化实践。掌握如何通过自动化流程设计，将 Agent 从被动响应式转变为主动执行式，提升系统整体吞吐量与工程效率。</p>
+<h3><a href="https://www.youtube.com/watch?v=ZTxzWJeGFAA" target="_blank" rel="noopener">How CodeRabbit uses OpenAI to review AI-generated code</a></h3>
+<p class="meta"><span class="tag src">YouTube · OpenAI</span><span class="tag">视频</span><span class="date">11-10</span></p>
+<p class="sum">CodeRabbit 利用 OpenAI 模型构建自动化代码审查系统，通过 AI 辅助理解、评估并保障 AI 生成代码的安全性，实现研发效能 20 倍提升。</p>
+<p class="why">为什么值得看：属于 AI Agent 落地场景。可学习如何将 LLM 集成至 CI/CD 流水线，实现代码质量门禁的自动化与工程化落地。</p>
 </article>
 <article class="item" data-src="youtube">
-<h3><a href="https://www.youtube.com/shorts/kmPF75rTgh8" target="_blank" rel="noopener">Should Agents Say &quot;I Don&#x27;t Know&quot;? | AirBnB at Interrupt 26</a></h3>
-<p class="meta"><span class="tag src">YouTube · LangChain</span><span class="tag">视频</span><span class="date">11-09</span></p>
-<p class="sum">Airbnb 工程团队在 Agent 设计中引入「拒绝回答」机制，在置信度不足时将任务转交人类，以规避高风险场景下的幻觉风险。</p>
-<p class="why">为什么值得看：涉及 Agent 可靠性与鲁棒性设计，可复用做法包括设置置信度阈值、构建 Human-in-the-loop 兜底机制及评估错误代价。</p>
+<h3><a href="https://www.youtube.com/watch?v=FNTz0CdqL6g" target="_blank" rel="noopener">Kuken Industries searches 70 years of drawings in minutes</a></h3>
+<p class="meta"><span class="tag src">YouTube · OpenAI</span><span class="tag">视频</span><span class="date">11-10</span></p>
+<p class="sum">Kuken Industries 结合 OpenAI API 与 RAG 技术，构建了针对 70 年历史工程图纸的语义检索系统，大幅缩短技术文档查询时间。</p>
+<p class="why">为什么值得看：属于企业级 RAG 应用。可学习如何处理非结构化工程文档，通过向量化检索实现大规模历史数据的知识资产化。</p>
 </article>
 <h2>📝 博客（3）</h2>
 <article class="item" data-src="blog">
-<h3><a href="https://www.langchain.com/blog/what-is-eval-driven-development" target="_blank" rel="noopener">What Is Eval-Driven Development? How to Improve AI Agents</a></h3>
-<p class="meta"><span class="tag src">LangChain 博客</span><span class="tag">文章</span><span class="date">11-10</span></p>
-<p class="sum">Eval-driven development 提倡在开发 AI Agent 前先定义评估指标与测试集，通过量化指标驱动迭代，确保 Agent 行为的一致性与可预测性。</p>
-<p class="why">为什么值得看：Agent 评估体系。掌握“测试先行”的开发范式，学习如何构建评估基准（Benchmark）以量化 Agent 的性能改进，避免盲目调优。</p>
+<h3><a href="https://simonwillison.net/2026/Nov/9/llm-anthropic/" target="_blank" rel="noopener">llm-anthropic 0.31</a></h3>
+<p class="meta"><span class="tag src">Simon Willison</span><span class="tag">文章</span><span class="date">11-10</span></p>
+<p class="sum">llm-anthropic 0.31 版本更新，正式支持调用 Fable 5.2 和 Mythos 5.2 模型。</p>
+<p class="why">为什么值得看：属于 LLM 工程化集成技能。掌握通过 CLI 工具快速接入新模型并进行 Prompt 调试的工程实践方法。</p>
 </article>
 <article class="item" data-src="blog">
-<h3><a href="https://www.marktechpost.com/2026/11/08/0sec-labs-open-sources-0-ai-security-harness/" target="_blank" rel="noopener">0sec Labs Open-Sources 0, an AI Security Harness With Web UI, CLI and MCP</a></h3>
-<p class="meta"><span class="tag src">MarkTechPost</span><span class="tag">文章</span><span class="date">11-09</span></p>
-<p class="sum">0sec Labs 开源 AI 安全工具 0，支持代码审查、渗透测试与逆向工程，提供 Web UI、CLI 及 MCP 接口，支持本地模型部署。</p>
-<p class="why">为什么值得看：AI 安全与工具集成。学习如何利用 MCP 协议将 AI Agent 接入安全工具链，实现本地化、自动化的安全审计与漏洞修复流程。</p>
+<h3><a href="https://simonwillison.net/2026/Nov/10/muse-ember/" target="_blank" rel="noopener">Introducing Our Smallest, Most Efficient Model: Muse Ember</a></h3>
+<p class="meta"><span class="tag src">Simon Willison</span><span class="tag">文章</span><span class="date">11-10</span></p>
+<p class="sum">Meta AI 发布 Muse Ember 模型，专为复杂推理、工具调用、代码子任务及长文档解析等高频 Agent 任务设计。</p>
+<p class="why">为什么值得看：属于轻量级模型部署技能。学习如何针对 Agent 场景（如路由、提取、工具调用）选择高效率的小参数模型以平衡成本与性能。</p>
 </article>
 <article class="item" data-src="blog">
-<h3><a href="https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/" target="_blank" rel="noopener">[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco</a></h3>
-<p class="meta"><span class="tag src">Latent Space</span><span class="tag">文章</span><span class="date">11-09</span></p>
-<p class="sum">Stanford CS146S 课程通过引入开源项目维护者，要求学生在 AI 辅助下理解复杂代码库并提交 PR，以此培养 AI Native 工程实践能力。</p>
-<p class="why">为什么值得看：考察 AI 辅助编程的工程落地能力，可复用做法包括利用 LLM 进行代码库上下文检索、自动化重构及测试驱动开发流程。</p>
+<h3><a href="https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/" target="_blank" rel="noopener">Quoting Prompting Claude Fable 5.2</a></h3>
+<p class="meta"><span class="tag src">Simon Willison</span><span class="tag">文章</span><span class="date">11-10</span></p>
+<p class="sum">Claude Fable 5.2 的代码生成行为受 Prompt 中关于代码所有权描述的影响，明确所有权声明可引导模型优化代码结构。</p>
+<p class="why">为什么值得看：属于 Prompt Engineering 技能。掌握通过上下文设定（Context Setting）引导模型在代码重构任务中表现出更强的架构优化意识。</p>
+</article>
+<h2>💬 Hacker News（1）</h2>
+<article class="item" data-src="hackernews">
+<h3><a href="https://www.anthropic.com/claude-fable-and-mythos-5-2" target="_blank" rel="noopener">Claude Fable 5.2 and Mythos 5.2</a></h3>
+<p class="meta"><span class="tag src">Hacker News</span><span class="tag">🔥 980 分</span><span class="tag">💬 6</span><span class="date">11-10</span></p>
+<p class="sum">Anthropic 发布 Claude Fable 5.2 和 Mythos 5.2 模型，在长周期编码、机器人技术及理论物理等领域表现出极高能力。</p>
+<p class="why">为什么值得看：属于大模型性能评估与选型技能。可学习如何通过 Artificial Analysis 等基准测试评估模型在复杂任务中的推理上限。</p>
 </article>
 <h2>🔁 重复 / 相似提醒（6）</h2>
 <blockquote><p>以下条目此前推荐过，或与历史条目高度相似，仅列出供参考。</p></blockquote>
 <article class="item" data-src="github">
+<h3><a href="https://github.com/liangjianshu/multimodal-image-retrieval" target="_blank" rel="noopener">liangjianshu/multimodal-image-retrieval</a></h3>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 129</span><span class="tag">Python</span><span class="tag">新建 2026-11-02</span><span class="date">11-02</span></p>
+<p class="sum">multimodal-image-retrieval 项目整合了意图识别、Qwen LoRA 微调、EmbeddingGemma 2 与 InfoNCE 对比学习，提供了一套完整的多模态检索与 RAG 落地实践方案。</p>
+<p class="why">为什么值得看：属于 RAG 与多模态检索领域，可学习如何通过对比学习优化 Embedding 模型，以及如何将 LoRA 微调与检索组件结合提升意图识别准确率。</p>
+<p class="dup">🔁 已于 2026-11-10 推荐过</p>
+</article>
+<article class="item" data-src="github">
 <h3><a href="https://github.com/wanghao-SunSky/cs329z-chinese" target="_blank" rel="noopener">wanghao-SunSky/cs329z-chinese</a></h3>
-<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 529</span><span class="tag">HTML</span><span class="tag">新建 2026-10-28</span><span class="date">10-29</span></p>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 562</span><span class="tag">HTML</span><span class="tag">新建 2026-10-28</span><span class="date">10-29</span></p>
 <p class="sum">斯坦福 CS329Z 课程中文版，系统梳理了 LLM、RAG、工具调用、记忆机制、多智能体架构及评测安全等智能体开发核心知识体系。</p>
 <p class="why">为什么值得看：属于 AI Agent 工程化技能点，可复用其课程设计的模块化架构，学习如何构建从基础到多智能体协作的完整开发工作流。</p>
-<p class="dup">🔁 已于 2026-11-09 推荐过</p>
+<p class="dup">🔁 已于 2026-11-10 推荐过</p>
 </article>
 <article class="item" data-src="github">
 <h3><a href="https://github.com/YOLOW92/pagesift" target="_blank" rel="noopener">YOLOW92/pagesift</a></h3>
-<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 256</span><span class="tag">Rust</span><span class="tag">新建 2026-10-20</span><span class="date">10-21</span></p>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 262</span><span class="tag">Rust</span><span class="tag">新建 2026-10-20</span><span class="date">10-21</span></p>
 <p class="sum">基于 Rust 的高性能网页爬虫与内容提取引擎，提供适配 AI Agent 和 RAG 的干净 Markdown 及结构化数据输出。</p>
 <p class="why">为什么值得看：RAG 数据预处理技能，学习使用 Rust 实现高内存效率的浏览器渲染与 Firecrawl 兼容 API 以加速数据获取。</p>
-<p class="dup">🔁 已于 2026-11-09 推荐过</p>
+<p class="dup">🔁 已于 2026-11-10 推荐过</p>
 </article>
-<article class="item" data-src="github">
-<h3><a href="https://github.com/ccch1mneyyy/dsh-Go" target="_blank" rel="noopener">ccch1mneyyy/dsh-Go</a></h3>
-<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 17477</span><span class="tag">Dart</span><span class="tag">新建 2026-10-25</span><span class="date">10-25</span></p>
-<p class="sum">dsh-Go 实现 DeepSeek 模型在移动端本地运行，并支持远程控制桌面端执行任务，提供轻量级端侧推理解决方案。</p>
-<p class="why">为什么值得看：属于端侧 AI 部署技能点，可复用其跨设备通信与本地推理引擎集成方案，解决资源受限环境下的智能体调度问题。</p>
-<p class="dup">🔁 已于 2026-11-09 推荐过</p>
-</article>
-<article class="item" data-src="github">
-<h3><a href="https://github.com/amosblomqvist/learnharness" target="_blank" rel="noopener">amosblomqvist/learnharness</a></h3>
-<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 7453</span><span class="tag">TypeScript</span><span class="tag">新建 2026-10-16</span><span class="date">10-17</span></p>
-<p class="sum">LearnHarness 是一个专为学习复杂技能设计的 Agent 框架，通过结构化的交互流程辅助 Agent 掌握新知识或任务。</p>
-<p class="why">为什么值得看：属于 Agent 学习与任务规划领域。可学习如何构建 Agent 的长程任务分解与反馈循环，提升 Agent 在复杂任务中的自适应能力。</p>
-<p class="dup">🔁 已于 2026-11-09 推荐过</p>
+<article class="item" data-src="paper">
+<h3><a href="https://arxiv.org/abs/2611.08683" target="_blank" rel="noopener">Compression of Emotion in Language Model Representations</a></h3>
+<p class="meta"><span class="tag src">arXiv cs.CL</span><span class="tag">论文</span><span class="date">11-10</span></p>
+<p class="sum">该研究分析了七种 LLM 在 GoEmotions 数据集上的表现，揭示了模型内部表征中细粒度情感信息的组织方式及其压缩特性。</p>
+<p class="why">为什么值得看：属于模型可解释性与表征学习领域，可学习如何通过探针技术分析 LLM 内部隐藏层状态，理解模型如何编码复杂语义特征。</p>
+<p class="dup">🔁 已于 2026-11-10 推荐过</p>
 </article>
 <article class="item" data-src="github">
 <h3><a href="https://github.com/zaxiu88888/issue-rag" target="_blank" rel="noopener">zaxiu88888/issue-rag</a></h3>
-<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 185</span><span class="tag">Python</span><span class="tag">新建 2026-11-01</span><span class="date">11-01</span></p>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 219</span><span class="tag">Python</span><span class="tag">新建 2026-11-01</span><span class="date">11-01</span></p>
 <p class="sum">基于 GitHub Issues 构建的 RAG 系统，提供人工评估集及对 LLM 评测器本身的审计机制，通过置信区间而非单一指标评估检索质量。</p>
 <p class="why">为什么值得看：RAG 评估与评测。学习如何构建高质量黄金数据集以及通过置信区间量化评估结果的稳定性，避免单一指标带来的偏差。</p>
-<p class="dup">🔁 已于 2026-11-09 推荐过</p>
+<p class="dup">🔁 已于 2026-11-10 推荐过</p>
 </article>
 <article class="item" data-src="github">
-<h3><a href="https://github.com/ai-gateways/awesome-ai-gateways" target="_blank" rel="noopener">ai-gateways/awesome-ai-gateways</a></h3>
-<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 40</span><span class="tag">新建 2026-10-30</span><span class="date">10-30</span></p>
-<p class="sum">整理开源与商业 LLM 网关、MCP 网关、Agent 间通信网关及模型路由器的技术资源库。</p>
-<p class="why">为什么值得看：属于 AI 基础设施领域，可学习如何构建高可用、可观测的 LLM 中间件，掌握 Agent 架构中网关层面的流量调度与协议适配。</p>
-<p class="dup">🔁 已于 2026-11-08 推荐过</p>
+<h3><a href="https://github.com/ccch1mneyyy/dsh-Go" target="_blank" rel="noopener">ccch1mneyyy/dsh-Go</a></h3>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 18523</span><span class="tag">Dart</span><span class="tag">新建 2026-10-25</span><span class="date">10-25</span></p>
+<p class="sum">dsh-Go 实现 DeepSeek 模型在移动端本地运行，并支持远程控制桌面端执行任务，提供轻量级端侧推理解决方案。</p>
+<p class="why">为什么值得看：属于端侧 AI 部署技能点，可复用其跨设备通信与本地推理引擎集成方案，解决资源受限环境下的智能体调度问题。</p>
+<p class="dup">🔁 已于 2026-11-10 推荐过</p>
 </article>
 <footer>
 <p>AI 前沿日报 · 由 GitHub Actions 每天 16:00 (CST) 自动生成 · 内容版权归原作者所有，链接均为原始出处</p>
