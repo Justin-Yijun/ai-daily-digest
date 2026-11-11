@@ -39,7 +39,7 @@
   },
   "https://github.com/youngyangyang04/llm-master": {
    "title": "youngyangyang04/llm-master",
-   "date": "2026-10-31",
+   "date": "2026-11-12",
    "tokens": [],
    "source": "github",
    "summary_zh": "提供覆盖 Prompt Engineering 到模型部署等全栈 LLM 学习路线的中文教程。",
@@ -5618,7 +5618,7 @@
   },
   "https://github.com/YOLOW92/pagesift": {
    "title": "YOLOW92/pagesift",
-   "date": "2026-11-11",
+   "date": "2026-11-12",
    "tokens": [],
    "source": "github",
    "summary_zh": "基于 Rust 的高性能网页爬虫与内容提取引擎，提供适配 AI Agent 和 RAG 的干净 Markdown 及结构化数据输出。",
@@ -5830,7 +5830,7 @@
   },
   "https://github.com/amosblomqvist/learnharness": {
    "title": "amosblomqvist/learnharness",
-   "date": "2026-11-10",
+   "date": "2026-11-12",
    "tokens": [],
    "source": "github",
    "summary_zh": "LearnHarness 是一个专为学习复杂技能设计的 Agent 框架，通过结构化的交互流程辅助 Agent 掌握新知识或任务。",
@@ -6194,7 +6194,7 @@
   },
   "https://github.com/wanghao-SunSky/cs329z-chinese": {
    "title": "wanghao-SunSky/cs329z-chinese",
-   "date": "2026-11-11",
+   "date": "2026-11-12",
    "tokens": [],
    "source": "github",
    "summary_zh": "斯坦福 CS329Z 课程中文版，系统梳理了 LLM、RAG、工具调用、记忆机制、多智能体架构及评测安全等智能体开发核心知识体系。",
@@ -6202,7 +6202,7 @@
   },
   "https://github.com/ccch1mneyyy/dsh-Go": {
    "title": "ccch1mneyyy/dsh-Go",
-   "date": "2026-11-11",
+   "date": "2026-11-12",
    "tokens": [],
    "source": "github",
    "summary_zh": "dsh-Go 实现 DeepSeek 模型在移动端本地运行，并支持远程控制桌面端执行任务，提供轻量级端侧推理解决方案。",
@@ -8062,7 +8062,7 @@
   },
   "https://github.com/liangjianshu/multimodal-image-retrieval": {
    "title": "liangjianshu/multimodal-image-retrieval",
-   "date": "2026-11-11",
+   "date": "2026-11-12",
    "tokens": [],
    "source": "github",
    "summary_zh": "multimodal-image-retrieval 项目整合了意图识别、Qwen LoRA 微调、EmbeddingGemma 2 与 InfoNCE 对比学习，提供了一套完整的多模态检索与 RAG 落地实践方案。",
@@ -8455,7 +8455,223 @@
    "source": "youtube",
    "summary_zh": "Kuken Industries 结合 OpenAI API 与 RAG 技术，构建了针对 70 年历史工程图纸的语义检索系统，大幅缩短技术文档查询时间。",
    "why_zh": "属于企业级 RAG 应用。可学习如何处理非结构化工程文档，通过向量化检索实现大规模历史数据的知识资产化。"
+  },
+  "https://github.com/Zleap-AI/SAG-Wiki": {
+   "title": "Zleap-AI/SAG-Wiki",
+   "date": "2026-11-12",
+   "tokens": [
+    "ai",
+    "sag",
+    "wiki",
+    "zleap"
+   ],
+   "source": "github",
+   "summary_zh": "SAG-Wiki 提供了一个轻量级知识库方案，通过优化索引结构实现极速检索，旨在为人类用户及 AI Agent 提供高精度的知识获取能力。",
+   "why_zh": "属于 RAG 系统优化领域，可学习其轻量级索引设计与高精度检索策略，用于提升 Agent 知识库的响应速度与准确率。"
+  },
+  "https://github.com/synchopate/llama-modchip": {
+   "title": "synchopate/llama-modchip",
+   "date": "2026-11-12",
+   "tokens": [
+    "llama",
+    "modchip",
+    "synchopate"
+   ],
+   "source": "github",
+   "summary_zh": "llama-modchip 实现了在纯 CPU 环境下运行超大规模模型（如 DeepSeek-V4-Flash），通过内存优化技术支持 256K 上下文长度。",
+   "why_zh": "属于模型推理优化领域，可学习其内存管理与 CPU 推理加速技术，解决受限硬件环境下部署大参数模型的工程难题。"
+  },
+  "https://arxiv.org/abs/2611.12933": {
+   "title": "Auditable Human-Agent Teams for Autonomous X-ray Experimentation",
+   "date": "2026-11-12",
+   "tokens": [
+    "agent",
+    "auditable",
+    "autonomous",
+    "experimentation",
+    "human",
+    "ray",
+    "teams"
+   ],
+   "source": "paper",
+   "summary_zh": "该研究提出了一种基于编码 Agent 的闭环自主实验框架，通过将科学方法论嵌入 Agent 基础设施，实现了 X 射线实验的自动化与可审计性。",
+   "why_zh": "属于 Agent 科学计算应用领域，可学习如何将领域专家知识转化为 Agent 的工具调用逻辑，实现复杂物理实验的自动化闭环。"
+  },
+  "https://arxiv.org/abs/2611.12934": {
+   "title": "EarthRecord: From Pixels to Land Change with Multimodal Agents over Four Decades of Satellite Imagery",
+   "date": "2026-11-12",
+   "tokens": [
+    "agents",
+    "change",
+    "decades",
+    "earthrecord",
+    "four",
+    "imagery",
+    "land",
+    "multimodal",
+    "over",
+    "pixels",
+    "satellite"
+   ],
+   "source": "paper",
+   "summary_zh": "EarthRecord 提出了一个多模态 Agent 基准测试，旨在评估 Agent 处理长达四十年原始卫星影像并进行土地变化分析的能力。",
+   "why_zh": "属于多模态 Agent 评估领域，可学习如何构建处理长时序原始数据流的 Agent 任务，提升模型在复杂科学数据分析中的鲁棒性。"
+  },
+  "https://github.com/GoogleChrome/modern-web-guidance": {
+   "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+   "date": "2026-11-12",
+   "tokens": [
+    "2019",
+    "agent",
+    "coding",
+    "get",
+    "hn",
+    "javascript",
+    "modern",
+    "off",
+    "onto",
+    "primitives",
+    "show",
+    "web"
+   ],
+   "source": "hackernews",
+   "summary_zh": "该方案建议将编码 Agent 的开发范式从旧版 JavaScript 迁移至现代 Web 原生 API，利用 CSS.highlights 和 <dialog> 等特性简化前端交互逻辑。",
+   "why_zh": "属于 Agent 工具调用与前端工程化领域，可学习如何通过利用现代 Web 标准减少 Agent 生成代码的冗余度，提升生成代码的可维护性。"
+  },
+  "https://github.com/thisisme6598/gemini_files/": {
+   "title": "Google Gemini routes personal Drive files and emails to human annotators",
+   "date": "2026-11-12",
+   "tokens": [
+    "annotators",
+    "drive",
+    "emails",
+    "files",
+    "gemini",
+    "google",
+    "human",
+    "personal",
+    "routes"
+   ],
+   "source": "hackernews",
+   "summary_zh": "Google Gemini 被曝将用户的个人 Drive 文件和邮件内容路由至人工标注员进行审核，引发了关于 AI 隐私保护与数据合规性的广泛讨论。",
+   "why_zh": "属于 AI 工程伦理与隐私安全领域，可学习在设计 Agent 系统时如何处理用户敏感数据，以及如何构建符合隐私合规的 AI 数据处理流程。"
+  },
+  "https://www.youtube.com/watch?v=xM_BhmEyKAY": {
+   "title": "How Workday Builds Agent Prototypes in Under a Day with LangChain",
+   "date": "2026-11-12",
+   "tokens": [
+    "agent",
+    "builds",
+    "day",
+    "langchain",
+    "prototypes",
+    "under",
+    "workday"
+   ],
+   "source": "youtube",
+   "summary_zh": "Workday 利用 LangChain Agent Server 和 LangSmith 构建内部 Agent 平台，通过 A2A 和 MCP 协议实现企业级认证与数据合规。",
+   "why_zh": "属于 Agent 架构设计。可学习如何通过标准化协议（MCP）和统一基础设施，在企业复杂安全策略下实现 Agent 的快速部署与治理。"
+  },
+  "https://www.youtube.com/watch?v=QRm7VNMnurA": {
+   "title": "Sites and the Next Generation of Web Apps | DevDay 2026",
+   "date": "2026-11-12",
+   "tokens": [
+    "2026",
+    "apps",
+    "devday",
+    "generation",
+    "next",
+    "sites",
+    "web"
+   ],
+   "source": "youtube",
+   "summary_zh": "OpenAI 推出 Astra、ChatGPT Sites 和 WebMCP，支持通过自然语言直接生成交互式 Web 应用并集成 Agent 协作能力。",
+   "why_zh": "属于 AI 原生应用开发。可学习 WebMCP 如何将 Web 交互能力暴露给 Agent，实现从对话到动态 UI 生成的端到端工作流。"
+  },
+  "https://github.com/modelflare-ai/AnyModelBot": {
+   "title": "modelflare-ai/AnyModelBot",
+   "date": "2026-11-12",
+   "tokens": [
+    "ai",
+    "anymodelbot",
+    "modelflare"
+   ],
+   "source": "github",
+   "summary_zh": "AnyModelBot 提供开源的本地优先 Bot 框架，支持集成 70+ 模型并接入微信、飞书，具备后台运行、命令执行及本地操作能力。",
+   "why_zh": "属于多模态 Agent 集成。可学习如何封装统一模型接口（Model API）并实现跨平台消息路由与本地系统权限控制。"
+  },
+  "https://github.com/expo/exact": {
+   "title": "expo/exact",
+   "date": "2026-11-12",
+   "tokens": [
+    "exact",
+    "expo"
+   ],
+   "source": "github",
+   "summary_zh": "Exact 框架支持一次编写代码即可在 Web、macOS、iOS 和 Linux 原生运行，并允许 AI Agent 对多平台应用进行构建、运行与测试。",
+   "why_zh": "属于 AI 驱动的软件工程（AISE）。可学习如何构建跨平台统一运行时，以及如何通过闭环反馈机制实现 Agent 自主测试与部署。"
+  },
+  "https://www.youtube.com/watch?v=rAxTxqIHh9E": {
+   "title": "The Next Scaling Axis of LLM Is… Sleeping?",
+   "date": "2026-11-12",
+   "tokens": [
+    "axis",
+    "llm",
+    "next",
+    "scaling",
+    "sleeping"
+   ],
+   "source": "youtube",
+   "summary_zh": "研究探讨通过模拟睡眠期间的记忆巩固与计算，使 LLM 在部署后能持续吸收新知识并自我优化。",
+   "why_zh": "属于模型持续学习与推理优化。可学习如何利用离线计算资源进行记忆重放与权重微调，解决模型部署后的知识滞后问题。"
+  },
+  "https://huggingface.co/blog/token-pooling": {
+   "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+   "date": "2026-11-12",
+   "tokens": [
+    "aware",
+    "embedding",
+    "models",
+    "multi",
+    "pooling",
+    "token",
+    "training",
+    "vector"
+   ],
+   "source": "blog",
+   "summary_zh": "提出 Token Pooling-Aware Training 方法，专门用于优化多向量嵌入模型（Multi-Vector Embedding Models）的检索性能。",
+   "why_zh": "属于 RAG 检索优化。可学习如何通过池化感知训练提升多向量表示的压缩效率，在保持语义精度的同时优化向量数据库存储。"
+  },
+  "https://simonwillison.net/2026/Nov/10/yonkers-rises/": {
+   "title": "Yonkers Rises",
+   "date": "2026-11-12",
+   "tokens": [
+    "rises",
+    "yonkers"
+   ],
+   "source": "blog",
+   "summary_zh": "利用 Claude Fable 5.2 的 3D 建模与动画生成能力，通过 Prompt 将地理位置数据转化为 Three.js 动画，实现地理实体机甲化展示。",
+   "why_zh": "多模态生成与前端交互。掌握利用 LLM 自动化生成 WebGL/Three.js 代码的流程，提升复杂逻辑的可视化工程效率。"
+  },
+  "https://www.marktechpost.com/2026/11/10/ifm-pan-2-open-world-model/": {
+   "title": "MBZUAI’s IFM Releases PAN 2, an Open 29B World Model for Physical AI",
+   "date": "2026-11-12",
+   "tokens": [
+    "29b",
+    "ai",
+    "ifm",
+    "mbzuai",
+    "model",
+    "open",
+    "pan",
+    "physical",
+    "releases",
+    "world"
+   ],
+   "source": "blog",
+   "summary_zh": "MBZUAI 发布开源世界模型 PAN 2，结合 LLM 规划器与 29B 参数的 Diffusion Transformer，支持生成长达 20 秒的物理动作预测视频。",
+   "why_zh": "具身智能与世界模型。学习将 LLM 的逻辑规划能力与扩散模型的时间序列预测能力解耦，构建物理环境模拟与决策系统。"
   }
  },
- "updated": "2026-11-10T16:00:29.731827+00:00"
+ "updated": "2026-11-11T17:23:22.012918+00:00"
 }

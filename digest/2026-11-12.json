@@ -1,0 +1,635 @@
+{
+ "date": "2026-11-12",
+ "generated": "2026-11-12 01:23",
+ "source_count": {
+  "github": 77,
+  "youtube": 36,
+  "blog": 83,
+  "paper": 24,
+  "hackernews": 10
+ },
+ "failures": {},
+ "failure_errors": {},
+ "summary_missing": [],
+ "summary_providers": {
+  "gemini": 3
+ },
+ "items": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Zleap-AI/SAG-Wiki",
+   "link": "https://github.com/Zleap-AI/SAG-Wiki",
+   "dt": "2026-10-18T14:51:30+00:00",
+   "summary": "A lightweight knowledge base for people and agents, with ultra fast indexing and most precise retrieval.",
+   "extra": {
+    "stars": 1038,
+    "language": "Rust",
+    "topics": [
+     "knowledge-base",
+     "knowledge-graph",
+     "rag",
+     "rust",
+     "sag",
+     "sag-wiki"
+    ],
+    "created": "2026-10-18",
+    "pushed": "2026-11-11"
+   },
+   "skills": [
+    "rag",
+    "eval_observability"
+   ],
+   "learn_score": 2.107,
+   "score": 8.428,
+   "tokens": [
+    "ai",
+    "sag",
+    "wiki",
+    "zleap"
+   ],
+   "flag": "new",
+   "summary_zh": "SAG-Wiki 提供了一个轻量级知识库方案，通过优化索引结构实现极速检索，旨在为人类用户及 AI Agent 提供高精度的知识获取能力。",
+   "why_zh": "属于 RAG 系统优化领域，可学习其轻量级索引设计与高精度检索策略，用于提升 Agent 知识库的响应速度与准确率。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "synchopate/llama-modchip",
+   "link": "https://github.com/synchopate/llama-modchip",
+   "dt": "2026-10-29T10:17:33+00:00",
+   "summary": "🐋 Run 284B DeepSeek-V4-Flash (<59GiB RAM, 44.4 tok/s pp, 9.1-14.7 tok/s) & 30B MoEs (25-111 tok/s) on a pure 64GB CPU at 256K ctx (0 GPUs). SwiGLU-H2, Stockfish-PVS L3 & 13ms Claude Code restore.",
+   "extra": {
+    "stars": 931,
+    "language": "Python",
+    "topics": [
+     "ai-agents",
+     "apple-silicon",
+     "avx512",
+     "claude-code",
+     "cpu-inference",
+     "deepseek"
+    ],
+    "created": "2026-10-29",
+    "pushed": "2026-11-11"
+   },
+   "skills": [
+    "llm_fundamentals"
+   ],
+   "learn_score": 1.756,
+   "score": 6.969,
+   "tokens": [
+    "llama",
+    "modchip",
+    "synchopate"
+   ],
+   "flag": "new",
+   "summary_zh": "llama-modchip 实现了在纯 CPU 环境下运行超大规模模型（如 DeepSeek-V4-Flash），通过内存优化技术支持 256K 上下文长度。",
+   "why_zh": "属于模型推理优化领域，可学习其内存管理与 CPU 推理加速技术，解决受限硬件环境下部署大参数模型的工程难题。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Auditable Human-Agent Teams for Autonomous X-ray Experimentation",
+   "link": "https://arxiv.org/abs/2611.12933",
+   "dt": "2026-11-11T00:00:00-05:00",
+   "summary": "arXiv:2611.12933v1 Announce Type: new Abstract: Closed-loop autonomous experimentation can accelerate scientific discovery, but implementation effort limits accessibility. Agentic systems may lower this barrier, although sustained operation on physical instruments remains largely unexplored. Here, using coding-agent infrastructure grounded in validated scientific methods, we demonstrate autonomous synchrotron X-ray experiments on nanoparticle superlattices under evolving, human-defined objective",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "system_design"
+   ],
+   "learn_score": 2.983,
+   "score": 5.966,
+   "tokens": [
+    "agent",
+    "auditable",
+    "autonomous",
+    "experimentation",
+    "human",
+    "ray",
+    "teams"
+   ],
+   "flag": "new",
+   "summary_zh": "该研究提出了一种基于编码 Agent 的闭环自主实验框架，通过将科学方法论嵌入 Agent 基础设施，实现了 X 射线实验的自动化与可审计性。",
+   "why_zh": "属于 Agent 科学计算应用领域，可学习如何将领域专家知识转化为 Agent 的工具调用逻辑，实现复杂物理实验的自动化闭环。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "EarthRecord: From Pixels to Land Change with Multimodal Agents over Four Decades of Satellite Imagery",
+   "link": "https://arxiv.org/abs/2611.12934",
+   "dt": "2026-11-11T00:00:00-05:00",
+   "summary": "arXiv:2611.12934v1 Announce Type: new Abstract: While multimodal agents now carry out complex data analysis with tools, their ability to turn decades of satellite imagery into reliable land-change analysis, crucial for Earth observation science, remains unmeasured. Existing benchmarks fall short: they pose questions on curated images or give agents preprocessed inputs, leaving out the raw multi-sensor archives where such analysis begins. We introduce EarthRecord, a benchmark built on the raw rec",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 2.983,
+   "score": 5.966,
+   "tokens": [
+    "agents",
+    "change",
+    "decades",
+    "earthrecord",
+    "four",
+    "imagery",
+    "land",
+    "multimodal",
+    "over",
+    "pixels",
+    "satellite"
+   ],
+   "flag": "new",
+   "summary_zh": "EarthRecord 提出了一个多模态 Agent 基准测试，旨在评估 Agent 处理长达四十年原始卫星影像并进行土地变化分析的能力。",
+   "why_zh": "属于多模态 Agent 评估领域，可学习如何构建处理长时序原始数据流的 Agent 任务，提升模型在复杂科学数据分析中的鲁棒性。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+   "link": "https://github.com/GoogleChrome/modern-web-guidance",
+   "dt": "2026-11-10T18:01:15+00:00",
+   "summary": "Browsers natively handle a lot of what used to take 50 lines of JS (or a dependency): `CSS.highlights` for text range highlighting without <span>s everywhere, `<dialog>` and showModal() give you backdrops and ideal focus management, `field-sizing` to auto-grow textareas as the user types.. (Something yesterday's ftrain post touched on [0]) Models know about some of these by name, but consistently ",
+   "extra": {
+    "points": 416,
+    "comments": 138,
+    "hn_link": "https://news.ycombinator.com/item?id=50443812"
+   },
+   "skills": [],
+   "learn_score": 1.35,
+   "score": 4.886,
+   "tokens": [
+    "2019",
+    "agent",
+    "coding",
+    "get",
+    "hn",
+    "javascript",
+    "modern",
+    "off",
+    "onto",
+    "primitives",
+    "show",
+    "web"
+   ],
+   "flag": "new",
+   "summary_zh": "该方案建议将编码 Agent 的开发范式从旧版 JavaScript 迁移至现代 Web 原生 API，利用 CSS.highlights 和 <dialog> 等特性简化前端交互逻辑。",
+   "why_zh": "属于 Agent 工具调用与前端工程化领域，可学习如何通过利用现代 Web 标准减少 Agent 生成代码的冗余度，提升生成代码的可维护性。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Google Gemini routes personal Drive files and emails to human annotators",
+   "link": "https://github.com/thisisme6598/gemini_files/",
+   "dt": "2026-11-09T18:24:38+00:00",
+   "summary": "",
+   "extra": {
+    "points": 723,
+    "comments": 147,
+    "hn_link": "https://news.ycombinator.com/item?id=50429426"
+   },
+   "skills": [],
+   "learn_score": 1.0,
+   "score": 3.859,
+   "tokens": [
+    "annotators",
+    "drive",
+    "emails",
+    "files",
+    "gemini",
+    "google",
+    "human",
+    "personal",
+    "routes"
+   ],
+   "flag": "new",
+   "summary_zh": "Google Gemini 被曝将用户的个人 Drive 文件和邮件内容路由至人工标注员进行审核，引发了关于 AI 隐私保护与数据合规性的广泛讨论。",
+   "why_zh": "属于 AI 工程伦理与隐私安全领域，可学习在设计 Agent 系统时如何处理用户敏感数据，以及如何构建符合隐私合规的 AI 数据处理流程。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "How Workday Builds Agent Prototypes in Under a Day with LangChain",
+   "link": "https://www.youtube.com/watch?v=xM_BhmEyKAY",
+   "dt": "2026-11-10T16:36:54+00:00",
+   "summary": "Alex Gatto, Senior Machine Learning Engineer at Workday, explains how his team built an internal agent platform on LangChain's Agent Server and LangSmith, so Workday teams can get agents into production under the company's security and data retention policies. Every agent on the platform runs as an A2A and MCP server with authentication and security built in, which leaves teams to decide what their agent does and how to build its graph. Prototypes that took 4 to 5 months now reach staging in les…",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": "xM_BhmEyKAY"
+   },
+   "skills": [
+    "tool_mcp",
+    "multi_agent",
+    "system_design"
+   ],
+   "learn_score": 3.615,
+   "score": 3.615,
+   "tokens": [
+    "agent",
+    "builds",
+    "day",
+    "langchain",
+    "prototypes",
+    "under",
+    "workday"
+   ],
+   "flag": "new",
+   "summary_zh": "Workday 利用 LangChain Agent Server 和 LangSmith 构建内部 Agent 平台，通过 A2A 和 MCP 协议实现企业级认证与数据合规。",
+   "why_zh": "属于 Agent 架构设计。可学习如何通过标准化协议（MCP）和统一基础设施，在企业复杂安全策略下实现 Agent 的快速部署与治理。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "Sites and the Next Generation of Web Apps | DevDay 2026",
+   "link": "https://www.youtube.com/watch?v=QRm7VNMnurA",
+   "dt": "2026-11-11T01:24:07+00:00",
+   "summary": "Turn an idea into an interactive web experience with Astra, ChatGPT Sites, and WebMCP. Learn how to build new kinds of interfaces alongside your colleagues and agents.",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": "QRm7VNMnurA"
+   },
+   "skills": [
+    "tool_mcp",
+    "system_design"
+   ],
+   "learn_score": 3.098,
+   "score": 3.098,
+   "tokens": [
+    "2026",
+    "apps",
+    "devday",
+    "generation",
+    "next",
+    "sites",
+    "web"
+   ],
+   "flag": "new",
+   "summary_zh": "OpenAI 推出 Astra、ChatGPT Sites 和 WebMCP，支持通过自然语言直接生成交互式 Web 应用并集成 Agent 协作能力。",
+   "why_zh": "属于 AI 原生应用开发。可学习 WebMCP 如何将 Web 交互能力暴露给 Agent，实现从对话到动态 UI 生成的端到端工作流。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "modelflare-ai/AnyModelBot",
+   "link": "https://github.com/modelflare-ai/AnyModelBot",
+   "dt": "2026-10-27T08:51:18+00:00",
+   "summary": "🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok, DeepSeek, Kimi, GLM and 70+ more through one Modelflare key. Reach them in the app, WeChat or Feishu; they remember you, work in the background, run commands and use your computer. Pay per use.",
+   "extra": {
+    "stars": 3159,
+    "language": "Python",
+    "topics": [
+     "ai-agent",
+     "ai-assistant",
+     "chatbot",
+     "claude",
+     "computer-use",
+     "deepseek"
+    ],
+    "created": "2026-10-27",
+    "pushed": "2026-11-11"
+   },
+   "skills": [],
+   "learn_score": 0.765,
+   "score": 3.06,
+   "tokens": [
+    "ai",
+    "anymodelbot",
+    "modelflare"
+   ],
+   "flag": "new",
+   "summary_zh": "AnyModelBot 提供开源的本地优先 Bot 框架，支持集成 70+ 模型并接入微信、飞书，具备后台运行、命令执行及本地操作能力。",
+   "why_zh": "属于多模态 Agent 集成。可学习如何封装统一模型接口（Model API）并实现跨平台消息路由与本地系统权限控制。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "expo/exact",
+   "link": "https://github.com/expo/exact",
+   "dt": "2026-11-02T01:29:01+00:00",
+   "summary": "Write an app once. It runs natively on the web, macOS, iOS, and Linux, and an AI agent can build it, run it, see it, and test it on every one of them.",
+   "extra": {
+    "stars": 2774,
+    "language": "Rust",
+    "topics": [
+     "ai-agents",
+     "appkit",
+     "coding-agents",
+     "cross-platform",
+     "css",
+     "ios"
+    ],
+    "created": "2026-11-02",
+    "pushed": "2026-11-11"
+   },
+   "skills": [],
+   "learn_score": 0.765,
+   "score": 3.06,
+   "tokens": [
+    "exact",
+    "expo"
+   ],
+   "flag": "new",
+   "summary_zh": "Exact 框架支持一次编写代码即可在 Web、macOS、iOS 和 Linux 原生运行，并允许 AI Agent 对多平台应用进行构建、运行与测试。",
+   "why_zh": "属于 AI 驱动的软件工程（AISE）。可学习如何构建跨平台统一运行时，以及如何通过闭环反馈机制实现 Agent 自主测试与部署。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · bycloud",
+   "title": "The Next Scaling Axis of LLM Is… Sleeping?",
+   "link": "https://www.youtube.com/watch?v=rAxTxqIHh9E",
+   "dt": "2026-11-10T16:48:42+00:00",
+   "summary": "Benchmark and optimize your AI coding agents now with Warp Factories http://warp.dev/bycloud What if AI could learn while it sleeps? New research explores how memory consolidation, sleep-time compute, and dreaming could allow language models to continuously absorb new knowledge and improve themselves even after deployment. my latest projects: Your private local AI server needs an upgrade or maintenance support? Book a free audit now at https://nimbuskernel.com/ Intuitive AI Academy - Learn LLMs …",
+   "extra": {
+    "channel": "bycloud",
+    "video_id": "rAxTxqIHh9E"
+   },
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 2.066,
+   "score": 2.066,
+   "tokens": [
+    "axis",
+    "llm",
+    "next",
+    "scaling",
+    "sleeping"
+   ],
+   "flag": "new",
+   "summary_zh": "研究探讨通过模拟睡眠期间的记忆巩固与计算，使 LLM 在部署后能持续吸收新知识并自我优化。",
+   "why_zh": "属于模型持续学习与推理优化。可学习如何利用离线计算资源进行记忆重放与权重微调，解决模型部署后的知识滞后问题。"
+  },
+  {
+   "source": "blog",
+   "source_label": "HuggingFace 博客",
+   "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+   "link": "https://huggingface.co/blog/token-pooling",
+   "dt": "2026-11-11T00:00:00+00:00",
+   "summary": "",
+   "extra": {},
+   "skills": [
+    "rag"
+   ],
+   "learn_score": 1.445,
+   "score": 1.445,
+   "tokens": [
+    "aware",
+    "embedding",
+    "models",
+    "multi",
+    "pooling",
+    "token",
+    "training",
+    "vector"
+   ],
+   "flag": "new",
+   "summary_zh": "提出 Token Pooling-Aware Training 方法，专门用于优化多向量嵌入模型（Multi-Vector Embedding Models）的检索性能。",
+   "why_zh": "属于 RAG 检索优化。可学习如何通过池化感知训练提升多向量表示的压缩效率，在保持语义精度的同时优化向量数据库存储。"
+  },
+  {
+   "source": "blog",
+   "source_label": "Simon Willison",
+   "title": "Yonkers Rises",
+   "link": "https://simonwillison.net/2026/Nov/10/yonkers-rises/",
+   "dt": "2026-11-10T03:53:04+00:00",
+   "summary": "Tool: Yonkers Rises I realized I didn't know where Yonkers was, so I looked it up on Google Maps and then, to help embed its location and shape in my head (and to try out Claude Fable 5.2's 3D modeling and animation skills), I prompted Fable 5.2 Medium to: Make a three js animation where yonkers stands up as a big mech (cool stand up motion) and átomos around manhattan and queens and Brooklyn, use openstreetmap mapping data It correctly deduced that \"átomos\" was a mobile keyboard typo for \"stomp…",
+   "extra": {},
+   "skills": [
+    "prompt_context"
+   ],
+   "learn_score": 1.445,
+   "score": 1.445,
+   "tokens": [
+    "rises",
+    "yonkers"
+   ],
+   "flag": "new",
+   "summary_zh": "利用 Claude Fable 5.2 的 3D 建模与动画生成能力，通过 Prompt 将地理位置数据转化为 Three.js 动画，实现地理实体机甲化展示。",
+   "why_zh": "多模态生成与前端交互。掌握利用 LLM 自动化生成 WebGL/Three.js 代码的流程，提升复杂逻辑的可视化工程效率。"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "MBZUAI’s IFM Releases PAN 2, an Open 29B World Model for Physical AI",
+   "link": "https://www.marktechpost.com/2026/11/10/ifm-pan-2-open-world-model/",
+   "dt": "2026-11-11T07:38:57+00:00",
+   "summary": "The Institute of Foundation Models at MBZUAI released PAN 2, an Apache 2.0 world model that couples an LLM planner with a 29B diffusion transformer to simulate up to 20 seconds of action outcomes as video. The post MBZUAI’s IFM Releases PAN 2, an Open 29B World Model for Physical AI appeared first on MarkTechPost .",
+   "extra": {},
+   "skills": [
+    "llm_fundamentals"
+   ],
+   "learn_score": 1.445,
+   "score": 1.445,
+   "tokens": [
+    "29b",
+    "ai",
+    "ifm",
+    "mbzuai",
+    "model",
+    "open",
+    "pan",
+    "physical",
+    "releases",
+    "world"
+   ],
+   "flag": "new",
+   "summary_zh": "MBZUAI 发布开源世界模型 PAN 2，结合 LLM 规划器与 29B 参数的 Diffusion Transformer，支持生成长达 20 秒的物理动作预测视频。",
+   "why_zh": "具身智能与世界模型。学习将 LLM 的逻辑规划能力与扩散模型的时间序列预测能力解耦，构建物理环境模拟与决策系统。"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "liangjianshu/multimodal-image-retrieval",
+   "link": "https://github.com/liangjianshu/multimodal-image-retrieval",
+   "dt": "2026-11-02T14:22:10+00:00",
+   "summary": "多模态检索实战：意图识别、Prompt 工程、Qwen LoRA、EmbeddingGemma 2 与 InfoNCE 对比学习。含真实演示、自有数据接入、训练评测及 RAG 检索组件学习指南。",
+   "extra": {
+    "stars": 129,
+    "language": "Python",
+    "topics": [
+     "agent-tools",
+     "clip",
+     "contrastive-learning",
+     "ecommerce",
+     "embeddinggemma",
+     "image-retrieval"
+    ],
+    "created": "2026-11-02",
+    "pushed": "2026-11-05"
+   },
+   "skills": [
+    "prompt_context",
+    "rag",
+    "eval_observability",
+    "training_serving"
+   ],
+   "learn_score": 3.511,
+   "score": 10.921,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-11 推荐过",
+   "summary_zh": "multimodal-image-retrieval 项目整合了意图识别、Qwen LoRA 微调、EmbeddingGemma 2 与 InfoNCE 对比学习，提供了一套完整的多模态检索与 RAG 落地实践方案。",
+   "why_zh": "属于 RAG 与多模态检索领域，可学习如何通过对比学习优化 Embedding 模型，以及如何将 LoRA 微调与检索组件结合提升意图识别准确率。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "youngyangyang04/llm-master",
+   "link": "https://github.com/youngyangyang04/llm-master",
+   "dt": "2026-09-12T07:33:31+00:00",
+   "summary": "大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。",
+   "extra": {
+    "stars": 1622,
+    "language": "",
+    "topics": [
+     "agent",
+     "large-language-models",
+     "llm",
+     "llm-learning",
+     "llm-tutorial",
+     "rag"
+    ],
+    "created": "2026-09-12",
+    "pushed": "2026-11-11"
+   },
+   "skills": [
+    "prompt_context",
+    "rag",
+    "tool_mcp",
+    "training_serving",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.479,
+   "score": 9.916,
+   "flag": "dup",
+   "dup_note": "已于 2026-10-31 推荐过",
+   "summary_zh": "提供覆盖 Prompt Engineering 到模型部署等全栈 LLM 学习路线的中文教程。",
+   "why_zh": "对 AI 工程师系统掌握 LLM 技术栈和面试准备极具参考价值。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "wanghao-SunSky/cs329z-chinese",
+   "link": "https://github.com/wanghao-SunSky/cs329z-chinese",
+   "dt": "2026-10-28T18:18:24+00:00",
+   "summary": "斯坦福 Stanford CS329Z Engineering AI Agents 中文教程：面向 Python 开发者的 AI 智能体课程，19 讲与 4 项实践，涵盖 LLM、RAG、工具调用、记忆、多智能体、评测与安全。完整 Markdown、在线与离线 HTML。Chinese course notes.",
+   "extra": {
+    "stars": 574,
+    "language": "HTML",
+    "topics": [
+     "agent-memory",
+     "agentic-ai",
+     "ai-agents",
+     "chinese",
+     "chinese-tutorial",
+     "course-notes"
+    ],
+    "created": "2026-10-28",
+    "pushed": "2026-11-06"
+   },
+   "skills": [
+    "rag",
+    "tool_mcp",
+    "agent_architecture",
+    "multi_agent",
+    "eval_observability"
+   ],
+   "learn_score": 2.601,
+   "score": 9.777,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-11 推荐过",
+   "summary_zh": "斯坦福 CS329Z 课程中文版，系统梳理了 LLM、RAG、工具调用、记忆机制、多智能体架构及评测安全等智能体开发核心知识体系。",
+   "why_zh": "属于 AI Agent 工程化技能点，可复用其课程设计的模块化架构，学习如何构建从基础到多智能体协作的完整开发工作流。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "YOLOW92/pagesift",
+   "link": "https://github.com/YOLOW92/pagesift",
+   "dt": "2026-10-20T17:30:59+00:00",
+   "summary": "Self-hosted web scraper, crawler and document parser for AI agents: URLs, PDFs with OCR and Office files to clean Markdown/JSON. Firecrawl- and Jina-compatible API, MCP server, agent endpoint, Python/Node SDKs. Single Rust binary.",
+   "extra": {
+    "stars": 263,
+    "language": "Rust",
+    "topics": [
+     "ai-agents",
+     "browser-automation",
+     "crawl4ai-alternative",
+     "data-extraction",
+     "document-parsing",
+     "firecrawl"
+    ],
+    "created": "2026-10-20",
+    "pushed": "2026-11-11"
+   },
+   "skills": [
+    "tool_mcp",
+    "training_serving"
+   ],
+   "learn_score": 2.107,
+   "score": 7.206,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-11 推荐过",
+   "summary_zh": "基于 Rust 的高性能网页爬虫与内容提取引擎，提供适配 AI Agent 和 RAG 的干净 Markdown 及结构化数据输出。",
+   "why_zh": "RAG 数据预处理技能，学习使用 Rust 实现高内存效率的浏览器渲染与 Firecrawl 兼容 API 以加速数据获取。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ccch1mneyyy/dsh-Go",
+   "link": "https://github.com/ccch1mneyyy/dsh-Go",
+   "dt": "2026-10-25T08:09:52+00:00",
+   "summary": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+   "extra": {
+    "stars": 19618,
+    "language": "Dart",
+    "topics": [
+     "ai-agent",
+     "android",
+     "android-app",
+     "coding-agent",
+     "deepseek",
+     "deepseek-harness"
+    ],
+    "created": "2026-10-25",
+    "pushed": "2026-11-11"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-11 推荐过",
+   "summary_zh": "dsh-Go 实现 DeepSeek 模型在移动端本地运行，并支持远程控制桌面端执行任务，提供轻量级端侧推理解决方案。",
+   "why_zh": "属于端侧 AI 部署技能点，可复用其跨设备通信与本地推理引擎集成方案，解决资源受限环境下的智能体调度问题。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "amosblomqvist/learnharness",
+   "link": "https://github.com/amosblomqvist/learnharness",
+   "dt": "2026-10-16T19:35:33+00:00",
+   "summary": "Agent harness for learning difficult things.",
+   "extra": {
+    "stars": 8636,
+    "language": "TypeScript",
+    "topics": [],
+    "created": "2026-10-16",
+    "pushed": "2026-11-11"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-10 推荐过",
+   "summary_zh": "LearnHarness 是一个专为学习复杂技能设计的 Agent 框架，通过结构化的交互流程辅助 Agent 掌握新知识或任务。",
+   "why_zh": "属于 Agent 学习与任务规划领域。可学习如何构建 Agent 的长程任务分解与反馈循环，提升 Agent 在复杂任务中的自适应能力。"
+  }
+ ]
+}
