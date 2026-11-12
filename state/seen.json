@@ -39,7 +39,7 @@
   },
   "https://github.com/youngyangyang04/llm-master": {
    "title": "youngyangyang04/llm-master",
-   "date": "2026-11-12",
+   "date": "2026-11-13",
    "tokens": [],
    "source": "github",
    "summary_zh": "提供覆盖 Prompt Engineering 到模型部署等全栈 LLM 学习路线的中文教程。",
@@ -5618,7 +5618,7 @@
   },
   "https://github.com/YOLOW92/pagesift": {
    "title": "YOLOW92/pagesift",
-   "date": "2026-11-12",
+   "date": "2026-11-13",
    "tokens": [],
    "source": "github",
    "summary_zh": "基于 Rust 的高性能网页爬虫与内容提取引擎，提供适配 AI Agent 和 RAG 的干净 Markdown 及结构化数据输出。",
@@ -5830,7 +5830,7 @@
   },
   "https://github.com/amosblomqvist/learnharness": {
    "title": "amosblomqvist/learnharness",
-   "date": "2026-11-12",
+   "date": "2026-11-13",
    "tokens": [],
    "source": "github",
    "summary_zh": "LearnHarness 是一个专为学习复杂技能设计的 Agent 框架，通过结构化的交互流程辅助 Agent 掌握新知识或任务。",
@@ -6194,7 +6194,7 @@
   },
   "https://github.com/wanghao-SunSky/cs329z-chinese": {
    "title": "wanghao-SunSky/cs329z-chinese",
-   "date": "2026-11-12",
+   "date": "2026-11-13",
    "tokens": [],
    "source": "github",
    "summary_zh": "斯坦福 CS329Z 课程中文版，系统梳理了 LLM、RAG、工具调用、记忆机制、多智能体架构及评测安全等智能体开发核心知识体系。",
@@ -6202,7 +6202,7 @@
   },
   "https://github.com/ccch1mneyyy/dsh-Go": {
    "title": "ccch1mneyyy/dsh-Go",
-   "date": "2026-11-12",
+   "date": "2026-11-13",
    "tokens": [],
    "source": "github",
    "summary_zh": "dsh-Go 实现 DeepSeek 模型在移动端本地运行，并支持远程控制桌面端执行任务，提供轻量级端侧推理解决方案。",
@@ -8458,13 +8458,8 @@
   },
   "https://github.com/Zleap-AI/SAG-Wiki": {
    "title": "Zleap-AI/SAG-Wiki",
-   "date": "2026-11-12",
-   "tokens": [
-    "ai",
-    "sag",
-    "wiki",
-    "zleap"
-   ],
+   "date": "2026-11-13",
+   "tokens": [],
    "source": "github",
    "summary_zh": "SAG-Wiki 提供了一个轻量级知识库方案，通过优化索引结构实现极速检索，旨在为人类用户及 AI Agent 提供高精度的知识获取能力。",
    "why_zh": "属于 RAG 系统优化领域，可学习其轻量级索引设计与高精度检索策略，用于提升 Agent 知识库的响应速度与准确率。"
@@ -8671,7 +8666,212 @@
    "source": "blog",
    "summary_zh": "MBZUAI 发布开源世界模型 PAN 2，结合 LLM 规划器与 29B 参数的 Diffusion Transformer，支持生成长达 20 秒的物理动作预测视频。",
    "why_zh": "具身智能与世界模型。学习将 LLM 的逻辑规划能力与扩散模型的时间序列预测能力解耦，构建物理环境模拟与决策系统。"
+  },
+  "https://github.com/glincker/awesome-selfhosted-ai": {
+   "title": "glincker/awesome-selfhosted-ai",
+   "date": "2026-11-13",
+   "tokens": [
+    "ai",
+    "awesome",
+    "glincker",
+    "selfhosted"
+   ],
+   "source": "github",
+   "summary_zh": "awesome-selfhosted-ai 整理了可本地部署的开源 AI 工具集，涵盖 LLM、Chat UI、Agent、MCP Server 及 RAG 等领域。",
+   "why_zh": "属于本地化 AI 部署技能点；可学习如何构建生产级本地 AI 技术栈，快速评估并集成开源组件以降低推理成本。"
+  },
+  "https://huggingface.co/papers/2611.14418": {
+   "title": "Precision on Demand: Escalating Weight Bits at Uncertain Decoding Steps in a Small Local Model",
+   "date": "2026-11-13",
+   "tokens": [
+    "bits",
+    "decoding",
+    "demand",
+    "escalating",
+    "local",
+    "model",
+    "precision",
+    "small",
+    "steps",
+    "uncertain",
+    "weight"
+   ],
+   "source": "paper",
+   "summary_zh": "提出一种按需精度解码策略，在小模型推理时默认使用 4-bit，仅在输出熵值高或置信度低时动态提升至 8-bit。",
+   "why_zh": "属于模型量化与推理优化技能点；可复用动态精度调整逻辑，在保证推理质量的前提下显著降低计算资源消耗。"
+  },
+  "https://huggingface.co/papers/2611.11306": {
+   "title": "ScrapeBench: Evaluating Legal Compliance of AI Agents in Website Scraping",
+   "date": "2026-11-13",
+   "tokens": [
+    "agents",
+    "ai",
+    "compliance",
+    "evaluating",
+    "legal",
+    "scrapebench",
+    "scraping",
+    "website"
+   ],
+   "source": "paper",
+   "summary_zh": "ScrapeBench 是首个评估 AI Agent 在网页抓取中法律合规性的基准测试，重点考察对 ToS 和 robots.txt 的遵循能力。",
+   "why_zh": "属于 Agent 安全与合规性技能点；可学习如何构建 Agent 行为约束机制，在自动化任务中规避法律与合规风险。"
+  },
+  "https://pietromiotti.com/latest/maya-site": {
+   "title": "My AI agents found an unmapped Maya site?",
+   "date": "2026-11-13",
+   "tokens": [
+    "agents",
+    "ai",
+    "found",
+    "maya",
+    "my",
+    "site",
+    "unmapped"
+   ],
+   "source": "hackernews",
+   "summary_zh": "通过 AI Agent 自动化分析卫星图像与地理数据，成功识别出未被记录的玛雅遗址。",
+   "why_zh": "属于 Agent 复杂任务规划与多模态数据处理技能点；可复用 Agent 在大规模地理空间数据分析中的自动化工作流设计。"
+  },
+  "https://github.com/aws/aws-emulator": {
+   "title": "AWS emulator",
+   "date": "2026-11-13",
+   "tokens": [
+    "aws",
+    "emulator"
+   ],
+   "source": "hackernews",
+   "summary_zh": "AWS Emulator 利用自主 AI Agent 模拟云环境行为，辅助开发者在本地进行云原生应用的测试与调试。",
+   "why_zh": "属于 Agent 仿真与开发工具链技能点；可学习如何通过 Agent 模拟复杂系统环境，提升分布式系统的测试效率与可靠性。"
+  },
+  "https://github.com/valentderah/totk-pc-recomp": {
+   "title": "valentderah/totk-pc-recomp",
+   "date": "2026-11-13",
+   "tokens": [
+    "pc",
+    "recomp",
+    "totk",
+    "valentderah"
+   ],
+   "source": "github",
+   "summary_zh": "totk-pc-recomp 通过静态重编译技术，将《塞尔达传说：王国之泪》代码转换为原生 x86-64 指令并在 PC 上运行。",
+   "why_zh": "属于底层系统编程与二进制重编译技能点；可学习如何通过静态分析与指令映射实现跨架构高性能运行，优化代码执行效率。"
+  },
+  "https://github.com/anomalyco/rune": {
+   "title": "anomalyco/rune",
+   "date": "2026-11-13",
+   "tokens": [
+    "anomalyco",
+    "rune"
+   ],
+   "source": "github",
+   "summary_zh": "Rune 是一个基于 Rust 构建的原生 UI 框架，旨在为开发者提供高性能的跨平台界面开发能力。",
+   "why_zh": "属于 UI 架构设计技能点，可学习 Rust 在高性能 GUI 开发中的内存管理与跨平台抽象实现。"
+  },
+  "https://github.com/amitshekhariitbhu/forward-deployed-engineer-roadmap": {
+   "title": "amitshekhariitbhu/forward-deployed-engineer-roadmap",
+   "date": "2026-11-13",
+   "tokens": [
+    "amitshekhariitbhu",
+    "deployed",
+    "engineer",
+    "forward",
+    "roadmap"
+   ],
+   "source": "github",
+   "summary_zh": "Forward Deployed Engineer Roadmap 整理了 AI 领域前置部署工程师的成长路径，涵盖从技术栈到工程实践的系统性学习指南。",
+   "why_zh": "属于 AI 工程化落地技能点，可复用其关于客户现场交付、模型微调与系统集成的方法论。"
+  },
+  "https://www.youtube.com/shorts/rBUb_OA-73o": {
+   "title": "Your Coding Agent Has a MASSIVE Blind Spot (You Need to Fix It)",
+   "date": "2026-11-13",
+   "tokens": [
+    "agent",
+    "blind",
+    "coding",
+    "fix",
+    "massive",
+    "need",
+    "spot"
+   ],
+   "source": "youtube",
+   "summary_zh": "Dynatrace MCP Server 通过将实时生产环境数据接入 IDE，弥补了编码 Agent 缺乏运行时系统反馈的盲点。",
+   "why_zh": "属于 Agent 观测性技能点，可学习如何利用 MCP 协议将外部监控数据转化为 Agent 的上下文输入。"
+  },
+  "https://www.youtube.com/watch?v=fLjGgbW0Ki8": {
+   "title": "Your Complete Guide to Fable 5.2 (When to Use It, Effort Levels, Prompting)",
+   "date": "2026-11-13",
+   "tokens": [
+    "complete",
+    "effort",
+    "fable",
+    "guide",
+    "levels",
+    "prompting",
+    "use"
+   ],
+   "source": "youtube",
+   "summary_zh": "Fable 5.2 模型在 Claude Code 中的应用指南，重点分析了其与 Opus 5.5 的任务分工策略及提示词优化技巧。",
+   "why_zh": "属于 LLM 任务编排技能点，可复用「小模型规划、大模型执行」的混合推理架构以平衡成本与性能。"
+  },
+  "https://www.youtube.com/watch?v=1M8vagUOdJM": {
+   "title": "Fireside Chat with Erik Bernhardsson, Modal",
+   "date": "2026-11-13",
+   "tokens": [
+    "bernhardsson",
+    "chat",
+    "erik",
+    "fireside",
+    "modal"
+   ],
+   "source": "youtube",
+   "summary_zh": "Modal CEO Erik Bernhardsson 探讨了 AI 沙箱基础设施的演进，提出 Agent 编排应与工具调用沙箱解耦的架构思路。",
+   "why_zh": "属于 AI 基础设施架构技能点，可学习如何设计短生命周期沙箱以提升 Agent 任务执行的安全性与隔离性。"
+  },
+  "https://openai.com/index/jiostar-vijay-seshadri": {
+   "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+   "date": "2026-11-13",
+   "tokens": [
+    "500m",
+    "ai",
+    "architect",
+    "chief",
+    "discovery",
+    "jiostar",
+    "scale",
+    "user"
+   ],
+   "source": "blog",
+   "summary_zh": "JioStar 分享了在 5 亿用户规模下落地 AI 的经验，强调了评估体系、安全护栏及生产环境部署的关键实践。",
+   "why_zh": "属于大规模 AI 系统工程技能点，可复用其在高并发场景下构建自动化评估与防御性 AI 架构的工程经验。"
+  },
+  "https://huggingface.co/blog/3d-lora-finetuning": {
+   "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+   "date": "2026-11-13",
+   "tokens": [
+    "3d",
+    "definitive",
+    "fine",
+    "generation",
+    "guide",
+    "models",
+    "tuning"
+   ],
+   "source": "blog",
+   "summary_zh": "HuggingFace 发布 3D 生成模型微调指南，涵盖数据集准备、训练策略及评估指标，旨在提升 3D 生成任务的质量与一致性。",
+   "why_zh": "属于 3D 生成与多模态微调领域，可学习如何针对非结构化 3D 数据进行高效微调，掌握从数据预处理到模型评估的完整 Pipeline。"
+  },
+  "https://simonwillison.net/2026/Nov/11/llm/": {
+   "title": "llm 0.37.2",
+   "date": "2026-11-13",
+   "tokens": [
+    "37",
+    "llm"
+   ],
+   "source": "blog",
+   "summary_zh": "LLM 0.37.2 版本修复了 OpenAI 兼容 API 端点配置中的安全漏洞，防止 API Key 在多供应商配置中发生泄露。",
+   "why_zh": "属于 LLM 应用工程安全领域，可学习在构建多模型调用工具时，如何防范敏感凭证在跨 API 端点配置中的意外泄露。"
   }
  },
- "updated": "2026-11-11T17:23:22.012918+00:00"
+ "updated": "2026-11-12T16:30:16.958131+00:00"
 }
