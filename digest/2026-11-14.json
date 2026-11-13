@@ -1,0 +1,627 @@
+{
+ "date": "2026-11-14",
+ "generated": "2026-11-14 01:19",
+ "source_count": {
+  "github": 77,
+  "youtube": 37,
+  "blog": 82,
+  "paper": 12,
+  "hackernews": 10
+ },
+ "failures": {},
+ "failure_errors": {},
+ "summary_missing": [],
+ "summary_providers": {
+  "gemini": 3
+ },
+ "items": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "8hjkkwikl8/ai-portfolio",
+   "link": "https://github.com/8hjkkwikl8/ai-portfolio",
+   "dt": "2026-11-11T05:28:14+00:00",
+   "summary": "三个可运行的 AI 工程项目：可追溯 RAG、提示词评测与受守护的 NL2SQL 分析",
+   "extra": {
+    "stars": 100,
+    "language": "Python",
+    "topics": [
+     "ai",
+     "fastapi",
+     "llm",
+     "nl2sql",
+     "portfolio",
+     "prompt-engineering"
+    ],
+    "created": "2026-11-11",
+    "pushed": "2026-11-13"
+   },
+   "skills": [
+    "prompt_context",
+    "rag",
+    "eval_observability"
+   ],
+   "learn_score": 2.035,
+   "score": 6.105,
+   "tokens": [
+    "8hjkkwikl8",
+    "ai",
+    "portfolio"
+   ],
+   "flag": "new",
+   "summary_zh": "开源项目包含可追溯 RAG、提示词评测与受守护的 NL2SQL 三个工程化模块，提供 Agent 开发的参考实现。",
+   "why_zh": "掌握 RAG 溯源与 NL2SQL 安全防护的工程落地，学习如何构建可评估的 Agent 提示词工程流水线。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Experience-Handoff Reinforcement Learning for Recursive Self-Improvement",
+   "link": "https://huggingface.co/papers/2611.16409",
+   "dt": "2026-11-11T19:00:00+00:00",
+   "summary": "It is common to train Large Language Models (LLMs) for agentic tasks with Reinforcement Learning (RL) from scalar rewards. However, this throws away the fine-grained information about the environment that the agent experienced during the trial (e.g., error logs). To utilize this rich information, recent works wrap the agent in a harness that refines its own inputs through reflection or compaction and hands past experience to future rollouts, but the construction of the handed-off artifacts (e.g.",
+   "extra": {
+    "upvotes": 1,
+    "arxiv": "https://arxiv.org/abs/2611.16409"
+   },
+   "skills": [
+    "agent_architecture",
+    "multi_agent"
+   ],
+   "learn_score": 2.616,
+   "score": 5.232,
+   "tokens": [
+    "experience",
+    "handoff",
+    "improvement",
+    "learning",
+    "recursive",
+    "reinforcement",
+    "self"
+   ],
+   "flag": "new",
+   "summary_zh": "提出 Experience-Handoff RL 框架，通过将环境交互中的细粒度日志信息转化为反射或压缩后的输入，提升 LLM 自我改进能力。",
+   "why_zh": "强化学习与 Agent 反思机制结合，学习如何利用环境反馈日志优化 Agent 的上下文输入，提升复杂任务的鲁棒性。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "DeepStress: Stress-Testing Deep Search Agents",
+   "link": "https://huggingface.co/papers/2607.13920",
+   "dt": "2026-11-11T19:00:00+00:00",
+   "summary": "While search agents demonstrate impressive capabilities in multi-step question answering, their robustness to poor-quality evidence remains under-explored. Such evidence is rare in benchmark corpora, and resulting failures are hard to reproduce. We propose DeepStress, a dynamic stress-testing framework that subjects agents to degraded evidence at controlled rates. It replaces the retrieval module with a synthetic environment where documents are generated dynamically for each query, under indepen",
+   "extra": {
+    "upvotes": 4,
+    "arxiv": "https://arxiv.org/abs/2607.13920"
+   },
+   "skills": [
+    "rag",
+    "eval_observability"
+   ],
+   "learn_score": 2.616,
+   "score": 5.232,
+   "tokens": [
+    "agents",
+    "deep",
+    "deepstress",
+    "search",
+    "stress",
+    "testing"
+   ],
+   "flag": "new",
+   "summary_zh": "DeepStress 框架通过动态注入受损证据，对搜索类 Agent 进行压力测试，评估其在低质量检索环境下的鲁棒性。",
+   "why_zh": "Agent 系统评估与鲁棒性测试，学习通过替换检索模块进行对抗性测试，以识别 Agent 在复杂搜索任务中的潜在失效点。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+   "link": "https://status.claude.com/incidents/nn11wk485zfn",
+   "dt": "2026-11-13T10:18:13+00:00",
+   "summary": "",
+   "extra": {
+    "points": 430,
+    "comments": 352,
+    "hn_link": "https://news.ycombinator.com/item?id=50481187"
+   },
+   "skills": [],
+   "learn_score": 1.35,
+   "score": 4.905,
+   "tokens": [
+    "ai",
+    "claude",
+    "code",
+    "com",
+    "elevated",
+    "errors",
+    "platform"
+   ],
+   "flag": "new",
+   "summary_zh": "Claude 相关平台出现高频错误，涉及网页端、Claude Code 及 API 服务。",
+   "why_zh": "分布式系统稳定性与 API 容错设计，学习在依赖第三方模型服务时，如何通过降级策略与重试机制保障 Agent 业务连续性。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "lloweryfn-rgb/ai--manus",
+   "link": "https://github.com/lloweryfn-rgb/ai--manus",
+   "dt": "2026-11-13T14:46:19+00:00",
+   "summary": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+   "extra": {
+    "stars": 148,
+    "language": "",
+    "topics": [
+     "ai",
+     "ai-agents",
+     "ai-sdk",
+     "anthropic",
+     "chatbot",
+     "function-calling"
+    ],
+    "created": "2026-11-13",
+    "pushed": "2026-11-13"
+   },
+   "skills": [],
+   "learn_score": 1.215,
+   "score": 3.852,
+   "tokens": [
+    "ai",
+    "lloweryfn",
+    "manus",
+    "rgb"
+   ],
+   "flag": "new",
+   "summary_zh": "AI Manus 是一个支持在沙箱环境中运行多种工具与操作的通用 AI Agent 系统。",
+   "why_zh": "Agent 运行环境隔离与工具调用架构，学习如何构建安全的沙箱执行环境以支持 Agent 执行复杂任务。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "python001-dev/manus--ai",
+   "link": "https://github.com/python001-dev/manus--ai",
+   "dt": "2026-11-13T14:47:22+00:00",
+   "summary": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+   "extra": {
+    "stars": 148,
+    "language": "",
+    "topics": [
+     "ai",
+     "ai-agents",
+     "ai-sdk",
+     "anthropic",
+     "chatbot",
+     "function-calling"
+    ],
+    "created": "2026-11-13",
+    "pushed": "2026-11-13"
+   },
+   "skills": [],
+   "learn_score": 1.215,
+   "score": 3.852,
+   "tokens": [
+    "ai",
+    "dev",
+    "manus",
+    "python001"
+   ],
+   "flag": "new",
+   "summary_zh": "AI Manus 是一个支持在沙箱环境中运行多种工具与操作的通用 AI Agent 系统。",
+   "why_zh": "Agent 运行环境隔离与工具调用架构，学习如何构建安全的沙箱执行环境以支持 Agent 执行复杂任务。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+   "link": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+   "dt": "2026-11-11T21:24:35+00:00",
+   "summary": "",
+   "extra": {
+    "points": 676,
+    "comments": 698,
+    "hn_link": "https://news.ycombinator.com/item?id=50458900"
+   },
+   "skills": [],
+   "learn_score": 1.0,
+   "score": 3.83,
+   "tokens": [
+    "agents",
+    "ai",
+    "airlines",
+    "bans",
+    "behalf",
+    "booking",
+    "flights",
+    "travelers",
+    "united"
+   ],
+   "flag": "new",
+   "summary_zh": "美联航 United Airlines 正式禁止 AI Agent 代表旅客进行机票预订操作，以应对自动化爬虫带来的系统负载与合规风险。",
+   "why_zh": "Agent 落地场景的边界控制。可探讨 Agent 在高并发业务场景下的 API 鉴权、反爬策略及服务协议合规性设计。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "N1nEmAn/sapper-v2",
+   "link": "https://github.com/N1nEmAn/sapper-v2",
+   "dt": "2026-10-30T15:12:35+00:00",
+   "summary": "The first fruit of the Nüwa tree — an autonomous AI pentest legion (634-team champion, 8h unattended, 1B tokens beat 4.5B). Not just a tool: evolvable by design. Grow your own fruit on the Nüwa Foundation (Create/Language/History).",
+   "extra": {
+    "stars": 2041,
+    "language": "Python",
+    "topics": [
+     "agentic-workflows",
+     "ai-agents",
+     "ai-security",
+     "autonomous-agents",
+     "claude-code",
+     "ctf"
+    ],
+    "created": "2026-10-30",
+    "pushed": "2026-11-11"
+   },
+   "skills": [],
+   "learn_score": 0.765,
+   "score": 3.06,
+   "tokens": [
+    "n1neman",
+    "sapper",
+    "v2"
+   ],
+   "flag": "new",
+   "summary_zh": "N1nEmAn 开源 sapper-v2，这是一个具备自我演进能力的自动化渗透测试 Agent 框架，通过 Nüwa Foundation 实现任务规划与历史记忆管理。",
+   "why_zh": "Agent 自主学习与演进架构。可学习如何构建具备长短期记忆与任务规划能力的 Agent 闭环，以及在对抗性任务中的自动化决策机制。"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "Google Releases TPU Sync: Open-Source KV Cache Transfer for TPUs",
+   "link": "https://www.marktechpost.com/2026/11/13/google-tpu-sync-kv-cache-transfer-library/",
+   "dt": "2026-11-13T10:32:26+00:00",
+   "summary": "Google released TPU Sync, an open-source C++ library that moves KV caches and weights across TPU HBM, host DRAM, storage and network. Google reports over 90% lower KV transfer latency on 235B to 480B MoE models. The post Google Releases TPU Sync: Open-Source KV Cache Transfer for TPUs appeared first on MarkTechPost .",
+   "extra": {},
+   "skills": [
+    "rag",
+    "training_serving",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.023,
+   "score": 2.023,
+   "tokens": [
+    "cache",
+    "google",
+    "kv",
+    "open",
+    "releases",
+    "source",
+    "sync",
+    "tpu",
+    "tpus",
+    "transfer"
+   ],
+   "flag": "new",
+   "summary_zh": "Google 开源 TPU Sync C++ 库，支持在 TPU HBM、主机 DRAM 及网络间高效传输 KV Cache 与权重，显著降低 MoE 模型推理延迟。",
+   "why_zh": "大模型推理性能优化。掌握分布式推理中 KV Cache 的内存管理与跨节点传输技术，是优化超大规模模型部署的关键工程能力。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "How Mozilla uses GPT-6 Cyber to find and fix Firefox vulnerabilities",
+   "link": "https://www.youtube.com/watch?v=PkAmyub12K8",
+   "dt": "2026-11-13T16:56:45+00:00",
+   "summary": "Mozilla is combining decades of security engineering with AI agents to strengthen Firefox’s defenses. Brian Grinstead joins OpenAI’s Clint Gibler to discuss how the team prioritizes investigations, tests and verifies vulnerabilities, finds related bug patterns, and helps engineers develop fixes. They also explore how GPT-6 Cyber revealed that some known bugs could be more serious than initially understood, helping inform which issues need attention first. Across its security workflow, Mozilla sa…",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": "PkAmyub12K8"
+   },
+   "skills": [
+    "llm_fundamentals"
+   ],
+   "learn_score": 1.913,
+   "score": 1.913,
+   "tokens": [
+    "cyber",
+    "find",
+    "firefox",
+    "fix",
+    "gpt",
+    "mozilla",
+    "uses",
+    "vulnerabilities"
+   ],
+   "flag": "new",
+   "summary_zh": "Mozilla 结合 GPT-6 Cyber 安全模型，通过 AI Agent 自动化执行漏洞优先级排序、模式识别及修复方案生成，强化 Firefox 安全防御。",
+   "why_zh": "AI 辅助软件工程。可借鉴 Agent 在代码审计与漏洞修复中的工作流设计，特别是如何将领域专家知识与 LLM 推理能力结合。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Cole Medin",
+   "title": "I Trust My AI Agents to Merge Code… But NOT Ship It",
+   "link": "https://www.youtube.com/shorts/mAlsfafDW-U",
+   "dt": "2026-11-13T14:42:41+00:00",
+   "summary": "I trust my agents to merge code all night, but I definitely don't trust them to ship straight to production. Tests and reviews only tell you the code looks right. LaunchDarkly helps teams control and monitor how changes behave once they're live in production. They just launched Release Autopilot, where agents do the feature flag work that used to take an engineer: risk classification, success metrics, automatic release plans that start with a canary release, feature-level observability and flag …",
+   "extra": {
+    "channel": "Cole Medin",
+    "video_id": ""
+   },
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.53,
+   "score": 1.53,
+   "tokens": [
+    "agents",
+    "ai",
+    "code",
+    "merge",
+    "my",
+    "ship",
+    "trust"
+   ],
+   "flag": "new",
+   "summary_zh": "LaunchDarkly 发布 Release Autopilot，利用 AI Agent 自动化处理特征标志管理、风险分类及成功指标监控，实现生产环境的受控发布。",
+   "why_zh": "AI Agent 的生产环境治理。学习如何通过特征标志（Feature Flags）构建 Agent 的安全护栏，实现自动化发布流程的风险隔离与可观测性。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Wes Roth",
+   "title": "Gemini 4 Swarm is out of control...",
+   "link": "https://www.youtube.com/watch?v=Sc6TriRAGnI",
+   "dt": "2026-11-13T14:16:35+00:00",
+   "summary": "Google just unleashed Gemini 4 Carbon, Gemini 4 Hydrogen, Gemini Decision-1, AlphaProof Code, and Antigravity /swarm in a massive multi-day AI blitz — and to put it to the ultimate test, Gemini 4 Carbon autonomously edited this entire 30-minute video. RELATED VIDEOS: Anthropic's Claude Fable 5.2 Breakdown (Anthropic BROKE Fable 5.2): https://www.youtube.com/watch?v=h76wUNmRqxc Gemini 4 Argon First Look (GEMINI 4 ARGON IS WEIRD...): https://www.youtube.com/watch?v=NL0yDYXAQ0E Building My AI Game …",
+   "extra": {
+    "channel": "Wes Roth",
+    "video_id": "Sc6TriRAGnI"
+   },
+   "skills": [
+    "multi_agent"
+   ],
+   "learn_score": 1.53,
+   "score": 1.53,
+   "tokens": [
+    "control",
+    "gemini",
+    "swarm"
+   ],
+   "flag": "new",
+   "summary_zh": "Google 发布 Gemini 4 系列模型及 Swarm 多智能体框架，支持多模型协同工作，并展示了 Gemini 4 Carbon 在复杂视频编辑任务中的自主执行能力。",
+   "why_zh": "多智能体协同架构。关注 Swarm 框架下的任务拆解与多模型调度机制，理解如何通过多 Agent 协作处理长链路、多步骤的复杂任务。"
+  },
+  {
+   "source": "blog",
+   "source_label": "NVIDIA 技术博客",
+   "title": "A New Dawn in the Cloud: ‘Warhammer 40,000: Dawn of War IV’ Is Coming to GeForce NOW",
+   "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-warhammer-dawn-of-war-iv-coming/",
+   "dt": "2026-11-12T14:00:59+00:00",
+   "summary": "Rally the ranks this GFN Thursday. Warhammer 40,000: Dawn of War IV is coming to GeForce NOW, allowing players to experience the battle for Kronus through cloud gaming. There’s more on the horizon, with NVIDIA DLSS 5 technology coming to War Thunder and Where Winds Meet. Meanwhile, Dragon’s Dogma 2: Dark Arisen brings new tales […]",
+   "extra": {},
+   "skills": [
+    "rag"
+   ],
+   "learn_score": 1.445,
+   "score": 1.445,
+   "tokens": [
+    "000",
+    "40",
+    "cloud",
+    "coming",
+    "dawn",
+    "geforce",
+    "iv",
+    "now",
+    "war",
+    "warhammer"
+   ],
+   "flag": "new",
+   "summary_zh": "NVIDIA 宣布 GeForce NOW 云游戏平台引入 Warhammer 40,000: Dawn of War IV，并为 War Thunder 等游戏集成 DLSS 5 技术。",
+   "why_zh": "属于图形渲染与云端推理优化领域，可关注 DLSS 5 在高并发云端环境下的超分辨率与帧生成技术实现路径。"
+  },
+  {
+   "source": "blog",
+   "source_label": "雷锋网",
+   "title": "中金公司与蚂蚁集团达成战略合作 共探AI赋能财富管理",
+   "link": "https://www.leiphone.com/category/industrynews/U7WtbV9kyb90UuZ0.html",
+   "dt": "2026-11-13T17:05:00+08:00",
+   "summary": "11月13日，中国国际金融股份有限公司（简称“中金公司”）与蚂蚁科技集团股份有限公司（简称“蚂蚁集团”）签署战略合作协议。 双方将结合中金公司在专业投研、金融服务等方面的积累，以及蚂蚁集团在人工智能、行业生态、客户运营等方面的优势，围绕金融大模型技术创新、AI赋能财富管理、客户全生命周期服务等领域开展合作，共同探索“AI+金融”创新路径。 中金公司党委副书记、副董事长、总裁王曙光（右二），蚂蚁集团首席执行官、蚂蚁数科董事长韩歆毅（左二）出席并见证签约仪式。中金公司党委委员、中金财富党委书记、总裁王建力（右一），蚂蚁集团资深副总裁、蚂蚁数科CEO赵闻飙（左一）代表双方签署协议。 随着大模型和智能体技术发展，AI正逐步深入投研、客户服务和财富管理等金融环节。根据协议，双方将重点围绕三个方向开展合作。 一是探索AI赋能财富管理人机协同工作新模式。 双方计划探索打造服务与营销协同的智能体集群，将AI应用于客户需求洞察、资产配置、投资研究等环节，辅助财富管理顾问提升服务效率和专业能力，为客户提供更及时、个性化的服务，推动财富管理从“被动响应”向“主动服务”转变。 二是探索全域客户价值全周期经营体…",
+   "extra": {},
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.445,
+   "score": 1.445,
+   "tokens": [
+    "中金公司与蚂蚁集团达成战略合作",
+    "共探ai赋能财富管理"
+   ],
+   "flag": "new",
+   "summary_zh": "中金公司与蚂蚁集团达成战略合作，聚焦金融大模型技术创新，共同研发服务与营销协同的智能体集群。",
+   "why_zh": "属于金融领域 Agent 落地应用，可复用多智能体协作（Multi-Agent Orchestration）在复杂业务流程中的任务拆解与人机协同设计模式。"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "youngyangyang04/llm-master",
+   "link": "https://github.com/youngyangyang04/llm-master",
+   "dt": "2026-09-12T07:33:31+00:00",
+   "summary": "大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。",
+   "extra": {
+    "stars": 1641,
+    "language": "",
+    "topics": [
+     "agent",
+     "large-language-models",
+     "llm",
+     "llm-learning",
+     "llm-tutorial",
+     "rag"
+    ],
+    "created": "2026-09-12",
+    "pushed": "2026-11-11"
+   },
+   "skills": [
+    "prompt_context",
+    "rag",
+    "tool_mcp",
+    "training_serving",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.479,
+   "score": 9.916,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-13 推荐过",
+   "summary_zh": "提供覆盖 Prompt Engineering 到模型部署等全栈 LLM 学习路线的中文教程。",
+   "why_zh": "对 AI 工程师系统掌握 LLM 技术栈和面试准备极具参考价值。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Zleap-AI/SAG-Wiki",
+   "link": "https://github.com/Zleap-AI/SAG-Wiki",
+   "dt": "2026-10-18T14:51:30+00:00",
+   "summary": "A lightweight knowledge base for people and agents, with ultra fast indexing and most precise retrieval.",
+   "extra": {
+    "stars": 1173,
+    "language": "Rust",
+    "topics": [
+     "knowledge-base",
+     "knowledge-graph",
+     "rag",
+     "rust",
+     "sag",
+     "sag-wiki"
+    ],
+    "created": "2026-10-18",
+    "pushed": "2026-11-13"
+   },
+   "skills": [
+    "rag",
+    "eval_observability"
+   ],
+   "learn_score": 2.107,
+   "score": 8.428,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-13 推荐过",
+   "summary_zh": "SAG-Wiki 提供了一个轻量级知识库方案，通过优化索引结构实现极速检索，旨在为人类用户及 AI Agent 提供高精度的知识获取能力。",
+   "why_zh": "属于 RAG 系统优化领域，可学习其轻量级索引设计与高精度检索策略，用于提升 Agent 知识库的响应速度与准确率。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "YOLOW92/pagesift",
+   "link": "https://github.com/YOLOW92/pagesift",
+   "dt": "2026-10-20T17:30:59+00:00",
+   "summary": "Self-hosted web scraper, crawler and document parser for AI agents: URLs, PDFs with OCR and Office files to clean Markdown/JSON. Firecrawl- and Jina-compatible API, MCP server, agent endpoint, Python/Node SDKs. Single Rust binary.",
+   "extra": {
+    "stars": 271,
+    "language": "Rust",
+    "topics": [
+     "ai-agents",
+     "browser-automation",
+     "crawl4ai-alternative",
+     "data-extraction",
+     "document-parsing",
+     "firecrawl"
+    ],
+    "created": "2026-10-20",
+    "pushed": "2026-11-12"
+   },
+   "skills": [
+    "tool_mcp",
+    "training_serving"
+   ],
+   "learn_score": 2.107,
+   "score": 7.233,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-13 推荐过",
+   "summary_zh": "基于 Rust 的高性能网页爬虫与内容提取引擎，提供适配 AI Agent 和 RAG 的干净 Markdown 及结构化数据输出。",
+   "why_zh": "RAG 数据预处理技能，学习使用 Rust 实现高内存效率的浏览器渲染与 Firecrawl 兼容 API 以加速数据获取。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ccch1mneyyy/dsh-Go",
+   "link": "https://github.com/ccch1mneyyy/dsh-Go",
+   "dt": "2026-10-25T08:09:52+00:00",
+   "summary": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+   "extra": {
+    "stars": 21698,
+    "language": "Dart",
+    "topics": [
+     "ai-agent",
+     "android",
+     "android-app",
+     "coding-agent",
+     "deepseek",
+     "deepseek-harness"
+    ],
+    "created": "2026-10-25",
+    "pushed": "2026-11-13"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-13 推荐过",
+   "summary_zh": "dsh-Go 实现 DeepSeek 模型在移动端本地运行，并支持远程控制桌面端执行任务，提供轻量级端侧推理解决方案。",
+   "why_zh": "属于端侧 AI 部署技能点，可复用其跨设备通信与本地推理引擎集成方案，解决资源受限环境下的智能体调度问题。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "amosblomqvist/learnharness",
+   "link": "https://github.com/amosblomqvist/learnharness",
+   "dt": "2026-10-16T19:35:33+00:00",
+   "summary": "Agent harness for learning difficult things.",
+   "extra": {
+    "stars": 9211,
+    "language": "TypeScript",
+    "topics": [],
+    "created": "2026-10-16",
+    "pushed": "2026-11-12"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-13 推荐过",
+   "summary_zh": "LearnHarness 是一个专为学习复杂技能设计的 Agent 框架，通过结构化的交互流程辅助 Agent 掌握新知识或任务。",
+   "why_zh": "属于 Agent 学习与任务规划领域。可学习如何构建 Agent 的长程任务分解与反馈循环，提升 Agent 在复杂任务中的自适应能力。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ai-gateways/awesome-ai-gateways",
+   "link": "https://github.com/ai-gateways/awesome-ai-gateways",
+   "dt": "2026-10-30T10:30:50+00:00",
+   "summary": "Awesome AI gateways: open source and commercial LLM gateways, MCP gateways, agent (A2A) gateways, model routers, specs, and guides.",
+   "extra": {
+    "stars": 44,
+    "language": "",
+    "topics": [
+     "a2a",
+     "a2a-protocol",
+     "agent-gateway",
+     "ai-agents",
+     "ai-gateway",
+     "ai-governance"
+    ],
+    "created": "2026-10-30",
+    "pushed": "2026-11-13"
+   },
+   "skills": [
+    "tool_mcp",
+    "multi_agent"
+   ],
+   "learn_score": 2.634,
+   "score": 6.963,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-10 推荐过",
+   "summary_zh": "整理开源与商业 LLM 网关、MCP 网关、Agent 间通信网关及模型路由器的技术资源库。",
+   "why_zh": "属于 AI 基础设施领域，可学习如何构建高可用、可观测的 LLM 中间件，掌握 Agent 架构中网关层面的流量调度与协议适配。"
+  }
+ ]
+}

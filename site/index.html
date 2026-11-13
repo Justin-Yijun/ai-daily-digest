@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>2026-11-13 · AI 前沿日报</title>
-<meta name="description" content="2026-11-13 AI / LLM / Agent 前沿日报">
+<title>2026-11-14 · AI 前沿日报</title>
+<meta name="description" content="2026-11-14 AI / LLM / Agent 前沿日报">
 <link rel="stylesheet" href="style.css">
 <link rel="alternate" type="application/rss+xml" title="AI 前沿日报" href="https://aivulcan.de5.net/feed.xml">
 </head>
@@ -19,142 +19,143 @@
 </div>
 </div>
 <p class="desc">每天自动采集 GitHub / YouTube / 博客 / 论文 / Hacker News 上关于 AI、LLM、Agent、Harness 的前沿动态，生成中文摘要。</p>
-<div class="stats"><span>今日 <b>20</b> 条</span><span>源 <b>5</b> 个</span><span>累计 <b>40</b> 期</span></div><nav><a href="">最新</a><a href="archive">归档</a><a href="feed.xml">RSS</a><a href="about">关于</a></nav>
+<div class="stats"><span>今日 <b>20</b> 条</span><span>源 <b>5</b> 个</span><span>累计 <b>41</b> 期</span></div><nav><a href="">最新</a><a href="archive">归档</a><a href="feed.xml">RSS</a><a href="about">关于</a></nav>
 </header>
-<h1>2026-11-13 日报</h1>
-<p class="meta">生成时间 2026-11-13 00:30 (CST) ｜ 共 20 条（新增 14 · 重复/相似 6）</p>
-<p class="meta">源命中数：GitHub 78 · YouTube 37 · 博客 82 · 论文 12 · Hacker News 10</p>
+<h1>2026-11-14 日报</h1>
+<p class="meta">生成时间 2026-11-14 01:19 (CST) ｜ 共 20 条（新增 14 · 重复/相似 6）</p>
+<p class="meta">源命中数：GitHub 77 · YouTube 37 · 博客 82 · 论文 12 · Hacker News 10</p>
 <h2>📌 今日精选 Top 6</h2>
 <article class="pick" data-src="github">
-<h3><span class="num">01</span> <a href="https://github.com/glincker/awesome-selfhosted-ai" target="_blank" rel="noopener">glincker/awesome-selfhosted-ai</a></h3>
-<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 123</span><span class="tag">JavaScript</span><span class="tag">新建 2026-10-31</span><span class="date">10-31</span></p>
-<p class="sum">awesome-selfhosted-ai 整理了可本地部署的开源 AI 工具集，涵盖 LLM、Chat UI、Agent、MCP Server 及 RAG 等领域。</p>
-<p class="why">为什么值得看：属于本地化 AI 部署技能点；可学习如何构建生产级本地 AI 技术栈，快速评估并集成开源组件以降低推理成本。</p>
+<h3><span class="num">01</span> <a href="https://github.com/8hjkkwikl8/ai-portfolio" target="_blank" rel="noopener">8hjkkwikl8/ai-portfolio</a></h3>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 100</span><span class="tag">Python</span><span class="tag">新建 2026-11-11</span><span class="date">11-11</span></p>
+<p class="sum">开源项目包含可追溯 RAG、提示词评测与受守护的 NL2SQL 三个工程化模块，提供 Agent 开发的参考实现。</p>
+<p class="why">为什么值得看：掌握 RAG 溯源与 NL2SQL 安全防护的工程落地，学习如何构建可评估的 Agent 提示词工程流水线。</p>
 </article>
 <article class="pick" data-src="paper">
-<h3><span class="num">02</span> <a href="https://huggingface.co/papers/2611.14418" target="_blank" rel="noopener">Precision on Demand: Escalating Weight Bits at Uncertain Decoding Steps in a Small Local Model</a></h3>
-<p class="meta"><span class="tag src">HF Daily Papers</span><span class="tag">👍 2</span><span class="date">11-10</span></p>
-<p class="sum">提出一种按需精度解码策略，在小模型推理时默认使用 4-bit，仅在输出熵值高或置信度低时动态提升至 8-bit。</p>
-<p class="why">为什么值得看：属于模型量化与推理优化技能点；可复用动态精度调整逻辑，在保证推理质量的前提下显著降低计算资源消耗。</p>
+<h3><span class="num">02</span> <a href="https://huggingface.co/papers/2611.16409" target="_blank" rel="noopener">Experience-Handoff Reinforcement Learning for Recursive Self-Improvement</a></h3>
+<p class="meta"><span class="tag src">HF Daily Papers</span><span class="tag">👍 1</span><span class="date">11-12</span></p>
+<p class="sum">提出 Experience-Handoff RL 框架，通过将环境交互中的细粒度日志信息转化为反射或压缩后的输入，提升 LLM 自我改进能力。</p>
+<p class="why">为什么值得看：强化学习与 Agent 反思机制结合，学习如何利用环境反馈日志优化 Agent 的上下文输入，提升复杂任务的鲁棒性。</p>
 </article>
 <article class="pick" data-src="paper">
-<h3><span class="num">03</span> <a href="https://huggingface.co/papers/2611.11306" target="_blank" rel="noopener">ScrapeBench: Evaluating Legal Compliance of AI Agents in Website Scraping</a></h3>
-<p class="meta"><span class="tag src">HF Daily Papers</span><span class="tag">论文</span><span class="date">11-10</span></p>
-<p class="sum">ScrapeBench 是首个评估 AI Agent 在网页抓取中法律合规性的基准测试，重点考察对 ToS 和 robots.txt 的遵循能力。</p>
-<p class="why">为什么值得看：属于 Agent 安全与合规性技能点；可学习如何构建 Agent 行为约束机制，在自动化任务中规避法律与合规风险。</p>
+<h3><span class="num">03</span> <a href="https://huggingface.co/papers/2607.13920" target="_blank" rel="noopener">DeepStress: Stress-Testing Deep Search Agents</a></h3>
+<p class="meta"><span class="tag src">HF Daily Papers</span><span class="tag">👍 4</span><span class="date">11-12</span></p>
+<p class="sum">DeepStress 框架通过动态注入受损证据，对搜索类 Agent 进行压力测试，评估其在低质量检索环境下的鲁棒性。</p>
+<p class="why">为什么值得看：Agent 系统评估与鲁棒性测试，学习通过替换检索模块进行对抗性测试，以识别 Agent 在复杂搜索任务中的潜在失效点。</p>
 </article>
 <article class="pick" data-src="hackernews">
-<h3><span class="num">04</span> <a href="https://pietromiotti.com/latest/maya-site" target="_blank" rel="noopener">My AI agents found an unmapped Maya site?</a></h3>
-<p class="meta"><span class="tag src">Hacker News</span><span class="tag">🔥 1022 分</span><span class="tag">💬 380</span><span class="date">11-11</span></p>
-<p class="sum">通过 AI Agent 自动化分析卫星图像与地理数据，成功识别出未被记录的玛雅遗址。</p>
-<p class="why">为什么值得看：属于 Agent 复杂任务规划与多模态数据处理技能点；可复用 Agent 在大规模地理空间数据分析中的自动化工作流设计。</p>
-</article>
-<article class="pick" data-src="hackernews">
-<h3><span class="num">05</span> <a href="https://github.com/aws/aws-emulator" target="_blank" rel="noopener">AWS emulator</a></h3>
-<p class="meta"><span class="tag src">Hacker News</span><span class="tag">🔥 929 分</span><span class="tag">💬 255</span><span class="date">11-12</span></p>
-<p class="sum">AWS Emulator 利用自主 AI Agent 模拟云环境行为，辅助开发者在本地进行云原生应用的测试与调试。</p>
-<p class="why">为什么值得看：属于 Agent 仿真与开发工具链技能点；可学习如何通过 Agent 模拟复杂系统环境，提升分布式系统的测试效率与可靠性。</p>
+<h3><span class="num">04</span> <a href="https://status.claude.com/incidents/nn11wk485zfn" target="_blank" rel="noopener">Elevated errors on claude.ai, Claude Code, and platform.claude.com</a></h3>
+<p class="meta"><span class="tag src">Hacker News</span><span class="tag">🔥 430 分</span><span class="tag">💬 352</span><span class="date">11-13</span></p>
+<p class="sum">Claude 相关平台出现高频错误，涉及网页端、Claude Code 及 API 服务。</p>
+<p class="why">为什么值得看：分布式系统稳定性与 API 容错设计，学习在依赖第三方模型服务时，如何通过降级策略与重试机制保障 Agent 业务连续性。</p>
 </article>
 <article class="pick" data-src="github">
-<h3><span class="num">06</span> <a href="https://github.com/valentderah/totk-pc-recomp" target="_blank" rel="noopener">valentderah/totk-pc-recomp</a></h3>
-<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 6878</span><span class="tag">C</span><span class="tag">新建 2026-10-29</span><span class="date">10-29</span></p>
-<p class="sum">totk-pc-recomp 通过静态重编译技术，将《塞尔达传说：王国之泪》代码转换为原生 x86-64 指令并在 PC 上运行。</p>
-<p class="why">为什么值得看：属于底层系统编程与二进制重编译技能点；可学习如何通过静态分析与指令映射实现跨架构高性能运行，优化代码执行效率。</p>
+<h3><span class="num">05</span> <a href="https://github.com/lloweryfn-rgb/ai--manus" target="_blank" rel="noopener">lloweryfn-rgb/ai--manus</a></h3>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 148</span><span class="tag">新建 2026-11-13</span><span class="date">11-13</span></p>
+<p class="sum">AI Manus 是一个支持在沙箱环境中运行多种工具与操作的通用 AI Agent 系统。</p>
+<p class="why">为什么值得看：Agent 运行环境隔离与工具调用架构，学习如何构建安全的沙箱执行环境以支持 Agent 执行复杂任务。</p>
 </article>
-<h2>🐙 GitHub（2）</h2>
-<article class="item" data-src="github">
-<h3><a href="https://github.com/anomalyco/rune" target="_blank" rel="noopener">anomalyco/rune</a></h3>
-<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 6853</span><span class="tag">Rust</span><span class="tag">新建 2026-10-22</span><span class="date">10-22</span></p>
-<p class="sum">Rune 是一个基于 Rust 构建的原生 UI 框架，旨在为开发者提供高性能的跨平台界面开发能力。</p>
-<p class="why">为什么值得看：属于 UI 架构设计技能点，可学习 Rust 在高性能 GUI 开发中的内存管理与跨平台抽象实现。</p>
+<article class="pick" data-src="github">
+<h3><span class="num">06</span> <a href="https://github.com/python001-dev/manus--ai" target="_blank" rel="noopener">python001-dev/manus--ai</a></h3>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 148</span><span class="tag">新建 2026-11-13</span><span class="date">11-13</span></p>
+<p class="sum">AI Manus 是一个支持在沙箱环境中运行多种工具与操作的通用 AI Agent 系统。</p>
+<p class="why">为什么值得看：Agent 运行环境隔离与工具调用架构，学习如何构建安全的沙箱执行环境以支持 Agent 执行复杂任务。</p>
 </article>
+<h2>🐙 GitHub（1）</h2>
 <article class="item" data-src="github">
-<h3><a href="https://github.com/amitshekhariitbhu/forward-deployed-engineer-roadmap" target="_blank" rel="noopener">amitshekhariitbhu/forward-deployed-engineer-roadmap</a></h3>
-<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 349</span><span class="tag">Markdown</span><span class="tag">新建 2026-10-30</span><span class="date">10-30</span></p>
-<p class="sum">Forward Deployed Engineer Roadmap 整理了 AI 领域前置部署工程师的成长路径，涵盖从技术栈到工程实践的系统性学习指南。</p>
-<p class="why">为什么值得看：属于 AI 工程化落地技能点，可复用其关于客户现场交付、模型微调与系统集成的方法论。</p>
+<h3><a href="https://github.com/N1nEmAn/sapper-v2" target="_blank" rel="noopener">N1nEmAn/sapper-v2</a></h3>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 2041</span><span class="tag">Python</span><span class="tag">新建 2026-10-30</span><span class="date">10-30</span></p>
+<p class="sum">N1nEmAn 开源 sapper-v2，这是一个具备自我演进能力的自动化渗透测试 Agent 框架，通过 Nüwa Foundation 实现任务规划与历史记忆管理。</p>
+<p class="why">为什么值得看：Agent 自主学习与演进架构。可学习如何构建具备长短期记忆与任务规划能力的 Agent 闭环，以及在对抗性任务中的自动化决策机制。</p>
 </article>
 <h2>📺 YouTube（3）</h2>
 <article class="item" data-src="youtube">
-<h3><a href="https://www.youtube.com/shorts/rBUb_OA-73o" target="_blank" rel="noopener">Your Coding Agent Has a MASSIVE Blind Spot (You Need to Fix It)</a></h3>
-<p class="meta"><span class="tag src">YouTube · Cole Medin</span><span class="tag">视频</span><span class="date">11-12</span></p>
-<p class="sum">Dynatrace MCP Server 通过将实时生产环境数据接入 IDE，弥补了编码 Agent 缺乏运行时系统反馈的盲点。</p>
-<p class="why">为什么值得看：属于 Agent 观测性技能点，可学习如何利用 MCP 协议将外部监控数据转化为 Agent 的上下文输入。</p>
+<h3><a href="https://www.youtube.com/watch?v=PkAmyub12K8" target="_blank" rel="noopener">How Mozilla uses GPT-6 Cyber to find and fix Firefox vulnerabilities</a></h3>
+<p class="meta"><span class="tag src">YouTube · OpenAI</span><span class="tag">视频</span><span class="date">11-14</span></p>
+<p class="sum">Mozilla 结合 GPT-6 Cyber 安全模型，通过 AI Agent 自动化执行漏洞优先级排序、模式识别及修复方案生成，强化 Firefox 安全防御。</p>
+<p class="why">为什么值得看：AI 辅助软件工程。可借鉴 Agent 在代码审计与漏洞修复中的工作流设计，特别是如何将领域专家知识与 LLM 推理能力结合。</p>
 </article>
 <article class="item" data-src="youtube">
-<h3><a href="https://www.youtube.com/watch?v=fLjGgbW0Ki8" target="_blank" rel="noopener">Your Complete Guide to Fable 5.2 (When to Use It, Effort Levels, Prompting)</a></h3>
-<p class="meta"><span class="tag src">YouTube · Cole Medin</span><span class="tag">视频</span><span class="date">11-12</span></p>
-<p class="sum">Fable 5.2 模型在 Claude Code 中的应用指南，重点分析了其与 Opus 5.5 的任务分工策略及提示词优化技巧。</p>
-<p class="why">为什么值得看：属于 LLM 任务编排技能点，可复用「小模型规划、大模型执行」的混合推理架构以平衡成本与性能。</p>
+<h3><a href="https://www.youtube.com/shorts/mAlsfafDW-U" target="_blank" rel="noopener">I Trust My AI Agents to Merge Code… But NOT Ship It</a></h3>
+<p class="meta"><span class="tag src">YouTube · Cole Medin</span><span class="tag">视频</span><span class="date">11-13</span></p>
+<p class="sum">LaunchDarkly 发布 Release Autopilot，利用 AI Agent 自动化处理特征标志管理、风险分类及成功指标监控，实现生产环境的受控发布。</p>
+<p class="why">为什么值得看：AI Agent 的生产环境治理。学习如何通过特征标志（Feature Flags）构建 Agent 的安全护栏，实现自动化发布流程的风险隔离与可观测性。</p>
 </article>
 <article class="item" data-src="youtube">
-<h3><a href="https://www.youtube.com/watch?v=1M8vagUOdJM" target="_blank" rel="noopener">Fireside Chat with Erik Bernhardsson, Modal</a></h3>
-<p class="meta"><span class="tag src">YouTube · LangChain</span><span class="tag">视频</span><span class="date">11-12</span></p>
-<p class="sum">Modal CEO Erik Bernhardsson 探讨了 AI 沙箱基础设施的演进，提出 Agent 编排应与工具调用沙箱解耦的架构思路。</p>
-<p class="why">为什么值得看：属于 AI 基础设施架构技能点，可学习如何设计短生命周期沙箱以提升 Agent 任务执行的安全性与隔离性。</p>
+<h3><a href="https://www.youtube.com/watch?v=Sc6TriRAGnI" target="_blank" rel="noopener">Gemini 4 Swarm is out of control...</a></h3>
+<p class="meta"><span class="tag src">YouTube · Wes Roth</span><span class="tag">视频</span><span class="date">11-13</span></p>
+<p class="sum">Google 发布 Gemini 4 系列模型及 Swarm 多智能体框架，支持多模型协同工作，并展示了 Gemini 4 Carbon 在复杂视频编辑任务中的自主执行能力。</p>
+<p class="why">为什么值得看：多智能体协同架构。关注 Swarm 框架下的任务拆解与多模型调度机制，理解如何通过多 Agent 协作处理长链路、多步骤的复杂任务。</p>
 </article>
 <h2>📝 博客（3）</h2>
 <article class="item" data-src="blog">
-<h3><a href="https://openai.com/index/jiostar-vijay-seshadri" target="_blank" rel="noopener">JioStar’s chief architect on AI discovery at 500M-user scale</a></h3>
-<p class="meta"><span class="tag src">OpenAI 官方博客</span><span class="tag">文章</span><span class="date">11-11</span></p>
-<p class="sum">JioStar 分享了在 5 亿用户规模下落地 AI 的经验，强调了评估体系、安全护栏及生产环境部署的关键实践。</p>
-<p class="why">为什么值得看：属于大规模 AI 系统工程技能点，可复用其在高并发场景下构建自动化评估与防御性 AI 架构的工程经验。</p>
+<h3><a href="https://www.marktechpost.com/2026/11/13/google-tpu-sync-kv-cache-transfer-library/" target="_blank" rel="noopener">Google Releases TPU Sync: Open-Source KV Cache Transfer for TPUs</a></h3>
+<p class="meta"><span class="tag src">MarkTechPost</span><span class="tag">文章</span><span class="date">11-13</span></p>
+<p class="sum">Google 开源 TPU Sync C++ 库，支持在 TPU HBM、主机 DRAM 及网络间高效传输 KV Cache 与权重，显著降低 MoE 模型推理延迟。</p>
+<p class="why">为什么值得看：大模型推理性能优化。掌握分布式推理中 KV Cache 的内存管理与跨节点传输技术，是优化超大规模模型部署的关键工程能力。</p>
 </article>
 <article class="item" data-src="blog">
-<h3><a href="https://huggingface.co/blog/3d-lora-finetuning" target="_blank" rel="noopener">The Definitive Fine-Tuning Guide for 3D Generation Models</a></h3>
-<p class="meta"><span class="tag src">HuggingFace 博客</span><span class="tag">文章</span><span class="date">11-12</span></p>
-<p class="sum">HuggingFace 发布 3D 生成模型微调指南，涵盖数据集准备、训练策略及评估指标，旨在提升 3D 生成任务的质量与一致性。</p>
-<p class="why">为什么值得看：属于 3D 生成与多模态微调领域，可学习如何针对非结构化 3D 数据进行高效微调，掌握从数据预处理到模型评估的完整 Pipeline。</p>
+<h3><a href="https://blogs.nvidia.com/blog/geforce-now-thursday-warhammer-dawn-of-war-iv-coming/" target="_blank" rel="noopener">A New Dawn in the Cloud: ‘Warhammer 40,000: Dawn of War IV’ Is Coming to GeForce NOW</a></h3>
+<p class="meta"><span class="tag src">NVIDIA 技术博客</span><span class="tag">文章</span><span class="date">11-12</span></p>
+<p class="sum">NVIDIA 宣布 GeForce NOW 云游戏平台引入 Warhammer 40,000: Dawn of War IV，并为 War Thunder 等游戏集成 DLSS 5 技术。</p>
+<p class="why">为什么值得看：属于图形渲染与云端推理优化领域，可关注 DLSS 5 在高并发云端环境下的超分辨率与帧生成技术实现路径。</p>
 </article>
 <article class="item" data-src="blog">
-<h3><a href="https://simonwillison.net/2026/Nov/11/llm/" target="_blank" rel="noopener">llm 0.37.2</a></h3>
-<p class="meta"><span class="tag src">Simon Willison</span><span class="tag">文章</span><span class="date">11-12</span></p>
-<p class="sum">LLM 0.37.2 版本修复了 OpenAI 兼容 API 端点配置中的安全漏洞，防止 API Key 在多供应商配置中发生泄露。</p>
-<p class="why">为什么值得看：属于 LLM 应用工程安全领域，可学习在构建多模型调用工具时，如何防范敏感凭证在跨 API 端点配置中的意外泄露。</p>
+<h3><a href="https://www.leiphone.com/category/industrynews/U7WtbV9kyb90UuZ0.html" target="_blank" rel="noopener">中金公司与蚂蚁集团达成战略合作 共探AI赋能财富管理</a></h3>
+<p class="meta"><span class="tag src">雷锋网</span><span class="tag">文章</span><span class="date">11-13</span></p>
+<p class="sum">中金公司与蚂蚁集团达成战略合作，聚焦金融大模型技术创新，共同研发服务与营销协同的智能体集群。</p>
+<p class="why">为什么值得看：属于金融领域 Agent 落地应用，可复用多智能体协作（Multi-Agent Orchestration）在复杂业务流程中的任务拆解与人机协同设计模式。</p>
+</article>
+<h2>💬 Hacker News（1）</h2>
+<article class="item" data-src="hackernews">
+<h3><a href="https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/" target="_blank" rel="noopener">United Airlines bans AI agents from booking flights on behalf of travelers</a></h3>
+<p class="meta"><span class="tag src">Hacker News</span><span class="tag">🔥 676 分</span><span class="tag">💬 698</span><span class="date">11-12</span></p>
+<p class="sum">美联航 United Airlines 正式禁止 AI Agent 代表旅客进行机票预订操作，以应对自动化爬虫带来的系统负载与合规风险。</p>
+<p class="why">为什么值得看：Agent 落地场景的边界控制。可探讨 Agent 在高并发业务场景下的 API 鉴权、反爬策略及服务协议合规性设计。</p>
 </article>
 <h2>🔁 重复 / 相似提醒（6）</h2>
 <blockquote><p>以下条目此前推荐过，或与历史条目高度相似，仅列出供参考。</p></blockquote>
 <article class="item" data-src="github">
 <h3><a href="https://github.com/youngyangyang04/llm-master" target="_blank" rel="noopener">youngyangyang04/llm-master</a></h3>
-<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 1636</span><span class="tag">新建 2026-09-12</span><span class="date">09-12</span></p>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 1641</span><span class="tag">新建 2026-09-12</span><span class="date">09-12</span></p>
 <p class="sum">提供覆盖 Prompt Engineering 到模型部署等全栈 LLM 学习路线的中文教程。</p>
 <p class="why">为什么值得看：对 AI 工程师系统掌握 LLM 技术栈和面试准备极具参考价值。</p>
-<p class="dup">🔁 已于 2026-11-12 推荐过</p>
-</article>
-<article class="item" data-src="github">
-<h3><a href="https://github.com/wanghao-SunSky/cs329z-chinese" target="_blank" rel="noopener">wanghao-SunSky/cs329z-chinese</a></h3>
-<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 589</span><span class="tag">HTML</span><span class="tag">新建 2026-10-28</span><span class="date">10-29</span></p>
-<p class="sum">斯坦福 CS329Z 课程中文版，系统梳理了 LLM、RAG、工具调用、记忆机制、多智能体架构及评测安全等智能体开发核心知识体系。</p>
-<p class="why">为什么值得看：属于 AI Agent 工程化技能点，可复用其课程设计的模块化架构，学习如何构建从基础到多智能体协作的完整开发工作流。</p>
-<p class="dup">🔁 已于 2026-11-12 推荐过</p>
+<p class="dup">🔁 已于 2026-11-13 推荐过</p>
 </article>
 <article class="item" data-src="github">
 <h3><a href="https://github.com/Zleap-AI/SAG-Wiki" target="_blank" rel="noopener">Zleap-AI/SAG-Wiki</a></h3>
-<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 1105</span><span class="tag">Rust</span><span class="tag">新建 2026-10-18</span><span class="date">10-18</span></p>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 1173</span><span class="tag">Rust</span><span class="tag">新建 2026-10-18</span><span class="date">10-18</span></p>
 <p class="sum">SAG-Wiki 提供了一个轻量级知识库方案，通过优化索引结构实现极速检索，旨在为人类用户及 AI Agent 提供高精度的知识获取能力。</p>
 <p class="why">为什么值得看：属于 RAG 系统优化领域，可学习其轻量级索引设计与高精度检索策略，用于提升 Agent 知识库的响应速度与准确率。</p>
-<p class="dup">🔁 已于 2026-11-12 推荐过</p>
+<p class="dup">🔁 已于 2026-11-13 推荐过</p>
 </article>
 <article class="item" data-src="github">
 <h3><a href="https://github.com/YOLOW92/pagesift" target="_blank" rel="noopener">YOLOW92/pagesift</a></h3>
-<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 266</span><span class="tag">Rust</span><span class="tag">新建 2026-10-20</span><span class="date">10-21</span></p>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 271</span><span class="tag">Rust</span><span class="tag">新建 2026-10-20</span><span class="date">10-21</span></p>
 <p class="sum">基于 Rust 的高性能网页爬虫与内容提取引擎，提供适配 AI Agent 和 RAG 的干净 Markdown 及结构化数据输出。</p>
 <p class="why">为什么值得看：RAG 数据预处理技能，学习使用 Rust 实现高内存效率的浏览器渲染与 Firecrawl 兼容 API 以加速数据获取。</p>
-<p class="dup">🔁 已于 2026-11-12 推荐过</p>
+<p class="dup">🔁 已于 2026-11-13 推荐过</p>
 </article>
 <article class="item" data-src="github">
 <h3><a href="https://github.com/ccch1mneyyy/dsh-Go" target="_blank" rel="noopener">ccch1mneyyy/dsh-Go</a></h3>
-<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 20577</span><span class="tag">Dart</span><span class="tag">新建 2026-10-25</span><span class="date">10-25</span></p>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 21698</span><span class="tag">Dart</span><span class="tag">新建 2026-10-25</span><span class="date">10-25</span></p>
 <p class="sum">dsh-Go 实现 DeepSeek 模型在移动端本地运行，并支持远程控制桌面端执行任务，提供轻量级端侧推理解决方案。</p>
 <p class="why">为什么值得看：属于端侧 AI 部署技能点，可复用其跨设备通信与本地推理引擎集成方案，解决资源受限环境下的智能体调度问题。</p>
-<p class="dup">🔁 已于 2026-11-12 推荐过</p>
+<p class="dup">🔁 已于 2026-11-13 推荐过</p>
 </article>
 <article class="item" data-src="github">
 <h3><a href="https://github.com/amosblomqvist/learnharness" target="_blank" rel="noopener">amosblomqvist/learnharness</a></h3>
-<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 8918</span><span class="tag">TypeScript</span><span class="tag">新建 2026-10-16</span><span class="date">10-17</span></p>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 9211</span><span class="tag">TypeScript</span><span class="tag">新建 2026-10-16</span><span class="date">10-17</span></p>
 <p class="sum">LearnHarness 是一个专为学习复杂技能设计的 Agent 框架，通过结构化的交互流程辅助 Agent 掌握新知识或任务。</p>
 <p class="why">为什么值得看：属于 Agent 学习与任务规划领域。可学习如何构建 Agent 的长程任务分解与反馈循环，提升 Agent 在复杂任务中的自适应能力。</p>
-<p class="dup">🔁 已于 2026-11-12 推荐过</p>
+<p class="dup">🔁 已于 2026-11-13 推荐过</p>
+</article>
+<article class="item" data-src="github">
+<h3><a href="https://github.com/ai-gateways/awesome-ai-gateways" target="_blank" rel="noopener">ai-gateways/awesome-ai-gateways</a></h3>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 44</span><span class="tag">新建 2026-10-30</span><span class="date">10-30</span></p>
+<p class="sum">整理开源与商业 LLM 网关、MCP 网关、Agent 间通信网关及模型路由器的技术资源库。</p>
+<p class="why">为什么值得看：属于 AI 基础设施领域，可学习如何构建高可用、可观测的 LLM 中间件，掌握 Agent 架构中网关层面的流量调度与协议适配。</p>
+<p class="dup">🔁 已于 2026-11-10 推荐过</p>
 </article>
 <footer>
 <p>AI 前沿日报 · 由 GitHub Actions 每天 16:00 (CST) 自动生成 · 内容版权归原作者所有，链接均为原始出处</p>
