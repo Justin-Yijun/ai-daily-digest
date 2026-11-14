@@ -1,0 +1,768 @@
+{
+ "week": "2026-W46",
+ "start": "2026-11-09",
+ "end": "2026-11-15",
+ "generated": "2026-11-15 01:43",
+ "groups": [
+  {
+   "skill": "prompt_context",
+   "label": "提示 / 上下文工程",
+   "items": [
+    {
+     "source": "github",
+     "source_label": "GitHub",
+     "title": "liangjianshu/multimodal-image-retrieval",
+     "link": "https://github.com/liangjianshu/multimodal-image-retrieval",
+     "dt": "2026-11-02T14:22:10+00:00",
+     "summary": "多模态检索实战：意图识别、Prompt 工程、Qwen LoRA、EmbeddingGemma 2 与 InfoNCE 对比学习。含真实演示、自有数据接入、训练评测及 RAG 检索组件学习指南。",
+     "extra": {
+      "stars": 129,
+      "language": "Python",
+      "topics": [
+       "agent-tools",
+       "clip",
+       "contrastive-learning",
+       "ecommerce",
+       "embeddinggemma",
+       "image-retrieval"
+      ],
+      "created": "2026-11-02",
+      "pushed": "2026-11-05"
+     },
+     "skills": [
+      "prompt_context",
+      "rag",
+      "eval_observability",
+      "training_serving"
+     ],
+     "learn_score": 3.718,
+     "score": 11.565,
+     "tokens": [
+      "image",
+      "liangjianshu",
+      "multimodal",
+      "retrieval"
+     ],
+     "flag": "new",
+     "summary_zh": "multimodal-image-retrieval 项目整合了意图识别、Qwen LoRA 微调、EmbeddingGemma 2 与 InfoNCE 对比学习，提供了一套完整的多模态检索与 RAG 落地实践方案。",
+     "why_zh": "属于 RAG 与多模态检索领域，可学习如何通过对比学习优化 Embedding 模型，以及如何将 LoRA 微调与检索组件结合提升意图识别准确率。"
+    },
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.CL",
+     "title": "Compression of Emotion in Language Model Representations",
+     "link": "https://arxiv.org/abs/2611.08683",
+     "dt": "2026-11-09T00:00:00-05:00",
+     "summary": "arXiv:2611.08683v1 Announce Type: new Abstract: Large language models (LLMs) have been evaluated on their ability to identify emotions expressed in text and produce fluent emotional language. However, output predictions alone do not reveal how fine-grained emotion distinctions are organized internally. We study seven LLMs on GoEmotions, an English Reddit dataset annotated with 27 fine-grained emotion categories plus neutral. We compare model predictions and emotion-prompted final-token represent",
+     "extra": {},
+     "weight_override": 1.3,
+     "skills": [
+      "prompt_context",
+      "eval_observability"
+     ],
+     "learn_score": 3.58,
+     "score": 7.16,
+     "tokens": [
+      "compression",
+      "emotion",
+      "language",
+      "model",
+      "representations"
+     ],
+     "flag": "new",
+     "summary_zh": "该研究分析了七种 LLM 在 GoEmotions 数据集上的表现，揭示了模型内部表征中细粒度情感信息的组织方式及其压缩特性。",
+     "why_zh": "属于模型可解释性与表征学习领域，可学习如何通过探针技术分析 LLM 内部隐藏层状态，理解模型如何编码复杂语义特征。"
+    },
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.CL",
+     "title": "FinEvolveKG: Controlled and Attributable Prompt Evolution for Financial Knowledge Graph Construction",
+     "link": "https://arxiv.org/abs/2611.08643",
+     "dt": "2026-11-09T00:00:00-05:00",
+     "summary": "arXiv:2611.08643v1 Announce Type: new Abstract: Financial institutions construct knowledge graphs (KGs) from shared SEC 10-Ks to serve risk analysis, portfolio management, and investment research, whose analytical needs differ. Extraction must adapt without fragmenting shared grounding, typing, and temporal rules. Hand-authored persona prompts and fine-tuning add cost. Weight-free prompt optimization offers an alternative, but unconstrained evolution of a monolithic prompt can rewrite shared rul",
+     "extra": {},
+     "weight_override": 1.3,
+     "skills": [
+      "prompt_context",
+      "rag",
+      "training_serving"
+     ],
+     "learn_score": 3.094,
+     "score": 6.188,
+     "tokens": [
+      "attributable",
+      "construction",
+      "controlled",
+      "evolution",
+      "financial",
+      "finevolvekg",
+      "graph",
+      "knowledge",
+      "prompt"
+     ],
+     "flag": "new",
+     "summary_zh": "FinEvolveKG 提出了一种针对金融知识图谱构建的受控且可归因的 Prompt 演化框架，通过权重无关的优化方法适应不同分析需求。",
+     "why_zh": "属于知识图谱构建与 Prompt 工程领域，可学习如何通过受控演化机制在不进行全量微调的前提下，实现特定领域任务的 Prompt 自适应。"
+    },
+    {
+     "source": "blog",
+     "source_label": "MarkTechPost",
+     "title": "Nous Research Releases Arete-27B that Cuts Qwen3.8-27B Propaganda From 22% to 0.9%",
+     "link": "https://www.marktechpost.com/2026/11/07/nous-research-arete-27b-qwen3-8-27b-propaganda-fine-tune/",
+     "dt": "2026-11-08T04:45:59+00:00",
+     "summary": "Nous Research released Arete-27B, an Apache 2.0 fine-tune of Qwen3.8-27B. On Nous’s 803-prompt eval, propaganda answers fell from 22% to 0.9% while Hermes Bench stayed flat at 65.60%. The post Nous Research Releases Arete-27B that Cuts Qwen3.8-27B Propaganda From 22% to 0.9% appeared first on MarkTechPost .",
+     "extra": {},
+     "skills": [
+      "prompt_context",
+      "eval_observability",
+      "training_serving"
+     ],
+     "learn_score": 2.731,
+     "score": 2.731,
+     "tokens": [
+      "22",
+      "27b",
+      "arete",
+      "cuts",
+      "nous",
+      "propaganda",
+      "qwen3",
+      "releases",
+      "research"
+     ],
+     "flag": "new",
+     "summary_zh": "Nous Research 发布 Arete-27B 模型，基于 Qwen2.5-27B 微调，将宣传性回答比例从 22% 显著降低至 0.9%。",
+     "why_zh": "模型对齐与微调技能点。可复用做法：通过针对性的数据集清洗与指令微调，有效抑制大模型在特定领域内的偏见与过度引导倾向。"
+    }
+   ]
+  },
+  {
+   "skill": "rag",
+   "label": "RAG 检索增强",
+   "items": [
+    {
+     "source": "paper",
+     "source_label": "HF Daily Papers",
+     "title": "DeepStress: Stress-Testing Deep Search Agents",
+     "link": "https://huggingface.co/papers/2607.13920",
+     "dt": "2026-11-11T19:00:00+00:00",
+     "summary": "While search agents demonstrate impressive capabilities in multi-step question answering, their robustness to poor-quality evidence remains under-explored. Such evidence is rare in benchmark corpora, and resulting failures are hard to reproduce. We propose DeepStress, a dynamic stress-testing framework that subjects agents to degraded evidence at controlled rates. It replaces the retrieval module with a synthetic environment where documents are generated dynamically for each query, under indepen",
+     "extra": {
+      "upvotes": 4,
+      "arxiv": "https://arxiv.org/abs/2607.13920"
+     },
+     "skills": [
+      "rag",
+      "eval_observability"
+     ],
+     "learn_score": 2.616,
+     "score": 5.232,
+     "tokens": [
+      "agents",
+      "deep",
+      "deepstress",
+      "search",
+      "stress",
+      "testing"
+     ],
+     "flag": "new",
+     "summary_zh": "DeepStress 框架通过动态注入受损证据，对搜索类 Agent 进行压力测试，评估其在低质量检索环境下的鲁棒性。",
+     "why_zh": "Agent 系统评估与鲁棒性测试，学习通过替换检索模块进行对抗性测试，以识别 Agent 在复杂搜索任务中的潜在失效点。"
+    }
+   ]
+  },
+  {
+   "skill": "tool_mcp",
+   "label": "工具调用 / MCP",
+   "items": [
+    {
+     "source": "youtube",
+     "source_label": "YouTube · LangChain",
+     "title": "How Workday Builds Agent Prototypes in Under a Day with LangChain",
+     "link": "https://www.youtube.com/watch?v=xM_BhmEyKAY",
+     "dt": "2026-11-10T16:36:54+00:00",
+     "summary": "Alex Gatto, Senior Machine Learning Engineer at Workday, explains how his team built an internal agent platform on LangChain's Agent Server and LangSmith, so Workday teams can get agents into production under the company's security and data retention policies. Every agent on the platform runs as an A2A and MCP server with authentication and security built in, which leaves teams to decide what their agent does and how to build its graph. Prototypes that took 4 to 5 months now reach staging in les…",
+     "extra": {
+      "channel": "LangChain",
+      "video_id": "xM_BhmEyKAY"
+     },
+     "skills": [
+      "tool_mcp",
+      "multi_agent",
+      "system_design"
+     ],
+     "learn_score": 3.615,
+     "score": 3.615,
+     "tokens": [
+      "agent",
+      "builds",
+      "day",
+      "langchain",
+      "prototypes",
+      "under",
+      "workday"
+     ],
+     "flag": "new",
+     "summary_zh": "Workday 利用 LangChain Agent Server 和 LangSmith 构建内部 Agent 平台，通过 A2A 和 MCP 协议实现企业级认证与数据合规。",
+     "why_zh": "属于 Agent 架构设计。可学习如何通过标准化协议（MCP）和统一基础设施，在企业复杂安全策略下实现 Agent 的快速部署与治理。"
+    },
+    {
+     "source": "youtube",
+     "source_label": "YouTube · OpenAI",
+     "title": "Sites and the Next Generation of Web Apps | DevDay 2026",
+     "link": "https://www.youtube.com/watch?v=QRm7VNMnurA",
+     "dt": "2026-11-11T01:24:07+00:00",
+     "summary": "Turn an idea into an interactive web experience with Astra, ChatGPT Sites, and WebMCP. Learn how to build new kinds of interfaces alongside your colleagues and agents.",
+     "extra": {
+      "channel": "OpenAI",
+      "video_id": "QRm7VNMnurA"
+     },
+     "skills": [
+      "tool_mcp",
+      "system_design"
+     ],
+     "learn_score": 3.098,
+     "score": 3.098,
+     "tokens": [
+      "2026",
+      "apps",
+      "devday",
+      "generation",
+      "next",
+      "sites",
+      "web"
+     ],
+     "flag": "new",
+     "summary_zh": "OpenAI 推出 Astra、ChatGPT Sites 和 WebMCP，支持通过自然语言直接生成交互式 Web 应用并集成 Agent 协作能力。",
+     "why_zh": "属于 AI 原生应用开发。可学习 WebMCP 如何将 Web 交互能力暴露给 Agent，实现从对话到动态 UI 生成的端到端工作流。"
+    }
+   ]
+  },
+  {
+   "skill": "agent_architecture",
+   "label": "Agent 架构与循环",
+   "items": [
+    {
+     "source": "paper",
+     "source_label": "HF Daily Papers",
+     "title": "Experience-Handoff Reinforcement Learning for Recursive Self-Improvement",
+     "link": "https://huggingface.co/papers/2611.16409",
+     "dt": "2026-11-11T19:00:00+00:00",
+     "summary": "It is common to train Large Language Models (LLMs) for agentic tasks with Reinforcement Learning (RL) from scalar rewards. However, this throws away the fine-grained information about the environment that the agent experienced during the trial (e.g., error logs). To utilize this rich information, recent works wrap the agent in a harness that refines its own inputs through reflection or compaction and hands past experience to future rollouts, but the construction of the handed-off artifacts (e.g.",
+     "extra": {
+      "upvotes": 1,
+      "arxiv": "https://arxiv.org/abs/2611.16409"
+     },
+     "skills": [
+      "agent_architecture",
+      "multi_agent"
+     ],
+     "learn_score": 2.616,
+     "score": 5.232,
+     "tokens": [
+      "experience",
+      "handoff",
+      "improvement",
+      "learning",
+      "recursive",
+      "reinforcement",
+      "self"
+     ],
+     "flag": "new",
+     "summary_zh": "提出 Experience-Handoff RL 框架，通过将环境交互中的细粒度日志信息转化为反射或压缩后的输入，提升 LLM 自我改进能力。",
+     "why_zh": "强化学习与 Agent 反思机制结合，学习如何利用环境反馈日志优化 Agent 的上下文输入，提升复杂任务的鲁棒性。"
+    }
+   ]
+  },
+  {
+   "skill": "eval_observability",
+   "label": "评测与可观测",
+   "items": [
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.CL",
+     "title": "Forcing a Letter Suppresses Refusal: Mechanistic Evidence from WMDP",
+     "link": "https://arxiv.org/abs/2611.08639",
+     "dt": "2026-11-10T00:00:00-05:00",
+     "summary": "arXiv:2611.08639v1 Announce Type: new Abstract: Safety benchmarks for large language models (LLMs) commonly use multiple-choice question (MCQ) format. However, prior studies documented that MCQ format reduces refusal rates, which may significantly affect the safety behavior of the model. We provide a first mechanistic explanation of this effect on the Weapons of Mass Destruction Proxy (WMDP) dataset across two models - Llama-3.1-8B and Qwen3-8B. First, we use the tuned lens technique to show tha",
+     "extra": {},
+     "weight_override": 1.3,
+     "skills": [
+      "eval_observability"
+     ],
+     "learn_score": 2.983,
+     "score": 5.966,
+     "tokens": [
+      "evidence",
+      "forcing",
+      "letter",
+      "mechanistic",
+      "refusal",
+      "suppresses",
+      "wmdp"
+     ],
+     "flag": "new",
+     "summary_zh": "研究发现 LLM 在 MCQ 格式下拒绝率降低的机制，通过 WMDP 数据集揭示了强制输出特定字符可抑制模型的安全拒绝行为。",
+     "why_zh": "模型对齐与鲁棒性方向，可学习如何通过 Mechanistic Interpretability 分析提示词格式对模型安全边界的影响。"
+    },
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.AI",
+     "title": "EarthRecord: From Pixels to Land Change with Multimodal Agents over Four Decades of Satellite Imagery",
+     "link": "https://arxiv.org/abs/2611.12934",
+     "dt": "2026-11-11T00:00:00-05:00",
+     "summary": "arXiv:2611.12934v1 Announce Type: new Abstract: While multimodal agents now carry out complex data analysis with tools, their ability to turn decades of satellite imagery into reliable land-change analysis, crucial for Earth observation science, remains unmeasured. Existing benchmarks fall short: they pose questions on curated images or give agents preprocessed inputs, leaving out the raw multi-sensor archives where such analysis begins. We introduce EarthRecord, a benchmark built on the raw rec",
+     "extra": {},
+     "weight_override": 1.3,
+     "skills": [
+      "eval_observability"
+     ],
+     "learn_score": 2.983,
+     "score": 5.966,
+     "tokens": [
+      "agents",
+      "change",
+      "decades",
+      "earthrecord",
+      "four",
+      "imagery",
+      "land",
+      "multimodal",
+      "over",
+      "pixels",
+      "satellite"
+     ],
+     "flag": "new",
+     "summary_zh": "EarthRecord 提出了一个多模态 Agent 基准测试，旨在评估 Agent 处理长达四十年原始卫星影像并进行土地变化分析的能力。",
+     "why_zh": "属于多模态 Agent 评估领域，可学习如何构建处理长时序原始数据流的 Agent 任务，提升模型在复杂科学数据分析中的鲁棒性。"
+    }
+   ]
+  },
+  {
+   "skill": "training_serving",
+   "label": "训练 / 推理部署",
+   "items": [
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.AI",
+     "title": "Together Compiler: Continual Compilation for AI Inference",
+     "link": "https://arxiv.org/abs/2611.14681",
+     "dt": "2026-11-14T00:00:00-05:00",
+     "summary": "arXiv:2611.14681v1 Announce Type: new Abstract: Today's AI workloads are rapidly changing: new models are released more often, model architectures are increasingly diverse, and traffic distributions change frequently. The challenge we face at Together AI is continual optimization for these changing workloads. Compiling a deployment into an optimized forward pass is a challenge that is well-suited for agent hill-climbing. Existing systems struggle with continual compilation due to a tradeoff betw",
+     "extra": {},
+     "weight_override": 1.3,
+     "skills": [
+      "training_serving",
+      "system_design"
+     ],
+     "learn_score": 2.652,
+     "score": 5.304,
+     "tokens": [
+      "ai",
+      "compilation",
+      "compiler",
+      "continual",
+      "inference",
+      "together"
+     ],
+     "flag": "new",
+     "summary_zh": "Together Compiler 提出了一种针对动态 AI 工作负载的持续编译优化框架，旨在应对模型架构快速演进与流量分布变化。",
+     "why_zh": "深入理解 AI 推理引擎的编译优化技术，学习如何构建自适应编译器以提升模型在异构环境下的部署性能。"
+    }
+   ]
+  },
+  {
+   "skill": "system_design",
+   "label": "系统设计 / 从零实现",
+   "items": [
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.AI",
+     "title": "Auditable Human-Agent Teams for Autonomous X-ray Experimentation",
+     "link": "https://arxiv.org/abs/2611.12933",
+     "dt": "2026-11-11T00:00:00-05:00",
+     "summary": "arXiv:2611.12933v1 Announce Type: new Abstract: Closed-loop autonomous experimentation can accelerate scientific discovery, but implementation effort limits accessibility. Agentic systems may lower this barrier, although sustained operation on physical instruments remains largely unexplored. Here, using coding-agent infrastructure grounded in validated scientific methods, we demonstrate autonomous synchrotron X-ray experiments on nanoparticle superlattices under evolving, human-defined objective",
+     "extra": {},
+     "weight_override": 1.3,
+     "skills": [
+      "system_design"
+     ],
+     "learn_score": 2.983,
+     "score": 5.966,
+     "tokens": [
+      "agent",
+      "auditable",
+      "autonomous",
+      "experimentation",
+      "human",
+      "ray",
+      "teams"
+     ],
+     "flag": "new",
+     "summary_zh": "该研究提出了一种基于编码 Agent 的闭环自主实验框架，通过将科学方法论嵌入 Agent 基础设施，实现了 X 射线实验的自动化与可审计性。",
+     "why_zh": "属于 Agent 科学计算应用领域，可学习如何将领域专家知识转化为 Agent 的工具调用逻辑，实现复杂物理实验的自动化闭环。"
+    }
+   ]
+  }
+ ],
+ "items": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "liangjianshu/multimodal-image-retrieval",
+   "link": "https://github.com/liangjianshu/multimodal-image-retrieval",
+   "dt": "2026-11-02T14:22:10+00:00",
+   "summary": "多模态检索实战：意图识别、Prompt 工程、Qwen LoRA、EmbeddingGemma 2 与 InfoNCE 对比学习。含真实演示、自有数据接入、训练评测及 RAG 检索组件学习指南。",
+   "extra": {
+    "stars": 129,
+    "language": "Python",
+    "topics": [
+     "agent-tools",
+     "clip",
+     "contrastive-learning",
+     "ecommerce",
+     "embeddinggemma",
+     "image-retrieval"
+    ],
+    "created": "2026-11-02",
+    "pushed": "2026-11-05"
+   },
+   "skills": [
+    "prompt_context",
+    "rag",
+    "eval_observability",
+    "training_serving"
+   ],
+   "learn_score": 3.718,
+   "score": 11.565,
+   "tokens": [
+    "image",
+    "liangjianshu",
+    "multimodal",
+    "retrieval"
+   ],
+   "flag": "new",
+   "summary_zh": "multimodal-image-retrieval 项目整合了意图识别、Qwen LoRA 微调、EmbeddingGemma 2 与 InfoNCE 对比学习，提供了一套完整的多模态检索与 RAG 落地实践方案。",
+   "why_zh": "属于 RAG 与多模态检索领域，可学习如何通过对比学习优化 Embedding 模型，以及如何将 LoRA 微调与检索组件结合提升意图识别准确率。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "How Workday Builds Agent Prototypes in Under a Day with LangChain",
+   "link": "https://www.youtube.com/watch?v=xM_BhmEyKAY",
+   "dt": "2026-11-10T16:36:54+00:00",
+   "summary": "Alex Gatto, Senior Machine Learning Engineer at Workday, explains how his team built an internal agent platform on LangChain's Agent Server and LangSmith, so Workday teams can get agents into production under the company's security and data retention policies. Every agent on the platform runs as an A2A and MCP server with authentication and security built in, which leaves teams to decide what their agent does and how to build its graph. Prototypes that took 4 to 5 months now reach staging in les…",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": "xM_BhmEyKAY"
+   },
+   "skills": [
+    "tool_mcp",
+    "multi_agent",
+    "system_design"
+   ],
+   "learn_score": 3.615,
+   "score": 3.615,
+   "tokens": [
+    "agent",
+    "builds",
+    "day",
+    "langchain",
+    "prototypes",
+    "under",
+    "workday"
+   ],
+   "flag": "new",
+   "summary_zh": "Workday 利用 LangChain Agent Server 和 LangSmith 构建内部 Agent 平台，通过 A2A 和 MCP 协议实现企业级认证与数据合规。",
+   "why_zh": "属于 Agent 架构设计。可学习如何通过标准化协议（MCP）和统一基础设施，在企业复杂安全策略下实现 Agent 的快速部署与治理。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.CL",
+   "title": "Compression of Emotion in Language Model Representations",
+   "link": "https://arxiv.org/abs/2611.08683",
+   "dt": "2026-11-09T00:00:00-05:00",
+   "summary": "arXiv:2611.08683v1 Announce Type: new Abstract: Large language models (LLMs) have been evaluated on their ability to identify emotions expressed in text and produce fluent emotional language. However, output predictions alone do not reveal how fine-grained emotion distinctions are organized internally. We study seven LLMs on GoEmotions, an English Reddit dataset annotated with 27 fine-grained emotion categories plus neutral. We compare model predictions and emotion-prompted final-token represent",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "prompt_context",
+    "eval_observability"
+   ],
+   "learn_score": 3.58,
+   "score": 7.16,
+   "tokens": [
+    "compression",
+    "emotion",
+    "language",
+    "model",
+    "representations"
+   ],
+   "flag": "new",
+   "summary_zh": "该研究分析了七种 LLM 在 GoEmotions 数据集上的表现，揭示了模型内部表征中细粒度情感信息的组织方式及其压缩特性。",
+   "why_zh": "属于模型可解释性与表征学习领域，可学习如何通过探针技术分析 LLM 内部隐藏层状态，理解模型如何编码复杂语义特征。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "Sites and the Next Generation of Web Apps | DevDay 2026",
+   "link": "https://www.youtube.com/watch?v=QRm7VNMnurA",
+   "dt": "2026-11-11T01:24:07+00:00",
+   "summary": "Turn an idea into an interactive web experience with Astra, ChatGPT Sites, and WebMCP. Learn how to build new kinds of interfaces alongside your colleagues and agents.",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": "QRm7VNMnurA"
+   },
+   "skills": [
+    "tool_mcp",
+    "system_design"
+   ],
+   "learn_score": 3.098,
+   "score": 3.098,
+   "tokens": [
+    "2026",
+    "apps",
+    "devday",
+    "generation",
+    "next",
+    "sites",
+    "web"
+   ],
+   "flag": "new",
+   "summary_zh": "OpenAI 推出 Astra、ChatGPT Sites 和 WebMCP，支持通过自然语言直接生成交互式 Web 应用并集成 Agent 协作能力。",
+   "why_zh": "属于 AI 原生应用开发。可学习 WebMCP 如何将 Web 交互能力暴露给 Agent，实现从对话到动态 UI 生成的端到端工作流。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.CL",
+   "title": "FinEvolveKG: Controlled and Attributable Prompt Evolution for Financial Knowledge Graph Construction",
+   "link": "https://arxiv.org/abs/2611.08643",
+   "dt": "2026-11-09T00:00:00-05:00",
+   "summary": "arXiv:2611.08643v1 Announce Type: new Abstract: Financial institutions construct knowledge graphs (KGs) from shared SEC 10-Ks to serve risk analysis, portfolio management, and investment research, whose analytical needs differ. Extraction must adapt without fragmenting shared grounding, typing, and temporal rules. Hand-authored persona prompts and fine-tuning add cost. Weight-free prompt optimization offers an alternative, but unconstrained evolution of a monolithic prompt can rewrite shared rul",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "prompt_context",
+    "rag",
+    "training_serving"
+   ],
+   "learn_score": 3.094,
+   "score": 6.188,
+   "tokens": [
+    "attributable",
+    "construction",
+    "controlled",
+    "evolution",
+    "financial",
+    "finevolvekg",
+    "graph",
+    "knowledge",
+    "prompt"
+   ],
+   "flag": "new",
+   "summary_zh": "FinEvolveKG 提出了一种针对金融知识图谱构建的受控且可归因的 Prompt 演化框架，通过权重无关的优化方法适应不同分析需求。",
+   "why_zh": "属于知识图谱构建与 Prompt 工程领域，可学习如何通过受控演化机制在不进行全量微调的前提下，实现特定领域任务的 Prompt 自适应。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.CL",
+   "title": "Forcing a Letter Suppresses Refusal: Mechanistic Evidence from WMDP",
+   "link": "https://arxiv.org/abs/2611.08639",
+   "dt": "2026-11-10T00:00:00-05:00",
+   "summary": "arXiv:2611.08639v1 Announce Type: new Abstract: Safety benchmarks for large language models (LLMs) commonly use multiple-choice question (MCQ) format. However, prior studies documented that MCQ format reduces refusal rates, which may significantly affect the safety behavior of the model. We provide a first mechanistic explanation of this effect on the Weapons of Mass Destruction Proxy (WMDP) dataset across two models - Llama-3.1-8B and Qwen3-8B. First, we use the tuned lens technique to show tha",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 2.983,
+   "score": 5.966,
+   "tokens": [
+    "evidence",
+    "forcing",
+    "letter",
+    "mechanistic",
+    "refusal",
+    "suppresses",
+    "wmdp"
+   ],
+   "flag": "new",
+   "summary_zh": "研究发现 LLM 在 MCQ 格式下拒绝率降低的机制，通过 WMDP 数据集揭示了强制输出特定字符可抑制模型的安全拒绝行为。",
+   "why_zh": "模型对齐与鲁棒性方向，可学习如何通过 Mechanistic Interpretability 分析提示词格式对模型安全边界的影响。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Auditable Human-Agent Teams for Autonomous X-ray Experimentation",
+   "link": "https://arxiv.org/abs/2611.12933",
+   "dt": "2026-11-11T00:00:00-05:00",
+   "summary": "arXiv:2611.12933v1 Announce Type: new Abstract: Closed-loop autonomous experimentation can accelerate scientific discovery, but implementation effort limits accessibility. Agentic systems may lower this barrier, although sustained operation on physical instruments remains largely unexplored. Here, using coding-agent infrastructure grounded in validated scientific methods, we demonstrate autonomous synchrotron X-ray experiments on nanoparticle superlattices under evolving, human-defined objective",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "system_design"
+   ],
+   "learn_score": 2.983,
+   "score": 5.966,
+   "tokens": [
+    "agent",
+    "auditable",
+    "autonomous",
+    "experimentation",
+    "human",
+    "ray",
+    "teams"
+   ],
+   "flag": "new",
+   "summary_zh": "该研究提出了一种基于编码 Agent 的闭环自主实验框架，通过将科学方法论嵌入 Agent 基础设施，实现了 X 射线实验的自动化与可审计性。",
+   "why_zh": "属于 Agent 科学计算应用领域，可学习如何将领域专家知识转化为 Agent 的工具调用逻辑，实现复杂物理实验的自动化闭环。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "EarthRecord: From Pixels to Land Change with Multimodal Agents over Four Decades of Satellite Imagery",
+   "link": "https://arxiv.org/abs/2611.12934",
+   "dt": "2026-11-11T00:00:00-05:00",
+   "summary": "arXiv:2611.12934v1 Announce Type: new Abstract: While multimodal agents now carry out complex data analysis with tools, their ability to turn decades of satellite imagery into reliable land-change analysis, crucial for Earth observation science, remains unmeasured. Existing benchmarks fall short: they pose questions on curated images or give agents preprocessed inputs, leaving out the raw multi-sensor archives where such analysis begins. We introduce EarthRecord, a benchmark built on the raw rec",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 2.983,
+   "score": 5.966,
+   "tokens": [
+    "agents",
+    "change",
+    "decades",
+    "earthrecord",
+    "four",
+    "imagery",
+    "land",
+    "multimodal",
+    "over",
+    "pixels",
+    "satellite"
+   ],
+   "flag": "new",
+   "summary_zh": "EarthRecord 提出了一个多模态 Agent 基准测试，旨在评估 Agent 处理长达四十年原始卫星影像并进行土地变化分析的能力。",
+   "why_zh": "属于多模态 Agent 评估领域，可学习如何构建处理长时序原始数据流的 Agent 任务，提升模型在复杂科学数据分析中的鲁棒性。"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "Nous Research Releases Arete-27B that Cuts Qwen3.8-27B Propaganda From 22% to 0.9%",
+   "link": "https://www.marktechpost.com/2026/11/07/nous-research-arete-27b-qwen3-8-27b-propaganda-fine-tune/",
+   "dt": "2026-11-08T04:45:59+00:00",
+   "summary": "Nous Research released Arete-27B, an Apache 2.0 fine-tune of Qwen3.8-27B. On Nous’s 803-prompt eval, propaganda answers fell from 22% to 0.9% while Hermes Bench stayed flat at 65.60%. The post Nous Research Releases Arete-27B that Cuts Qwen3.8-27B Propaganda From 22% to 0.9% appeared first on MarkTechPost .",
+   "extra": {},
+   "skills": [
+    "prompt_context",
+    "eval_observability",
+    "training_serving"
+   ],
+   "learn_score": 2.731,
+   "score": 2.731,
+   "tokens": [
+    "22",
+    "27b",
+    "arete",
+    "cuts",
+    "nous",
+    "propaganda",
+    "qwen3",
+    "releases",
+    "research"
+   ],
+   "flag": "new",
+   "summary_zh": "Nous Research 发布 Arete-27B 模型，基于 Qwen2.5-27B 微调，将宣传性回答比例从 22% 显著降低至 0.9%。",
+   "why_zh": "模型对齐与微调技能点。可复用做法：通过针对性的数据集清洗与指令微调，有效抑制大模型在特定领域内的偏见与过度引导倾向。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Together Compiler: Continual Compilation for AI Inference",
+   "link": "https://arxiv.org/abs/2611.14681",
+   "dt": "2026-11-14T00:00:00-05:00",
+   "summary": "arXiv:2611.14681v1 Announce Type: new Abstract: Today's AI workloads are rapidly changing: new models are released more often, model architectures are increasingly diverse, and traffic distributions change frequently. The challenge we face at Together AI is continual optimization for these changing workloads. Compiling a deployment into an optimized forward pass is a challenge that is well-suited for agent hill-climbing. Existing systems struggle with continual compilation due to a tradeoff betw",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "training_serving",
+    "system_design"
+   ],
+   "learn_score": 2.652,
+   "score": 5.304,
+   "tokens": [
+    "ai",
+    "compilation",
+    "compiler",
+    "continual",
+    "inference",
+    "together"
+   ],
+   "flag": "new",
+   "summary_zh": "Together Compiler 提出了一种针对动态 AI 工作负载的持续编译优化框架，旨在应对模型架构快速演进与流量分布变化。",
+   "why_zh": "深入理解 AI 推理引擎的编译优化技术，学习如何构建自适应编译器以提升模型在异构环境下的部署性能。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Experience-Handoff Reinforcement Learning for Recursive Self-Improvement",
+   "link": "https://huggingface.co/papers/2611.16409",
+   "dt": "2026-11-11T19:00:00+00:00",
+   "summary": "It is common to train Large Language Models (LLMs) for agentic tasks with Reinforcement Learning (RL) from scalar rewards. However, this throws away the fine-grained information about the environment that the agent experienced during the trial (e.g., error logs). To utilize this rich information, recent works wrap the agent in a harness that refines its own inputs through reflection or compaction and hands past experience to future rollouts, but the construction of the handed-off artifacts (e.g.",
+   "extra": {
+    "upvotes": 1,
+    "arxiv": "https://arxiv.org/abs/2611.16409"
+   },
+   "skills": [
+    "agent_architecture",
+    "multi_agent"
+   ],
+   "learn_score": 2.616,
+   "score": 5.232,
+   "tokens": [
+    "experience",
+    "handoff",
+    "improvement",
+    "learning",
+    "recursive",
+    "reinforcement",
+    "self"
+   ],
+   "flag": "new",
+   "summary_zh": "提出 Experience-Handoff RL 框架，通过将环境交互中的细粒度日志信息转化为反射或压缩后的输入，提升 LLM 自我改进能力。",
+   "why_zh": "强化学习与 Agent 反思机制结合，学习如何利用环境反馈日志优化 Agent 的上下文输入，提升复杂任务的鲁棒性。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "DeepStress: Stress-Testing Deep Search Agents",
+   "link": "https://huggingface.co/papers/2607.13920",
+   "dt": "2026-11-11T19:00:00+00:00",
+   "summary": "While search agents demonstrate impressive capabilities in multi-step question answering, their robustness to poor-quality evidence remains under-explored. Such evidence is rare in benchmark corpora, and resulting failures are hard to reproduce. We propose DeepStress, a dynamic stress-testing framework that subjects agents to degraded evidence at controlled rates. It replaces the retrieval module with a synthetic environment where documents are generated dynamically for each query, under indepen",
+   "extra": {
+    "upvotes": 4,
+    "arxiv": "https://arxiv.org/abs/2607.13920"
+   },
+   "skills": [
+    "rag",
+    "eval_observability"
+   ],
+   "learn_score": 2.616,
+   "score": 5.232,
+   "tokens": [
+    "agents",
+    "deep",
+    "deepstress",
+    "search",
+    "stress",
+    "testing"
+   ],
+   "flag": "new",
+   "summary_zh": "DeepStress 框架通过动态注入受损证据，对搜索类 Agent 进行压力测试，评估其在低质量检索环境下的鲁棒性。",
+   "why_zh": "Agent 系统评估与鲁棒性测试，学习通过替换检索模块进行对抗性测试，以识别 Agent 在复杂搜索任务中的潜在失效点。"
+  }
+ ]
+}

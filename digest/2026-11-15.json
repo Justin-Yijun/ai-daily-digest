@@ -1,0 +1,601 @@
+{
+ "date": "2026-11-15",
+ "generated": "2026-11-15 01:43",
+ "source_count": {
+  "github": 79,
+  "youtube": 37,
+  "blog": 82,
+  "paper": 18,
+  "hackernews": 10
+ },
+ "failures": {},
+ "failure_errors": {},
+ "summary_missing": [],
+ "summary_providers": {
+  "gemini": 3
+ },
+ "items": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "DIYgod/pinky",
+   "link": "https://github.com/DIYgod/pinky",
+   "dt": "2026-11-06T16:53:14+00:00",
+   "summary": "Let AI use your iPhone or Android phone, with you in the loop: any MCP agent from macOS, Windows or Linux, or Pinky itself, right on the phone.",
+   "extra": {
+    "stars": 2135,
+    "language": "Go",
+    "topics": [
+     "ai-agent",
+     "android",
+     "claude-code",
+     "ios",
+     "iphone",
+     "mcp"
+    ],
+    "created": "2026-11-06",
+    "pushed": "2026-11-14"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "tokens": [
+    "diygod",
+    "pinky"
+   ],
+   "flag": "new",
+   "summary_zh": "Pinky 允许桌面端的 MCP Agent 通过协议直接控制 Android 或 iPhone 设备，实现跨平台移动端自动化操作。",
+   "why_zh": "掌握 MCP 协议在移动端自动化场景的落地，学习如何通过中间件实现 Agent 对物理设备的远程控制与交互。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Together Compiler: Continual Compilation for AI Inference",
+   "link": "https://arxiv.org/abs/2611.14681",
+   "dt": "2026-11-14T00:00:00-05:00",
+   "summary": "arXiv:2611.14681v1 Announce Type: new Abstract: Today's AI workloads are rapidly changing: new models are released more often, model architectures are increasingly diverse, and traffic distributions change frequently. The challenge we face at Together AI is continual optimization for these changing workloads. Compiling a deployment into an optimized forward pass is a challenge that is well-suited for agent hill-climbing. Existing systems struggle with continual compilation due to a tradeoff betw",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "training_serving",
+    "system_design"
+   ],
+   "learn_score": 2.652,
+   "score": 5.304,
+   "tokens": [
+    "ai",
+    "compilation",
+    "compiler",
+    "continual",
+    "inference",
+    "together"
+   ],
+   "flag": "new",
+   "summary_zh": "Together Compiler 提出了一种针对动态 AI 工作负载的持续编译优化框架，旨在应对模型架构快速演进与流量分布变化。",
+   "why_zh": "深入理解 AI 推理引擎的编译优化技术，学习如何构建自适应编译器以提升模型在异构环境下的部署性能。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction",
+   "link": "https://huggingface.co/papers/2611.10439",
+   "dt": "2026-11-06T19:00:00+00:00",
+   "summary": "Self-evolving agents improve their own skills, memory, and harness code from experience without retraining the base LLM, and group-evolving agents go further by sharing these lessons across agents. Yet most such systems overlook that sharing across users and heterogeneous agents requires deciding who can benefit from each lesson and what information must remain private. We present MixUA, a memory system that distills independent user-agent trajectories into lessons and assigns each lesson to a u",
+   "extra": {
+    "upvotes": 7,
+    "arxiv": "https://arxiv.org/abs/2611.10439"
+   },
+   "skills": [
+    "agent_architecture",
+    "multi_agent"
+   ],
+   "learn_score": 2.355,
+   "score": 4.71,
+   "tokens": [
+    "agent",
+    "extraction",
+    "granularity",
+    "interaction",
+    "memory",
+    "multi",
+    "remembers",
+    "user",
+    "who"
+   ],
+   "flag": "new",
+   "summary_zh": "MixUA 框架通过多粒度内存提取机制，在多用户与多 Agent 交互中实现了知识共享与隐私保护的平衡。",
+   "why_zh": "掌握 Agent 记忆系统设计，学习如何处理多智能体协作中的信息隔离与权限控制，提升 Agent 系统的安全性。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Brave Search API now accepts agentic payments via the x402 protocol",
+   "link": "https://brave.com/blog/search-api-agentic-payments/",
+   "dt": "2026-11-13T03:08:08+00:00",
+   "summary": "",
+   "extra": {
+    "points": 260,
+    "comments": 150,
+    "hn_link": "https://news.ycombinator.com/item?id=50477649"
+   },
+   "skills": [],
+   "learn_score": 1.35,
+   "score": 4.61,
+   "tokens": [
+    "accepts",
+    "agentic",
+    "api",
+    "brave",
+    "now",
+    "payments",
+    "protocol",
+    "search",
+    "x402"
+   ],
+   "flag": "new",
+   "summary_zh": "Brave Search API 集成 x402 协议，支持 Agent 自动完成搜索服务的支付与结算。",
+   "why_zh": "了解 Agent 经济模型与自动化支付流程，学习如何利用协议实现 Agent 服务的自主化付费与资源调用。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "armsworminterface/ai--manus",
+   "link": "https://github.com/armsworminterface/ai--manus",
+   "dt": "2026-11-13T16:45:42+00:00",
+   "summary": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+   "extra": {
+    "stars": 304,
+    "language": "",
+    "topics": [
+     "ai",
+     "ai-agents",
+     "ai-sdk",
+     "anthropic",
+     "chatbot",
+     "function-calling"
+    ],
+    "created": "2026-11-13",
+    "pushed": "2026-11-14"
+   },
+   "skills": [],
+   "learn_score": 1.215,
+   "score": 4.232,
+   "tokens": [
+    "ai",
+    "armsworminterface",
+    "manus"
+   ],
+   "flag": "new",
+   "summary_zh": "AI Manus 是一个通用 AI Agent 系统，支持在沙箱环境中执行多种工具调用与复杂操作。",
+   "why_zh": "学习 Agent 沙箱环境的构建与安全隔离机制，掌握如何为 Agent 设计可扩展的工具执行框架。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "WinnerBrokerBarrow/ai--manus",
+   "link": "https://github.com/WinnerBrokerBarrow/ai--manus",
+   "dt": "2026-11-13T16:43:52+00:00",
+   "summary": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+   "extra": {
+    "stars": 304,
+    "language": "",
+    "topics": [
+     "ai",
+     "ai-agents",
+     "ai-sdk",
+     "anthropic",
+     "chatbot",
+     "function-calling"
+    ],
+    "created": "2026-11-13",
+    "pushed": "2026-11-14"
+   },
+   "skills": [],
+   "learn_score": 1.215,
+   "score": 4.232,
+   "tokens": [
+    "ai",
+    "manus",
+    "winnerbrokerbarrow"
+   ],
+   "flag": "new",
+   "summary_zh": "AI Manus 是一个通用 AI Agent 系统，支持在沙箱环境中执行多种工具调用与复杂操作。",
+   "why_zh": "学习 Agent 沙箱环境的构建与安全隔离机制，掌握如何为 Agent 设计可扩展的工具执行框架。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "GryphonEmpress/ai--manus",
+   "link": "https://github.com/GryphonEmpress/ai--manus",
+   "dt": "2026-11-13T16:43:58+00:00",
+   "summary": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+   "extra": {
+    "stars": 303,
+    "language": "",
+    "topics": [
+     "ai",
+     "ai-agents",
+     "ai-sdk",
+     "anthropic",
+     "chatbot",
+     "function-calling"
+    ],
+    "created": "2026-11-13",
+    "pushed": "2026-11-14"
+   },
+   "skills": [],
+   "learn_score": 1.215,
+   "score": 4.23,
+   "tokens": [
+    "ai",
+    "gryphonempress",
+    "manus"
+   ],
+   "flag": "new",
+   "summary_zh": "GryphonEmpress/ai--manus 是一个通用 AI Agent 系统，支持在沙箱环境中执行多种工具调用与操作任务。",
+   "why_zh": "Agent 系统架构设计。可学习如何在隔离的沙箱环境中安全地执行工具调用，是构建生产级 Agent 的核心安全实践。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Claude Is Down",
+   "link": "https://status.claude.com/history",
+   "dt": "2026-11-13T10:20:09+00:00",
+   "summary": "",
+   "extra": {
+    "points": 199,
+    "comments": 179,
+    "hn_link": "https://news.ycombinator.com/item?id=50481220"
+   },
+   "skills": [],
+   "learn_score": 1.0,
+   "score": 3.299,
+   "tokens": [
+    "claude",
+    "down"
+   ],
+   "flag": "new",
+   "summary_zh": "Claude 服务出现大规模宕机，引发开发者对依赖单一闭源模型 API 的高可用性与容灾方案讨论。",
+   "why_zh": "系统架构与稳定性。考察在 Agent 系统中实现多模型路由、降级策略及 API 异常处理的工程能力。"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "Vercel Releases UI SDK: 50+ UI Behaviors for AI Coding Agents",
+   "link": "https://www.marktechpost.com/2026/11/13/vercel-ui-sdk-agent-ui-behaviors/",
+   "dt": "2026-11-14T06:38:14+00:00",
+   "summary": "Vercel Labs released Vercel UI SDK, an Apache-2.0 beta library of 50+ UI behaviors. Coding agents compose them into accessible components for React, Vue, Svelte, Solid and Web Components, with a bridge for direct UI control. The post Vercel Releases UI SDK: 50+ UI Behaviors for AI Coding Agents appeared first on MarkTechPost .",
+   "extra": {},
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.951,
+   "score": 1.951,
+   "tokens": [
+    "50",
+    "agents",
+    "ai",
+    "behaviors",
+    "coding",
+    "releases",
+    "sdk",
+    "ui",
+    "vercel"
+   ],
+   "flag": "new",
+   "summary_zh": "Vercel 发布 UI SDK，提供 50 多种 UI 行为组件，支持 React、Vue 等框架，旨在提升 AI 编码 Agent 的前端交互能力。",
+   "why_zh": "Agent-Human Interaction。掌握如何通过预定义的 UI 行为库，提升 AI 生成代码的可视化交互体验与组件可访问性。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Two Minute Papers",
+   "title": "AI Can Do Everything…Except This",
+   "link": "https://www.youtube.com/watch?v=x7iwI6WfWS0",
+   "dt": "2026-11-14T08:40:55+00:00",
+   "summary": "After finishing this song, it took me 3 months to gather the courage to stand in front of the camera to record it. Hope you Fellow Scholars enjoy it! Thank you so much for the amazing musicians for their help! - Vocals: Carolina Padrón - Drums: Federico Gucciardo - Bass: Phil Gonnand - Saxophone: Dima Faustov - Guitar: Jens Ambrosch - Guitar: Dr. Károly Zsolnai-Fehér If you wish to play a cover, the guitar tab is available here for free: https://www.dropbox.com/scl/fi/2x2v6etorp2psnieg4ka6/two-m…",
+   "extra": {
+    "channel": "Two Minute Papers",
+    "video_id": "x7iwI6WfWS0"
+   },
+   "skills": [
+    "rag"
+   ],
+   "learn_score": 1.53,
+   "score": 1.53,
+   "tokens": [
+    "ai",
+    "do",
+    "everything",
+    "except"
+   ],
+   "flag": "new",
+   "summary_zh": "AI 在处理复杂逻辑与创造性任务时仍存在局限性，探讨当前大模型在特定领域表现的边界。",
+   "why_zh": "模型评估与局限性分析。面试中可用于讨论大模型在复杂推理任务中的失败案例，以及如何通过 RAG 或 Agent 编排弥补模型短板。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "LangChain Academy New Course: Building and Deploying Managed Agents",
+   "link": "https://www.youtube.com/watch?v=tqgthjS7Ym4",
+   "dt": "2026-11-12T19:48:38+00:00",
+   "summary": "Getting an agent working on your laptop takes hours, but putting it in front of real users can take weeks of infrastructure work around the agent itself. This new LangChain Academy course shows you how to close that gap with LangSmith Managed Agents, where you define the agent and the context it needs and deploy it with one command. You'll start with how an agent is put together, then run it on the managed platform with its own sandbox and user credentials. From there you'll add authentication a…",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": "tqgthjS7Ym4"
+   },
+   "skills": [],
+   "learn_score": 1.519,
+   "score": 1.519,
+   "tokens": [
+    "academy",
+    "agents",
+    "building",
+    "course",
+    "deploying",
+    "langchain",
+    "managed"
+   ],
+   "flag": "new",
+   "summary_zh": "LangChain Academy 推出托管 Agent 课程，讲解如何利用 LangSmith 将本地 Agent 快速部署至生产环境。",
+   "why_zh": "Agent 部署与运维。学习如何通过托管平台解决 Agent 的基础设施依赖，掌握从开发到生产环境的一键部署工程化流程。"
+  },
+  {
+   "source": "blog",
+   "source_label": "新智元",
+   "title": "Claude新旗舰刚发，95万字绝密提示词被扒光了！",
+   "link": "https://aiera.com.cn/2026/11/14/other/admin/123751/claude%e6%96%b0%e6%97%97%e8%88%b0%e5%88%9a%e5%8f%91%ef%bc%8c95%e4%b8%87%e5%ad%97%e7%bb%9d%e5%af%86%e6%8f%90%e7%a4%ba%e8%af%8d%e8%a2%ab%e6%89%92%e5%85%89%e4%ba%86%ef%bc%81/",
+   "dt": "2026-11-14T00:06:37+00:00",
+   "summary": "Anthropic全新王炸模型Claude Fable 5.2刚上线两个多小时，后台家底就被扒了个精光！",
+   "extra": {},
+   "skills": [
+    "prompt_context"
+   ],
+   "learn_score": 1.445,
+   "score": 1.445,
+   "tokens": [
+    "95万字绝密提示词被扒光了",
+    "claude新旗舰刚发"
+   ],
+   "flag": "new",
+   "summary_zh": "Claude Fable 5.2 的系统提示词被泄露，揭示了模型在复杂指令遵循与角色设定方面的内部逻辑。",
+   "why_zh": "Prompt Engineering 与模型安全。分析系统提示词的结构化设计，学习如何通过高质量的 System Prompt 优化模型行为并防范 Prompt 注入。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "Cyber at the Frontier: Introducing Daybreak Red Team & Daybreak Defense Factory",
+   "link": "https://www.youtube.com/watch?v=YmxpxJZvm4M",
+   "dt": "2026-11-12T22:37:14+00:00",
+   "summary": "Greg Brockman, Nancy Wang, Fouad Matin, Clint Gibler, Alexander Thiemann, and Matt Boyle took the stage at Cyber at the Frontier, where OpenAI introduced two cybersecurity products under one unified Codex plugin called Daybreak: Daybreak Defense Factory: builds on Codex Security Cloud to help teams automate the defensive loop to find, validate, and fix vulnerabilities at scale. It gives engineers proposed patches with test results so they can review changes before merging. All of the work runs i…",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": "YmxpxJZvm4M"
+   },
+   "skills": [],
+   "learn_score": 1.215,
+   "score": 1.215,
+   "tokens": [
+    "cyber",
+    "daybreak",
+    "defense",
+    "factory",
+    "frontier",
+    "introducing",
+    "red",
+    "team"
+   ],
+   "flag": "new",
+   "summary_zh": "OpenAI 发布 Daybreak 平台，包含 Defense Factory 等工具，利用 Codex 模型实现漏洞发现、验证与修复的自动化防御闭环。",
+   "why_zh": "属于 AI 安全与自动化运维领域，展示了如何通过 LLM 插件化集成实现 DevSecOps 流程的闭环自动化，可作为 AI 赋能安全工程的案例。"
+  },
+  {
+   "source": "blog",
+   "source_label": "OpenAI 官方博客",
+   "title": "Introducing ChatGPT Wallet",
+   "link": "https://openai.com/index/introducing-chatgpt-wallet",
+   "dt": "2026-11-13T15:00:00+00:00",
+   "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+   "extra": {},
+   "skills": [],
+   "learn_score": 1.147,
+   "score": 1.147,
+   "tokens": [
+    "chatgpt",
+    "introducing",
+    "wallet"
+   ],
+   "flag": "new",
+   "summary_zh": "OpenAI 推出 ChatGPT Wallet，支持 ChatGPT Work 等环境下的 Agent 在用户授权下完成支付交易。",
+   "why_zh": "属于 Agent 交互与工具调用领域，展示了 Agent 如何安全地集成支付网关并处理权限控制，是构建具备交易能力的 Agent 的关键参考。"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "youngyangyang04/llm-master",
+   "link": "https://github.com/youngyangyang04/llm-master",
+   "dt": "2026-09-12T07:33:31+00:00",
+   "summary": "大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。",
+   "extra": {
+    "stars": 1648,
+    "language": "",
+    "topics": [
+     "agent",
+     "large-language-models",
+     "llm",
+     "llm-learning",
+     "llm-tutorial",
+     "rag"
+    ],
+    "created": "2026-09-12",
+    "pushed": "2026-11-11"
+   },
+   "skills": [
+    "prompt_context",
+    "rag",
+    "tool_mcp",
+    "training_serving",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.479,
+   "score": 9.916,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-14 推荐过",
+   "summary_zh": "提供覆盖 Prompt Engineering 到模型部署等全栈 LLM 学习路线的中文教程。",
+   "why_zh": "对 AI 工程师系统掌握 LLM 技术栈和面试准备极具参考价值。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Zleap-AI/SAG-Wiki",
+   "link": "https://github.com/Zleap-AI/SAG-Wiki",
+   "dt": "2026-10-18T14:51:30+00:00",
+   "summary": "A lightweight knowledge base for people and agents, with ultra fast indexing and most precise retrieval.",
+   "extra": {
+    "stars": 1190,
+    "language": "Rust",
+    "topics": [
+     "knowledge-base",
+     "knowledge-graph",
+     "rag",
+     "rust",
+     "sag",
+     "sag-wiki"
+    ],
+    "created": "2026-10-18",
+    "pushed": "2026-11-14"
+   },
+   "skills": [
+    "rag",
+    "eval_observability"
+   ],
+   "learn_score": 2.107,
+   "score": 8.428,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-14 推荐过",
+   "summary_zh": "SAG-Wiki 提供了一个轻量级知识库方案，通过优化索引结构实现极速检索，旨在为人类用户及 AI Agent 提供高精度的知识获取能力。",
+   "why_zh": "属于 RAG 系统优化领域，可学习其轻量级索引设计与高精度检索策略，用于提升 Agent 知识库的响应速度与准确率。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "YOLOW92/pagesift",
+   "link": "https://github.com/YOLOW92/pagesift",
+   "dt": "2026-10-20T17:30:59+00:00",
+   "summary": "Self-hosted web scraper, crawler and document parser for AI agents: URLs, PDFs with OCR and Office files to clean Markdown/JSON. Firecrawl- and Jina-compatible API, MCP server, agent endpoint, Python/Node SDKs. Single Rust binary.",
+   "extra": {
+    "stars": 272,
+    "language": "Rust",
+    "topics": [
+     "ai-agents",
+     "browser-automation",
+     "crawl4ai-alternative",
+     "data-extraction",
+     "document-parsing",
+     "firecrawl"
+    ],
+    "created": "2026-10-20",
+    "pushed": "2026-11-14"
+   },
+   "skills": [
+    "tool_mcp",
+    "training_serving"
+   ],
+   "learn_score": 2.107,
+   "score": 7.237,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-14 推荐过",
+   "summary_zh": "基于 Rust 的高性能网页爬虫与内容提取引擎，提供适配 AI Agent 和 RAG 的干净 Markdown 及结构化数据输出。",
+   "why_zh": "RAG 数据预处理技能，学习使用 Rust 实现高内存效率的浏览器渲染与 Firecrawl 兼容 API 以加速数据获取。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ccch1mneyyy/dsh-Go",
+   "link": "https://github.com/ccch1mneyyy/dsh-Go",
+   "dt": "2026-10-25T08:09:52+00:00",
+   "summary": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+   "extra": {
+    "stars": 22623,
+    "language": "Dart",
+    "topics": [
+     "ai-agent",
+     "android",
+     "android-app",
+     "coding-agent",
+     "deepseek",
+     "deepseek-harness"
+    ],
+    "created": "2026-10-25",
+    "pushed": "2026-11-14"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-14 推荐过",
+   "summary_zh": "dsh-Go 实现 DeepSeek 模型在移动端本地运行，并支持远程控制桌面端执行任务，提供轻量级端侧推理解决方案。",
+   "why_zh": "属于端侧 AI 部署技能点，可复用其跨设备通信与本地推理引擎集成方案，解决资源受限环境下的智能体调度问题。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "qybaihe/bla",
+   "link": "https://github.com/qybaihe/bla",
+   "dt": "2026-10-25T05:25:45+00:00",
+   "summary": "🛡️ BLA (bla-agents / Blind LLM Agents) — Open-source Blue Defense MCP server & CLI protecting JS/TS, Electron ASAR, WASM, Python, Native Binaries, SQLite, GGUF/Safetensors & Android DEX against AI reverse-engineering agents (REA).",
+   "extra": {
+    "stars": 5659,
+    "language": "TypeScript",
+    "topics": [
+     "adversarial-ai",
+     "ai-security",
+     "android-security",
+     "binary-protection",
+     "claude-code",
+     "codex"
+    ],
+    "created": "2026-10-25",
+    "pushed": "2026-11-14"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-02 推荐过",
+   "summary_zh": "BLA (Blind LLM Agents) 提供针对 AI 逆向工程的防御机制，通过投毒、资源耗尽与幻觉诱导保护二进制与代码资产。",
+   "why_zh": "AI 安全防御技能点；掌握对抗性样本生成与防御策略，学习如何通过干扰 Agent 的推理过程保护系统资产。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "amosblomqvist/learnharness",
+   "link": "https://github.com/amosblomqvist/learnharness",
+   "dt": "2026-10-16T19:35:33+00:00",
+   "summary": "Agent harness for learning difficult things.",
+   "extra": {
+    "stars": 9385,
+    "language": "TypeScript",
+    "topics": [],
+    "created": "2026-10-16",
+    "pushed": "2026-11-12"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-14 推荐过",
+   "summary_zh": "LearnHarness 是一个专为学习复杂技能设计的 Agent 框架，通过结构化的交互流程辅助 Agent 掌握新知识或任务。",
+   "why_zh": "属于 Agent 学习与任务规划领域。可学习如何构建 Agent 的长程任务分解与反馈循环，提升 Agent 在复杂任务中的自适应能力。"
+  }
+ ]
+}

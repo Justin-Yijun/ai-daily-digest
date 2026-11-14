@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>本周精选 2026-W46 · AI 前沿日报</title>
+<meta name="description" content="2026-11-09 ~ 2026-11-15 AI / LLM / Agent 本周精选">
+<link rel="stylesheet" href="../style.css">
+<link rel="alternate" type="application/rss+xml" title="AI 前沿日报" href="https://aivulcan.de5.net/feed.xml">
+</head>
+<body>
+<div class="wrap">
+<header class="site">
+<div class="brand">
+<span class="logo" aria-hidden="true"></span>
+<div class="titles">
+<p class="en">AI Frontier Digest</p>
+<h1><a href="../">AI 前沿日报</a></h1>
+</div>
+</div>
+<p class="desc">每天自动采集 GitHub / YouTube / 博客 / 论文 / Hacker News 上关于 AI、LLM、Agent、Harness 的前沿动态，生成中文摘要。</p>
+<div class="stats"><span>本期 <b>12</b> 条</span><span>累计 <b>6</b> 期</span></div><nav><a href="../">最新</a><a href="../archive">归档</a><a href="../feed.xml">RSS</a><a href="../about">关于</a></nav>
+</header>
+<h1>本周精选 · 2026-W46</h1>
+<p class="meta">覆盖 2026-11-09 ~ 2026-11-15　｜　共 12 条　｜　生成 2026-11-15 01:43 (CST)</p>
+<blockquote><p>按 Agent / AI 面试技能树归类，优先收录可复习、能讲出来的实践内容。</p></blockquote>
+<h2>🧠 提示 / 上下文工程（4）</h2>
+<article class="item" data-src="github">
+<h3><a href="https://github.com/liangjianshu/multimodal-image-retrieval" target="_blank" rel="noopener">liangjianshu/multimodal-image-retrieval</a></h3>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 129</span><span class="tag">Python</span><span class="tag">新建 2026-11-02</span><span class="date">11-02</span></p>
+<p class="sum">multimodal-image-retrieval 项目整合了意图识别、Qwen LoRA 微调、EmbeddingGemma 2 与 InfoNCE 对比学习，提供了一套完整的多模态检索与 RAG 落地实践方案。</p>
+<p class="why">为什么值得看：属于 RAG 与多模态检索领域，可学习如何通过对比学习优化 Embedding 模型，以及如何将 LoRA 微调与检索组件结合提升意图识别准确率。</p>
+</article>
+<article class="item" data-src="paper">
+<h3><a href="https://arxiv.org/abs/2611.08683" target="_blank" rel="noopener">Compression of Emotion in Language Model Representations</a></h3>
+<p class="meta"><span class="tag src">arXiv cs.CL</span><span class="tag">论文</span><span class="date">11-09</span></p>
+<p class="sum">该研究分析了七种 LLM 在 GoEmotions 数据集上的表现，揭示了模型内部表征中细粒度情感信息的组织方式及其压缩特性。</p>
+<p class="why">为什么值得看：属于模型可解释性与表征学习领域，可学习如何通过探针技术分析 LLM 内部隐藏层状态，理解模型如何编码复杂语义特征。</p>
+</article>
+<article class="item" data-src="paper">
+<h3><a href="https://arxiv.org/abs/2611.08643" target="_blank" rel="noopener">FinEvolveKG: Controlled and Attributable Prompt Evolution for Financial Knowledge Graph Construction</a></h3>
+<p class="meta"><span class="tag src">arXiv cs.CL</span><span class="tag">论文</span><span class="date">11-09</span></p>
+<p class="sum">FinEvolveKG 提出了一种针对金融知识图谱构建的受控且可归因的 Prompt 演化框架，通过权重无关的优化方法适应不同分析需求。</p>
+<p class="why">为什么值得看：属于知识图谱构建与 Prompt 工程领域，可学习如何通过受控演化机制在不进行全量微调的前提下，实现特定领域任务的 Prompt 自适应。</p>
+</article>
+<article class="item" data-src="blog">
+<h3><a href="https://www.marktechpost.com/2026/11/07/nous-research-arete-27b-qwen3-8-27b-propaganda-fine-tune/" target="_blank" rel="noopener">Nous Research Releases Arete-27B that Cuts Qwen3.8-27B Propaganda From 22% to 0.9%</a></h3>
+<p class="meta"><span class="tag src">MarkTechPost</span><span class="tag">文章</span><span class="date">11-08</span></p>
+<p class="sum">Nous Research 发布 Arete-27B 模型，基于 Qwen2.5-27B 微调，将宣传性回答比例从 22% 显著降低至 0.9%。</p>
+<p class="why">为什么值得看：模型对齐与微调技能点。可复用做法：通过针对性的数据集清洗与指令微调，有效抑制大模型在特定领域内的偏见与过度引导倾向。</p>
+</article>
+<h2>🧠 RAG 检索增强（1）</h2>
+<article class="item" data-src="paper">
+<h3><a href="https://huggingface.co/papers/2607.13920" target="_blank" rel="noopener">DeepStress: Stress-Testing Deep Search Agents</a></h3>
+<p class="meta"><span class="tag src">HF Daily Papers</span><span class="tag">👍 4</span><span class="date">11-12</span></p>
+<p class="sum">DeepStress 框架通过动态注入受损证据，对搜索类 Agent 进行压力测试，评估其在低质量检索环境下的鲁棒性。</p>
+<p class="why">为什么值得看：Agent 系统评估与鲁棒性测试，学习通过替换检索模块进行对抗性测试，以识别 Agent 在复杂搜索任务中的潜在失效点。</p>
+</article>
+<h2>🧠 工具调用 / MCP（2）</h2>
+<article class="item" data-src="youtube">
+<h3><a href="https://www.youtube.com/watch?v=xM_BhmEyKAY" target="_blank" rel="noopener">How Workday Builds Agent Prototypes in Under a Day with LangChain</a></h3>
+<p class="meta"><span class="tag src">YouTube · LangChain</span><span class="tag">视频</span><span class="date">11-11</span></p>
+<p class="sum">Workday 利用 LangChain Agent Server 和 LangSmith 构建内部 Agent 平台，通过 A2A 和 MCP 协议实现企业级认证与数据合规。</p>
+<p class="why">为什么值得看：属于 Agent 架构设计。可学习如何通过标准化协议（MCP）和统一基础设施，在企业复杂安全策略下实现 Agent 的快速部署与治理。</p>
+</article>
+<article class="item" data-src="youtube">
+<h3><a href="https://www.youtube.com/watch?v=QRm7VNMnurA" target="_blank" rel="noopener">Sites and the Next Generation of Web Apps | DevDay 2026</a></h3>
+<p class="meta"><span class="tag src">YouTube · OpenAI</span><span class="tag">视频</span><span class="date">11-11</span></p>
+<p class="sum">OpenAI 推出 Astra、ChatGPT Sites 和 WebMCP，支持通过自然语言直接生成交互式 Web 应用并集成 Agent 协作能力。</p>
+<p class="why">为什么值得看：属于 AI 原生应用开发。可学习 WebMCP 如何将 Web 交互能力暴露给 Agent，实现从对话到动态 UI 生成的端到端工作流。</p>
+</article>
+<h2>🧠 Agent 架构与循环（1）</h2>
+<article class="item" data-src="paper">
+<h3><a href="https://huggingface.co/papers/2611.16409" target="_blank" rel="noopener">Experience-Handoff Reinforcement Learning for Recursive Self-Improvement</a></h3>
+<p class="meta"><span class="tag src">HF Daily Papers</span><span class="tag">👍 1</span><span class="date">11-12</span></p>
+<p class="sum">提出 Experience-Handoff RL 框架，通过将环境交互中的细粒度日志信息转化为反射或压缩后的输入，提升 LLM 自我改进能力。</p>
+<p class="why">为什么值得看：强化学习与 Agent 反思机制结合，学习如何利用环境反馈日志优化 Agent 的上下文输入，提升复杂任务的鲁棒性。</p>
+</article>
+<h2>🧠 评测与可观测（2）</h2>
+<article class="item" data-src="paper">
+<h3><a href="https://arxiv.org/abs/2611.08639" target="_blank" rel="noopener">Forcing a Letter Suppresses Refusal: Mechanistic Evidence from WMDP</a></h3>
+<p class="meta"><span class="tag src">arXiv cs.CL</span><span class="tag">论文</span><span class="date">11-10</span></p>
+<p class="sum">研究发现 LLM 在 MCQ 格式下拒绝率降低的机制，通过 WMDP 数据集揭示了强制输出特定字符可抑制模型的安全拒绝行为。</p>
+<p class="why">为什么值得看：模型对齐与鲁棒性方向，可学习如何通过 Mechanistic Interpretability 分析提示词格式对模型安全边界的影响。</p>
+</article>
+<article class="item" data-src="paper">
+<h3><a href="https://arxiv.org/abs/2611.12934" target="_blank" rel="noopener">EarthRecord: From Pixels to Land Change with Multimodal Agents over Four Decades of Satellite Imagery</a></h3>
+<p class="meta"><span class="tag src">arXiv cs.AI</span><span class="tag">论文</span><span class="date">11-11</span></p>
+<p class="sum">EarthRecord 提出了一个多模态 Agent 基准测试，旨在评估 Agent 处理长达四十年原始卫星影像并进行土地变化分析的能力。</p>
+<p class="why">为什么值得看：属于多模态 Agent 评估领域，可学习如何构建处理长时序原始数据流的 Agent 任务，提升模型在复杂科学数据分析中的鲁棒性。</p>
+</article>
+<h2>🧠 训练 / 推理部署（1）</h2>
+<article class="item" data-src="paper">
+<h3><a href="https://arxiv.org/abs/2611.14681" target="_blank" rel="noopener">Together Compiler: Continual Compilation for AI Inference</a></h3>
+<p class="meta"><span class="tag src">arXiv cs.AI</span><span class="tag">论文</span><span class="date">11-14</span></p>
+<p class="sum">Together Compiler 提出了一种针对动态 AI 工作负载的持续编译优化框架，旨在应对模型架构快速演进与流量分布变化。</p>
+<p class="why">为什么值得看：深入理解 AI 推理引擎的编译优化技术，学习如何构建自适应编译器以提升模型在异构环境下的部署性能。</p>
+</article>
+<h2>🧠 系统设计 / 从零实现（1）</h2>
+<article class="item" data-src="paper">
+<h3><a href="https://arxiv.org/abs/2611.12933" target="_blank" rel="noopener">Auditable Human-Agent Teams for Autonomous X-ray Experimentation</a></h3>
+<p class="meta"><span class="tag src">arXiv cs.AI</span><span class="tag">论文</span><span class="date">11-11</span></p>
+<p class="sum">该研究提出了一种基于编码 Agent 的闭环自主实验框架，通过将科学方法论嵌入 Agent 基础设施，实现了 X 射线实验的自动化与可审计性。</p>
+<p class="why">为什么值得看：属于 Agent 科学计算应用领域，可学习如何将领域专家知识转化为 Agent 的工具调用逻辑，实现复杂物理实验的自动化闭环。</p>
+</article>
+<footer>
+<p>AI 前沿日报 · 由 GitHub Actions 每天 16:00 (CST) 自动生成 · 内容版权归原作者所有，链接均为原始出处</p>
+</footer>
+</div>
+</body>
+</html>

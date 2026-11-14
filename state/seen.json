@@ -39,7 +39,7 @@
   },
   "https://github.com/youngyangyang04/llm-master": {
    "title": "youngyangyang04/llm-master",
-   "date": "2026-11-14",
+   "date": "2026-11-15",
    "tokens": [],
    "source": "github",
    "summary_zh": "提供覆盖 Prompt Engineering 到模型部署等全栈 LLM 学习路线的中文教程。",
@@ -5618,7 +5618,7 @@
   },
   "https://github.com/YOLOW92/pagesift": {
    "title": "YOLOW92/pagesift",
-   "date": "2026-11-14",
+   "date": "2026-11-15",
    "tokens": [],
    "source": "github",
    "summary_zh": "基于 Rust 的高性能网页爬虫与内容提取引擎，提供适配 AI Agent 和 RAG 的干净 Markdown 及结构化数据输出。",
@@ -5830,7 +5830,7 @@
   },
   "https://github.com/amosblomqvist/learnharness": {
    "title": "amosblomqvist/learnharness",
-   "date": "2026-11-14",
+   "date": "2026-11-15",
    "tokens": [],
    "source": "github",
    "summary_zh": "LearnHarness 是一个专为学习复杂技能设计的 Agent 框架，通过结构化的交互流程辅助 Agent 掌握新知识或任务。",
@@ -6202,7 +6202,7 @@
   },
   "https://github.com/ccch1mneyyy/dsh-Go": {
    "title": "ccch1mneyyy/dsh-Go",
-   "date": "2026-11-14",
+   "date": "2026-11-15",
    "tokens": [],
    "source": "github",
    "summary_zh": "dsh-Go 实现 DeepSeek 模型在移动端本地运行，并支持远程控制桌面端执行任务，提供轻量级端侧推理解决方案。",
@@ -6470,11 +6470,8 @@
   },
   "https://github.com/qybaihe/bla": {
    "title": "qybaihe/bla",
-   "date": "2026-11-02",
-   "tokens": [
-    "bla",
-    "qybaihe"
-   ],
+   "date": "2026-11-15",
+   "tokens": [],
    "source": "github",
    "summary_zh": "BLA (Blind LLM Agents) 提供针对 AI 逆向工程的防御机制，通过投毒、资源耗尽与幻觉诱导保护二进制与代码资产。",
    "why_zh": "AI 安全防御技能点；掌握对抗性样本生成与防御策略，学习如何通过干扰 Agent 的推理过程保护系统资产。"
@@ -8458,7 +8455,7 @@
   },
   "https://github.com/Zleap-AI/SAG-Wiki": {
    "title": "Zleap-AI/SAG-Wiki",
-   "date": "2026-11-14",
+   "date": "2026-11-15",
    "tokens": [],
    "source": "github",
    "summary_zh": "SAG-Wiki 提供了一个轻量级知识库方案，通过优化索引结构实现极速检索，旨在为人类用户及 AI Agent 提供高精度的知识获取能力。",
@@ -9080,7 +9077,203 @@
    "source": "blog",
    "summary_zh": "中金公司与蚂蚁集团达成战略合作，聚焦金融大模型技术创新，共同研发服务与营销协同的智能体集群。",
    "why_zh": "属于金融领域 Agent 落地应用，可复用多智能体协作（Multi-Agent Orchestration）在复杂业务流程中的任务拆解与人机协同设计模式。"
+  },
+  "https://github.com/DIYgod/pinky": {
+   "title": "DIYgod/pinky",
+   "date": "2026-11-15",
+   "tokens": [
+    "diygod",
+    "pinky"
+   ],
+   "source": "github",
+   "summary_zh": "Pinky 允许桌面端的 MCP Agent 通过协议直接控制 Android 或 iPhone 设备，实现跨平台移动端自动化操作。",
+   "why_zh": "掌握 MCP 协议在移动端自动化场景的落地，学习如何通过中间件实现 Agent 对物理设备的远程控制与交互。"
+  },
+  "https://arxiv.org/abs/2611.14681": {
+   "title": "Together Compiler: Continual Compilation for AI Inference",
+   "date": "2026-11-15",
+   "tokens": [
+    "ai",
+    "compilation",
+    "compiler",
+    "continual",
+    "inference",
+    "together"
+   ],
+   "source": "paper",
+   "summary_zh": "Together Compiler 提出了一种针对动态 AI 工作负载的持续编译优化框架，旨在应对模型架构快速演进与流量分布变化。",
+   "why_zh": "深入理解 AI 推理引擎的编译优化技术，学习如何构建自适应编译器以提升模型在异构环境下的部署性能。"
+  },
+  "https://huggingface.co/papers/2611.10439": {
+   "title": "Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction",
+   "date": "2026-11-15",
+   "tokens": [
+    "agent",
+    "extraction",
+    "granularity",
+    "interaction",
+    "memory",
+    "multi",
+    "remembers",
+    "user",
+    "who"
+   ],
+   "source": "paper",
+   "summary_zh": "MixUA 框架通过多粒度内存提取机制，在多用户与多 Agent 交互中实现了知识共享与隐私保护的平衡。",
+   "why_zh": "掌握 Agent 记忆系统设计，学习如何处理多智能体协作中的信息隔离与权限控制，提升 Agent 系统的安全性。"
+  },
+  "https://brave.com/blog/search-api-agentic-payments/": {
+   "title": "Brave Search API now accepts agentic payments via the x402 protocol",
+   "date": "2026-11-15",
+   "tokens": [
+    "accepts",
+    "agentic",
+    "api",
+    "brave",
+    "now",
+    "payments",
+    "protocol",
+    "search",
+    "x402"
+   ],
+   "source": "hackernews",
+   "summary_zh": "Brave Search API 集成 x402 协议，支持 Agent 自动完成搜索服务的支付与结算。",
+   "why_zh": "了解 Agent 经济模型与自动化支付流程，学习如何利用协议实现 Agent 服务的自主化付费与资源调用。"
+  },
+  "https://github.com/armsworminterface/ai--manus": {
+   "title": "armsworminterface/ai--manus",
+   "date": "2026-11-15",
+   "tokens": [
+    "ai",
+    "armsworminterface",
+    "manus"
+   ],
+   "source": "github",
+   "summary_zh": "AI Manus 是一个通用 AI Agent 系统，支持在沙箱环境中执行多种工具调用与复杂操作。",
+   "why_zh": "学习 Agent 沙箱环境的构建与安全隔离机制，掌握如何为 Agent 设计可扩展的工具执行框架。"
+  },
+  "https://github.com/WinnerBrokerBarrow/ai--manus": {
+   "title": "WinnerBrokerBarrow/ai--manus",
+   "date": "2026-11-15",
+   "tokens": [
+    "ai",
+    "manus",
+    "winnerbrokerbarrow"
+   ],
+   "source": "github",
+   "summary_zh": "AI Manus 是一个通用 AI Agent 系统，支持在沙箱环境中执行多种工具调用与复杂操作。",
+   "why_zh": "学习 Agent 沙箱环境的构建与安全隔离机制，掌握如何为 Agent 设计可扩展的工具执行框架。"
+  },
+  "https://github.com/GryphonEmpress/ai--manus": {
+   "title": "GryphonEmpress/ai--manus",
+   "date": "2026-11-15",
+   "tokens": [
+    "ai",
+    "gryphonempress",
+    "manus"
+   ],
+   "source": "github",
+   "summary_zh": "GryphonEmpress/ai--manus 是一个通用 AI Agent 系统，支持在沙箱环境中执行多种工具调用与操作任务。",
+   "why_zh": "Agent 系统架构设计。可学习如何在隔离的沙箱环境中安全地执行工具调用，是构建生产级 Agent 的核心安全实践。"
+  },
+  "https://status.claude.com/history": {
+   "title": "Claude Is Down",
+   "date": "2026-11-15",
+   "tokens": [
+    "claude",
+    "down"
+   ],
+   "source": "hackernews",
+   "summary_zh": "Claude 服务出现大规模宕机，引发开发者对依赖单一闭源模型 API 的高可用性与容灾方案讨论。",
+   "why_zh": "系统架构与稳定性。考察在 Agent 系统中实现多模型路由、降级策略及 API 异常处理的工程能力。"
+  },
+  "https://www.marktechpost.com/2026/11/13/vercel-ui-sdk-agent-ui-behaviors/": {
+   "title": "Vercel Releases UI SDK: 50+ UI Behaviors for AI Coding Agents",
+   "date": "2026-11-15",
+   "tokens": [
+    "50",
+    "agents",
+    "ai",
+    "behaviors",
+    "coding",
+    "releases",
+    "sdk",
+    "ui",
+    "vercel"
+   ],
+   "source": "blog",
+   "summary_zh": "Vercel 发布 UI SDK，提供 50 多种 UI 行为组件，支持 React、Vue 等框架，旨在提升 AI 编码 Agent 的前端交互能力。",
+   "why_zh": "Agent-Human Interaction。掌握如何通过预定义的 UI 行为库，提升 AI 生成代码的可视化交互体验与组件可访问性。"
+  },
+  "https://www.youtube.com/watch?v=x7iwI6WfWS0": {
+   "title": "AI Can Do Everything…Except This",
+   "date": "2026-11-15",
+   "tokens": [
+    "ai",
+    "do",
+    "everything",
+    "except"
+   ],
+   "source": "youtube",
+   "summary_zh": "AI 在处理复杂逻辑与创造性任务时仍存在局限性，探讨当前大模型在特定领域表现的边界。",
+   "why_zh": "模型评估与局限性分析。面试中可用于讨论大模型在复杂推理任务中的失败案例，以及如何通过 RAG 或 Agent 编排弥补模型短板。"
+  },
+  "https://www.youtube.com/watch?v=tqgthjS7Ym4": {
+   "title": "LangChain Academy New Course: Building and Deploying Managed Agents",
+   "date": "2026-11-15",
+   "tokens": [
+    "academy",
+    "agents",
+    "building",
+    "course",
+    "deploying",
+    "langchain",
+    "managed"
+   ],
+   "source": "youtube",
+   "summary_zh": "LangChain Academy 推出托管 Agent 课程，讲解如何利用 LangSmith 将本地 Agent 快速部署至生产环境。",
+   "why_zh": "Agent 部署与运维。学习如何通过托管平台解决 Agent 的基础设施依赖，掌握从开发到生产环境的一键部署工程化流程。"
+  },
+  "https://aiera.com.cn/2026/11/14/other/admin/123751/claude%e6%96%b0%e6%97%97%e8%88%b0%e5%88%9a%e5%8f%91%ef%bc%8c95%e4%b8%87%e5%ad%97%e7%bb%9d%e5%af%86%e6%8f%90%e7%a4%ba%e8%af%8d%e8%a2%ab%e6%89%92%e5%85%89%e4%ba%86%ef%bc%81/": {
+   "title": "Claude新旗舰刚发，95万字绝密提示词被扒光了！",
+   "date": "2026-11-15",
+   "tokens": [
+    "95万字绝密提示词被扒光了",
+    "claude新旗舰刚发"
+   ],
+   "source": "blog",
+   "summary_zh": "Claude Fable 5.2 的系统提示词被泄露，揭示了模型在复杂指令遵循与角色设定方面的内部逻辑。",
+   "why_zh": "Prompt Engineering 与模型安全。分析系统提示词的结构化设计，学习如何通过高质量的 System Prompt 优化模型行为并防范 Prompt 注入。"
+  },
+  "https://www.youtube.com/watch?v=YmxpxJZvm4M": {
+   "title": "Cyber at the Frontier: Introducing Daybreak Red Team & Daybreak Defense Factory",
+   "date": "2026-11-15",
+   "tokens": [
+    "cyber",
+    "daybreak",
+    "defense",
+    "factory",
+    "frontier",
+    "introducing",
+    "red",
+    "team"
+   ],
+   "source": "youtube",
+   "summary_zh": "OpenAI 发布 Daybreak 平台，包含 Defense Factory 等工具，利用 Codex 模型实现漏洞发现、验证与修复的自动化防御闭环。",
+   "why_zh": "属于 AI 安全与自动化运维领域，展示了如何通过 LLM 插件化集成实现 DevSecOps 流程的闭环自动化，可作为 AI 赋能安全工程的案例。"
+  },
+  "https://openai.com/index/introducing-chatgpt-wallet": {
+   "title": "Introducing ChatGPT Wallet",
+   "date": "2026-11-15",
+   "tokens": [
+    "chatgpt",
+    "introducing",
+    "wallet"
+   ],
+   "source": "blog",
+   "summary_zh": "OpenAI 推出 ChatGPT Wallet，支持 ChatGPT Work 等环境下的 Agent 在用户授权下完成支付交易。",
+   "why_zh": "属于 Agent 交互与工具调用领域，展示了 Agent 如何安全地集成支付网关并处理权限控制，是构建具备交易能力的 Agent 的关键参考。"
   }
  },
- "updated": "2026-11-13T17:19:56.550725+00:00"
+ "updated": "2026-11-14T17:43:08.932429+00:00"
 }
