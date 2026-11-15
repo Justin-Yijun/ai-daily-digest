@@ -1,0 +1,616 @@
+{
+ "date": "2026-11-16",
+ "generated": "2026-11-16 00:31",
+ "source_count": {
+  "github": 79,
+  "youtube": 37,
+  "blog": 82,
+  "paper": 12,
+  "hackernews": 10
+ },
+ "failures": {},
+ "failure_errors": {},
+ "summary_missing": [],
+ "summary_providers": {
+  "gemini": 3
+ },
+ "items": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Topkiflare74/ai--manus2.0",
+   "link": "https://github.com/Topkiflare74/ai--manus2.0",
+   "dt": "2026-11-14T19:15:24+00:00",
+   "summary": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+   "extra": {
+    "stars": 678,
+    "language": "",
+    "topics": [
+     "ai",
+     "ai-agents",
+     "ai-sdk",
+     "anthropic",
+     "chatbot",
+     "function-calling"
+    ],
+    "created": "2026-11-14",
+    "pushed": "2026-11-15"
+   },
+   "skills": [],
+   "learn_score": 1.215,
+   "score": 4.655,
+   "tokens": [
+    "ai",
+    "manus2",
+    "topkiflare74"
+   ],
+   "flag": "new",
+   "summary_zh": "AI Manus 是一个通用 AI Agent 系统，支持在沙盒环境中执行多种工具调用与操作任务。",
+   "why_zh": "Agent 系统架构设计。可学习如何构建安全隔离的沙盒执行环境，以及如何设计通用的工具调用接口。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "toppatronweave/ai--manus2.0",
+   "link": "https://github.com/toppatronweave/ai--manus2.0",
+   "dt": "2026-11-14T19:15:25+00:00",
+   "summary": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+   "extra": {
+    "stars": 666,
+    "language": "",
+    "topics": [
+     "ai",
+     "ai-agents",
+     "ai-sdk",
+     "anthropic",
+     "chatbot",
+     "function-calling"
+    ],
+    "created": "2026-11-14",
+    "pushed": "2026-11-15"
+   },
+   "skills": [],
+   "learn_score": 1.215,
+   "score": 4.646,
+   "tokens": [
+    "ai",
+    "manus2",
+    "toppatronweave"
+   ],
+   "flag": "new",
+   "summary_zh": "AI Manus 是一个通用 AI Agent 系统，支持在沙盒环境中执行多种工具调用与操作任务。",
+   "why_zh": "Agent 系统架构设计。可学习如何构建安全隔离的沙盒执行环境，以及如何设计通用的工具调用接口。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "topapothecarycanal/ai--manus2.0",
+   "link": "https://github.com/topapothecarycanal/ai--manus2.0",
+   "dt": "2026-11-14T19:15:24+00:00",
+   "summary": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+   "extra": {
+    "stars": 666,
+    "language": "",
+    "topics": [
+     "ai",
+     "ai-agents",
+     "ai-sdk",
+     "anthropic",
+     "chatbot",
+     "function-calling"
+    ],
+    "created": "2026-11-14",
+    "pushed": "2026-11-15"
+   },
+   "skills": [],
+   "learn_score": 1.215,
+   "score": 4.646,
+   "tokens": [
+    "ai",
+    "manus2",
+    "topapothecarycanal"
+   ],
+   "flag": "new",
+   "summary_zh": "AI Manus 是一个通用 AI Agent 系统，支持在沙盒环境中执行多种工具调用与操作任务。",
+   "why_zh": "Agent 系统架构设计。可学习如何构建安全隔离的沙盒执行环境，以及如何设计通用的工具调用接口。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "topconstableinlet67/ai--manus2.0",
+   "link": "https://github.com/topconstableinlet67/ai--manus2.0",
+   "dt": "2026-11-14T19:15:24+00:00",
+   "summary": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+   "extra": {
+    "stars": 663,
+    "language": "",
+    "topics": [
+     "ai",
+     "ai-agents",
+     "ai-sdk",
+     "anthropic",
+     "chatbot",
+     "function-calling"
+    ],
+    "created": "2026-11-14",
+    "pushed": "2026-11-15"
+   },
+   "skills": [],
+   "learn_score": 1.215,
+   "score": 4.643,
+   "tokens": [
+    "ai",
+    "manus2",
+    "topconstableinlet67"
+   ],
+   "flag": "new",
+   "summary_zh": "AI Manus 是一个通用 AI Agent 系统，支持在沙盒环境中执行多种工具调用与操作任务。",
+   "why_zh": "Agent 系统架构设计。可学习如何构建安全隔离的沙盒执行环境，以及如何设计通用的工具调用接口。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Consensus Capture in Reference-Based UAV Video Stabilization: A Benchmark on Dynamic Urban Scenes",
+   "link": "https://huggingface.co/papers/2611.17190",
+   "dt": "2026-11-11T19:00:00+00:00",
+   "summary": "Reference-frame stabilization registers every frame of a hovering-drone video onto one reference frame, keeping object positions comparable. The registration pipelines it relies on are selected on feature-matching benchmarks in which only the camera moves. Over a busy intersection, vehicles moving together supply mutually consistent correspondences that can draw the robust homography estimate toward their motion: consensus capture, which inlier statistics cannot flag. A two-part benchmark measur",
+   "extra": {
+    "upvotes": 4,
+    "arxiv": "https://arxiv.org/abs/2611.17190"
+   },
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 2.071,
+   "score": 4.142,
+   "tokens": [
+    "based",
+    "benchmark",
+    "capture",
+    "consensus",
+    "dynamic",
+    "reference",
+    "scenes",
+    "stabilization",
+    "uav",
+    "urban",
+    "video"
+   ],
+   "flag": "new",
+   "summary_zh": "针对无人机视频防抖提出 Consensus Capture 基准测试，解决动态城市场景下特征匹配导致的单应性矩阵估计偏差问题。",
+   "why_zh": "计算机视觉与鲁棒性优化。可学习如何处理动态环境下的特征一致性问题，以及如何构建针对特定任务的评估基准。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "JustRUA: A Controlled Study of GPT-6 Robot-Use Agents",
+   "link": "https://huggingface.co/papers/2611.16009",
+   "dt": "2026-11-10T19:00:00+00:00",
+   "summary": "GPT-6 Astra can drive a robot arm directly through a fixed harness, and scores of such robot-use agents on RoboDojo have risen quickly since. Reported systems differ in harness and test subset and often change several designs at once, so it is hard to tell which choices produce the gains. We take these designs apart and test them in one framework, along the harness around the model, the action interface, the reuse of experience and the scene geometry given to the model. A lean harness that keeps",
+   "extra": {
+    "upvotes": 5,
+    "arxiv": "https://arxiv.org/abs/2611.16009"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.962,
+   "score": 3.924,
+   "tokens": [
+    "agents",
+    "controlled",
+    "gpt",
+    "justrua",
+    "robot",
+    "study",
+    "use"
+   ],
+   "flag": "new",
+   "summary_zh": "JustRUA 对 GPT-6 驱动的机器人 Agent 进行对照研究，拆解不同动作接口与模型 harness 设计对性能的影响。",
+   "why_zh": "具身智能与实验设计。可学习如何通过控制变量法评估 Agent 系统组件的有效性，优化机器人控制策略的工程实现。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
+   "link": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+   "dt": "2026-11-14T15:04:15+00:00",
+   "summary": "",
+   "extra": {
+    "points": 260,
+    "comments": 23,
+    "hn_link": "https://news.ycombinator.com/item?id=50497589"
+   },
+   "skills": [],
+   "learn_score": 1.0,
+   "score": 3.415,
+   "tokens": [
+    "200",
+    "deepseek",
+    "hn",
+    "jax",
+    "lines",
+    "pure",
+    "show",
+    "v3"
+   ],
+   "flag": "new",
+   "summary_zh": "使用约 200 行纯 Jax 代码实现 DeepSeek V3 模型架构，展示了 Transformer 核心组件的简洁数学表达。",
+   "why_zh": "掌握深度学习框架底层实现，通过 Jax 的函数式编程范式理解模型并行与计算图构建，提升对大模型架构的底层拆解能力。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Show HN: A terminal-native idle factory game, written in Rust with ratatui",
+   "link": "https://gitlab.com/snipedbywifi/terminactory",
+   "dt": "2026-11-14T14:05:54+00:00",
+   "summary": "Hey HN readers! I'm snipedbywifi ( https://gitlab.com/snipedbywifi ), and i've been working on terminactory. Please try it out if you'd like to play a cozy factory game while waiting for long agent tasks to finish! The game is a factory game (overused niche, i know xD), but runs in your terminal. Reason i built it? glad you asked: So basically, it started off with me wanting a terminal-native fact",
+   "extra": {
+    "points": 160,
+    "comments": 40,
+    "hn_link": "https://news.ycombinator.com/item?id=50497132"
+   },
+   "skills": [],
+   "learn_score": 1.0,
+   "score": 3.204,
+   "tokens": [
+    "factory",
+    "game",
+    "hn",
+    "idle",
+    "native",
+    "ratatui",
+    "rust",
+    "show",
+    "terminal",
+    "written"
+   ],
+   "flag": "new",
+   "summary_zh": "基于 Rust 和 ratatui 库开发的终端原生工厂模拟游戏，旨在作为长时间运行的 AI Agent 任务等待期间的辅助工具。",
+   "why_zh": "了解 Rust 在高性能终端 UI 开发中的应用，学习如何构建轻量级交互工具以优化 Agent 开发者的工作流体验。"
+  },
+  {
+   "source": "blog",
+   "source_label": "InfoQ 中文 AI",
+   "title": "闭环 AI 自我进化：从 Skill、Harness 到模型训练与评估｜AICon北京",
+   "link": "https://www.infoq.cn/article/fZSEkDatL9xajG8PVi7G?utm_source=rss&utm_medium=article",
+   "dt": "2026-11-15T10:00:00+00:00",
+   "summary": "点击查看原文>",
+   "extra": {},
+   "skills": [
+    "agent_architecture",
+    "eval_observability"
+   ],
+   "learn_score": 2.341,
+   "score": 2.341,
+   "tokens": [
+    "ai",
+    "aicon北京",
+    "harness",
+    "skill",
+    "到模型训练与评估",
+    "自我进化",
+    "闭环"
+   ],
+   "flag": "new",
+   "summary_zh": "探讨 AI 闭环自我进化路径，涵盖从技能获取、评估框架构建到模型训练与自动化评估的完整技术流程。",
+   "why_zh": "理解 AI Agent 自动化迭代的闭环逻辑，学习如何设计评估指标体系以支撑模型在复杂任务中的持续自我优化。"
+  },
+  {
+   "source": "blog",
+   "source_label": "Simon Willison",
+   "title": "datasette-llm 0.1a11",
+   "link": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
+   "dt": "2026-11-14T23:59:28+00:00",
+   "summary": "Release: datasette-llm 0.1a11 datasette-llm is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins. This release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that talks the OpenAI pseudo-standard web protocol. This means that if you're running local models with LM Studio or Ollama or llama.cpp (which just hit v1.0.0 ) you can run Datasette via uvx like this: wget https://datasette.…",
+   "extra": {},
+   "skills": [
+    "training_serving"
+   ],
+   "learn_score": 1.445,
+   "score": 1.445,
+   "tokens": [
+    "1a11",
+    "datasette",
+    "llm"
+   ],
+   "flag": "new",
+   "summary_zh": "Datasette-llm 0.1a11 版本发布，新增对 OpenAI 兼容接口的支持，允许通过配置连接本地或远程的 LLM 服务。",
+   "why_zh": "掌握多模型接入的标准化适配方案，学习如何通过中间件解耦 LLM 调用逻辑，实现不同模型后端间的快速切换。"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "Bland Launches Tofu-1, a Full-Duplex Speech-to-Speech Model for Calls",
+   "link": "https://www.marktechpost.com/2026/11/15/bland-tofu-1-full-duplex-speech-to-speech-model/",
+   "dt": "2026-11-15T10:06:21+00:00",
+   "summary": "Bland has released Tofu-1, a full-duplex speech-to-speech model for noisy, high-stakes phone calls. It is in enterprise research preview, with no published benchmarks, size or pricing yet. The post Bland Launches Tofu-1, a Full-Duplex Speech-to-Speech Model for Calls appeared first on MarkTechPost .",
+   "extra": {},
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.17,
+   "score": 1.17,
+   "tokens": [
+    "bland",
+    "calls",
+    "duplex",
+    "full",
+    "launches",
+    "model",
+    "speech",
+    "tofu"
+   ],
+   "flag": "new",
+   "summary_zh": "Bland 发布 Tofu-1 全双工语音转语音模型，专为高噪声、高风险的电话场景设计，支持实时双向语音交互。",
+   "why_zh": "关注实时语音交互系统的低延迟架构设计，理解全双工语音模型在复杂环境下的鲁棒性处理与工程落地挑战。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Cole Medin",
+   "title": "11 More Tiny Coding Agent Fixes With A Stupid Amount Of Payoff (Learn These Now)",
+   "link": "https://www.youtube.com/watch?v=hMEQ4rdaOLw",
+   "dt": "2026-11-10T22:57:03+00:00",
+   "summary": "Coding agents keep hitting the same problems for you: saying the work is done when it isn't, tests that pass while the app is still broken, ignoring your rules, burning through your limits, etc. In this video I go through 11 of them and the tiny fix for each one, built into your AI layer (skills, rules, hooks) through a conversation with your agent where you review and sign off on every change. The chapters are named after the problems, so you can jump straight to the ones you hit the most! ~~~~…",
+   "extra": {
+    "channel": "Cole Medin",
+    "video_id": "hMEQ4rdaOLw"
+   },
+   "skills": [],
+   "learn_score": 1.094,
+   "score": 1.094,
+   "tokens": [
+    "11",
+    "agent",
+    "amount",
+    "coding",
+    "fixes",
+    "learn",
+    "now",
+    "payoff",
+    "stupid",
+    "these",
+    "tiny"
+   ],
+   "flag": "new",
+   "summary_zh": "总结 11 个优化 AI 编程 Agent 的微调策略，通过在 AI 层级注入规则、钩子和确认机制，解决任务完成度与测试失效问题。",
+   "why_zh": "学习 Agent 工程化调优技巧，掌握通过提示词工程与系统级约束（Rules/Hooks）提升 Agent 执行准确率与任务可控性的方法。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Matthew Berman",
+   "title": "Anthropic Researcher explains how to train LLMs",
+   "link": "https://www.youtube.com/watch?v=Sjdvu4nHfDk",
+   "dt": "2026-11-12T22:09:15+00:00",
+   "summary": "Check out Jeremy on X: https://x.com/jeremyberman Frontier Pass members saw this video first! https://forwardfuture.com/frontier-pass Join My Newsletter for Regular AI Updates 👇🏼 https://forwardfuture.com My Links 🔗 👉🏻 X: https://x.com/matthewberman 👉🏻 Forward Future X: https://x.com/forwardfuture 👉🏻 Instagram: https://www.instagram.com/matthewberman_ai 👉🏻 Discord: https://discord.gg/u7wTTGWhuJ 👉🏻 Spotify: https://open.spotify.com/show/6dBxDwxtHl1hpqHhfoXmy8 Media/Sponsorship Inquiries ✅ https:/…",
+   "extra": {
+    "channel": "Matthew Berman",
+    "video_id": "Sjdvu4nHfDk"
+   },
+   "skills": [],
+   "learn_score": 1.069,
+   "score": 1.069,
+   "tokens": [
+    "anthropic",
+    "explains",
+    "llms",
+    "researcher",
+    "train"
+   ],
+   "flag": "new",
+   "summary_zh": "Anthropic 研究员解析 LLM 训练全流程，涵盖数据预处理、模型架构设计、预训练策略及对齐技术。",
+   "why_zh": "属于模型训练工程化技能点，可学习大规模分布式训练中的数据配比策略与 RLHF 落地细节。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "6 Underrated Ways to Use ChatGPT",
+   "link": "https://www.youtube.com/shorts/ErOVIC-MGVA",
+   "dt": "2026-11-13T18:15:41+00:00",
+   "summary": "We asked 6 people for their most underrated way to use ChatGPT. Their answers covered personal style, everyday logistics, and stopping random subscription charges. What’s yours?",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": ""
+   },
+   "skills": [],
+   "learn_score": 0.9,
+   "score": 0.9,
+   "tokens": [
+    "chatgpt",
+    "underrated",
+    "use",
+    "ways"
+   ],
+   "flag": "new",
+   "summary_zh": "OpenAI 分享了 ChatGPT 在个人风格定制、日常物流管理及订阅管理等场景的六种非典型应用技巧。",
+   "why_zh": "属于 Prompt Engineering 与 Agent 场景化应用技能点，可借鉴如何通过结构化提示词解决长尾业务需求。"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "youngyangyang04/llm-master",
+   "link": "https://github.com/youngyangyang04/llm-master",
+   "dt": "2026-09-12T07:33:31+00:00",
+   "summary": "大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。",
+   "extra": {
+    "stars": 1655,
+    "language": "",
+    "topics": [
+     "agent",
+     "large-language-models",
+     "llm",
+     "llm-learning",
+     "llm-tutorial",
+     "rag"
+    ],
+    "created": "2026-09-12",
+    "pushed": "2026-11-11"
+   },
+   "skills": [
+    "prompt_context",
+    "rag",
+    "tool_mcp",
+    "training_serving",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.479,
+   "score": 9.916,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-15 推荐过",
+   "summary_zh": "提供覆盖 Prompt Engineering 到模型部署等全栈 LLM 学习路线的中文教程。",
+   "why_zh": "对 AI 工程师系统掌握 LLM 技术栈和面试准备极具参考价值。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Zleap-AI/SAG-Wiki",
+   "link": "https://github.com/Zleap-AI/SAG-Wiki",
+   "dt": "2026-10-18T14:51:30+00:00",
+   "summary": "A lightweight knowledge base for people and agents, with ultra fast indexing and most precise retrieval.",
+   "extra": {
+    "stars": 1205,
+    "language": "Rust",
+    "topics": [
+     "knowledge-base",
+     "knowledge-graph",
+     "rag",
+     "rust",
+     "sag",
+     "sag-wiki"
+    ],
+    "created": "2026-10-18",
+    "pushed": "2026-11-15"
+   },
+   "skills": [
+    "rag",
+    "eval_observability"
+   ],
+   "learn_score": 2.107,
+   "score": 8.428,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-15 推荐过",
+   "summary_zh": "SAG-Wiki 提供了一个轻量级知识库方案，通过优化索引结构实现极速检索，旨在为人类用户及 AI Agent 提供高精度的知识获取能力。",
+   "why_zh": "属于 RAG 系统优化领域，可学习其轻量级索引设计与高精度检索策略，用于提升 Agent 知识库的响应速度与准确率。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "YOLOW92/pagesift",
+   "link": "https://github.com/YOLOW92/pagesift",
+   "dt": "2026-10-20T17:30:59+00:00",
+   "summary": "Self-hosted web scraper, crawler and document parser for AI agents: URLs, PDFs with OCR and Office files to clean Markdown/JSON. Firecrawl- and Jina-compatible API, MCP server, agent endpoint, Python/Node SDKs. Single Rust binary.",
+   "extra": {
+    "stars": 274,
+    "language": "Rust",
+    "topics": [
+     "ai-agents",
+     "browser-automation",
+     "crawl4ai-alternative",
+     "data-extraction",
+     "document-parsing",
+     "firecrawl"
+    ],
+    "created": "2026-10-20",
+    "pushed": "2026-11-15"
+   },
+   "skills": [
+    "tool_mcp",
+    "training_serving"
+   ],
+   "learn_score": 2.107,
+   "score": 7.243,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-15 推荐过",
+   "summary_zh": "基于 Rust 的高性能网页爬虫与内容提取引擎，提供适配 AI Agent 和 RAG 的干净 Markdown 及结构化数据输出。",
+   "why_zh": "RAG 数据预处理技能，学习使用 Rust 实现高内存效率的浏览器渲染与 Firecrawl 兼容 API 以加速数据获取。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ccch1mneyyy/dsh-Go",
+   "link": "https://github.com/ccch1mneyyy/dsh-Go",
+   "dt": "2026-10-25T08:09:52+00:00",
+   "summary": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+   "extra": {
+    "stars": 23602,
+    "language": "Dart",
+    "topics": [
+     "ai-agent",
+     "android",
+     "android-app",
+     "coding-agent",
+     "deepseek",
+     "deepseek-harness"
+    ],
+    "created": "2026-10-25",
+    "pushed": "2026-11-15"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-15 推荐过",
+   "summary_zh": "dsh-Go 实现 DeepSeek 模型在移动端本地运行，并支持远程控制桌面端执行任务，提供轻量级端侧推理解决方案。",
+   "why_zh": "属于端侧 AI 部署技能点，可复用其跨设备通信与本地推理引擎集成方案，解决资源受限环境下的智能体调度问题。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "qybaihe/bla",
+   "link": "https://github.com/qybaihe/bla",
+   "dt": "2026-10-25T05:25:45+00:00",
+   "summary": "🛡️ BLA (bla-agents / Blind LLM Agents) — Open-source Blue Defense MCP server & CLI protecting JS/TS, Electron ASAR, WASM, Python, Native Binaries, SQLite, GGUF/Safetensors & Android DEX against AI reverse-engineering agents (REA).",
+   "extra": {
+    "stars": 5771,
+    "language": "TypeScript",
+    "topics": [
+     "adversarial-ai",
+     "ai-security",
+     "android-security",
+     "binary-protection",
+     "claude-code",
+     "codex"
+    ],
+    "created": "2026-10-25",
+    "pushed": "2026-11-15"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-15 推荐过",
+   "summary_zh": "BLA (Blind LLM Agents) 提供针对 AI 逆向工程的防御机制，通过投毒、资源耗尽与幻觉诱导保护二进制与代码资产。",
+   "why_zh": "AI 安全防御技能点；掌握对抗性样本生成与防御策略，学习如何通过干扰 Agent 的推理过程保护系统资产。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "amosblomqvist/learnharness",
+   "link": "https://github.com/amosblomqvist/learnharness",
+   "dt": "2026-10-16T19:35:33+00:00",
+   "summary": "Agent harness for learning difficult things.",
+   "extra": {
+    "stars": 9545,
+    "language": "TypeScript",
+    "topics": [],
+    "created": "2026-10-16",
+    "pushed": "2026-11-12"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-15 推荐过",
+   "summary_zh": "LearnHarness 是一个专为学习复杂技能设计的 Agent 框架，通过结构化的交互流程辅助 Agent 掌握新知识或任务。",
+   "why_zh": "属于 Agent 学习与任务规划领域。可学习如何构建 Agent 的长程任务分解与反馈循环，提升 Agent 在复杂任务中的自适应能力。"
+  }
+ ]
+}
