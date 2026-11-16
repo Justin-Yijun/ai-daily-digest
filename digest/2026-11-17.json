@@ -1,0 +1,624 @@
+{
+ "date": "2026-11-17",
+ "generated": "2026-11-17 01:49",
+ "source_count": {
+  "github": 78,
+  "youtube": 38,
+  "blog": 83,
+  "paper": 24,
+  "hackernews": 8
+ },
+ "failures": {},
+ "failure_errors": {},
+ "summary_missing": [],
+ "summary_providers": {
+  "gemini": 3
+ },
+ "items": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "hitkeeen/blender-ai-mcp-addon",
+   "link": "https://github.com/hitkeeen/blender-ai-mcp-addon",
+   "dt": "2026-11-12T14:32:15+00:00",
+   "summary": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
+   "extra": {
+    "stars": 2115,
+    "language": "",
+    "topics": [
+     "ai-agents",
+     "ai-assistant",
+     "blender",
+     "blender-addon",
+     "blender-ai",
+     "blender-automation"
+    ],
+    "created": "2026-11-12",
+    "pushed": "2026-11-12"
+   },
+   "skills": [
+    "tool_mcp",
+    "multi_agent"
+   ],
+   "learn_score": 2.788,
+   "score": 11.152,
+   "tokens": [
+    "addon",
+    "ai",
+    "blender",
+    "hitkeeen",
+    "mcp"
+   ],
+   "flag": "new",
+   "summary_zh": "blender-ai-mcp-addon 将 Blender 集成至 MCP 协议，支持通过 LLM 进行 3D 场景交互、bpy 脚本生成及多智能体工作流编排。",
+   "why_zh": "掌握 MCP 协议在垂直领域工具链的扩展能力，学习如何通过 MCP Server 将本地桌面应用功能暴露给 LLM 进行自动化控制。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "MIRIX-2.0: Multi-Agent Memory System",
+   "link": "https://huggingface.co/papers/2611.12068",
+   "dt": "2026-11-08T19:00:00+00:00",
+   "summary": "Long-term memory lets LLM agents personalize, stay consistent, and reuse what worked before. Parametric memories need training, consolidation can lose details for good, and keeping every record leaves a growing store to search. We present MIRIX-2.0, a multi-agent memory system designed to be practical, accurate, and efficient at once. It is the most accurate of the compared systems on four of five QA benchmarks. It reaches 91.4% on LoCoMo and 72.6% on LongMemEval-S, where it leads the strongest ",
+   "extra": {
+    "upvotes": 31,
+    "arxiv": "https://arxiv.org/abs/2611.12068"
+   },
+   "skills": [
+    "agent_architecture",
+    "multi_agent",
+    "eval_observability",
+    "system_design"
+   ],
+   "learn_score": 3.14,
+   "score": 7.823,
+   "tokens": [
+    "agent",
+    "memory",
+    "mirix",
+    "multi",
+    "system"
+   ],
+   "flag": "new",
+   "summary_zh": "MIRIX-2.0 提出一种多智能体记忆系统，通过优化参数化记忆与检索机制，在保持长期记忆一致性的同时提升了存储效率与准确性。",
+   "why_zh": "深入理解 Agent 长期记忆架构，学习如何平衡记忆检索的精度与存储开销，适用于构建需要个性化与持续学习的 Agent 系统。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Tabular Population Priors as Structured Retrieval for EHR Medication Set Prediction",
+   "link": "https://arxiv.org/abs/2611.17341",
+   "dt": "2026-11-16T00:00:00-05:00",
+   "summary": "arXiv:2611.17341v1 Announce Type: new Abstract: Medication prediction from electronic health records is a fixed vocabulary structured prediction problem, yet recent clinical RAG systems often treat it like open ended case based reasoning: retrieve similar patient admissions and ask an LLM to infer a medication set. This retrieval object is indirect the model receives retrieved patient records while the target is a discrete set of medication class labels. We propose a more task aligned retrieval ",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "rag",
+    "eval_observability"
+   ],
+   "learn_score": 3.58,
+   "score": 7.16,
+   "tokens": [
+    "ehr",
+    "medication",
+    "population",
+    "prediction",
+    "priors",
+    "retrieval",
+    "set",
+    "structured",
+    "tabular"
+   ],
+   "flag": "new",
+   "summary_zh": "该研究提出将表格人口先验作为结构化检索对象，替代传统 EHR 临床 RAG 系统中低效的案例推理，提升药物预测准确度。",
+   "why_zh": "掌握结构化数据检索与 RAG 的结合技巧，学习如何将领域知识（如人口统计学先验）转化为检索索引以优化模型推理结果。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Understanding Positional Embeddings in Modern LLMs",
+   "link": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+   "dt": "2026-11-15T12:14:06+00:00",
+   "summary": "",
+   "extra": {
+    "points": 239,
+    "comments": 27,
+    "hn_link": "https://news.ycombinator.com/item?id=50506376"
+   },
+   "skills": [
+    "rag"
+   ],
+   "learn_score": 1.7,
+   "score": 5.743,
+   "tokens": [
+    "embeddings",
+    "llms",
+    "modern",
+    "positional",
+    "understanding"
+   ],
+   "flag": "new",
+   "summary_zh": "深入剖析现代 LLM 中的位置编码机制，探讨其对模型处理长序列、外推能力及空间感知的影响。",
+   "why_zh": "掌握 RoPE、ALiBi 等位置编码的数学原理，在处理长上下文任务或微调模型时，能根据序列长度需求选择合适的编码方案。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "jackulau/coding.sh",
+   "link": "https://github.com/jackulau/coding.sh",
+   "dt": "2026-11-07T02:57:14+00:00",
+   "summary": "Open-source, local-first observability and evals for AI agents: see what Claude Code, Codex, Cursor and others did and what it cost.",
+   "extra": {
+    "stars": 68,
+    "language": "TypeScript",
+    "topics": [
+     "agent-evals",
+     "agent-observability",
+     "ai-agents",
+     "claude-code",
+     "codex",
+     "coding-agents"
+    ],
+    "created": "2026-11-07",
+    "pushed": "2026-11-16"
+   },
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.756,
+   "score": 4.974,
+   "tokens": [
+    "coding",
+    "jackulau",
+    "sh"
+   ],
+   "flag": "new",
+   "summary_zh": "coding.sh 提供一套本地优先的 AI Agent 可观测性与评估工具，支持监控 Claude Code、Cursor 等工具的执行轨迹与成本。",
+   "why_zh": "学习 Agent 开发中的监控与评估链路，掌握如何通过日志追踪和成本分析优化 Agent 的执行效率与鲁棒性。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ybak/ai-tutorial",
+   "link": "https://github.com/ybak/ai-tutorial",
+   "dt": "2026-10-11T15:17:27+00:00",
+   "summary": "中文 AI 应用实战教程（含英文版）：AgentScope Java、MCP、RAGFlow、FastGPT、Langfuse、LiteLLM、CopilotKit，本机实测，在线阅读与源码同仓。Hands-on Chinese AI tutorials (English edition available) covering AgentScope Java, MCP, RAGFlow, FastGPT, Langfuse, LiteLLM, and CopilotKit.",
+   "extra": {
+    "stars": 25,
+    "language": "JavaScript",
+    "topics": [
+     "agent-framework",
+     "agentscope",
+     "agentscope-java",
+     "agentscope2",
+     "ai-agents",
+     "chinese"
+    ],
+    "created": "2026-10-11",
+    "pushed": "2026-11-16"
+   },
+   "skills": [
+    "rag",
+    "tool_mcp"
+   ],
+   "learn_score": 1.859,
+   "score": 4.458,
+   "tokens": [
+    "ai",
+    "tutorial",
+    "ybak"
+   ],
+   "flag": "new",
+   "summary_zh": "该教程涵盖 AgentScope Java、MCP、RAGFlow 等主流 AI 技术栈，提供基于本地实测的 Agent 开发与部署实战指南。",
+   "why_zh": "通过对比多种 Agent 框架与工具链，快速掌握 MCP 协议集成、RAG 流程优化及 Langfuse 监控等工程化落地核心技能。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ClickHouse/loom",
+   "link": "https://github.com/ClickHouse/loom",
+   "dt": "2026-10-08T12:50:03+00:00",
+   "summary": "Shared long-term memory, document search and a code index for AI agents, linked to your code. Memories point at the files and symbols they're about and surface when an agent edits them. MCP server, Claude Code and Codex plugins, SDKs. Self-hosted on ClickHouse.",
+   "extra": {
+    "stars": 133,
+    "language": "Python",
+    "topics": [
+     "agent-memory",
+     "ai-agents",
+     "ai-memory",
+     "claude-code",
+     "claude-code-plugin",
+     "clickhouse"
+    ],
+    "created": "2026-10-08",
+    "pushed": "2026-11-16"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.239,
+   "score": 3.87,
+   "tokens": [
+    "clickhouse",
+    "loom"
+   ],
+   "flag": "new",
+   "summary_zh": "ClickHouse/loom 提供 AI Agent 专用的长期记忆与代码索引方案，支持 MCP 协议、Claude Code 及 Codex 插件，通过 ClickHouse 实现自托管。",
+   "why_zh": "属于 Agent 记忆管理与 RAG 架构。可学习如何将代码库符号与向量化记忆关联，构建具备上下文感知能力的开发辅助 Agent。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Tell HN: HN is being scraped for emails to scam",
+   "link": "https://news.ycombinator.com/item?id=50513451",
+   "dt": "2026-11-16T02:53:30+00:00",
+   "summary": "I know that many folks here post their personal emails in the Who's for Hire monthly pages and other places, and want to remind you that this public site gets views from folks with ill intent (or their bots/agents) as well. I use unique emails for every site, so I immediately knew that the late AWS payments email sent to my HN email were fake. There were other tells, but I want to remind everyone ",
+   "extra": {
+    "points": 117,
+    "comments": 41,
+    "hn_link": "https://news.ycombinator.com/item?id=50513451"
+   },
+   "skills": [],
+   "learn_score": 1.0,
+   "score": 3.068,
+   "tokens": [
+    "being",
+    "emails",
+    "hn",
+    "scam",
+    "scraped",
+    "tell"
+   ],
+   "flag": "new",
+   "summary_zh": "Hacker News 社区警示，公开平台上的个人邮箱正被自动化爬虫采集用于诈骗，建议开发者在不同平台使用唯一性邮箱以识别泄露源。",
+   "why_zh": "属于 AI 安全与数据隐私工程。可学习在构建自动化数据采集 Agent 时，如何通过唯一标识符（Unique Email）进行溯源与安全审计。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · IndyDevDan",
+   "title": "Fable 5.2 is CRACKED but THIS goes BEYOND THE MODEL",
+   "link": "https://www.youtube.com/watch?v=hYIymEMB9x4",
+   "dt": "2026-11-16T14:00:02+00:00",
+   "summary": "Fable 5.2 just dropped and most engineers DON'T need it. Everyone has access to the same frontier intelligence. The model is NOT your edge. The system you build around the model is. One super agent that does everything is a myth. Sub-agents hit a ceiling. Agent swarms burn more money than they make. The real multi-agent sweet spot? Small agent teams. 🚀 Phase 3 PRE-LAUNCH IS LIVE (What if your agents never stopped?) https://agenticengineer.com/infinite-agentic-engineering?y=hYIymEMB9x4 🔥 In Tiny …",
+   "extra": {
+    "channel": "IndyDevDan",
+    "video_id": "hYIymEMB9x4"
+   },
+   "skills": [
+    "agent_architecture",
+    "multi_agent"
+   ],
+   "learn_score": 2.479,
+   "score": 2.479,
+   "tokens": [
+    "beyond",
+    "cracked",
+    "fable",
+    "goes",
+    "model"
+   ],
+   "flag": "new",
+   "summary_zh": "Fable 5.2 发布，核心观点指出模型本身不再是竞争壁垒，构建高效的小型 Agent 协作团队（Small Agent Teams）才是当前多 Agent 系统的最优解。",
+   "why_zh": "属于 Agent 系统架构设计。可学习如何评估多 Agent 协作模式的 ROI，避免盲目堆叠 Agent 导致成本失控与性能瓶颈。"
+  },
+  {
+   "source": "blog",
+   "source_label": "NVIDIA 技术博客",
+   "title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
+   "link": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
+   "dt": "2026-11-16T16:00:25+00:00",
+   "summary": "In its MLPerf benchmarks debut, with results released today, the NVIDIA Vera Rubin platform delivers leading performance across training, post-training and agentic inference. NVIDIA swept every MLPerf Training v6.1 benchmark and, in its first MLPerf Endpoints submission, delivered more than 10x generational gains in throughput per watt for agentic AI — measuring how much agentic […]",
+   "extra": {},
+   "skills": [
+    "eval_observability",
+    "training_serving"
+   ],
+   "learn_score": 2.341,
+   "score": 2.341,
+   "tokens": [
+    "debuts",
+    "endpoints",
+    "leading",
+    "mlperf",
+    "nvidia",
+    "performance",
+    "rubin",
+    "sweeps",
+    "training",
+    "vera"
+   ],
+   "flag": "new",
+   "summary_zh": "NVIDIA Vera Rubin 平台在 MLPerf v6.1 基准测试中表现优异，在 Agentic AI 推理的单位功耗吞吐量上实现 10 倍代际提升。",
+   "why_zh": "属于 AI 基础设施与性能优化。可学习 Agentic 推理任务在边缘侧与数据中心的算力瓶颈，以及如何通过硬件优化提升 Agent 响应效率。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "Building Jarvis: JPMC’s Agent Building Assembly Line",
+   "link": "https://www.youtube.com/watch?v=VpHYPfvfy0o",
+   "dt": "2026-11-16T13:23:40+00:00",
+   "summary": "David Odomirok, Tony Wu, and Jane Xue of JPMorgan Chase explain Jarvis, which they describe not as a single agent but as an agent-building assembly line, and how, in David's words, the one agent the team took months to build last year now takes minutes. Tony walks through the composable, replaceable skills that make up the line across the software development, agentic development, and production life cycles, from a deep agent setup with skills and enterprise security to the harness, CI/CD, deplo…",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": "VpHYPfvfy0o"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 2.066,
+   "score": 2.066,
+   "tokens": [
+    "agent",
+    "assembly",
+    "building",
+    "jarvis",
+    "jpmc",
+    "line"
+   ],
+   "flag": "new",
+   "summary_zh": "JPMorgan Chase 介绍 Jarvis 平台，通过构建可组合、可替换的技能流水线，将 Agent 开发周期从数月缩短至分钟级。",
+   "why_zh": "属于 Agent 工程化与 MLOps。可学习如何通过模块化设计（Composable Skills）构建 Agent 生产流水线，实现企业级 Agent 的快速交付。"
+  },
+  {
+   "source": "blog",
+   "source_label": "OpenAI 官方博客",
+   "title": "Our first phase of embedded assessments",
+   "link": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+   "dt": "2026-11-16T08:00:00+00:00",
+   "summary": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
+   "extra": {},
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.951,
+   "score": 1.951,
+   "tokens": [
+    "assessments",
+    "embedded",
+    "first",
+    "our",
+    "phase"
+   ],
+   "flag": "new",
+   "summary_zh": "OpenAI 启动嵌入式评估计划，联合 Apollo Research、METR 等机构对模型对齐、安全防护及监控系统进行独立评估。",
+   "why_zh": "属于 AI 安全与模型评估（Alignment）。可学习如何通过第三方评估框架验证 Agent 系统的安全性与合规性，提升复杂任务中的模型鲁棒性。"
+  },
+  {
+   "source": "blog",
+   "source_label": "Simon Willison",
+   "title": "datasette-apps 0.4a0",
+   "link": "https://simonwillison.net/2026/Nov/15/datasette-apps/",
+   "dt": "2026-11-15T04:02:45+00:00",
+   "summary": "Release: datasette-apps 0.4a0 Datasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries against your data. 0.4a0 adds support for linking: you can link to an app with #fragments in the URL and the app can see and use those, plus supported URL schemes are reported back to Datasette Agent so it can help write apps that link to each other. This means you can have e.g. an app that shows details about a specif…",
+   "extra": {},
+   "skills": [
+    "rag"
+   ],
+   "learn_score": 1.951,
+   "score": 1.951,
+   "tokens": [
+    "4a0",
+    "apps",
+    "datasette"
+   ],
+   "flag": "new",
+   "summary_zh": "Datasette Apps 0.4a0 发布，支持在 Datasette 内部运行沙箱化 HTML/JS 应用，并新增 URL #fragments 链接参数传递，便于 Agent 动态调用 SQL 查询。",
+   "why_zh": "属于 Agent 工具调用与数据交互领域，可学习如何通过 URL 状态管理实现 Agent 与沙箱化前端应用的深度协同，提升数据分析 Agent 的交互灵活性。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "How Check Point speeds up vulnerability research with Daybreak | OpenAI for Cybersecurity",
+   "link": "https://www.youtube.com/watch?v=vVVdxMwPBuA",
+   "dt": "2026-11-16T16:55:56+00:00",
+   "summary": "Check Point CTO Jonathan Zanger explains how his team uses OpenAI Daybreak to analyze vulnerabilities and turn findings into protections for customers. A vulnerability research workflow that once took hours can now be completed in minutes, according to Zanger. Read the full customer story: https://openai.com/index/check-point-daybreak/",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": "vVVdxMwPBuA"
+   },
+   "skills": [],
+   "learn_score": 1.125,
+   "score": 1.125,
+   "tokens": [
+    "check",
+    "cybersecurity",
+    "daybreak",
+    "openai",
+    "point",
+    "research",
+    "speeds",
+    "up",
+    "vulnerability"
+   ],
+   "flag": "new",
+   "summary_zh": "Check Point 利用 OpenAI Daybreak 模型分析漏洞并自动生成防护策略，将漏洞研究工作流从数小时缩短至数分钟。",
+   "why_zh": "属于 AI 在网络安全领域的落地实践，可学习如何构建自动化安全分析 Agent，通过 LLM 自动化处理非结构化漏洞数据并转化为可执行的防御代码。"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "youngyangyang04/llm-master",
+   "link": "https://github.com/youngyangyang04/llm-master",
+   "dt": "2026-09-12T07:33:31+00:00",
+   "summary": "大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。",
+   "extra": {
+    "stars": 1666,
+    "language": "",
+    "topics": [
+     "agent",
+     "large-language-models",
+     "llm",
+     "llm-learning",
+     "llm-tutorial",
+     "rag"
+    ],
+    "created": "2026-09-12",
+    "pushed": "2026-11-11"
+   },
+   "skills": [
+    "prompt_context",
+    "rag",
+    "tool_mcp",
+    "training_serving",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.479,
+   "score": 9.916,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-16 推荐过",
+   "summary_zh": "提供覆盖 Prompt Engineering 到模型部署等全栈 LLM 学习路线的中文教程。",
+   "why_zh": "对 AI 工程师系统掌握 LLM 技术栈和面试准备极具参考价值。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Zleap-AI/SAG-Wiki",
+   "link": "https://github.com/Zleap-AI/SAG-Wiki",
+   "dt": "2026-10-18T14:51:30+00:00",
+   "summary": "A lightweight knowledge base for people and agents, with ultra fast indexing and most precise retrieval.",
+   "extra": {
+    "stars": 1305,
+    "language": "Rust",
+    "topics": [
+     "knowledge-base",
+     "knowledge-graph",
+     "rag",
+     "rust",
+     "sag",
+     "sag-wiki"
+    ],
+    "created": "2026-10-18",
+    "pushed": "2026-11-16"
+   },
+   "skills": [
+    "rag",
+    "eval_observability"
+   ],
+   "learn_score": 2.107,
+   "score": 8.428,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-16 推荐过",
+   "summary_zh": "SAG-Wiki 提供了一个轻量级知识库方案，通过优化索引结构实现极速检索，旨在为人类用户及 AI Agent 提供高精度的知识获取能力。",
+   "why_zh": "属于 RAG 系统优化领域，可学习其轻量级索引设计与高精度检索策略，用于提升 Agent 知识库的响应速度与准确率。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ccch1mneyyy/dsh-Go",
+   "link": "https://github.com/ccch1mneyyy/dsh-Go",
+   "dt": "2026-10-25T08:09:52+00:00",
+   "summary": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+   "extra": {
+    "stars": 24683,
+    "language": "Dart",
+    "topics": [
+     "ai-agent",
+     "android",
+     "android-app",
+     "coding-agent",
+     "deepseek",
+     "deepseek-harness"
+    ],
+    "created": "2026-10-25",
+    "pushed": "2026-11-16"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-16 推荐过",
+   "summary_zh": "dsh-Go 实现 DeepSeek 模型在移动端本地运行，并支持远程控制桌面端执行任务，提供轻量级端侧推理解决方案。",
+   "why_zh": "属于端侧 AI 部署技能点，可复用其跨设备通信与本地推理引擎集成方案，解决资源受限环境下的智能体调度问题。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "qybaihe/bla",
+   "link": "https://github.com/qybaihe/bla",
+   "dt": "2026-10-25T05:25:45+00:00",
+   "summary": "🛡️ BLA (bla-agents / Blind LLM Agents) — Open-source Blue Defense MCP server & CLI protecting JS/TS, Electron ASAR, WASM, Python, Native Binaries, SQLite, GGUF/Safetensors & Android DEX against AI reverse-engineering agents (REA).",
+   "extra": {
+    "stars": 5895,
+    "language": "TypeScript",
+    "topics": [
+     "adversarial-ai",
+     "ai-security",
+     "android-security",
+     "binary-protection",
+     "claude-code",
+     "codex"
+    ],
+    "created": "2026-10-25",
+    "pushed": "2026-11-16"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-16 推荐过",
+   "summary_zh": "BLA (Blind LLM Agents) 提供针对 AI 逆向工程的防御机制，通过投毒、资源耗尽与幻觉诱导保护二进制与代码资产。",
+   "why_zh": "AI 安全防御技能点；掌握对抗性样本生成与防御策略，学习如何通过干扰 Agent 的推理过程保护系统资产。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "DIYgod/pinky",
+   "link": "https://github.com/DIYgod/pinky",
+   "dt": "2026-11-06T16:53:14+00:00",
+   "summary": "Let AI use your iPhone or Android phone, with you in the loop: any MCP agent from macOS, Windows or Linux, or Pinky itself, right on the phone.",
+   "extra": {
+    "stars": 2282,
+    "language": "Go",
+    "topics": [
+     "ai-agent",
+     "android",
+     "claude-code",
+     "ios",
+     "iphone",
+     "mcp"
+    ],
+    "created": "2026-11-06",
+    "pushed": "2026-11-16"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-15 推荐过",
+   "summary_zh": "Pinky 允许桌面端的 MCP Agent 通过协议直接控制 Android 或 iPhone 设备，实现跨平台移动端自动化操作。",
+   "why_zh": "掌握 MCP 协议在移动端自动化场景的落地，学习如何通过中间件实现 Agent 对物理设备的远程控制与交互。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "amosblomqvist/learnharness",
+   "link": "https://github.com/amosblomqvist/learnharness",
+   "dt": "2026-10-16T19:35:33+00:00",
+   "summary": "Agent harness for learning difficult things.",
+   "extra": {
+    "stars": 9707,
+    "language": "TypeScript",
+    "topics": [],
+    "created": "2026-10-16",
+    "pushed": "2026-11-12"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-16 推荐过",
+   "summary_zh": "LearnHarness 是一个专为学习复杂技能设计的 Agent 框架，通过结构化的交互流程辅助 Agent 掌握新知识或任务。",
+   "why_zh": "属于 Agent 学习与任务规划领域。可学习如何构建 Agent 的长程任务分解与反馈循环，提升 Agent 在复杂任务中的自适应能力。"
+  }
+ ]
+}
