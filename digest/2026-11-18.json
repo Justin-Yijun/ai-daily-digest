@@ -1,0 +1,624 @@
+{
+ "date": "2026-11-18",
+ "generated": "2026-11-18 01:18",
+ "source_count": {
+  "github": 79,
+  "youtube": 37,
+  "blog": 83,
+  "paper": 12,
+  "hackernews": 10
+ },
+ "failures": {},
+ "failure_errors": {},
+ "summary_missing": [],
+ "summary_providers": {
+  "gemini": 3
+ },
+ "items": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "agentes-chat/agentes-chat",
+   "link": "https://github.com/agentes-chat/agentes-chat",
+   "dt": "2026-11-09T00:50:28+00:00",
+   "summary": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines, memory and approvals. Web, desktop and phone apps. Docker Compose + Postgres. AGPL-3.0.",
+   "extra": {
+    "stars": 1670,
+    "language": "TypeScript",
+    "topics": [
+     "agentic-ai",
+     "ai-agents",
+     "browser-automation",
+     "chat",
+     "claude",
+     "claude-code"
+    ],
+    "created": "2026-11-09",
+    "pushed": "2026-11-17"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "tokens": [
+    "agentes",
+    "chat"
+   ],
+   "flag": "new",
+   "summary_zh": "agentes-chat 是一个开源自托管的 Slack 替代品，支持 AI Agent 与团队在频道内协作，集成 Claude、ChatGPT 等模型及 MCP 工具，具备内存、审批和自动化流程功能。",
+   "why_zh": "属于 Agent 协作系统架构。可学习如何通过 MCP 协议集成外部工具，以及在 Docker 环境下实现多 Agent 任务编排与状态持久化。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Windows 11 is collecting data on which coding agents and developer tools you use",
+   "link": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+   "dt": "2026-11-16T22:58:20+00:00",
+   "summary": "",
+   "extra": {
+    "points": 686,
+    "comments": 553,
+    "hn_link": "https://news.ycombinator.com/item?id=50524736"
+   },
+   "skills": [],
+   "learn_score": 1.35,
+   "score": 5.179,
+   "tokens": [
+    "11",
+    "agents",
+    "coding",
+    "collecting",
+    "data",
+    "developer",
+    "tools",
+    "use",
+    "which",
+    "windows"
+   ],
+   "flag": "new",
+   "summary_zh": "Windows 11 被发现会收集用户使用的编程 Agent 及开发者工具相关数据，引发了关于开发者隐私与 AI 工具使用合规性的讨论。",
+   "why_zh": "属于 AI 工程伦理与隐私合规。在企业级 Agent 开发中，需关注数据遥测策略对用户隐私的影响，以及如何构建符合合规要求的本地化开发环境。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "GPBam: A Retrieval-Aware German Public Law Exam Benchmark",
+   "link": "https://huggingface.co/papers/2611.18981",
+   "dt": "2026-11-12T19:00:00+00:00",
+   "summary": "Legal reasoning in civil-law systems is not rule-lookup: the German state examination asks for a structured opinion (Gutachten) that names the governing norms, applies them to the facts, and argues to a conclusion. We introduce GPBam (German Public Law Bar-style Exam), 81 public-law examination cases with reference solutions, paired with a recitation task over 200 statutory provisions. Drawn from state examination preparation, the cases are broad and rarely repeat, and are not publicly available",
+   "extra": {
+    "upvotes": 0,
+    "arxiv": "https://arxiv.org/abs/2611.18981"
+   },
+   "skills": [
+    "rag",
+    "eval_observability"
+   ],
+   "learn_score": 2.355,
+   "score": 4.71,
+   "tokens": [
+    "aware",
+    "benchmark",
+    "exam",
+    "german",
+    "gpbam",
+    "law",
+    "public",
+    "retrieval"
+   ],
+   "flag": "new",
+   "summary_zh": "GPBam 是一个针对德国公法考试的检索增强基准测试，包含 81 个法律案例及 200 条法规，旨在评估模型在民法体系下的结构化法律推理能力。",
+   "why_zh": "属于 RAG 领域专用基准测试。可学习如何构建具有强逻辑约束的法律推理数据集，以及如何评估模型在复杂法规引用与事实匹配任务中的表现。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "OutfitterBench: Evaluating LLM Agents on Long-Horizon Resource Allocation and Commitment Coordination",
+   "link": "https://huggingface.co/papers/2611.17933",
+   "dt": "2026-11-12T19:00:00+00:00",
+   "summary": "In many long-horizon settings, an agent's own choices create future constraints: committing finite capacity establishes future obligations and forecloses later opportunities. Sustaining performance therefore requires both keeping evolving plans feasible and comparing the value of resource allocations with the alternatives they displace. Recent benchmarks increasingly evaluate LLM agents in continuing operations, but give less attention to how agents keep their own commitments feasible while reas",
+   "extra": {
+    "upvotes": 4,
+    "arxiv": "https://arxiv.org/abs/2611.17933"
+   },
+   "skills": [
+    "eval_observability",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.355,
+   "score": 4.71,
+   "tokens": [
+    "agents",
+    "allocation",
+    "commitment",
+    "coordination",
+    "evaluating",
+    "horizon",
+    "llm",
+    "long",
+    "outfitterbench",
+    "resource"
+   ],
+   "flag": "new",
+   "summary_zh": "OutfitterBench 评估 LLM Agent 在长周期资源分配与承诺协调任务中的表现，重点考察模型在多步决策中对未来约束与机会成本的权衡能力。",
+   "why_zh": "属于 Agent 规划与决策评估。可学习如何设计长周期任务基准，以及如何通过量化指标评估 Agent 在资源受限环境下的长期规划与约束满足能力。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "How the Claude Code team thinks about verification",
+   "link": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
+   "dt": "2026-11-17T10:20:40+00:00",
+   "summary": "",
+   "extra": {
+    "points": 156,
+    "comments": 142,
+    "hn_link": "https://news.ycombinator.com/item?id=50529612"
+   },
+   "skills": [],
+   "learn_score": 1.35,
+   "score": 4.311,
+   "tokens": [
+    "about",
+    "claude",
+    "code",
+    "team",
+    "thinks",
+    "verification"
+   ],
+   "flag": "new",
+   "summary_zh": "Claude Code 团队分享了其在代码生成任务中关于验证机制的思考，探讨了如何通过测试与执行反馈确保 AI 生成代码的正确性与安全性。",
+   "why_zh": "属于 AI 软件工程与代码 Agent。可学习如何构建闭环验证系统，利用测试驱动开发（TDD）和运行时反馈来提升代码生成 Agent 的可靠性。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "peonist-ai/halogen-flash-server",
+   "link": "https://github.com/peonist-ai/halogen-flash-server",
+   "dt": "2026-08-26T12:41:30+00:00",
+   "summary": "Local inference that behaves like a frontier API: Qwen3.8-Flash-Next on AMD Strix Halo plus small NPU models, over the OpenAI and Anthropic APIs on one port.",
+   "extra": {
+    "stars": 1378,
+    "language": "Shell",
+    "topics": [
+     "amd",
+     "gfx1151",
+     "gpu-inference",
+     "hip",
+     "inference-engine",
+     "llm"
+    ],
+    "created": "2026-08-26",
+    "pushed": "2026-11-16"
+   },
+   "skills": [
+    "training_serving"
+   ],
+   "learn_score": 0.918,
+   "score": 3.672,
+   "tokens": [
+    "ai",
+    "flash",
+    "halogen",
+    "peonist",
+    "server"
+   ],
+   "flag": "new",
+   "summary_zh": "halogen-flash-server 提供本地推理服务，将 Qwen3.8-Flash-Next 等模型封装为兼容 OpenAI 和 Anthropic API 的接口，支持 AMD Strix Halo 及 NPU 加速。",
+   "why_zh": "属于本地模型部署与 API 兼容层开发。可学习如何通过统一接口封装异构硬件推理后端，实现本地模型在现有 AI 应用生态中的无缝切换。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "YellowLaborerMarket/Gemini-Config-Checker-",
+   "link": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-",
+   "dt": "2026-11-15T16:48:18+00:00",
+   "summary": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+   "extra": {
+    "stars": 475,
+    "language": "Makefile",
+    "topics": [
+     "ai",
+     "ai-search",
+     "aichecker",
+     "chatgpt",
+     "cli",
+     "config-checker"
+    ],
+    "created": "2026-11-15",
+    "pushed": "2026-11-15"
+   },
+   "skills": [],
+   "learn_score": 0.855,
+   "score": 3.144,
+   "tokens": [
+    "checker",
+    "config",
+    "gemini",
+    "yellowlaborermarket"
+   ],
+   "flag": "new",
+   "summary_zh": "Gemini-Config-Checker 提供了一套跨平台扫描工具，用于检测并验证能够访问 Google AI Studio 和 Gemini 的代理配置。",
+   "why_zh": "网络工程与 LLM 部署技能点。可学习如何通过自动化脚本检测代理连通性，解决特定区域访问受限的工程部署问题。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Sandflow-ai/sand3d",
+   "link": "https://github.com/Sandflow-ai/sand3d",
+   "dt": "2026-11-03T08:23:03+00:00",
+   "summary": "3D modeling in Python, built for LLMs.",
+   "extra": {
+    "stars": 2109,
+    "language": "HTML",
+    "topics": [
+     "3d",
+     "blender",
+     "cad",
+     "llm",
+     "procedural-modeling",
+     "python"
+    ],
+    "created": "2026-11-03",
+    "pushed": "2026-11-17"
+   },
+   "skills": [],
+   "learn_score": 0.765,
+   "score": 3.06,
+   "tokens": [
+    "ai",
+    "sand3d",
+    "sandflow"
+   ],
+   "flag": "new",
+   "summary_zh": "sand3d 是一个专为 LLM 设计的 Python 3D 建模库，旨在通过代码生成实现 3D 资产的程序化创建与编辑。",
+   "why_zh": "多模态 Agent 与具身智能技能点。可学习如何构建 LLM 可调用的 3D 几何 API，实现从文本到 3D 场景的自动化生成。"
+  },
+  {
+   "source": "blog",
+   "source_label": "雷锋网",
+   "title": "智源悟界·PhysCapBench：首个跨领域的世界模型“物理数据量尺”",
+   "link": "https://www.leiphone.com/category/aijuejinzhi/KPwGklj93OeTbkrg.html",
+   "dt": "2026-11-17T16:33:00+08:00",
+   "summary": "物理AI基模的核心，是从真实经验中学习可迁移的物理规律，形成理解、预测和作用于物理世界的能力。真实世界的数据里藏着丰富的物理信息：互联网视频记录运动与环境演化，Egocentric呈现手物交互，真机轨迹记录动作与状态响应，力触反馈补充接触力、滑移与形变，不同数据共同提供了互补的物理经验。如何衡量、提炼和耦合这些数据中的物理特性，是构建物理AI基模亟待解决的基础问题。 围绕这一问题， 智源研究院联合逆矩阵、北京大学、清华大学、北京航空航天大学推出悟界·PhysCapBench ——首个覆盖第三人称场景、第一人称操作与手持夹爪示范三大领域，统一评测视频Caption物理信息的基准。 悟界·PhysCapBench: A Cross-Domain Benchmark for Physically Grounded Video Captioning跨领域视频描述物理信息评测基准 它从视频描述入手，统一度量描述对物理信息的覆盖与保真，为描述策略选择、标注质量评估和训练数据优化提供一把跨领域的“物理数据量尺”。 图1：悟界·PhysCapBench整体框架——跨领域数据、物理标注、描述评测与下游验…",
+   "extra": {},
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 2.438,
+   "score": 2.438,
+   "tokens": [
+    "physcapbench",
+    "智源悟界",
+    "物理数据量尺",
+    "首个跨领域的世界模型"
+   ],
+   "flag": "new",
+   "summary_zh": "悟界 PhysCapBench 是首个跨领域物理视频描述评测基准，涵盖第三人称场景、第一人称操作及手持夹爪示范，用于衡量模型对物理规律的理解。",
+   "why_zh": "世界模型与多模态评估技能点。可学习如何设计多维度物理属性标注体系，提升模型在复杂物理交互场景下的推理与描述能力。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "What are Deep Agents? What's a Sandbox? Our Top Workshop Questions Answered",
+   "link": "https://www.youtube.com/shorts/7F2oYREhfG4",
+   "dt": "2026-11-17T15:33:41+00:00",
+   "summary": "LangChain Education Engineer Ishaan Lal answers two commonly asked questions during the Interrupt NYC workshops. What is an Agent vs. Deep Agent vs. Managed Deep Agent? An agent is a model with access to tools, running in a loop. Deep Agents give it a harness for harder, longer-running work, and Managed Deep Agents takes care of the production infrastructure, like sandboxes and durable execution. The second question is about sandboxes, the safe, isolated environments where your agent writes and …",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": ""
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 2.066,
+   "score": 2.066,
+   "tokens": [
+    "agents",
+    "answered",
+    "deep",
+    "our",
+    "questions",
+    "sandbox",
+    "top",
+    "workshop"
+   ],
+   "flag": "new",
+   "summary_zh": "LangChain 澄清了 Deep Agents 概念，指出其通过沙盒环境和持久化执行机制，解决了传统 Agent 在长任务运行中的生产环境稳定性问题。",
+   "why_zh": "Agent 工程化技能点。可学习如何通过沙盒隔离与持久化执行架构，提升复杂 Agent 系统在生产环境中的可靠性与可维护性。"
+  },
+  {
+   "source": "blog",
+   "source_label": "雷锋网",
+   "title": "独家丨腾讯优图实验室研究总监孙星离职",
+   "link": "https://www.leiphone.com/category/CorporateServices/ndF7IsEHBffZkbzy.html",
+   "dt": "2026-11-17T16:28:00+08:00",
+   "summary": "雷峰网独家消息，腾讯优图实验室研究总监、专家研究员孙星已离职。 据公开资源显示，孙星本科毕业于南京理工大学，博士毕业于香港大学工程学院。2016年加入腾讯优图实验室。 早期，他主要深耕医疗影像 AI，参与了肺癌识别和糖尿病视网膜病变筛查研究，相关技术应用于腾讯觅影。进入大模型时代后，其研究重心转向多模态大模型、Agent 与 RAG，主导或参与了视频评测基准 Video-MME、全模态模型 VITA、视觉语言模型 Youtu-VL，以及 Youtu-Agent、Youtu-GraphRAG 等多个研发与开源项目。 关于孙星后续去向，雷峰网也将持续追踪报道，欢迎添加作者微信交流 Mindy1857",
+   "extra": {},
+   "skills": [
+    "rag",
+    "eval_observability"
+   ],
+   "learn_score": 1.734,
+   "score": 1.734,
+   "tokens": [
+    "独家丨腾讯优图实验室研究总监孙星离职"
+   ],
+   "flag": "new",
+   "summary_zh": "腾讯优图实验室研究总监孙星离职，其此前主导了 Video-MME、VITA、Youtu-Agent 及 GraphRAG 等多模态与 Agent 相关技术研发。",
+   "why_zh": "行业动态与技术路线感知。关注头部实验室在多模态 Agent 与 GraphRAG 结合方向的研发重点，评估当前技术栈的演进趋势。"
+  },
+  {
+   "source": "blog",
+   "source_label": "InfoQ 中文 AI",
+   "title": "面向多智能体应用的大模型推理调度与缓存优化｜AICon北京",
+   "link": "https://www.infoq.cn/article/X8xujm6xovp7z2YzWbpM?utm_source=rss&utm_medium=article",
+   "dt": "2026-11-17T18:53:07+00:00",
+   "summary": "点击查看原文>",
+   "extra": {},
+   "skills": [
+    "agent_architecture",
+    "multi_agent"
+   ],
+   "learn_score": 1.734,
+   "score": 1.734,
+   "tokens": [
+    "aicon北京",
+    "面向多智能体应用的大模型推理调度与缓存优化"
+   ],
+   "flag": "new",
+   "summary_zh": "面向多智能体应用的大模型推理调度与缓存优化，探讨了在复杂 Agent 系统中如何通过高效调度与缓存策略降低延迟并提升吞吐量。",
+   "why_zh": "LLM 推理优化技能点。可学习多 Agent 并发场景下的资源调度算法与 KV Cache 优化策略，解决大规模 Agent 应用的性能瓶颈。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Cole Medin",
+   "title": "5 Types of AI Software Factories Clearly Explained",
+   "link": "https://www.youtube.com/watch?v=r5iPi8RL7A8",
+   "dt": "2026-11-16T23:51:15+00:00",
+   "summary": "AI software factories are all the rage right now, but there's a lot of confusion about what they actually are. Here are the five most common types with the pros and cons of each, so you can find the right balance of control and autonomy for what you're building! ~~~~~~~~~~~~~~~~~~~~~~~~~~ - Thank you to LangChain for sponsoring this video! Try LangSmith with $50 in credit using my code ColeM: https://www.langchain.com/referral/cole-medin?utm_medium=creator&utm_source=youtube&utm_campaign=q3-2026…",
+   "extra": {
+    "channel": "Cole Medin",
+    "video_id": "r5iPi8RL7A8"
+   },
+   "skills": [
+    "rag"
+   ],
+   "learn_score": 1.53,
+   "score": 1.53,
+   "tokens": [
+    "ai",
+    "clearly",
+    "explained",
+    "factories",
+    "software",
+    "types"
+   ],
+   "flag": "new",
+   "summary_zh": "归纳了 AI Software Factories 的五种常见架构模式，对比了不同模式在控制权与自主性之间的权衡，帮助开发者选择适合的 AI 开发流水线。",
+   "why_zh": "系统架构设计能力。掌握不同 AI 生产流水线的组织形式，能根据业务规模和研发需求，在开发效率与系统治理之间进行架构选型。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "How Revolut’s lean teams take on bigger challenges with OpenAI",
+   "link": "https://www.youtube.com/watch?v=ZIpm-0RczCk",
+   "dt": "2026-11-17T09:45:35+00:00",
+   "summary": "What can one engineer build when a project looks like it needs a whole team? At Revolut, an engineer used Codex to build an internal code review service himself. Its designers used Codex to turn seven years of design documentation into a format AI could read in a single day. OpenAI also helps Revolut’s financial crime team investigate flagged payments and respond faster to make shopping safer. Read the full story: https://openai.com/business/customer-stories/revolut/",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": "ZIpm-0RczCk"
+   },
+   "skills": [],
+   "learn_score": 1.215,
+   "score": 1.215,
+   "tokens": [
+    "bigger",
+    "challenges",
+    "lean",
+    "openai",
+    "revolut",
+    "take",
+    "teams"
+   ],
+   "flag": "new",
+   "summary_zh": "Revolut 利用 OpenAI Codex 实现代码审查自动化、文档结构化处理及金融反欺诈调查，展示了 LLM 在企业级工程效率与业务流程中的落地应用。",
+   "why_zh": "AI 工程化落地。学习如何将 LLM 嵌入现有业务流，通过自动化代码审查和非结构化数据处理，解决企业级开发中的人力瓶颈问题。"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "youngyangyang04/llm-master",
+   "link": "https://github.com/youngyangyang04/llm-master",
+   "dt": "2026-09-12T07:33:31+00:00",
+   "summary": "大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。",
+   "extra": {
+    "stars": 1679,
+    "language": "",
+    "topics": [
+     "agent",
+     "large-language-models",
+     "llm",
+     "llm-learning",
+     "llm-tutorial",
+     "rag"
+    ],
+    "created": "2026-09-12",
+    "pushed": "2026-11-11"
+   },
+   "skills": [
+    "prompt_context",
+    "rag",
+    "tool_mcp",
+    "training_serving",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.479,
+   "score": 9.916,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-17 推荐过",
+   "summary_zh": "提供覆盖 Prompt Engineering 到模型部署等全栈 LLM 学习路线的中文教程。",
+   "why_zh": "对 AI 工程师系统掌握 LLM 技术栈和面试准备极具参考价值。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Zleap-AI/SAG-Wiki",
+   "link": "https://github.com/Zleap-AI/SAG-Wiki",
+   "dt": "2026-10-18T14:51:30+00:00",
+   "summary": "A lightweight knowledge base for people and agents, with ultra fast indexing and most precise retrieval.",
+   "extra": {
+    "stars": 1383,
+    "language": "Rust",
+    "topics": [
+     "knowledge-base",
+     "knowledge-graph",
+     "rag",
+     "rust",
+     "sag",
+     "sag-wiki"
+    ],
+    "created": "2026-10-18",
+    "pushed": "2026-11-17"
+   },
+   "skills": [
+    "rag",
+    "eval_observability"
+   ],
+   "learn_score": 2.107,
+   "score": 8.428,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-17 推荐过",
+   "summary_zh": "SAG-Wiki 提供了一个轻量级知识库方案，通过优化索引结构实现极速检索，旨在为人类用户及 AI Agent 提供高精度的知识获取能力。",
+   "why_zh": "属于 RAG 系统优化领域，可学习其轻量级索引设计与高精度检索策略，用于提升 Agent 知识库的响应速度与准确率。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ccch1mneyyy/dsh-Go",
+   "link": "https://github.com/ccch1mneyyy/dsh-Go",
+   "dt": "2026-10-25T08:09:52+00:00",
+   "summary": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+   "extra": {
+    "stars": 25869,
+    "language": "Dart",
+    "topics": [
+     "ai-agent",
+     "android",
+     "android-app",
+     "coding-agent",
+     "deepseek",
+     "deepseek-harness"
+    ],
+    "created": "2026-10-25",
+    "pushed": "2026-11-17"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-17 推荐过",
+   "summary_zh": "dsh-Go 实现 DeepSeek 模型在移动端本地运行，并支持远程控制桌面端执行任务，提供轻量级端侧推理解决方案。",
+   "why_zh": "属于端侧 AI 部署技能点，可复用其跨设备通信与本地推理引擎集成方案，解决资源受限环境下的智能体调度问题。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "qybaihe/bla",
+   "link": "https://github.com/qybaihe/bla",
+   "dt": "2026-10-25T05:25:45+00:00",
+   "summary": "🛡️ BLA (bla-agents / Blind LLM Agents) — Open-source Blue Defense MCP server & CLI protecting JS/TS, Electron ASAR, WASM, Python, Native Binaries, SQLite, GGUF/Safetensors & Android DEX against AI reverse-engineering agents (REA).",
+   "extra": {
+    "stars": 6042,
+    "language": "TypeScript",
+    "topics": [
+     "adversarial-ai",
+     "ai-security",
+     "android-security",
+     "binary-protection",
+     "claude-code",
+     "codex"
+    ],
+    "created": "2026-10-25",
+    "pushed": "2026-11-17"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-17 推荐过",
+   "summary_zh": "BLA (Blind LLM Agents) 提供针对 AI 逆向工程的防御机制，通过投毒、资源耗尽与幻觉诱导保护二进制与代码资产。",
+   "why_zh": "AI 安全防御技能点；掌握对抗性样本生成与防御策略，学习如何通过干扰 Agent 的推理过程保护系统资产。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "DIYgod/pinky",
+   "link": "https://github.com/DIYgod/pinky",
+   "dt": "2026-11-06T16:53:14+00:00",
+   "summary": "Let AI use your iPhone or Android phone, with you in the loop: any MCP agent from macOS, Windows or Linux, or Pinky itself, right on the phone.",
+   "extra": {
+    "stars": 2361,
+    "language": "Go",
+    "topics": [
+     "ai-agent",
+     "android",
+     "claude-code",
+     "ios",
+     "iphone",
+     "mcp"
+    ],
+    "created": "2026-11-06",
+    "pushed": "2026-11-17"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-17 推荐过",
+   "summary_zh": "Pinky 允许桌面端的 MCP Agent 通过协议直接控制 Android 或 iPhone 设备，实现跨平台移动端自动化操作。",
+   "why_zh": "掌握 MCP 协议在移动端自动化场景的落地，学习如何通过中间件实现 Agent 对物理设备的远程控制与交互。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ai-gateways/awesome-ai-gateways",
+   "link": "https://github.com/ai-gateways/awesome-ai-gateways",
+   "dt": "2026-10-30T10:30:50+00:00",
+   "summary": "Awesome AI gateways: open source and commercial LLM gateways, MCP gateways, agent (A2A) gateways, model routers, specs, and guides.",
+   "extra": {
+    "stars": 46,
+    "language": "",
+    "topics": [
+     "a2a",
+     "a2a-protocol",
+     "agent-gateway",
+     "ai-agents",
+     "ai-gateway",
+     "ai-governance"
+    ],
+    "created": "2026-10-30",
+    "pushed": "2026-11-16"
+   },
+   "skills": [
+    "tool_mcp",
+    "multi_agent"
+   ],
+   "learn_score": 2.634,
+   "score": 7.014,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-14 推荐过",
+   "summary_zh": "整理开源与商业 LLM 网关、MCP 网关、Agent 间通信网关及模型路由器的技术资源库。",
+   "why_zh": "属于 AI 基础设施领域，可学习如何构建高可用、可观测的 LLM 中间件，掌握 Agent 架构中网关层面的流量调度与协议适配。"
+  }
+ ]
+}

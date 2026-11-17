@@ -39,7 +39,7 @@
   },
   "https://github.com/youngyangyang04/llm-master": {
    "title": "youngyangyang04/llm-master",
-   "date": "2026-11-17",
+   "date": "2026-11-18",
    "tokens": [],
    "source": "github",
    "summary_zh": "提供覆盖 Prompt Engineering 到模型部署等全栈 LLM 学习路线的中文教程。",
@@ -6202,7 +6202,7 @@
   },
   "https://github.com/ccch1mneyyy/dsh-Go": {
    "title": "ccch1mneyyy/dsh-Go",
-   "date": "2026-11-17",
+   "date": "2026-11-18",
    "tokens": [],
    "source": "github",
    "summary_zh": "dsh-Go 实现 DeepSeek 模型在移动端本地运行，并支持远程控制桌面端执行任务，提供轻量级端侧推理解决方案。",
@@ -6470,7 +6470,7 @@
   },
   "https://github.com/qybaihe/bla": {
    "title": "qybaihe/bla",
-   "date": "2026-11-17",
+   "date": "2026-11-18",
    "tokens": [],
    "source": "github",
    "summary_zh": "BLA (Blind LLM Agents) 提供针对 AI 逆向工程的防御机制，通过投毒、资源耗尽与幻觉诱导保护二进制与代码资产。",
@@ -6632,7 +6632,7 @@
   },
   "https://github.com/ai-gateways/awesome-ai-gateways": {
    "title": "ai-gateways/awesome-ai-gateways",
-   "date": "2026-11-14",
+   "date": "2026-11-18",
    "tokens": [],
    "source": "github",
    "summary_zh": "整理开源与商业 LLM 网关、MCP 网关、Agent 间通信网关及模型路由器的技术资源库。",
@@ -8455,7 +8455,7 @@
   },
   "https://github.com/Zleap-AI/SAG-Wiki": {
    "title": "Zleap-AI/SAG-Wiki",
-   "date": "2026-11-17",
+   "date": "2026-11-18",
    "tokens": [],
    "source": "github",
    "summary_zh": "SAG-Wiki 提供了一个轻量级知识库方案，通过优化索引结构实现极速检索，旨在为人类用户及 AI Agent 提供高精度的知识获取能力。",
@@ -9080,7 +9080,7 @@
   },
   "https://github.com/DIYgod/pinky": {
    "title": "DIYgod/pinky",
-   "date": "2026-11-17",
+   "date": "2026-11-18",
    "tokens": [],
    "source": "github",
    "summary_zh": "Pinky 允许桌面端的 MCP Agent 通过协议直接控制 Android 或 iPhone 设备，实现跨平台移动端自动化操作。",
@@ -9684,7 +9684,209 @@
    "source": "youtube",
    "summary_zh": "Check Point 利用 OpenAI Daybreak 模型分析漏洞并自动生成防护策略，将漏洞研究工作流从数小时缩短至数分钟。",
    "why_zh": "属于 AI 在网络安全领域的落地实践，可学习如何构建自动化安全分析 Agent，通过 LLM 自动化处理非结构化漏洞数据并转化为可执行的防御代码。"
+  },
+  "https://github.com/agentes-chat/agentes-chat": {
+   "title": "agentes-chat/agentes-chat",
+   "date": "2026-11-18",
+   "tokens": [
+    "agentes",
+    "chat"
+   ],
+   "source": "github",
+   "summary_zh": "agentes-chat 是一个开源自托管的 Slack 替代品，支持 AI Agent 与团队在频道内协作，集成 Claude、ChatGPT 等模型及 MCP 工具，具备内存、审批和自动化流程功能。",
+   "why_zh": "属于 Agent 协作系统架构。可学习如何通过 MCP 协议集成外部工具，以及在 Docker 环境下实现多 Agent 任务编排与状态持久化。"
+  },
+  "https://xusheng.dev/posts/windows-coding-agent-telemetry/": {
+   "title": "Windows 11 is collecting data on which coding agents and developer tools you use",
+   "date": "2026-11-18",
+   "tokens": [
+    "11",
+    "agents",
+    "coding",
+    "collecting",
+    "data",
+    "developer",
+    "tools",
+    "use",
+    "which",
+    "windows"
+   ],
+   "source": "hackernews",
+   "summary_zh": "Windows 11 被发现会收集用户使用的编程 Agent 及开发者工具相关数据，引发了关于开发者隐私与 AI 工具使用合规性的讨论。",
+   "why_zh": "属于 AI 工程伦理与隐私合规。在企业级 Agent 开发中，需关注数据遥测策略对用户隐私的影响，以及如何构建符合合规要求的本地化开发环境。"
+  },
+  "https://huggingface.co/papers/2611.18981": {
+   "title": "GPBam: A Retrieval-Aware German Public Law Exam Benchmark",
+   "date": "2026-11-18",
+   "tokens": [
+    "aware",
+    "benchmark",
+    "exam",
+    "german",
+    "gpbam",
+    "law",
+    "public",
+    "retrieval"
+   ],
+   "source": "paper",
+   "summary_zh": "GPBam 是一个针对德国公法考试的检索增强基准测试，包含 81 个法律案例及 200 条法规，旨在评估模型在民法体系下的结构化法律推理能力。",
+   "why_zh": "属于 RAG 领域专用基准测试。可学习如何构建具有强逻辑约束的法律推理数据集，以及如何评估模型在复杂法规引用与事实匹配任务中的表现。"
+  },
+  "https://huggingface.co/papers/2611.17933": {
+   "title": "OutfitterBench: Evaluating LLM Agents on Long-Horizon Resource Allocation and Commitment Coordination",
+   "date": "2026-11-18",
+   "tokens": [
+    "agents",
+    "allocation",
+    "commitment",
+    "coordination",
+    "evaluating",
+    "horizon",
+    "llm",
+    "long",
+    "outfitterbench",
+    "resource"
+   ],
+   "source": "paper",
+   "summary_zh": "OutfitterBench 评估 LLM Agent 在长周期资源分配与承诺协调任务中的表现，重点考察模型在多步决策中对未来约束与机会成本的权衡能力。",
+   "why_zh": "属于 Agent 规划与决策评估。可学习如何设计长周期任务基准，以及如何通过量化指标评估 Agent 在资源受限环境下的长期规划与约束满足能力。"
+  },
+  "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/": {
+   "title": "How the Claude Code team thinks about verification",
+   "date": "2026-11-18",
+   "tokens": [
+    "about",
+    "claude",
+    "code",
+    "team",
+    "thinks",
+    "verification"
+   ],
+   "source": "hackernews",
+   "summary_zh": "Claude Code 团队分享了其在代码生成任务中关于验证机制的思考，探讨了如何通过测试与执行反馈确保 AI 生成代码的正确性与安全性。",
+   "why_zh": "属于 AI 软件工程与代码 Agent。可学习如何构建闭环验证系统，利用测试驱动开发（TDD）和运行时反馈来提升代码生成 Agent 的可靠性。"
+  },
+  "https://github.com/peonist-ai/halogen-flash-server": {
+   "title": "peonist-ai/halogen-flash-server",
+   "date": "2026-11-18",
+   "tokens": [
+    "ai",
+    "flash",
+    "halogen",
+    "peonist",
+    "server"
+   ],
+   "source": "github",
+   "summary_zh": "halogen-flash-server 提供本地推理服务，将 Qwen3.8-Flash-Next 等模型封装为兼容 OpenAI 和 Anthropic API 的接口，支持 AMD Strix Halo 及 NPU 加速。",
+   "why_zh": "属于本地模型部署与 API 兼容层开发。可学习如何通过统一接口封装异构硬件推理后端，实现本地模型在现有 AI 应用生态中的无缝切换。"
+  },
+  "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-": {
+   "title": "YellowLaborerMarket/Gemini-Config-Checker-",
+   "date": "2026-11-18",
+   "tokens": [
+    "checker",
+    "config",
+    "gemini",
+    "yellowlaborermarket"
+   ],
+   "source": "github",
+   "summary_zh": "Gemini-Config-Checker 提供了一套跨平台扫描工具，用于检测并验证能够访问 Google AI Studio 和 Gemini 的代理配置。",
+   "why_zh": "网络工程与 LLM 部署技能点。可学习如何通过自动化脚本检测代理连通性，解决特定区域访问受限的工程部署问题。"
+  },
+  "https://github.com/Sandflow-ai/sand3d": {
+   "title": "Sandflow-ai/sand3d",
+   "date": "2026-11-18",
+   "tokens": [
+    "ai",
+    "sand3d",
+    "sandflow"
+   ],
+   "source": "github",
+   "summary_zh": "sand3d 是一个专为 LLM 设计的 Python 3D 建模库，旨在通过代码生成实现 3D 资产的程序化创建与编辑。",
+   "why_zh": "多模态 Agent 与具身智能技能点。可学习如何构建 LLM 可调用的 3D 几何 API，实现从文本到 3D 场景的自动化生成。"
+  },
+  "https://www.leiphone.com/category/aijuejinzhi/KPwGklj93OeTbkrg.html": {
+   "title": "智源悟界·PhysCapBench：首个跨领域的世界模型“物理数据量尺”",
+   "date": "2026-11-18",
+   "tokens": [
+    "physcapbench",
+    "智源悟界",
+    "物理数据量尺",
+    "首个跨领域的世界模型"
+   ],
+   "source": "blog",
+   "summary_zh": "悟界 PhysCapBench 是首个跨领域物理视频描述评测基准，涵盖第三人称场景、第一人称操作及手持夹爪示范，用于衡量模型对物理规律的理解。",
+   "why_zh": "世界模型与多模态评估技能点。可学习如何设计多维度物理属性标注体系，提升模型在复杂物理交互场景下的推理与描述能力。"
+  },
+  "https://www.youtube.com/shorts/7F2oYREhfG4": {
+   "title": "What are Deep Agents? What's a Sandbox? Our Top Workshop Questions Answered",
+   "date": "2026-11-18",
+   "tokens": [
+    "agents",
+    "answered",
+    "deep",
+    "our",
+    "questions",
+    "sandbox",
+    "top",
+    "workshop"
+   ],
+   "source": "youtube",
+   "summary_zh": "LangChain 澄清了 Deep Agents 概念，指出其通过沙盒环境和持久化执行机制，解决了传统 Agent 在长任务运行中的生产环境稳定性问题。",
+   "why_zh": "Agent 工程化技能点。可学习如何通过沙盒隔离与持久化执行架构，提升复杂 Agent 系统在生产环境中的可靠性与可维护性。"
+  },
+  "https://www.leiphone.com/category/CorporateServices/ndF7IsEHBffZkbzy.html": {
+   "title": "独家丨腾讯优图实验室研究总监孙星离职",
+   "date": "2026-11-18",
+   "tokens": [
+    "独家丨腾讯优图实验室研究总监孙星离职"
+   ],
+   "source": "blog",
+   "summary_zh": "腾讯优图实验室研究总监孙星离职，其此前主导了 Video-MME、VITA、Youtu-Agent 及 GraphRAG 等多模态与 Agent 相关技术研发。",
+   "why_zh": "行业动态与技术路线感知。关注头部实验室在多模态 Agent 与 GraphRAG 结合方向的研发重点，评估当前技术栈的演进趋势。"
+  },
+  "https://www.infoq.cn/article/X8xujm6xovp7z2YzWbpM?utm_source=rss&utm_medium=article": {
+   "title": "面向多智能体应用的大模型推理调度与缓存优化｜AICon北京",
+   "date": "2026-11-18",
+   "tokens": [
+    "aicon北京",
+    "面向多智能体应用的大模型推理调度与缓存优化"
+   ],
+   "source": "blog",
+   "summary_zh": "面向多智能体应用的大模型推理调度与缓存优化，探讨了在复杂 Agent 系统中如何通过高效调度与缓存策略降低延迟并提升吞吐量。",
+   "why_zh": "LLM 推理优化技能点。可学习多 Agent 并发场景下的资源调度算法与 KV Cache 优化策略，解决大规模 Agent 应用的性能瓶颈。"
+  },
+  "https://www.youtube.com/watch?v=r5iPi8RL7A8": {
+   "title": "5 Types of AI Software Factories Clearly Explained",
+   "date": "2026-11-18",
+   "tokens": [
+    "ai",
+    "clearly",
+    "explained",
+    "factories",
+    "software",
+    "types"
+   ],
+   "source": "youtube",
+   "summary_zh": "归纳了 AI Software Factories 的五种常见架构模式，对比了不同模式在控制权与自主性之间的权衡，帮助开发者选择适合的 AI 开发流水线。",
+   "why_zh": "系统架构设计能力。掌握不同 AI 生产流水线的组织形式，能根据业务规模和研发需求，在开发效率与系统治理之间进行架构选型。"
+  },
+  "https://www.youtube.com/watch?v=ZIpm-0RczCk": {
+   "title": "How Revolut’s lean teams take on bigger challenges with OpenAI",
+   "date": "2026-11-18",
+   "tokens": [
+    "bigger",
+    "challenges",
+    "lean",
+    "openai",
+    "revolut",
+    "take",
+    "teams"
+   ],
+   "source": "youtube",
+   "summary_zh": "Revolut 利用 OpenAI Codex 实现代码审查自动化、文档结构化处理及金融反欺诈调查，展示了 LLM 在企业级工程效率与业务流程中的落地应用。",
+   "why_zh": "AI 工程化落地。学习如何将 LLM 嵌入现有业务流，通过自动化代码审查和非结构化数据处理，解决企业级开发中的人力瓶颈问题。"
   }
  },
- "updated": "2026-11-16T17:49:25.408138+00:00"
+ "updated": "2026-11-17T17:18:53.972243+00:00"
 }
