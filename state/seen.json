@@ -190,7 +190,7 @@
   },
   "https://github.com/amitshekhariitbhu/ai-engineering-course": {
    "title": "amitshekhariitbhu/ai-engineering-course",
-   "date": "2026-10-24",
+   "date": "2026-11-19",
    "tokens": [],
    "source": "github",
    "summary_zh": "",
@@ -6202,7 +6202,7 @@
   },
   "https://github.com/ccch1mneyyy/dsh-Go": {
    "title": "ccch1mneyyy/dsh-Go",
-   "date": "2026-11-18",
+   "date": "2026-11-19",
    "tokens": [],
    "source": "github",
    "summary_zh": "dsh-Go 实现 DeepSeek 模型在移动端本地运行，并支持远程控制桌面端执行任务，提供轻量级端侧推理解决方案。",
@@ -6470,7 +6470,7 @@
   },
   "https://github.com/qybaihe/bla": {
    "title": "qybaihe/bla",
-   "date": "2026-11-18",
+   "date": "2026-11-19",
    "tokens": [],
    "source": "github",
    "summary_zh": "BLA (Blind LLM Agents) 提供针对 AI 逆向工程的防御机制，通过投毒、资源耗尽与幻觉诱导保护二进制与代码资产。",
@@ -6632,7 +6632,7 @@
   },
   "https://github.com/ai-gateways/awesome-ai-gateways": {
    "title": "ai-gateways/awesome-ai-gateways",
-   "date": "2026-11-18",
+   "date": "2026-11-19",
    "tokens": [],
    "source": "github",
    "summary_zh": "整理开源与商业 LLM 网关、MCP 网关、Agent 间通信网关及模型路由器的技术资源库。",
@@ -7857,11 +7857,8 @@
   },
   "https://github.com/yanstd888/9routerx": {
    "title": "yanstd888/9routerx",
-   "date": "2026-11-09",
-   "tokens": [
-    "9routerx",
-    "yanstd888"
-   ],
+   "date": "2026-11-19",
+   "tokens": [],
    "source": "github",
    "summary_zh": "9RouterX 是一个 Go 语言编写的单二进制文件 LLM 网关，支持 155 个提供商、248 个模型，并具备 20-40% 的 Token 节省能力。",
    "why_zh": "LLM 工程化部署技能点。可复用做法：学习如何构建高性能路由层以实现多模型负载均衡、Token 压缩及统一的 API 接口封装。"
@@ -8455,7 +8452,7 @@
   },
   "https://github.com/Zleap-AI/SAG-Wiki": {
    "title": "Zleap-AI/SAG-Wiki",
-   "date": "2026-11-18",
+   "date": "2026-11-19",
    "tokens": [],
    "source": "github",
    "summary_zh": "SAG-Wiki 提供了一个轻量级知识库方案，通过优化索引结构实现极速检索，旨在为人类用户及 AI Agent 提供高精度的知识获取能力。",
@@ -9886,7 +9883,226 @@
    "source": "youtube",
    "summary_zh": "Revolut 利用 OpenAI Codex 实现代码审查自动化、文档结构化处理及金融反欺诈调查，展示了 LLM 在企业级工程效率与业务流程中的落地应用。",
    "why_zh": "AI 工程化落地。学习如何将 LLM 嵌入现有业务流，通过自动化代码审查和非结构化数据处理，解决企业级开发中的人力瓶颈问题。"
+  },
+  "https://arxiv.org/abs/2611.21647": {
+   "title": "FieldGuide: A Corpus Map for Token-Efficient Agentic Document Exploration",
+   "date": "2026-11-19",
+   "tokens": [
+    "agentic",
+    "corpus",
+    "document",
+    "efficient",
+    "exploration",
+    "fieldguide",
+    "map",
+    "token"
+   ],
+   "source": "paper",
+   "summary_zh": "FieldGuide 通过构建文档集合的主题层级结构（Corpus Map），为 Agent 提供导航索引，显著降低大规模文档探索任务中的 Token 消耗与响应延迟。",
+   "why_zh": "属于 RAG 与 Agent 规划优化领域。可复用做法：通过预处理构建领域知识图谱或层级索引，引导 Agent 进行高效的定向检索而非全量扫描。"
+  },
+  "https://github.com/mdiri-ai/SoduWork": {
+   "title": "mdiri-ai/SoduWork",
+   "date": "2026-11-19",
+   "tokens": [
+    "ai",
+    "mdiri",
+    "soduwork"
+   ],
+   "source": "github",
+   "summary_zh": "SoduWork 是一个支持多 Agent 协作、多任务编排且可自托管的 AI 原生引擎，旨在为团队提供统一的 Agent 运行与管理基础设施。",
+   "why_zh": "属于 Agent 编排与系统架构领域。可复用做法：学习如何设计多 Agent 协作的通信协议与任务调度机制，实现复杂业务流程的自动化闭环。"
+  },
+  "https://arxiv.org/abs/2611.21682": {
+   "title": "NEBench R1: a Reasoning Benchmark for Evaluating Nuclear Domain Competence in Large Language Models",
+   "date": "2026-11-19",
+   "tokens": [
+    "benchmark",
+    "competence",
+    "domain",
+    "evaluating",
+    "language",
+    "large",
+    "models",
+    "nebench",
+    "nuclear",
+    "r1",
+    "reasoning"
+   ],
+   "source": "paper",
+   "summary_zh": "NEBench R1 是一个针对核工程领域的推理基准测试，不仅评估 LLM 的知识准确性，更侧重于评估模型在安全关键领域推理过程的逻辑质量。",
+   "why_zh": "属于垂直领域模型评估与推理能力验证。可复用做法：在构建行业模型时，通过引入过程导向的评估指标（Reasoning Quality）来提升模型在复杂逻辑任务中的可靠性。"
+  },
+  "https://energy-based-reasoners.github.io/": {
+   "title": "Energy-Based Reasoners: 385x more efficient inference",
+   "date": "2026-11-19",
+   "tokens": [
+    "385x",
+    "based",
+    "efficient",
+    "energy",
+    "inference",
+    "reasoners"
+   ],
+   "source": "hackernews",
+   "summary_zh": "Energy-Based Reasoners 通过能量函数建模推理过程，在保持逻辑正确性的前提下，将推理任务的计算效率提升了 385 倍。",
+   "why_zh": "属于高效推理与模型优化领域。可复用做法：利用能量模型（Energy-Based Models）替代传统的自回归生成，探索降低推理延迟与计算成本的架构设计。"
+  },
+  "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/": {
+   "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
+   "date": "2026-11-19",
+   "tokens": [
+    "agents",
+    "ai",
+    "bottleneck",
+    "code",
+    "coding",
+    "find",
+    "harvard",
+    "researchers",
+    "review",
+    "shifted"
+   ],
+   "source": "hackernews",
+   "summary_zh": "哈佛大学研究发现，AI 编码 Agent 的普及将软件开发的瓶颈从代码编写转移到了代码审查环节，导致审查工作量与复杂性显著增加。",
+   "why_zh": "属于 AI 工程化与工作流优化领域。可复用做法：在 Agent 落地实践中，需配套构建自动化代码审查与合规性检查流程，以应对 Agent 生成代码带来的质量管控挑战。"
+  },
+  "https://github.com/EL4CTEO/blender-skills": {
+   "title": "EL4CTEO/blender-skills",
+   "date": "2026-11-19",
+   "tokens": [
+    "blender",
+    "el4cteo",
+    "skills"
+   ],
+   "source": "github",
+   "summary_zh": "blender-skills 将 Blender 5.3 的专业建模、渲染与动画工作流封装为可供 Claude Code、Cursor 等工具调用的 Agent 技能集。",
+   "why_zh": "属于 Agent 工具调用与领域知识封装。可复用做法：通过将复杂软件的 API 操作封装为标准化的 Agent Tool，实现 AI 对专业生产力软件的深度控制。"
+  },
+  "https://github.com/erkamyaman/rust-anything": {
+   "title": "erkamyaman/rust-anything",
+   "date": "2026-11-19",
+   "tokens": [
+    "anything",
+    "erkamyaman",
+    "rust"
+   ],
+   "source": "github",
+   "summary_zh": "rust-anything 提供了一套增量重构工具，支持将 TypeScript、Python 等语言编写的 CLI 或 HTTP 服务逐步迁移至 Rust，并利用录制行为进行一致性校验。",
+   "why_zh": "系统架构迁移与测试验证。学习如何通过录制原始系统行为作为基准，在重构过程中实现自动化回归测试，降低大规模代码库迁移风险。"
+  },
+  "https://github.com/vercel-labs/ui": {
+   "title": "vercel-labs/ui",
+   "date": "2026-11-19",
+   "tokens": [
+    "labs",
+    "ui",
+    "vercel"
+   ],
+   "source": "github",
+   "summary_zh": "vercel-labs/ui 是一套专门为 AI Agent 设计的交互行为库，旨在通过标准化的 UI 组件和交互模式，提升 Agent 与用户之间的协作效率。",
+   "why_zh": "Agent UI/UX 设计。掌握如何将 Agent 的决策过程与状态变化映射为直观的 UI 交互，提升人机协作的透明度与可控性。"
+  },
+  "https://www.marktechpost.com/2026/11/17/sid-ai-sid-2-agentic-search-swarm/": {
+   "title": "SID AI Releases SID-2 Agentic Search Model With 0.720 NDCG Swarm Mode",
+   "date": "2026-11-19",
+   "tokens": [
+    "720",
+    "agentic",
+    "ai",
+    "mode",
+    "model",
+    "ndcg",
+    "releases",
+    "search",
+    "sid",
+    "swarm"
+   ],
+   "source": "blog",
+   "summary_zh": "SID-2 是一款基于强化学习训练的 Agentic Search 模型，通过 Swarm Mode 多智能体协作，在搜索任务中达到 0.720 NDCG 的性能表现。",
+   "why_zh": "多智能体协作与搜索优化。学习如何通过多 Agent 协同（Swarm Mode）提升复杂任务的准确率，以及如何利用 NDCG 指标评估搜索质量。"
+  },
+  "https://www.youtube.com/watch?v=tKoDPOrLMX0": {
+   "title": "Building 3D video sets with GPT-6.2 Astra",
+   "date": "2026-11-19",
+   "tokens": [
+    "3d",
+    "astra",
+    "building",
+    "gpt",
+    "sets",
+    "video"
+   ],
+   "source": "youtube",
+   "summary_zh": "GPT-6.2 Astra 演示了从少量视频帧生成 3D 场景的能力，支持在 Blender 中自动构建模型、调整光照并转化为交互式空间。",
+   "why_zh": "多模态生成与工具调用。学习如何构建 Agent 的多模态感知能力，并将其与 3D 建模工具链集成，实现从非结构化数据到复杂工程资产的自动化转换。"
+  },
+  "https://www.youtube.com/watch?v=6UJPFP09lro": {
+   "title": "Fireside Chat With Alex Atallah, OpenRouter",
+   "date": "2026-11-19",
+   "tokens": [
+    "alex",
+    "atallah",
+    "chat",
+    "fireside",
+    "openrouter"
+   ],
+   "source": "youtube",
+   "summary_zh": "OpenRouter CEO Alex Atallah 探讨了模型选型策略，提出根据任务熵值（Entropy）分配模型算力，并利用不同模型族进行交叉验证。",
+   "why_zh": "AI 工程化选型与鲁棒性设计。学习如何根据任务复杂度动态调度模型，以及通过多模型交叉验证（Cross-checking）提升 Agent 输出的可靠性。"
+  },
+  "https://www.youtube.com/watch?v=eg5O6q9H84I": {
+   "title": "Closing the Loop | Introduction to LangSmith (11/12)",
+   "date": "2026-11-19",
+   "tokens": [
+    "11",
+    "12",
+    "closing",
+    "introduction",
+    "langsmith",
+    "loop"
+   ],
+   "source": "youtube",
+   "summary_zh": "LangSmith 演示了通过 Monitor 阶段的五个功能模块定位 Agent 逻辑漏洞，并展示了从发现 Bug 到修复并回归测试的完整闭环流程。",
+   "why_zh": "Agent 运维与调试。掌握 Agent 开发生命周期中的监控与反馈闭环，学习如何利用工具链进行自动化错误追踪与回归测试。"
+  },
+  "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/": {
+   "title": "External sandboxes for coding agents",
+   "date": "2026-11-19",
+   "tokens": [
+    "agents",
+    "coding",
+    "external",
+    "sandboxes"
+   ],
+   "source": "blog",
+   "summary_zh": "通过外部沙箱环境隔离 AI Agent 执行的代码，防止本地模型因指令注入或逻辑错误对宿主机造成破坏，提升 Agent 运行安全性。",
+   "why_zh": "属于 Agent 安全架构技能点，可学习如何利用容器化或虚拟化技术构建不可信代码执行环境，实现 Agent 权限最小化控制。"
+  },
+  "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/": {
+   "title": "[AINews] GPT-6.2 Astra, the #2 Frontier Model is better and 20%-600% cheaper, but has mixed reviews; 6.2 Sol likely main workhorse",
+   "date": "2026-11-19",
+   "tokens": [
+    "20",
+    "600",
+    "ainews",
+    "astra",
+    "better",
+    "cheaper",
+    "frontier",
+    "gpt",
+    "likely",
+    "main",
+    "mixed",
+    "model",
+    "reviews",
+    "sol",
+    "workhorse"
+   ],
+   "source": "blog",
+   "summary_zh": "OpenAI 发布 GPT-6.2 Astra 与 Sol 模型，在降低 20%-600% 推理成本的同时提升性能，其中 Sol 模型被定位为主要生产力工具。",
+   "why_zh": "属于大模型选型与成本优化技能点，可学习如何评估不同规模模型在实际业务场景中的性价比及性能权衡策略。"
   }
  },
- "updated": "2026-11-17T17:18:53.972243+00:00"
+ "updated": "2026-11-18T16:53:39.185389+00:00"
 }
