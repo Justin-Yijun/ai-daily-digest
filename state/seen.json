@@ -6202,7 +6202,7 @@
   },
   "https://github.com/ccch1mneyyy/dsh-Go": {
    "title": "ccch1mneyyy/dsh-Go",
-   "date": "2026-11-19",
+   "date": "2026-11-20",
    "tokens": [],
    "source": "github",
    "summary_zh": "dsh-Go 实现 DeepSeek 模型在移动端本地运行，并支持远程控制桌面端执行任务，提供轻量级端侧推理解决方案。",
@@ -6470,7 +6470,7 @@
   },
   "https://github.com/qybaihe/bla": {
    "title": "qybaihe/bla",
-   "date": "2026-11-19",
+   "date": "2026-11-20",
    "tokens": [],
    "source": "github",
    "summary_zh": "BLA (Blind LLM Agents) 提供针对 AI 逆向工程的防御机制，通过投毒、资源耗尽与幻觉诱导保护二进制与代码资产。",
@@ -6632,7 +6632,7 @@
   },
   "https://github.com/ai-gateways/awesome-ai-gateways": {
    "title": "ai-gateways/awesome-ai-gateways",
-   "date": "2026-11-19",
+   "date": "2026-11-20",
    "tokens": [],
    "source": "github",
    "summary_zh": "整理开源与商业 LLM 网关、MCP 网关、Agent 间通信网关及模型路由器的技术资源库。",
@@ -9886,49 +9886,24 @@
   },
   "https://arxiv.org/abs/2611.21647": {
    "title": "FieldGuide: A Corpus Map for Token-Efficient Agentic Document Exploration",
-   "date": "2026-11-19",
-   "tokens": [
-    "agentic",
-    "corpus",
-    "document",
-    "efficient",
-    "exploration",
-    "fieldguide",
-    "map",
-    "token"
-   ],
+   "date": "2026-11-20",
+   "tokens": [],
    "source": "paper",
    "summary_zh": "FieldGuide 通过构建文档集合的主题层级结构（Corpus Map），为 Agent 提供导航索引，显著降低大规模文档探索任务中的 Token 消耗与响应延迟。",
    "why_zh": "属于 RAG 与 Agent 规划优化领域。可复用做法：通过预处理构建领域知识图谱或层级索引，引导 Agent 进行高效的定向检索而非全量扫描。"
   },
   "https://github.com/mdiri-ai/SoduWork": {
    "title": "mdiri-ai/SoduWork",
-   "date": "2026-11-19",
-   "tokens": [
-    "ai",
-    "mdiri",
-    "soduwork"
-   ],
+   "date": "2026-11-20",
+   "tokens": [],
    "source": "github",
    "summary_zh": "SoduWork 是一个支持多 Agent 协作、多任务编排且可自托管的 AI 原生引擎，旨在为团队提供统一的 Agent 运行与管理基础设施。",
    "why_zh": "属于 Agent 编排与系统架构领域。可复用做法：学习如何设计多 Agent 协作的通信协议与任务调度机制，实现复杂业务流程的自动化闭环。"
   },
   "https://arxiv.org/abs/2611.21682": {
    "title": "NEBench R1: a Reasoning Benchmark for Evaluating Nuclear Domain Competence in Large Language Models",
-   "date": "2026-11-19",
-   "tokens": [
-    "benchmark",
-    "competence",
-    "domain",
-    "evaluating",
-    "language",
-    "large",
-    "models",
-    "nebench",
-    "nuclear",
-    "r1",
-    "reasoning"
-   ],
+   "date": "2026-11-20",
+   "tokens": [],
    "source": "paper",
    "summary_zh": "NEBench R1 是一个针对核工程领域的推理基准测试，不仅评估 LLM 的知识准确性，更侧重于评估模型在安全关键领域推理过程的逻辑质量。",
    "why_zh": "属于垂直领域模型评估与推理能力验证。可复用做法：在构建行业模型时，通过引入过程导向的评估指标（Reasoning Quality）来提升模型在复杂逻辑任务中的可靠性。"
@@ -10102,7 +10077,215 @@
    "source": "blog",
    "summary_zh": "OpenAI 发布 GPT-6.2 Astra 与 Sol 模型，在降低 20%-600% 推理成本的同时提升性能，其中 Sol 模型被定位为主要生产力工具。",
    "why_zh": "属于大模型选型与成本优化技能点，可学习如何评估不同规模模型在实际业务场景中的性价比及性能权衡策略。"
+  },
+  "https://arxiv.org/abs/2611.21885": {
+   "title": "Language Models Can Rewrite Their Own Weights",
+   "date": "2026-11-20",
+   "tokens": [
+    "language",
+    "models",
+    "own",
+    "rewrite",
+    "their",
+    "weights"
+   ],
+   "source": "paper",
+   "summary_zh": "提出一种无需梯度下降或额外训练的方法，使语言模型能够通过自身推理直接重写权重以提升性能。",
+   "why_zh": "模型自优化与权重编辑技术，可用于研究模型自我迭代与非梯度参数更新机制，探索模型架构的动态演进。"
+  },
+  "https://arxiv.org/abs/2611.21827": {
+   "title": "How Much of SAR Vehicle Recognition Is the Vehicle? Background Shortcuts, Angle Gaps and Partial Libraries on MSTAR and ATRNet-STAR",
+   "date": "2026-11-20",
+   "tokens": [
+    "angle",
+    "atrnet",
+    "background",
+    "gaps",
+    "libraries",
+    "mstar",
+    "much",
+    "partial",
+    "recognition",
+    "sar",
+    "shortcuts",
+    "star",
+    "vehicle"
+   ],
+   "source": "paper",
+   "summary_zh": "分析 SAR 车辆识别模型在 MSTAR 等基准测试中的表现，揭示模型过度依赖背景噪声而非车辆特征的捷径学习问题。",
+   "why_zh": "模型鲁棒性与特征归因分析，学习如何通过遮挡实验与特征可视化评估模型对核心语义的理解深度，避免数据偏差。"
+  },
+  "https://openai.com/index/introducing-gpt-6-2-astra-sol/": {
+   "title": "GPT‑6.2 Astra and Sol",
+   "date": "2026-11-20",
+   "tokens": [
+    "astra",
+    "gpt",
+    "sol"
+   ],
+   "source": "hackernews",
+   "summary_zh": "OpenAI 发布 GPT-6.2 Astra 与 Sol 模型，进一步强化多模态交互能力与实时推理性能。",
+   "why_zh": "前沿模型能力评估，关注多模态实时交互架构的演进，了解闭源模型在复杂任务处理上的最新基准表现。"
+  },
+  "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/": {
+   "title": "AI agents ask better questions than KPMG accountants in audit trial",
+   "date": "2026-11-20",
+   "tokens": [
+    "accountants",
+    "agents",
+    "ai",
+    "ask",
+    "audit",
+    "better",
+    "kpmg",
+    "questions",
+    "than",
+    "trial"
+   ],
+   "source": "hackernews",
+   "summary_zh": "研究表明在审计流程中，AI Agent 能够通过主动提问获取比人类会计师更具深度和针对性的信息。",
+   "why_zh": "Agent 主动交互与信息获取策略，学习如何通过 Prompt 工程或思维链设计提升 Agent 的提问质量与逻辑深度。"
+  },
+  "https://github.com/janestreet/agent_skills": {
+   "title": "janestreet/agent_skills",
+   "date": "2026-11-20",
+   "tokens": [
+    "agent",
+    "janestreet",
+    "skills"
+   ],
+   "source": "github",
+   "summary_zh": "Jane Street 开源 Agent 技能库，提供了一系列用于构建和评估 AI Agent 任务执行能力的标准化工具与方法。",
+   "why_zh": "Agent 任务规划与技能抽象，学习如何将复杂任务拆解为可复用的原子技能，提升 Agent 系统架构的模块化程度。"
+  },
+  "https://github.com/starlinghq/starling": {
+   "title": "starlinghq/starling",
+   "date": "2026-11-20",
+   "tokens": [
+    "starling",
+    "starlinghq"
+   ],
+   "source": "github",
+   "summary_zh": "Starling 提供基于 .NET 的本地 AI 运行环境，利用 ONNX Runtime 实现嵌入、实体提取及多模态搜索，无需 Python 依赖。",
+   "why_zh": "跨语言 AI 工程化部署，学习如何在非 Python 生态中通过 ONNX Runtime 高效集成大模型推理与向量化处理。"
+  },
+  "https://github.com/nwverse/persona": {
+   "title": "nwverse/persona",
+   "date": "2026-11-20",
+   "tokens": [
+    "nwverse",
+    "persona"
+   ],
+   "source": "github",
+   "summary_zh": "nwverse/persona 是一个基于 Go 语言构建的 AI 角色扮演框架，支持定义和管理具有特定行为模式的智能体。",
+   "why_zh": "属于 Agent 框架设计领域，可学习如何通过 Go 实现高效的 Prompt 管理与状态机驱动的智能体交互逻辑。"
+  },
+  "https://github.com/Nihongo-editor/crypto-accumulation-scanner": {
+   "title": "Nihongo-editor/crypto-accumulation-scanner",
+   "date": "2026-11-20",
+   "tokens": [
+    "accumulation",
+    "crypto",
+    "editor",
+    "nihongo",
+    "scanner"
+   ],
+   "source": "github",
+   "summary_zh": "crypto-accumulation-scanner 是一个面向 Discord 和 Telegram 的加密货币筹码收集扫描工具，用于实时监控市场数据。",
+   "why_zh": "属于实时数据流处理与 Bot 开发领域，可学习如何通过 TypeScript 构建跨平台的消息推送与数据监控系统。"
+  },
+  "https://www.youtube.com/watch?v=efBlbQahwng": {
+   "title": "How Clay’s agent writes code its own engineers wouldn’t",
+   "date": "2026-11-20",
+   "tokens": [
+    "agent",
+    "clay",
+    "code",
+    "engineers",
+    "own",
+    "wouldn",
+    "writes"
+   ],
+   "source": "youtube",
+   "summary_zh": "Clay 平台通过构建统一的 CLI 接口，让 AI Agent 能够调用与人类工程师相同的工具链，从而实现更高效的代码生成。",
+   "why_zh": "属于 Agent 工程化领域，可学习如何通过统一工具接口（Tooling）提升 Agent 在复杂业务场景下的代码生成能力。"
+  },
+  "https://www.langchain.com/blog/langsmith-tool-gateway": {
+   "title": "LangSmith Tool Gateway: Secure, governed tool use for agents",
+   "date": "2026-11-20",
+   "tokens": [
+    "agents",
+    "gateway",
+    "governed",
+    "langsmith",
+    "secure",
+    "tool",
+    "use"
+   ],
+   "source": "blog",
+   "summary_zh": "LangSmith Tool Gateway 提供了一套代理工具调用的安全治理方案，支持凭证管理、身份验证、访问策略及审批流。",
+   "why_zh": "属于 Agent 安全与治理领域，可学习如何在企业级应用中通过中间件实现对 Agent 工具调用的细粒度权限控制。"
+  },
+  "https://www.marktechpost.com/2026/11/18/hugging-face-qwen3-8-27b-pi-adapted-lora/": {
+   "title": "New LoRA Adapter Lifts Qwen3.8 Coding Success From 39% to 65%",
+   "date": "2026-11-20",
+   "tokens": [
+    "39",
+    "65",
+    "adapter",
+    "coding",
+    "lifts",
+    "lora",
+    "qwen3",
+    "success"
+   ],
+   "source": "blog",
+   "summary_zh": "Hugging Face 发布了 Qwen3.8-27B-pi-adapted LoRA 适配器，通过强化学习显著提升了模型在 SWE-bench 等基准测试中的代码补全能力。",
+   "why_zh": "属于模型微调与强化学习领域，可学习如何利用 LoRA 适配器结合 RL 优化特定任务（如代码生成）的性能表现。"
+  },
+  "https://www.youtube.com/watch?v=pVc6KkjeCfU": {
+   "title": "Behind the scenes with Genie 4",
+   "date": "2026-11-20",
+   "tokens": [
+    "behind",
+    "genie",
+    "scenes"
+   ],
+   "source": "youtube",
+   "summary_zh": "Google DeepMind 的 Genie 4 是一种交互式世界模型，支持将文本提示实时转化为可交互、可导航的动态 3D 环境。",
+   "why_zh": "属于生成式世界模型与交互式 AI 领域，可学习如何通过动态模拟技术实现从静态生成到实时环境交互的范式转换。"
+  },
+  "https://huggingface.co/blog/moe-expert-streaming": {
+   "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+   "date": "2026-11-20",
+   "tokens": [
+    "180b",
+    "32gb",
+    "inference",
+    "limit",
+    "moe",
+    "parameters",
+    "pushing",
+    "ram",
+    "transformers"
+   ],
+   "source": "blog",
+   "summary_zh": "HuggingFace 优化了 180B 参数 MoE 模型在 32GB 内存下的推理性能，通过量化与高效内存管理技术实现大模型本地化部署。",
+   "why_zh": "属于大模型推理优化技能点，可复用量化技术与显存调度策略，解决资源受限场景下的超大规模模型部署难题。"
+  },
+  "https://www.youtube.com/watch?v=EDp4IoAUsXY": {
+   "title": "Introducing the new Project Genie, powered by Genie 4",
+   "date": "2026-11-20",
+   "tokens": [
+    "genie",
+    "introducing",
+    "powered",
+    "project"
+   ],
+   "source": "youtube",
+   "summary_zh": "Google DeepMind 发布 Project Genie 4，结合 Gemini 多模态能力，支持通过自然语言实时生成并交互式探索 3D 虚拟世界。",
+   "why_zh": "属于生成式世界模型与多模态交互技能点，可复用基于语言指令驱动环境动态生成的架构设计，提升 Agent 在复杂环境中的交互能力。"
   }
  },
- "updated": "2026-11-18T16:53:39.185389+00:00"
+ "updated": "2026-11-19T16:59:46.551031+00:00"
 }
