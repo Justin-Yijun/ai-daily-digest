@@ -1,0 +1,630 @@
+{
+ "date": "2026-11-21",
+ "generated": "2026-11-21 00:37",
+ "source_count": {
+  "github": 74,
+  "youtube": 40,
+  "blog": 80,
+  "paper": 24,
+  "hackernews": 10
+ },
+ "failures": {},
+ "failure_errors": {},
+ "summary_missing": [],
+ "summary_providers": {
+  "gemini": 3
+ },
+ "items": [
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.CL",
+   "title": "Global Importance Estimation for KV Cache Eviction",
+   "link": "https://arxiv.org/abs/2611.24969",
+   "dt": "2026-11-20T00:00:00-05:00",
+   "summary": "arXiv:2611.24969v1 Announce Type: new Abstract: Memory consumption of the key-value (KV) cache remains a central bottleneck for long-context LLM inference. We introduce PRKV, a training-free KV eviction method that estimates multi-hop global token importance by applying Personalized PageRank over attention-induced transition graphs. This enables importance propagation beyond recency or instantaneous attention, without modifying the model. We benchmark PRKV on long-context understanding, sparse r",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "eval_observability",
+    "training_serving",
+    "llm_fundamentals"
+   ],
+   "learn_score": 4.177,
+   "score": 8.354,
+   "tokens": [
+    "cache",
+    "estimation",
+    "eviction",
+    "global",
+    "importance",
+    "kv"
+   ],
+   "flag": "new",
+   "summary_zh": "PRKV 提出一种无需训练的 KV cache 淘汰方法，通过在注意力转移图上应用个性化 PageRank 算法，实现跨多跳的全局 token 重要性评估。",
+   "why_zh": "属于长上下文推理优化领域，可复用 Personalized PageRank 思想处理注意力权重分布，解决 KV cache 内存瓶颈。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "RFBench: A Simulator-Grounded Multimodal Benchmark for Passive RF Layout Design and Understanding",
+   "link": "https://arxiv.org/abs/2611.23410",
+   "dt": "2026-11-20T00:00:00-05:00",
+   "summary": "arXiv:2611.23410v1 Announce Type: new Abstract: While multimodal language models can interpret diagrams and generate structured outputs, their capacity to connect passive radio-frequency (RF) design intent, layout geometry, and electromagnetic behavior remains largely untested. To address this gap, we introduce RFBench, a simulator-grounded dataset and benchmark for passive RF layout design and understanding. The dataset contains 10,000 two-port planar layouts simulated using ADS Momentum, with ",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "eval_observability",
+    "system_design"
+   ],
+   "learn_score": 3.58,
+   "score": 7.16,
+   "tokens": [
+    "benchmark",
+    "design",
+    "grounded",
+    "layout",
+    "multimodal",
+    "passive",
+    "rf",
+    "rfbench",
+    "simulator",
+    "understanding"
+   ],
+   "flag": "new",
+   "summary_zh": "RFBench 是一个面向被动射频布局设计与理解的多模态基准测试集，通过模拟器验证模型对 RF 设计意图、几何布局及电磁行为的关联能力。",
+   "why_zh": "属于多模态垂直领域应用，学习如何构建模拟器驱动的评估基准，解决特定工程领域中模型推理与物理规律对齐的问题。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Show HN: Mastra Factory, the open-source software factory we use to build Mastra",
+   "link": "https://news.ycombinator.com/item?id=50548660",
+   "dt": "2026-11-18T16:53:42+00:00",
+   "summary": "Hi HN, we're Shane, Sam, and Abhi. Almost two years ago, we shared Mastra, our open-source TypeScript agent framework, on Show HN: https://news.ycombinator.com/item?id=43103073 . It got a few hundred upvotes; a couple of weeks later our downloads had doubled, and we were off to the races. Today we're sharing Mastra Factory, the open-source software factory we built to help maintain Mastra itself. ",
+   "extra": {
+    "points": 152,
+    "comments": 42,
+    "hn_link": "https://news.ycombinator.com/item?id=50548660"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.7,
+   "score": 5.409,
+   "tokens": [
+    "build",
+    "factory",
+    "hn",
+    "mastra",
+    "open",
+    "show",
+    "software",
+    "source",
+    "use",
+    "we"
+   ],
+   "flag": "new",
+   "summary_zh": "Mastra Factory 是一个开源软件工厂工具，旨在通过自动化流程辅助维护 TypeScript Agent 框架 Mastra，提升复杂 Agent 项目的开发效率。",
+   "why_zh": "属于 Agent 工程化与开发工具链，学习如何构建自动化维护流水线，提升 Agent 框架的迭代质量与可维护性。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Claude solves two open problems in the physics of black holes",
+   "link": "https://www.anthropic.com/research/claude-black-hole-physics",
+   "dt": "2026-11-19T17:30:44+00:00",
+   "summary": "",
+   "extra": {
+    "points": 524,
+    "comments": 253,
+    "hn_link": "https://news.ycombinator.com/item?id=50563148"
+   },
+   "skills": [],
+   "learn_score": 1.0,
+   "score": 3.719,
+   "tokens": [
+    "black",
+    "claude",
+    "holes",
+    "open",
+    "physics",
+    "problems",
+    "solves",
+    "two"
+   ],
+   "flag": "new",
+   "summary_zh": "Claude 通过分析与推理成功解决黑洞物理学中的两个开放性难题，展示了 LLM 在复杂科学研究与理论推演中的辅助潜力。",
+   "why_zh": "属于 LLM 科学推理能力评估，学习如何通过 Prompt Engineering 引导模型进行跨学科的逻辑推演与复杂问题求解。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "PapilotAI/papilot",
+   "link": "https://github.com/PapilotAI/papilot",
+   "dt": "2026-10-26T07:50:28+00:00",
+   "summary": "Next-Generation AI LaTeX Editor: annotate the PDF, review typeset diffs, and live-sync with Overleaf. Works with Claude Code, Codex, Cursor, Copilot and more.",
+   "extra": {
+    "stars": 394,
+    "language": "TypeScript",
+    "topics": [
+     "academic",
+     "academic-writing",
+     "agent",
+     "agents",
+     "ai-agent",
+     "claude-code"
+    ],
+    "created": "2026-10-26",
+    "pushed": "2026-11-20"
+   },
+   "skills": [],
+   "learn_score": 1.033,
+   "score": 3.714,
+   "tokens": [
+    "papilot",
+    "papilotai"
+   ],
+   "flag": "new",
+   "summary_zh": "Papilot 是一个 AI LaTeX 编辑器，支持 PDF 标注、排版差异对比及与 Overleaf 实时同步，并兼容 Claude Code 等主流 AI 开发工具。",
+   "why_zh": "属于 AI 辅助开发工具链，学习如何通过多模态交互与实时同步技术，提升特定领域（如学术写作）的 AI 协作体验。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "Connect Your Team’s Data to ChatGPT",
+   "link": "https://www.youtube.com/watch?v=oJIuz3AFfEQ",
+   "dt": "2026-11-20T06:02:57+00:00",
+   "summary": "Connect the data tools your team already uses to ChatGPT. This walkthrough is for workspace admins: enable the Data plugin, choose how teammates can install it, and explore the setup for a Snowflake connection. You’ll also see how to add a custom plugin or MCP server and why connecting your team’s messages, email, and files gives ChatGPT more context for its answers. Workspace setup and access: https://help.openai.com/en/articles/20001518-using-the-data-plugin-in-chatgpt-work-and-codex Snowflake…",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": "oJIuz3AFfEQ"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 2.582,
+   "score": 2.582,
+   "tokens": [
+    "chatgpt",
+    "connect",
+    "data",
+    "team"
+   ],
+   "flag": "new",
+   "summary_zh": "OpenAI 推出 ChatGPT 企业数据连接功能，支持通过 Data 插件、自定义插件或 MCP 服务器接入 Snowflake 等数据源，增强模型上下文感知。",
+   "why_zh": "属于企业级 RAG 与 Agent 生态，学习如何通过 MCP 协议实现异构数据源的标准化接入，提升企业知识库的检索与推理能力。"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "Meta FAIR Self-Improving Memory Hits 56.0 on Continual Learning Bench",
+   "link": "https://www.marktechpost.com/2026/11/19/meta-fair-self-improving-memory-harness-distillation/",
+   "dt": "2026-11-19T21:46:22+00:00",
+   "summary": "Meta FAIR’s Self-Improving Memory lets Kimi-K2.6 write its own LOAD and OFFLOAD memory prompts, then distills them into its weights. Optimized prompts score 56.0 versus 44.6 for the best hand-written harness on Continual Learning Bench. The post Meta FAIR Self-Improving Memory Hits 56.0 on Continual Learning Bench appeared first on MarkTechPost .",
+   "extra": {},
+   "skills": [
+    "prompt_context",
+    "agent_architecture"
+   ],
+   "learn_score": 2.341,
+   "score": 2.341,
+   "tokens": [
+    "56",
+    "bench",
+    "continual",
+    "fair",
+    "hits",
+    "improving",
+    "learning",
+    "memory",
+    "meta",
+    "self"
+   ],
+   "flag": "new",
+   "summary_zh": "Meta FAIR 提出 Self-Improving Memory 机制，让 Kimi-K2.6 自主生成并蒸馏 LOAD/OFFLOAD 内存提示词，在 Continual Learning Bench 上达到 56.0 分。",
+   "why_zh": "属于模型持续学习与提示词工程优化。可复用做法是将提示词生成过程纳入模型权重更新循环，通过自我蒸馏提升长周期任务性能。"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "13 Best Agent Gateways in 2026 for MCP, A2A and LLM Traffic: Kong, Bifrost, AgentCore, Arcade",
+   "link": "https://www.marktechpost.com/2026/11/19/best-agent-gateways-2026/",
+   "dt": "2026-11-19T18:13:21+00:00",
+   "summary": "We ranked the 13 best agent gateways of 2026 by how they govern model, MCP tool and agent-to-agent traffic, with verified pricing, deployment options and the trade-offs each vendor's marketing leaves out. The post 13 Best Agent Gateways in 2026 for MCP, A2A and LLM Traffic: Kong, Bifrost, AgentCore, Arcade appeared first on MarkTechPost .",
+   "extra": {},
+   "skills": [
+    "tool_mcp",
+    "multi_agent"
+   ],
+   "learn_score": 2.341,
+   "score": 2.341,
+   "tokens": [
+    "13",
+    "2026",
+    "a2a",
+    "agent",
+    "agentcore",
+    "arcade",
+    "best",
+    "bifrost",
+    "gateways",
+    "kong",
+    "llm",
+    "mcp",
+    "traffic"
+   ],
+   "flag": "new",
+   "summary_zh": "针对 2026 年 Agent 网关生态的评估，涵盖 Kong、Bifrost 等 13 款工具在 MCP 协议支持、Agent 间通信及流量治理方面的表现。",
+   "why_zh": "属于 AI Agent 基础设施架构。可复用做法是利用网关实现 LLM 流量路由、鉴权与 MCP 工具调用标准化，解决多 Agent 系统中的通信瓶颈。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "agentic-ai-java/argi",
+   "link": "https://github.com/agentic-ai-java/argi",
+   "dt": "2026-08-25T17:53:31+00:00",
+   "summary": "ARGI [/ˈɑːr.dʒiː/]: Agent Runtime and Graph Intelligence 🚀",
+   "extra": {
+    "stars": 154,
+    "language": "Java",
+    "topics": [
+     "context-engineering-framework",
+     "flux",
+     "graph",
+     "java",
+     "multi-agent",
+     "reactagent"
+    ],
+    "created": "2026-08-25",
+    "pushed": "2026-11-19"
+   },
+   "skills": [],
+   "learn_score": 0.729,
+   "score": 2.324,
+   "tokens": [
+    "agentic",
+    "ai",
+    "argi",
+    "java"
+   ],
+   "flag": "new",
+   "summary_zh": "ARGI 是一个基于 Java 的 Agent 运行时与图智能框架，旨在为 Java 生态提供 Agent 编排与复杂任务处理能力。",
+   "why_zh": "属于 Java 生态的 Agent 开发框架。可复用做法是利用图结构管理 Agent 任务流与状态，适合在企业级 Java 环境中构建复杂的 Agent 工作流。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "BaaRai/ARTEX",
+   "link": "https://github.com/BaaRai/ARTEX",
+   "dt": "2026-10-08T21:14:39+00:00",
+   "summary": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+   "extra": {
+    "stars": 13236,
+    "language": "Go",
+    "topics": [
+     "ai",
+     "ai-agents",
+     "autonomous-agents",
+     "bug-bounty",
+     "docker",
+     "golang"
+    ],
+    "created": "2026-10-08",
+    "pushed": "2026-11-20"
+   },
+   "skills": [],
+   "learn_score": 0.54,
+   "score": 2.16,
+   "tokens": [
+    "artex",
+    "baarai"
+   ],
+   "flag": "new",
+   "summary_zh": "ARTEX 是一个 AI 自主渗透测试系统，通过自动化执行漏洞扫描与利用流程，实现端到端的安全评估。",
+   "why_zh": "属于垂直领域 Agent 应用。可复用做法是将渗透测试步骤拆解为 Agent 决策链，通过闭环反馈机制实现自动化攻击路径探索。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "CopilotKit/openfuse",
+   "link": "https://github.com/CopilotKit/openfuse",
+   "dt": "2026-09-15T16:05:44+00:00",
+   "summary": "A personal agent with a browser, terminal, files, and work that keeps going built with CopilotKit and AG-UI.",
+   "extra": {
+    "stars": 6544,
+    "language": "TypeScript",
+    "topics": [],
+    "created": "2026-09-15",
+    "pushed": "2026-11-20"
+   },
+   "skills": [],
+   "learn_score": 0.54,
+   "score": 2.16,
+   "tokens": [
+    "copilotkit",
+    "openfuse"
+   ],
+   "flag": "new",
+   "summary_zh": "OpenFuse 是一个集成浏览器、终端和文件操作的个人 Agent，基于 CopilotKit 和 AG-UI 构建，支持持续性任务执行。",
+   "why_zh": "属于个人助理型 Agent 开发。可复用做法是构建多模态工具调用接口（Tool Use），实现 Agent 对本地操作系统环境的持久化控制与交互。"
+  },
+  {
+   "source": "blog",
+   "source_label": "HuggingFace 博客",
+   "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+   "link": "https://huggingface.co/blog/harness-adapters-at-scale",
+   "dt": "2026-11-20T00:00:00+00:00",
+   "summary": "",
+   "extra": {},
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.951,
+   "score": 1.951,
+   "tokens": [
+    "adapt",
+    "adapters",
+    "cost",
+    "favorite",
+    "harness",
+    "improve",
+    "introducing",
+    "model",
+    "performance"
+   ],
+   "flag": "new",
+   "summary_zh": "Hugging Face 推出 Harness Adapters，允许用户将特定模型适配到评估框架中，以优化模型在特定任务上的性能表现并降低评估成本。",
+   "why_zh": "属于模型评估与性能优化。可复用做法是构建适配层（Adapter）解耦模型推理与评估框架，实现跨模型架构的标准化性能基准测试。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "Ask Questions About Your Data in ChatGPT",
+   "link": "https://www.youtube.com/watch?v=JEgTn37Sk50",
+   "dt": "2026-11-20T06:05:59+00:00",
+   "summary": "Prepare for a sales meeting by asking ChatGPT what changed in your data and which customers need attention. Using sample data from the fictional company Acme, this walkthrough compares quarterly sales, visualizes the segments behind the change, and explores customer orders alongside account notes. See how to ask follow-up questions, check which sources ChatGPT is using, and turn the findings into a concise three-slide presentation for your team. Explore the Data plugin: https://chatgpt.com/plugi…",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": "JEgTn37Sk50"
+   },
+   "skills": [
+    "llm_fundamentals"
+   ],
+   "learn_score": 1.913,
+   "score": 1.913,
+   "tokens": [
+    "about",
+    "ask",
+    "chatgpt",
+    "data",
+    "questions"
+   ],
+   "flag": "new",
+   "summary_zh": "ChatGPT 推出数据分析功能，支持用户上传数据文件，通过自然语言查询进行多维度对比、可视化分析及溯源，并支持基于分析结果生成后续行动建议。",
+   "why_zh": "属于 RAG 与数据分析 Agent 领域。学习如何通过 Prompt 引导模型进行结构化数据处理，以及如何利用引用源溯源机制增强 Agent 输出的可信度。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Google DeepMind",
+   "title": "Gemini and the path to AGI with Koray Kavukcuoglu",
+   "link": "https://www.youtube.com/watch?v=FORdPIWOH5k",
+   "dt": "2026-11-19T19:58:06+00:00",
+   "summary": "Seven years after their last conversation at Google DeepMind’s London office, Professor Hannah Fry reunites with Koray Kavukcuoglu, SVP at Google DeepMind and Chief AI Architect at Google. Back then, DeepMind was focused on specialized breakthroughs; today, Koray is leading the charge toward general-purpose intelligence with Gemini. In this episode, they discuss why real-world products are essential to building artificial general intelligence (AGI), how Gemini’s architecture continuously evolves…",
+   "extra": {
+    "channel": "Google DeepMind",
+    "video_id": "FORdPIWOH5k"
+   },
+   "skills": [
+    "system_design"
+   ],
+   "learn_score": 1.53,
+   "score": 1.53,
+   "tokens": [
+    "agi",
+    "gemini",
+    "kavukcuoglu",
+    "koray",
+    "path"
+   ],
+   "flag": "new",
+   "summary_zh": "Google DeepMind 首席 AI 架构师 Koray Kavukcuoglu 探讨 Gemini 的演进路径，强调将通用智能模型集成至真实世界产品中对于实现 AGI 的核心作用。",
+   "why_zh": "属于 AGI 架构与工程化落地领域。理解大模型从实验室研究转向生产环境的工程挑战，以及如何通过产品反馈闭环迭代模型架构。"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "bookwjitchieni1986/blender-ai-mcp-addon",
+   "link": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
+   "dt": "2026-11-19T14:43:10+00:00",
+   "summary": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
+   "extra": {
+    "stars": 1145,
+    "language": "",
+    "topics": [
+     "ai-agents",
+     "ai-assistant",
+     "blender",
+     "blender-addon",
+     "blender-ai",
+     "blender-automation"
+    ],
+    "created": "2026-11-19",
+    "pushed": "2026-11-19"
+   },
+   "skills": [
+    "tool_mcp",
+    "multi_agent"
+   ],
+   "learn_score": 3.098,
+   "score": 12.392,
+   "tokens": [
+    "addon",
+    "ai",
+    "blender",
+    "bookwjitchieni1986",
+    "mcp"
+   ],
+   "flag": "similar",
+   "dup_note": "与 2026-11-17 的「hitkeeen/blender-ai-mcp-addon」相似度 66%"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "mdiri-ai/SoduWork",
+   "link": "https://github.com/mdiri-ai/SoduWork",
+   "dt": "2026-10-29T02:43:14+00:00",
+   "summary": "The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.",
+   "extra": {
+    "stars": 5718,
+    "language": "JavaScript",
+    "topics": [
+     "agent-harness",
+     "agent-orchestration",
+     "agent-workflows",
+     "ai-agents",
+     "ai-workflows",
+     "anti-slop"
+    ],
+    "created": "2026-10-29",
+    "pushed": "2026-11-20"
+   },
+   "skills": [
+    "agent_architecture",
+    "multi_agent"
+   ],
+   "learn_score": 2.107,
+   "score": 8.428,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-20 推荐过",
+   "summary_zh": "SoduWork 是一个支持多 Agent 协作、多任务编排且可自托管的 AI 原生引擎，旨在为团队提供统一的 Agent 运行与管理基础设施。",
+   "why_zh": "属于 Agent 编排与系统架构领域。可复用做法：学习如何设计多 Agent 协作的通信协议与任务调度机制，实现复杂业务流程的自动化闭环。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ccch1mneyyy/dsh-Go",
+   "link": "https://github.com/ccch1mneyyy/dsh-Go",
+   "dt": "2026-10-25T08:09:52+00:00",
+   "summary": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+   "extra": {
+    "stars": 28900,
+    "language": "Dart",
+    "topics": [
+     "ai-agent",
+     "android",
+     "android-app",
+     "coding-agent",
+     "deepseek",
+     "deepseek-harness"
+    ],
+    "created": "2026-10-25",
+    "pushed": "2026-11-20"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-20 推荐过",
+   "summary_zh": "dsh-Go 实现 DeepSeek 模型在移动端本地运行，并支持远程控制桌面端执行任务，提供轻量级端侧推理解决方案。",
+   "why_zh": "属于端侧 AI 部署技能点，可复用其跨设备通信与本地推理引擎集成方案，解决资源受限环境下的智能体调度问题。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "qybaihe/bla",
+   "link": "https://github.com/qybaihe/bla",
+   "dt": "2026-10-25T05:25:45+00:00",
+   "summary": "🛡️ BLA (bla-agents / Blind LLM Agents) — Open-source Blue Defense MCP server & CLI protecting JS/TS, Electron ASAR, WASM, Python, Native Binaries, SQLite, GGUF/Safetensors & Android DEX against AI reverse-engineering agents (REA).",
+   "extra": {
+    "stars": 6313,
+    "language": "TypeScript",
+    "topics": [
+     "adversarial-ai",
+     "ai-security",
+     "android-security",
+     "binary-protection",
+     "claude-code",
+     "codex"
+    ],
+    "created": "2026-10-25",
+    "pushed": "2026-11-19"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-20 推荐过",
+   "summary_zh": "BLA (Blind LLM Agents) 提供针对 AI 逆向工程的防御机制，通过投毒、资源耗尽与幻觉诱导保护二进制与代码资产。",
+   "why_zh": "AI 安全防御技能点；掌握对抗性样本生成与防御策略，学习如何通过干扰 Agent 的推理过程保护系统资产。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ai-gateways/awesome-ai-gateways",
+   "link": "https://github.com/ai-gateways/awesome-ai-gateways",
+   "dt": "2026-10-30T10:30:50+00:00",
+   "summary": "Awesome AI gateways: open source and commercial LLM gateways, MCP gateways, agent (A2A) gateways, model routers, specs, and guides.",
+   "extra": {
+    "stars": 46,
+    "language": "",
+    "topics": [
+     "a2a",
+     "a2a-protocol",
+     "agent-gateway",
+     "ai-agents",
+     "ai-gateway",
+     "ai-governance"
+    ],
+    "created": "2026-10-30",
+    "pushed": "2026-11-19"
+   },
+   "skills": [
+    "tool_mcp",
+    "multi_agent"
+   ],
+   "learn_score": 2.634,
+   "score": 7.014,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-20 推荐过",
+   "summary_zh": "整理开源与商业 LLM 网关、MCP 网关、Agent 间通信网关及模型路由器的技术资源库。",
+   "why_zh": "属于 AI 基础设施领域，可学习如何构建高可用、可观测的 LLM 中间件，掌握 Agent 架构中网关层面的流量调度与协议适配。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "yanstd888/9routerx",
+   "link": "https://github.com/yanstd888/9routerx",
+   "dt": "2026-11-07T11:54:33+00:00",
+   "summary": "9RouterX (9R Next Go Generation): Single-binary Go AI router, LLM gateway & 20-40% token saver. Route Claude Code, Cursor & Codex across 155 providers, 28 OAuth & 248 free models (24 keyless) — OpenAI, Claude, Gemini, DeepSeek, Groq, Ollama & MCP.",
+   "extra": {
+    "stars": 256,
+    "language": "Go",
+    "topics": [
+     "9router",
+     "9routerx",
+     "ai-gateway",
+     "ai-proxy",
+     "ai-routing",
+     "api-gateway"
+    ],
+    "created": "2026-11-07",
+    "pushed": "2026-11-20"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 5.985,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-19 推荐过",
+   "summary_zh": "9RouterX 是一个 Go 语言编写的单二进制文件 LLM 网关，支持 155 个提供商、248 个模型，并具备 20-40% 的 Token 节省能力。",
+   "why_zh": "LLM 工程化部署技能点。可复用做法：学习如何构建高性能路由层以实现多模型负载均衡、Token 压缩及统一的 API 接口封装。"
+  }
+ ]
+}

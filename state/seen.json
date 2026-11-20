@@ -6202,7 +6202,7 @@
   },
   "https://github.com/ccch1mneyyy/dsh-Go": {
    "title": "ccch1mneyyy/dsh-Go",
-   "date": "2026-11-20",
+   "date": "2026-11-21",
    "tokens": [],
    "source": "github",
    "summary_zh": "dsh-Go 实现 DeepSeek 模型在移动端本地运行，并支持远程控制桌面端执行任务，提供轻量级端侧推理解决方案。",
@@ -6470,7 +6470,7 @@
   },
   "https://github.com/qybaihe/bla": {
    "title": "qybaihe/bla",
-   "date": "2026-11-20",
+   "date": "2026-11-21",
    "tokens": [],
    "source": "github",
    "summary_zh": "BLA (Blind LLM Agents) 提供针对 AI 逆向工程的防御机制，通过投毒、资源耗尽与幻觉诱导保护二进制与代码资产。",
@@ -6632,7 +6632,7 @@
   },
   "https://github.com/ai-gateways/awesome-ai-gateways": {
    "title": "ai-gateways/awesome-ai-gateways",
-   "date": "2026-11-20",
+   "date": "2026-11-21",
    "tokens": [],
    "source": "github",
    "summary_zh": "整理开源与商业 LLM 网关、MCP 网关、Agent 间通信网关及模型路由器的技术资源库。",
@@ -7857,7 +7857,7 @@
   },
   "https://github.com/yanstd888/9routerx": {
    "title": "yanstd888/9routerx",
-   "date": "2026-11-19",
+   "date": "2026-11-21",
    "tokens": [],
    "source": "github",
    "summary_zh": "9RouterX 是一个 Go 语言编写的单二进制文件 LLM 网关，支持 155 个提供商、248 个模型，并具备 20-40% 的 Token 节省能力。",
@@ -9894,7 +9894,7 @@
   },
   "https://github.com/mdiri-ai/SoduWork": {
    "title": "mdiri-ai/SoduWork",
-   "date": "2026-11-20",
+   "date": "2026-11-21",
    "tokens": [],
    "source": "github",
    "summary_zh": "SoduWork 是一个支持多 Agent 协作、多任务编排且可自托管的 AI 原生引擎，旨在为团队提供统一的 Agent 运行与管理基础设施。",
@@ -10285,7 +10285,237 @@
    "source": "youtube",
    "summary_zh": "Google DeepMind 发布 Project Genie 4，结合 Gemini 多模态能力，支持通过自然语言实时生成并交互式探索 3D 虚拟世界。",
    "why_zh": "属于生成式世界模型与多模态交互技能点，可复用基于语言指令驱动环境动态生成的架构设计，提升 Agent 在复杂环境中的交互能力。"
+  },
+  "https://arxiv.org/abs/2611.24969": {
+   "title": "Global Importance Estimation for KV Cache Eviction",
+   "date": "2026-11-21",
+   "tokens": [
+    "cache",
+    "estimation",
+    "eviction",
+    "global",
+    "importance",
+    "kv"
+   ],
+   "source": "paper",
+   "summary_zh": "PRKV 提出一种无需训练的 KV cache 淘汰方法，通过在注意力转移图上应用个性化 PageRank 算法，实现跨多跳的全局 token 重要性评估。",
+   "why_zh": "属于长上下文推理优化领域，可复用 Personalized PageRank 思想处理注意力权重分布，解决 KV cache 内存瓶颈。"
+  },
+  "https://arxiv.org/abs/2611.23410": {
+   "title": "RFBench: A Simulator-Grounded Multimodal Benchmark for Passive RF Layout Design and Understanding",
+   "date": "2026-11-21",
+   "tokens": [
+    "benchmark",
+    "design",
+    "grounded",
+    "layout",
+    "multimodal",
+    "passive",
+    "rf",
+    "rfbench",
+    "simulator",
+    "understanding"
+   ],
+   "source": "paper",
+   "summary_zh": "RFBench 是一个面向被动射频布局设计与理解的多模态基准测试集，通过模拟器验证模型对 RF 设计意图、几何布局及电磁行为的关联能力。",
+   "why_zh": "属于多模态垂直领域应用，学习如何构建模拟器驱动的评估基准，解决特定工程领域中模型推理与物理规律对齐的问题。"
+  },
+  "https://news.ycombinator.com/item?id=50548660": {
+   "title": "Show HN: Mastra Factory, the open-source software factory we use to build Mastra",
+   "date": "2026-11-21",
+   "tokens": [
+    "build",
+    "factory",
+    "hn",
+    "mastra",
+    "open",
+    "show",
+    "software",
+    "source",
+    "use",
+    "we"
+   ],
+   "source": "hackernews",
+   "summary_zh": "Mastra Factory 是一个开源软件工厂工具，旨在通过自动化流程辅助维护 TypeScript Agent 框架 Mastra，提升复杂 Agent 项目的开发效率。",
+   "why_zh": "属于 Agent 工程化与开发工具链，学习如何构建自动化维护流水线，提升 Agent 框架的迭代质量与可维护性。"
+  },
+  "https://www.anthropic.com/research/claude-black-hole-physics": {
+   "title": "Claude solves two open problems in the physics of black holes",
+   "date": "2026-11-21",
+   "tokens": [
+    "black",
+    "claude",
+    "holes",
+    "open",
+    "physics",
+    "problems",
+    "solves",
+    "two"
+   ],
+   "source": "hackernews",
+   "summary_zh": "Claude 通过分析与推理成功解决黑洞物理学中的两个开放性难题，展示了 LLM 在复杂科学研究与理论推演中的辅助潜力。",
+   "why_zh": "属于 LLM 科学推理能力评估，学习如何通过 Prompt Engineering 引导模型进行跨学科的逻辑推演与复杂问题求解。"
+  },
+  "https://github.com/PapilotAI/papilot": {
+   "title": "PapilotAI/papilot",
+   "date": "2026-11-21",
+   "tokens": [
+    "papilot",
+    "papilotai"
+   ],
+   "source": "github",
+   "summary_zh": "Papilot 是一个 AI LaTeX 编辑器，支持 PDF 标注、排版差异对比及与 Overleaf 实时同步，并兼容 Claude Code 等主流 AI 开发工具。",
+   "why_zh": "属于 AI 辅助开发工具链，学习如何通过多模态交互与实时同步技术，提升特定领域（如学术写作）的 AI 协作体验。"
+  },
+  "https://www.youtube.com/watch?v=oJIuz3AFfEQ": {
+   "title": "Connect Your Team’s Data to ChatGPT",
+   "date": "2026-11-21",
+   "tokens": [
+    "chatgpt",
+    "connect",
+    "data",
+    "team"
+   ],
+   "source": "youtube",
+   "summary_zh": "OpenAI 推出 ChatGPT 企业数据连接功能，支持通过 Data 插件、自定义插件或 MCP 服务器接入 Snowflake 等数据源，增强模型上下文感知。",
+   "why_zh": "属于企业级 RAG 与 Agent 生态，学习如何通过 MCP 协议实现异构数据源的标准化接入，提升企业知识库的检索与推理能力。"
+  },
+  "https://www.marktechpost.com/2026/11/19/meta-fair-self-improving-memory-harness-distillation/": {
+   "title": "Meta FAIR Self-Improving Memory Hits 56.0 on Continual Learning Bench",
+   "date": "2026-11-21",
+   "tokens": [
+    "56",
+    "bench",
+    "continual",
+    "fair",
+    "hits",
+    "improving",
+    "learning",
+    "memory",
+    "meta",
+    "self"
+   ],
+   "source": "blog",
+   "summary_zh": "Meta FAIR 提出 Self-Improving Memory 机制，让 Kimi-K2.6 自主生成并蒸馏 LOAD/OFFLOAD 内存提示词，在 Continual Learning Bench 上达到 56.0 分。",
+   "why_zh": "属于模型持续学习与提示词工程优化。可复用做法是将提示词生成过程纳入模型权重更新循环，通过自我蒸馏提升长周期任务性能。"
+  },
+  "https://www.marktechpost.com/2026/11/19/best-agent-gateways-2026/": {
+   "title": "13 Best Agent Gateways in 2026 for MCP, A2A and LLM Traffic: Kong, Bifrost, AgentCore, Arcade",
+   "date": "2026-11-21",
+   "tokens": [
+    "13",
+    "2026",
+    "a2a",
+    "agent",
+    "agentcore",
+    "arcade",
+    "best",
+    "bifrost",
+    "gateways",
+    "kong",
+    "llm",
+    "mcp",
+    "traffic"
+   ],
+   "source": "blog",
+   "summary_zh": "针对 2026 年 Agent 网关生态的评估，涵盖 Kong、Bifrost 等 13 款工具在 MCP 协议支持、Agent 间通信及流量治理方面的表现。",
+   "why_zh": "属于 AI Agent 基础设施架构。可复用做法是利用网关实现 LLM 流量路由、鉴权与 MCP 工具调用标准化，解决多 Agent 系统中的通信瓶颈。"
+  },
+  "https://github.com/agentic-ai-java/argi": {
+   "title": "agentic-ai-java/argi",
+   "date": "2026-11-21",
+   "tokens": [
+    "agentic",
+    "ai",
+    "argi",
+    "java"
+   ],
+   "source": "github",
+   "summary_zh": "ARGI 是一个基于 Java 的 Agent 运行时与图智能框架，旨在为 Java 生态提供 Agent 编排与复杂任务处理能力。",
+   "why_zh": "属于 Java 生态的 Agent 开发框架。可复用做法是利用图结构管理 Agent 任务流与状态，适合在企业级 Java 环境中构建复杂的 Agent 工作流。"
+  },
+  "https://github.com/BaaRai/ARTEX": {
+   "title": "BaaRai/ARTEX",
+   "date": "2026-11-21",
+   "tokens": [
+    "artex",
+    "baarai"
+   ],
+   "source": "github",
+   "summary_zh": "ARTEX 是一个 AI 自主渗透测试系统，通过自动化执行漏洞扫描与利用流程，实现端到端的安全评估。",
+   "why_zh": "属于垂直领域 Agent 应用。可复用做法是将渗透测试步骤拆解为 Agent 决策链，通过闭环反馈机制实现自动化攻击路径探索。"
+  },
+  "https://github.com/CopilotKit/openfuse": {
+   "title": "CopilotKit/openfuse",
+   "date": "2026-11-21",
+   "tokens": [
+    "copilotkit",
+    "openfuse"
+   ],
+   "source": "github",
+   "summary_zh": "OpenFuse 是一个集成浏览器、终端和文件操作的个人 Agent，基于 CopilotKit 和 AG-UI 构建，支持持续性任务执行。",
+   "why_zh": "属于个人助理型 Agent 开发。可复用做法是构建多模态工具调用接口（Tool Use），实现 Agent 对本地操作系统环境的持久化控制与交互。"
+  },
+  "https://huggingface.co/blog/harness-adapters-at-scale": {
+   "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+   "date": "2026-11-21",
+   "tokens": [
+    "adapt",
+    "adapters",
+    "cost",
+    "favorite",
+    "harness",
+    "improve",
+    "introducing",
+    "model",
+    "performance"
+   ],
+   "source": "blog",
+   "summary_zh": "Hugging Face 推出 Harness Adapters，允许用户将特定模型适配到评估框架中，以优化模型在特定任务上的性能表现并降低评估成本。",
+   "why_zh": "属于模型评估与性能优化。可复用做法是构建适配层（Adapter）解耦模型推理与评估框架，实现跨模型架构的标准化性能基准测试。"
+  },
+  "https://www.youtube.com/watch?v=JEgTn37Sk50": {
+   "title": "Ask Questions About Your Data in ChatGPT",
+   "date": "2026-11-21",
+   "tokens": [
+    "about",
+    "ask",
+    "chatgpt",
+    "data",
+    "questions"
+   ],
+   "source": "youtube",
+   "summary_zh": "ChatGPT 推出数据分析功能，支持用户上传数据文件，通过自然语言查询进行多维度对比、可视化分析及溯源，并支持基于分析结果生成后续行动建议。",
+   "why_zh": "属于 RAG 与数据分析 Agent 领域。学习如何通过 Prompt 引导模型进行结构化数据处理，以及如何利用引用源溯源机制增强 Agent 输出的可信度。"
+  },
+  "https://www.youtube.com/watch?v=FORdPIWOH5k": {
+   "title": "Gemini and the path to AGI with Koray Kavukcuoglu",
+   "date": "2026-11-21",
+   "tokens": [
+    "agi",
+    "gemini",
+    "kavukcuoglu",
+    "koray",
+    "path"
+   ],
+   "source": "youtube",
+   "summary_zh": "Google DeepMind 首席 AI 架构师 Koray Kavukcuoglu 探讨 Gemini 的演进路径，强调将通用智能模型集成至真实世界产品中对于实现 AGI 的核心作用。",
+   "why_zh": "属于 AGI 架构与工程化落地领域。理解大模型从实验室研究转向生产环境的工程挑战，以及如何通过产品反馈闭环迭代模型架构。"
+  },
+  "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon": {
+   "title": "bookwjitchieni1986/blender-ai-mcp-addon",
+   "date": "2026-11-21",
+   "tokens": [
+    "addon",
+    "ai",
+    "blender",
+    "bookwjitchieni1986",
+    "mcp"
+   ],
+   "source": "github",
+   "summary_zh": "",
+   "why_zh": ""
   }
  },
- "updated": "2026-11-19T16:59:46.551031+00:00"
+ "updated": "2026-11-20T16:37:39.717062+00:00"
 }
