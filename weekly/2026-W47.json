@@ -1,0 +1,768 @@
+{
+ "week": "2026-W47",
+ "start": "2026-11-16",
+ "end": "2026-11-22",
+ "generated": "2026-11-22 00:56",
+ "groups": [
+  {
+   "skill": "prompt_context",
+   "label": "提示 / 上下文工程",
+   "items": [
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.AI",
+     "title": "Language Models Can Rewrite Their Own Weights",
+     "link": "https://arxiv.org/abs/2611.21885",
+     "dt": "2026-11-19T00:00:00-05:00",
+     "summary": "arXiv:2611.21885v2 Announce Type: new Abstract: A language model is trained once and frozen. Making it better takes another training run, or a prompt, a harness or extra computation at inference that is gone once the task ends. We show a third way: to our knowledge for the first time, a language model rewrites its own weights by its own reasoning and becomes better, with no gradients and no training. We call this self-rewriting: the model is its own optimizer. In earlier work, a frontier model e",
+     "extra": {},
+     "weight_override": 1.3,
+     "skills": [
+      "prompt_context",
+      "agent_architecture",
+      "training_serving"
+     ],
+     "learn_score": 4.177,
+     "score": 8.354,
+     "tokens": [
+      "language",
+      "models",
+      "own",
+      "rewrite",
+      "their",
+      "weights"
+     ],
+     "flag": "new",
+     "summary_zh": "提出一种无需梯度下降或额外训练的方法，使语言模型能够通过自身推理直接重写权重以提升性能。",
+     "why_zh": "模型自优化与权重编辑技术，可用于研究模型自我迭代与非梯度参数更新机制，探索模型架构的动态演进。"
+    }
+   ]
+  },
+  {
+   "skill": "rag",
+   "label": "RAG 检索增强",
+   "items": [
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.AI",
+     "title": "Tabular Population Priors as Structured Retrieval for EHR Medication Set Prediction",
+     "link": "https://arxiv.org/abs/2611.17341",
+     "dt": "2026-11-16T00:00:00-05:00",
+     "summary": "arXiv:2611.17341v1 Announce Type: new Abstract: Medication prediction from electronic health records is a fixed vocabulary structured prediction problem, yet recent clinical RAG systems often treat it like open ended case based reasoning: retrieve similar patient admissions and ask an LLM to infer a medication set. This retrieval object is indirect the model receives retrieved patient records while the target is a discrete set of medication class labels. We propose a more task aligned retrieval ",
+     "extra": {},
+     "weight_override": 1.3,
+     "skills": [
+      "rag",
+      "eval_observability"
+     ],
+     "learn_score": 3.58,
+     "score": 7.16,
+     "tokens": [
+      "ehr",
+      "medication",
+      "population",
+      "prediction",
+      "priors",
+      "retrieval",
+      "set",
+      "structured",
+      "tabular"
+     ],
+     "flag": "new",
+     "summary_zh": "该研究提出将表格人口先验作为结构化检索对象，替代传统 EHR 临床 RAG 系统中低效的案例推理，提升药物预测准确度。",
+     "why_zh": "掌握结构化数据检索与 RAG 的结合技巧，学习如何将领域知识（如人口统计学先验）转化为检索索引以优化模型推理结果。"
+    },
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.AI",
+     "title": "NEBench R1: a Reasoning Benchmark for Evaluating Nuclear Domain Competence in Large Language Models",
+     "link": "https://arxiv.org/abs/2611.21682",
+     "dt": "2026-11-18T00:00:00-05:00",
+     "summary": "arXiv:2611.21682v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly being explored for knowledge-intensive and safety-critical applications in nuclear engineering. However, existing nuclear-domain benchmarks provide limited content coverage or focus primarily on answer accuracy without systematically evaluating the quality of the underlying reasoning. This study introduces NEBench R1, a reasoning-oriented benchmark comprising 7,546 unique multiple-choice questions extra",
+     "extra": {},
+     "weight_override": 1.3,
+     "skills": [
+      "rag",
+      "eval_observability"
+     ],
+     "learn_score": 3.58,
+     "score": 7.16,
+     "tokens": [
+      "benchmark",
+      "competence",
+      "domain",
+      "evaluating",
+      "language",
+      "large",
+      "models",
+      "nebench",
+      "nuclear",
+      "r1",
+      "reasoning"
+     ],
+     "flag": "new",
+     "summary_zh": "NEBench R1 是一个针对核工程领域的推理基准测试，不仅评估 LLM 的知识准确性，更侧重于评估模型在安全关键领域推理过程的逻辑质量。",
+     "why_zh": "属于垂直领域模型评估与推理能力验证。可复用做法：在构建行业模型时，通过引入过程导向的评估指标（Reasoning Quality）来提升模型在复杂逻辑任务中的可靠性。"
+    }
+   ]
+  },
+  {
+   "skill": "tool_mcp",
+   "label": "工具调用 / MCP",
+   "items": [
+    {
+     "source": "github",
+     "source_label": "GitHub",
+     "title": "hitkeeen/blender-ai-mcp-addon",
+     "link": "https://github.com/hitkeeen/blender-ai-mcp-addon",
+     "dt": "2026-11-12T14:32:15+00:00",
+     "summary": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
+     "extra": {
+      "stars": 2115,
+      "language": "",
+      "topics": [
+       "ai-agents",
+       "ai-assistant",
+       "blender",
+       "blender-addon",
+       "blender-ai",
+       "blender-automation"
+      ],
+      "created": "2026-11-12",
+      "pushed": "2026-11-12"
+     },
+     "skills": [
+      "tool_mcp",
+      "multi_agent"
+     ],
+     "learn_score": 2.788,
+     "score": 11.152,
+     "tokens": [
+      "addon",
+      "ai",
+      "blender",
+      "hitkeeen",
+      "mcp"
+     ],
+     "flag": "new",
+     "summary_zh": "blender-ai-mcp-addon 将 Blender 集成至 MCP 协议，支持通过 LLM 进行 3D 场景交互、bpy 脚本生成及多智能体工作流编排。",
+     "why_zh": "掌握 MCP 协议在垂直领域工具链的扩展能力，学习如何通过 MCP Server 将本地桌面应用功能暴露给 LLM 进行自动化控制。"
+    },
+    {
+     "source": "youtube",
+     "source_label": "YouTube · OpenAI",
+     "title": "Connect Your Team’s Data to ChatGPT",
+     "link": "https://www.youtube.com/watch?v=oJIuz3AFfEQ",
+     "dt": "2026-11-20T06:02:57+00:00",
+     "summary": "Connect the data tools your team already uses to ChatGPT. This walkthrough is for workspace admins: enable the Data plugin, choose how teammates can install it, and explore the setup for a Snowflake connection. You’ll also see how to add a custom plugin or MCP server and why connecting your team’s messages, email, and files gives ChatGPT more context for its answers. Workspace setup and access: https://help.openai.com/en/articles/20001518-using-the-data-plugin-in-chatgpt-work-and-codex Snowflake…",
+     "extra": {
+      "channel": "OpenAI",
+      "video_id": "oJIuz3AFfEQ"
+     },
+     "skills": [
+      "tool_mcp"
+     ],
+     "learn_score": 2.582,
+     "score": 2.582,
+     "tokens": [
+      "chatgpt",
+      "connect",
+      "data",
+      "team"
+     ],
+     "flag": "new",
+     "summary_zh": "OpenAI 推出 ChatGPT 企业数据连接功能，支持通过 Data 插件、自定义插件或 MCP 服务器接入 Snowflake 等数据源，增强模型上下文感知。",
+     "why_zh": "属于企业级 RAG 与 Agent 生态，学习如何通过 MCP 协议实现异构数据源的标准化接入，提升企业知识库的检索与推理能力。"
+    }
+   ]
+  },
+  {
+   "skill": "agent_architecture",
+   "label": "Agent 架构与循环",
+   "items": [
+    {
+     "source": "paper",
+     "source_label": "HF Daily Papers",
+     "title": "MIRIX-2.0: Multi-Agent Memory System",
+     "link": "https://huggingface.co/papers/2611.12068",
+     "dt": "2026-11-08T19:00:00+00:00",
+     "summary": "Long-term memory lets LLM agents personalize, stay consistent, and reuse what worked before. Parametric memories need training, consolidation can lose details for good, and keeping every record leaves a growing store to search. We present MIRIX-2.0, a multi-agent memory system designed to be practical, accurate, and efficient at once. It is the most accurate of the compared systems on four of five QA benchmarks. It reaches 91.4% on LoCoMo and 72.6% on LongMemEval-S, where it leads the strongest ",
+     "extra": {
+      "upvotes": 31,
+      "arxiv": "https://arxiv.org/abs/2611.12068"
+     },
+     "skills": [
+      "agent_architecture",
+      "multi_agent",
+      "eval_observability",
+      "system_design"
+     ],
+     "learn_score": 3.14,
+     "score": 7.823,
+     "tokens": [
+      "agent",
+      "memory",
+      "mirix",
+      "multi",
+      "system"
+     ],
+     "flag": "new",
+     "summary_zh": "MIRIX-2.0 提出一种多智能体记忆系统，通过优化参数化记忆与检索机制，在保持长期记忆一致性的同时提升了存储效率与准确性。",
+     "why_zh": "深入理解 Agent 长期记忆架构，学习如何平衡记忆检索的精度与存储开销，适用于构建需要个性化与持续学习的 Agent 系统。"
+    },
+    {
+     "source": "youtube",
+     "source_label": "YouTube · IndyDevDan",
+     "title": "Fable 5.2 is CRACKED but THIS goes BEYOND THE MODEL",
+     "link": "https://www.youtube.com/watch?v=hYIymEMB9x4",
+     "dt": "2026-11-16T14:00:02+00:00",
+     "summary": "Fable 5.2 just dropped and most engineers DON'T need it. Everyone has access to the same frontier intelligence. The model is NOT your edge. The system you build around the model is. One super agent that does everything is a myth. Sub-agents hit a ceiling. Agent swarms burn more money than they make. The real multi-agent sweet spot? Small agent teams. 🚀 Phase 3 PRE-LAUNCH IS LIVE (What if your agents never stopped?) https://agenticengineer.com/infinite-agentic-engineering?y=hYIymEMB9x4 🔥 In Tiny …",
+     "extra": {
+      "channel": "IndyDevDan",
+      "video_id": "hYIymEMB9x4"
+     },
+     "skills": [
+      "agent_architecture",
+      "multi_agent"
+     ],
+     "learn_score": 2.479,
+     "score": 2.479,
+     "tokens": [
+      "beyond",
+      "cracked",
+      "fable",
+      "goes",
+      "model"
+     ],
+     "flag": "new",
+     "summary_zh": "Fable 5.2 发布，核心观点指出模型本身不再是竞争壁垒，构建高效的小型 Agent 协作团队（Small Agent Teams）才是当前多 Agent 系统的最优解。",
+     "why_zh": "属于 Agent 系统架构设计。可学习如何评估多 Agent 协作模式的 ROI，避免盲目堆叠 Agent 导致成本失控与性能瓶颈。"
+    }
+   ]
+  },
+  {
+   "skill": "eval_observability",
+   "label": "评测与可观测",
+   "items": [
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.CL",
+     "title": "FieldGuide: A Corpus Map for Token-Efficient Agentic Document Exploration",
+     "link": "https://arxiv.org/abs/2611.21647",
+     "dt": "2026-11-18T00:00:00-05:00",
+     "summary": "arXiv:2611.21647v1 Announce Type: new Abstract: Generative AI agents can help journalists explore large document collections. But exploratory workflows can require substantial token use and time, especially when the task is broad and the relevant subquestions are not yet known. This paper introduces FieldGuide, an agent-facing corpus map that organizes a document collection into a topic hierarchy and exposes tools for corpus orientation, scoped search, and bounded reading. I evaluate FieldGuide ",
+     "extra": {},
+     "weight_override": 1.3,
+     "skills": [
+      "eval_observability",
+      "training_serving"
+     ],
+     "learn_score": 4.475,
+     "score": 8.95,
+     "tokens": [
+      "agentic",
+      "corpus",
+      "document",
+      "efficient",
+      "exploration",
+      "fieldguide",
+      "map",
+      "token"
+     ],
+     "flag": "new",
+     "summary_zh": "FieldGuide 通过构建文档集合的主题层级结构（Corpus Map），为 Agent 提供导航索引，显著降低大规模文档探索任务中的 Token 消耗与响应延迟。",
+     "why_zh": "属于 RAG 与 Agent 规划优化领域。可复用做法：通过预处理构建领域知识图谱或层级索引，引导 Agent 进行高效的定向检索而非全量扫描。"
+    },
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.CL",
+     "title": "Global Importance Estimation for KV Cache Eviction",
+     "link": "https://arxiv.org/abs/2611.24969",
+     "dt": "2026-11-20T00:00:00-05:00",
+     "summary": "arXiv:2611.24969v1 Announce Type: new Abstract: Memory consumption of the key-value (KV) cache remains a central bottleneck for long-context LLM inference. We introduce PRKV, a training-free KV eviction method that estimates multi-hop global token importance by applying Personalized PageRank over attention-induced transition graphs. This enables importance propagation beyond recency or instantaneous attention, without modifying the model. We benchmark PRKV on long-context understanding, sparse r",
+     "extra": {},
+     "weight_override": 1.3,
+     "skills": [
+      "eval_observability",
+      "training_serving",
+      "llm_fundamentals"
+     ],
+     "learn_score": 4.177,
+     "score": 8.354,
+     "tokens": [
+      "cache",
+      "estimation",
+      "eviction",
+      "global",
+      "importance",
+      "kv"
+     ],
+     "flag": "new",
+     "summary_zh": "PRKV 提出一种无需训练的 KV cache 淘汰方法，通过在注意力转移图上应用个性化 PageRank 算法，实现跨多跳的全局 token 重要性评估。",
+     "why_zh": "属于长上下文推理优化领域，可复用 Personalized PageRank 思想处理注意力权重分布，解决 KV cache 内存瓶颈。"
+    },
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.AI",
+     "title": "RFBench: A Simulator-Grounded Multimodal Benchmark for Passive RF Layout Design and Understanding",
+     "link": "https://arxiv.org/abs/2611.23410",
+     "dt": "2026-11-20T00:00:00-05:00",
+     "summary": "arXiv:2611.23410v1 Announce Type: new Abstract: While multimodal language models can interpret diagrams and generate structured outputs, their capacity to connect passive radio-frequency (RF) design intent, layout geometry, and electromagnetic behavior remains largely untested. To address this gap, we introduce RFBench, a simulator-grounded dataset and benchmark for passive RF layout design and understanding. The dataset contains 10,000 two-port planar layouts simulated using ADS Momentum, with ",
+     "extra": {},
+     "weight_override": 1.3,
+     "skills": [
+      "eval_observability",
+      "system_design"
+     ],
+     "learn_score": 3.58,
+     "score": 7.16,
+     "tokens": [
+      "benchmark",
+      "design",
+      "grounded",
+      "layout",
+      "multimodal",
+      "passive",
+      "rf",
+      "rfbench",
+      "simulator",
+      "understanding"
+     ],
+     "flag": "new",
+     "summary_zh": "RFBench 是一个面向被动射频布局设计与理解的多模态基准测试集，通过模拟器验证模型对 RF 设计意图、几何布局及电磁行为的关联能力。",
+     "why_zh": "属于多模态垂直领域应用，学习如何构建模拟器驱动的评估基准，解决特定工程领域中模型推理与物理规律对齐的问题。"
+    },
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.AI",
+     "title": "How Much of SAR Vehicle Recognition Is the Vehicle? Background Shortcuts, Angle Gaps and Partial Libraries on MSTAR and ATRNet-STAR",
+     "link": "https://arxiv.org/abs/2611.21827",
+     "dt": "2026-11-19T00:00:00-05:00",
+     "summary": "arXiv:2611.21827v1 Announce Type: new Abstract: Deep networks score near 99% on the MSTAR vehicle benchmark, and the newer ATRNet-STAR benchmark was built to be harder. We ask how much of these scores comes from the vehicle itself. With a modern network (ConvNeXt-Small, 3 seeds) we first reproduce the known MSTAR result: with the central 96x96 pixels zeroed out, accuracy is still 73.3% (chance 10%). The same shortcut is present in ATRNet-STAR, which was collected across several scenes: with the ",
+     "extra": {},
+     "weight_override": 1.3,
+     "skills": [
+      "eval_observability"
+     ],
+     "learn_score": 2.983,
+     "score": 5.966,
+     "tokens": [
+      "angle",
+      "atrnet",
+      "background",
+      "gaps",
+      "libraries",
+      "mstar",
+      "much",
+      "partial",
+      "recognition",
+      "sar",
+      "shortcuts",
+      "star",
+      "vehicle"
+     ],
+     "flag": "new",
+     "summary_zh": "分析 SAR 车辆识别模型在 MSTAR 等基准测试中的表现，揭示模型过度依赖背景噪声而非车辆特征的捷径学习问题。",
+     "why_zh": "模型鲁棒性与特征归因分析，学习如何通过遮挡实验与特征可视化评估模型对核心语义的理解深度，避免数据偏差。"
+    },
+    {
+     "source": "paper",
+     "source_label": "HF Daily Papers",
+     "title": "Squoosh Bench: Evaluating UX-1 on 318 Historical Website A/B Tests",
+     "link": "https://huggingface.co/papers/2611.25200",
+     "dt": "2026-11-17T19:00:00+00:00",
+     "summary": "Experimentation teams must decide which proposed website changes to test with live traffic. We evaluated whether forecasts from simulated shoppers could inform that choice. We screened 412 historical website A/B tests and evaluated four systems on the 318 that ran longer than 21 days. Each system predicted an original win, a variant win, or an inconclusive result. Page roles were masked and recorded outcomes were withheld during inference. Squoosh UX-1, a model fine-tuned on human browsing data,",
+     "extra": {
+      "upvotes": 3,
+      "arxiv": "https://arxiv.org/abs/2611.25200"
+     },
+     "skills": [
+      "eval_observability",
+      "training_serving"
+     ],
+     "learn_score": 2.485,
+     "score": 4.97,
+     "tokens": [
+      "318",
+      "bench",
+      "evaluating",
+      "historical",
+      "squoosh",
+      "tests",
+      "ux",
+      "website"
+     ],
+     "flag": "new",
+     "summary_zh": "Squoosh Bench 评估了模拟用户对 318 个历史网站 A/B 测试结果的预测能力，探讨 AI 辅助实验决策的有效性。",
+     "why_zh": "属于 AI 决策辅助与评估领域。可学习如何通过历史数据构建基准测试（Benchmark），验证模型在业务预测任务中的置信度。"
+    }
+   ]
+  }
+ ],
+ "items": [
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.CL",
+   "title": "FieldGuide: A Corpus Map for Token-Efficient Agentic Document Exploration",
+   "link": "https://arxiv.org/abs/2611.21647",
+   "dt": "2026-11-18T00:00:00-05:00",
+   "summary": "arXiv:2611.21647v1 Announce Type: new Abstract: Generative AI agents can help journalists explore large document collections. But exploratory workflows can require substantial token use and time, especially when the task is broad and the relevant subquestions are not yet known. This paper introduces FieldGuide, an agent-facing corpus map that organizes a document collection into a topic hierarchy and exposes tools for corpus orientation, scoped search, and bounded reading. I evaluate FieldGuide ",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "eval_observability",
+    "training_serving"
+   ],
+   "learn_score": 4.475,
+   "score": 8.95,
+   "tokens": [
+    "agentic",
+    "corpus",
+    "document",
+    "efficient",
+    "exploration",
+    "fieldguide",
+    "map",
+    "token"
+   ],
+   "flag": "new",
+   "summary_zh": "FieldGuide 通过构建文档集合的主题层级结构（Corpus Map），为 Agent 提供导航索引，显著降低大规模文档探索任务中的 Token 消耗与响应延迟。",
+   "why_zh": "属于 RAG 与 Agent 规划优化领域。可复用做法：通过预处理构建领域知识图谱或层级索引，引导 Agent 进行高效的定向检索而非全量扫描。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Language Models Can Rewrite Their Own Weights",
+   "link": "https://arxiv.org/abs/2611.21885",
+   "dt": "2026-11-19T00:00:00-05:00",
+   "summary": "arXiv:2611.21885v2 Announce Type: new Abstract: A language model is trained once and frozen. Making it better takes another training run, or a prompt, a harness or extra computation at inference that is gone once the task ends. We show a third way: to our knowledge for the first time, a language model rewrites its own weights by its own reasoning and becomes better, with no gradients and no training. We call this self-rewriting: the model is its own optimizer. In earlier work, a frontier model e",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "prompt_context",
+    "agent_architecture",
+    "training_serving"
+   ],
+   "learn_score": 4.177,
+   "score": 8.354,
+   "tokens": [
+    "language",
+    "models",
+    "own",
+    "rewrite",
+    "their",
+    "weights"
+   ],
+   "flag": "new",
+   "summary_zh": "提出一种无需梯度下降或额外训练的方法，使语言模型能够通过自身推理直接重写权重以提升性能。",
+   "why_zh": "模型自优化与权重编辑技术，可用于研究模型自我迭代与非梯度参数更新机制，探索模型架构的动态演进。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.CL",
+   "title": "Global Importance Estimation for KV Cache Eviction",
+   "link": "https://arxiv.org/abs/2611.24969",
+   "dt": "2026-11-20T00:00:00-05:00",
+   "summary": "arXiv:2611.24969v1 Announce Type: new Abstract: Memory consumption of the key-value (KV) cache remains a central bottleneck for long-context LLM inference. We introduce PRKV, a training-free KV eviction method that estimates multi-hop global token importance by applying Personalized PageRank over attention-induced transition graphs. This enables importance propagation beyond recency or instantaneous attention, without modifying the model. We benchmark PRKV on long-context understanding, sparse r",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "eval_observability",
+    "training_serving",
+    "llm_fundamentals"
+   ],
+   "learn_score": 4.177,
+   "score": 8.354,
+   "tokens": [
+    "cache",
+    "estimation",
+    "eviction",
+    "global",
+    "importance",
+    "kv"
+   ],
+   "flag": "new",
+   "summary_zh": "PRKV 提出一种无需训练的 KV cache 淘汰方法，通过在注意力转移图上应用个性化 PageRank 算法，实现跨多跳的全局 token 重要性评估。",
+   "why_zh": "属于长上下文推理优化领域，可复用 Personalized PageRank 思想处理注意力权重分布，解决 KV cache 内存瓶颈。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Tabular Population Priors as Structured Retrieval for EHR Medication Set Prediction",
+   "link": "https://arxiv.org/abs/2611.17341",
+   "dt": "2026-11-16T00:00:00-05:00",
+   "summary": "arXiv:2611.17341v1 Announce Type: new Abstract: Medication prediction from electronic health records is a fixed vocabulary structured prediction problem, yet recent clinical RAG systems often treat it like open ended case based reasoning: retrieve similar patient admissions and ask an LLM to infer a medication set. This retrieval object is indirect the model receives retrieved patient records while the target is a discrete set of medication class labels. We propose a more task aligned retrieval ",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "rag",
+    "eval_observability"
+   ],
+   "learn_score": 3.58,
+   "score": 7.16,
+   "tokens": [
+    "ehr",
+    "medication",
+    "population",
+    "prediction",
+    "priors",
+    "retrieval",
+    "set",
+    "structured",
+    "tabular"
+   ],
+   "flag": "new",
+   "summary_zh": "该研究提出将表格人口先验作为结构化检索对象，替代传统 EHR 临床 RAG 系统中低效的案例推理，提升药物预测准确度。",
+   "why_zh": "掌握结构化数据检索与 RAG 的结合技巧，学习如何将领域知识（如人口统计学先验）转化为检索索引以优化模型推理结果。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "NEBench R1: a Reasoning Benchmark for Evaluating Nuclear Domain Competence in Large Language Models",
+   "link": "https://arxiv.org/abs/2611.21682",
+   "dt": "2026-11-18T00:00:00-05:00",
+   "summary": "arXiv:2611.21682v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly being explored for knowledge-intensive and safety-critical applications in nuclear engineering. However, existing nuclear-domain benchmarks provide limited content coverage or focus primarily on answer accuracy without systematically evaluating the quality of the underlying reasoning. This study introduces NEBench R1, a reasoning-oriented benchmark comprising 7,546 unique multiple-choice questions extra",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "rag",
+    "eval_observability"
+   ],
+   "learn_score": 3.58,
+   "score": 7.16,
+   "tokens": [
+    "benchmark",
+    "competence",
+    "domain",
+    "evaluating",
+    "language",
+    "large",
+    "models",
+    "nebench",
+    "nuclear",
+    "r1",
+    "reasoning"
+   ],
+   "flag": "new",
+   "summary_zh": "NEBench R1 是一个针对核工程领域的推理基准测试，不仅评估 LLM 的知识准确性，更侧重于评估模型在安全关键领域推理过程的逻辑质量。",
+   "why_zh": "属于垂直领域模型评估与推理能力验证。可复用做法：在构建行业模型时，通过引入过程导向的评估指标（Reasoning Quality）来提升模型在复杂逻辑任务中的可靠性。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "RFBench: A Simulator-Grounded Multimodal Benchmark for Passive RF Layout Design and Understanding",
+   "link": "https://arxiv.org/abs/2611.23410",
+   "dt": "2026-11-20T00:00:00-05:00",
+   "summary": "arXiv:2611.23410v1 Announce Type: new Abstract: While multimodal language models can interpret diagrams and generate structured outputs, their capacity to connect passive radio-frequency (RF) design intent, layout geometry, and electromagnetic behavior remains largely untested. To address this gap, we introduce RFBench, a simulator-grounded dataset and benchmark for passive RF layout design and understanding. The dataset contains 10,000 two-port planar layouts simulated using ADS Momentum, with ",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "eval_observability",
+    "system_design"
+   ],
+   "learn_score": 3.58,
+   "score": 7.16,
+   "tokens": [
+    "benchmark",
+    "design",
+    "grounded",
+    "layout",
+    "multimodal",
+    "passive",
+    "rf",
+    "rfbench",
+    "simulator",
+    "understanding"
+   ],
+   "flag": "new",
+   "summary_zh": "RFBench 是一个面向被动射频布局设计与理解的多模态基准测试集，通过模拟器验证模型对 RF 设计意图、几何布局及电磁行为的关联能力。",
+   "why_zh": "属于多模态垂直领域应用，学习如何构建模拟器驱动的评估基准，解决特定工程领域中模型推理与物理规律对齐的问题。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "MIRIX-2.0: Multi-Agent Memory System",
+   "link": "https://huggingface.co/papers/2611.12068",
+   "dt": "2026-11-08T19:00:00+00:00",
+   "summary": "Long-term memory lets LLM agents personalize, stay consistent, and reuse what worked before. Parametric memories need training, consolidation can lose details for good, and keeping every record leaves a growing store to search. We present MIRIX-2.0, a multi-agent memory system designed to be practical, accurate, and efficient at once. It is the most accurate of the compared systems on four of five QA benchmarks. It reaches 91.4% on LoCoMo and 72.6% on LongMemEval-S, where it leads the strongest ",
+   "extra": {
+    "upvotes": 31,
+    "arxiv": "https://arxiv.org/abs/2611.12068"
+   },
+   "skills": [
+    "agent_architecture",
+    "multi_agent",
+    "eval_observability",
+    "system_design"
+   ],
+   "learn_score": 3.14,
+   "score": 7.823,
+   "tokens": [
+    "agent",
+    "memory",
+    "mirix",
+    "multi",
+    "system"
+   ],
+   "flag": "new",
+   "summary_zh": "MIRIX-2.0 提出一种多智能体记忆系统，通过优化参数化记忆与检索机制，在保持长期记忆一致性的同时提升了存储效率与准确性。",
+   "why_zh": "深入理解 Agent 长期记忆架构，学习如何平衡记忆检索的精度与存储开销，适用于构建需要个性化与持续学习的 Agent 系统。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "How Much of SAR Vehicle Recognition Is the Vehicle? Background Shortcuts, Angle Gaps and Partial Libraries on MSTAR and ATRNet-STAR",
+   "link": "https://arxiv.org/abs/2611.21827",
+   "dt": "2026-11-19T00:00:00-05:00",
+   "summary": "arXiv:2611.21827v1 Announce Type: new Abstract: Deep networks score near 99% on the MSTAR vehicle benchmark, and the newer ATRNet-STAR benchmark was built to be harder. We ask how much of these scores comes from the vehicle itself. With a modern network (ConvNeXt-Small, 3 seeds) we first reproduce the known MSTAR result: with the central 96x96 pixels zeroed out, accuracy is still 73.3% (chance 10%). The same shortcut is present in ATRNet-STAR, which was collected across several scenes: with the ",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 2.983,
+   "score": 5.966,
+   "tokens": [
+    "angle",
+    "atrnet",
+    "background",
+    "gaps",
+    "libraries",
+    "mstar",
+    "much",
+    "partial",
+    "recognition",
+    "sar",
+    "shortcuts",
+    "star",
+    "vehicle"
+   ],
+   "flag": "new",
+   "summary_zh": "分析 SAR 车辆识别模型在 MSTAR 等基准测试中的表现，揭示模型过度依赖背景噪声而非车辆特征的捷径学习问题。",
+   "why_zh": "模型鲁棒性与特征归因分析，学习如何通过遮挡实验与特征可视化评估模型对核心语义的理解深度，避免数据偏差。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "hitkeeen/blender-ai-mcp-addon",
+   "link": "https://github.com/hitkeeen/blender-ai-mcp-addon",
+   "dt": "2026-11-12T14:32:15+00:00",
+   "summary": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
+   "extra": {
+    "stars": 2115,
+    "language": "",
+    "topics": [
+     "ai-agents",
+     "ai-assistant",
+     "blender",
+     "blender-addon",
+     "blender-ai",
+     "blender-automation"
+    ],
+    "created": "2026-11-12",
+    "pushed": "2026-11-12"
+   },
+   "skills": [
+    "tool_mcp",
+    "multi_agent"
+   ],
+   "learn_score": 2.788,
+   "score": 11.152,
+   "tokens": [
+    "addon",
+    "ai",
+    "blender",
+    "hitkeeen",
+    "mcp"
+   ],
+   "flag": "new",
+   "summary_zh": "blender-ai-mcp-addon 将 Blender 集成至 MCP 协议，支持通过 LLM 进行 3D 场景交互、bpy 脚本生成及多智能体工作流编排。",
+   "why_zh": "掌握 MCP 协议在垂直领域工具链的扩展能力，学习如何通过 MCP Server 将本地桌面应用功能暴露给 LLM 进行自动化控制。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "Connect Your Team’s Data to ChatGPT",
+   "link": "https://www.youtube.com/watch?v=oJIuz3AFfEQ",
+   "dt": "2026-11-20T06:02:57+00:00",
+   "summary": "Connect the data tools your team already uses to ChatGPT. This walkthrough is for workspace admins: enable the Data plugin, choose how teammates can install it, and explore the setup for a Snowflake connection. You’ll also see how to add a custom plugin or MCP server and why connecting your team’s messages, email, and files gives ChatGPT more context for its answers. Workspace setup and access: https://help.openai.com/en/articles/20001518-using-the-data-plugin-in-chatgpt-work-and-codex Snowflake…",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": "oJIuz3AFfEQ"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 2.582,
+   "score": 2.582,
+   "tokens": [
+    "chatgpt",
+    "connect",
+    "data",
+    "team"
+   ],
+   "flag": "new",
+   "summary_zh": "OpenAI 推出 ChatGPT 企业数据连接功能，支持通过 Data 插件、自定义插件或 MCP 服务器接入 Snowflake 等数据源，增强模型上下文感知。",
+   "why_zh": "属于企业级 RAG 与 Agent 生态，学习如何通过 MCP 协议实现异构数据源的标准化接入，提升企业知识库的检索与推理能力。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Squoosh Bench: Evaluating UX-1 on 318 Historical Website A/B Tests",
+   "link": "https://huggingface.co/papers/2611.25200",
+   "dt": "2026-11-17T19:00:00+00:00",
+   "summary": "Experimentation teams must decide which proposed website changes to test with live traffic. We evaluated whether forecasts from simulated shoppers could inform that choice. We screened 412 historical website A/B tests and evaluated four systems on the 318 that ran longer than 21 days. Each system predicted an original win, a variant win, or an inconclusive result. Page roles were masked and recorded outcomes were withheld during inference. Squoosh UX-1, a model fine-tuned on human browsing data,",
+   "extra": {
+    "upvotes": 3,
+    "arxiv": "https://arxiv.org/abs/2611.25200"
+   },
+   "skills": [
+    "eval_observability",
+    "training_serving"
+   ],
+   "learn_score": 2.485,
+   "score": 4.97,
+   "tokens": [
+    "318",
+    "bench",
+    "evaluating",
+    "historical",
+    "squoosh",
+    "tests",
+    "ux",
+    "website"
+   ],
+   "flag": "new",
+   "summary_zh": "Squoosh Bench 评估了模拟用户对 318 个历史网站 A/B 测试结果的预测能力，探讨 AI 辅助实验决策的有效性。",
+   "why_zh": "属于 AI 决策辅助与评估领域。可学习如何通过历史数据构建基准测试（Benchmark），验证模型在业务预测任务中的置信度。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · IndyDevDan",
+   "title": "Fable 5.2 is CRACKED but THIS goes BEYOND THE MODEL",
+   "link": "https://www.youtube.com/watch?v=hYIymEMB9x4",
+   "dt": "2026-11-16T14:00:02+00:00",
+   "summary": "Fable 5.2 just dropped and most engineers DON'T need it. Everyone has access to the same frontier intelligence. The model is NOT your edge. The system you build around the model is. One super agent that does everything is a myth. Sub-agents hit a ceiling. Agent swarms burn more money than they make. The real multi-agent sweet spot? Small agent teams. 🚀 Phase 3 PRE-LAUNCH IS LIVE (What if your agents never stopped?) https://agenticengineer.com/infinite-agentic-engineering?y=hYIymEMB9x4 🔥 In Tiny …",
+   "extra": {
+    "channel": "IndyDevDan",
+    "video_id": "hYIymEMB9x4"
+   },
+   "skills": [
+    "agent_architecture",
+    "multi_agent"
+   ],
+   "learn_score": 2.479,
+   "score": 2.479,
+   "tokens": [
+    "beyond",
+    "cracked",
+    "fable",
+    "goes",
+    "model"
+   ],
+   "flag": "new",
+   "summary_zh": "Fable 5.2 发布，核心观点指出模型本身不再是竞争壁垒，构建高效的小型 Agent 协作团队（Small Agent Teams）才是当前多 Agent 系统的最优解。",
+   "why_zh": "属于 Agent 系统架构设计。可学习如何评估多 Agent 协作模式的 ROI，避免盲目堆叠 Agent 导致成本失控与性能瓶颈。"
+  }
+ ]
+}

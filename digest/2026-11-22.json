@@ -1,0 +1,605 @@
+{
+ "date": "2026-11-22",
+ "generated": "2026-11-22 00:54",
+ "source_count": {
+  "github": 72,
+  "youtube": 40,
+  "blog": 82,
+  "paper": 12,
+  "hackernews": 10
+ },
+ "failures": {},
+ "failure_errors": {},
+ "summary_missing": [],
+ "summary_providers": {
+  "gemini": 3
+ },
+ "items": [
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Squoosh Bench: Evaluating UX-1 on 318 Historical Website A/B Tests",
+   "link": "https://huggingface.co/papers/2611.25200",
+   "dt": "2026-11-17T19:00:00+00:00",
+   "summary": "Experimentation teams must decide which proposed website changes to test with live traffic. We evaluated whether forecasts from simulated shoppers could inform that choice. We screened 412 historical website A/B tests and evaluated four systems on the 318 that ran longer than 21 days. Each system predicted an original win, a variant win, or an inconclusive result. Page roles were masked and recorded outcomes were withheld during inference. Squoosh UX-1, a model fine-tuned on human browsing data,",
+   "extra": {
+    "upvotes": 3,
+    "arxiv": "https://arxiv.org/abs/2611.25200"
+   },
+   "skills": [
+    "eval_observability",
+    "training_serving"
+   ],
+   "learn_score": 2.485,
+   "score": 4.97,
+   "tokens": [
+    "318",
+    "bench",
+    "evaluating",
+    "historical",
+    "squoosh",
+    "tests",
+    "ux",
+    "website"
+   ],
+   "flag": "new",
+   "summary_zh": "Squoosh Bench 评估了模拟用户对 318 个历史网站 A/B 测试结果的预测能力，探讨 AI 辅助实验决策的有效性。",
+   "why_zh": "属于 AI 决策辅助与评估领域。可学习如何通过历史数据构建基准测试（Benchmark），验证模型在业务预测任务中的置信度。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "In Situ Training of Optical Neural Networks by Coding Agents",
+   "link": "https://huggingface.co/papers/2611.23875",
+   "dt": "2026-11-17T19:00:00+00:00",
+   "summary": "Optical neural networks promise fast, energy-efficient computing, but every device departs from its design and must be trained with the hardware. In situ training relies on an expert-built calibrated digital model of each device or on gradient-free trial and error. Coding agents, large language models that write and run programs, have shown an emergent ability to understand and edit the weights of digital neural networks. Here we introduce optics as code, a method in which a coding agent trains ",
+   "extra": {
+    "upvotes": 3,
+    "arxiv": "https://arxiv.org/abs/2611.23875"
+   },
+   "skills": [
+    "system_design"
+   ],
+   "learn_score": 2.071,
+   "score": 4.142,
+   "tokens": [
+    "agents",
+    "coding",
+    "networks",
+    "neural",
+    "optical",
+    "situ",
+    "training"
+   ],
+   "flag": "new",
+   "summary_zh": "利用 LLM 编码智能体实现光学神经网络（ONN）的原位训练，通过编写和执行代码直接优化硬件权重，无需预设数字模型。",
+   "why_zh": "属于 Agent 具身智能与硬件协同领域。可学习如何利用 LLM 的代码生成能力实现闭环控制，解决复杂物理系统的参数校准问题。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Restricting AI agents in mobile operating systems platforms from capturing data",
+   "link": "https://signal.org/blog/protecting-your-privacy/",
+   "dt": "2026-11-20T09:42:16+00:00",
+   "summary": "",
+   "extra": {
+    "points": 560,
+    "comments": 329,
+    "hn_link": "https://news.ycombinator.com/item?id=50572348"
+   },
+   "skills": [],
+   "learn_score": 1.0,
+   "score": 3.748,
+   "tokens": [
+    "agents",
+    "ai",
+    "capturing",
+    "data",
+    "mobile",
+    "operating",
+    "platforms",
+    "restricting",
+    "systems"
+   ],
+   "flag": "new",
+   "summary_zh": "探讨在移动操作系统中限制 AI Agent 获取用户数据的技术方案与隐私保护机制。",
+   "why_zh": "属于 Agent 安全与隐私工程领域。可学习如何在操作系统层级通过权限隔离、数据沙箱和 API 拦截实现 Agent 的行为管控。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
+   "link": "https://git-aarvin.github.io/mei/",
+   "dt": "2026-11-19T23:35:35+00:00",
+   "summary": "",
+   "extra": {
+    "points": 371,
+    "comments": 244,
+    "hn_link": "https://news.ycombinator.com/item?id=50568130"
+   },
+   "skills": [],
+   "learn_score": 1.0,
+   "score": 3.569,
+   "tokens": [
+    "engineering",
+    "gemini",
+    "index",
+    "models",
+    "neon"
+   ],
+   "flag": "new",
+   "summary_zh": "Gemini 4 Neon 在 Models Engineering Index 排名第一，标志着该模型在工程化指标评估中表现领先。",
+   "why_zh": "属于模型选型与基准评估领域。可学习如何通过工程化指标（如推理延迟、吞吐量、资源消耗）构建模型评估体系。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "han938/open-webui-private-ai-desk",
+   "link": "https://github.com/han938/open-webui-private-ai-desk",
+   "dt": "2026-11-20T14:25:27+00:00",
+   "summary": "Chat with private AI models locally, powered by Open Webui Private Ai Desk.",
+   "extra": {
+    "stars": 153,
+    "language": "TypeScript",
+    "topics": [
+     "chat-interface",
+     "chatbot",
+     "knowledge-base",
+     "llm",
+     "local-ai",
+     "ollama"
+    ],
+    "created": "2026-11-20",
+    "pushed": "2026-11-21"
+   },
+   "skills": [],
+   "learn_score": 0.9,
+   "score": 2.866,
+   "tokens": [
+    "ai",
+    "desk",
+    "han938",
+    "open",
+    "private",
+    "webui"
+   ],
+   "flag": "new",
+   "summary_zh": "基于 Open WebUI 构建的本地私有 AI 桌面端，支持在本地运行和交互私有模型。",
+   "why_zh": "属于本地化 LLM 部署与交互界面开发。可学习如何封装本地推理引擎与 WebUI，实现数据不出域的私有化 AI 服务架构。"
+  },
+  {
+   "source": "blog",
+   "source_label": "Eugene Yan",
+   "title": "How Public Evals Work and Fail, and What Should Change",
+   "link": "https://eugeneyan.com/writing/public-evals",
+   "dt": "2026-11-19T00:00:00+00:00",
+   "summary": "How to read eval scores and what to question, from a teardown of 12 benchmarks.",
+   "extra": {},
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 2.317,
+   "score": 2.317,
+   "tokens": [
+    "change",
+    "evals",
+    "fail",
+    "public",
+    "should",
+    "work"
+   ],
+   "flag": "new",
+   "summary_zh": "分析 12 个主流 AI 基准测试的运作机制与失效场景，指出评估指标在实际应用中的局限性与改进方向。",
+   "why_zh": "属于模型评估与鲁棒性测试领域。可学习如何识别评估中的数据污染、过拟合及指标偏差，构建更具业务参考价值的评估体系。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "RustXNG/RustXNG",
+   "link": "https://github.com/RustXNG/RustXNG",
+   "dt": "2026-10-18T03:06:52+00:00",
+   "summary": "Self-hosted metasearch and grounding engine for AI agents, based on SearXNG. Rust, JSON API, optional page text.",
+   "extra": {
+    "stars": 996,
+    "language": "Rust",
+    "topics": [
+     "agpl",
+     "ai-agents",
+     "grounding",
+     "llm",
+     "mcp",
+     "metasearch"
+    ],
+    "created": "2026-10-18",
+    "pushed": "2026-11-21"
+   },
+   "skills": [],
+   "learn_score": 0.54,
+   "score": 2.159,
+   "tokens": [
+    "rustxng"
+   ],
+   "flag": "new",
+   "summary_zh": "RustXNG 是一个基于 SearXNG 的自托管元搜索与 Grounding 引擎，通过 Rust 实现并提供 JSON API，专为 AI Agent 提供检索增强支持。",
+   "why_zh": "属于 Agent 检索增强（RAG）架构设计。学习如何通过轻量级中间件封装搜索接口，实现 Agent 外部知识获取的标准化与高性能化。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "The Future of Agents with Harrison Chase",
+   "link": "https://www.youtube.com/watch?v=GojQtxCT3dg",
+   "dt": "2026-11-21T02:26:38+00:00",
+   "summary": "Organizations are in a very different phase of agent development than they were a year ago. So what does the next chapter look like in 2027? New challenges are emerging in agent development and context engineering. How can teams better understand the impact and value of their agents? How is the rise of proactive, always-on agents surfacing new obstacles? How can developers manage growing complexity while maintaining control over performance and costs? Hear from Harrison Chase, Co-founder and CEO…",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": "GojQtxCT3dg"
+   },
+   "skills": [
+    "prompt_context"
+   ],
+   "learn_score": 2.066,
+   "score": 2.066,
+   "tokens": [
+    "agents",
+    "chase",
+    "future",
+    "harrison"
+   ],
+   "flag": "new",
+   "summary_zh": "Harrison Chase 探讨 2027 年 Agent 发展趋势，指出从简单的任务执行转向主动式、常驻式 Agent，核心挑战在于上下文工程与复杂性管理。",
+   "why_zh": "属于 Agent 系统架构与工程化。学习如何评估 Agent 的业务价值，以及在长周期运行场景下解决上下文维护与系统复杂性治理的策略。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Sam Witteveen",
+   "title": "Microsoft Just Showed Why Harnesses Matter More Than Models",
+   "link": "https://www.youtube.com/watch?v=iVm3lsgxH64",
+   "dt": "2026-11-20T18:00:35+00:00",
+   "summary": "In this video I breakdown the new announcements from Microsoft and look at how their focus is on the \"harness\" not the \"models\" Ignite 2026 Keynote - https://microsoft.ai/news/microsoft-ignite-2026/ Ignite 2026 keynote (YouTube) https://www.youtube.com/watch?v=ZR4v1c4CClc Github - https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot Foundry blog- https://devblogs.microsoft.com/foundry/?p=3100 Github - https://github.blog/changelog/2026-11-17-mai-code-2-and-m…",
+   "extra": {
+    "channel": "Sam Witteveen",
+    "video_id": "iVm3lsgxH64"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 2.066,
+   "score": 2.066,
+   "tokens": [
+    "harnesses",
+    "just",
+    "matter",
+    "microsoft",
+    "models",
+    "showed",
+    "than"
+   ],
+   "flag": "new",
+   "summary_zh": "Microsoft Ignite 2026 强调 AI Harness（工具链与编排层）的重要性远超模型本身，通过优化开发环境与集成工具提升 Copilot 效能。",
+   "why_zh": "属于 AI 工程化范式。理解模型能力与工程编排（Harness）的边界，学习如何通过构建高效的开发工具链来最大化模型在生产环境的落地效果。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · David Ondrej",
+   "title": "Everyone is sleeping on Gemini 4 Neon",
+   "link": "https://www.youtube.com/watch?v=n-LwSQq3xYE",
+   "dt": "2026-11-21T14:11:15+00:00",
+   "summary": "🔥 BLACK FRIDAY! Try Higgsfield at 63% OFF: https://higgsfield.ai/s/rtBaWI Cloudroom: https://cloudroom.dev/ my /gemini-review skill: https://github.com/davidondrej/skills/blob/main/skills/gemini-review/SKILL.md Higgsfield MCP: https://higgsfield.ai/s/rtBaWI Follow me on Instagram - https://www.instagram.com/davidondrej1/ Follow me on Twitter - https://x.com/DavidOndrej1 Subscribe if you're serious about AI. In this video, world's leading agentic engineer David Ondrej reveals his strategic and un…",
+   "extra": {
+    "channel": "David Ondrej",
+    "video_id": "n-LwSQq3xYE"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 2.066,
+   "score": 2.066,
+   "tokens": [
+    "everyone",
+    "gemini",
+    "neon",
+    "sleeping"
+   ],
+   "flag": "new",
+   "summary_zh": "Gemini 4 Neon 展现了在多模态理解与推理上的新能力，并结合 MCP（Model Context Protocol）协议扩展了 Agent 的外部交互边界。",
+   "why_zh": "属于多模态 Agent 开发。学习如何利用 MCP 协议实现模型与外部工具的标准化连接，提升 Agent 在复杂任务中的上下文感知与执行能力。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "amitshekhariitbhu/ai-engineer-roadmap",
+   "link": "https://github.com/amitshekhariitbhu/ai-engineer-roadmap",
+   "dt": "2026-09-20T15:02:38+00:00",
+   "summary": "AI Engineer Roadmap - A step-by-step AI Engineering roadmap to become an AI Engineer, with a blog for every topic.",
+   "extra": {
+    "stars": 414,
+    "language": "Markdown",
+    "topics": [
+     "ai-engineer",
+     "ai-engineer-roadmap",
+     "ai-engineering",
+     "ai-engineering-roadmap"
+    ],
+    "created": "2026-09-20",
+    "pushed": "2026-11-21"
+   },
+   "skills": [],
+   "learn_score": 0.54,
+   "score": 1.953,
+   "tokens": [
+    "ai",
+    "amitshekhariitbhu",
+    "engineer",
+    "roadmap"
+   ],
+   "flag": "new",
+   "summary_zh": "AI Engineer Roadmap 提供了一份结构化的 AI 工程师成长路径，涵盖从基础模型应用到系统架构设计的全栈技能点。",
+   "why_zh": "属于 AI 工程职业规划。通过梳理知识图谱，明确 Agent 开发、模型微调与系统部署的技能优先级，构建系统化的技术栈储备。"
+  },
+  {
+   "source": "blog",
+   "source_label": "OpenAI 官方博客",
+   "title": "Can AI help scientists identify promising drug candidates?",
+   "link": "https://openai.com/index/introducing-medchembench",
+   "dt": "2026-11-20T00:00:00+00:00",
+   "summary": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+   "extra": {},
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.951,
+   "score": 1.951,
+   "tokens": [
+    "ai",
+    "candidates",
+    "drug",
+    "help",
+    "identify",
+    "promising",
+    "scientists"
+   ],
+   "flag": "new",
+   "summary_zh": "OpenAI 发布 MedChemBench 基准测试，用于评估 AI 模型在药物发现领域对分子结构解析、实验证据推理及化合物筛选的能力。",
+   "why_zh": "属于垂直领域评估（Domain-specific Evaluation）。学习如何构建特定业务场景的 Benchmark，通过定义推理任务来量化模型在专业领域的决策可靠性。"
+  },
+  {
+   "source": "blog",
+   "source_label": "LangChain 博客",
+   "title": "How to build a knowledge factory for AI agents",
+   "link": "https://www.langchain.com/blog/knowledge-factory",
+   "dt": "2026-11-21T16:45:08+00:00",
+   "summary": "The knowledge factory is how LangChain keeps its agents' company knowledge current: agents flag what's missing, and a curator agent fixes it in the background.",
+   "extra": {},
+   "skills": [
+    "system_design"
+   ],
+   "learn_score": 1.806,
+   "score": 1.806,
+   "tokens": [
+    "agents",
+    "ai",
+    "build",
+    "factory",
+    "knowledge"
+   ],
+   "flag": "new",
+   "summary_zh": "LangChain 提出知识工厂架构，通过 Agent 自动标记缺失信息，并由 Curator Agent 在后台实时更新企业知识库。",
+   "why_zh": "属于 RAG 系统架构设计。可复用其闭环反馈机制，通过 Agent 主动发现知识盲区并自动化维护知识库时效性。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "SC-10749/Hotline",
+   "link": "https://github.com/SC-10749/Hotline",
+   "dt": "2026-10-15T01:49:59+00:00",
+   "summary": "",
+   "extra": {
+    "stars": 212,
+    "language": "Python",
+    "topics": [],
+    "created": "2026-10-15",
+    "pushed": "2026-11-16"
+   },
+   "skills": [],
+   "learn_score": 0.54,
+   "score": 1.796,
+   "tokens": [
+    "10749",
+    "hotline",
+    "sc"
+   ],
+   "flag": "new",
+   "summary_zh": "Hotline 是一个用于构建 AI Agent 交互流程的开源框架，旨在简化 Agent 任务调度与状态管理。",
+   "why_zh": "属于 Agent 编排框架。可学习其对 Agent 任务流的抽象方式，用于优化复杂多步任务的执行效率与鲁棒性。"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "bookwjitchieni1986/blender-ai-mcp-addon",
+   "link": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
+   "dt": "2026-11-19T14:43:10+00:00",
+   "summary": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
+   "extra": {
+    "stars": 2034,
+    "language": "",
+    "topics": [
+     "ai-agents",
+     "ai-assistant",
+     "blender",
+     "blender-addon",
+     "blender-ai",
+     "blender-automation"
+    ],
+    "created": "2026-11-19",
+    "pushed": "2026-11-19"
+   },
+   "skills": [
+    "tool_mcp",
+    "multi_agent"
+   ],
+   "learn_score": 2.943,
+   "score": 11.772,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-21 推荐过"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "mdiri-ai/SoduWork",
+   "link": "https://github.com/mdiri-ai/SoduWork",
+   "dt": "2026-10-29T02:43:14+00:00",
+   "summary": "The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.",
+   "extra": {
+    "stars": 6354,
+    "language": "JavaScript",
+    "topics": [
+     "agent-harness",
+     "agent-orchestration",
+     "agent-workflows",
+     "ai-agents",
+     "ai-workflows",
+     "anti-slop"
+    ],
+    "created": "2026-10-29",
+    "pushed": "2026-11-21"
+   },
+   "skills": [
+    "agent_architecture",
+    "multi_agent"
+   ],
+   "learn_score": 2.107,
+   "score": 8.428,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-21 推荐过",
+   "summary_zh": "SoduWork 是一个支持多 Agent 协作、多任务编排且可自托管的 AI 原生引擎，旨在为团队提供统一的 Agent 运行与管理基础设施。",
+   "why_zh": "属于 Agent 编排与系统架构领域。可复用做法：学习如何设计多 Agent 协作的通信协议与任务调度机制，实现复杂业务流程的自动化闭环。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ai-gateways/awesome-ai-gateways",
+   "link": "https://github.com/ai-gateways/awesome-ai-gateways",
+   "dt": "2026-10-30T10:30:50+00:00",
+   "summary": "Awesome AI gateways: open source and commercial LLM gateways, MCP gateways, agent (A2A) gateways, model routers, specs, and guides.",
+   "extra": {
+    "stars": 47,
+    "language": "",
+    "topics": [
+     "a2a",
+     "a2a-protocol",
+     "agent-gateway",
+     "ai-agents",
+     "ai-gateway",
+     "ai-governance"
+    ],
+    "created": "2026-10-30",
+    "pushed": "2026-11-19"
+   },
+   "skills": [
+    "tool_mcp",
+    "multi_agent"
+   ],
+   "learn_score": 2.634,
+   "score": 7.038,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-21 推荐过",
+   "summary_zh": "整理开源与商业 LLM 网关、MCP 网关、Agent 间通信网关及模型路由器的技术资源库。",
+   "why_zh": "属于 AI 基础设施领域，可学习如何构建高可用、可观测的 LLM 中间件，掌握 Agent 架构中网关层面的流量调度与协议适配。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ccch1mneyyy/dsh-Go",
+   "link": "https://github.com/ccch1mneyyy/dsh-Go",
+   "dt": "2026-10-25T08:09:52+00:00",
+   "summary": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+   "extra": {
+    "stars": 29494,
+    "language": "Dart",
+    "topics": [
+     "ai-agent",
+     "android",
+     "android-app",
+     "coding-agent",
+     "deepseek",
+     "deepseek-harness"
+    ],
+    "created": "2026-10-25",
+    "pushed": "2026-11-21"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-21 推荐过",
+   "summary_zh": "dsh-Go 实现 DeepSeek 模型在移动端本地运行，并支持远程控制桌面端执行任务，提供轻量级端侧推理解决方案。",
+   "why_zh": "属于端侧 AI 部署技能点，可复用其跨设备通信与本地推理引擎集成方案，解决资源受限环境下的智能体调度问题。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "qybaihe/bla",
+   "link": "https://github.com/qybaihe/bla",
+   "dt": "2026-10-25T05:25:45+00:00",
+   "summary": "🛡️ BLA (bla-agents / Blind LLM Agents) — Open-source Blue Defense MCP server & CLI protecting JS/TS, Electron ASAR, WASM, Python, Native Binaries, SQLite, GGUF/Safetensors & Android DEX against AI reverse-engineering agents (REA).",
+   "extra": {
+    "stars": 6372,
+    "language": "TypeScript",
+    "topics": [
+     "adversarial-ai",
+     "ai-security",
+     "android-security",
+     "binary-protection",
+     "claude-code",
+     "codex"
+    ],
+    "created": "2026-10-25",
+    "pushed": "2026-11-21"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-21 推荐过",
+   "summary_zh": "BLA (Blind LLM Agents) 提供针对 AI 逆向工程的防御机制，通过投毒、资源耗尽与幻觉诱导保护二进制与代码资产。",
+   "why_zh": "AI 安全防御技能点；掌握对抗性样本生成与防御策略，学习如何通过干扰 Agent 的推理过程保护系统资产。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "yanstd888/9routerx",
+   "link": "https://github.com/yanstd888/9routerx",
+   "dt": "2026-11-07T11:54:33+00:00",
+   "summary": "9RouterX (9R Next Go Generation): Single-binary Go AI router, LLM gateway & 20-40% token saver. Route Claude Code, Cursor & Codex across 155 providers, 28 OAuth & 248 free models (24 keyless) — OpenAI, Claude, Gemini, DeepSeek, Groq, Ollama & MCP.",
+   "extra": {
+    "stars": 258,
+    "language": "Go",
+    "topics": [
+     "9router",
+     "9routerx",
+     "ai-gateway",
+     "ai-proxy",
+     "ai-routing",
+     "api-gateway"
+    ],
+    "created": "2026-11-07",
+    "pushed": "2026-11-21"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 5.991,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-21 推荐过",
+   "summary_zh": "9RouterX 是一个 Go 语言编写的单二进制文件 LLM 网关，支持 155 个提供商、248 个模型，并具备 20-40% 的 Token 节省能力。",
+   "why_zh": "LLM 工程化部署技能点。可复用做法：学习如何构建高性能路由层以实现多模型负载均衡、Token 压缩及统一的 API 接口封装。"
+  }
+ ]
+}
