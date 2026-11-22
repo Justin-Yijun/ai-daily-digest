@@ -6202,7 +6202,7 @@
   },
   "https://github.com/ccch1mneyyy/dsh-Go": {
    "title": "ccch1mneyyy/dsh-Go",
-   "date": "2026-11-22",
+   "date": "2026-11-23",
    "tokens": [],
    "source": "github",
    "summary_zh": "dsh-Go 实现 DeepSeek 模型在移动端本地运行，并支持远程控制桌面端执行任务，提供轻量级端侧推理解决方案。",
@@ -6470,7 +6470,7 @@
   },
   "https://github.com/qybaihe/bla": {
    "title": "qybaihe/bla",
-   "date": "2026-11-22",
+   "date": "2026-11-23",
    "tokens": [],
    "source": "github",
    "summary_zh": "BLA (Blind LLM Agents) 提供针对 AI 逆向工程的防御机制，通过投毒、资源耗尽与幻觉诱导保护二进制与代码资产。",
@@ -6632,7 +6632,7 @@
   },
   "https://github.com/ai-gateways/awesome-ai-gateways": {
    "title": "ai-gateways/awesome-ai-gateways",
-   "date": "2026-11-22",
+   "date": "2026-11-23",
    "tokens": [],
    "source": "github",
    "summary_zh": "整理开源与商业 LLM 网关、MCP 网关、Agent 间通信网关及模型路由器的技术资源库。",
@@ -7857,7 +7857,7 @@
   },
   "https://github.com/yanstd888/9routerx": {
    "title": "yanstd888/9routerx",
-   "date": "2026-11-22",
+   "date": "2026-11-23",
    "tokens": [],
    "source": "github",
    "summary_zh": "9RouterX 是一个 Go 语言编写的单二进制文件 LLM 网关，支持 155 个提供商、248 个模型，并具备 20-40% 的 Token 节省能力。",
@@ -9894,7 +9894,7 @@
   },
   "https://github.com/mdiri-ai/SoduWork": {
    "title": "mdiri-ai/SoduWork",
-   "date": "2026-11-22",
+   "date": "2026-11-23",
    "tokens": [],
    "source": "github",
    "summary_zh": "SoduWork 是一个支持多 Agent 协作、多任务编排且可自托管的 AI 原生引擎，旨在为团队提供统一的 Agent 运行与管理基础设施。",
@@ -10504,7 +10504,7 @@
   },
   "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon": {
    "title": "bookwjitchieni1986/blender-ai-mcp-addon",
-   "date": "2026-11-22",
+   "date": "2026-11-23",
    "tokens": [],
    "source": "github",
    "summary_zh": "",
@@ -10711,7 +10711,217 @@
    "source": "github",
    "summary_zh": "Hotline 是一个用于构建 AI Agent 交互流程的开源框架，旨在简化 Agent 任务调度与状态管理。",
    "why_zh": "属于 Agent 编排框架。可学习其对 Agent 任务流的抽象方式，用于优化复杂多步任务的执行效率与鲁棒性。"
+  },
+  "https://github.com/kenzz-devv/open-webui-talora-ai-workspace": {
+   "title": "kenzz-devv/open-webui-talora-ai-workspace",
+   "date": "2026-11-23",
+   "tokens": [
+    "ai",
+    "devv",
+    "kenzz",
+    "open",
+    "talora",
+    "webui",
+    "workspace"
+   ],
+   "source": "github",
+   "summary_zh": "Open-WebUI-Talora-AI-Workspace 提供了一个集成化工作区，用于组织和执行 AI 工作流，简化了复杂任务的编排流程。",
+   "why_zh": "属于 AI 工作流编排技能点，可学习如何通过统一接口管理多步骤 AI 任务，提升开发效率与项目组织能力。"
+  },
+  "https://github.com/eliransu/enterplace": {
+   "title": "eliransu/enterplace",
+   "date": "2026-11-23",
+   "tokens": [
+    "eliransu",
+    "enterplace"
+   ],
+   "source": "github",
+   "summary_zh": "Enterplace 是一个自托管 AI 网关，支持为 Coding Agents 和 MCP 客户端提供带预算控制、防护栏及审计日志的统一模型调用服务。",
+   "why_zh": "属于 AI 基础设施与安全治理技能点，可复用其在多租户场景下实现请求审计、成本控制与安全策略注入的架构设计。"
+  },
+  "http://ricapar.net/ClawDOS/": {
+   "title": "ClawDOS – An AI coding agent for DOS",
+   "date": "2026-11-23",
+   "tokens": [
+    "agent",
+    "ai",
+    "clawdos",
+    "coding",
+    "dos"
+   ],
+   "source": "hackernews",
+   "summary_zh": "ClawDOS 是一个专为 DOS 环境设计的 AI 编程代理，通过 AI 辅助在受限的遗留操作系统中进行代码编写与调试。",
+   "why_zh": "属于边缘计算与受限环境 AI 应用技能点，可学习如何通过轻量化 Prompt 工程与工具调用适配极简算力环境。"
+  },
+  "https://huggingface.co/papers/2611.26627": {
+   "title": "RL Post-Training in Diffusion Transformers Is Activation Steering",
+   "date": "2026-11-23",
+   "tokens": [
+    "activation",
+    "diffusion",
+    "post",
+    "rl",
+    "steering",
+    "training",
+    "transformers"
+   ],
+   "source": "paper",
+   "summary_zh": "研究表明 Diffusion Transformers 的 RL 后训练本质上是激活转向（Activation Steering），通过优化输入依赖的变换提升视觉质量与文本渲染能力。",
+   "why_zh": "属于生成式模型微调技能点，可学习如何通过激活空间操控而非单纯权重更新来优化模型输出，提升对复杂提示词的遵循度。"
+  },
+  "https://huggingface.co/papers/2611.26211": {
+   "title": "SpecWM: Turning Verification into Refinement for Streaming World Models",
+   "date": "2026-11-23",
+   "tokens": [
+    "models",
+    "refinement",
+    "specwm",
+    "streaming",
+    "turning",
+    "verification",
+    "world"
+   ],
+   "source": "paper",
+   "summary_zh": "SpecWM 提出了一种将验证转化为细化的流式世界模型框架，通过奖励引导的细化机制优化视频生成的质量与推理速度。",
+   "why_zh": "属于投机采样与模型推理优化技能点，可复用其将验证过程转化为模型细化步骤的思路，解决流式生成中的质量与延迟平衡问题。"
+  },
+  "https://github.com/debugdigital677/descript-pro-win": {
+   "title": "debugdigital677/descript-pro-win",
+   "date": "2026-11-23",
+   "tokens": [
+    "debugdigital677",
+    "descript",
+    "pro",
+    "win"
+   ],
+   "source": "github",
+   "summary_zh": "Descript-Pro-Win 是一款基于 AI 的 Windows 平台音视频编辑器，支持通过文本编辑实现转录、剪辑与屏幕录制。",
+   "why_zh": "属于多模态应用开发技能点，可学习如何将 ASR 与 NLP 技术集成至非线性编辑工作流中，实现基于语义的媒体内容处理。"
+  },
+  "https://github.com/Morriswawan05/elevenlabs-pro-win": {
+   "title": "Morriswawan05/elevenlabs-pro-win",
+   "date": "2026-11-23",
+   "tokens": [
+    "elevenlabs",
+    "morriswawan05",
+    "pro",
+    "win"
+   ],
+   "source": "github",
+   "summary_zh": "ElevenLabs-pro-win 提供在 Windows 10/11 环境下调用 ElevenLabs API 的封装，支持文本转语音、语音克隆及多语言配音功能。",
+   "why_zh": "属于 API 封装与本地环境集成，学习如何通过封装 SDK 简化外部 AI 服务在桌面端的调用流程。"
+  },
+  "https://github.com/JieFedorov81/runway-ml-pro-win": {
+   "title": "JieFedorov81/runway-ml-pro-win",
+   "date": "2026-11-23",
+   "tokens": [
+    "jiefedorov81",
+    "ml",
+    "pro",
+    "runway",
+    "win"
+   ],
+   "source": "github",
+   "summary_zh": "Runway-ml-pro-win 提供在 Windows 10/11 环境下调用 Runway AI 视频生成功能的接口，支持文生视频、图像动画及运动笔刷编辑。",
+   "why_zh": "属于多模态 API 集成，学习如何处理视频生成任务的异步请求及本地环境下的参数配置。"
+  },
+  "https://www.marktechpost.com/2026/11/22/google-gemini-api-tool-retrieval/": {
+   "title": "Google AI Previews Tool Retrieval in the Gemini API for Large Tool Libraries",
+   "date": "2026-11-23",
+   "tokens": [
+    "ai",
+    "api",
+    "gemini",
+    "google",
+    "large",
+    "libraries",
+    "previews",
+    "retrieval",
+    "tool"
+   ],
+   "source": "blog",
+   "summary_zh": "Gemini API 推出 Tool Retrieval 预览功能，允许 Agent 在大规模工具库中按需加载参数 Schema，优化单次交互的 API 请求效率。",
+   "why_zh": "属于 Agent 架构优化，学习如何通过动态检索机制解决大规模工具调用带来的上下文窗口限制问题。"
+  },
+  "https://www.youtube.com/shorts/LZF6VrLm_GE": {
+   "title": "Can a Better Model Fix a Broken Agent? Look at the Traces",
+   "date": "2026-11-23",
+   "tokens": [
+    "agent",
+    "better",
+    "broken",
+    "fix",
+    "look",
+    "model",
+    "traces"
+   ],
+   "source": "youtube",
+   "summary_zh": "LangSmith 通过 Agent Traces 记录工具调用细节与 Token 消耗，帮助开发者定位 Agent 逻辑错误并进行针对性修复。",
+   "why_zh": "属于 Agent 可观测性，学习如何通过 Trace 链路追踪分析 Agent 在复杂任务中的决策路径与故障点。"
+  },
+  "https://www.youtube.com/watch?v=w-VsGPEivyU": {
+   "title": "On-Policy Distillation: LLM's Post-Training Meta of 2026",
+   "date": "2026-11-23",
+   "tokens": [
+    "2026",
+    "distillation",
+    "llm",
+    "meta",
+    "policy",
+    "post",
+    "training"
+   ],
+   "source": "youtube",
+   "summary_zh": "On-policy distillation 作为 LLM 后训练范式，通过在线策略蒸馏提升模型性能，成为 2026 年模型训练的主流方向。",
+   "why_zh": "属于 LLM 后训练技术，学习如何利用在线策略提升模型在特定任务上的对齐效果与推理能力。"
+  },
+  "https://www.youtube.com/watch?v=k87Iqft91j8": {
+   "title": "The Most Dangerous AI Agent Is an Overly Helpful One (It's Not Why You Think)",
+   "date": "2026-11-23",
+   "tokens": [
+    "agent",
+    "ai",
+    "dangerous",
+    "helpful",
+    "one",
+    "overly",
+    "think"
+   ],
+   "source": "youtube",
+   "summary_zh": "针对 Agent 过度执行风险，提出生产环境必备的五大安全机制：工具权限控制、人工介入、网络限制、记忆管理与可观测性。",
+   "why_zh": "属于 Agent 安全工程，学习如何构建生产级 Agent 的防御体系，特别是通过 LangGraph 实现权限隔离与流程控制。"
+  },
+  "https://www.marktechpost.com/2026/11/21/thinking-machines-inkling-2-mini-looped-transformer/": {
+   "title": "Meet Thinking Machines Inkling 2 Mini: 26B Looped MoE Runs on a 32GB Mac",
+   "date": "2026-11-23",
+   "tokens": [
+    "26b",
+    "32gb",
+    "inkling",
+    "looped",
+    "mac",
+    "machines",
+    "meet",
+    "mini",
+    "moe",
+    "runs",
+    "thinking"
+   ],
+   "source": "blog",
+   "summary_zh": "Thinking Machines 发布 Inkling 2 Mini，这是一款 26.4B 参数的循环 MoE 模型，激活参数仅 3.4B，可在 32GB 内存的 Mac 上运行，在 SWE-bench Verified 上达到 79.2% 的准确率。",
+   "why_zh": "属于模型压缩与推理优化领域，学习 Looped MoE 架构如何通过参数共享在有限显存下实现高性能推理，适用于端侧部署场景。"
+  },
+  "https://www.infoq.cn/video/Ly5HbhY4pNMCF04abkFo?utm_source=rss&utm_medium=article": {
+   "title": "智能体企业新前沿：驱动高效智能",
+   "date": "2026-11-23",
+   "tokens": [
+    "智能体企业新前沿",
+    "驱动高效智能"
+   ],
+   "source": "blog",
+   "summary_zh": "智能体企业应用正从单一任务自动化向复杂业务流程驱动演进，重点在于提升智能体在企业环境下的高效协同与决策能力。",
+   "why_zh": "属于 Agent 工程化领域，学习如何构建企业级 Agent 编排框架，掌握多智能体协作与业务系统集成中的状态管理与任务调度策略。"
   }
  },
- "updated": "2026-11-21T16:54:59.594654+00:00"
+ "updated": "2026-11-22T17:19:07.148096+00:00"
 }

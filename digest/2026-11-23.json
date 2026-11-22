@@ -1,0 +1,637 @@
+{
+ "date": "2026-11-23",
+ "generated": "2026-11-23 01:19",
+ "source_count": {
+  "github": 72,
+  "youtube": 40,
+  "blog": 81,
+  "paper": 12,
+  "hackernews": 10
+ },
+ "failures": {},
+ "failure_errors": {},
+ "summary_missing": [],
+ "summary_providers": {
+  "gemini": 3
+ },
+ "items": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "kenzz-devv/open-webui-talora-ai-workspace",
+   "link": "https://github.com/kenzz-devv/open-webui-talora-ai-workspace",
+   "dt": "2026-11-18T14:18:51+00:00",
+   "summary": "Streamlined workspace for organizing and running AI workflows in one place.",
+   "extra": {
+    "stars": 150,
+    "language": "TypeScript",
+    "topics": [
+     "chat",
+     "chatbot",
+     "generative-ai",
+     "gguf",
+     "inference",
+     "large-language-models"
+    ],
+    "created": "2026-11-18",
+    "pushed": "2026-11-22"
+   },
+   "skills": [
+    "training_serving"
+   ],
+   "learn_score": 1.721,
+   "score": 5.466,
+   "tokens": [
+    "ai",
+    "devv",
+    "kenzz",
+    "open",
+    "talora",
+    "webui",
+    "workspace"
+   ],
+   "flag": "new",
+   "summary_zh": "Open-WebUI-Talora-AI-Workspace 提供了一个集成化工作区，用于组织和执行 AI 工作流，简化了复杂任务的编排流程。",
+   "why_zh": "属于 AI 工作流编排技能点，可学习如何通过统一接口管理多步骤 AI 任务，提升开发效率与项目组织能力。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "eliransu/enterplace",
+   "link": "https://github.com/eliransu/enterplace",
+   "dt": "2026-11-15T06:16:07+00:00",
+   "summary": "Self-hosted AI gateway. Coding agents, apps and MCP clients call models through it, and each request gets a person's name, a budget, guardrails and a line in an audit log you can verify. One Docker image, in your cloud.",
+   "extra": {
+    "stars": 46,
+    "language": "Rust",
+    "topics": [
+     "ai-gateway",
+     "ai-governance",
+     "anthropic",
+     "audit-log",
+     "claude-code",
+     "finops"
+    ],
+    "created": "2026-11-15",
+    "pushed": "2026-11-21"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.859,
+   "score": 4.95,
+   "tokens": [
+    "eliransu",
+    "enterplace"
+   ],
+   "flag": "new",
+   "summary_zh": "Enterplace 是一个自托管 AI 网关，支持为 Coding Agents 和 MCP 客户端提供带预算控制、防护栏及审计日志的统一模型调用服务。",
+   "why_zh": "属于 AI 基础设施与安全治理技能点，可复用其在多租户场景下实现请求审计、成本控制与安全策略注入的架构设计。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "ClawDOS – An AI coding agent for DOS",
+   "link": "http://ricapar.net/ClawDOS/",
+   "dt": "2026-11-21T05:38:01+00:00",
+   "summary": "",
+   "extra": {
+    "points": 167,
+    "comments": 52,
+    "hn_link": "https://news.ycombinator.com/item?id=50586292"
+   },
+   "skills": [],
+   "learn_score": 1.35,
+   "score": 4.351,
+   "tokens": [
+    "agent",
+    "ai",
+    "clawdos",
+    "coding",
+    "dos"
+   ],
+   "flag": "new",
+   "summary_zh": "ClawDOS 是一个专为 DOS 环境设计的 AI 编程代理，通过 AI 辅助在受限的遗留操作系统中进行代码编写与调试。",
+   "why_zh": "属于边缘计算与受限环境 AI 应用技能点，可学习如何通过轻量化 Prompt 工程与工具调用适配极简算力环境。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "RL Post-Training in Diffusion Transformers Is Activation Steering",
+   "link": "https://huggingface.co/papers/2611.26627",
+   "dt": "2026-11-18T19:00:00+00:00",
+   "summary": "Reinforcement learning (RL) post-training substantially improves the visual quality, text rendering, and compositional accuracy of diffusion transformers. Because capabilities such as rendering requested text or composing multiple objects are inherently prompt-dependent, a natural hypothesis is that improving them requires learning complex, input-dependent transformations. To isolate how much of these gains an input-independent shift explains, we probe each RL-tuned model with a deliberately sim",
+   "extra": {
+    "upvotes": 20,
+    "arxiv": "https://arxiv.org/abs/2611.26627"
+   },
+   "skills": [
+    "prompt_context",
+    "llm_fundamentals"
+   ],
+   "learn_score": 1.841,
+   "score": 4.236,
+   "tokens": [
+    "activation",
+    "diffusion",
+    "post",
+    "rl",
+    "steering",
+    "training",
+    "transformers"
+   ],
+   "flag": "new",
+   "summary_zh": "研究表明 Diffusion Transformers 的 RL 后训练本质上是激活转向（Activation Steering），通过优化输入依赖的变换提升视觉质量与文本渲染能力。",
+   "why_zh": "属于生成式模型微调技能点，可学习如何通过激活空间操控而非单纯权重更新来优化模型输出，提升对复杂提示词的遵循度。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "SpecWM: Turning Verification into Refinement for Streaming World Models",
+   "link": "https://huggingface.co/papers/2611.26211",
+   "dt": "2026-11-18T19:00:00+00:00",
+   "summary": "Recently, video world models have advanced interactive generation, with large models offering higher quality and smaller models enabling faster inference. Existing speculative methods combine their strengths through fast draft generation and selective target regeneration guided by rewards on decoded frames. However, verification covers only the external scorer's evaluation dimensions and adds decoding and scoring costs. Moreover, these scores provide no correction, requiring costly target regene",
+   "extra": {
+    "upvotes": 7,
+    "arxiv": "https://arxiv.org/abs/2611.26211"
+   },
+   "skills": [
+    "eval_observability",
+    "training_serving"
+   ],
+   "learn_score": 1.864,
+   "score": 3.728,
+   "tokens": [
+    "models",
+    "refinement",
+    "specwm",
+    "streaming",
+    "turning",
+    "verification",
+    "world"
+   ],
+   "flag": "new",
+   "summary_zh": "SpecWM 提出了一种将验证转化为细化的流式世界模型框架，通过奖励引导的细化机制优化视频生成的质量与推理速度。",
+   "why_zh": "属于投机采样与模型推理优化技能点，可复用其将验证过程转化为模型细化步骤的思路，解决流式生成中的质量与延迟平衡问题。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "debugdigital677/descript-pro-win",
+   "link": "https://github.com/debugdigital677/descript-pro-win",
+   "dt": "2026-11-21T12:21:56+00:00",
+   "summary": "Descript - AI-powered video and podcast editor for text-based editing, transcription and screen recording on Windows 10/11",
+   "extra": {
+    "stars": 319,
+    "language": "",
+    "topics": [
+     "ai",
+     "ai-art",
+     "ai-tools",
+     "ai-writing",
+     "artificial-intelligence",
+     "descript"
+    ],
+    "created": "2026-11-21",
+    "pushed": "2026-11-21"
+   },
+   "skills": [],
+   "learn_score": 0.9,
+   "score": 3.153,
+   "tokens": [
+    "debugdigital677",
+    "descript",
+    "pro",
+    "win"
+   ],
+   "flag": "new",
+   "summary_zh": "Descript-Pro-Win 是一款基于 AI 的 Windows 平台音视频编辑器，支持通过文本编辑实现转录、剪辑与屏幕录制。",
+   "why_zh": "属于多模态应用开发技能点，可学习如何将 ASR 与 NLP 技术集成至非线性编辑工作流中，实现基于语义的媒体内容处理。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Morriswawan05/elevenlabs-pro-win",
+   "link": "https://github.com/Morriswawan05/elevenlabs-pro-win",
+   "dt": "2026-11-21T14:47:10+00:00",
+   "summary": "ElevenLabs - AI voice synthesis platform for text-to-speech generation, voice cloning and multilingual dubbing on Windows 10/11",
+   "extra": {
+    "stars": 316,
+    "language": "",
+    "topics": [
+     "ai",
+     "ai-art",
+     "ai-tools",
+     "ai-writing",
+     "artificial-intelligence",
+     "elevenlabs"
+    ],
+    "created": "2026-11-21",
+    "pushed": "2026-11-21"
+   },
+   "skills": [],
+   "learn_score": 0.9,
+   "score": 3.15,
+   "tokens": [
+    "elevenlabs",
+    "morriswawan05",
+    "pro",
+    "win"
+   ],
+   "flag": "new",
+   "summary_zh": "ElevenLabs-pro-win 提供在 Windows 10/11 环境下调用 ElevenLabs API 的封装，支持文本转语音、语音克隆及多语言配音功能。",
+   "why_zh": "属于 API 封装与本地环境集成，学习如何通过封装 SDK 简化外部 AI 服务在桌面端的调用流程。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "JieFedorov81/runway-ml-pro-win",
+   "link": "https://github.com/JieFedorov81/runway-ml-pro-win",
+   "dt": "2026-11-21T12:12:42+00:00",
+   "summary": "Runway - AI video generation platform for text-to-video synthesis, image animation and motion brush editing on Windows 10/11",
+   "extra": {
+    "stars": 315,
+    "language": "",
+    "topics": [
+     "ai",
+     "ai-art",
+     "ai-tools",
+     "ai-writing",
+     "artificial-intelligence",
+     "generative-ai"
+    ],
+    "created": "2026-11-21",
+    "pushed": "2026-11-21"
+   },
+   "skills": [],
+   "learn_score": 0.9,
+   "score": 3.148,
+   "tokens": [
+    "jiefedorov81",
+    "ml",
+    "pro",
+    "runway",
+    "win"
+   ],
+   "flag": "new",
+   "summary_zh": "Runway-ml-pro-win 提供在 Windows 10/11 环境下调用 Runway AI 视频生成功能的接口，支持文生视频、图像动画及运动笔刷编辑。",
+   "why_zh": "属于多模态 API 集成，学习如何处理视频生成任务的异步请求及本地环境下的参数配置。"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "Google AI Previews Tool Retrieval in the Gemini API for Large Tool Libraries",
+   "link": "https://www.marktechpost.com/2026/11/22/google-gemini-api-tool-retrieval/",
+   "dt": "2026-11-22T10:03:54+00:00",
+   "summary": "Google launched Gemini API Tool Retrieval in preview. Agents keep a large tool library on standby and load each parameter schema only when needed, inside one Interactions API request. The post Google AI Previews Tool Retrieval in the Gemini API for Large Tool Libraries appeared first on MarkTechPost .",
+   "extra": {},
+   "skills": [
+    "rag",
+    "eval_observability"
+   ],
+   "learn_score": 2.341,
+   "score": 2.341,
+   "tokens": [
+    "ai",
+    "api",
+    "gemini",
+    "google",
+    "large",
+    "libraries",
+    "previews",
+    "retrieval",
+    "tool"
+   ],
+   "flag": "new",
+   "summary_zh": "Gemini API 推出 Tool Retrieval 预览功能，允许 Agent 在大规模工具库中按需加载参数 Schema，优化单次交互的 API 请求效率。",
+   "why_zh": "属于 Agent 架构优化，学习如何通过动态检索机制解决大规模工具调用带来的上下文窗口限制问题。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "Can a Better Model Fix a Broken Agent? Look at the Traces",
+   "link": "https://www.youtube.com/shorts/LZF6VrLm_GE",
+   "dt": "2026-11-19T17:19:08+00:00",
+   "summary": "A newer model might make your agent a little better, but some problems run deeper than the model. A trace shows everything your agent did on a task, down to each tool call and what every step cost in tokens, so you can see where it went wrong. LangSmith shows you all of your agent's traces, so you can find the problem and fix it. #LangSmith #AgentTraces #AgentObservability",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": ""
+   },
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.454,
+   "score": 1.454,
+   "tokens": [
+    "agent",
+    "better",
+    "broken",
+    "fix",
+    "look",
+    "model",
+    "traces"
+   ],
+   "flag": "new",
+   "summary_zh": "LangSmith 通过 Agent Traces 记录工具调用细节与 Token 消耗，帮助开发者定位 Agent 逻辑错误并进行针对性修复。",
+   "why_zh": "属于 Agent 可观测性，学习如何通过 Trace 链路追踪分析 Agent 在复杂任务中的决策路径与故障点。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · bycloud",
+   "title": "On-Policy Distillation: LLM's Post-Training Meta of 2026",
+   "link": "https://www.youtube.com/watch?v=w-VsGPEivyU",
+   "dt": "2026-11-18T17:26:52+00:00",
+   "summary": "Check out Crusoe Intelligence Foundry that made inference & finetuning much easier, with $5 in free credits on sign-up: https://console.crusoecloud.com/request-foundry?utm_source=bycloud&utm_medium=influencer&utm_campaign=mi-su-credits In this video, we'll be exploring how on-policy distillation is taking over as a post-training paradigm for LLM in 2026, where it allows models to combine capabilities from multiple RL-trained specialists while reducing the trade-offs of traditional reinforcement …",
+   "extra": {
+    "channel": "bycloud",
+    "video_id": "w-VsGPEivyU"
+   },
+   "skills": [
+    "training_serving"
+   ],
+   "learn_score": 1.454,
+   "score": 1.454,
+   "tokens": [
+    "2026",
+    "distillation",
+    "llm",
+    "meta",
+    "policy",
+    "post",
+    "training"
+   ],
+   "flag": "new",
+   "summary_zh": "On-policy distillation 作为 LLM 后训练范式，通过在线策略蒸馏提升模型性能，成为 2026 年模型训练的主流方向。",
+   "why_zh": "属于 LLM 后训练技术，学习如何利用在线策略提升模型在特定任务上的对齐效果与推理能力。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Cole Medin",
+   "title": "The Most Dangerous AI Agent Is an Overly Helpful One (It's Not Why You Think)",
+   "link": "https://www.youtube.com/watch?v=k87Iqft91j8",
+   "dt": "2026-11-20T15:14:53+00:00",
+   "summary": "The most dangerous AI agent is an overly helpful one. It'll take risky actions just to get the job done, even something like deleting a production database! In this video I go through the five things I need for every agent before it goes to production: tool permissions, human in the loop, network limits, memory, and observability. I show a real example of each with a LangGraph agent running in MongoDB's Atlas Agent Engine. ~~~~~~~~~~~~~~~~~~~~~~~~~~ Atlas Agent Engine, MongoDB's platform to buil…",
+   "extra": {
+    "channel": "Cole Medin",
+    "video_id": "k87Iqft91j8"
+   },
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.454,
+   "score": 1.454,
+   "tokens": [
+    "agent",
+    "ai",
+    "dangerous",
+    "helpful",
+    "one",
+    "overly",
+    "think"
+   ],
+   "flag": "new",
+   "summary_zh": "针对 Agent 过度执行风险，提出生产环境必备的五大安全机制：工具权限控制、人工介入、网络限制、记忆管理与可观测性。",
+   "why_zh": "属于 Agent 安全工程，学习如何构建生产级 Agent 的防御体系，特别是通过 LangGraph 实现权限隔离与流程控制。"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "Meet Thinking Machines Inkling 2 Mini: 26B Looped MoE Runs on a 32GB Mac",
+   "link": "https://www.marktechpost.com/2026/11/21/thinking-machines-inkling-2-mini-looped-transformer/",
+   "dt": "2026-11-21T12:13:50+00:00",
+   "summary": "Thinking Machines released Inkling 2 Mini, a 26.4B-parameter looped MoE transformer with 3.4B active parameters. It runs on a 32GB Mac or one DGX Spark and scores 79.2% on SWE-bench Verified. The post Meet Thinking Machines Inkling 2 Mini: 26B Looped MoE Runs on a 32GB Mac appeared first on MarkTechPost .",
+   "extra": {},
+   "skills": [
+    "llm_fundamentals"
+   ],
+   "learn_score": 1.445,
+   "score": 1.445,
+   "tokens": [
+    "26b",
+    "32gb",
+    "inkling",
+    "looped",
+    "mac",
+    "machines",
+    "meet",
+    "mini",
+    "moe",
+    "runs",
+    "thinking"
+   ],
+   "flag": "new",
+   "summary_zh": "Thinking Machines 发布 Inkling 2 Mini，这是一款 26.4B 参数的循环 MoE 模型，激活参数仅 3.4B，可在 32GB 内存的 Mac 上运行，在 SWE-bench Verified 上达到 79.2% 的准确率。",
+   "why_zh": "属于模型压缩与推理优化领域，学习 Looped MoE 架构如何通过参数共享在有限显存下实现高性能推理，适用于端侧部署场景。"
+  },
+  {
+   "source": "blog",
+   "source_label": "InfoQ 中文 AI",
+   "title": "智能体企业新前沿：驱动高效智能",
+   "link": "https://www.infoq.cn/video/Ly5HbhY4pNMCF04abkFo?utm_source=rss&utm_medium=article",
+   "dt": "2026-11-22T17:38:28+00:00",
+   "summary": "点击查看原文>",
+   "extra": {},
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.445,
+   "score": 1.445,
+   "tokens": [
+    "智能体企业新前沿",
+    "驱动高效智能"
+   ],
+   "flag": "new",
+   "summary_zh": "智能体企业应用正从单一任务自动化向复杂业务流程驱动演进，重点在于提升智能体在企业环境下的高效协同与决策能力。",
+   "why_zh": "属于 Agent 工程化领域，学习如何构建企业级 Agent 编排框架，掌握多智能体协作与业务系统集成中的状态管理与任务调度策略。"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "bookwjitchieni1986/blender-ai-mcp-addon",
+   "link": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
+   "dt": "2026-11-19T14:43:10+00:00",
+   "summary": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
+   "extra": {
+    "stars": 2744,
+    "language": "",
+    "topics": [
+     "ai-agents",
+     "ai-assistant",
+     "blender",
+     "blender-addon",
+     "blender-ai",
+     "blender-automation"
+    ],
+    "created": "2026-11-19",
+    "pushed": "2026-11-22"
+   },
+   "skills": [
+    "tool_mcp",
+    "multi_agent"
+   ],
+   "learn_score": 2.943,
+   "score": 11.772,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-22 推荐过"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "mdiri-ai/SoduWork",
+   "link": "https://github.com/mdiri-ai/SoduWork",
+   "dt": "2026-10-29T02:43:14+00:00",
+   "summary": "The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.",
+   "extra": {
+    "stars": 6799,
+    "language": "JavaScript",
+    "topics": [
+     "agent-harness",
+     "agent-orchestration",
+     "agent-workflows",
+     "ai-agents",
+     "ai-workflows",
+     "anti-slop"
+    ],
+    "created": "2026-10-29",
+    "pushed": "2026-11-22"
+   },
+   "skills": [
+    "agent_architecture",
+    "multi_agent"
+   ],
+   "learn_score": 2.107,
+   "score": 8.428,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-22 推荐过",
+   "summary_zh": "SoduWork 是一个支持多 Agent 协作、多任务编排且可自托管的 AI 原生引擎，旨在为团队提供统一的 Agent 运行与管理基础设施。",
+   "why_zh": "属于 Agent 编排与系统架构领域。可复用做法：学习如何设计多 Agent 协作的通信协议与任务调度机制，实现复杂业务流程的自动化闭环。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ai-gateways/awesome-ai-gateways",
+   "link": "https://github.com/ai-gateways/awesome-ai-gateways",
+   "dt": "2026-10-30T10:30:50+00:00",
+   "summary": "Awesome AI gateways: open source and commercial LLM gateways, MCP gateways, agent (A2A) gateways, model routers, specs, and guides.",
+   "extra": {
+    "stars": 47,
+    "language": "",
+    "topics": [
+     "a2a",
+     "a2a-protocol",
+     "agent-gateway",
+     "ai-agents",
+     "ai-gateway",
+     "ai-governance"
+    ],
+    "created": "2026-10-30",
+    "pushed": "2026-11-19"
+   },
+   "skills": [
+    "tool_mcp",
+    "multi_agent"
+   ],
+   "learn_score": 2.634,
+   "score": 7.038,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-22 推荐过",
+   "summary_zh": "整理开源与商业 LLM 网关、MCP 网关、Agent 间通信网关及模型路由器的技术资源库。",
+   "why_zh": "属于 AI 基础设施领域，可学习如何构建高可用、可观测的 LLM 中间件，掌握 Agent 架构中网关层面的流量调度与协议适配。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ccch1mneyyy/dsh-Go",
+   "link": "https://github.com/ccch1mneyyy/dsh-Go",
+   "dt": "2026-10-25T08:09:52+00:00",
+   "summary": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+   "extra": {
+    "stars": 30111,
+    "language": "Dart",
+    "topics": [
+     "ai-agent",
+     "android",
+     "android-app",
+     "coding-agent",
+     "deepseek",
+     "deepseek-harness"
+    ],
+    "created": "2026-10-25",
+    "pushed": "2026-11-22"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-22 推荐过",
+   "summary_zh": "dsh-Go 实现 DeepSeek 模型在移动端本地运行，并支持远程控制桌面端执行任务，提供轻量级端侧推理解决方案。",
+   "why_zh": "属于端侧 AI 部署技能点，可复用其跨设备通信与本地推理引擎集成方案，解决资源受限环境下的智能体调度问题。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "qybaihe/bla",
+   "link": "https://github.com/qybaihe/bla",
+   "dt": "2026-10-25T05:25:45+00:00",
+   "summary": "🛡️ BLA (bla-agents / Blind LLM Agents) — Open-source Blue Defense MCP server & CLI protecting JS/TS, Electron ASAR, WASM, Python, Native Binaries, SQLite, GGUF/Safetensors & Android DEX against AI reverse-engineering agents (REA).",
+   "extra": {
+    "stars": 6413,
+    "language": "TypeScript",
+    "topics": [
+     "adversarial-ai",
+     "ai-security",
+     "android-security",
+     "binary-protection",
+     "claude-code",
+     "codex"
+    ],
+    "created": "2026-10-25",
+    "pushed": "2026-11-22"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-22 推荐过",
+   "summary_zh": "BLA (Blind LLM Agents) 提供针对 AI 逆向工程的防御机制，通过投毒、资源耗尽与幻觉诱导保护二进制与代码资产。",
+   "why_zh": "AI 安全防御技能点；掌握对抗性样本生成与防御策略，学习如何通过干扰 Agent 的推理过程保护系统资产。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "yanstd888/9routerx",
+   "link": "https://github.com/yanstd888/9routerx",
+   "dt": "2026-11-07T11:54:33+00:00",
+   "summary": "9RouterX (9R Next Go Generation): Single-binary Go AI router, LLM gateway & 20-40% token saver. Route Claude Code, Cursor & Codex across 155 providers, 28 OAuth & 248 free models (24 keyless) — OpenAI, Claude, Gemini, DeepSeek, Groq, Ollama & MCP.",
+   "extra": {
+    "stars": 263,
+    "language": "Go",
+    "topics": [
+     "9router",
+     "9routerx",
+     "ai-gateway",
+     "ai-proxy",
+     "ai-routing",
+     "api-gateway"
+    ],
+    "created": "2026-11-07",
+    "pushed": "2026-11-21"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 6.005,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-22 推荐过",
+   "summary_zh": "9RouterX 是一个 Go 语言编写的单二进制文件 LLM 网关，支持 155 个提供商、248 个模型，并具备 20-40% 的 Token 节省能力。",
+   "why_zh": "LLM 工程化部署技能点。可复用做法：学习如何构建高性能路由层以实现多模型负载均衡、Token 压缩及统一的 API 接口封装。"
+  }
+ ]
+}
