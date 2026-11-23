@@ -6202,7 +6202,7 @@
   },
   "https://github.com/ccch1mneyyy/dsh-Go": {
    "title": "ccch1mneyyy/dsh-Go",
-   "date": "2026-11-23",
+   "date": "2026-11-24",
    "tokens": [],
    "source": "github",
    "summary_zh": "dsh-Go 实现 DeepSeek 模型在移动端本地运行，并支持远程控制桌面端执行任务，提供轻量级端侧推理解决方案。",
@@ -6470,7 +6470,7 @@
   },
   "https://github.com/qybaihe/bla": {
    "title": "qybaihe/bla",
-   "date": "2026-11-23",
+   "date": "2026-11-24",
    "tokens": [],
    "source": "github",
    "summary_zh": "BLA (Blind LLM Agents) 提供针对 AI 逆向工程的防御机制，通过投毒、资源耗尽与幻觉诱导保护二进制与代码资产。",
@@ -6632,7 +6632,7 @@
   },
   "https://github.com/ai-gateways/awesome-ai-gateways": {
    "title": "ai-gateways/awesome-ai-gateways",
-   "date": "2026-11-23",
+   "date": "2026-11-24",
    "tokens": [],
    "source": "github",
    "summary_zh": "整理开源与商业 LLM 网关、MCP 网关、Agent 间通信网关及模型路由器的技术资源库。",
@@ -7857,7 +7857,7 @@
   },
   "https://github.com/yanstd888/9routerx": {
    "title": "yanstd888/9routerx",
-   "date": "2026-11-23",
+   "date": "2026-11-24",
    "tokens": [],
    "source": "github",
    "summary_zh": "9RouterX 是一个 Go 语言编写的单二进制文件 LLM 网关，支持 155 个提供商、248 个模型，并具备 20-40% 的 Token 节省能力。",
@@ -9894,7 +9894,7 @@
   },
   "https://github.com/mdiri-ai/SoduWork": {
    "title": "mdiri-ai/SoduWork",
-   "date": "2026-11-23",
+   "date": "2026-11-24",
    "tokens": [],
    "source": "github",
    "summary_zh": "SoduWork 是一个支持多 Agent 协作、多任务编排且可自托管的 AI 原生引擎，旨在为团队提供统一的 Agent 运行与管理基础设施。",
@@ -10504,7 +10504,7 @@
   },
   "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon": {
    "title": "bookwjitchieni1986/blender-ai-mcp-addon",
-   "date": "2026-11-23",
+   "date": "2026-11-24",
    "tokens": [],
    "source": "github",
    "summary_zh": "",
@@ -10921,7 +10921,208 @@
    "source": "blog",
    "summary_zh": "智能体企业应用正从单一任务自动化向复杂业务流程驱动演进，重点在于提升智能体在企业环境下的高效协同与决策能力。",
    "why_zh": "属于 Agent 工程化领域，学习如何构建企业级 Agent 编排框架，掌握多智能体协作与业务系统集成中的状态管理与任务调度策略。"
+  },
+  "https://arxiv.org/abs/2611.26782": {
+   "title": "ChatAtom: A Multi-Agent LLM System for Molecular Dynamics Simulation and Visualization",
+   "date": "2026-11-24",
+   "tokens": [
+    "agent",
+    "chatatom",
+    "dynamics",
+    "llm",
+    "molecular",
+    "multi",
+    "simulation",
+    "system",
+    "visualization"
+   ],
+   "source": "paper",
+   "summary_zh": "ChatAtom 是一个多智能体 LLM 系统，通过自动化工作流实现分子动力学模拟的脚本生成、执行及结果可视化分析。",
+   "why_zh": "属于多智能体协同与科学计算领域，可学习如何通过 Agent 编排复杂科研工作流，将专家经验转化为可执行的自动化任务。"
+  },
+  "https://github.com/w01fb0ss/PiBot": {
+   "title": "w01fb0ss/PiBot",
+   "date": "2026-11-24",
+   "tokens": [
+    "pibot",
+    "w01fb0ss"
+   ],
+   "source": "github",
+   "summary_zh": "PiBot 是一个支持 macOS、Windows、Linux 及 Android 的本地优先 AI 智能体框架，集成了多智能体群聊、计算机操作、浏览器控制及 MCP 协议。",
+   "why_zh": "属于端侧 Agent 开发，可学习如何构建跨平台本地 Agent 架构，以及如何集成 MCP 协议实现多工具协同。"
+  },
+  "https://z.ai/blog/glm-5.4": {
+   "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
+   "date": "2026-11-24",
+   "tokens": [
+    "coding",
+    "first",
+    "generalized",
+    "glm",
+    "loop",
+    "our",
+    "toward",
+    "transformer"
+   ],
+   "source": "hackernews",
+   "summary_zh": "GLM-5.4 引入了首个循环 Transformer 架构，旨在提升模型在代码生成任务中的泛化能力与逻辑处理效率。",
+   "why_zh": "属于 LLM 架构优化，可学习循环神经网络结构在 Transformer 中的应用，以及如何通过架构创新提升代码推理性能。"
+  },
+  "https://github.com/gulivan/worker755": {
+   "title": "Show HN: I built a game where you are an LLM's subagent",
+   "date": "2026-11-24",
+   "tokens": [
+    "built",
+    "game",
+    "hn",
+    "llm",
+    "show",
+    "subagent",
+    "where"
+   ],
+   "source": "hackernews",
+   "summary_zh": "该游戏设计将玩家置于 LLM 子智能体的角色中，通过交互体验探索人机协作与智能体任务分配的边界。",
+   "why_zh": "属于人机交互与 Agent 任务规划，可学习如何通过游戏化设计评估 Agent 的指令遵循能力与任务拆解逻辑。"
+  },
+  "https://arxiv.org/abs/2611.26806": {
+   "title": "MedicalRSI: Medical Recursive Self-Improving Agents via Clinical Model-Harness Co-Evolution",
+   "date": "2026-11-24",
+   "tokens": [
+    "agents",
+    "clinical",
+    "co",
+    "evolution",
+    "harness",
+    "improving",
+    "medical",
+    "medicalrsi",
+    "model",
+    "recursive",
+    "self"
+   ],
+   "source": "paper",
+   "summary_zh": "MedicalRSI 提出了一种医疗递归自改进智能体框架，通过临床模型与评估工具的协同进化，实现医疗诊断经验的持续积累与错误修正。",
+   "why_zh": "属于 Agent 自进化与强化学习，可学习如何构建闭环反馈系统，利用临床评估指标驱动模型性能的持续迭代。"
+  },
+  "https://github.com/EL4CTEO/fast-anything": {
+   "title": "EL4CTEO/fast-anything",
+   "date": "2026-11-24",
+   "tokens": [
+    "anything",
+    "el4cteo",
+    "fast"
+   ],
+   "source": "github",
+   "summary_zh": "fast-anything 提供了一套性能优化工作流，通过分析 Python、Node 或 Ruby 应用瓶颈，利用编码智能体将热点函数重写为 Rust 实现。",
+   "why_zh": "属于性能工程与 AI 辅助开发，可学习如何构建「分析-重写-验证」的自动化性能优化流水线，提升生产环境代码执行效率。"
+  },
+  "https://github.com/stancaedy10-glitch/manus--ai": {
+   "title": "stancaedy10-glitch/manus--ai",
+   "date": "2026-11-24",
+   "tokens": [
+    "ai",
+    "glitch",
+    "manus",
+    "stancaedy10"
+   ],
+   "source": "github",
+   "summary_zh": "Manus 是一个通用 AI Agent 系统，支持在沙箱环境中执行多种工具调用与复杂操作。",
+   "why_zh": "属于 Agent 架构设计技能点，可学习如何构建安全隔离的沙箱执行环境以提升 Agent 的任务执行可靠性。"
+  },
+  "https://github.com/alphafalcongamer-creator/ai--manus": {
+   "title": "alphafalcongamer-creator/ai--manus",
+   "date": "2026-11-24",
+   "tokens": [
+    "ai",
+    "alphafalcongamer",
+    "creator",
+    "manus"
+   ],
+   "source": "github",
+   "summary_zh": "Manus 是一个通用 AI Agent 系统，支持在沙箱环境中执行多种工具调用与复杂操作。",
+   "why_zh": "属于 Agent 架构设计技能点，可学习如何构建安全隔离的沙箱执行环境以提升 Agent 的任务执行可靠性。"
+  },
+  "https://www.youtube.com/watch?v=4nnFw0TPDKM": {
+   "title": "Harness Adapters - Fit Your Model to Your Harness",
+   "date": "2026-11-24",
+   "tokens": [
+    "adapters",
+    "fit",
+    "harness",
+    "model"
+   ],
+   "source": "youtube",
+   "summary_zh": "HuggingFace 通过训练 LoRA 适配器（Harness Adapters）优化 Qwen3.8-27B 模型，使其更适配开源代码评测框架。",
+   "why_zh": "属于模型微调与评测技能点，可学习如何通过特定适配器增强模型在特定任务（如代码生成）中的表现。"
+  },
+  "https://www.youtube.com/watch?v=6RYD6yZVcUY": {
+   "title": "The Beginning of the End for AI Tokenization?",
+   "date": "2026-11-24",
+   "tokens": [
+    "ai",
+    "beginning",
+    "end",
+    "tokenization"
+   ],
+   "source": "youtube",
+   "summary_zh": "探讨 AI Tokenization 的局限性及其在模型推理效率与性能评估中的演进方向。",
+   "why_zh": "属于大模型底层原理技能点，可学习 Tokenization 对模型推理性能的影响，以及在工程实践中如何优化序列处理。"
+  },
+  "https://openai.com/index/perplexity-and-intelligence": {
+   "title": "Perplexity and Intelligence",
+   "date": "2026-11-24",
+   "tokens": [
+    "intelligence",
+    "perplexity"
+   ],
+   "source": "blog",
+   "summary_zh": "OpenAI 探讨了困惑度（Perplexity）在衡量 AI 模型进展中的作用，以及如何建立评估新兴能力的共享标准。",
+   "why_zh": "属于模型评估指标技能点，可学习如何利用统计学指标量化模型能力，并建立科学的评估基准体系。"
+  },
+  "https://huggingface.co/blog/agentic-evals": {
+   "title": "How to build and maintain an agentic evaluation",
+   "date": "2026-11-24",
+   "tokens": [
+    "agentic",
+    "build",
+    "evaluation",
+    "maintain"
+   ],
+   "source": "blog",
+   "summary_zh": "探讨构建与维护 Agent 评估系统的核心方法论，包括评估流程设计与持续迭代策略。",
+   "why_zh": "属于 Agent 评测工程技能点，可学习如何搭建自动化评估流水线，解决 Agent 在复杂任务中评估难的问题。"
+  },
+  "https://research.google/blog/supercharging-transformer-residual-connections/": {
+   "title": "Supercharging transformer residual connections",
+   "date": "2026-11-24",
+   "tokens": [
+    "connections",
+    "residual",
+    "supercharging",
+    "transformer"
+   ],
+   "source": "blog",
+   "summary_zh": "Google Research 提出优化 Transformer 残差连接的新算法，旨在提升深层模型训练的稳定性与收敛效率。",
+   "why_zh": "属于模型架构优化领域，可学习如何通过调整残差路径缓解梯度消失或爆炸问题，适用于提升大规模 Transformer 训练的鲁棒性。"
+  },
+  "https://www.youtube.com/watch?v=a90pZ1DSyls": {
+   "title": "This Skill Turns Claude Code Into an Expert Video Editor (I'm Giving It Away)",
+   "date": "2026-11-24",
+   "tokens": [
+    "away",
+    "claude",
+    "code",
+    "editor",
+    "expert",
+    "giving",
+    "skill",
+    "turns",
+    "video"
+   ],
+   "source": "youtube",
+   "summary_zh": "开源一套基于 Claude Code 的视频剪辑技能，通过 Agent 自动化处理原始素材并执行精细化剪辑任务。",
+   "why_zh": "属于 Agent 工作流编排领域，可学习如何将非结构化多媒体处理任务拆解为 Agent 可执行的指令集，实现复杂工具链的自动化调用。"
   }
  },
- "updated": "2026-11-22T17:19:07.148096+00:00"
+ "updated": "2026-11-23T19:45:06.466790+00:00"
 }

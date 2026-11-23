@@ -1,0 +1,617 @@
+{
+ "date": "2026-11-24",
+ "generated": "2026-11-24 03:45",
+ "source_count": {
+  "github": 70,
+  "youtube": 42,
+  "blog": 81,
+  "paper": 24,
+  "hackernews": 10
+ },
+ "failures": {},
+ "failure_errors": {},
+ "summary_missing": [],
+ "summary_providers": {
+  "gemini": 3
+ },
+ "items": [
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "ChatAtom: A Multi-Agent LLM System for Molecular Dynamics Simulation and Visualization",
+   "link": "https://arxiv.org/abs/2611.26782",
+   "dt": "2026-11-23T00:00:00-05:00",
+   "summary": "arXiv:2611.26782v1 Announce Type: new Abstract: Molecular dynamics (MD) simulation resolves atomic-scale motion and predicts the structural, mechanical, and dynamic properties of materials, making it cen- tral to materials design and discovery. Yet an MD study requires an expert-driven workflow: designing the simulation, writing reliable input scripts, executing them, and analyzing the results with separate tools. Here we present ChatAtom, a multi-agent large language model system that translate",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "multi_agent",
+    "system_design"
+   ],
+   "learn_score": 4.475,
+   "score": 8.95,
+   "tokens": [
+    "agent",
+    "chatatom",
+    "dynamics",
+    "llm",
+    "molecular",
+    "multi",
+    "simulation",
+    "system",
+    "visualization"
+   ],
+   "flag": "new",
+   "summary_zh": "ChatAtom 是一个多智能体 LLM 系统，通过自动化工作流实现分子动力学模拟的脚本生成、执行及结果可视化分析。",
+   "why_zh": "属于多智能体协同与科学计算领域，可学习如何通过 Agent 编排复杂科研工作流，将专家经验转化为可执行的自动化任务。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "w01fb0ss/PiBot",
+   "link": "https://github.com/w01fb0ss/PiBot",
+   "dt": "2026-11-21T06:54:24+00:00",
+   "summary": "Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines and approvals. macOS, Windows, Linux + Android. Built on pi.",
+   "extra": {
+    "stars": 494,
+    "language": "TypeScript",
+    "topics": [
+     "agent",
+     "ai-agent",
+     "ai-agents",
+     "ai-assistant",
+     "android",
+     "automation"
+    ],
+    "created": "2026-11-21",
+    "pushed": "2026-11-23"
+   },
+   "skills": [
+    "tool_mcp",
+    "multi_agent"
+   ],
+   "learn_score": 2.355,
+   "score": 8.699,
+   "tokens": [
+    "pibot",
+    "w01fb0ss"
+   ],
+   "flag": "new",
+   "summary_zh": "PiBot 是一个支持 macOS、Windows、Linux 及 Android 的本地优先 AI 智能体框架，集成了多智能体群聊、计算机操作、浏览器控制及 MCP 协议。",
+   "why_zh": "属于端侧 Agent 开发，可学习如何构建跨平台本地 Agent 架构，以及如何集成 MCP 协议实现多工具协同。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
+   "link": "https://z.ai/blog/glm-5.4",
+   "dt": "2026-11-23T10:06:43+00:00",
+   "summary": "",
+   "extra": {
+    "points": 893,
+    "comments": 308,
+    "hn_link": "https://news.ycombinator.com/item?id=50609685"
+   },
+   "skills": [
+    "llm_fundamentals"
+   ],
+   "learn_score": 1.7,
+   "score": 6.716,
+   "tokens": [
+    "coding",
+    "first",
+    "generalized",
+    "glm",
+    "loop",
+    "our",
+    "toward",
+    "transformer"
+   ],
+   "flag": "new",
+   "summary_zh": "GLM-5.4 引入了首个循环 Transformer 架构，旨在提升模型在代码生成任务中的泛化能力与逻辑处理效率。",
+   "why_zh": "属于 LLM 架构优化，可学习循环神经网络结构在 Transformer 中的应用，以及如何通过架构创新提升代码推理性能。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Show HN: I built a game where you are an LLM's subagent",
+   "link": "https://github.com/gulivan/worker755",
+   "dt": "2026-11-22T13:56:58+00:00",
+   "summary": "",
+   "extra": {
+    "points": 356,
+    "comments": 86,
+    "hn_link": "https://news.ycombinator.com/item?id=50599762"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.7,
+   "score": 6.037,
+   "tokens": [
+    "built",
+    "game",
+    "hn",
+    "llm",
+    "show",
+    "subagent",
+    "where"
+   ],
+   "flag": "new",
+   "summary_zh": "该游戏设计将玩家置于 LLM 子智能体的角色中，通过交互体验探索人机协作与智能体任务分配的边界。",
+   "why_zh": "属于人机交互与 Agent 任务规划，可学习如何通过游戏化设计评估 Agent 的指令遵循能力与任务拆解逻辑。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.CL",
+   "title": "MedicalRSI: Medical Recursive Self-Improving Agents via Clinical Model-Harness Co-Evolution",
+   "link": "https://arxiv.org/abs/2611.26806",
+   "dt": "2026-11-23T00:00:00-05:00",
+   "summary": "arXiv:2611.26806v1 Announce Type: new Abstract: Medical agents built on large language models (LLMs) have advanced rapidly, yet most stay fixed once deployed and do not keep using their experience to improve later attempts. As a result, the same kind of error can recur across patients. To address this, existing self-improvement methods update an agent's weights or its medical harness from its own experience, but their improving strategy stays fixed and never learns which changes actually help, w",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 2.983,
+   "score": 5.966,
+   "tokens": [
+    "agents",
+    "clinical",
+    "co",
+    "evolution",
+    "harness",
+    "improving",
+    "medical",
+    "medicalrsi",
+    "model",
+    "recursive",
+    "self"
+   ],
+   "flag": "new",
+   "summary_zh": "MedicalRSI 提出了一种医疗递归自改进智能体框架，通过临床模型与评估工具的协同进化，实现医疗诊断经验的持续积累与错误修正。",
+   "why_zh": "属于 Agent 自进化与强化学习，可学习如何构建闭环反馈系统，利用临床评估指标驱动模型性能的持续迭代。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "EL4CTEO/fast-anything",
+   "link": "https://github.com/EL4CTEO/fast-anything",
+   "dt": "2026-11-21T14:40:27+00:00",
+   "summary": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
+   "extra": {
+    "stars": 3036,
+    "language": "Rust",
+    "topics": [
+     "agent-skills",
+     "ai-agents",
+     "claude-code",
+     "claude-code-plugin",
+     "codex",
+     "developer-tools"
+    ],
+    "created": "2026-11-21",
+    "pushed": "2026-11-23"
+   },
+   "skills": [],
+   "learn_score": 1.154,
+   "score": 4.616,
+   "tokens": [
+    "anything",
+    "el4cteo",
+    "fast"
+   ],
+   "flag": "new",
+   "summary_zh": "fast-anything 提供了一套性能优化工作流，通过分析 Python、Node 或 Ruby 应用瓶颈，利用编码智能体将热点函数重写为 Rust 实现。",
+   "why_zh": "属于性能工程与 AI 辅助开发，可学习如何构建「分析-重写-验证」的自动化性能优化流水线，提升生产环境代码执行效率。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "stancaedy10-glitch/manus--ai",
+   "link": "https://github.com/stancaedy10-glitch/manus--ai",
+   "dt": "2026-11-13T14:47:22+00:00",
+   "summary": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+   "extra": {
+    "stars": 193,
+    "language": "",
+    "topics": [
+     "ai",
+     "ai-agents",
+     "ai-sdk",
+     "anthropic",
+     "chatbot",
+     "function-calling"
+    ],
+    "created": "2026-11-13",
+    "pushed": "2026-11-21"
+   },
+   "skills": [],
+   "learn_score": 1.033,
+   "score": 3.394,
+   "tokens": [
+    "ai",
+    "glitch",
+    "manus",
+    "stancaedy10"
+   ],
+   "flag": "new",
+   "summary_zh": "Manus 是一个通用 AI Agent 系统，支持在沙箱环境中执行多种工具调用与复杂操作。",
+   "why_zh": "属于 Agent 架构设计技能点，可学习如何构建安全隔离的沙箱执行环境以提升 Agent 的任务执行可靠性。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "alphafalcongamer-creator/ai--manus",
+   "link": "https://github.com/alphafalcongamer-creator/ai--manus",
+   "dt": "2026-11-13T14:46:57+00:00",
+   "summary": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+   "extra": {
+    "stars": 193,
+    "language": "",
+    "topics": [
+     "ai",
+     "ai-agents",
+     "ai-sdk",
+     "anthropic",
+     "chatbot",
+     "function-calling"
+    ],
+    "created": "2026-11-13",
+    "pushed": "2026-11-17"
+   },
+   "skills": [],
+   "learn_score": 1.033,
+   "score": 3.394,
+   "tokens": [
+    "ai",
+    "alphafalcongamer",
+    "creator",
+    "manus"
+   ],
+   "flag": "new",
+   "summary_zh": "Manus 是一个通用 AI Agent 系统，支持在沙箱环境中执行多种工具调用与复杂操作。",
+   "why_zh": "属于 Agent 架构设计技能点，可学习如何构建安全隔离的沙箱执行环境以提升 Agent 的任务执行可靠性。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Sam Witteveen",
+   "title": "Harness Adapters - Fit Your Model to Your Harness",
+   "link": "https://www.youtube.com/watch?v=4nnFw0TPDKM",
+   "dt": "2026-11-23T16:30:30+00:00",
+   "summary": "In this video I look at a recent research project from HuggingFace to train a set of LoRA adapters for the Qwen3.8-27B to make the model better for using with open coding harnesses. Blog post: https://huggingface.co/blog/harness-adapters-at-scale Harness Hub: https://huggingface.co/harness-hub Super-adapter : https://huggingface.co/harness-hub/Qwen3.8-27B-super-adapter Pi: https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted Hermes Agent: https://huggingface.co/harness-hub/Qwen3.8-27B-herme…",
+   "extra": {
+    "channel": "Sam Witteveen",
+    "video_id": "4nnFw0TPDKM"
+   },
+   "skills": [
+    "agent_architecture",
+    "training_serving"
+   ],
+   "learn_score": 2.479,
+   "score": 2.479,
+   "tokens": [
+    "adapters",
+    "fit",
+    "harness",
+    "model"
+   ],
+   "flag": "new",
+   "summary_zh": "HuggingFace 通过训练 LoRA 适配器（Harness Adapters）优化 Qwen3.8-27B 模型，使其更适配开源代码评测框架。",
+   "why_zh": "属于模型微调与评测技能点，可学习如何通过特定适配器增强模型在特定任务（如代码生成）中的表现。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · bycloud",
+   "title": "The Beginning of the End for AI Tokenization?",
+   "link": "https://www.youtube.com/watch?v=6RYD6yZVcUY",
+   "dt": "2026-11-22T19:03:18+00:00",
+   "summary": "This video is sponsored by Verda. Verda Inference: frontier open-weight models through one OpenAI compatible API, with Kimi K3.1 Pro and DeepSeek V4.1 Flash live. Try it now: https://verda.com/blog/verda-inference?utm_source=bycloud&utm_medium=sponsorship&utm_campaign=bycloud_v2_2026&utm_content=hnet Use code BYCLOUD-75 to save 75% off your next top-up. How to redeem: https://docs.verda.com/resources/obtaining-free-credits/how-to-redeem-credits/?#redeem-discount-coupons Cartesia's H-Net challeng…",
+   "extra": {
+    "channel": "bycloud",
+    "video_id": "6RYD6yZVcUY"
+   },
+   "skills": [
+    "training_serving",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.295,
+   "score": 2.295,
+   "tokens": [
+    "ai",
+    "beginning",
+    "end",
+    "tokenization"
+   ],
+   "flag": "new",
+   "summary_zh": "探讨 AI Tokenization 的局限性及其在模型推理效率与性能评估中的演进方向。",
+   "why_zh": "属于大模型底层原理技能点，可学习 Tokenization 对模型推理性能的影响，以及在工程实践中如何优化序列处理。"
+  },
+  {
+   "source": "blog",
+   "source_label": "OpenAI 官方博客",
+   "title": "Perplexity and Intelligence",
+   "link": "https://openai.com/index/perplexity-and-intelligence",
+   "dt": "2026-11-22T00:00:00+00:00",
+   "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+   "extra": {},
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.951,
+   "score": 1.951,
+   "tokens": [
+    "intelligence",
+    "perplexity"
+   ],
+   "flag": "new",
+   "summary_zh": "OpenAI 探讨了困惑度（Perplexity）在衡量 AI 模型进展中的作用，以及如何建立评估新兴能力的共享标准。",
+   "why_zh": "属于模型评估指标技能点，可学习如何利用统计学指标量化模型能力，并建立科学的评估基准体系。"
+  },
+  {
+   "source": "blog",
+   "source_label": "HuggingFace 博客",
+   "title": "How to build and maintain an agentic evaluation",
+   "link": "https://huggingface.co/blog/agentic-evals",
+   "dt": "2026-11-23T00:00:00+00:00",
+   "summary": "",
+   "extra": {},
+   "skills": [
+    "eval_observability",
+    "system_design"
+   ],
+   "learn_score": 1.756,
+   "score": 1.756,
+   "tokens": [
+    "agentic",
+    "build",
+    "evaluation",
+    "maintain"
+   ],
+   "flag": "new",
+   "summary_zh": "探讨构建与维护 Agent 评估系统的核心方法论，包括评估流程设计与持续迭代策略。",
+   "why_zh": "属于 Agent 评测工程技能点，可学习如何搭建自动化评估流水线，解决 Agent 在复杂任务中评估难的问题。"
+  },
+  {
+   "source": "blog",
+   "source_label": "Google Research 博客",
+   "title": "Supercharging transformer residual connections",
+   "link": "https://research.google/blog/supercharging-transformer-residual-connections/",
+   "dt": "2026-11-23T17:21:12+00:00",
+   "summary": "Algorithms & Theory",
+   "extra": {},
+   "skills": [
+    "llm_fundamentals"
+   ],
+   "learn_score": 1.445,
+   "score": 1.445,
+   "tokens": [
+    "connections",
+    "residual",
+    "supercharging",
+    "transformer"
+   ],
+   "flag": "new",
+   "summary_zh": "Google Research 提出优化 Transformer 残差连接的新算法，旨在提升深层模型训练的稳定性与收敛效率。",
+   "why_zh": "属于模型架构优化领域，可学习如何通过调整残差路径缓解梯度消失或爆炸问题，适用于提升大规模 Transformer 训练的鲁棒性。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Cole Medin",
+   "title": "This Skill Turns Claude Code Into an Expert Video Editor (I'm Giving It Away)",
+   "link": "https://www.youtube.com/watch?v=a90pZ1DSyls",
+   "dt": "2026-11-19T01:00:01+00:00",
+   "summary": "My AI second brain edited this entire video with a single skill, and I'm giving it to you free and open source! Here's how it turns a folder of raw footage into a polished video with Claude Code or any coding agent, how to customize it for your own content, and real examples of the small mistakes it catches and fixes. The link to the skill is below! ~~~~~~~~~~~~~~~~~~~~~~~~~~ OpenRouter, one API key for every model in my editing pipeline: https://openrouter.plug.dev/colemedin-youtube-drop-in Thi…",
+   "extra": {
+    "channel": "Cole Medin",
+    "video_id": "a90pZ1DSyls"
+   },
+   "skills": [],
+   "learn_score": 1.367,
+   "score": 1.367,
+   "tokens": [
+    "away",
+    "claude",
+    "code",
+    "editor",
+    "expert",
+    "giving",
+    "skill",
+    "turns",
+    "video"
+   ],
+   "flag": "new",
+   "summary_zh": "开源一套基于 Claude Code 的视频剪辑技能，通过 Agent 自动化处理原始素材并执行精细化剪辑任务。",
+   "why_zh": "属于 Agent 工作流编排领域，可学习如何将非结构化多媒体处理任务拆解为 Agent 可执行的指令集，实现复杂工具链的自动化调用。"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "bookwjitchieni1986/blender-ai-mcp-addon",
+   "link": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
+   "dt": "2026-11-19T14:43:10+00:00",
+   "summary": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
+   "extra": {
+    "stars": 2765,
+    "language": "",
+    "topics": [
+     "ai-agents",
+     "ai-assistant",
+     "blender",
+     "blender-addon",
+     "blender-ai",
+     "blender-automation"
+    ],
+    "created": "2026-11-19",
+    "pushed": "2026-11-22"
+   },
+   "skills": [
+    "tool_mcp",
+    "multi_agent"
+   ],
+   "learn_score": 2.788,
+   "score": 11.152,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-23 推荐过"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "mdiri-ai/SoduWork",
+   "link": "https://github.com/mdiri-ai/SoduWork",
+   "dt": "2026-10-29T02:43:14+00:00",
+   "summary": "The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.",
+   "extra": {
+    "stars": 7047,
+    "language": "JavaScript",
+    "topics": [
+     "agent-harness",
+     "agent-orchestration",
+     "agent-workflows",
+     "ai-agents",
+     "ai-workflows",
+     "anti-slop"
+    ],
+    "created": "2026-10-29",
+    "pushed": "2026-11-23"
+   },
+   "skills": [
+    "agent_architecture",
+    "multi_agent"
+   ],
+   "learn_score": 2.107,
+   "score": 8.428,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-23 推荐过",
+   "summary_zh": "SoduWork 是一个支持多 Agent 协作、多任务编排且可自托管的 AI 原生引擎，旨在为团队提供统一的 Agent 运行与管理基础设施。",
+   "why_zh": "属于 Agent 编排与系统架构领域。可复用做法：学习如何设计多 Agent 协作的通信协议与任务调度机制，实现复杂业务流程的自动化闭环。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ai-gateways/awesome-ai-gateways",
+   "link": "https://github.com/ai-gateways/awesome-ai-gateways",
+   "dt": "2026-10-30T10:30:50+00:00",
+   "summary": "Awesome AI gateways: open source and commercial LLM gateways, MCP gateways, agent (A2A) gateways, model routers, specs, and guides.",
+   "extra": {
+    "stars": 47,
+    "language": "",
+    "topics": [
+     "a2a",
+     "a2a-protocol",
+     "agent-gateway",
+     "ai-agents",
+     "ai-gateway",
+     "ai-governance"
+    ],
+    "created": "2026-10-30",
+    "pushed": "2026-11-19"
+   },
+   "skills": [
+    "tool_mcp",
+    "multi_agent"
+   ],
+   "learn_score": 2.634,
+   "score": 7.038,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-23 推荐过",
+   "summary_zh": "整理开源与商业 LLM 网关、MCP 网关、Agent 间通信网关及模型路由器的技术资源库。",
+   "why_zh": "属于 AI 基础设施领域，可学习如何构建高可用、可观测的 LLM 中间件，掌握 Agent 架构中网关层面的流量调度与协议适配。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ccch1mneyyy/dsh-Go",
+   "link": "https://github.com/ccch1mneyyy/dsh-Go",
+   "dt": "2026-10-25T08:09:52+00:00",
+   "summary": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+   "extra": {
+    "stars": 30730,
+    "language": "Dart",
+    "topics": [
+     "ai-agent",
+     "android",
+     "android-app",
+     "coding-agent",
+     "deepseek",
+     "deepseek-harness"
+    ],
+    "created": "2026-10-25",
+    "pushed": "2026-11-23"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-23 推荐过",
+   "summary_zh": "dsh-Go 实现 DeepSeek 模型在移动端本地运行，并支持远程控制桌面端执行任务，提供轻量级端侧推理解决方案。",
+   "why_zh": "属于端侧 AI 部署技能点，可复用其跨设备通信与本地推理引擎集成方案，解决资源受限环境下的智能体调度问题。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "qybaihe/bla",
+   "link": "https://github.com/qybaihe/bla",
+   "dt": "2026-10-25T05:25:45+00:00",
+   "summary": "🛡️ BLA (bla-agents / Blind LLM Agents) — Open-source Blue Defense MCP server & CLI protecting JS/TS, Electron ASAR, WASM, Python, Native Binaries, SQLite, GGUF/Safetensors & Android DEX against AI reverse-engineering agents (REA).",
+   "extra": {
+    "stars": 6514,
+    "language": "TypeScript",
+    "topics": [
+     "adversarial-ai",
+     "ai-security",
+     "android-security",
+     "binary-protection",
+     "claude-code",
+     "codex"
+    ],
+    "created": "2026-10-25",
+    "pushed": "2026-11-23"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-23 推荐过",
+   "summary_zh": "BLA (Blind LLM Agents) 提供针对 AI 逆向工程的防御机制，通过投毒、资源耗尽与幻觉诱导保护二进制与代码资产。",
+   "why_zh": "AI 安全防御技能点；掌握对抗性样本生成与防御策略，学习如何通过干扰 Agent 的推理过程保护系统资产。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "yanstd888/9routerx",
+   "link": "https://github.com/yanstd888/9routerx",
+   "dt": "2026-11-07T11:54:33+00:00",
+   "summary": "9RouterX (9R Next Go Generation): Single-binary Go AI router, LLM gateway & 20-40% token saver. Route Claude Code, Cursor & Codex across 155 providers, 28 OAuth & 248 free models (24 keyless) — OpenAI, Claude, Gemini, DeepSeek, Groq, Ollama & MCP.",
+   "extra": {
+    "stars": 266,
+    "language": "Go",
+    "topics": [
+     "9router",
+     "9routerx",
+     "ai-gateway",
+     "ai-proxy",
+     "ai-routing",
+     "api-gateway"
+    ],
+    "created": "2026-11-07",
+    "pushed": "2026-11-23"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 6.014,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-23 推荐过",
+   "summary_zh": "9RouterX 是一个 Go 语言编写的单二进制文件 LLM 网关，支持 155 个提供商、248 个模型，并具备 20-40% 的 Token 节省能力。",
+   "why_zh": "LLM 工程化部署技能点。可复用做法：学习如何构建高性能路由层以实现多模型负载均衡、Token 压缩及统一的 API 接口封装。"
+  }
+ ]
+}
