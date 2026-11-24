@@ -1,0 +1,610 @@
+{
+ "date": "2026-11-25",
+ "generated": "2026-11-25 03:16",
+ "source_count": {
+  "github": 71,
+  "youtube": 41,
+  "blog": 80,
+  "paper": 18,
+  "hackernews": 10
+ },
+ "failures": {},
+ "failure_errors": {},
+ "summary_missing": [],
+ "summary_providers": {
+  "gemini": 3
+ },
+ "items": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "XinaTian/MROffice",
+   "link": "https://github.com/XinaTian/MROffice",
+   "dt": "2026-11-10T17:54:07+00:00",
+   "summary": "MR Office — the open-source editors of the AI office suite closest to Microsoft Office: documents, spreadsheets, presentations, PDF and code in the browser. Copilot in every editor edits real Word, Excel and PowerPoint files with you; an MCP server lets Claude, ChatGPT, Cursor and Codex create and edit them; embed it in your app with one line.",
+   "extra": {
+    "stars": 3731,
+    "language": "TypeScript",
+    "topics": [
+     "ai",
+     "ai-agent",
+     "claude-code",
+     "codex",
+     "copilot",
+     "cursor"
+    ],
+    "created": "2026-11-10",
+    "pushed": "2026-11-24"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "tokens": [
+    "mroffice",
+    "xinatian"
+   ],
+   "flag": "new",
+   "summary_zh": "MROffice 是一个开源 AI 办公套件，支持在浏览器中编辑 Word、Excel、PPT 及代码，并提供 MCP 服务供 Claude、ChatGPT 等 AI 模型直接操作文档。",
+   "why_zh": "掌握 MCP 协议在复杂应用场景的落地，学习如何通过 MCP 将 AI 能力集成到传统文档编辑工作流中，提升 Agent 对结构化数据的操控能力。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "okf-memory/okf-agent-memory",
+   "link": "https://github.com/okf-memory/okf-agent-memory",
+   "dt": "2026-09-05T21:26:04+00:00",
+   "summary": "Git-native persistent memory for AI coding agents. Implements Google OKF v0.2 with sub-300µs in-memory BM25 search, embedded MCP server, and progressive disclosure. Slashes token bloat by 80% with zero external databases or dependencies. Built in pure Go.",
+   "extra": {
+    "stars": 873,
+    "language": "Go",
+    "topics": [
+     "agent-memory",
+     "ai-agents",
+     "bm25",
+     "coding-agents",
+     "developer-tools",
+     "git-native"
+    ],
+    "created": "2026-09-05",
+    "pushed": "2026-11-21"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.239,
+   "score": 4.883,
+   "tokens": [
+    "agent",
+    "memory",
+    "okf"
+   ],
+   "flag": "new",
+   "summary_zh": "okf-agent-memory 是一个基于 Git 的 AI 编码代理持久化内存实现，采用 Google OKF v0.2 标准，通过内存内 BM25 搜索和 MCP 服务减少 80% 的 Token 冗余。",
+   "why_zh": "深入理解 Agent 长期记忆管理，学习如何利用 Git 原生特性实现轻量级、低延迟的上下文检索，优化长上下文场景下的 Token 消耗。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+   "link": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+   "dt": "2026-11-22T21:01:16+00:00",
+   "summary": "",
+   "extra": {
+    "points": 769,
+    "comments": 312,
+    "hn_link": "https://news.ycombinator.com/item?id=50603845"
+   },
+   "skills": [],
+   "learn_score": 1.25,
+   "score": 4.857,
+   "tokens": [
+    "ai",
+    "beginner",
+    "guide",
+    "inkling",
+    "local",
+    "qwen",
+    "unsloth"
+   ],
+   "flag": "new",
+   "summary_zh": "使用 Inkling、Qwen 和 Unsloth 构建本地 AI 环境的入门指南，涵盖了从模型部署到微调的完整流程。",
+   "why_zh": "掌握本地化大模型部署与微调的工程实践，学习如何利用 Unsloth 优化训练效率，以及如何通过 Inkling 简化本地 AI 应用的开发与管理。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Beam Model Technical Report",
+   "link": "https://huggingface.co/papers/2611.26358",
+   "dt": "2026-11-18T19:00:00+00:00",
+   "summary": "Beam is a sparse Mixture-of-Experts (MoE) model with 501.3B total parameters and 23.4B active parameters, specifically built and optimized for coding, reasoning, and agentic workloads. Beam delivers frontier level reasoning, while requiring 3-4x less inference compute than many models of its class. Pretrained on 23.8T diverse, curated, high-quality tokens, Beam features a 1M-token context window achieved through a novel two-stage midtraining phase, built on verifiable, correctness-anchored data.",
+   "extra": {
+    "upvotes": 10,
+    "arxiv": "https://arxiv.org/abs/2611.26358"
+   },
+   "skills": [
+    "training_serving",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.355,
+   "score": 4.71,
+   "tokens": [
+    "beam",
+    "model",
+    "report",
+    "technical"
+   ],
+   "flag": "new",
+   "summary_zh": "Beam 是一个 501.3B 参数的稀疏 MoE 模型，具备 23.4B 激活参数，专为编程、推理和 Agent 任务优化，支持 1M Token 上下文窗口。",
+   "why_zh": "了解大规模 MoE 架构在推理任务中的性能优势，学习如何通过稀疏化设计在保持前沿推理能力的同时，显著降低推理计算成本。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.CL",
+   "title": "Reinforcement Learning Unlearns Corrupted SFT Reasoning",
+   "link": "https://arxiv.org/abs/2611.26756",
+   "dt": "2026-11-23T00:00:00-05:00",
+   "summary": "arXiv:2611.26756v1 Announce Type: new Abstract: We show that reinforcement learning (RL) in reasoning tasks can succeed even when the supervised fine-tuning (SFT) data is severely corrupted. In a mathematical reasoning dataset (GSM8K), we systematically corrupt training trajectories across 361 configurations by injecting realistic error types, varying error locations, trace-answer consistency, and corruption ratios up to 100%. While aggregated SFT-only performance steadily deteriorates under cor",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "training_serving"
+   ],
+   "learn_score": 2.21,
+   "score": 4.42,
+   "tokens": [
+    "corrupted",
+    "learning",
+    "reasoning",
+    "reinforcement",
+    "sft",
+    "unlearns"
+   ],
+   "flag": "new",
+   "summary_zh": "研究表明，即使 SFT 数据存在严重损坏，强化学习（RL）仍能在推理任务中通过自我纠错实现有效学习，在 GSM8K 数据集上验证了其鲁棒性。",
+   "why_zh": "理解 RL 在推理任务中的纠偏机制，学习如何利用强化学习缓解 SFT 数据质量对模型性能的负面影响，提升模型在复杂推理任务中的稳定性。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "LLM agents work for their parent companies, not for you",
+   "link": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
+   "dt": "2026-11-24T12:40:15+00:00",
+   "summary": "",
+   "extra": {
+    "points": 735,
+    "comments": 311,
+    "hn_link": "https://news.ycombinator.com/item?id=50627340"
+   },
+   "skills": [],
+   "learn_score": 1.0,
+   "score": 3.866,
+   "tokens": [
+    "agents",
+    "companies",
+    "llm",
+    "parent",
+    "their",
+    "work"
+   ],
+   "flag": "new",
+   "summary_zh": "探讨 AI Agent 的利益对齐问题，指出当前 Agent 往往优先服务于其背后的开发公司而非最终用户，引发对 Agent 行为透明度和控制权的讨论。",
+   "why_zh": "思考 Agent 系统设计中的伦理与安全边界，学习如何在 Agent 架构中引入可审计的决策机制，规避模型行为偏向性带来的潜在风险。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "SandyPandyMandy/ai--manus",
+   "link": "https://github.com/SandyPandyMandy/ai--manus",
+   "dt": "2026-11-13T14:44:52+00:00",
+   "summary": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+   "extra": {
+    "stars": 192,
+    "language": "",
+    "topics": [
+     "ai",
+     "ai-agents",
+     "ai-sdk",
+     "anthropic",
+     "chatbot",
+     "function-calling"
+    ],
+    "created": "2026-11-13",
+    "pushed": "2026-11-21"
+   },
+   "skills": [],
+   "learn_score": 1.033,
+   "score": 3.392,
+   "tokens": [
+    "ai",
+    "manus",
+    "sandypandymandy"
+   ],
+   "flag": "new",
+   "summary_zh": "AI Manus 是一个通用 AI Agent 系统，支持在沙箱环境中执行多种工具调用与操作。",
+   "why_zh": "Agent 架构设计技能点。学习如何通过沙箱隔离机制保障 Agent 执行工具时的系统安全性与环境可控性。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "WLfear/manus--ai",
+   "link": "https://github.com/WLfear/manus--ai",
+   "dt": "2026-11-13T14:45:53+00:00",
+   "summary": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+   "extra": {
+    "stars": 192,
+    "language": "",
+    "topics": [
+     "ai",
+     "ai-agents",
+     "ai-sdk",
+     "anthropic",
+     "chatbot",
+     "function-calling"
+    ],
+    "created": "2026-11-13",
+    "pushed": "2026-11-21"
+   },
+   "skills": [],
+   "learn_score": 1.033,
+   "score": 3.392,
+   "tokens": [
+    "ai",
+    "manus",
+    "wlfear"
+   ],
+   "flag": "new",
+   "summary_zh": "AI Manus 是一个通用 AI Agent 系统，支持在沙箱环境中执行多种工具调用与操作。",
+   "why_zh": "Agent 架构设计技能点。学习如何通过沙箱隔离机制保障 Agent 执行工具时的系统安全性与环境可控性。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "The Complete LangChain Ecosystem Explained",
+   "link": "https://www.youtube.com/shorts/0wr3zk5gPRM",
+   "dt": "2026-11-23T20:52:13+00:00",
+   "summary": "LangChain shipped in October 2022 as an open-source project for chaining prompts and PDFs, and it now covers the whole agent development lifecycle. LangGraph is the orchestration layer, built on nodes and edges, while the LangChain framework gives you a tool-calling loop you customize with middleware. Deep Agents is a harness with summarization and file systems built in. LangSmith covers the harder part, getting an agent reliably to production. Evals test it before launch, and traces show what i…",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": ""
+   },
+   "skills": [
+    "prompt_context",
+    "agent_architecture",
+    "multi_agent",
+    "eval_observability"
+   ],
+   "learn_score": 3.305,
+   "score": 3.305,
+   "tokens": [
+    "complete",
+    "ecosystem",
+    "explained",
+    "langchain"
+   ],
+   "flag": "new",
+   "summary_zh": "LangChain 生态系统已覆盖 Agent 开发全生命周期，LangGraph 提供基于节点与边的编排层，Deep Agents 提供内置总结与文件系统的开发框架。",
+   "why_zh": "Agent 编排框架技能点。掌握如何利用图结构（Graph）实现复杂 Agent 的逻辑流控制与中间件定制。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "Don't Lock Your Agent Harness Into a Single Model Provider",
+   "link": "https://www.youtube.com/shorts/1Gg4ejXFAYw",
+   "dt": "2026-11-24T17:53:26+00:00",
+   "summary": "Harrison Chase, Co-Founder and CEO of LangChain, explains why an agent harness should be model neutral, so you can switch to the best new model as soon as it comes out and avoid getting locked into a single provider that can raise rates. He points to LangGraph and Deep Agents, both open source, as ways to control what the harness does. Captured at Interrupt New York City, the agent conference by LangChain. #AIAgents #LangGraph #DeepAgents #LangChain #Interrupt",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": ""
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 2.066,
+   "score": 2.066,
+   "tokens": [
+    "agent",
+    "don",
+    "harness",
+    "lock",
+    "model",
+    "provider",
+    "single"
+   ],
+   "flag": "new",
+   "summary_zh": "Agent 开发应保持模型中立性，通过 LangGraph 等开源工具解耦模型提供商，以灵活切换模型并规避供应商锁定风险。",
+   "why_zh": "系统架构设计技能点。学习如何通过抽象层设计提升 Agent 系统的可移植性，降低对特定 LLM API 的强依赖。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "Inside LangChain’s GTM agent: one agent, 47 use cases",
+   "link": "https://www.youtube.com/watch?v=ID6SE3eY3PY",
+   "dt": "2026-11-24T15:00:10+00:00",
+   "summary": "Danny Lambert, who leads GTM engineering at LangChain, talks with Julia Schottenstein about the GTM agent his team built on Deep Agents. It started by drafting personalized emails for inbound leads and is now one central agent with 47 graphs that half the company uses every week. Danny walks through how requests are routed by role before they reach the harness, and how LangSmith Engine found a change that made the contact enrichment flow about 40% cheaper. The agent now drives about 46 meetings …",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": "ID6SE3eY3PY"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 2.066,
+   "score": 2.066,
+   "tokens": [
+    "47",
+    "agent",
+    "cases",
+    "gtm",
+    "inside",
+    "langchain",
+    "one",
+    "use"
+   ],
+   "flag": "new",
+   "summary_zh": "LangChain 内部 GTM Agent 通过 47 个图结构处理不同业务场景，利用 LangSmith Engine 实现请求路由与性能监控。",
+   "why_zh": "复杂 Agent 工程化技能点。学习如何通过多图（Multi-graph）路由机制构建处理多任务的统一 Agent 架构。"
+  },
+  {
+   "source": "blog",
+   "source_label": "新智元",
+   "title": "智能体复杂记忆甚至跑不过原始RAG？UIUC等首提「记忆税」",
+   "link": "https://aiera.com.cn/2026/11/24/other/admin/125031/%e6%99%ba%e8%83%bd%e4%bd%93%e5%a4%8d%e6%9d%82%e8%ae%b0%e5%bf%86%e7%94%9a%e8%87%b3%e8%b7%91%e4%b8%8d%e8%bf%87%e5%8e%9f%e5%a7%8brag%ef%bc%9fuiuc%e7%ad%89%e9%a6%96%e6%8f%90%e3%80%8c%e8%ae%b0%e5%bf%86/",
+   "dt": "2026-11-24T00:03:58+00:00",
+   "summary": "记忆是对历史的有偏重构。 无论是人脑还是长周期运行的智能体，只要开始建立「记忆」，原始的交互记录就会经历提炼、合并、更新、遗忘等操作，被重新编织成不同的层级与形式。",
+   "extra": {},
+   "skills": [
+    "rag",
+    "agent_architecture"
+   ],
+   "learn_score": 1.734,
+   "score": 1.734,
+   "tokens": [
+    "uiuc等首提",
+    "智能体复杂记忆甚至跑不过原始rag",
+    "记忆税"
+   ],
+   "flag": "new",
+   "summary_zh": "UIUC 研究指出智能体在处理长期记忆时存在「记忆税」，即记忆的提炼与重构过程可能导致信息丢失，性能甚至不及原始 RAG。",
+   "why_zh": "RAG 与记忆系统优化技能点。理解记忆压缩与更新机制的权衡，学习如何评估长周期 Agent 的记忆检索效率。"
+  },
+  {
+   "source": "blog",
+   "source_label": "Simon Willison",
+   "title": "GPT 6.2 Astra Solves a Historical Mystery",
+   "link": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
+   "dt": "2026-11-24T16:53:59+00:00",
+   "summary": "GPT 6.2 Astra Solves a Historical Mystery Here's an interesting case-study in using GPT-6.2 Astra for historical research, from history professor Mark Humphries: With only minimal prompting, GPT-6.2 Astra was able to autonomously identify the creator of an anonymous 1808 sketchbook held at Yale’s Beinecke Library . It did so extremely quickly (in just 22 minutes), using publicly available primary and secondary sources. To do so, it discovered a little known source in a paper archive, predicted t…",
+   "extra": {},
+   "skills": [
+    "prompt_context"
+   ],
+   "learn_score": 1.445,
+   "score": 1.445,
+   "tokens": [
+    "astra",
+    "gpt",
+    "historical",
+    "mystery",
+    "solves"
+   ],
+   "flag": "new",
+   "summary_zh": "GPT-6.2 Astra 在历史研究中表现出色，通过极简提示词在 22 分钟内自主识别出耶鲁大学 Beinecke 图书馆 1808 年匿名素描本的创作者。",
+   "why_zh": "属于 Agent 自主推理与多模态检索技能点，可学习如何通过 Agent 编排公开数据源进行复杂任务的自动化分析。"
+  },
+  {
+   "source": "blog",
+   "source_label": "Simon Willison",
+   "title": "datasette-charts 0.2a0",
+   "link": "https://simonwillison.net/2026/Nov/24/datasette-charts/",
+   "dt": "2026-11-24T04:24:29+00:00",
+   "summary": "Release: datasette-charts 0.2a0 I introduced this new charting plugin for Datasette yesterday . Today it's gained integration with Datasette Agent , so now you can ask chat for a chart and it will create one for you using the same underlying chart suggestion and generation tools. Here's a demo video, recorded on agent.datasette.io where you can sign in with GitHub to try the plugin yourself: Download the video (MP4) I prompt Datasette Agent to \"Use #stats to show sqlite-utils downloads over time…",
+   "extra": {},
+   "skills": [
+    "prompt_context"
+   ],
+   "learn_score": 1.445,
+   "score": 1.445,
+   "tokens": [
+    "2a0",
+    "charts",
+    "datasette"
+   ],
+   "flag": "new",
+   "summary_zh": "Datasette-charts 0.2a0 发布，集成 Datasette Agent 后支持通过自然语言指令自动生成图表，并整合了底层的图表建议与生成工具。",
+   "why_zh": "属于 Agent 工具调用与数据可视化技能点，可学习如何将 LLM 接入数据分析工作流，实现从查询到可视化输出的自动化闭环。"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "w01fb0ss/PiBot",
+   "link": "https://github.com/w01fb0ss/PiBot",
+   "dt": "2026-11-21T06:54:24+00:00",
+   "summary": "Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines and approvals. macOS, Windows, Linux + Android. Built on pi.",
+   "extra": {
+    "stars": 553,
+    "language": "TypeScript",
+    "topics": [
+     "agent",
+     "ai-agent",
+     "ai-agents",
+     "ai-assistant",
+     "android",
+     "automation"
+    ],
+    "created": "2026-11-21",
+    "pushed": "2026-11-24"
+   },
+   "skills": [
+    "tool_mcp",
+    "multi_agent"
+   ],
+   "learn_score": 2.355,
+   "score": 8.814,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-24 推荐过",
+   "summary_zh": "PiBot 是一个支持 macOS、Windows、Linux 及 Android 的本地优先 AI 智能体框架，集成了多智能体群聊、计算机操作、浏览器控制及 MCP 协议。",
+   "why_zh": "属于端侧 Agent 开发，可学习如何构建跨平台本地 Agent 架构，以及如何集成 MCP 协议实现多工具协同。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "mdiri-ai/SoduWork",
+   "link": "https://github.com/mdiri-ai/SoduWork",
+   "dt": "2026-10-29T02:43:14+00:00",
+   "summary": "The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.",
+   "extra": {
+    "stars": 7584,
+    "language": "JavaScript",
+    "topics": [
+     "agent-harness",
+     "agent-orchestration",
+     "agent-workflows",
+     "ai-agents",
+     "ai-workflows",
+     "anti-slop"
+    ],
+    "created": "2026-10-29",
+    "pushed": "2026-11-24"
+   },
+   "skills": [
+    "agent_architecture",
+    "multi_agent"
+   ],
+   "learn_score": 2.107,
+   "score": 8.428,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-24 推荐过",
+   "summary_zh": "SoduWork 是一个支持多 Agent 协作、多任务编排且可自托管的 AI 原生引擎，旨在为团队提供统一的 Agent 运行与管理基础设施。",
+   "why_zh": "属于 Agent 编排与系统架构领域。可复用做法：学习如何设计多 Agent 协作的通信协议与任务调度机制，实现复杂业务流程的自动化闭环。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ai-gateways/awesome-ai-gateways",
+   "link": "https://github.com/ai-gateways/awesome-ai-gateways",
+   "dt": "2026-10-30T10:30:50+00:00",
+   "summary": "Awesome AI gateways: open source and commercial LLM gateways, MCP gateways, agent (A2A) gateways, model routers, specs, and guides.",
+   "extra": {
+    "stars": 48,
+    "language": "",
+    "topics": [
+     "a2a",
+     "a2a-protocol",
+     "agent-gateway",
+     "ai-agents",
+     "ai-gateway",
+     "ai-governance"
+    ],
+    "created": "2026-10-30",
+    "pushed": "2026-11-19"
+   },
+   "skills": [
+    "tool_mcp",
+    "multi_agent"
+   ],
+   "learn_score": 2.634,
+   "score": 7.062,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-24 推荐过",
+   "summary_zh": "整理开源与商业 LLM 网关、MCP 网关、Agent 间通信网关及模型路由器的技术资源库。",
+   "why_zh": "属于 AI 基础设施领域，可学习如何构建高可用、可观测的 LLM 中间件，掌握 Agent 架构中网关层面的流量调度与协议适配。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ccch1mneyyy/dsh-Go",
+   "link": "https://github.com/ccch1mneyyy/dsh-Go",
+   "dt": "2026-10-25T08:09:52+00:00",
+   "summary": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+   "extra": {
+    "stars": 31304,
+    "language": "Dart",
+    "topics": [
+     "ai-agent",
+     "android",
+     "android-app",
+     "coding-agent",
+     "deepseek",
+     "deepseek-harness"
+    ],
+    "created": "2026-10-25",
+    "pushed": "2026-11-24"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-24 推荐过",
+   "summary_zh": "dsh-Go 实现 DeepSeek 模型在移动端本地运行，并支持远程控制桌面端执行任务，提供轻量级端侧推理解决方案。",
+   "why_zh": "属于端侧 AI 部署技能点，可复用其跨设备通信与本地推理引擎集成方案，解决资源受限环境下的智能体调度问题。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "agentes-chat/agentes-chat",
+   "link": "https://github.com/agentes-chat/agentes-chat",
+   "dt": "2026-11-09T00:50:28+00:00",
+   "summary": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines, memory and approvals. Web, desktop and phone apps. Docker Compose + Postgres. AGPL-3.0.",
+   "extra": {
+    "stars": 2016,
+    "language": "TypeScript",
+    "topics": [
+     "agentic-ai",
+     "ai-agents",
+     "browser-automation",
+     "chat",
+     "claude",
+     "claude-code"
+    ],
+    "created": "2026-11-09",
+    "pushed": "2026-11-24"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-18 推荐过",
+   "summary_zh": "agentes-chat 是一个开源自托管的 Slack 替代品，支持 AI Agent 与团队在频道内协作，集成 Claude、ChatGPT 等模型及 MCP 工具，具备内存、审批和自动化流程功能。",
+   "why_zh": "属于 Agent 协作系统架构。可学习如何通过 MCP 协议集成外部工具，以及在 Docker 环境下实现多 Agent 任务编排与状态持久化。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "qybaihe/bla",
+   "link": "https://github.com/qybaihe/bla",
+   "dt": "2026-10-25T05:25:45+00:00",
+   "summary": "🛡️ BLA (bla-agents / Blind LLM Agents) — Open-source Blue Defense MCP server & CLI protecting JS/TS, Electron ASAR, WASM, Python, Native Binaries, SQLite, GGUF/Safetensors & Android DEX against AI reverse-engineering agents (REA).",
+   "extra": {
+    "stars": 6719,
+    "language": "TypeScript",
+    "topics": [
+     "adversarial-ai",
+     "ai-security",
+     "android-security",
+     "binary-protection",
+     "claude-code",
+     "codex"
+    ],
+    "created": "2026-10-25",
+    "pushed": "2026-11-24"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-24 推荐过",
+   "summary_zh": "BLA (Blind LLM Agents) 提供针对 AI 逆向工程的防御机制，通过投毒、资源耗尽与幻觉诱导保护二进制与代码资产。",
+   "why_zh": "AI 安全防御技能点；掌握对抗性样本生成与防御策略，学习如何通过干扰 Agent 的推理过程保护系统资产。"
+  }
+ ]
+}
