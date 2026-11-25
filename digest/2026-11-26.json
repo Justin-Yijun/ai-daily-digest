@@ -1,0 +1,647 @@
+{
+ "date": "2026-11-26",
+ "generated": "2026-11-26 02:21",
+ "source_count": {
+  "github": 69,
+  "youtube": 41,
+  "blog": 80,
+  "paper": 12,
+  "hackernews": 10
+ },
+ "failures": {},
+ "failure_errors": {},
+ "summary_missing": [],
+ "summary_providers": {
+  "agnes": 2,
+  "gemini": 1
+ },
+ "items": [
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
+   "link": "https://news.ycombinator.com/item?id=50630809",
+   "dt": "2026-11-24T16:45:44+00:00",
+   "summary": "Basically the title. Anthropic is accusing me and my company of using their API for distillation. We are not. We do not train our own models. Our only usage which I think could get us flagged is automated regression benchmarks whenever we change some AI settings. But this is not against their policy? Now I've got 24h to prove we didn't. Has anyone dealt with this too? How can you prove that you ar",
+   "extra": {
+    "points": 423,
+    "comments": 320,
+    "hn_link": "https://news.ycombinator.com/item?id=50630809"
+   },
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 2.295,
+   "score": 8.322,
+   "tokens": [
+    "accusing",
+    "anthropic",
+    "ask",
+    "company",
+    "distilling",
+    "hn",
+    "my",
+    "prove"
+   ],
+   "flag": "new",
+   "summary_zh": "开发者回应 Anthropic 指控其 API 调用用于模型蒸馏，澄清仅使用自动化回归测试，寻求证明非蒸馏用途的方法。",
+   "why_zh": "涉及 LLM API 合规与审计，可学习构建调用日志监控系统，以区分正常业务流量与潜在蒸馏行为。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "InstructReplay: Replaying Assistant Turns to Preserve General Behavior During Factual Fine-Tuning",
+   "link": "https://huggingface.co/papers/2611.32918",
+   "dt": "2026-11-23T19:00:00+00:00",
+   "summary": "Fine-tuning an instruction-tuned language model on new facts often erodes its general abilities. We find that standard fine-tuning lowers instruction-following, reasoning and coding benchmarks by 35 points on average, and that these losses track a collapse in answer length: fine-tuned models at least halve their responses, and the further a response drifts from the initial model's length, the more often it fails. We propose InstructReplay: the initial model answers a set of general instructions ",
+   "extra": {
+    "upvotes": 1,
+    "arxiv": "https://arxiv.org/abs/2611.32918"
+   },
+   "skills": [
+    "rag",
+    "eval_observability",
+    "training_serving"
+   ],
+   "learn_score": 3.052,
+   "score": 6.104,
+   "tokens": [
+    "assistant",
+    "behavior",
+    "during",
+    "factual",
+    "fine",
+    "general",
+    "instructreplay",
+    "preserve",
+    "replaying",
+    "tuning",
+    "turns"
+   ],
+   "flag": "new",
+   "summary_zh": "InstructReplay 提出重放助手轮次方法，在事实微调中保持通用能力，防止模型响应长度减半导致的性能下降。",
+   "why_zh": "针对微调灾难性遗忘，可复用重放历史对话数据策略，在更新特定知识时保护指令遵循与推理基准。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "PenGPT: A Generative Transformer for Handwriting and Sketches",
+   "link": "https://greydanus.github.io/2026/11/12/pengpt/",
+   "dt": "2026-11-25T00:54:49+00:00",
+   "summary": "",
+   "extra": {
+    "points": 371,
+    "comments": 69,
+    "hn_link": "https://news.ycombinator.com/item?id=50637056"
+   },
+   "skills": [
+    "llm_fundamentals"
+   ],
+   "learn_score": 1.7,
+   "score": 6.068,
+   "tokens": [
+    "generative",
+    "handwriting",
+    "pengpt",
+    "sketches",
+    "transformer"
+   ],
+   "flag": "new",
+   "summary_zh": "PenGPT 是一款生成式 Transformer，专门用于手写和草图生成任务。",
+   "why_zh": "涵盖视觉生成模型架构设计，可借鉴其 Transformer 结构处理非文本序列数据，实现笔迹预测生成。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "OWE-Bench: A long-horizon benchmark for measuring real-world engineering",
+   "link": "https://huggingface.co/papers/2611.30017",
+   "dt": "2026-11-22T19:00:00+00:00",
+   "summary": "We present OWE-Bench (OpenWorldEngineer-Bench), a benchmark of 26 long-horizon engineering tasks written by domain experts in software engineering, physical engineering, machine learning, and scientific computing. Tasks range from optimizing kernels and designing an aircraft, to identifying the faults responsible for an earthquake. Each task requires significant domain knowledge and engineering work, with models averaging hundreds of millions of tokens per task. Solutions are scored on practical",
+   "extra": {
+    "upvotes": 1,
+    "arxiv": "https://arxiv.org/abs/2611.30017"
+   },
+   "skills": [
+    "rag",
+    "eval_observability"
+   ],
+   "learn_score": 2.485,
+   "score": 4.97,
+   "tokens": [
+    "bench",
+    "benchmark",
+    "engineering",
+    "horizon",
+    "long",
+    "measuring",
+    "owe",
+    "real",
+    "world"
+   ],
+   "flag": "new",
+   "summary_zh": "OWE-Bench 发布 26 个长程工程任务基准，涵盖软件、物理、ML 及科学计算领域，评估真实工程能力。",
+   "why_zh": "针对长程复杂任务评估，可参考其领域专家构建的任务范式，测试 Agent 在多步推理中的鲁棒性。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "KaelLee335/enterprise-support-agent-v2",
+   "link": "https://github.com/KaelLee335/enterprise-support-agent-v2",
+   "dt": "2026-11-16T02:40:22+00:00",
+   "summary": "面向电商售后场景的 Python Agent 全栈演示：FastAPI、SQLite、LangChain/LangGraph、Chroma RAG、Vue 与 Langfuse。涵盖租户权限、人工审批、MockShop/物流集成与评估。",
+   "extra": {
+    "stars": 142,
+    "language": "Python",
+    "topics": [
+     "ai-agent",
+     "chroma",
+     "customer-support",
+     "docker",
+     "ecommerce",
+     "fastapi"
+    ],
+    "created": "2026-11-16",
+    "pushed": "2026-11-25"
+   },
+   "skills": [
+    "rag",
+    "eval_observability"
+   ],
+   "learn_score": 1.561,
+   "score": 4.921,
+   "tokens": [
+    "agent",
+    "enterprise",
+    "kaellee335",
+    "support",
+    "v2"
+   ],
+   "flag": "new",
+   "summary_zh": "该 Python Agent 全栈项目演示电商售后场景，集成 FastAPI、LangGraph、Chroma RAG 及人工审批流。",
+   "why_zh": "掌握企业级 Agent 架构，可复用 LangGraph 状态管理与 Chroma RAG 检索组合，处理多租户权限逻辑。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "pierridotite/mobile-agent-testers",
+   "link": "https://github.com/pierridotite/mobile-agent-testers",
+   "dt": "2026-11-16T19:11:44+00:00",
+   "summary": "20 AI testers on 20 different phones, in parallel, on GitHub's free runners: Claude Code agents on iOS Simulators and Android emulators that find broken flows, translation, layout and accessibility bugs",
+   "extra": {
+    "stars": 2225,
+    "language": "Python",
+    "topics": [
+     "accessibility-testing",
+     "ai-agents",
+     "ai-testing",
+     "android",
+     "android-emulator",
+     "claude"
+    ],
+    "created": "2026-11-16",
+    "pushed": "2026-11-25"
+   },
+   "skills": [],
+   "learn_score": 1.033,
+   "score": 4.132,
+   "tokens": [
+    "agent",
+    "mobile",
+    "pierridotite",
+    "testers"
+   ],
+   "flag": "new",
+   "summary_zh": "利用 GitHub 免费运行器并行执行 20 个 AI 测试代理，在模拟器和模拟器中检测移动端应用缺陷。",
+   "why_zh": "涉及自动化测试管线，可复用多设备并行测试策略，结合 CI/CD 实现低成本大规模 UI 兼容性验证。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "jsabguy1-cpu/ai--manus",
+   "link": "https://github.com/jsabguy1-cpu/ai--manus",
+   "dt": "2026-11-13T14:51:23+00:00",
+   "summary": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+   "extra": {
+    "stars": 178,
+    "language": "",
+    "topics": [
+     "ai",
+     "ai-agents",
+     "ai-sdk",
+     "anthropic",
+     "chatbot",
+     "function-calling"
+    ],
+    "created": "2026-11-13",
+    "pushed": "2026-11-19"
+   },
+   "skills": [],
+   "learn_score": 1.033,
+   "score": 3.358,
+   "tokens": [
+    "ai",
+    "cpu",
+    "jsabguy1",
+    "manus"
+   ],
+   "flag": "new",
+   "summary_zh": "AI Manus 是一个通用 AI Agent 系统，支持在沙盒环境中运行多种工具和操作。",
+   "why_zh": "Agent 系统架构设计。学习如何在隔离的沙盒环境中安全执行工具调用，提升 Agent 的任务执行鲁棒性。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "fedibenameur11/ai-manus",
+   "link": "https://github.com/fedibenameur11/ai-manus",
+   "dt": "2026-11-06T18:16:14+00:00",
+   "summary": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+   "extra": {
+    "stars": 141,
+    "language": "Python",
+    "topics": [
+     "ai",
+     "ai-agents",
+     "ai-sdk",
+     "anthropic",
+     "chatbot",
+     "function-calling"
+    ],
+    "created": "2026-11-06",
+    "pushed": "2026-11-19"
+   },
+   "skills": [],
+   "learn_score": 1.033,
+   "score": 3.253,
+   "tokens": [
+    "ai",
+    "fedibenameur11",
+    "manus"
+   ],
+   "flag": "new",
+   "summary_zh": "AI Manus 是一个通用 AI Agent 系统，支持在沙盒环境中运行多种工具和操作。",
+   "why_zh": "Agent 系统架构设计。学习如何在隔离的沙盒环境中安全执行工具调用，提升 Agent 的任务执行鲁棒性。"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "Meet Facebook’s Your Algorithm: How Meta Turns Plain-Language Preferences Into Ranking",
+   "link": "https://www.marktechpost.com/2026/11/24/meta-facebook-your-algorithm-llm-recommendations/",
+   "dt": "2026-11-24T23:06:17+00:00",
+   "summary": "Meta's engineering team explains how Facebook's Your Algorithm turns plain-language interests into ranking signals for Feed and Reels, using LLM validation, 4 retrieval sources, layered filtering and a fine-tuned LLM reranker. The post Meet Facebook’s Your Algorithm: How Meta Turns Plain-Language Preferences Into Ranking appeared first on MarkTechPost .",
+   "extra": {},
+   "skills": [
+    "rag",
+    "eval_observability",
+    "training_serving"
+   ],
+   "learn_score": 2.731,
+   "score": 2.731,
+   "tokens": [
+    "algorithm",
+    "facebook",
+    "language",
+    "meet",
+    "meta",
+    "plain",
+    "preferences",
+    "ranking",
+    "turns"
+   ],
+   "flag": "new",
+   "summary_zh": "Meta 通过 LLM 将自然语言偏好转化为 Feed 和 Reels 的排序信号，并结合多源检索、分层过滤及微调后的 LLM 重排序模型。",
+   "why_zh": "推荐系统与 LLM 结合。掌握将用户意图转化为排序特征的工程实践，以及多阶段排序流水线的构建方法。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "How We Tested Jev as an Agent Eval Judge with LangSmith + Deep Agents",
+   "link": "https://www.youtube.com/watch?v=9mNnoPdT0q0",
+   "dt": "2026-11-25T14:26:25+00:00",
+   "summary": "Seán Roche, Education Engineer at LangChain, walks through how he and Daniel Shea tested TypeSafe AI's Jev as a judge for agent evals, in this talk from the LangChain SF Meetup with TypeSafe AI. They stored five frozen traces from a Deep Agents weather agent in LangSmith and scored them 100 times with Jev and three LLM judges (GPT-5.6 Luna, GPT-5.6 Terra, and Claude Sonnet 4.6). On a continuous 0 to 1 score, the LLM judges' mean variance was 92 to 913 times Jev's, and Jev was also the quickest a…",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": "9mNnoPdT0q0"
+   },
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 2.066,
+   "score": 2.066,
+   "tokens": [
+    "agent",
+    "agents",
+    "deep",
+    "eval",
+    "jev",
+    "judge",
+    "langsmith",
+    "tested",
+    "we"
+   ],
+   "flag": "new",
+   "summary_zh": "LangChain 使用 LangSmith 存储 Agent 轨迹，对比 Jev 与 GPT-4o、Claude 3.5 Sonnet 等模型在 Agent 评估中的表现。",
+   "why_zh": "Agent 评估体系。学习如何利用 LLM-as-a-Judge 评估 Agent 轨迹，并建立可复现的自动化评估基准。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · bycloud",
+   "title": "Microsoft's New MAI 2 Just Challenged the King of Efficiency",
+   "link": "https://www.youtube.com/watch?v=Mcet7uKf_c0",
+   "dt": "2026-11-25T17:48:14+00:00",
+   "summary": "Your private local AI server needs an upgrade or maintenance support? Book a free audit now at https://nimbuskernel.com/ Microsoft's MAI-Base-2 claims up to 12x better pre-training compute efficiency than DeepSeek, but what innovations in scaling laws, optimization, and architecture are behind this result, and is Microsoft finally catching up to the AI frontier? Intuitive AI Academy - Learn LLMs Intuitively We just upgrade our entire fundamental section! https://intuitiveai.academy/ limited time…",
+   "extra": {
+    "channel": "bycloud",
+    "video_id": "Mcet7uKf_c0"
+   },
+   "skills": [
+    "llm_fundamentals",
+    "system_design"
+   ],
+   "learn_score": 1.836,
+   "score": 1.836,
+   "tokens": [
+    "challenged",
+    "efficiency",
+    "just",
+    "king",
+    "mai",
+    "microsoft"
+   ],
+   "flag": "new",
+   "summary_zh": "Microsoft 发布 MAI-Base-2 模型，声称在预训练计算效率上比 DeepSeek 提升至多 12 倍。",
+   "why_zh": "大模型训练优化。关注 Scaling Laws 与架构创新，理解如何通过计算效率优化在资源受限场景下提升模型性能。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "Don't Call It a Decision Model: Allie Laabs on Jev and System One",
+   "link": "https://www.youtube.com/watch?v=T5ULj8VEJZo",
+   "dt": "2026-11-24T19:34:55+00:00",
+   "summary": "Allie Laabs, Founding Developer Advocate at TypeSafe AI, explains why the company calls its model Jev a System One model, after Daniel Kahneman's term for the quick, intuitive judgments a knowledgeable person makes in seconds. With a customer support routing example, she shows how putting a whole decision into one Jev question leads to prompt gymnastics. Her alternative is to ask Jev only the small, fuzzy questions and let code handle the math and business logic. The result is a system where you…",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": "T5ULj8VEJZo"
+   },
+   "skills": [
+    "prompt_context"
+   ],
+   "learn_score": 1.53,
+   "score": 1.53,
+   "tokens": [
+    "allie",
+    "call",
+    "decision",
+    "don",
+    "jev",
+    "laabs",
+    "model",
+    "one",
+    "system"
+   ],
+   "flag": "new",
+   "summary_zh": "TypeSafe AI 提出 Jev 模型作为 System One 决策模型，主张通过拆解复杂决策任务来避免 Prompt 工程的过度复杂化。",
+   "why_zh": "Prompt 工程与决策逻辑。学习如何将复杂任务拆解为原子化决策，从而降低模型推理的认知负担与错误率。"
+  },
+  {
+   "source": "blog",
+   "source_label": "HuggingFace 博客",
+   "title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+   "link": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+   "dt": "2026-11-25T00:00:00+00:00",
+   "summary": "",
+   "extra": {},
+   "skills": [
+    "training_serving"
+   ],
+   "learn_score": 1.445,
+   "score": 1.445,
+   "tokens": [
+    "6000",
+    "climbing",
+    "hill",
+    "inference",
+    "inkling",
+    "mini",
+    "one",
+    "pro",
+    "rtx"
+   ],
+   "flag": "new",
+   "summary_zh": "Hill-climbing Inkling 2 Mini 模型在单张 RTX PRO 6000 显卡上实现推理，展示小型模型的高效部署方案。",
+   "why_zh": "技能点：边缘设备推理优化；可复用做法：关注单卡限制下的模型量化与算子融合技术，提升部署密度。"
+  },
+  {
+   "source": "blog",
+   "source_label": "LangChain 博客",
+   "title": "The Agent Lake",
+   "link": "https://www.langchain.com/blog/the-agent-lake",
+   "dt": "2026-11-25T16:26:23+00:00",
+   "summary": "An agent lake holds every trace your agents produce. See how LangSmith finds high-signal traces at scale and turns them into fixes and fine-tuned models.",
+   "extra": {},
+   "skills": [
+    "training_serving"
+   ],
+   "learn_score": 1.445,
+   "score": 1.445,
+   "tokens": [
+    "agent",
+    "lake"
+   ],
+   "flag": "new",
+   "summary_zh": "提出 Agent Lake 概念，利用 LangSmith 从大规模 agent 轨迹中提取高价值数据，用于模型修复与微调。",
+   "why_zh": "技能点：Agent 数据闭环；可复用做法：建立轨迹收集与筛选机制，将生产环境日志转化为训练集以提升模型性能。"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "mdiri-ai/SoduWork",
+   "link": "https://github.com/mdiri-ai/SoduWork",
+   "dt": "2026-10-29T02:43:14+00:00",
+   "summary": "The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.",
+   "extra": {
+    "stars": 8069,
+    "language": "JavaScript",
+    "topics": [
+     "agent-harness",
+     "agent-orchestration",
+     "agent-workflows",
+     "ai-agents",
+     "ai-workflows",
+     "anti-slop"
+    ],
+    "created": "2026-10-29",
+    "pushed": "2026-11-25"
+   },
+   "skills": [
+    "agent_architecture",
+    "multi_agent"
+   ],
+   "learn_score": 2.107,
+   "score": 8.428,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-25 推荐过",
+   "summary_zh": "SoduWork 是一个支持多 Agent 协作、多任务编排且可自托管的 AI 原生引擎，旨在为团队提供统一的 Agent 运行与管理基础设施。",
+   "why_zh": "属于 Agent 编排与系统架构领域。可复用做法：学习如何设计多 Agent 协作的通信协议与任务调度机制，实现复杂业务流程的自动化闭环。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "w01fb0ss/PiBot",
+   "link": "https://github.com/w01fb0ss/PiBot",
+   "dt": "2026-11-21T06:54:24+00:00",
+   "summary": "Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines and approvals. macOS, Windows, Linux + Android. Built on pi.",
+   "extra": {
+    "stars": 587,
+    "language": "TypeScript",
+    "topics": [
+     "agent",
+     "ai-agent",
+     "ai-agents",
+     "ai-assistant",
+     "android",
+     "automation"
+    ],
+    "created": "2026-11-21",
+    "pushed": "2026-11-25"
+   },
+   "skills": [
+    "tool_mcp",
+    "multi_agent"
+   ],
+   "learn_score": 2.231,
+   "score": 8.408,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-25 推荐过",
+   "summary_zh": "PiBot 是一个支持 macOS、Windows、Linux 及 Android 的本地优先 AI 智能体框架，集成了多智能体群聊、计算机操作、浏览器控制及 MCP 协议。",
+   "why_zh": "属于端侧 Agent 开发，可学习如何构建跨平台本地 Agent 架构，以及如何集成 MCP 协议实现多工具协同。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "ai-gateways/awesome-ai-gateways",
+   "link": "https://github.com/ai-gateways/awesome-ai-gateways",
+   "dt": "2026-10-30T10:30:50+00:00",
+   "summary": "Awesome AI gateways: open source and commercial LLM gateways, MCP gateways, agent (A2A) gateways, model routers, specs, and guides.",
+   "extra": {
+    "stars": 48,
+    "language": "",
+    "topics": [
+     "a2a",
+     "a2a-protocol",
+     "agent-gateway",
+     "ai-agents",
+     "ai-gateway",
+     "ai-governance"
+    ],
+    "created": "2026-10-30",
+    "pushed": "2026-11-19"
+   },
+   "skills": [
+    "tool_mcp",
+    "multi_agent"
+   ],
+   "learn_score": 2.634,
+   "score": 7.062,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-25 推荐过",
+   "summary_zh": "整理开源与商业 LLM 网关、MCP 网关、Agent 间通信网关及模型路由器的技术资源库。",
+   "why_zh": "属于 AI 基础设施领域，可学习如何构建高可用、可观测的 LLM 中间件，掌握 Agent 架构中网关层面的流量调度与协议适配。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "XinaTian/MROffice",
+   "link": "https://github.com/XinaTian/MROffice",
+   "dt": "2026-11-10T17:54:07+00:00",
+   "summary": "MR Office — the open-source editors of the AI office suite closest to Microsoft Office: documents, spreadsheets, presentations, PDF and code in the browser. Copilot in every editor edits real Word, Excel and PowerPoint files with you; an MCP server lets Claude, ChatGPT, Cursor and Codex create and edit them; embed it in your app with one line.",
+   "extra": {
+    "stars": 4540,
+    "language": "TypeScript",
+    "topics": [
+     "ai",
+     "ai-agent",
+     "claude-code",
+     "codex",
+     "copilot",
+     "cursor"
+    ],
+    "created": "2026-11-10",
+    "pushed": "2026-11-24"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-25 推荐过",
+   "summary_zh": "MROffice 是一个开源 AI 办公套件，支持在浏览器中编辑 Word、Excel、PPT 及代码，并提供 MCP 服务供 Claude、ChatGPT 等 AI 模型直接操作文档。",
+   "why_zh": "掌握 MCP 协议在复杂应用场景的落地，学习如何通过 MCP 将 AI 能力集成到传统文档编辑工作流中，提升 Agent 对结构化数据的操控能力。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "yanstd888/9routerx",
+   "link": "https://github.com/yanstd888/9routerx",
+   "dt": "2026-11-07T11:54:33+00:00",
+   "summary": "9RouterX (9R Next Go Generation): Single-binary Go AI router, LLM gateway & 20-40% token saver. Route Claude Code, Cursor & Codex across 155 providers, 28 OAuth & 248 free models (24 keyless) — OpenAI, Claude, Gemini, DeepSeek, Groq, Ollama & MCP.",
+   "extra": {
+    "stars": 271,
+    "language": "Go",
+    "topics": [
+     "9router",
+     "9routerx",
+     "ai-gateway",
+     "ai-proxy",
+     "ai-routing",
+     "api-gateway"
+    ],
+    "created": "2026-11-07",
+    "pushed": "2026-11-25"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 6.028,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-24 推荐过",
+   "summary_zh": "9RouterX 是一个 Go 语言编写的单二进制文件 LLM 网关，支持 155 个提供商、248 个模型，并具备 20-40% 的 Token 节省能力。",
+   "why_zh": "LLM 工程化部署技能点。可复用做法：学习如何构建高性能路由层以实现多模型负载均衡、Token 压缩及统一的 API 接口封装。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Zleap-AI/SAG-Wiki",
+   "link": "https://github.com/Zleap-AI/SAG-Wiki",
+   "dt": "2026-10-18T14:51:30+00:00",
+   "summary": "A lightweight knowledge base for people and agents, with ultra fast indexing and most precise retrieval.",
+   "extra": {
+    "stars": 1686,
+    "language": "Rust",
+    "topics": [
+     "knowledge-base",
+     "knowledge-graph",
+     "rag",
+     "rust",
+     "sag",
+     "sag-wiki"
+    ],
+    "created": "2026-10-18",
+    "pushed": "2026-11-24"
+   },
+   "skills": [
+    "rag",
+    "eval_observability"
+   ],
+   "learn_score": 1.487,
+   "score": 5.948,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-19 推荐过",
+   "summary_zh": "SAG-Wiki 提供了一个轻量级知识库方案，通过优化索引结构实现极速检索，旨在为人类用户及 AI Agent 提供高精度的知识获取能力。",
+   "why_zh": "属于 RAG 系统优化领域，可学习其轻量级索引设计与高精度检索策略，用于提升 Agent 知识库的响应速度与准确率。"
+  }
+ ]
+}
