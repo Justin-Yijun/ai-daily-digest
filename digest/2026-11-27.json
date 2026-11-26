@@ -1,0 +1,632 @@
+{
+ "date": "2026-11-27",
+ "generated": "2026-11-27 02:03",
+ "source_count": {
+  "github": 70,
+  "youtube": 41,
+  "blog": 79,
+  "paper": 24,
+  "hackernews": 10
+ },
+ "failures": {},
+ "failure_errors": {},
+ "summary_missing": [],
+ "summary_providers": {
+  "gemini": 3
+ },
+ "items": [
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.CL",
+   "title": "Feature-Based Explainability of Transformer Scoring Models: A Fidelity-First Framework for Automated Writing Assessment",
+   "link": "https://arxiv.org/abs/2611.33175",
+   "dt": "2026-11-26T00:00:00-05:00",
+   "summary": "arXiv:2611.33175v1 Announce Type: new Abstract: Transformer-based automated writing scoring models can achieve strong agreement with human scores while providing limited transparency into the response characteristics associated with their predictions. This study evaluated a feature-based post-hoc explanation approach in which explanatory fidelity was established before feature importance was interpreted. English Language Arts responses from three writing prompts in Grades 6 and 8 were analyzed, ",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "prompt_context",
+    "eval_observability",
+    "llm_fundamentals"
+   ],
+   "learn_score": 4.177,
+   "score": 8.354,
+   "tokens": [
+    "assessment",
+    "automated",
+    "based",
+    "explainability",
+    "feature",
+    "fidelity",
+    "first",
+    "framework",
+    "models",
+    "scoring",
+    "transformer",
+    "writing"
+   ],
+   "flag": "new",
+   "summary_zh": "提出一种基于特征的 Transformer 自动写作评分模型可解释性框架，通过优先保证解释忠实度来提升模型预测的透明度。",
+   "why_zh": "模型可解释性与评估指标设计。学习如何通过后验解释方法量化特征重要性，适用于需要模型审计与决策归因的 AI 系统开发。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.CL",
+   "title": "Verified experience improves materials prediction with large language models",
+   "link": "https://arxiv.org/abs/2611.33195",
+   "dt": "2026-11-26T00:00:00-05:00",
+   "summary": "arXiv:2611.33195v1 Announce Type: new Abstract: Materials discovery is an iterative loop: experiments and calculations verify predictions, and each outcome can inform the next. Yet most predictors are specialized single-task models fixed after training. Large language models have recently emerged as predictors across heterogeneous tasks but generally underperform specialized models, and retrieval-augmented variants discard their own outcomes. Benchmarks also score queries in isolation, leaving i",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "rag",
+    "eval_observability"
+   ],
+   "learn_score": 3.58,
+   "score": 7.16,
+   "tokens": [
+    "experience",
+    "improves",
+    "language",
+    "large",
+    "materials",
+    "models",
+    "prediction",
+    "verified"
+   ],
+   "flag": "new",
+   "summary_zh": "引入验证经验反馈机制提升 LLM 在材料科学预测任务中的性能，通过检索增强与迭代循环弥补通用模型与专用模型的差距。",
+   "why_zh": "RAG 与闭环反馈系统。学习如何将实验验证数据作为动态上下文注入 LLM，解决垂类领域模型在异构任务中表现不佳的问题。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "yzsind/mydb",
+   "link": "https://github.com/yzsind/mydb",
+   "dt": "2026-11-16T22:52:44+00:00",
+   "summary": "A high-performance MySQL-compatible database for HTAP and AI agents Mixed transactional and analytical workloads, with native AI retrieval.",
+   "extra": {
+    "stars": 192,
+    "language": "Rust",
+    "topics": [
+     "agent",
+     "data",
+     "database",
+     "mysql",
+     "rag",
+     "rust"
+    ],
+    "created": "2026-11-16",
+    "pushed": "2026-11-26"
+   },
+   "skills": [
+    "rag",
+    "eval_observability"
+   ],
+   "learn_score": 2.107,
+   "score": 6.918,
+   "tokens": [
+    "mydb",
+    "yzsind"
+   ],
+   "flag": "new",
+   "summary_zh": "开源一款兼容 MySQL 的高性能 HTAP 数据库，内置原生 AI 检索功能，专为混合事务与分析负载及 AI Agent 应用设计。",
+   "why_zh": "AI 基础设施与数据工程。了解如何将向量检索与传统数据库架构深度集成，优化 Agent 在处理大规模结构化数据时的响应效率。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "yijiejiang/kaogong-school",
+   "link": "https://github.com/yijiejiang/kaogong-school",
+   "dt": "2026-11-16T10:01:26+00:00",
+   "summary": "本地优先的考公（公务员考试 / 国考 / 省考）多智能体 AI 学习系统：资料解析、知识挖掘、技能地图、RAG 问答、AI 出卷改卷与学情闭环。Self-hosted AI tutor for Chinese civil service exam prep.",
+   "extra": {
+    "stars": 157,
+    "language": "Python",
+    "topics": [
+     "ai-agents",
+     "ai-tutor",
+     "civil-service-exam",
+     "deepseek",
+     "edtech",
+     "education"
+    ],
+    "created": "2026-11-16",
+    "pushed": "2026-11-26"
+   },
+   "skills": [
+    "rag",
+    "agent_architecture",
+    "multi_agent"
+   ],
+   "learn_score": 1.821,
+   "score": 5.82,
+   "tokens": [
+    "kaogong",
+    "school",
+    "yijiejiang"
+   ],
+   "flag": "new",
+   "summary_zh": "构建本地优先的考公多智能体学习系统，集成 RAG 问答、知识挖掘与 AI 出卷改卷功能，实现全流程学情闭环。",
+   "why_zh": "多智能体协作与本地化部署。学习如何编排多个 Agent 完成复杂业务流程，并利用 RAG 技术处理特定领域的长文本知识库。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Much shorter version of GRH Lean verification from Anthropic",
+   "link": "https://github.com/lsernau/grh-lean",
+   "dt": "2026-11-25T21:48:10+00:00",
+   "summary": "",
+   "extra": {
+    "points": 522,
+    "comments": 333,
+    "hn_link": "https://news.ycombinator.com/item?id=50648050"
+   },
+   "skills": [],
+   "learn_score": 1.0,
+   "score": 3.718,
+   "tokens": [
+    "anthropic",
+    "grh",
+    "lean",
+    "much",
+    "shorter",
+    "verification",
+    "version"
+   ],
+   "flag": "new",
+   "summary_zh": "Anthropic 发布更精简的 GRH Lean 验证方法，旨在提升模型训练过程中的形式化验证效率。",
+   "why_zh": "模型对齐与形式化验证。掌握通过轻量级验证手段确保模型输出符合预期约束，是构建高可靠性 AI 系统的重要工程实践。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+   "link": "https://twitter.com/thsottiaux/status/2125784147889393806",
+   "dt": "2026-11-26T03:36:58+00:00",
+   "summary": "",
+   "extra": {
+    "points": 426,
+    "comments": 243,
+    "hn_link": "https://news.ycombinator.com/item?id=50651117"
+   },
+   "skills": [],
+   "learn_score": 1.0,
+   "score": 3.629,
+   "tokens": [
+    "25",
+    "40",
+    "astra",
+    "cuts",
+    "faster",
+    "gpt",
+    "hits",
+    "limits",
+    "openai",
+    "sol",
+    "usage"
+   ],
+   "flag": "new",
+   "summary_zh": "OpenAI 调整 GPT-6.2 使用策略，Astra 与 Sol 模型的使用限制分别收紧 40% 与 25%。",
+   "why_zh": "模型推理成本与资源调度。关注大模型服务商的配额限制策略，学习在受限资源环境下优化 Agent 调用频率与推理成本的工程经验。"
+  },
+  {
+   "source": "blog",
+   "source_label": "HuggingFace 博客",
+   "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+   "link": "https://huggingface.co/blog/training-swarms",
+   "dt": "2026-11-26T00:00:00+00:00",
+   "summary": "",
+   "extra": {},
+   "skills": [
+    "multi_agent",
+    "eval_observability",
+    "system_design"
+   ],
+   "learn_score": 3.414,
+   "score": 3.414,
+   "tokens": [
+    "agent",
+    "build",
+    "evaluate",
+    "flocks",
+    "gangs",
+    "multi",
+    "swarms",
+    "systems",
+    "train"
+   ],
+   "flag": "new",
+   "summary_zh": "HuggingFace 探讨了多智能体系统的构建、训练与评估方法，涵盖了从架构设计到性能度量的全链路开发流程。",
+   "why_zh": "多智能体协作架构设计。可学习如何通过模块化拆解复杂任务，并利用评估框架量化智能体间的交互效率。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "antgroup/ai-vision",
+   "link": "https://github.com/antgroup/ai-vision",
+   "dt": "2026-11-13T06:01:02+00:00",
+   "summary": "Open-source, self-hosted observability and diagnostics for AI agents. Trace sessions, model usage, and memory with OpenTelemetry.",
+   "extra": {
+    "stars": 24,
+    "language": "Python",
+    "topics": [
+     "agent-observability",
+     "agentic-ai",
+     "ai-agents",
+     "ai-observability",
+     "claude-code",
+     "codex"
+    ],
+    "created": "2026-11-13",
+    "pushed": "2026-11-26"
+   },
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.3,
+   "score": 3.094,
+   "tokens": [
+    "ai",
+    "antgroup",
+    "vision"
+   ],
+   "flag": "new",
+   "summary_zh": "antgroup/ai-vision 提供了一套基于 OpenTelemetry 的 AI 智能体可观测性与诊断工具，支持追踪会话、模型调用及记忆状态。",
+   "why_zh": "AI 系统可观测性工程。掌握如何利用 OpenTelemetry 标准化埋点，实现生产环境智能体行为的链路追踪与故障诊断。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "JosssphZhou/poki",
+   "link": "https://github.com/JosssphZhou/poki",
+   "dt": "2026-11-05T15:04:31+00:00",
+   "summary": "Poki uses your iPhone like you do. An open-source agent app that runs on your iPhone, reads the screen, and taps, types and swipes in real apps with your own model account.",
+   "extra": {
+    "stars": 2139,
+    "language": "Swift",
+    "topics": [
+     "ai-agents",
+     "ai-assistant",
+     "automation",
+     "claude-code",
+     "computer-use",
+     "gui-agent"
+    ],
+    "created": "2026-11-05",
+    "pushed": "2026-11-26"
+   },
+   "skills": [],
+   "learn_score": 0.765,
+   "score": 3.06,
+   "tokens": [
+    "josssphzhou",
+    "poki"
+   ],
+   "flag": "new",
+   "summary_zh": "poki 是一款运行在 iPhone 上的开源智能体应用，通过屏幕读取与模拟点击、输入、滑动操作，实现手机端自动化交互。",
+   "why_zh": "端侧智能体开发。学习如何通过视觉识别与 UI 自动化接口，构建跨应用操作的移动端 Agent 交互逻辑。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "Deep Agents Tutorial: Learn It by Playing an Escape Room",
+   "link": "https://www.youtube.com/watch?v=PY5d-_fycso",
+   "dt": "2026-11-25T19:30:32+00:00",
+   "summary": "Jess Weng from LangChain Academy plays an escape room video game that teaches Deep Agents, LangChain's open-source agent harness, as you go. Polly, a deep agent, helps her find the password to a haunted manor where every room is a folder and every object is a file, and each clue turns on something the harness does, from grep keeping the context window clear to asking a human before opening a risky trunk. In the second half, Jess walks through each concept from the game and how it works in Deep A…",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": "PY5d-_fycso"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 2.582,
+   "score": 2.582,
+   "tokens": [
+    "agents",
+    "deep",
+    "escape",
+    "learn",
+    "playing",
+    "room",
+    "tutorial"
+   ],
+   "flag": "new",
+   "summary_zh": "LangChain Deep Agents 通过逃生游戏教学，展示了如何利用智能体框架管理上下文窗口、执行文件检索及人机协同决策。",
+   "why_zh": "智能体任务编排。学习如何通过上下文管理策略（如 grep 过滤）优化长任务执行，提升 Agent 在复杂环境下的鲁棒性。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · OpenAI",
+   "title": "How your dot can keep work moving while you’re away",
+   "link": "https://www.youtube.com/watch?v=A4UNP-axGHU",
+   "dt": "2026-11-25T18:21:11+00:00",
+   "summary": "Even when you step away for the holidays, work doesn’t always stop. Your dot can help. Raymond walks through how his dot keeps an eye on ongoing projects, flags what needs his attention, and helps move work forward so he can review and approve next steps on the go. Steal Raymond’s workflow. Try these prompts with your dot and make them your own: \"I’m stepping away until [time + time zone]. Watch [insert slack channel] and [#on-call-[insert channel]]. Group related feedback in existing Linear tic…",
+   "extra": {
+    "channel": "OpenAI",
+    "video_id": "A4UNP-axGHU"
+   },
+   "skills": [
+    "prompt_context",
+    "llm_fundamentals"
+   ],
+   "learn_score": 2.295,
+   "score": 2.295,
+   "tokens": [
+    "away",
+    "dot",
+    "keep",
+    "moving",
+    "re",
+    "while",
+    "work"
+   ],
+   "flag": "new",
+   "summary_zh": "OpenAI 展示了如何利用智能体在用户离线期间监控项目进度、标记关键事项并辅助自动化工作流处理。",
+   "why_zh": "异步智能体工作流设计。学习如何构建具备状态监控与主动提醒功能的 Agent，实现人机协同的异步任务处理。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "What Are Subagents? Explained in 4 Minutes",
+   "link": "https://www.youtube.com/watch?v=AekKS44xBhI",
+   "dt": "2026-11-26T00:30:09+00:00",
+   "summary": "Jess Weng, Education Engineer at LangChain, explains subagents in Deep Agents, LangChain's open-source agent harness. A subagent takes one task from the main agent, does the messy work in its own fresh context window, and sends back only the result, so the main agent's context stays focused on the big picture. She also shows how subagents run in parallel or in the background, and how offloading and summarization keep each subagent's own context lean. Chapters: 0:00 Why long tasks overload an age…",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": "AekKS44xBhI"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 2.066,
+   "score": 2.066,
+   "tokens": [
+    "explained",
+    "minutes",
+    "subagents"
+   ],
+   "flag": "new",
+   "summary_zh": "LangChain 解释了子智能体（Subagents）概念，通过在独立上下文窗口执行子任务并返回结果，减轻主智能体的上下文负担。",
+   "why_zh": "复杂任务拆解与上下文管理。掌握通过子智能体并行处理或后台卸载任务的模式，有效解决大模型上下文窗口受限的问题。"
+  },
+  {
+   "source": "blog",
+   "source_label": "HuggingFace 博客",
+   "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+   "link": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+   "dt": "2026-11-26T11:37:17+00:00",
+   "summary": "",
+   "extra": {},
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.951,
+   "score": 1.951,
+   "tokens": [
+    "amd",
+    "benchmark",
+    "cpp",
+    "dashboard",
+    "introducing",
+    "llama",
+    "radeon",
+    "ryzen"
+   ],
+   "flag": "new",
+   "summary_zh": "HuggingFace 发布了针对 AMD Ryzen 和 Radeon 硬件的 llama.cpp 基准测试仪表板，提供不同量化配置下的推理性能数据。",
+   "why_zh": "属于模型推理优化与硬件适配技能点，可学习如何通过基准测试评估异构计算平台在 LLM 推理任务中的吞吐量与延迟表现。"
+  },
+  {
+   "source": "blog",
+   "source_label": "HuggingFace 博客",
+   "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+   "link": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+   "dt": "2026-11-26T05:05:36+00:00",
+   "summary": "",
+   "extra": {},
+   "skills": [
+    "training_serving"
+   ],
+   "learn_score": 1.445,
+   "score": 1.445,
+   "tokens": [
+    "building",
+    "data",
+    "faster",
+    "fine",
+    "inference",
+    "nemotron",
+    "open",
+    "parse",
+    "tuning"
+   ],
+   "flag": "new",
+   "summary_zh": "NVIDIA 发布 Nemotron 3.5 模型，通过开放数据集、微调策略及推理加速技术，提升了模型在特定任务中的解析能力与执行效率。",
+   "why_zh": "属于模型微调与推理加速技能点，可复用其数据清洗与高效推理架构设计思路，优化生产环境中的大模型落地效果。"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "w01fb0ss/PiBot",
+   "link": "https://github.com/w01fb0ss/PiBot",
+   "dt": "2026-11-21T06:54:24+00:00",
+   "summary": "Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines and approvals. macOS, Windows, Linux + Android. Built on pi.",
+   "extra": {
+    "stars": 649,
+    "language": "TypeScript",
+    "topics": [
+     "agent",
+     "ai-agent",
+     "ai-agents",
+     "ai-assistant",
+     "android",
+     "automation"
+    ],
+    "created": "2026-11-21",
+    "pushed": "2026-11-26"
+   },
+   "skills": [
+    "tool_mcp",
+    "multi_agent"
+   ],
+   "learn_score": 2.231,
+   "score": 8.505,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-26 推荐过",
+   "summary_zh": "PiBot 是一个支持 macOS、Windows、Linux 及 Android 的本地优先 AI 智能体框架，集成了多智能体群聊、计算机操作、浏览器控制及 MCP 协议。",
+   "why_zh": "属于端侧 Agent 开发，可学习如何构建跨平台本地 Agent 架构，以及如何集成 MCP 协议实现多工具协同。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "mdiri-ai/SoduWork",
+   "link": "https://github.com/mdiri-ai/SoduWork",
+   "dt": "2026-10-29T02:43:14+00:00",
+   "summary": "The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.",
+   "extra": {
+    "stars": 8193,
+    "language": "JavaScript",
+    "topics": [
+     "agent-harness",
+     "agent-orchestration",
+     "agent-workflows",
+     "ai-agents",
+     "ai-workflows",
+     "anti-slop"
+    ],
+    "created": "2026-10-29",
+    "pushed": "2026-11-26"
+   },
+   "skills": [
+    "agent_architecture",
+    "multi_agent"
+   ],
+   "learn_score": 2.107,
+   "score": 8.428,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-26 推荐过",
+   "summary_zh": "SoduWork 是一个支持多 Agent 协作、多任务编排且可自托管的 AI 原生引擎，旨在为团队提供统一的 Agent 运行与管理基础设施。",
+   "why_zh": "属于 Agent 编排与系统架构领域。可复用做法：学习如何设计多 Agent 协作的通信协议与任务调度机制，实现复杂业务流程的自动化闭环。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "XinaTian/MROffice",
+   "link": "https://github.com/XinaTian/MROffice",
+   "dt": "2026-11-10T17:54:07+00:00",
+   "summary": "MR Office — the open-source editors of the AI office suite closest to Microsoft Office: documents, spreadsheets, presentations, PDF and code in the browser. Copilot in every editor edits real Word, Excel and PowerPoint files with you; an MCP server lets Claude, ChatGPT, Cursor and Codex create and edit them; embed it in your app with one line.",
+   "extra": {
+    "stars": 4370,
+    "language": "TypeScript",
+    "topics": [
+     "ai",
+     "ai-agent",
+     "claude-code",
+     "codex",
+     "copilot",
+     "cursor"
+    ],
+    "created": "2026-11-10",
+    "pushed": "2026-11-24"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-26 推荐过",
+   "summary_zh": "MROffice 是一个开源 AI 办公套件，支持在浏览器中编辑 Word、Excel、PPT 及代码，并提供 MCP 服务供 Claude、ChatGPT 等 AI 模型直接操作文档。",
+   "why_zh": "掌握 MCP 协议在复杂应用场景的落地，学习如何通过 MCP 将 AI 能力集成到传统文档编辑工作流中，提升 Agent 对结构化数据的操控能力。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "PenGPT: A Generative Transformer for Handwriting and Sketches",
+   "link": "https://greydanus.github.io/2026/11/12/pengpt/",
+   "dt": "2026-11-25T00:54:49+00:00",
+   "summary": "",
+   "extra": {
+    "points": 401,
+    "comments": 78,
+    "hn_link": "https://news.ycombinator.com/item?id=50637056"
+   },
+   "skills": [
+    "llm_fundamentals"
+   ],
+   "learn_score": 1.7,
+   "score": 6.125,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-26 推荐过",
+   "summary_zh": "PenGPT 是一款生成式 Transformer，专门用于手写和草图生成任务。",
+   "why_zh": "涵盖视觉生成模型架构设计，可借鉴其 Transformer 结构处理非文本序列数据，实现笔迹预测生成。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "yanstd888/9routerx",
+   "link": "https://github.com/yanstd888/9routerx",
+   "dt": "2026-11-07T11:54:33+00:00",
+   "summary": "9RouterX (9R Next Go Generation): Single-binary Go AI router, LLM gateway & 20-40% token saver. Route Claude Code, Cursor & Codex across 155 providers, 28 OAuth & 248 free models (24 keyless) — OpenAI, Claude, Gemini, DeepSeek, Groq, Ollama & MCP.",
+   "extra": {
+    "stars": 276,
+    "language": "Go",
+    "topics": [
+     "9router",
+     "9routerx",
+     "ai-gateway",
+     "ai-proxy",
+     "ai-routing",
+     "api-gateway"
+    ],
+    "created": "2026-11-07",
+    "pushed": "2026-11-25"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 6.042,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-26 推荐过",
+   "summary_zh": "9RouterX 是一个 Go 语言编写的单二进制文件 LLM 网关，支持 155 个提供商、248 个模型，并具备 20-40% 的 Token 节省能力。",
+   "why_zh": "LLM 工程化部署技能点。可复用做法：学习如何构建高性能路由层以实现多模型负载均衡、Token 压缩及统一的 API 接口封装。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Zleap-AI/SAG-Wiki",
+   "link": "https://github.com/Zleap-AI/SAG-Wiki",
+   "dt": "2026-10-18T14:51:30+00:00",
+   "summary": "A lightweight knowledge base for people and agents, with ultra fast indexing and most precise retrieval.",
+   "extra": {
+    "stars": 1698,
+    "language": "Rust",
+    "topics": [
+     "knowledge-base",
+     "knowledge-graph",
+     "rag",
+     "rust",
+     "sag",
+     "sag-wiki"
+    ],
+    "created": "2026-10-18",
+    "pushed": "2026-11-24"
+   },
+   "skills": [
+    "rag",
+    "eval_observability"
+   ],
+   "learn_score": 1.487,
+   "score": 5.948,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-26 推荐过",
+   "summary_zh": "SAG-Wiki 提供了一个轻量级知识库方案，通过优化索引结构实现极速检索，旨在为人类用户及 AI Agent 提供高精度的知识获取能力。",
+   "why_zh": "属于 RAG 系统优化领域，可学习其轻量级索引设计与高精度检索策略，用于提升 Agent 知识库的响应速度与准确率。"
+  }
+ ]
+}

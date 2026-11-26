@@ -7857,7 +7857,7 @@
   },
   "https://github.com/yanstd888/9routerx": {
    "title": "yanstd888/9routerx",
-   "date": "2026-11-26",
+   "date": "2026-11-27",
    "tokens": [],
    "source": "github",
    "summary_zh": "9RouterX 是一个 Go 语言编写的单二进制文件 LLM 网关，支持 155 个提供商、248 个模型，并具备 20-40% 的 Token 节省能力。",
@@ -8452,7 +8452,7 @@
   },
   "https://github.com/Zleap-AI/SAG-Wiki": {
    "title": "Zleap-AI/SAG-Wiki",
-   "date": "2026-11-26",
+   "date": "2026-11-27",
    "tokens": [],
    "source": "github",
    "summary_zh": "SAG-Wiki 提供了一个轻量级知识库方案，通过优化索引结构实现极速检索，旨在为人类用户及 AI Agent 提供高精度的知识获取能力。",
@@ -9891,7 +9891,7 @@
   },
   "https://github.com/mdiri-ai/SoduWork": {
    "title": "mdiri-ai/SoduWork",
-   "date": "2026-11-26",
+   "date": "2026-11-27",
    "tokens": [],
    "source": "github",
    "summary_zh": "SoduWork 是一个支持多 Agent 协作、多任务编排且可自托管的 AI 原生引擎，旨在为团队提供统一的 Agent 运行与管理基础设施。",
@@ -10939,7 +10939,7 @@
   },
   "https://github.com/w01fb0ss/PiBot": {
    "title": "w01fb0ss/PiBot",
-   "date": "2026-11-26",
+   "date": "2026-11-27",
    "tokens": [],
    "source": "github",
    "summary_zh": "PiBot 是一个支持 macOS、Windows、Linux 及 Android 的本地优先 AI 智能体框架，集成了多智能体群聊、计算机操作、浏览器控制及 MCP 协议。",
@@ -11119,7 +11119,7 @@
   },
   "https://github.com/XinaTian/MROffice": {
    "title": "XinaTian/MROffice",
-   "date": "2026-11-26",
+   "date": "2026-11-27",
    "tokens": [],
    "source": "github",
    "summary_zh": "MROffice 是一个开源 AI 办公套件，支持在浏览器中编辑 Word、Excel、PPT 及代码，并提供 MCP 服务供 Claude、ChatGPT 等 AI 模型直接操作文档。",
@@ -11343,14 +11343,8 @@
   },
   "https://greydanus.github.io/2026/11/12/pengpt/": {
    "title": "PenGPT: A Generative Transformer for Handwriting and Sketches",
-   "date": "2026-11-26",
-   "tokens": [
-    "generative",
-    "handwriting",
-    "pengpt",
-    "sketches",
-    "transformer"
-   ],
+   "date": "2026-11-27",
+   "tokens": [],
    "source": "hackernews",
    "summary_zh": "PenGPT 是一款生成式 Transformer，专门用于手写和草图生成任务。",
    "why_zh": "涵盖视觉生成模型架构设计，可借鉴其 Transformer 结构处理非文本序列数据，实现笔迹预测生成。"
@@ -11522,7 +11516,224 @@
    "source": "blog",
    "summary_zh": "提出 Agent Lake 概念，利用 LangSmith 从大规模 agent 轨迹中提取高价值数据，用于模型修复与微调。",
    "why_zh": "技能点：Agent 数据闭环；可复用做法：建立轨迹收集与筛选机制，将生产环境日志转化为训练集以提升模型性能。"
+  },
+  "https://arxiv.org/abs/2611.33175": {
+   "title": "Feature-Based Explainability of Transformer Scoring Models: A Fidelity-First Framework for Automated Writing Assessment",
+   "date": "2026-11-27",
+   "tokens": [
+    "assessment",
+    "automated",
+    "based",
+    "explainability",
+    "feature",
+    "fidelity",
+    "first",
+    "framework",
+    "models",
+    "scoring",
+    "transformer",
+    "writing"
+   ],
+   "source": "paper",
+   "summary_zh": "提出一种基于特征的 Transformer 自动写作评分模型可解释性框架，通过优先保证解释忠实度来提升模型预测的透明度。",
+   "why_zh": "模型可解释性与评估指标设计。学习如何通过后验解释方法量化特征重要性，适用于需要模型审计与决策归因的 AI 系统开发。"
+  },
+  "https://arxiv.org/abs/2611.33195": {
+   "title": "Verified experience improves materials prediction with large language models",
+   "date": "2026-11-27",
+   "tokens": [
+    "experience",
+    "improves",
+    "language",
+    "large",
+    "materials",
+    "models",
+    "prediction",
+    "verified"
+   ],
+   "source": "paper",
+   "summary_zh": "引入验证经验反馈机制提升 LLM 在材料科学预测任务中的性能，通过检索增强与迭代循环弥补通用模型与专用模型的差距。",
+   "why_zh": "RAG 与闭环反馈系统。学习如何将实验验证数据作为动态上下文注入 LLM，解决垂类领域模型在异构任务中表现不佳的问题。"
+  },
+  "https://github.com/yzsind/mydb": {
+   "title": "yzsind/mydb",
+   "date": "2026-11-27",
+   "tokens": [
+    "mydb",
+    "yzsind"
+   ],
+   "source": "github",
+   "summary_zh": "开源一款兼容 MySQL 的高性能 HTAP 数据库，内置原生 AI 检索功能，专为混合事务与分析负载及 AI Agent 应用设计。",
+   "why_zh": "AI 基础设施与数据工程。了解如何将向量检索与传统数据库架构深度集成，优化 Agent 在处理大规模结构化数据时的响应效率。"
+  },
+  "https://github.com/yijiejiang/kaogong-school": {
+   "title": "yijiejiang/kaogong-school",
+   "date": "2026-11-27",
+   "tokens": [
+    "kaogong",
+    "school",
+    "yijiejiang"
+   ],
+   "source": "github",
+   "summary_zh": "构建本地优先的考公多智能体学习系统，集成 RAG 问答、知识挖掘与 AI 出卷改卷功能，实现全流程学情闭环。",
+   "why_zh": "多智能体协作与本地化部署。学习如何编排多个 Agent 完成复杂业务流程，并利用 RAG 技术处理特定领域的长文本知识库。"
+  },
+  "https://github.com/lsernau/grh-lean": {
+   "title": "Much shorter version of GRH Lean verification from Anthropic",
+   "date": "2026-11-27",
+   "tokens": [
+    "anthropic",
+    "grh",
+    "lean",
+    "much",
+    "shorter",
+    "verification",
+    "version"
+   ],
+   "source": "hackernews",
+   "summary_zh": "Anthropic 发布更精简的 GRH Lean 验证方法，旨在提升模型训练过程中的形式化验证效率。",
+   "why_zh": "模型对齐与形式化验证。掌握通过轻量级验证手段确保模型输出符合预期约束，是构建高可靠性 AI 系统的重要工程实践。"
+  },
+  "https://twitter.com/thsottiaux/status/2125784147889393806": {
+   "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+   "date": "2026-11-27",
+   "tokens": [
+    "25",
+    "40",
+    "astra",
+    "cuts",
+    "faster",
+    "gpt",
+    "hits",
+    "limits",
+    "openai",
+    "sol",
+    "usage"
+   ],
+   "source": "hackernews",
+   "summary_zh": "OpenAI 调整 GPT-6.2 使用策略，Astra 与 Sol 模型的使用限制分别收紧 40% 与 25%。",
+   "why_zh": "模型推理成本与资源调度。关注大模型服务商的配额限制策略，学习在受限资源环境下优化 Agent 调用频率与推理成本的工程经验。"
+  },
+  "https://huggingface.co/blog/training-swarms": {
+   "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+   "date": "2026-11-27",
+   "tokens": [
+    "agent",
+    "build",
+    "evaluate",
+    "flocks",
+    "gangs",
+    "multi",
+    "swarms",
+    "systems",
+    "train"
+   ],
+   "source": "blog",
+   "summary_zh": "HuggingFace 探讨了多智能体系统的构建、训练与评估方法，涵盖了从架构设计到性能度量的全链路开发流程。",
+   "why_zh": "多智能体协作架构设计。可学习如何通过模块化拆解复杂任务，并利用评估框架量化智能体间的交互效率。"
+  },
+  "https://github.com/antgroup/ai-vision": {
+   "title": "antgroup/ai-vision",
+   "date": "2026-11-27",
+   "tokens": [
+    "ai",
+    "antgroup",
+    "vision"
+   ],
+   "source": "github",
+   "summary_zh": "antgroup/ai-vision 提供了一套基于 OpenTelemetry 的 AI 智能体可观测性与诊断工具，支持追踪会话、模型调用及记忆状态。",
+   "why_zh": "AI 系统可观测性工程。掌握如何利用 OpenTelemetry 标准化埋点，实现生产环境智能体行为的链路追踪与故障诊断。"
+  },
+  "https://github.com/JosssphZhou/poki": {
+   "title": "JosssphZhou/poki",
+   "date": "2026-11-27",
+   "tokens": [
+    "josssphzhou",
+    "poki"
+   ],
+   "source": "github",
+   "summary_zh": "poki 是一款运行在 iPhone 上的开源智能体应用，通过屏幕读取与模拟点击、输入、滑动操作，实现手机端自动化交互。",
+   "why_zh": "端侧智能体开发。学习如何通过视觉识别与 UI 自动化接口，构建跨应用操作的移动端 Agent 交互逻辑。"
+  },
+  "https://www.youtube.com/watch?v=PY5d-_fycso": {
+   "title": "Deep Agents Tutorial: Learn It by Playing an Escape Room",
+   "date": "2026-11-27",
+   "tokens": [
+    "agents",
+    "deep",
+    "escape",
+    "learn",
+    "playing",
+    "room",
+    "tutorial"
+   ],
+   "source": "youtube",
+   "summary_zh": "LangChain Deep Agents 通过逃生游戏教学，展示了如何利用智能体框架管理上下文窗口、执行文件检索及人机协同决策。",
+   "why_zh": "智能体任务编排。学习如何通过上下文管理策略（如 grep 过滤）优化长任务执行，提升 Agent 在复杂环境下的鲁棒性。"
+  },
+  "https://www.youtube.com/watch?v=A4UNP-axGHU": {
+   "title": "How your dot can keep work moving while you’re away",
+   "date": "2026-11-27",
+   "tokens": [
+    "away",
+    "dot",
+    "keep",
+    "moving",
+    "re",
+    "while",
+    "work"
+   ],
+   "source": "youtube",
+   "summary_zh": "OpenAI 展示了如何利用智能体在用户离线期间监控项目进度、标记关键事项并辅助自动化工作流处理。",
+   "why_zh": "异步智能体工作流设计。学习如何构建具备状态监控与主动提醒功能的 Agent，实现人机协同的异步任务处理。"
+  },
+  "https://www.youtube.com/watch?v=AekKS44xBhI": {
+   "title": "What Are Subagents? Explained in 4 Minutes",
+   "date": "2026-11-27",
+   "tokens": [
+    "explained",
+    "minutes",
+    "subagents"
+   ],
+   "source": "youtube",
+   "summary_zh": "LangChain 解释了子智能体（Subagents）概念，通过在独立上下文窗口执行子任务并返回结果，减轻主智能体的上下文负担。",
+   "why_zh": "复杂任务拆解与上下文管理。掌握通过子智能体并行处理或后台卸载任务的模式，有效解决大模型上下文窗口受限的问题。"
+  },
+  "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench": {
+   "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+   "date": "2026-11-27",
+   "tokens": [
+    "amd",
+    "benchmark",
+    "cpp",
+    "dashboard",
+    "introducing",
+    "llama",
+    "radeon",
+    "ryzen"
+   ],
+   "source": "blog",
+   "summary_zh": "HuggingFace 发布了针对 AMD Ryzen 和 Radeon 硬件的 llama.cpp 基准测试仪表板，提供不同量化配置下的推理性能数据。",
+   "why_zh": "属于模型推理优化与硬件适配技能点，可学习如何通过基准测试评估异构计算平台在 LLM 推理任务中的吞吐量与延迟表现。"
+  },
+  "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin": {
+   "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+   "date": "2026-11-27",
+   "tokens": [
+    "building",
+    "data",
+    "faster",
+    "fine",
+    "inference",
+    "nemotron",
+    "open",
+    "parse",
+    "tuning"
+   ],
+   "source": "blog",
+   "summary_zh": "NVIDIA 发布 Nemotron 3.5 模型，通过开放数据集、微调策略及推理加速技术，提升了模型在特定任务中的解析能力与执行效率。",
+   "why_zh": "属于模型微调与推理加速技能点，可复用其数据清洗与高效推理架构设计思路，优化生产环境中的大模型落地效果。"
   }
  },
- "updated": "2026-11-25T18:21:53.047183+00:00"
+ "updated": "2026-11-26T18:03:19.745814+00:00"
 }

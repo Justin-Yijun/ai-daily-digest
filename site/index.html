@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>2026-11-26 · AI 前沿日报</title>
-<meta name="description" content="2026-11-26 AI / LLM / Agent 前沿日报">
+<title>2026-11-27 · AI 前沿日报</title>
+<meta name="description" content="2026-11-27 AI / LLM / Agent 前沿日报">
 <link rel="stylesheet" href="style.css">
 <link rel="alternate" type="application/rss+xml" title="AI 前沿日报" href="https://aivulcan.de5.net/feed.xml">
 </head>
@@ -19,142 +19,142 @@
 </div>
 </div>
 <p class="desc">每天自动采集 GitHub / YouTube / 博客 / 论文 / Hacker News 上关于 AI、LLM、Agent、Harness 的前沿动态，生成中文摘要。</p>
-<div class="stats"><span>今日 <b>20</b> 条</span><span>源 <b>5</b> 个</span><span>累计 <b>53</b> 期</span></div><nav><a href="">最新</a><a href="archive">归档</a><a href="feed.xml">RSS</a><a href="about">关于</a></nav>
+<div class="stats"><span>今日 <b>20</b> 条</span><span>源 <b>5</b> 个</span><span>累计 <b>54</b> 期</span></div><nav><a href="">最新</a><a href="archive">归档</a><a href="feed.xml">RSS</a><a href="about">关于</a></nav>
 </header>
-<h1>2026-11-26 日报</h1>
-<p class="meta">生成时间 2026-11-26 02:21 (CST) ｜ 共 20 条（新增 14 · 重复/相似 6）</p>
-<p class="meta">源命中数：GitHub 69 · YouTube 41 · 博客 80 · 论文 12 · Hacker News 10</p>
+<h1>2026-11-27 日报</h1>
+<p class="meta">生成时间 2026-11-27 02:03 (CST) ｜ 共 20 条（新增 14 · 重复/相似 6）</p>
+<p class="meta">源命中数：GitHub 70 · YouTube 41 · 博客 79 · 论文 24 · Hacker News 10</p>
 <h2>📌 今日精选 Top 6</h2>
-<article class="pick" data-src="hackernews">
-<h3><span class="num">01</span> <a href="https://news.ycombinator.com/item?id=50630809" target="_blank" rel="noopener">Ask HN: Anthropic is accusing my company of distilling. How can I prove I&#x27;m not?</a></h3>
-<p class="meta"><span class="tag src">Hacker News</span><span class="tag">🔥 423 分</span><span class="tag">💬 320</span><span class="date">11-25</span></p>
-<p class="sum">开发者回应 Anthropic 指控其 API 调用用于模型蒸馏，澄清仅使用自动化回归测试，寻求证明非蒸馏用途的方法。</p>
-<p class="why">为什么值得看：涉及 LLM API 合规与审计，可学习构建调用日志监控系统，以区分正常业务流量与潜在蒸馏行为。</p>
+<article class="pick" data-src="paper">
+<h3><span class="num">01</span> <a href="https://arxiv.org/abs/2611.33175" target="_blank" rel="noopener">Feature-Based Explainability of Transformer Scoring Models: A Fidelity-First Framework for Automated Writing Assessment</a></h3>
+<p class="meta"><span class="tag src">arXiv cs.CL</span><span class="tag">论文</span><span class="date">11-26</span></p>
+<p class="sum">提出一种基于特征的 Transformer 自动写作评分模型可解释性框架，通过优先保证解释忠实度来提升模型预测的透明度。</p>
+<p class="why">为什么值得看：模型可解释性与评估指标设计。学习如何通过后验解释方法量化特征重要性，适用于需要模型审计与决策归因的 AI 系统开发。</p>
 </article>
 <article class="pick" data-src="paper">
-<h3><span class="num">02</span> <a href="https://huggingface.co/papers/2611.32918" target="_blank" rel="noopener">InstructReplay: Replaying Assistant Turns to Preserve General Behavior During Factual Fine-Tuning</a></h3>
-<p class="meta"><span class="tag src">HF Daily Papers</span><span class="tag">👍 1</span><span class="date">11-24</span></p>
-<p class="sum">InstructReplay 提出重放助手轮次方法，在事实微调中保持通用能力，防止模型响应长度减半导致的性能下降。</p>
-<p class="why">为什么值得看：针对微调灾难性遗忘，可复用重放历史对话数据策略，在更新特定知识时保护指令遵循与推理基准。</p>
+<h3><span class="num">02</span> <a href="https://arxiv.org/abs/2611.33195" target="_blank" rel="noopener">Verified experience improves materials prediction with large language models</a></h3>
+<p class="meta"><span class="tag src">arXiv cs.CL</span><span class="tag">论文</span><span class="date">11-26</span></p>
+<p class="sum">引入验证经验反馈机制提升 LLM 在材料科学预测任务中的性能，通过检索增强与迭代循环弥补通用模型与专用模型的差距。</p>
+<p class="why">为什么值得看：RAG 与闭环反馈系统。学习如何将实验验证数据作为动态上下文注入 LLM，解决垂类领域模型在异构任务中表现不佳的问题。</p>
+</article>
+<article class="pick" data-src="github">
+<h3><span class="num">03</span> <a href="https://github.com/yzsind/mydb" target="_blank" rel="noopener">yzsind/mydb</a></h3>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 192</span><span class="tag">Rust</span><span class="tag">新建 2026-11-16</span><span class="date">11-17</span></p>
+<p class="sum">开源一款兼容 MySQL 的高性能 HTAP 数据库，内置原生 AI 检索功能，专为混合事务与分析负载及 AI Agent 应用设计。</p>
+<p class="why">为什么值得看：AI 基础设施与数据工程。了解如何将向量检索与传统数据库架构深度集成，优化 Agent 在处理大规模结构化数据时的响应效率。</p>
+</article>
+<article class="pick" data-src="github">
+<h3><span class="num">04</span> <a href="https://github.com/yijiejiang/kaogong-school" target="_blank" rel="noopener">yijiejiang/kaogong-school</a></h3>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 157</span><span class="tag">Python</span><span class="tag">新建 2026-11-16</span><span class="date">11-16</span></p>
+<p class="sum">构建本地优先的考公多智能体学习系统，集成 RAG 问答、知识挖掘与 AI 出卷改卷功能，实现全流程学情闭环。</p>
+<p class="why">为什么值得看：多智能体协作与本地化部署。学习如何编排多个 Agent 完成复杂业务流程，并利用 RAG 技术处理特定领域的长文本知识库。</p>
 </article>
 <article class="pick" data-src="hackernews">
-<h3><span class="num">03</span> <a href="https://greydanus.github.io/2026/11/12/pengpt/" target="_blank" rel="noopener">PenGPT: A Generative Transformer for Handwriting and Sketches</a></h3>
-<p class="meta"><span class="tag src">Hacker News</span><span class="tag">🔥 371 分</span><span class="tag">💬 69</span><span class="date">11-25</span></p>
-<p class="sum">PenGPT 是一款生成式 Transformer，专门用于手写和草图生成任务。</p>
-<p class="why">为什么值得看：涵盖视觉生成模型架构设计，可借鉴其 Transformer 结构处理非文本序列数据，实现笔迹预测生成。</p>
+<h3><span class="num">05</span> <a href="https://github.com/lsernau/grh-lean" target="_blank" rel="noopener">Much shorter version of GRH Lean verification from Anthropic</a></h3>
+<p class="meta"><span class="tag src">Hacker News</span><span class="tag">🔥 522 分</span><span class="tag">💬 333</span><span class="date">11-26</span></p>
+<p class="sum">Anthropic 发布更精简的 GRH Lean 验证方法，旨在提升模型训练过程中的形式化验证效率。</p>
+<p class="why">为什么值得看：模型对齐与形式化验证。掌握通过轻量级验证手段确保模型输出符合预期约束，是构建高可靠性 AI 系统的重要工程实践。</p>
 </article>
-<article class="pick" data-src="paper">
-<h3><span class="num">04</span> <a href="https://huggingface.co/papers/2611.30017" target="_blank" rel="noopener">OWE-Bench: A long-horizon benchmark for measuring real-world engineering</a></h3>
-<p class="meta"><span class="tag src">HF Daily Papers</span><span class="tag">👍 1</span><span class="date">11-23</span></p>
-<p class="sum">OWE-Bench 发布 26 个长程工程任务基准，涵盖软件、物理、ML 及科学计算领域，评估真实工程能力。</p>
-<p class="why">为什么值得看：针对长程复杂任务评估，可参考其领域专家构建的任务范式，测试 Agent 在多步推理中的鲁棒性。</p>
-</article>
-<article class="pick" data-src="github">
-<h3><span class="num">05</span> <a href="https://github.com/KaelLee335/enterprise-support-agent-v2" target="_blank" rel="noopener">KaelLee335/enterprise-support-agent-v2</a></h3>
-<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 142</span><span class="tag">Python</span><span class="tag">新建 2026-11-16</span><span class="date">11-16</span></p>
-<p class="sum">该 Python Agent 全栈项目演示电商售后场景，集成 FastAPI、LangGraph、Chroma RAG 及人工审批流。</p>
-<p class="why">为什么值得看：掌握企业级 Agent 架构，可复用 LangGraph 状态管理与 Chroma RAG 检索组合，处理多租户权限逻辑。</p>
-</article>
-<article class="pick" data-src="github">
-<h3><span class="num">06</span> <a href="https://github.com/pierridotite/mobile-agent-testers" target="_blank" rel="noopener">pierridotite/mobile-agent-testers</a></h3>
-<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 2225</span><span class="tag">Python</span><span class="tag">新建 2026-11-16</span><span class="date">11-17</span></p>
-<p class="sum">利用 GitHub 免费运行器并行执行 20 个 AI 测试代理，在模拟器和模拟器中检测移动端应用缺陷。</p>
-<p class="why">为什么值得看：涉及自动化测试管线，可复用多设备并行测试策略，结合 CI/CD 实现低成本大规模 UI 兼容性验证。</p>
+<article class="pick" data-src="hackernews">
+<h3><span class="num">06</span> <a href="https://twitter.com/thsottiaux/status/2125784147889393806" target="_blank" rel="noopener">OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster</a></h3>
+<p class="meta"><span class="tag src">Hacker News</span><span class="tag">🔥 426 分</span><span class="tag">💬 243</span><span class="date">11-26</span></p>
+<p class="sum">OpenAI 调整 GPT-6.2 使用策略，Astra 与 Sol 模型的使用限制分别收紧 40% 与 25%。</p>
+<p class="why">为什么值得看：模型推理成本与资源调度。关注大模型服务商的配额限制策略，学习在受限资源环境下优化 Agent 调用频率与推理成本的工程经验。</p>
 </article>
 <h2>🐙 GitHub（2）</h2>
 <article class="item" data-src="github">
-<h3><a href="https://github.com/jsabguy1-cpu/ai--manus" target="_blank" rel="noopener">jsabguy1-cpu/ai--manus</a></h3>
-<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 178</span><span class="tag">新建 2026-11-13</span><span class="date">11-13</span></p>
-<p class="sum">AI Manus 是一个通用 AI Agent 系统，支持在沙盒环境中运行多种工具和操作。</p>
-<p class="why">为什么值得看：Agent 系统架构设计。学习如何在隔离的沙盒环境中安全执行工具调用，提升 Agent 的任务执行鲁棒性。</p>
+<h3><a href="https://github.com/antgroup/ai-vision" target="_blank" rel="noopener">antgroup/ai-vision</a></h3>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 24</span><span class="tag">Python</span><span class="tag">新建 2026-11-13</span><span class="date">11-13</span></p>
+<p class="sum">antgroup/ai-vision 提供了一套基于 OpenTelemetry 的 AI 智能体可观测性与诊断工具，支持追踪会话、模型调用及记忆状态。</p>
+<p class="why">为什么值得看：AI 系统可观测性工程。掌握如何利用 OpenTelemetry 标准化埋点，实现生产环境智能体行为的链路追踪与故障诊断。</p>
 </article>
 <article class="item" data-src="github">
-<h3><a href="https://github.com/fedibenameur11/ai-manus" target="_blank" rel="noopener">fedibenameur11/ai-manus</a></h3>
-<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 141</span><span class="tag">Python</span><span class="tag">新建 2026-11-06</span><span class="date">11-07</span></p>
-<p class="sum">AI Manus 是一个通用 AI Agent 系统，支持在沙盒环境中运行多种工具和操作。</p>
-<p class="why">为什么值得看：Agent 系统架构设计。学习如何在隔离的沙盒环境中安全执行工具调用，提升 Agent 的任务执行鲁棒性。</p>
+<h3><a href="https://github.com/JosssphZhou/poki" target="_blank" rel="noopener">JosssphZhou/poki</a></h3>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 2139</span><span class="tag">Swift</span><span class="tag">新建 2026-11-05</span><span class="date">11-05</span></p>
+<p class="sum">poki 是一款运行在 iPhone 上的开源智能体应用，通过屏幕读取与模拟点击、输入、滑动操作，实现手机端自动化交互。</p>
+<p class="why">为什么值得看：端侧智能体开发。学习如何通过视觉识别与 UI 自动化接口，构建跨应用操作的移动端 Agent 交互逻辑。</p>
 </article>
 <h2>📺 YouTube（3）</h2>
 <article class="item" data-src="youtube">
-<h3><a href="https://www.youtube.com/watch?v=9mNnoPdT0q0" target="_blank" rel="noopener">How We Tested Jev as an Agent Eval Judge with LangSmith + Deep Agents</a></h3>
-<p class="meta"><span class="tag src">YouTube · LangChain</span><span class="tag">视频</span><span class="date">11-25</span></p>
-<p class="sum">LangChain 使用 LangSmith 存储 Agent 轨迹，对比 Jev 与 GPT-4o、Claude 3.5 Sonnet 等模型在 Agent 评估中的表现。</p>
-<p class="why">为什么值得看：Agent 评估体系。学习如何利用 LLM-as-a-Judge 评估 Agent 轨迹，并建立可复现的自动化评估基准。</p>
+<h3><a href="https://www.youtube.com/watch?v=PY5d-_fycso" target="_blank" rel="noopener">Deep Agents Tutorial: Learn It by Playing an Escape Room</a></h3>
+<p class="meta"><span class="tag src">YouTube · LangChain</span><span class="tag">视频</span><span class="date">11-26</span></p>
+<p class="sum">LangChain Deep Agents 通过逃生游戏教学，展示了如何利用智能体框架管理上下文窗口、执行文件检索及人机协同决策。</p>
+<p class="why">为什么值得看：智能体任务编排。学习如何通过上下文管理策略（如 grep 过滤）优化长任务执行，提升 Agent 在复杂环境下的鲁棒性。</p>
 </article>
 <article class="item" data-src="youtube">
-<h3><a href="https://www.youtube.com/watch?v=Mcet7uKf_c0" target="_blank" rel="noopener">Microsoft&#x27;s New MAI 2 Just Challenged the King of Efficiency</a></h3>
-<p class="meta"><span class="tag src">YouTube · bycloud</span><span class="tag">视频</span><span class="date">11-26</span></p>
-<p class="sum">Microsoft 发布 MAI-Base-2 模型，声称在预训练计算效率上比 DeepSeek 提升至多 12 倍。</p>
-<p class="why">为什么值得看：大模型训练优化。关注 Scaling Laws 与架构创新，理解如何通过计算效率优化在资源受限场景下提升模型性能。</p>
+<h3><a href="https://www.youtube.com/watch?v=A4UNP-axGHU" target="_blank" rel="noopener">How your dot can keep work moving while you’re away</a></h3>
+<p class="meta"><span class="tag src">YouTube · OpenAI</span><span class="tag">视频</span><span class="date">11-26</span></p>
+<p class="sum">OpenAI 展示了如何利用智能体在用户离线期间监控项目进度、标记关键事项并辅助自动化工作流处理。</p>
+<p class="why">为什么值得看：异步智能体工作流设计。学习如何构建具备状态监控与主动提醒功能的 Agent，实现人机协同的异步任务处理。</p>
 </article>
 <article class="item" data-src="youtube">
-<h3><a href="https://www.youtube.com/watch?v=T5ULj8VEJZo" target="_blank" rel="noopener">Don&#x27;t Call It a Decision Model: Allie Laabs on Jev and System One</a></h3>
-<p class="meta"><span class="tag src">YouTube · LangChain</span><span class="tag">视频</span><span class="date">11-25</span></p>
-<p class="sum">TypeSafe AI 提出 Jev 模型作为 System One 决策模型，主张通过拆解复杂决策任务来避免 Prompt 工程的过度复杂化。</p>
-<p class="why">为什么值得看：Prompt 工程与决策逻辑。学习如何将复杂任务拆解为原子化决策，从而降低模型推理的认知负担与错误率。</p>
+<h3><a href="https://www.youtube.com/watch?v=AekKS44xBhI" target="_blank" rel="noopener">What Are Subagents? Explained in 4 Minutes</a></h3>
+<p class="meta"><span class="tag src">YouTube · LangChain</span><span class="tag">视频</span><span class="date">11-26</span></p>
+<p class="sum">LangChain 解释了子智能体（Subagents）概念，通过在独立上下文窗口执行子任务并返回结果，减轻主智能体的上下文负担。</p>
+<p class="why">为什么值得看：复杂任务拆解与上下文管理。掌握通过子智能体并行处理或后台卸载任务的模式，有效解决大模型上下文窗口受限的问题。</p>
 </article>
 <h2>📝 博客（3）</h2>
 <article class="item" data-src="blog">
-<h3><a href="https://www.marktechpost.com/2026/11/24/meta-facebook-your-algorithm-llm-recommendations/" target="_blank" rel="noopener">Meet Facebook’s Your Algorithm: How Meta Turns Plain-Language Preferences Into Ranking</a></h3>
-<p class="meta"><span class="tag src">MarkTechPost</span><span class="tag">文章</span><span class="date">11-25</span></p>
-<p class="sum">Meta 通过 LLM 将自然语言偏好转化为 Feed 和 Reels 的排序信号，并结合多源检索、分层过滤及微调后的 LLM 重排序模型。</p>
-<p class="why">为什么值得看：推荐系统与 LLM 结合。掌握将用户意图转化为排序特征的工程实践，以及多阶段排序流水线的构建方法。</p>
+<h3><a href="https://huggingface.co/blog/training-swarms" target="_blank" rel="noopener">Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems</a></h3>
+<p class="meta"><span class="tag src">HuggingFace 博客</span><span class="tag">文章</span><span class="date">11-26</span></p>
+<p class="sum">HuggingFace 探讨了多智能体系统的构建、训练与评估方法，涵盖了从架构设计到性能度量的全链路开发流程。</p>
+<p class="why">为什么值得看：多智能体协作架构设计。可学习如何通过模块化拆解复杂任务，并利用评估框架量化智能体间的交互效率。</p>
 </article>
 <article class="item" data-src="blog">
-<h3><a href="https://huggingface.co/blog/inkling-2-mini-inference-hillclimb" target="_blank" rel="noopener">Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000</a></h3>
-<p class="meta"><span class="tag src">HuggingFace 博客</span><span class="tag">文章</span><span class="date">11-25</span></p>
-<p class="sum">Hill-climbing Inkling 2 Mini 模型在单张 RTX PRO 6000 显卡上实现推理，展示小型模型的高效部署方案。</p>
-<p class="why">为什么值得看：技能点：边缘设备推理优化；可复用做法：关注单卡限制下的模型量化与算子融合技术，提升部署密度。</p>
+<h3><a href="https://huggingface.co/blog/ggml-org/llamacpp-amd-bench" target="_blank" rel="noopener">Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon</a></h3>
+<p class="meta"><span class="tag src">HuggingFace 博客</span><span class="tag">文章</span><span class="date">11-26</span></p>
+<p class="sum">HuggingFace 发布了针对 AMD Ryzen 和 Radeon 硬件的 llama.cpp 基准测试仪表板，提供不同量化配置下的推理性能数据。</p>
+<p class="why">为什么值得看：属于模型推理优化与硬件适配技能点，可学习如何通过基准测试评估异构计算平台在 LLM 推理任务中的吞吐量与延迟表现。</p>
 </article>
 <article class="item" data-src="blog">
-<h3><a href="https://www.langchain.com/blog/the-agent-lake" target="_blank" rel="noopener">The Agent Lake</a></h3>
-<p class="meta"><span class="tag src">LangChain 博客</span><span class="tag">文章</span><span class="date">11-26</span></p>
-<p class="sum">提出 Agent Lake 概念，利用 LangSmith 从大规模 agent 轨迹中提取高价值数据，用于模型修复与微调。</p>
-<p class="why">为什么值得看：技能点：Agent 数据闭环；可复用做法：建立轨迹收集与筛选机制，将生产环境日志转化为训练集以提升模型性能。</p>
+<h3><a href="https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin" target="_blank" rel="noopener">Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference</a></h3>
+<p class="meta"><span class="tag src">HuggingFace 博客</span><span class="tag">文章</span><span class="date">11-26</span></p>
+<p class="sum">NVIDIA 发布 Nemotron 3.5 模型，通过开放数据集、微调策略及推理加速技术，提升了模型在特定任务中的解析能力与执行效率。</p>
+<p class="why">为什么值得看：属于模型微调与推理加速技能点，可复用其数据清洗与高效推理架构设计思路，优化生产环境中的大模型落地效果。</p>
 </article>
 <h2>🔁 重复 / 相似提醒（6）</h2>
 <blockquote><p>以下条目此前推荐过，或与历史条目高度相似，仅列出供参考。</p></blockquote>
 <article class="item" data-src="github">
-<h3><a href="https://github.com/mdiri-ai/SoduWork" target="_blank" rel="noopener">mdiri-ai/SoduWork</a></h3>
-<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 8069</span><span class="tag">JavaScript</span><span class="tag">新建 2026-10-29</span><span class="date">10-29</span></p>
-<p class="sum">SoduWork 是一个支持多 Agent 协作、多任务编排且可自托管的 AI 原生引擎，旨在为团队提供统一的 Agent 运行与管理基础设施。</p>
-<p class="why">为什么值得看：属于 Agent 编排与系统架构领域。可复用做法：学习如何设计多 Agent 协作的通信协议与任务调度机制，实现复杂业务流程的自动化闭环。</p>
-<p class="dup">🔁 已于 2026-11-25 推荐过</p>
-</article>
-<article class="item" data-src="github">
 <h3><a href="https://github.com/w01fb0ss/PiBot" target="_blank" rel="noopener">w01fb0ss/PiBot</a></h3>
-<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 587</span><span class="tag">TypeScript</span><span class="tag">新建 2026-11-21</span><span class="date">11-21</span></p>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 649</span><span class="tag">TypeScript</span><span class="tag">新建 2026-11-21</span><span class="date">11-21</span></p>
 <p class="sum">PiBot 是一个支持 macOS、Windows、Linux 及 Android 的本地优先 AI 智能体框架，集成了多智能体群聊、计算机操作、浏览器控制及 MCP 协议。</p>
 <p class="why">为什么值得看：属于端侧 Agent 开发，可学习如何构建跨平台本地 Agent 架构，以及如何集成 MCP 协议实现多工具协同。</p>
-<p class="dup">🔁 已于 2026-11-25 推荐过</p>
+<p class="dup">🔁 已于 2026-11-26 推荐过</p>
 </article>
 <article class="item" data-src="github">
-<h3><a href="https://github.com/ai-gateways/awesome-ai-gateways" target="_blank" rel="noopener">ai-gateways/awesome-ai-gateways</a></h3>
-<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 48</span><span class="tag">新建 2026-10-30</span><span class="date">10-30</span></p>
-<p class="sum">整理开源与商业 LLM 网关、MCP 网关、Agent 间通信网关及模型路由器的技术资源库。</p>
-<p class="why">为什么值得看：属于 AI 基础设施领域，可学习如何构建高可用、可观测的 LLM 中间件，掌握 Agent 架构中网关层面的流量调度与协议适配。</p>
-<p class="dup">🔁 已于 2026-11-25 推荐过</p>
+<h3><a href="https://github.com/mdiri-ai/SoduWork" target="_blank" rel="noopener">mdiri-ai/SoduWork</a></h3>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 8193</span><span class="tag">JavaScript</span><span class="tag">新建 2026-10-29</span><span class="date">10-29</span></p>
+<p class="sum">SoduWork 是一个支持多 Agent 协作、多任务编排且可自托管的 AI 原生引擎，旨在为团队提供统一的 Agent 运行与管理基础设施。</p>
+<p class="why">为什么值得看：属于 Agent 编排与系统架构领域。可复用做法：学习如何设计多 Agent 协作的通信协议与任务调度机制，实现复杂业务流程的自动化闭环。</p>
+<p class="dup">🔁 已于 2026-11-26 推荐过</p>
 </article>
 <article class="item" data-src="github">
 <h3><a href="https://github.com/XinaTian/MROffice" target="_blank" rel="noopener">XinaTian/MROffice</a></h3>
-<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 4540</span><span class="tag">TypeScript</span><span class="tag">新建 2026-11-10</span><span class="date">11-11</span></p>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 4370</span><span class="tag">TypeScript</span><span class="tag">新建 2026-11-10</span><span class="date">11-11</span></p>
 <p class="sum">MROffice 是一个开源 AI 办公套件，支持在浏览器中编辑 Word、Excel、PPT 及代码，并提供 MCP 服务供 Claude、ChatGPT 等 AI 模型直接操作文档。</p>
 <p class="why">为什么值得看：掌握 MCP 协议在复杂应用场景的落地，学习如何通过 MCP 将 AI 能力集成到传统文档编辑工作流中，提升 Agent 对结构化数据的操控能力。</p>
-<p class="dup">🔁 已于 2026-11-25 推荐过</p>
+<p class="dup">🔁 已于 2026-11-26 推荐过</p>
+</article>
+<article class="item" data-src="hackernews">
+<h3><a href="https://greydanus.github.io/2026/11/12/pengpt/" target="_blank" rel="noopener">PenGPT: A Generative Transformer for Handwriting and Sketches</a></h3>
+<p class="meta"><span class="tag src">Hacker News</span><span class="tag">🔥 401 分</span><span class="tag">💬 78</span><span class="date">11-25</span></p>
+<p class="sum">PenGPT 是一款生成式 Transformer，专门用于手写和草图生成任务。</p>
+<p class="why">为什么值得看：涵盖视觉生成模型架构设计，可借鉴其 Transformer 结构处理非文本序列数据，实现笔迹预测生成。</p>
+<p class="dup">🔁 已于 2026-11-26 推荐过</p>
 </article>
 <article class="item" data-src="github">
 <h3><a href="https://github.com/yanstd888/9routerx" target="_blank" rel="noopener">yanstd888/9routerx</a></h3>
-<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 271</span><span class="tag">Go</span><span class="tag">新建 2026-11-07</span><span class="date">11-07</span></p>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 276</span><span class="tag">Go</span><span class="tag">新建 2026-11-07</span><span class="date">11-07</span></p>
 <p class="sum">9RouterX 是一个 Go 语言编写的单二进制文件 LLM 网关，支持 155 个提供商、248 个模型，并具备 20-40% 的 Token 节省能力。</p>
 <p class="why">为什么值得看：LLM 工程化部署技能点。可复用做法：学习如何构建高性能路由层以实现多模型负载均衡、Token 压缩及统一的 API 接口封装。</p>
-<p class="dup">🔁 已于 2026-11-24 推荐过</p>
+<p class="dup">🔁 已于 2026-11-26 推荐过</p>
 </article>
 <article class="item" data-src="github">
 <h3><a href="https://github.com/Zleap-AI/SAG-Wiki" target="_blank" rel="noopener">Zleap-AI/SAG-Wiki</a></h3>
-<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 1686</span><span class="tag">Rust</span><span class="tag">新建 2026-10-18</span><span class="date">10-18</span></p>
+<p class="meta"><span class="tag src">GitHub</span><span class="tag">⭐ 1698</span><span class="tag">Rust</span><span class="tag">新建 2026-10-18</span><span class="date">10-18</span></p>
 <p class="sum">SAG-Wiki 提供了一个轻量级知识库方案，通过优化索引结构实现极速检索，旨在为人类用户及 AI Agent 提供高精度的知识获取能力。</p>
 <p class="why">为什么值得看：属于 RAG 系统优化领域，可学习其轻量级索引设计与高精度检索策略，用于提升 Agent 知识库的响应速度与准确率。</p>
-<p class="dup">🔁 已于 2026-11-19 推荐过</p>
+<p class="dup">🔁 已于 2026-11-26 推荐过</p>
 </article>
 <footer>
 <p>AI 前沿日报 · 由 GitHub Actions 每天 16:00 (CST) 自动生成 · 内容版权归原作者所有，链接均为原始出处</p>
