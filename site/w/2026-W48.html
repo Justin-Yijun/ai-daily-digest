@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>本周精选 2026-W48 · AI 前沿日报</title>
+<meta name="description" content="2026-11-23 ~ 2026-11-29 AI / LLM / Agent 本周精选">
+<link rel="stylesheet" href="../style.css">
+<link rel="alternate" type="application/rss+xml" title="AI 前沿日报" href="https://aivulcan.de5.net/feed.xml">
+</head>
+<body>
+<div class="wrap">
+<header class="site">
+<div class="brand">
+<span class="logo" aria-hidden="true"></span>
+<div class="titles">
+<p class="en">AI Frontier Digest</p>
+<h1><a href="../">AI 前沿日报</a></h1>
+</div>
+</div>
+<p class="desc">每天自动采集 GitHub / YouTube / 博客 / 论文 / Hacker News 上关于 AI、LLM、Agent、Harness 的前沿动态，生成中文摘要。</p>
+<div class="stats"><span>本期 <b>12</b> 条</span><span>累计 <b>8</b> 期</span></div><nav><a href="../">最新</a><a href="../archive">归档</a><a href="../feed.xml">RSS</a><a href="../about">关于</a></nav>
+</header>
+<h1>本周精选 · 2026-W48</h1>
+<p class="meta">覆盖 2026-11-23 ~ 2026-11-29　｜　共 12 条　｜　生成 2026-11-29 00:36 (CST)</p>
+<blockquote><p>按 Agent / AI 面试技能树归类，优先收录可复习、能讲出来的实践内容。</p></blockquote>
+<h2>🧠 提示 / 上下文工程（2）</h2>
+<article class="item" data-src="paper">
+<h3><a href="https://arxiv.org/abs/2611.33175" target="_blank" rel="noopener">Feature-Based Explainability of Transformer Scoring Models: A Fidelity-First Framework for Automated Writing Assessment</a></h3>
+<p class="meta"><span class="tag src">arXiv cs.CL</span><span class="tag">论文</span><span class="date">11-26</span></p>
+<p class="sum">提出一种基于特征的 Transformer 自动写作评分模型可解释性框架，通过优先保证解释忠实度来提升模型预测的透明度。</p>
+<p class="why">为什么值得看：模型可解释性与评估指标设计。学习如何通过后验解释方法量化特征重要性，适用于需要模型审计与决策归因的 AI 系统开发。</p>
+</article>
+<article class="item" data-src="youtube">
+<h3><a href="https://www.youtube.com/shorts/0wr3zk5gPRM" target="_blank" rel="noopener">The Complete LangChain Ecosystem Explained</a></h3>
+<p class="meta"><span class="tag src">YouTube · LangChain</span><span class="tag">视频</span><span class="date">11-24</span></p>
+<p class="sum">LangChain 生态系统已覆盖 Agent 开发全生命周期，LangGraph 提供基于节点与边的编排层，Deep Agents 提供内置总结与文件系统的开发框架。</p>
+<p class="why">为什么值得看：Agent 编排框架技能点。掌握如何利用图结构（Graph）实现复杂 Agent 的逻辑流控制与中间件定制。</p>
+</article>
+<h2>🧠 RAG 检索增强（4）</h2>
+<article class="item" data-src="paper">
+<h3><a href="https://arxiv.org/abs/2611.33195" target="_blank" rel="noopener">Verified experience improves materials prediction with large language models</a></h3>
+<p class="meta"><span class="tag src">arXiv cs.CL</span><span class="tag">论文</span><span class="date">11-26</span></p>
+<p class="sum">引入验证经验反馈机制提升 LLM 在材料科学预测任务中的性能，通过检索增强与迭代循环弥补通用模型与专用模型的差距。</p>
+<p class="why">为什么值得看：RAG 与闭环反馈系统。学习如何将实验验证数据作为动态上下文注入 LLM，解决垂类领域模型在异构任务中表现不佳的问题。</p>
+</article>
+<article class="item" data-src="paper">
+<h3><a href="https://huggingface.co/papers/2611.32918" target="_blank" rel="noopener">InstructReplay: Replaying Assistant Turns to Preserve General Behavior During Factual Fine-Tuning</a></h3>
+<p class="meta"><span class="tag src">HF Daily Papers</span><span class="tag">👍 1</span><span class="date">11-24</span></p>
+<p class="sum">InstructReplay 提出重放助手轮次方法，在事实微调中保持通用能力，防止模型响应长度减半导致的性能下降。</p>
+<p class="why">为什么值得看：针对微调灾难性遗忘，可复用重放历史对话数据策略，在更新特定知识时保护指令遵循与推理基准。</p>
+</article>
+<article class="item" data-src="blog">
+<h3><a href="https://www.marktechpost.com/2026/11/24/meta-facebook-your-algorithm-llm-recommendations/" target="_blank" rel="noopener">Meet Facebook’s Your Algorithm: How Meta Turns Plain-Language Preferences Into Ranking</a></h3>
+<p class="meta"><span class="tag src">MarkTechPost</span><span class="tag">文章</span><span class="date">11-25</span></p>
+<p class="sum">Meta 通过 LLM 将自然语言偏好转化为 Feed 和 Reels 的排序信号，并结合多源检索、分层过滤及微调后的 LLM 重排序模型。</p>
+<p class="why">为什么值得看：推荐系统与 LLM 结合。掌握将用户意图转化为排序特征的工程实践，以及多阶段排序流水线的构建方法。</p>
+</article>
+<article class="item" data-src="paper">
+<h3><a href="https://huggingface.co/papers/2611.30017" target="_blank" rel="noopener">OWE-Bench: A long-horizon benchmark for measuring real-world engineering</a></h3>
+<p class="meta"><span class="tag src">HF Daily Papers</span><span class="tag">👍 1</span><span class="date">11-23</span></p>
+<p class="sum">OWE-Bench 发布 26 个长程工程任务基准，涵盖软件、物理、ML 及科学计算领域，评估真实工程能力。</p>
+<p class="why">为什么值得看：针对长程复杂任务评估，可参考其领域专家构建的任务范式，测试 Agent 在多步推理中的鲁棒性。</p>
+</article>
+<h2>🧠 Agent 架构与循环（2）</h2>
+<article class="item" data-src="paper">
+<h3><a href="https://arxiv.org/abs/2611.26806" target="_blank" rel="noopener">MedicalRSI: Medical Recursive Self-Improving Agents via Clinical Model-Harness Co-Evolution</a></h3>
+<p class="meta"><span class="tag src">arXiv cs.CL</span><span class="tag">论文</span><span class="date">11-23</span></p>
+<p class="sum">MedicalRSI 提出了一种医疗递归自改进智能体框架，通过临床模型与评估工具的协同进化，实现医疗诊断经验的持续积累与错误修正。</p>
+<p class="why">为什么值得看：属于 Agent 自进化与强化学习，可学习如何构建闭环反馈系统，利用临床评估指标驱动模型性能的持续迭代。</p>
+</article>
+<article class="item" data-src="youtube">
+<h3><a href="https://www.youtube.com/watch?v=PY5d-_fycso" target="_blank" rel="noopener">Deep Agents Tutorial: Learn It by Playing an Escape Room</a></h3>
+<p class="meta"><span class="tag src">YouTube · LangChain</span><span class="tag">视频</span><span class="date">11-26</span></p>
+<p class="sum">LangChain Deep Agents 通过逃生游戏教学，展示了如何利用智能体框架管理上下文窗口、执行文件检索及人机协同决策。</p>
+<p class="why">为什么值得看：智能体任务编排。学习如何通过上下文管理策略（如 grep 过滤）优化长任务执行，提升 Agent 在复杂环境下的鲁棒性。</p>
+</article>
+<h2>🧠 多智能体协作（2）</h2>
+<article class="item" data-src="paper">
+<h3><a href="https://arxiv.org/abs/2611.26782" target="_blank" rel="noopener">ChatAtom: A Multi-Agent LLM System for Molecular Dynamics Simulation and Visualization</a></h3>
+<p class="meta"><span class="tag src">arXiv cs.AI</span><span class="tag">论文</span><span class="date">11-23</span></p>
+<p class="sum">ChatAtom 是一个多智能体 LLM 系统，通过自动化工作流实现分子动力学模拟的脚本生成、执行及结果可视化分析。</p>
+<p class="why">为什么值得看：属于多智能体协同与科学计算领域，可学习如何通过 Agent 编排复杂科研工作流，将专家经验转化为可执行的自动化任务。</p>
+</article>
+<article class="item" data-src="blog">
+<h3><a href="https://huggingface.co/blog/training-swarms" target="_blank" rel="noopener">Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems</a></h3>
+<p class="meta"><span class="tag src">HuggingFace 博客</span><span class="tag">文章</span><span class="date">11-26</span></p>
+<p class="sum">HuggingFace 探讨了多智能体系统的构建、训练与评估方法，涵盖了从架构设计到性能度量的全链路开发流程。</p>
+<p class="why">为什么值得看：多智能体协作架构设计。可学习如何通过模块化拆解复杂任务，并利用评估框架量化智能体间的交互效率。</p>
+</article>
+<h2>🧠 评测与可观测（2）</h2>
+<article class="item" data-src="paper">
+<h3><a href="https://arxiv.org/abs/2611.33303" target="_blank" rel="noopener">Certify What You Plant: Shortcut-Free Proof Depth in Logical Reasoning Data</a></h3>
+<p class="meta"><span class="tag src">arXiv cs.AI</span><span class="tag">论文</span><span class="date">11-27</span></p>
+<p class="sum">研究提出一种确保逻辑推理数据集中不存在“捷径”的方法，通过验证植入证明的唯一性，防止模型通过非逻辑路径获得正确答案。</p>
+<p class="why">为什么值得看：模型评估与数据工程技能点。学习如何通过控制推理深度与逻辑路径唯一性，构建高质量的推理基准测试集，避免模型过拟合捷径。</p>
+</article>
+<article class="item" data-src="paper">
+<h3><a href="https://arxiv.org/abs/2611.33197" target="_blank" rel="noopener">Extraneous Cognitive Load in Large Language Models</a></h3>
+<p class="meta"><span class="tag src">arXiv cs.CL</span><span class="tag">论文</span><span class="date">11-27</span></p>
+<p class="sum">引入认知负荷理论 (CLT) 分析 LLM，指出任务信息的呈现方式会产生无关认知负荷，从而显著影响模型的推理与执行性能。</p>
+<p class="why">为什么值得看：Prompt Engineering 与上下文优化技能点。学习通过优化输入信息的结构化呈现方式，降低模型的无关认知负荷，提升复杂任务的执行准确率。</p>
+</article>
+<footer>
+<p>AI 前沿日报 · 由 GitHub Actions 每天 16:00 (CST) 自动生成 · 内容版权归原作者所有，链接均为原始出处</p>
+</footer>
+</div>
+</body>
+</html>

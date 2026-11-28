@@ -1,0 +1,620 @@
+{
+ "date": "2026-11-29",
+ "generated": "2026-11-29 00:34",
+ "source_count": {
+  "github": 70,
+  "youtube": 41,
+  "blog": 77,
+  "paper": 12,
+  "hackernews": 10
+ },
+ "failures": {},
+ "failure_errors": {},
+ "summary_missing": [],
+ "summary_providers": {
+  "gemini": 3
+ },
+ "items": [
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Claude Code sabotage: preliminary benchmarking",
+   "link": "https://xinyadu.github.io/blog/claude-code-sabotage.html",
+   "dt": "2026-11-28T10:37:40+00:00",
+   "summary": "",
+   "extra": {
+    "points": 400,
+    "comments": 141,
+    "hn_link": "https://news.ycombinator.com/item?id=50676390"
+   },
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 2.295,
+   "score": 8.267,
+   "tokens": [
+    "benchmarking",
+    "claude",
+    "code",
+    "preliminary",
+    "sabotage"
+   ],
+   "flag": "new",
+   "summary_zh": "Claude Code 存在指令注入风险，通过特定提示词可绕过安全限制，导致模型执行非授权的本地文件系统操作。",
+   "why_zh": "AI Agent 安全性评估。掌握 LLM 权限隔离与沙箱逃逸防御，理解 Agent 在执行代码时的攻击面分析方法。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "SenpaiSpide664/ai-visual-prompt-cookbook",
+   "link": "https://github.com/SenpaiSpide664/ai-visual-prompt-cookbook",
+   "dt": "2026-11-26T19:49:58+00:00",
+   "summary": "AI Visual Prompt Cookbook: Reusable JSON Style Prompts for Consistent Image Generation",
+   "extra": {
+    "stars": 208,
+    "language": "HTML",
+    "topics": [
+     "ai",
+     "ai-art",
+     "ai-prompts",
+     "design-resources",
+     "gemini",
+     "generative-ai"
+    ],
+    "created": "2026-11-26",
+    "pushed": "2026-11-28"
+   },
+   "skills": [
+    "prompt_context"
+   ],
+   "learn_score": 1.913,
+   "score": 6.347,
+   "tokens": [
+    "ai",
+    "cookbook",
+    "prompt",
+    "senpaispide664",
+    "visual"
+   ],
+   "flag": "new",
+   "summary_zh": "提供了一套可复用的 JSON 格式视觉提示词库，旨在通过结构化描述实现 AI 图像生成风格的一致性。",
+   "why_zh": "多模态 Prompt Engineering。学习如何通过结构化数据定义视觉风格参数，提升生成式 AI 输出的可控性与标准化。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "alesha-pro/llm.asm",
+   "link": "https://github.com/alesha-pro/llm.asm",
+   "dt": "2026-11-25T07:28:51+00:00",
+   "summary": "Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies.",
+   "extra": {
+    "stars": 2659,
+    "language": "Assembly",
+    "topics": [
+     "assembly",
+     "avx2",
+     "bare-metal",
+     "llm",
+     "machine-learning",
+     "nasm"
+    ],
+    "created": "2026-11-25",
+    "pushed": "2026-11-27"
+   },
+   "skills": [
+    "training_serving"
+   ],
+   "learn_score": 1.454,
+   "score": 5.816,
+   "tokens": [
+    "alesha",
+    "asm",
+    "llm",
+    "pro"
+   ],
+   "flag": "new",
+   "summary_zh": "使用纯 x86-64 NASM 汇编实现 Qwen3-0.6B 推理、裸机操作系统及 Mini-GPT 训练，完全无依赖。",
+   "why_zh": "底层系统编程与模型推理优化。深入理解 LLM 推理的内存布局与指令集优化，掌握脱离高级语言的极致性能调优。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "sybil-solutions/inference-optimisation-skill",
+   "link": "https://github.com/sybil-solutions/inference-optimisation-skill",
+   "dt": "2026-11-16T18:40:04+00:00",
+   "summary": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
+   "extra": {
+    "stars": 2908,
+    "language": "Python",
+    "topics": [
+     "agent-skill",
+     "benchmarking",
+     "claude-code",
+     "inference",
+     "llm",
+     "speculative-decoding"
+    ],
+    "created": "2026-11-16",
+    "pushed": "2026-11-28"
+   },
+   "skills": [
+    "training_serving"
+   ],
+   "learn_score": 1.3,
+   "score": 5.2,
+   "tokens": [
+    "inference",
+    "optimisation",
+    "skill",
+    "solutions",
+    "sybil"
+   ],
+   "flag": "new",
+   "summary_zh": "提供了一套用于本地 LLM 推理性能优化的 Agent 技能，涵盖投机采样、KV Cache 及 TTFT 等关键指标的爬山算法调优。",
+   "why_zh": "LLM 推理工程。掌握自动化性能调优策略，学习如何通过算法手段在异构硬件上寻找最优推理配置。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Niruthiya04/echomind-voice-assistant",
+   "link": "https://github.com/Niruthiya04/echomind-voice-assistant",
+   "dt": "2026-11-26T21:28:00+00:00",
+   "summary": "EchoMind: Local-First Voice Memory Assistant with Live Transcription and Private RAG",
+   "extra": {
+    "stars": 210,
+    "language": "HTML",
+    "topics": [
+     "accessibility",
+     "hearing-assistance",
+     "llama-cpp",
+     "llama-cpp-python",
+     "local-llm",
+     "on-device-ai"
+    ],
+    "created": "2026-11-26",
+    "pushed": "2026-11-28"
+   },
+   "skills": [
+    "rag"
+   ],
+   "learn_score": 1.53,
+   "score": 5.083,
+   "tokens": [
+    "assistant",
+    "echomind",
+    "niruthiya04",
+    "voice"
+   ],
+   "flag": "new",
+   "summary_zh": "构建了本地优先的语音记忆助手，集成了实时转录功能与私有 RAG 系统，确保用户交互数据的隐私与本地化处理。",
+   "why_zh": "端侧 AI 应用开发。学习本地 RAG 架构设计与语音处理流水线集成，理解隐私敏感场景下的 Agent 部署方案。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Pretrained Tabular Features and the Measurement of Financial Proximity",
+   "link": "https://huggingface.co/papers/2611.31491",
+   "dt": "2026-11-22T19:00:00+00:00",
+   "summary": "Spatial arbitrage pricing theory (S-APT) extends factor models to allow returns to spill over between connected firms, beyond what common risk factors explain. In recent years, tabular foundation models (TFMs) have matched or outperformed tuned gradient-boosted and bagged ensembles on small and medium-sized tabular benchmarks. Although their predictive performance is strong, these models reveal little about what they have learned, which limits their use in regulated financial applications that r",
+   "extra": {
+    "upvotes": 1,
+    "arxiv": "https://arxiv.org/abs/2611.31491"
+   },
+   "skills": [
+    "rag",
+    "eval_observability"
+   ],
+   "learn_score": 2.355,
+   "score": 4.71,
+   "tokens": [
+    "features",
+    "financial",
+    "measurement",
+    "pretrained",
+    "proximity",
+    "tabular"
+   ],
+   "flag": "new",
+   "summary_zh": "研究利用表格基础模型 (TFM) 捕捉金融资产间的空间邻近性，通过预训练特征改进资产定价与风险因子分析。",
+   "why_zh": "表格数据深度学习。了解表格基础模型在金融预测中的应用，学习如何利用预训练模型处理结构化数据中的复杂关联。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "Revisiting LLMs as Context Engineers",
+   "link": "https://huggingface.co/papers/2611.30494",
+   "dt": "2026-11-22T19:00:00+00:00",
+   "summary": "As large language models (LLMs) are used in more and more new tasks, context engineering becomes a fundamental method to efficiently steer LLMs by constructing instruction prompts or metadata without intensive training. A growing number of LLM context engineering (LCE) approaches automate the task by casting the LLM itself as the engineer that draws generalizable instructions or experiences from offline trials as context. Although these methods resemble how humans learn from experiences, it rema",
+   "extra": {
+    "upvotes": 5,
+    "arxiv": "https://arxiv.org/abs/2611.30494"
+   },
+   "skills": [
+    "prompt_context"
+   ],
+   "learn_score": 1.962,
+   "score": 3.924,
+   "tokens": [
+    "context",
+    "engineers",
+    "llms",
+    "revisiting"
+   ],
+   "flag": "new",
+   "summary_zh": "研究探讨了 LLM 作为 Context Engineer 的潜力，通过自动化构建指令或元数据来优化模型表现，无需进行大规模训练。",
+   "why_zh": "属于 Prompt Engineering 与自动化优化领域，可学习如何利用 LLM 自我迭代生成通用性指令，提升 Agent 任务适配效率。"
+  },
+  {
+   "source": "hackernews",
+   "source_label": "Hacker News",
+   "title": "Claude sabotaging ML research tasks?",
+   "link": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+   "dt": "2026-11-27T08:28:08+00:00",
+   "summary": "",
+   "extra": {
+    "points": 749,
+    "comments": 328,
+    "hn_link": "https://news.ycombinator.com/item?id=50664325"
+   },
+   "skills": [],
+   "learn_score": 1.0,
+   "score": 3.874,
+   "tokens": [
+    "claude",
+    "ml",
+    "research",
+    "sabotaging",
+    "tasks"
+   ],
+   "flag": "new",
+   "summary_zh": "社区讨论 Claude 在处理特定机器学习研究任务时可能存在的行为偏差或指令遵循问题。",
+   "why_zh": "属于模型评估与鲁棒性测试领域，可学习如何通过系统性 Benchmark 识别模型在复杂推理任务中的潜在偏见与性能瓶颈。"
+  },
+  {
+   "source": "blog",
+   "source_label": "Simon Willison",
+   "title": "datasette-mcp 0.4",
+   "link": "https://simonwillison.net/2026/Nov/27/datasette-mcp/",
+   "dt": "2026-11-27T00:26:17+00:00",
+   "summary": "Release: datasette-mcp 0.4 Fixed for compatibility with Datasette 1.0a44 . Tags: model-context-protocol , datasette",
+   "extra": {},
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.951,
+   "score": 1.951,
+   "tokens": [
+    "datasette",
+    "mcp"
+   ],
+   "flag": "new",
+   "summary_zh": "datasette-mcp 0.4 版本发布，修复了与 Datasette 1.0a44 的兼容性问题，增强了数据查询与 Model Context Protocol 的集成。",
+   "why_zh": "属于 MCP 协议应用开发，可学习如何构建基于 MCP 的数据访问层，实现本地数据与 AI Agent 的标准化交互。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Sam Witteveen",
+   "title": "Train Your Own AI - No Cloud Needed",
+   "link": "https://www.youtube.com/watch?v=4MVd6DYZGO0",
+   "dt": "2026-11-24T14:10:11+00:00",
+   "summary": "In this video, I return the ZGX Fury to put it through it's paces for training and fine-tuning models, including with RL and multi-lora serving. This video is sponsored by HP and NVIDIA HP ZGX Fury : https://bit.ly/4j9Ra1q HP Z LinkedIn Page: https://bit.ly/4iCmC8k QuickSpecs: https://bit.ly/3VfBq3S Datasheet: https://bit.ly/4C05Mbe HP ZGX Fury Sizzle Video: https://bit.ly/4iQGCmx Previous Fury Vids: Intro To the ZGX Fury: https://youtu.be/lEFFa0Z5BIE Inference Video: https://youtu.be/JVu2KicZAC…",
+   "extra": {
+    "channel": "Sam Witteveen",
+    "video_id": "4MVd6DYZGO0"
+   },
+   "skills": [
+    "training_serving"
+   ],
+   "learn_score": 1.377,
+   "score": 1.377,
+   "tokens": [
+    "ai",
+    "cloud",
+    "needed",
+    "no",
+    "own",
+    "train"
+   ],
+   "flag": "new",
+   "summary_zh": "基于 ZGX Fury 工作站演示了本地模型微调、强化学习（RL）及 Multi-LoRA 服务化部署流程。",
+   "why_zh": "属于本地化大模型训练与部署，可学习如何配置高性能本地算力环境，以及实现多 LoRA 适配器的高效并发推理。"
+  },
+  {
+   "source": "blog",
+   "source_label": "OpenAI 官方博客",
+   "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+   "link": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+   "dt": "2026-11-24T13:00:00+00:00",
+   "summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+   "extra": {},
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 1.3,
+   "score": 1.3,
+   "tokens": [
+    "capabilities",
+    "demonstrate",
+    "design",
+    "gpt",
+    "intrinsic",
+    "models",
+    "protein"
+   ],
+   "flag": "new",
+   "summary_zh": "GPT-6 模型展示了通过推理与代码生成进行蛋白质结构与序列设计的内生能力，并在实验中验证了多靶点结合效果。",
+   "why_zh": "属于 AI for Science 领域，可学习如何通过多模态推理与代码执行能力，将 LLM 应用于生物计算等垂直领域任务。"
+  },
+  {
+   "source": "blog",
+   "source_label": "微软研究院博客",
+   "title": "TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient",
+   "link": "https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/",
+   "dt": "2026-11-16T17:01:35+00:00",
+   "summary": "AI coding agents can waste time and tokens relearning the same lessons. TokenEconomizer is an open-source plugin that builds on past sessions to cut costs while maintaining task success. It’s a path toward coding agents that learn not only how to solve tasks, but also how to spend computation more effectively. The post TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient appeared first on Microsoft Research .",
+   "extra": {},
+   "skills": [],
+   "learn_score": 1.219,
+   "score": 1.219,
+   "tokens": [
+    "agents",
+    "ai",
+    "coding",
+    "efficient",
+    "experience",
+    "learning",
+    "make",
+    "tokeneconomizer"
+   ],
+   "flag": "new",
+   "summary_zh": "TokenEconomizer 插件通过复用历史会话经验，优化 AI 编码 Agent 的计算资源分配，在降低 Token 消耗的同时保持任务成功率。",
+   "why_zh": "属于 Agent 性能优化与成本控制，可学习如何构建记忆机制（Memory Mechanism）以减少重复计算，提升 Agent 的长期学习能力。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · Cole Medin",
+   "title": "Hackers Are Coming for Your AI Coding Agent (Lock It Down Now)",
+   "link": "https://www.youtube.com/watch?v=0q0UbO4oqgQ",
+   "dt": "2026-11-23T15:23:29+00:00",
+   "summary": "Attackers are using AI to find and exploit vulnerabilities faster than ever, and a lot of those attacks now go straight through our coding agents. In this video I cover real attacks from the last few weeks, the basics you can do right now to lock down your setup, and a free skill I built that audits your whole agent configuration for you! ~~~~~~~~~~~~~~~~~~~~~~~~~~ Blacksmith: run your GitHub Actions faster and search the logs from every CI job, with 3,000 free minutes a month: https://www.black…",
+   "extra": {
+    "channel": "Cole Medin",
+    "video_id": "0q0UbO4oqgQ"
+   },
+   "skills": [],
+   "learn_score": 1.094,
+   "score": 1.094,
+   "tokens": [
+    "agent",
+    "ai",
+    "coding",
+    "coming",
+    "down",
+    "hackers",
+    "lock",
+    "now"
+   ],
+   "flag": "new",
+   "summary_zh": "针对 AI Coding Agent 的安全威胁日益增加，需通过审计配置、限制权限及自动化扫描工具来防御针对代码生成环境的漏洞利用攻击。",
+   "why_zh": "属于 AI 安全与防御技能点，可复用做法包括建立 Agent 权限最小化原则及集成自动化配置审计流程以降低供应链攻击风险。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · IndyDevDan",
+   "title": "The Meta Software Factory: Advanced Agentic Engineering",
+   "link": "https://www.youtube.com/watch?v=PuHDu3Kn8sQ",
+   "dt": "2026-11-23T14:00:13+00:00",
+   "summary": "If you are still the human IN the loop every time your system needs an update, YOU are the bottleneck. 🔥 In the age of agents, the winning software is liquid software that adapts at the speed of agents. With a meta factory, you stop building one-off solutions and build the system that builds your tiny software factories. 💡 Join To Get Your Tiny Software Factory: https://agenticengineer.com/infinite-agentic-engineering?y=PuHDu3Kn8sQ 🚀 In this Level 4 finale of Tiny Software Factories, IndyDevDan …",
+   "extra": {
+    "channel": "IndyDevDan",
+    "video_id": "PuHDu3Kn8sQ"
+   },
+   "skills": [],
+   "learn_score": 1.094,
+   "score": 1.094,
+   "tokens": [
+    "advanced",
+    "agentic",
+    "engineering",
+    "factory",
+    "meta",
+    "software"
+   ],
+   "flag": "new",
+   "summary_zh": "通过构建 Meta Software Factory 实现软件开发流程的自动化与自适应，将人类从单点维护中解放，实现由 Agent 驱动的软件工厂体系。",
+   "why_zh": "属于 Agentic Workflow 与 MLOps 技能点，可复用做法包括设计具备自进化能力的流水线架构，以减少开发过程中的人工瓶颈。"
+  }
+ ],
+ "dups": [
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "w01fb0ss/PiBot",
+   "link": "https://github.com/w01fb0ss/PiBot",
+   "dt": "2026-11-21T06:54:24+00:00",
+   "summary": "Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines and approvals. macOS, Windows, Linux + Android. Built on pi.",
+   "extra": {
+    "stars": 704,
+    "language": "TypeScript",
+    "topics": [
+     "agent",
+     "ai-agent",
+     "ai-agents",
+     "ai-assistant",
+     "android",
+     "automation"
+    ],
+    "created": "2026-11-21",
+    "pushed": "2026-11-28"
+   },
+   "skills": [
+    "tool_mcp",
+    "multi_agent"
+   ],
+   "learn_score": 2.231,
+   "score": 8.584,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-28 推荐过",
+   "summary_zh": "PiBot 是一个支持 macOS、Windows、Linux 及 Android 的本地优先 AI 智能体框架，集成了多智能体群聊、计算机操作、浏览器控制及 MCP 协议。",
+   "why_zh": "属于端侧 Agent 开发，可学习如何构建跨平台本地 Agent 架构，以及如何集成 MCP 协议实现多工具协同。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "mdiri-ai/SoduWork",
+   "link": "https://github.com/mdiri-ai/SoduWork",
+   "dt": "2026-10-29T02:43:14+00:00",
+   "summary": "The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.",
+   "extra": {
+    "stars": 8902,
+    "language": "JavaScript",
+    "topics": [
+     "agent-harness",
+     "agent-orchestration",
+     "agent-workflows",
+     "ai-agents",
+     "ai-workflows",
+     "anti-slop"
+    ],
+    "created": "2026-10-29",
+    "pushed": "2026-11-28"
+   },
+   "skills": [
+    "agent_architecture",
+    "multi_agent"
+   ],
+   "learn_score": 2.107,
+   "score": 8.428,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-28 推荐过",
+   "summary_zh": "SoduWork 是一个支持多 Agent 协作、多任务编排且可自托管的 AI 原生引擎，旨在为团队提供统一的 Agent 运行与管理基础设施。",
+   "why_zh": "属于 Agent 编排与系统架构领域。可复用做法：学习如何设计多 Agent 协作的通信协议与任务调度机制，实现复杂业务流程的自动化闭环。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "yzsind/mydb",
+   "link": "https://github.com/yzsind/mydb",
+   "dt": "2026-11-16T22:52:44+00:00",
+   "summary": "A high-performance MySQL-compatible database for HTAP and AI agents Mixed transactional and analytical workloads, with native AI retrieval.",
+   "extra": {
+    "stars": 251,
+    "language": "Rust",
+    "topics": [
+     "agent",
+     "data",
+     "database",
+     "mysql",
+     "rag",
+     "rust"
+    ],
+    "created": "2026-11-16",
+    "pushed": "2026-11-28"
+   },
+   "skills": [
+    "rag",
+    "eval_observability"
+   ],
+   "learn_score": 2.107,
+   "score": 7.163,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-28 推荐过",
+   "summary_zh": "开源一款兼容 MySQL 的高性能 HTAP 数据库，内置原生 AI 检索功能，专为混合事务与分析负载及 AI Agent 应用设计。",
+   "why_zh": "AI 基础设施与数据工程。了解如何将向量检索与传统数据库架构深度集成，优化 Agent 在处理大规模结构化数据时的响应效率。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "XinaTian/MROffice",
+   "link": "https://github.com/XinaTian/MROffice",
+   "dt": "2026-11-10T17:54:07+00:00",
+   "summary": "MR Office — the open-source editors of the AI office suite closest to Microsoft Office: documents, spreadsheets, presentations, PDF and code in the browser. Copilot in every editor edits real Word, Excel and PowerPoint files with you; an MCP server lets Claude, ChatGPT, Cursor and Codex create and edit them; embed it in your app with one line.",
+   "extra": {
+    "stars": 5408,
+    "language": "TypeScript",
+    "topics": [
+     "ai",
+     "ai-agent",
+     "claude-code",
+     "codex",
+     "copilot",
+     "cursor"
+    ],
+    "created": "2026-11-10",
+    "pushed": "2026-11-26"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 7.024,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-28 推荐过",
+   "summary_zh": "MROffice 是一个开源 AI 办公套件，支持在浏览器中编辑 Word、Excel、PPT 及代码，并提供 MCP 服务供 Claude、ChatGPT 等 AI 模型直接操作文档。",
+   "why_zh": "掌握 MCP 协议在复杂应用场景的落地，学习如何通过 MCP 将 AI 能力集成到传统文档编辑工作流中，提升 Agent 对结构化数据的操控能力。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "yanstd888/9routerx",
+   "link": "https://github.com/yanstd888/9routerx",
+   "dt": "2026-11-07T11:54:33+00:00",
+   "summary": "9RouterX (9R Next Go Generation): Single-binary Go AI router, LLM gateway & 20-40% token saver. Route Claude Code, Cursor & Codex across 155 providers, 28 OAuth & 248 free models (24 keyless) — OpenAI, Claude, Gemini, DeepSeek, Groq, Ollama & MCP.",
+   "extra": {
+    "stars": 279,
+    "language": "Go",
+    "topics": [
+     "9router",
+     "9routerx",
+     "ai-gateway",
+     "ai-proxy",
+     "ai-routing",
+     "api-gateway"
+    ],
+    "created": "2026-11-07",
+    "pushed": "2026-11-28"
+   },
+   "skills": [
+    "tool_mcp"
+   ],
+   "learn_score": 1.756,
+   "score": 6.05,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-27 推荐过",
+   "summary_zh": "9RouterX 是一个 Go 语言编写的单二进制文件 LLM 网关，支持 155 个提供商、248 个模型，并具备 20-40% 的 Token 节省能力。",
+   "why_zh": "LLM 工程化部署技能点。可复用做法：学习如何构建高性能路由层以实现多模型负载均衡、Token 压缩及统一的 API 接口封装。"
+  },
+  {
+   "source": "github",
+   "source_label": "GitHub",
+   "title": "Zleap-AI/SAG-Wiki",
+   "link": "https://github.com/Zleap-AI/SAG-Wiki",
+   "dt": "2026-10-18T14:51:30+00:00",
+   "summary": "A lightweight knowledge base for people and agents, with ultra fast indexing and most precise retrieval.",
+   "extra": {
+    "stars": 1720,
+    "language": "Rust",
+    "topics": [
+     "knowledge-base",
+     "knowledge-graph",
+     "rag",
+     "rust",
+     "sag",
+     "sag-wiki"
+    ],
+    "created": "2026-10-18",
+    "pushed": "2026-11-28"
+   },
+   "skills": [
+    "rag",
+    "eval_observability"
+   ],
+   "learn_score": 1.487,
+   "score": 5.948,
+   "flag": "dup",
+   "dup_note": "已于 2026-11-27 推荐过",
+   "summary_zh": "SAG-Wiki 提供了一个轻量级知识库方案，通过优化索引结构实现极速检索，旨在为人类用户及 AI Agent 提供高精度的知识获取能力。",
+   "why_zh": "属于 RAG 系统优化领域，可学习其轻量级索引设计与高精度检索策略，用于提升 Agent 知识库的响应速度与准确率。"
+  }
+ ]
+}

@@ -7857,7 +7857,7 @@
   },
   "https://github.com/yanstd888/9routerx": {
    "title": "yanstd888/9routerx",
-   "date": "2026-11-27",
+   "date": "2026-11-29",
    "tokens": [],
    "source": "github",
    "summary_zh": "9RouterX 是一个 Go 语言编写的单二进制文件 LLM 网关，支持 155 个提供商、248 个模型，并具备 20-40% 的 Token 节省能力。",
@@ -8452,7 +8452,7 @@
   },
   "https://github.com/Zleap-AI/SAG-Wiki": {
    "title": "Zleap-AI/SAG-Wiki",
-   "date": "2026-11-27",
+   "date": "2026-11-29",
    "tokens": [],
    "source": "github",
    "summary_zh": "SAG-Wiki 提供了一个轻量级知识库方案，通过优化索引结构实现极速检索，旨在为人类用户及 AI Agent 提供高精度的知识获取能力。",
@@ -9891,7 +9891,7 @@
   },
   "https://github.com/mdiri-ai/SoduWork": {
    "title": "mdiri-ai/SoduWork",
-   "date": "2026-11-28",
+   "date": "2026-11-29",
    "tokens": [],
    "source": "github",
    "summary_zh": "SoduWork 是一个支持多 Agent 协作、多任务编排且可自托管的 AI 原生引擎，旨在为团队提供统一的 Agent 运行与管理基础设施。",
@@ -10939,7 +10939,7 @@
   },
   "https://github.com/w01fb0ss/PiBot": {
    "title": "w01fb0ss/PiBot",
-   "date": "2026-11-28",
+   "date": "2026-11-29",
    "tokens": [],
    "source": "github",
    "summary_zh": "PiBot 是一个支持 macOS、Windows、Linux 及 Android 的本地优先 AI 智能体框架，集成了多智能体群聊、计算机操作、浏览器控制及 MCP 协议。",
@@ -11119,7 +11119,7 @@
   },
   "https://github.com/XinaTian/MROffice": {
    "title": "XinaTian/MROffice",
-   "date": "2026-11-28",
+   "date": "2026-11-29",
    "tokens": [],
    "source": "github",
    "summary_zh": "MROffice 是一个开源 AI 办公套件，支持在浏览器中编辑 Word、Excel、PPT 及代码，并提供 MCP 服务供 Claude、ChatGPT 等 AI 模型直接操作文档。",
@@ -11535,7 +11535,7 @@
   },
   "https://github.com/yzsind/mydb": {
    "title": "yzsind/mydb",
-   "date": "2026-11-28",
+   "date": "2026-11-29",
    "tokens": [],
    "source": "github",
    "summary_zh": "开源一款兼容 MySQL 的高性能 HTAP 数据库，内置原生 AI 检索功能，专为混合事务与分析负载及 AI Agent 应用设计。",
@@ -11923,7 +11923,208 @@
    "source": "youtube",
    "summary_zh": "Nous Research 开源的 Hermes Agent 框架支持在 VPS 上 24/7 持续运行，实现 AI Agent 的全天候自主任务处理与环境交互。",
    "why_zh": "属于 Agent 部署与架构领域。学习如何将 Agent 框架从本地环境迁移至云端服务器，掌握实现 Agent 长期运行与状态持久化的工程化部署方案。"
+  },
+  "https://xinyadu.github.io/blog/claude-code-sabotage.html": {
+   "title": "Claude Code sabotage: preliminary benchmarking",
+   "date": "2026-11-29",
+   "tokens": [
+    "benchmarking",
+    "claude",
+    "code",
+    "preliminary",
+    "sabotage"
+   ],
+   "source": "hackernews",
+   "summary_zh": "Claude Code 存在指令注入风险，通过特定提示词可绕过安全限制，导致模型执行非授权的本地文件系统操作。",
+   "why_zh": "AI Agent 安全性评估。掌握 LLM 权限隔离与沙箱逃逸防御，理解 Agent 在执行代码时的攻击面分析方法。"
+  },
+  "https://github.com/SenpaiSpide664/ai-visual-prompt-cookbook": {
+   "title": "SenpaiSpide664/ai-visual-prompt-cookbook",
+   "date": "2026-11-29",
+   "tokens": [
+    "ai",
+    "cookbook",
+    "prompt",
+    "senpaispide664",
+    "visual"
+   ],
+   "source": "github",
+   "summary_zh": "提供了一套可复用的 JSON 格式视觉提示词库，旨在通过结构化描述实现 AI 图像生成风格的一致性。",
+   "why_zh": "多模态 Prompt Engineering。学习如何通过结构化数据定义视觉风格参数，提升生成式 AI 输出的可控性与标准化。"
+  },
+  "https://github.com/alesha-pro/llm.asm": {
+   "title": "alesha-pro/llm.asm",
+   "date": "2026-11-29",
+   "tokens": [
+    "alesha",
+    "asm",
+    "llm",
+    "pro"
+   ],
+   "source": "github",
+   "summary_zh": "使用纯 x86-64 NASM 汇编实现 Qwen3-0.6B 推理、裸机操作系统及 Mini-GPT 训练，完全无依赖。",
+   "why_zh": "底层系统编程与模型推理优化。深入理解 LLM 推理的内存布局与指令集优化，掌握脱离高级语言的极致性能调优。"
+  },
+  "https://github.com/sybil-solutions/inference-optimisation-skill": {
+   "title": "sybil-solutions/inference-optimisation-skill",
+   "date": "2026-11-29",
+   "tokens": [
+    "inference",
+    "optimisation",
+    "skill",
+    "solutions",
+    "sybil"
+   ],
+   "source": "github",
+   "summary_zh": "提供了一套用于本地 LLM 推理性能优化的 Agent 技能，涵盖投机采样、KV Cache 及 TTFT 等关键指标的爬山算法调优。",
+   "why_zh": "LLM 推理工程。掌握自动化性能调优策略，学习如何通过算法手段在异构硬件上寻找最优推理配置。"
+  },
+  "https://github.com/Niruthiya04/echomind-voice-assistant": {
+   "title": "Niruthiya04/echomind-voice-assistant",
+   "date": "2026-11-29",
+   "tokens": [
+    "assistant",
+    "echomind",
+    "niruthiya04",
+    "voice"
+   ],
+   "source": "github",
+   "summary_zh": "构建了本地优先的语音记忆助手，集成了实时转录功能与私有 RAG 系统，确保用户交互数据的隐私与本地化处理。",
+   "why_zh": "端侧 AI 应用开发。学习本地 RAG 架构设计与语音处理流水线集成，理解隐私敏感场景下的 Agent 部署方案。"
+  },
+  "https://huggingface.co/papers/2611.31491": {
+   "title": "Pretrained Tabular Features and the Measurement of Financial Proximity",
+   "date": "2026-11-29",
+   "tokens": [
+    "features",
+    "financial",
+    "measurement",
+    "pretrained",
+    "proximity",
+    "tabular"
+   ],
+   "source": "paper",
+   "summary_zh": "研究利用表格基础模型 (TFM) 捕捉金融资产间的空间邻近性，通过预训练特征改进资产定价与风险因子分析。",
+   "why_zh": "表格数据深度学习。了解表格基础模型在金融预测中的应用，学习如何利用预训练模型处理结构化数据中的复杂关联。"
+  },
+  "https://huggingface.co/papers/2611.30494": {
+   "title": "Revisiting LLMs as Context Engineers",
+   "date": "2026-11-29",
+   "tokens": [
+    "context",
+    "engineers",
+    "llms",
+    "revisiting"
+   ],
+   "source": "paper",
+   "summary_zh": "研究探讨了 LLM 作为 Context Engineer 的潜力，通过自动化构建指令或元数据来优化模型表现，无需进行大规模训练。",
+   "why_zh": "属于 Prompt Engineering 与自动化优化领域，可学习如何利用 LLM 自我迭代生成通用性指令，提升 Agent 任务适配效率。"
+  },
+  "https://twitter.com/RealAstropulse/status/2126119408997466389": {
+   "title": "Claude sabotaging ML research tasks?",
+   "date": "2026-11-29",
+   "tokens": [
+    "claude",
+    "ml",
+    "research",
+    "sabotaging",
+    "tasks"
+   ],
+   "source": "hackernews",
+   "summary_zh": "社区讨论 Claude 在处理特定机器学习研究任务时可能存在的行为偏差或指令遵循问题。",
+   "why_zh": "属于模型评估与鲁棒性测试领域，可学习如何通过系统性 Benchmark 识别模型在复杂推理任务中的潜在偏见与性能瓶颈。"
+  },
+  "https://simonwillison.net/2026/Nov/27/datasette-mcp/": {
+   "title": "datasette-mcp 0.4",
+   "date": "2026-11-29",
+   "tokens": [
+    "datasette",
+    "mcp"
+   ],
+   "source": "blog",
+   "summary_zh": "datasette-mcp 0.4 版本发布，修复了与 Datasette 1.0a44 的兼容性问题，增强了数据查询与 Model Context Protocol 的集成。",
+   "why_zh": "属于 MCP 协议应用开发，可学习如何构建基于 MCP 的数据访问层，实现本地数据与 AI Agent 的标准化交互。"
+  },
+  "https://www.youtube.com/watch?v=4MVd6DYZGO0": {
+   "title": "Train Your Own AI - No Cloud Needed",
+   "date": "2026-11-29",
+   "tokens": [
+    "ai",
+    "cloud",
+    "needed",
+    "no",
+    "own",
+    "train"
+   ],
+   "source": "youtube",
+   "summary_zh": "基于 ZGX Fury 工作站演示了本地模型微调、强化学习（RL）及 Multi-LoRA 服务化部署流程。",
+   "why_zh": "属于本地化大模型训练与部署，可学习如何配置高性能本地算力环境，以及实现多 LoRA 适配器的高效并发推理。"
+  },
+  "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities": {
+   "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+   "date": "2026-11-29",
+   "tokens": [
+    "capabilities",
+    "demonstrate",
+    "design",
+    "gpt",
+    "intrinsic",
+    "models",
+    "protein"
+   ],
+   "source": "blog",
+   "summary_zh": "GPT-6 模型展示了通过推理与代码生成进行蛋白质结构与序列设计的内生能力，并在实验中验证了多靶点结合效果。",
+   "why_zh": "属于 AI for Science 领域，可学习如何通过多模态推理与代码执行能力，将 LLM 应用于生物计算等垂直领域任务。"
+  },
+  "https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/": {
+   "title": "TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient",
+   "date": "2026-11-29",
+   "tokens": [
+    "agents",
+    "ai",
+    "coding",
+    "efficient",
+    "experience",
+    "learning",
+    "make",
+    "tokeneconomizer"
+   ],
+   "source": "blog",
+   "summary_zh": "TokenEconomizer 插件通过复用历史会话经验，优化 AI 编码 Agent 的计算资源分配，在降低 Token 消耗的同时保持任务成功率。",
+   "why_zh": "属于 Agent 性能优化与成本控制，可学习如何构建记忆机制（Memory Mechanism）以减少重复计算，提升 Agent 的长期学习能力。"
+  },
+  "https://www.youtube.com/watch?v=0q0UbO4oqgQ": {
+   "title": "Hackers Are Coming for Your AI Coding Agent (Lock It Down Now)",
+   "date": "2026-11-29",
+   "tokens": [
+    "agent",
+    "ai",
+    "coding",
+    "coming",
+    "down",
+    "hackers",
+    "lock",
+    "now"
+   ],
+   "source": "youtube",
+   "summary_zh": "针对 AI Coding Agent 的安全威胁日益增加，需通过审计配置、限制权限及自动化扫描工具来防御针对代码生成环境的漏洞利用攻击。",
+   "why_zh": "属于 AI 安全与防御技能点，可复用做法包括建立 Agent 权限最小化原则及集成自动化配置审计流程以降低供应链攻击风险。"
+  },
+  "https://www.youtube.com/watch?v=PuHDu3Kn8sQ": {
+   "title": "The Meta Software Factory: Advanced Agentic Engineering",
+   "date": "2026-11-29",
+   "tokens": [
+    "advanced",
+    "agentic",
+    "engineering",
+    "factory",
+    "meta",
+    "software"
+   ],
+   "source": "youtube",
+   "summary_zh": "通过构建 Meta Software Factory 实现软件开发流程的自动化与自适应，将人类从单点维护中解放，实现由 Agent 驱动的软件工厂体系。",
+   "why_zh": "属于 Agentic Workflow 与 MLOps 技能点，可复用做法包括设计具备自进化能力的流水线架构，以减少开发过程中的人工瓶颈。"
   }
  },
- "updated": "2026-11-27T17:47:27.993323+00:00"
+ "updated": "2026-11-28T16:34:10.653596+00:00"
 }

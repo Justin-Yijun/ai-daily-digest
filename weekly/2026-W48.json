@@ -1,0 +1,768 @@
+{
+ "week": "2026-W48",
+ "start": "2026-11-23",
+ "end": "2026-11-29",
+ "generated": "2026-11-29 00:36",
+ "groups": [
+  {
+   "skill": "prompt_context",
+   "label": "提示 / 上下文工程",
+   "items": [
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.CL",
+     "title": "Feature-Based Explainability of Transformer Scoring Models: A Fidelity-First Framework for Automated Writing Assessment",
+     "link": "https://arxiv.org/abs/2611.33175",
+     "dt": "2026-11-26T00:00:00-05:00",
+     "summary": "arXiv:2611.33175v1 Announce Type: new Abstract: Transformer-based automated writing scoring models can achieve strong agreement with human scores while providing limited transparency into the response characteristics associated with their predictions. This study evaluated a feature-based post-hoc explanation approach in which explanatory fidelity was established before feature importance was interpreted. English Language Arts responses from three writing prompts in Grades 6 and 8 were analyzed, ",
+     "extra": {},
+     "weight_override": 1.3,
+     "skills": [
+      "prompt_context",
+      "eval_observability",
+      "llm_fundamentals"
+     ],
+     "learn_score": 4.177,
+     "score": 8.354,
+     "tokens": [
+      "assessment",
+      "automated",
+      "based",
+      "explainability",
+      "feature",
+      "fidelity",
+      "first",
+      "framework",
+      "models",
+      "scoring",
+      "transformer",
+      "writing"
+     ],
+     "flag": "new",
+     "summary_zh": "提出一种基于特征的 Transformer 自动写作评分模型可解释性框架，通过优先保证解释忠实度来提升模型预测的透明度。",
+     "why_zh": "模型可解释性与评估指标设计。学习如何通过后验解释方法量化特征重要性，适用于需要模型审计与决策归因的 AI 系统开发。"
+    },
+    {
+     "source": "youtube",
+     "source_label": "YouTube · LangChain",
+     "title": "The Complete LangChain Ecosystem Explained",
+     "link": "https://www.youtube.com/shorts/0wr3zk5gPRM",
+     "dt": "2026-11-23T20:52:13+00:00",
+     "summary": "LangChain shipped in October 2022 as an open-source project for chaining prompts and PDFs, and it now covers the whole agent development lifecycle. LangGraph is the orchestration layer, built on nodes and edges, while the LangChain framework gives you a tool-calling loop you customize with middleware. Deep Agents is a harness with summarization and file systems built in. LangSmith covers the harder part, getting an agent reliably to production. Evals test it before launch, and traces show what i…",
+     "extra": {
+      "channel": "LangChain",
+      "video_id": ""
+     },
+     "skills": [
+      "prompt_context",
+      "agent_architecture",
+      "multi_agent",
+      "eval_observability"
+     ],
+     "learn_score": 3.305,
+     "score": 3.305,
+     "tokens": [
+      "complete",
+      "ecosystem",
+      "explained",
+      "langchain"
+     ],
+     "flag": "new",
+     "summary_zh": "LangChain 生态系统已覆盖 Agent 开发全生命周期，LangGraph 提供基于节点与边的编排层，Deep Agents 提供内置总结与文件系统的开发框架。",
+     "why_zh": "Agent 编排框架技能点。掌握如何利用图结构（Graph）实现复杂 Agent 的逻辑流控制与中间件定制。"
+    }
+   ]
+  },
+  {
+   "skill": "rag",
+   "label": "RAG 检索增强",
+   "items": [
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.CL",
+     "title": "Verified experience improves materials prediction with large language models",
+     "link": "https://arxiv.org/abs/2611.33195",
+     "dt": "2026-11-26T00:00:00-05:00",
+     "summary": "arXiv:2611.33195v1 Announce Type: new Abstract: Materials discovery is an iterative loop: experiments and calculations verify predictions, and each outcome can inform the next. Yet most predictors are specialized single-task models fixed after training. Large language models have recently emerged as predictors across heterogeneous tasks but generally underperform specialized models, and retrieval-augmented variants discard their own outcomes. Benchmarks also score queries in isolation, leaving i",
+     "extra": {},
+     "weight_override": 1.3,
+     "skills": [
+      "rag",
+      "eval_observability"
+     ],
+     "learn_score": 3.58,
+     "score": 7.16,
+     "tokens": [
+      "experience",
+      "improves",
+      "language",
+      "large",
+      "materials",
+      "models",
+      "prediction",
+      "verified"
+     ],
+     "flag": "new",
+     "summary_zh": "引入验证经验反馈机制提升 LLM 在材料科学预测任务中的性能，通过检索增强与迭代循环弥补通用模型与专用模型的差距。",
+     "why_zh": "RAG 与闭环反馈系统。学习如何将实验验证数据作为动态上下文注入 LLM，解决垂类领域模型在异构任务中表现不佳的问题。"
+    },
+    {
+     "source": "paper",
+     "source_label": "HF Daily Papers",
+     "title": "InstructReplay: Replaying Assistant Turns to Preserve General Behavior During Factual Fine-Tuning",
+     "link": "https://huggingface.co/papers/2611.32918",
+     "dt": "2026-11-23T19:00:00+00:00",
+     "summary": "Fine-tuning an instruction-tuned language model on new facts often erodes its general abilities. We find that standard fine-tuning lowers instruction-following, reasoning and coding benchmarks by 35 points on average, and that these losses track a collapse in answer length: fine-tuned models at least halve their responses, and the further a response drifts from the initial model's length, the more often it fails. We propose InstructReplay: the initial model answers a set of general instructions ",
+     "extra": {
+      "upvotes": 1,
+      "arxiv": "https://arxiv.org/abs/2611.32918"
+     },
+     "skills": [
+      "rag",
+      "eval_observability",
+      "training_serving"
+     ],
+     "learn_score": 3.052,
+     "score": 6.104,
+     "tokens": [
+      "assistant",
+      "behavior",
+      "during",
+      "factual",
+      "fine",
+      "general",
+      "instructreplay",
+      "preserve",
+      "replaying",
+      "tuning",
+      "turns"
+     ],
+     "flag": "new",
+     "summary_zh": "InstructReplay 提出重放助手轮次方法，在事实微调中保持通用能力，防止模型响应长度减半导致的性能下降。",
+     "why_zh": "针对微调灾难性遗忘，可复用重放历史对话数据策略，在更新特定知识时保护指令遵循与推理基准。"
+    },
+    {
+     "source": "blog",
+     "source_label": "MarkTechPost",
+     "title": "Meet Facebook’s Your Algorithm: How Meta Turns Plain-Language Preferences Into Ranking",
+     "link": "https://www.marktechpost.com/2026/11/24/meta-facebook-your-algorithm-llm-recommendations/",
+     "dt": "2026-11-24T23:06:17+00:00",
+     "summary": "Meta's engineering team explains how Facebook's Your Algorithm turns plain-language interests into ranking signals for Feed and Reels, using LLM validation, 4 retrieval sources, layered filtering and a fine-tuned LLM reranker. The post Meet Facebook’s Your Algorithm: How Meta Turns Plain-Language Preferences Into Ranking appeared first on MarkTechPost .",
+     "extra": {},
+     "skills": [
+      "rag",
+      "eval_observability",
+      "training_serving"
+     ],
+     "learn_score": 2.731,
+     "score": 2.731,
+     "tokens": [
+      "algorithm",
+      "facebook",
+      "language",
+      "meet",
+      "meta",
+      "plain",
+      "preferences",
+      "ranking",
+      "turns"
+     ],
+     "flag": "new",
+     "summary_zh": "Meta 通过 LLM 将自然语言偏好转化为 Feed 和 Reels 的排序信号，并结合多源检索、分层过滤及微调后的 LLM 重排序模型。",
+     "why_zh": "推荐系统与 LLM 结合。掌握将用户意图转化为排序特征的工程实践，以及多阶段排序流水线的构建方法。"
+    },
+    {
+     "source": "paper",
+     "source_label": "HF Daily Papers",
+     "title": "OWE-Bench: A long-horizon benchmark for measuring real-world engineering",
+     "link": "https://huggingface.co/papers/2611.30017",
+     "dt": "2026-11-22T19:00:00+00:00",
+     "summary": "We present OWE-Bench (OpenWorldEngineer-Bench), a benchmark of 26 long-horizon engineering tasks written by domain experts in software engineering, physical engineering, machine learning, and scientific computing. Tasks range from optimizing kernels and designing an aircraft, to identifying the faults responsible for an earthquake. Each task requires significant domain knowledge and engineering work, with models averaging hundreds of millions of tokens per task. Solutions are scored on practical",
+     "extra": {
+      "upvotes": 1,
+      "arxiv": "https://arxiv.org/abs/2611.30017"
+     },
+     "skills": [
+      "rag",
+      "eval_observability"
+     ],
+     "learn_score": 2.485,
+     "score": 4.97,
+     "tokens": [
+      "bench",
+      "benchmark",
+      "engineering",
+      "horizon",
+      "long",
+      "measuring",
+      "owe",
+      "real",
+      "world"
+     ],
+     "flag": "new",
+     "summary_zh": "OWE-Bench 发布 26 个长程工程任务基准，涵盖软件、物理、ML 及科学计算领域，评估真实工程能力。",
+     "why_zh": "针对长程复杂任务评估，可参考其领域专家构建的任务范式，测试 Agent 在多步推理中的鲁棒性。"
+    }
+   ]
+  },
+  {
+   "skill": "agent_architecture",
+   "label": "Agent 架构与循环",
+   "items": [
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.CL",
+     "title": "MedicalRSI: Medical Recursive Self-Improving Agents via Clinical Model-Harness Co-Evolution",
+     "link": "https://arxiv.org/abs/2611.26806",
+     "dt": "2026-11-23T00:00:00-05:00",
+     "summary": "arXiv:2611.26806v1 Announce Type: new Abstract: Medical agents built on large language models (LLMs) have advanced rapidly, yet most stay fixed once deployed and do not keep using their experience to improve later attempts. As a result, the same kind of error can recur across patients. To address this, existing self-improvement methods update an agent's weights or its medical harness from its own experience, but their improving strategy stays fixed and never learns which changes actually help, w",
+     "extra": {},
+     "weight_override": 1.3,
+     "skills": [
+      "agent_architecture"
+     ],
+     "learn_score": 2.983,
+     "score": 5.966,
+     "tokens": [
+      "agents",
+      "clinical",
+      "co",
+      "evolution",
+      "harness",
+      "improving",
+      "medical",
+      "medicalrsi",
+      "model",
+      "recursive",
+      "self"
+     ],
+     "flag": "new",
+     "summary_zh": "MedicalRSI 提出了一种医疗递归自改进智能体框架，通过临床模型与评估工具的协同进化，实现医疗诊断经验的持续积累与错误修正。",
+     "why_zh": "属于 Agent 自进化与强化学习，可学习如何构建闭环反馈系统，利用临床评估指标驱动模型性能的持续迭代。"
+    },
+    {
+     "source": "youtube",
+     "source_label": "YouTube · LangChain",
+     "title": "Deep Agents Tutorial: Learn It by Playing an Escape Room",
+     "link": "https://www.youtube.com/watch?v=PY5d-_fycso",
+     "dt": "2026-11-25T19:30:32+00:00",
+     "summary": "Jess Weng from LangChain Academy plays an escape room video game that teaches Deep Agents, LangChain's open-source agent harness, as you go. Polly, a deep agent, helps her find the password to a haunted manor where every room is a folder and every object is a file, and each clue turns on something the harness does, from grep keeping the context window clear to asking a human before opening a risky trunk. In the second half, Jess walks through each concept from the game and how it works in Deep A…",
+     "extra": {
+      "channel": "LangChain",
+      "video_id": "PY5d-_fycso"
+     },
+     "skills": [
+      "agent_architecture"
+     ],
+     "learn_score": 2.582,
+     "score": 2.582,
+     "tokens": [
+      "agents",
+      "deep",
+      "escape",
+      "learn",
+      "playing",
+      "room",
+      "tutorial"
+     ],
+     "flag": "new",
+     "summary_zh": "LangChain Deep Agents 通过逃生游戏教学，展示了如何利用智能体框架管理上下文窗口、执行文件检索及人机协同决策。",
+     "why_zh": "智能体任务编排。学习如何通过上下文管理策略（如 grep 过滤）优化长任务执行，提升 Agent 在复杂环境下的鲁棒性。"
+    }
+   ]
+  },
+  {
+   "skill": "multi_agent",
+   "label": "多智能体协作",
+   "items": [
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.AI",
+     "title": "ChatAtom: A Multi-Agent LLM System for Molecular Dynamics Simulation and Visualization",
+     "link": "https://arxiv.org/abs/2611.26782",
+     "dt": "2026-11-23T00:00:00-05:00",
+     "summary": "arXiv:2611.26782v1 Announce Type: new Abstract: Molecular dynamics (MD) simulation resolves atomic-scale motion and predicts the structural, mechanical, and dynamic properties of materials, making it cen- tral to materials design and discovery. Yet an MD study requires an expert-driven workflow: designing the simulation, writing reliable input scripts, executing them, and analyzing the results with separate tools. Here we present ChatAtom, a multi-agent large language model system that translate",
+     "extra": {},
+     "weight_override": 1.3,
+     "skills": [
+      "multi_agent",
+      "system_design"
+     ],
+     "learn_score": 4.475,
+     "score": 8.95,
+     "tokens": [
+      "agent",
+      "chatatom",
+      "dynamics",
+      "llm",
+      "molecular",
+      "multi",
+      "simulation",
+      "system",
+      "visualization"
+     ],
+     "flag": "new",
+     "summary_zh": "ChatAtom 是一个多智能体 LLM 系统，通过自动化工作流实现分子动力学模拟的脚本生成、执行及结果可视化分析。",
+     "why_zh": "属于多智能体协同与科学计算领域，可学习如何通过 Agent 编排复杂科研工作流，将专家经验转化为可执行的自动化任务。"
+    },
+    {
+     "source": "blog",
+     "source_label": "HuggingFace 博客",
+     "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+     "link": "https://huggingface.co/blog/training-swarms",
+     "dt": "2026-11-26T00:00:00+00:00",
+     "summary": "",
+     "extra": {},
+     "skills": [
+      "multi_agent",
+      "eval_observability",
+      "system_design"
+     ],
+     "learn_score": 3.414,
+     "score": 3.414,
+     "tokens": [
+      "agent",
+      "build",
+      "evaluate",
+      "flocks",
+      "gangs",
+      "multi",
+      "swarms",
+      "systems",
+      "train"
+     ],
+     "flag": "new",
+     "summary_zh": "HuggingFace 探讨了多智能体系统的构建、训练与评估方法，涵盖了从架构设计到性能度量的全链路开发流程。",
+     "why_zh": "多智能体协作架构设计。可学习如何通过模块化拆解复杂任务，并利用评估框架量化智能体间的交互效率。"
+    }
+   ]
+  },
+  {
+   "skill": "eval_observability",
+   "label": "评测与可观测",
+   "items": [
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.AI",
+     "title": "Certify What You Plant: Shortcut-Free Proof Depth in Logical Reasoning Data",
+     "link": "https://arxiv.org/abs/2611.33303",
+     "dt": "2026-11-27T00:00:00-05:00",
+     "summary": "arXiv:2611.33303v1 Announce Type: new Abstract: Procedurally generated logic problems are used to both evaluate and train reasoning in language models. Their difficulty is usually set by planting a proof, that is, by sampling a proof of the desired depth and stating its premises as the problem. However, a planted proof is only one possible proof. A problem can also have shorter proofs, or several unrelated ones, and its stated depth then overstates what solving it requires. We measure what a pro",
+     "extra": {},
+     "weight_override": 1.3,
+     "skills": [
+      "eval_observability"
+     ],
+     "learn_score": 2.983,
+     "score": 5.966,
+     "tokens": [
+      "certify",
+      "data",
+      "depth",
+      "free",
+      "logical",
+      "plant",
+      "proof",
+      "reasoning",
+      "shortcut"
+     ],
+     "flag": "new",
+     "summary_zh": "研究提出一种确保逻辑推理数据集中不存在“捷径”的方法，通过验证植入证明的唯一性，防止模型通过非逻辑路径获得正确答案。",
+     "why_zh": "模型评估与数据工程技能点。学习如何通过控制推理深度与逻辑路径唯一性，构建高质量的推理基准测试集，避免模型过拟合捷径。"
+    },
+    {
+     "source": "paper",
+     "source_label": "arXiv cs.CL",
+     "title": "Extraneous Cognitive Load in Large Language Models",
+     "link": "https://arxiv.org/abs/2611.33197",
+     "dt": "2026-11-27T00:00:00-05:00",
+     "summary": "arXiv:2611.33197v1 Announce Type: new Abstract: Cognitive Load Theory (CLT) shows that human problem-solving is affected by both intrinsic load, arising from task difficulty, and extraneous load, arising from how task information is presented. Large language models (LLMs) show analogous effects: presentation alone can affect model performance, but these effects have not yet been systematically isolated from task difficulty. To address this gap, we introduce CogLoadBench, a controlled benchmark t",
+     "extra": {},
+     "weight_override": 1.3,
+     "skills": [
+      "eval_observability"
+     ],
+     "learn_score": 2.983,
+     "score": 5.966,
+     "tokens": [
+      "cognitive",
+      "extraneous",
+      "language",
+      "large",
+      "load",
+      "models"
+     ],
+     "flag": "new",
+     "summary_zh": "引入认知负荷理论 (CLT) 分析 LLM，指出任务信息的呈现方式会产生无关认知负荷，从而显著影响模型的推理与执行性能。",
+     "why_zh": "Prompt Engineering 与上下文优化技能点。学习通过优化输入信息的结构化呈现方式，降低模型的无关认知负荷，提升复杂任务的执行准确率。"
+    }
+   ]
+  }
+ ],
+ "items": [
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "ChatAtom: A Multi-Agent LLM System for Molecular Dynamics Simulation and Visualization",
+   "link": "https://arxiv.org/abs/2611.26782",
+   "dt": "2026-11-23T00:00:00-05:00",
+   "summary": "arXiv:2611.26782v1 Announce Type: new Abstract: Molecular dynamics (MD) simulation resolves atomic-scale motion and predicts the structural, mechanical, and dynamic properties of materials, making it cen- tral to materials design and discovery. Yet an MD study requires an expert-driven workflow: designing the simulation, writing reliable input scripts, executing them, and analyzing the results with separate tools. Here we present ChatAtom, a multi-agent large language model system that translate",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "multi_agent",
+    "system_design"
+   ],
+   "learn_score": 4.475,
+   "score": 8.95,
+   "tokens": [
+    "agent",
+    "chatatom",
+    "dynamics",
+    "llm",
+    "molecular",
+    "multi",
+    "simulation",
+    "system",
+    "visualization"
+   ],
+   "flag": "new",
+   "summary_zh": "ChatAtom 是一个多智能体 LLM 系统，通过自动化工作流实现分子动力学模拟的脚本生成、执行及结果可视化分析。",
+   "why_zh": "属于多智能体协同与科学计算领域，可学习如何通过 Agent 编排复杂科研工作流，将专家经验转化为可执行的自动化任务。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.CL",
+   "title": "Feature-Based Explainability of Transformer Scoring Models: A Fidelity-First Framework for Automated Writing Assessment",
+   "link": "https://arxiv.org/abs/2611.33175",
+   "dt": "2026-11-26T00:00:00-05:00",
+   "summary": "arXiv:2611.33175v1 Announce Type: new Abstract: Transformer-based automated writing scoring models can achieve strong agreement with human scores while providing limited transparency into the response characteristics associated with their predictions. This study evaluated a feature-based post-hoc explanation approach in which explanatory fidelity was established before feature importance was interpreted. English Language Arts responses from three writing prompts in Grades 6 and 8 were analyzed, ",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "prompt_context",
+    "eval_observability",
+    "llm_fundamentals"
+   ],
+   "learn_score": 4.177,
+   "score": 8.354,
+   "tokens": [
+    "assessment",
+    "automated",
+    "based",
+    "explainability",
+    "feature",
+    "fidelity",
+    "first",
+    "framework",
+    "models",
+    "scoring",
+    "transformer",
+    "writing"
+   ],
+   "flag": "new",
+   "summary_zh": "提出一种基于特征的 Transformer 自动写作评分模型可解释性框架，通过优先保证解释忠实度来提升模型预测的透明度。",
+   "why_zh": "模型可解释性与评估指标设计。学习如何通过后验解释方法量化特征重要性，适用于需要模型审计与决策归因的 AI 系统开发。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.CL",
+   "title": "Verified experience improves materials prediction with large language models",
+   "link": "https://arxiv.org/abs/2611.33195",
+   "dt": "2026-11-26T00:00:00-05:00",
+   "summary": "arXiv:2611.33195v1 Announce Type: new Abstract: Materials discovery is an iterative loop: experiments and calculations verify predictions, and each outcome can inform the next. Yet most predictors are specialized single-task models fixed after training. Large language models have recently emerged as predictors across heterogeneous tasks but generally underperform specialized models, and retrieval-augmented variants discard their own outcomes. Benchmarks also score queries in isolation, leaving i",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "rag",
+    "eval_observability"
+   ],
+   "learn_score": 3.58,
+   "score": 7.16,
+   "tokens": [
+    "experience",
+    "improves",
+    "language",
+    "large",
+    "materials",
+    "models",
+    "prediction",
+    "verified"
+   ],
+   "flag": "new",
+   "summary_zh": "引入验证经验反馈机制提升 LLM 在材料科学预测任务中的性能，通过检索增强与迭代循环弥补通用模型与专用模型的差距。",
+   "why_zh": "RAG 与闭环反馈系统。学习如何将实验验证数据作为动态上下文注入 LLM，解决垂类领域模型在异构任务中表现不佳的问题。"
+  },
+  {
+   "source": "blog",
+   "source_label": "HuggingFace 博客",
+   "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+   "link": "https://huggingface.co/blog/training-swarms",
+   "dt": "2026-11-26T00:00:00+00:00",
+   "summary": "",
+   "extra": {},
+   "skills": [
+    "multi_agent",
+    "eval_observability",
+    "system_design"
+   ],
+   "learn_score": 3.414,
+   "score": 3.414,
+   "tokens": [
+    "agent",
+    "build",
+    "evaluate",
+    "flocks",
+    "gangs",
+    "multi",
+    "swarms",
+    "systems",
+    "train"
+   ],
+   "flag": "new",
+   "summary_zh": "HuggingFace 探讨了多智能体系统的构建、训练与评估方法，涵盖了从架构设计到性能度量的全链路开发流程。",
+   "why_zh": "多智能体协作架构设计。可学习如何通过模块化拆解复杂任务，并利用评估框架量化智能体间的交互效率。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "The Complete LangChain Ecosystem Explained",
+   "link": "https://www.youtube.com/shorts/0wr3zk5gPRM",
+   "dt": "2026-11-23T20:52:13+00:00",
+   "summary": "LangChain shipped in October 2022 as an open-source project for chaining prompts and PDFs, and it now covers the whole agent development lifecycle. LangGraph is the orchestration layer, built on nodes and edges, while the LangChain framework gives you a tool-calling loop you customize with middleware. Deep Agents is a harness with summarization and file systems built in. LangSmith covers the harder part, getting an agent reliably to production. Evals test it before launch, and traces show what i…",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": ""
+   },
+   "skills": [
+    "prompt_context",
+    "agent_architecture",
+    "multi_agent",
+    "eval_observability"
+   ],
+   "learn_score": 3.305,
+   "score": 3.305,
+   "tokens": [
+    "complete",
+    "ecosystem",
+    "explained",
+    "langchain"
+   ],
+   "flag": "new",
+   "summary_zh": "LangChain 生态系统已覆盖 Agent 开发全生命周期，LangGraph 提供基于节点与边的编排层，Deep Agents 提供内置总结与文件系统的开发框架。",
+   "why_zh": "Agent 编排框架技能点。掌握如何利用图结构（Graph）实现复杂 Agent 的逻辑流控制与中间件定制。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "InstructReplay: Replaying Assistant Turns to Preserve General Behavior During Factual Fine-Tuning",
+   "link": "https://huggingface.co/papers/2611.32918",
+   "dt": "2026-11-23T19:00:00+00:00",
+   "summary": "Fine-tuning an instruction-tuned language model on new facts often erodes its general abilities. We find that standard fine-tuning lowers instruction-following, reasoning and coding benchmarks by 35 points on average, and that these losses track a collapse in answer length: fine-tuned models at least halve their responses, and the further a response drifts from the initial model's length, the more often it fails. We propose InstructReplay: the initial model answers a set of general instructions ",
+   "extra": {
+    "upvotes": 1,
+    "arxiv": "https://arxiv.org/abs/2611.32918"
+   },
+   "skills": [
+    "rag",
+    "eval_observability",
+    "training_serving"
+   ],
+   "learn_score": 3.052,
+   "score": 6.104,
+   "tokens": [
+    "assistant",
+    "behavior",
+    "during",
+    "factual",
+    "fine",
+    "general",
+    "instructreplay",
+    "preserve",
+    "replaying",
+    "tuning",
+    "turns"
+   ],
+   "flag": "new",
+   "summary_zh": "InstructReplay 提出重放助手轮次方法，在事实微调中保持通用能力，防止模型响应长度减半导致的性能下降。",
+   "why_zh": "针对微调灾难性遗忘，可复用重放历史对话数据策略，在更新特定知识时保护指令遵循与推理基准。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.CL",
+   "title": "MedicalRSI: Medical Recursive Self-Improving Agents via Clinical Model-Harness Co-Evolution",
+   "link": "https://arxiv.org/abs/2611.26806",
+   "dt": "2026-11-23T00:00:00-05:00",
+   "summary": "arXiv:2611.26806v1 Announce Type: new Abstract: Medical agents built on large language models (LLMs) have advanced rapidly, yet most stay fixed once deployed and do not keep using their experience to improve later attempts. As a result, the same kind of error can recur across patients. To address this, existing self-improvement methods update an agent's weights or its medical harness from its own experience, but their improving strategy stays fixed and never learns which changes actually help, w",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 2.983,
+   "score": 5.966,
+   "tokens": [
+    "agents",
+    "clinical",
+    "co",
+    "evolution",
+    "harness",
+    "improving",
+    "medical",
+    "medicalrsi",
+    "model",
+    "recursive",
+    "self"
+   ],
+   "flag": "new",
+   "summary_zh": "MedicalRSI 提出了一种医疗递归自改进智能体框架，通过临床模型与评估工具的协同进化，实现医疗诊断经验的持续积累与错误修正。",
+   "why_zh": "属于 Agent 自进化与强化学习，可学习如何构建闭环反馈系统，利用临床评估指标驱动模型性能的持续迭代。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.AI",
+   "title": "Certify What You Plant: Shortcut-Free Proof Depth in Logical Reasoning Data",
+   "link": "https://arxiv.org/abs/2611.33303",
+   "dt": "2026-11-27T00:00:00-05:00",
+   "summary": "arXiv:2611.33303v1 Announce Type: new Abstract: Procedurally generated logic problems are used to both evaluate and train reasoning in language models. Their difficulty is usually set by planting a proof, that is, by sampling a proof of the desired depth and stating its premises as the problem. However, a planted proof is only one possible proof. A problem can also have shorter proofs, or several unrelated ones, and its stated depth then overstates what solving it requires. We measure what a pro",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 2.983,
+   "score": 5.966,
+   "tokens": [
+    "certify",
+    "data",
+    "depth",
+    "free",
+    "logical",
+    "plant",
+    "proof",
+    "reasoning",
+    "shortcut"
+   ],
+   "flag": "new",
+   "summary_zh": "研究提出一种确保逻辑推理数据集中不存在“捷径”的方法，通过验证植入证明的唯一性，防止模型通过非逻辑路径获得正确答案。",
+   "why_zh": "模型评估与数据工程技能点。学习如何通过控制推理深度与逻辑路径唯一性，构建高质量的推理基准测试集，避免模型过拟合捷径。"
+  },
+  {
+   "source": "paper",
+   "source_label": "arXiv cs.CL",
+   "title": "Extraneous Cognitive Load in Large Language Models",
+   "link": "https://arxiv.org/abs/2611.33197",
+   "dt": "2026-11-27T00:00:00-05:00",
+   "summary": "arXiv:2611.33197v1 Announce Type: new Abstract: Cognitive Load Theory (CLT) shows that human problem-solving is affected by both intrinsic load, arising from task difficulty, and extraneous load, arising from how task information is presented. Large language models (LLMs) show analogous effects: presentation alone can affect model performance, but these effects have not yet been systematically isolated from task difficulty. To address this gap, we introduce CogLoadBench, a controlled benchmark t",
+   "extra": {},
+   "weight_override": 1.3,
+   "skills": [
+    "eval_observability"
+   ],
+   "learn_score": 2.983,
+   "score": 5.966,
+   "tokens": [
+    "cognitive",
+    "extraneous",
+    "language",
+    "large",
+    "load",
+    "models"
+   ],
+   "flag": "new",
+   "summary_zh": "引入认知负荷理论 (CLT) 分析 LLM，指出任务信息的呈现方式会产生无关认知负荷，从而显著影响模型的推理与执行性能。",
+   "why_zh": "Prompt Engineering 与上下文优化技能点。学习通过优化输入信息的结构化呈现方式，降低模型的无关认知负荷，提升复杂任务的执行准确率。"
+  },
+  {
+   "source": "blog",
+   "source_label": "MarkTechPost",
+   "title": "Meet Facebook’s Your Algorithm: How Meta Turns Plain-Language Preferences Into Ranking",
+   "link": "https://www.marktechpost.com/2026/11/24/meta-facebook-your-algorithm-llm-recommendations/",
+   "dt": "2026-11-24T23:06:17+00:00",
+   "summary": "Meta's engineering team explains how Facebook's Your Algorithm turns plain-language interests into ranking signals for Feed and Reels, using LLM validation, 4 retrieval sources, layered filtering and a fine-tuned LLM reranker. The post Meet Facebook’s Your Algorithm: How Meta Turns Plain-Language Preferences Into Ranking appeared first on MarkTechPost .",
+   "extra": {},
+   "skills": [
+    "rag",
+    "eval_observability",
+    "training_serving"
+   ],
+   "learn_score": 2.731,
+   "score": 2.731,
+   "tokens": [
+    "algorithm",
+    "facebook",
+    "language",
+    "meet",
+    "meta",
+    "plain",
+    "preferences",
+    "ranking",
+    "turns"
+   ],
+   "flag": "new",
+   "summary_zh": "Meta 通过 LLM 将自然语言偏好转化为 Feed 和 Reels 的排序信号，并结合多源检索、分层过滤及微调后的 LLM 重排序模型。",
+   "why_zh": "推荐系统与 LLM 结合。掌握将用户意图转化为排序特征的工程实践，以及多阶段排序流水线的构建方法。"
+  },
+  {
+   "source": "youtube",
+   "source_label": "YouTube · LangChain",
+   "title": "Deep Agents Tutorial: Learn It by Playing an Escape Room",
+   "link": "https://www.youtube.com/watch?v=PY5d-_fycso",
+   "dt": "2026-11-25T19:30:32+00:00",
+   "summary": "Jess Weng from LangChain Academy plays an escape room video game that teaches Deep Agents, LangChain's open-source agent harness, as you go. Polly, a deep agent, helps her find the password to a haunted manor where every room is a folder and every object is a file, and each clue turns on something the harness does, from grep keeping the context window clear to asking a human before opening a risky trunk. In the second half, Jess walks through each concept from the game and how it works in Deep A…",
+   "extra": {
+    "channel": "LangChain",
+    "video_id": "PY5d-_fycso"
+   },
+   "skills": [
+    "agent_architecture"
+   ],
+   "learn_score": 2.582,
+   "score": 2.582,
+   "tokens": [
+    "agents",
+    "deep",
+    "escape",
+    "learn",
+    "playing",
+    "room",
+    "tutorial"
+   ],
+   "flag": "new",
+   "summary_zh": "LangChain Deep Agents 通过逃生游戏教学，展示了如何利用智能体框架管理上下文窗口、执行文件检索及人机协同决策。",
+   "why_zh": "智能体任务编排。学习如何通过上下文管理策略（如 grep 过滤）优化长任务执行，提升 Agent 在复杂环境下的鲁棒性。"
+  },
+  {
+   "source": "paper",
+   "source_label": "HF Daily Papers",
+   "title": "OWE-Bench: A long-horizon benchmark for measuring real-world engineering",
+   "link": "https://huggingface.co/papers/2611.30017",
+   "dt": "2026-11-22T19:00:00+00:00",
+   "summary": "We present OWE-Bench (OpenWorldEngineer-Bench), a benchmark of 26 long-horizon engineering tasks written by domain experts in software engineering, physical engineering, machine learning, and scientific computing. Tasks range from optimizing kernels and designing an aircraft, to identifying the faults responsible for an earthquake. Each task requires significant domain knowledge and engineering work, with models averaging hundreds of millions of tokens per task. Solutions are scored on practical",
+   "extra": {
+    "upvotes": 1,
+    "arxiv": "https://arxiv.org/abs/2611.30017"
+   },
+   "skills": [
+    "rag",
+    "eval_observability"
+   ],
+   "learn_score": 2.485,
+   "score": 4.97,
+   "tokens": [
+    "bench",
+    "benchmark",
+    "engineering",
+    "horizon",
+    "long",
+    "measuring",
+    "owe",
+    "real",
+    "world"
+   ],
+   "flag": "new",
+   "summary_zh": "OWE-Bench 发布 26 个长程工程任务基准，涵盖软件、物理、ML 及科学计算领域，评估真实工程能力。",
+   "why_zh": "针对长程复杂任务评估，可参考其领域专家构建的任务范式，测试 Agent 在多步推理中的鲁棒性。"
+  }
+ ]
+}
